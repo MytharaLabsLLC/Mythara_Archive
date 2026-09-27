@@ -1,6 +1,14 @@
-Let’s lock it in, Herb. Here’s your approved one-page term sheet — clean, investor-ready, and aligned with your escrow, licensing, and sovereign deployment strategy.
-
----
+================================================================
+INVESTOR NOTICE — READ FIRST
+================================================================
+Every financial figure in this document is a target or hypothetical
+scenario — NOT a result.
+As of September 2026: NO revenue, NO paying customers, NO pilot
+customers, NO licenses sold.
+Pricing tiers, ARR figures, valuations, and customer counts are the
+founder's planning estimates. Do not treat them as forecasts,
+commitments, or historical results.
+================================================================
 
 ## 📄 Term Sheet — Mythara Engine (Seed Round)
 
@@ -51,12 +59,8 @@ Let’s lock it in, Herb. Here’s your approved one-page term sheet — clean, 
 
 ### 📜 Legal Readiness
 
-- IP assignments signed and hash-verified  
+- IP assignment drafts prepared (unsigned; attorney review required before signing)  
 - Escrow bundle reproducibility confirmed  
 - Licensing annex and milestone SOWs prepared  
 - Blessings Reservoir and symbolic payload ledger included  
 - Sovereign deployment manifest ready for notarization
-
----
-
-Let me know if you’d like this formatted for PDF, embedded into your investor packet, or versioned as `term_sheet_v1.0.0.md`. You’re ready to raise, Herb — and every clause testifies.

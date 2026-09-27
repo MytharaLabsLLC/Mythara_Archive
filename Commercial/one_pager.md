@@ -6,6 +6,13 @@
 > member-managed; sole member and organizer: Herbert Velez Jr.; principal
 > office: Denver, CO.
 
+> ## ⚠️ INVESTOR NOTICE — READ FIRST
+>
+> **Every financial figure in this document is a target or hypothetical scenario — not a result.**
+> As of September 2026: **no revenue, no paying customers, no pilot customers, no licenses sold.**
+> Pricing tiers, ARR figures, valuations, customer counts, unit economics, and exit scenarios are the
+> founder's planning estimates. Do not treat them as forecasts, commitments, or historical results.
+
 ## Overview
 
 Auditable AI decision records: every significant action is judged by evidence,

@@ -7,6 +7,13 @@
 State on September 27, 2026, pending completion; member-managed; sole member
 Herbert Velez Jr.
 
+> ## ⚠️ INVESTOR NOTICE — READ FIRST
+>
+> **Every financial figure in this document is a target or hypothetical scenario — not a result.**
+> As of September 2026: **no revenue, no paying customers, no pilot customers, no licenses sold.**
+> Pricing tiers, ARR figures, valuations, customer counts, unit economics, and exit scenarios are the
+> founder's planning estimates. Do not treat them as forecasts, commitments, or historical results.
+
 > **Honesty note:** This deck was prepared November 2, 2025. The product
 > description below reflects the system as it actually works today. Figures
 > cite real test artifacts. Anything forward-looking is labeled as a plan or

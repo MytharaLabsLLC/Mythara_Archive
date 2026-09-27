@@ -1,3 +1,10 @@
+> ## ⚠️ INVESTOR NOTICE — READ FIRST
+>
+> **Every financial figure in this document is a target or hypothetical scenario — not a result.**
+> As of September 2026: **no revenue, no paying customers, no pilot customers, no licenses sold.**
+> Pricing tiers, ARR figures, valuations, customer counts, unit economics, and exit scenarios are the
+> founder's planning estimates. Do not treat them as forecasts, commitments, or historical results.
+
 # Mythara Industries - Total Addressable Market Analysis
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**

@@ -1,3 +1,10 @@
+> ## ⚠️ INVESTOR NOTICE — READ FIRST
+>
+> **Every financial figure in this document is a target or hypothetical scenario — not a result.**
+> As of September 2026: **no revenue, no paying customers, no pilot customers, no licenses sold.**
+> Pricing tiers, ARR figures, valuations, customer counts, unit economics, and exit scenarios are the
+> founder's planning estimates. Do not treat them as forecasts, commitments, or historical results.
+
 # Mythara Engine - Project Valuation Report
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Proprietary and Confidential**
@@ -290,7 +297,7 @@
 ### Value Recovery Timeline
 
 **Fix Critical Issues (30-60 days, ~$13K-$20K):**
-- Form LLC: $70 + $800 CA tax
+- Confirm LLC formation: Articles of Organization filed with Colorado SOS 2026-09-27 ($50 fee), pending completion
 - Get insurance: $10K-$15K annually
 - Execute IP assignment: $500-$1K attorney
 - **Value Recovery:** +50% → $750K becomes $1.1M
