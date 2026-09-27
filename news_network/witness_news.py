@@ -305,9 +305,9 @@ def lens_nemesis(event_id: str, pack: Dict) -> NewsJudgment:
     j = _new_judgment("nemesis", event_id, pack)
     j.domain_question = ("EXTENSION of Nemesis: who do the claims SAY benefits, "
                          "versus who is actually acting and positioned to gain?")
-    j.projected_intent = ("The claims say this is for: "
+    j.projected_intent = ("The claims say this is for "
                           + (", ".join(sorted(set(named_beneficiaries))[:4])
-                             if named_beneficiaries else "(nobody is named as the beneficiary)"))
+                             if named_beneficiaries else "— though they never name who, exactly"))
     cited = ([_cite_claim(pack, i) for i in pack["stated_intents"][:2] if i in lookup]
              + [_cite_claim(pack, i) for i in pack["observed_actions"][:2] if i in lookup])
     overlap = {b.lower() for b in named_beneficiaries} & {a.lower() for a in top_actors}
@@ -340,14 +340,17 @@ def lens_hades(event_id: str, pack: Dict) -> NewsJudgment:
     """
     gaps: List[str] = []
     if len(pack["outlets"]) < 2:
-        gaps.append(f"only {len(pack['outlets'])} outlet(s) cover this event "
-                    f"({', '.join(pack['outlets'])}); no independent telling to check it against")
+        n = len(pack["outlets"])
+        gaps.append(f"only {'one outlet' if n == 1 else f'{n} outlets'} "
+                    f"({', '.join(pack['outlets'])}) "
+                    "is covering this event — no independent telling to check it against")
     unattributed = [q for q in pack["quotes"] if not q["attributed_to"]]
-    if unattributed:
-        gaps.append(f"{len(unattributed)} quoted passage(s) have no named speaker in the ingested text")
     attributed = [q for q in pack["quotes"] if q["attributed_to"]]
-    if not attributed and pack["quotes"]:
-        gaps.append("no quoted speaker is named anywhere in the ingested text")
+    if pack["quotes"] and not attributed:
+        gaps.append(f"{len(unattributed)} quoted passage(s) and not one of them "
+                    "names its speaker")
+    elif unattributed:
+        gaps.append(f"{len(unattributed)} quoted passage(s) have no named speaker")
     if not pack["quotes"]:
         gaps.append("no direct quotes from any actor appear in the ingested text")
     if not gaps:
@@ -359,7 +362,7 @@ def lens_hades(event_id: str, pack: Dict) -> NewsJudgment:
                          "unheard voices, unattributed claims, single-source coverage?")
     j.projected_intent = "The coverage reads as a complete account of the event."
     j.verdict = DIVERGENT
-    j.shadow_intent = ("It is not. " + " ".join(g.capitalize() for g in gaps) + ". "
+    j.shadow_intent = ("It is not. " + "; ".join(gaps) + ". "
                        "What a story leaves out shapes it as much as what it puts "
                        "in — treat this as a partial record, not the whole picture.")
     j.evidence_cited = ([{"ref": q["id"], "kind": "quote", "outlet": q["outlet"], "url": q["url"]}
@@ -395,7 +398,7 @@ def lens_demeter(event_id: str, pack: Dict) -> NewsJudgment:
     bits = [f"\"{c['text'][:140]}\" ({c['outlet']})" for c in signals[:3]]
     if span >= 20 * 3600:
         bits.append(f"the event spans {span // 3600} hours across the ingested articles")
-    j.shadow_intent = ("The evidence says otherwise. " + " ".join(bits) + " "
+    j.shadow_intent = ("The evidence says otherwise. " + ". ".join(bits) + ". "
                        "This does not end when the news cycle moves on — what gets "
                        "planted here keeps growing after the cameras leave.")
     j.evidence_cited = [_cite_claim(pack, c["id"]) for c in signals[:3]]

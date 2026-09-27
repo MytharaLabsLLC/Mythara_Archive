@@ -82,46 +82,52 @@ def build_dossier_markdown(event: Dict, pack: Dict,
     A("")
     A("## WITNESSED — the eight lenses")
     A("")
-    A("_Each lens extends its Soul Cradle assessor's domain to news. "
-      "Projected intent = what the actors/framing claim. Shadow intent = what "
-      "the evidence pattern suggests (cited, heuristic, never proof of motive)._")
+    A("_The eight witnesses are reporters, each on their own beat. They read "
+      "the fetched articles above and tell you what they see. **What the story "
+      "claims** is what the coverage says about itself: the words, the "
+      "framing, the official line. **What the evidence suggests** is the "
+      "witness's reading of that evidence — what looks like it is really going "
+      "on underneath. A suggestion with citations, never proof of anyone's "
+      "motive._")
     A("")
     for j in judgments:
-        A(f"### {j.name} `{j.assessor_id}` — {j.verdict.upper()}")
-        A(f"_Domain: {j.domain_question}_")
-        A(f"_Rubric: {j.rubric_version} (extends base {j.base_rubric_version})_")
+        beat = j.domain_question
+        if ":" in beat:
+            beat = beat.split(":", 1)[1].strip()
+        A(f"### {j.name} — {j.verdict.upper()}")
+        A(f"_Beat: {beat}_")
         A("")
         if j.verdict == ABSTAIN:
-            A(f"**Abstained.** {j.abstain_reason}")
+            A(f"Sat this one out: {j.abstain_reason}")
         else:
-            A(f"**Projected intent:** {j.projected_intent}")
+            A(f"**What the story claims:** {j.projected_intent}")
             A("")
-            A(f"**Shadow intent:** {j.shadow_intent}")
+            A(f"**What the evidence suggests:** {j.shadow_intent}")
             A("")
             if j.evidence_cited:
                 A("**Evidence leaned on:**")
                 for e in j.evidence_cited:
                     A(f"- `{e['ref']}` ({e['kind']}) [{e['outlet']}] <{e['url']}>")
-        A(f"_Seal: `{j.integrity_hash[:16]}…`_")
+        A(f"_Seal: `{j.integrity_hash[:16]}...`_")
         A("")
     A("---")
     A("")
     A("## Panel dissent — preserved, not averaged")
     A("")
     if panel["verdict"] == "silent":
-        A("Every lens abstained: the ingested evidence is too thin for any "
-          "witness to speak. No analysis is offered rather than a thin one.")
+        A("Every witness sat this one out: the ingested evidence is too thin "
+          "for any of them to speak. No analysis is offered rather than a thin one.")
     elif panel["dissent"]:
-        A(f"**{panel['verdict'].upper()}**: these lenses see a gap between the "
-          "projected and shadow intents:")
+        A(f"**{panel['verdict'].upper()}**: these witnesses see a gap between "
+          "what the story claims and what the evidence suggests:")
         for d in panel["dissent"]:
             A(f"- **{d['assessor_id']}**: {d['shadow_intent'][:300]}")
         if panel["aligned"]:
             A(f"Meanwhile {', '.join(panel['aligned'])} found no gap on the "
               "same evidence. Both readings stand; the disagreement is the signal.")
     else:
-        A(f"**{panel['verdict'].upper()}**: no lens found a projected/shadow gap "
-          "on this evidence.")
+        A(f"**{panel['verdict'].upper()}**: no witness found a gap between what "
+          "the story claims and what the evidence suggests.")
     if panel["abstained"]:
         A("")
         A("Abstained (domain not engaged):")
