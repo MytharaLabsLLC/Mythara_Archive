@@ -81,11 +81,26 @@ def verify_news_judgment(j: NewsJudgment) -> bool:
     return hashlib.sha256(_canonical(j.unsigned_dict())).hexdigest() == j.integrity_hash
 
 
+# The news beat for each witness: what it watches for in coverage.
+# Used for every judgment including abstentions, so the page always
+# describes the beat the witness was listening for.
+NEWS_DOMAINS = {
+    "hermes": "EXTENSION of Hermes: do the outlets' framings of the same event diverge, and what does the divergence hide?",
+    "janus": "EXTENSION of Janus: does what the actors SAY they are doing match what the ingested claims show them DOING?",
+    "nemesis": "EXTENSION of Nemesis: who do the claims SAY benefits, versus who is actually acting and positioned to gain?",
+    "hades": "EXTENSION of Hades: what is missing from the record — unheard voices, unattributed claims, single-source coverage?",
+    "demeter": "EXTENSION of Demeter: is this a momentary development, or does the evidence show consequences that outlast the news cycle?",
+    "dionysus": "EXTENSION of Dionysus: how much variance is there between the outlets' tellings of the same event?",
+    "eros": "EXTENSION of Eros: are there deception signals in the record — self-contradiction, or loaded claims with no name attached?",
+    "persephone": "EXTENSION of Persephone: the actions taken — can they be undone, or do they return every cycle as permanent fact?",
+}
+
+
 def _base(assessor_id: str) -> Dict[str, str]:
     spec = ASSESSORS[assessor_id]
     return {
         "name": spec.name,
-        "domain_question": spec.domain_question,
+        "domain_question": NEWS_DOMAINS.get(assessor_id, spec.domain_question),
         "version": spec.version,
     }
 
@@ -195,8 +210,6 @@ def lens_hermes(event_id: str, pack: Dict) -> NewsJudgment:
     union = set().union(*sets) if sets else set()
     overlap = (sum(len(s & union) for s in sets) / (len(sets) * len(union))) if union and sets else 1.0
     j = _new_judgment("hermes", event_id, pack)
-    j.domain_question = ("EXTENSION of Hermes: do the outlets' framings of the "
-                         "same event diverge, and what does the divergence hide?")
     n_outlets = len({f["outlet"] for f in framing})
     leads = "; ".join(f"{f['outlet']} opens with \"{f['headline'][:110]}\""
                       for f in framing[:4])
@@ -245,8 +258,6 @@ def lens_janus(event_id: str, pack: Dict) -> NewsJudgment:
     stated_texts = [(lookup[i]["text"] if i in lookup else quotes[i]["text"]) for i in stated_ids]
     action_texts = [lookup[i]["text"] for i in action_ids]
     j = _new_judgment("janus", event_id, pack)
-    j.domain_question = ("EXTENSION of Janus: does what the actors SAY they are "
-                         "doing match what the ingested claims show them DOING?")
     j.projected_intent = "In their own words: " + " / ".join(
         f'"{t[:160]}"' for t in stated_texts[:3])
     contradictions = []
@@ -303,8 +314,6 @@ def lens_nemesis(event_id: str, pack: Dict) -> NewsJudgment:
             action_actors.update(proper_nouns(lookup[cid]["text"]))
     top_actors = [a for a, _ in action_actors.most_common(3)]
     j = _new_judgment("nemesis", event_id, pack)
-    j.domain_question = ("EXTENSION of Nemesis: who do the claims SAY benefits, "
-                         "versus who is actually acting and positioned to gain?")
     j.projected_intent = ("The claims say this is for "
                           + (", ".join(sorted(set(named_beneficiaries))[:4])
                              if named_beneficiaries else "— though they never name who, exactly"))
@@ -358,8 +367,6 @@ def lens_hades(event_id: str, pack: Dict) -> NewsJudgment:
                         "Multiple outlets, named speakers on the record — I "
                         "cannot find a specific hole in this one. I abstain.")
     j = _new_judgment("hades", event_id, pack)
-    j.domain_question = ("EXTENSION of Hades: what is missing from the record — "
-                         "unheard voices, unattributed claims, single-source coverage?")
     j.projected_intent = "The coverage reads as a complete account of the event."
     j.verdict = DIVERGENT
     j.shadow_intent = ("It is not. " + "; ".join(gaps) + ". "
@@ -391,8 +398,6 @@ def lens_demeter(event_id: str, pack: Dict) -> NewsJudgment:
                         "and no durable markers in the claims. Nothing long-term "
                         "for me to judge. I abstain.")
     j = _new_judgment("demeter", event_id, pack)
-    j.domain_question = ("EXTENSION of Demeter: is this a momentary development, "
-                         "or does the evidence show consequences that outlast the news cycle?")
     j.projected_intent = "Today's news, gone tomorrow — that is how it is presented."
     j.verdict = DIVERGENT
     bits = [f"\"{c['text'][:140]}\" ({c['outlet']})" for c in signals[:3]]
@@ -429,8 +434,6 @@ def lens_dionysus(event_id: str, pack: Dict) -> NewsJudgment:
         if len(conflicts) >= 3:
             break
     j = _new_judgment("dionysus", event_id, pack)
-    j.domain_question = ("EXTENSION of Dionysus: how much variance is there "
-                         "between the outlets' tellings of the same event?")
     j.projected_intent = (f"{len(pack['outlets'])} outlets are on this story, "
                           "and the coverage reads like the facts are settled.")
     if conflicts:
@@ -484,8 +487,6 @@ def lens_eros(event_id: str, pack: Dict) -> NewsJudgment:
                         "themselves, no loaded anonymous quotes. Trust is not "
                         "graded on vibes — I abstain.")
     j = _new_judgment("eros", event_id, pack)
-    j.domain_question = ("EXTENSION of Eros: are there deception signals in the "
-                         "record — self-contradiction, or loaded claims with no name attached?")
     j.projected_intent = "The coverage asks to be taken at face value."
     j.verdict = DIVERGENT
     parts = []
@@ -531,8 +532,6 @@ def lens_persephone(event_id: str, pack: Dict) -> NewsJudgment:
                         "interim", "pilot", "trial")
     presented_reversible = any(_mentions(c["text"], reversible_words) for c in pack["claims"])
     j = _new_judgment("persephone", event_id, pack)
-    j.domain_question = ("EXTENSION of Persephone: the actions taken — can they "
-                         "be undone, or do they return every cycle as permanent fact?")
     j.projected_intent = ("Presented as just another development"
                           + (" — though some coverage calls it temporary or under review."
                              if presented_reversible else "."))
