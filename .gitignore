@@ -60,3 +60,6 @@ soul_cradle/*.jsonl
 
 # Bot runtime state (regenerated at runtime; never committed)
 Commercial/bot_blessings.json
+
+# Mythara News Network run data (regenerable via python3 -m news_network.run)
+news_network/state/
