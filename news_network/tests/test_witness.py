@@ -79,7 +79,7 @@ def test_judgments_are_sealed():
     pack = build_evidence_pack(RICH_EVENT)
     for j in hear_all(RICH_EVENT["id"], pack):
         assert verify_news_judgment(j), f"{j.assessor_id} seal broken"
-        assert j.rubric_version == "news-2026.1"
+        assert j.rubric_version == "news-2026.2"
         assert j.base_rubric_version  # extends a real base rubric version
 
 
