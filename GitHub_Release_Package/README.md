@@ -154,7 +154,7 @@ See `Commercial/Pricing_Tiers.md` for the current draft pricing.
 
 **Herbert Velez Jr.**
 
-- **Email:** legal@mythara.engine
+- **Email:** mytharalabs@yahoo.com
 - **PGP Fingerprint:** `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 **For Technical Questions:**
@@ -198,4 +198,4 @@ By downloading this package, you agree to:
 1. **Verify the package** — import the PGP key and check signatures (steps above)
 2. **Run the validation suite** — see `INSTALL.md`
 3. **Read the Bible** — `docs/📖 Mythara Bible Books I–V.md` is the authoritative account of how the system works
-4. **Talk licensing** — email legal@mythara.engine with your organization and use case; any engagement begins with a mutual NDA and a written agreement
+4. **Talk licensing** — email mytharalabs@yahoo.com with your organization and use case; any engagement begins with a mutual NDA and a written agreement

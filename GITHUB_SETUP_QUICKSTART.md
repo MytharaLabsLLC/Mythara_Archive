@@ -136,7 +136,7 @@ See `INSTALL.md` for deployment instructions:
 This software is proprietary. Contact for licensing:
 
 **Herbert Velez Jr.** *(Mythara Labs LLC — formation filing attempted with the Colorado SOS on 2026-09-27 — not confirmed; entity not yet formed)*  
-Email: legal@mythara.engine  
+Email: mytharalabs@yahoo.com  
 PGP: 571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C
 
 **Available licenses (planned pricing tiers — not currently offered; no payment path exists):**
@@ -148,14 +148,14 @@ See `Commercial/Pricing_Tiers.md` for pricing details.
 
 ## Support
 
-- Email: legal@mythara.engine (best effort — no SLAs currently offered)
+- Email: mytharalabs@yahoo.com (best effort — no SLAs currently offered)
 
 ## Next Steps
 
 1. Review `README.md` for feature overview
 2. Run verification (gpg --verify, sha256sum -c — see above; note verify.ps1/verify.sh are not in this archive)
 3. Check `INSTALL.md` for deployment options
-4. Contact legal@mythara.engine to schedule pilot scoping call
+4. Contact mytharalabs@yahoo.com to schedule pilot scoping call
 ```
 
 5. **Attach ZIP file:**
@@ -228,7 +228,7 @@ Extract the ZIP and run verification (note: `verify.ps1` / `verify.sh` are **not
 Then review README.md for deployment options.
 
 Questions? Reply to this email or contact:
-legal@mythara.engine
+mytharalabs@yahoo.com
 
 Best regards,
 Herbert Velez Jr.

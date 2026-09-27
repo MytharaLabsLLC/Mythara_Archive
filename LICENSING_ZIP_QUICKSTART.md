@@ -68,7 +68,7 @@ SHA256: 94b45d271f56b9cd06c9c1323aa09949cf81a9d9f1d951e20a7ee42180453da2
 After extraction:
 1. Run verification (gpg --verify and sha256sum -c as shown below; note verify.ps1/verify.sh are not in this archive)
 2. Review README.md for deployment options
-3. Contact legal@mythara.engine with questions
+3. Contact mytharalabs@yahoo.com with questions
 ```
 
 3. **Company verifies integrity**
@@ -187,7 +187,7 @@ Company deploys using `INSTALL.md` instructions
 
 **Herbert Velez Jr.** *(Mythara Labs LLC — formation filing attempted with the Colorado SOS on 2026-09-27 — not confirmed; entity not yet formed)*
 
-- **Email:** legal@mythara.engine
+- **Email:** mytharalabs@yahoo.com
 - **PGP:** `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 - **Response Time:** best effort — no SLAs currently offered
 

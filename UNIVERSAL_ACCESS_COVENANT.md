@@ -268,7 +268,7 @@ Legal/Compliance/
 - DPO: [To be assigned by licensee]
 
 **Legal/Regulatory:**
-- Email: legal@mythara.ai
+- Email: mytharalabs@yahoo.com
 - Counsel: [External or in-house as appropriate]
 
 ---

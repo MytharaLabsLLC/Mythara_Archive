@@ -311,7 +311,7 @@ pip install --force-reinstall -r requirements.txt
 ## Support
 
 **Questions:**  
-Email: legal@mythara.engine  
+Email: mytharalabs@yahoo.com  
 Include: what you ran, your environment, and relevant logs
 
 Support terms, where any exist, are defined in a signed licensing agreement — there is no standing SLA on an evaluation package.

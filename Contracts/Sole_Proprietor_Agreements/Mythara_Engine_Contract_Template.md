@@ -198,7 +198,7 @@ Support does NOT include:
 
 **6.3 Support Channels**
 
-Primary contact: legal@mythara.engine  
+Primary contact: mytharalabs@yahoo.com  
 PGP-encrypted communications encouraged for sensitive issues.
 
 ---
@@ -380,7 +380,7 @@ Notices must be in writing to:
 
 **Licensor:**  
 Herbert Velez Jr., Sole Proprietor  
-Email: legal@mythara.engine  
+Email: mytharalabs@yahoo.com  
 PGP: 571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C
 
 **Licensee:**  
