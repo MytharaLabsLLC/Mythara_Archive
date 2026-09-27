@@ -187,7 +187,7 @@ All documents in this package are **Proprietary and Confidential**. Do not distr
 
 **Herbert Velez Jr.**  
 Founder, Mythara Engine  
-Email: contact@mythara.ai  
+Email: mytharalabs@yahoo.com  
 GitHub: github.com/herbievelezjr/Mythara_Archive  
 Calendar: [Schedule discovery call](https://calendly.com/mythara/discovery)
 

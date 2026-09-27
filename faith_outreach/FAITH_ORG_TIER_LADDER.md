@@ -277,7 +277,7 @@ For organizations with extraordinary mission impact or financial constraint, we 
 - Grant-funded deployments (we accept philanthropic foundation grants)
 - In-kind contributions (e.g., co-publish research, provide anonymized data for case studies)
 
-Contact us to discuss: contact@mythara.ai
+Contact us to discuss: mytharalabs@yahoo.com
 
 ### "Do you offer discounts for religious orders or denominations?"
 Yes. Multi-chapter deployments (e.g., entire diocese, denomination, or religious order) receive:
@@ -294,7 +294,7 @@ Yes. Multi-chapter deployments (e.g., entire diocese, denomination, or religious
 ## How to Get Started
 
 ### Step 1: Schedule Discovery Call
-Email contact@mythara.ai or use our calendar link: [calendly.com/mythara/discovery]
+Email mytharalabs@yahoo.com or use our calendar link: [calendly.com/mythara/discovery]
 
 **What we'll discuss:**
 - Your organization's mission and paradoxes
@@ -329,7 +329,7 @@ Once contract signed:
 
 **Herbert Velez Jr.**  
 Founder, Mythara Engine  
-Email: contact@mythara.ai  
+Email: mytharalabs@yahoo.com  
 GitHub: github.com/herbievelezjr/Mythara_Archive  
 Calendar: [Schedule a call](https://calendly.com/mythara/discovery)
 

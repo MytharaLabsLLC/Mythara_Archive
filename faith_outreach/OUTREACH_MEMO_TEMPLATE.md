@@ -37,7 +37,7 @@ If this would help [Organization Name], I'd welcome a conversation.
 
 Herbert Velez Jr.
 Founder, Mythara
-contact@mythara.ai
+mytharalabs@yahoo.com
 github.com/herbievelezjr/Mythara_Archive
 ```
 
@@ -72,7 +72,7 @@ I'd welcome a brief call.
 
 Herbert Velez Jr.
 Founder, Mythara
-contact@mythara.ai
+mytharalabs@yahoo.com
 ```
 
 ---
@@ -101,7 +101,7 @@ If that sounds useful for [Organization Name], I'd welcome a conversation.
 
 Herbert Velez Jr.
 Founder, Mythara
-contact@mythara.ai
+mytharalabs@yahoo.com
 ```
 
 ---

@@ -401,7 +401,7 @@ When you run `schedule_medical_team_bots.ps1`:
 ## 📞 Support & Contact
 
 For questions or support:
-- **Email:** herb@mythara.ai
+- **Email:** mytharalabs@yahoo.com
 - **Repository:** Mythara_Archive
 - **Documentation:** See files listed above
 

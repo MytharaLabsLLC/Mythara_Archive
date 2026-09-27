@@ -195,7 +195,7 @@ class MytharaPricingVideo(Scene):
         """Final call to action"""
         # CTA text
         cta_title = Text("Ready to get started?", font_size=48, color=WHITE)
-        cta_subtitle = Text("Visit mythara.ai/pricing", font_size=32, color=PURPLE)
+        cta_subtitle = Text("Email mytharalabs@yahoo.com", font_size=32, color=PURPLE)
         cta_subtitle.next_to(cta_title, DOWN, buff=0.5)
 
         # Fox mascot returns

@@ -188,7 +188,7 @@ St. Jude's mission: "Finding cures. Saving children."
 For deployment questions or custom resonance design:  
 **Herbert Velez Jr.**  
 Founder, Mythara Engine  
-Email: contact@mythara.ai  
+Email: mytharalabs@yahoo.com  
 GitHub: github.com/herbievelezjr/Mythara_Archive
 
 ---

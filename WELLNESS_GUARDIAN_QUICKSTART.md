@@ -296,7 +296,7 @@ pip install -r requirements.txt
 ## 📞 Support
 
 For issues or questions:
-- Email: herb@mythara.ai
+- Email: mytharalabs@yahoo.com
 - Related files: see the table above (a standalone full-documentation file is not present in the repo)
 - Repository: Mythara_Archive
 

@@ -289,7 +289,7 @@ We are open to **flexible arrangements** for organizations with extraordinary mi
 
 ### Founder's Discretion
 - Herbert Velez Jr. reserves the right to waive fees entirely for missions of extraordinary benevolence
-- Contact us if you believe your work qualifies: contact@mythara.ai
+- Contact us if you believe your work qualifies: mytharalabs@yahoo.com
 
 ---
 
@@ -341,7 +341,7 @@ To discuss compensation options tailored to your mission:
 
 **Herbert Velez Jr.**  
 Founder, Mythara Engine  
-Email: contact@mythara.ai  
+Email: mytharalabs@yahoo.com  
 Calendar: [Schedule 30-minute call]
 
 ---

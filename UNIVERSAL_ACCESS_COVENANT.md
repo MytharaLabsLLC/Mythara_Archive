@@ -259,12 +259,12 @@ Legal/Compliance/
 ## 🔐 Compliance Contacts
 
 **Accessibility Issues:**
-- Email: accessibility@mythara.ai
+- Email: mytharalabs@yahoo.com
 - Response: 48 hours
 - Resolution: 30 days (critical), 90 days (non-critical)
 
 **Privacy/Data Protection:**
-- Email: privacy@mythara.ai
+- Email: mytharalabs@yahoo.com
 - DPO: [To be assigned by licensee]
 
 **Legal/Regulatory:**

@@ -412,6 +412,6 @@ This validation study will provide **empirical evidence** for the decay-adjusted
 **Protocol Version**: 1.0  
 **Date**: November 21, 2025  
 **Principal Investigator**: Herbert Velez Jr.  
-**Contact**: herbievelezjr@mythara.ai
+**Contact**: mytharalabs@yahoo.com
 
 ⚛️ **Q.U.A.S.A.R. validated. Prior art established.**

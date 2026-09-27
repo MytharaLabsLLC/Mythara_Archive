@@ -23,7 +23,7 @@ Set your API key and optional license settings via environment variables.
 docker run --rm -p 8000:8000 \
   -e MYTHARA_LICENSE_MODE=trial \
   -e MYTHARA_LICENSE_TRIAL_DAYS=30 \
-  -e MYTHARA_PURCHASE_URL=https://mythara.ai/enterprise \
+  -e MYTHARA_PURCHASE_URL=https://mythara.example/enterprise \
   -e MYTHARA_INFLATION_RATE_ANNUAL=0.03 \
   -e MYTHARA_PRICE_BASE_YEAR=2025 \
   -e MYTHARA_PRICE_MULTIPLIER=1.0 \

@@ -284,7 +284,7 @@ Cumulative Benevolent Force:
 ### Slide 22: Example API Call
 **Request**:
 ```json
-POST https://api.mythara.ai/v1/soul/cradle
+POST https://api.mythara.example/v1/soul/cradle
 Authorization: Bearer YOUR_API_KEY
 Content-Type: application/json
 

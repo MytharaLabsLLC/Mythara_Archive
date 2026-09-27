@@ -440,7 +440,7 @@ This software is part of the Mythara Engine and is subject to the Mythara Govern
 ## 📧 Contact
 
 For questions about the DrMythara Medical Team Suite:
-- Email: herb@mythara.ai
+- Email: mytharalabs@yahoo.com
 - Documentation: Internal repository docs
 - Support: Via Mythara Governance channels
 

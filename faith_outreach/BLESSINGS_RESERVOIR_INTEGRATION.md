@@ -69,7 +69,7 @@ Connect Mythara API to your existing systems (EMR, CRM, HR).
 
 **Example API Call:**
 ```bash
-POST https://api.mythara.ai/v1/soul/cradle
+POST https://api.mythara.example/v1/soul/cradle
 Authorization: Bearer YOUR_API_KEY
 Content-Type: application/json
 
@@ -179,7 +179,7 @@ Mythara will provide a web-based dashboard showing:
 
 **Access:**
 ```
-https://dashboard.mythara.ai/org/[YOUR_ORG_ID]
+https://dashboard.mythara.example/org/[YOUR_ORG_ID]
 Login: API key or SSO integration
 ```
 
@@ -272,7 +272,7 @@ POST /v1/reports/generate
 **Response:**
 ```json
 {
-  "report_url": "https://reports.mythara.ai/st-jude-q3-2025.pdf",
+  "report_url": "https://reports.mythara.example/st-jude-q3-2025.pdf",
   "summary": {
     "total_br": 38400,
     "total_events": 2340,
@@ -340,7 +340,7 @@ Every BR transaction generates:
 **Solution**: Verify API key has `dashboard:read` scope; check browser console for CORS errors
 
 ### Contact Support
-- **Email**: support@mythara.ai
+- **Email**: mytharalabs@yahoo.com
 - **Slack**: [Client workspace invite sent post-onboarding]
 - **Phone**: +1 (XXX) XXX-XXXX [for Mythic-Resonant tier clients]
 
@@ -359,7 +359,7 @@ def on_treatment_complete(patient_id, protocol_name, staff_id):
     
     # Call Mythara API
     response = requests.post(
-        "https://api.mythara.ai/v1/soul/cradle",
+        "https://api.mythara.example/v1/soul/cradle",
         headers={"Authorization": f"Bearer {MYTHARA_API_KEY}"},
         json={
             "soul_state": 0.72,  # Could derive from staff burnout surveys
@@ -390,7 +390,7 @@ def on_donation_received(donor_id, amount, campaign):
     paradox = 0.9 if amount > annual_income(donor_id) * 0.05 else 0.4
     
     response = requests.post(
-        "https://api.mythara.ai/v1/soul/cradle",
+        "https://api.mythara.example/v1/soul/cradle",
         headers={"Authorization": f"Bearer {MYTHARA_API_KEY}"},
         json={
             "soul_state": 0.88,
