@@ -1,5 +1,7 @@
 # Mythara Engine - Unified Compliance Framework Documentation
 
+> **Status: design specification.** This document designs a planned compliance-validation module. The API endpoints, payloads, and example results shown are illustrative — the API is not deployed (`api.mythara.com` is not a live service). Nothing here is certified, audited, or validated.
+
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**
 
@@ -7,9 +9,9 @@
 
 ## 🎯 Executive Summary
 
-The Mythara Engine now includes comprehensive **multi-industry regulatory compliance** across **50+ frameworks** covering financial services, healthcare, telecommunications, federal regulations, privacy, industry standards, labor law, and civil rights.
+This document **designs** a unified compliance-validation module for the Mythara Engine, covering **50+ frameworks** across financial services, healthcare, telecommunications, federal regulations, privacy, industry standards, labor law, and civil rights.
 
-This unified compliance layer enables organizations to:
+If built, this compliance layer would let organizations:
 - Validate operations against multiple regulatory frameworks simultaneously
 - Automate compliance monitoring and reporting
 - Detect and prevent regulatory violations in real-time
@@ -18,7 +20,7 @@ This unified compliance layer enables organizations to:
 
 ---
 
-## 📋 Supported Compliance Frameworks (50+)
+## 📋 Compliance Frameworks in Scope (50+ — design reference list, not validated coverage)
 
 ### Financial Services (7 Frameworks)
 1. **PCI DSS v4.0** - Payment Card Industry Data Security Standard
@@ -86,6 +88,8 @@ This unified compliance layer enables organizations to:
 ---
 
 ## 🚀 API Endpoints
+
+*(Illustrative design — these endpoints are not deployed.)*
 
 ### 1. Validate Compliance
 
@@ -372,7 +376,7 @@ Key metrics to track:
 
 ### Step 1: Enable Compliance Module
 
-The Unified Compliance Framework is automatically enabled in Mythara Engine v1.0.0+.
+The Unified Compliance Framework is a design proposal for Mythara Engine v1.0.0+ (not implemented).
 
 ```python
 # Verify compliance module is loaded
@@ -456,21 +460,21 @@ This compliance framework provides **technical validation tools** to assist with
 5. **Documentation**: Maintain complete documentation of compliance efforts
 6. **Remediation**: Address identified violations promptly
 
-**Mythara Labs LLC (planned — not yet formed) does not provide legal advice.** Use of this compliance framework does not guarantee regulatory compliance. Organizations must implement comprehensive compliance programs that include administrative, physical, and technical safeguards.
+**Mythara Labs LLC (formation filed with the Colorado SOS on 2026-09-27, pending completion) does not provide legal advice.** Use of this compliance framework does not guarantee regulatory compliance. Organizations must implement comprehensive compliance programs that include administrative, physical, and technical safeguards.
 
 ---
 
 ## 📞 Support & Resources
 
 ### Documentation
-- API Reference: https://api.mythara.com/api/docs
+- API Reference: https://api.mythara.com/api/docs (planned, not live)
 - Compliance Guide: This document
 - SSIP Framework: `Mythara_Archive/README.md`
 
 ### Contact
 - **Email**: Mythara.Engine@yahoo.com
 - **Enterprise Support**: Herbert Velez Jr.
-- **Pricing**: $60,000/year (firm, no discounts)
+- **Proposed pricing** (aspirational, not currently offered): $60,000/year
 
 ### External Resources
 - **PCI Security Standards Council**: https://www.pcisecuritystandards.org

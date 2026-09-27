@@ -2,6 +2,8 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
+> **Document status (2026-09-27):** Product-catalog draft from 2025. The code modules referenced exist in this repository; the businesses described around them do not. No product below has paying customers, pilots, or launches. "Target Market" entries are aspirational segments, not reached markets. Compliance mentions (HIPAA, GDPR, FERPA, SOC 2, ISO 27001) are design goals — no certifications are held. No patents filed. Mythara Labs LLC: Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion — not yet a formed entity; "Mythara Industries" is not a legal entity. Capabilities as they actually are today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation.
+
 ---
 
 ## 🌟 Overview
@@ -190,23 +192,23 @@ engine.clauses.register_clause(
 
 ### 6️⃣ **A.M.I.R. Cybersecurity Suite** - Enterprise Security Orchestration
 
-**Target Market**: Enterprise security teams, Fortune 500 companies, government agencies  
+**Target Market** (aspirational segments, not reached): Enterprise security teams, large enterprises, government agencies  
 **Problem Solved**: Cybersecurity teams overwhelmed by alerts, manual pen testing is slow and expensive  
 **Mythara Integration**: Soul Cradle detects threat severity, Blessings Reservoir tracks security posture
 
-**Key Features**:
-- ✅ Autonomous penetration testing (A.D.A.P.T. Bot)
-- ✅ Automated vulnerability remediation (Q.U.I.C.K.F.I.X. Bot)
-- ✅ Military-grade survival protocols (S.E.R.E. Bot)
-- ✅ AI-powered threat orchestration (A.M.I.R. command center)
+**Key Features** (2025 concepts — not built as described):
+- A.D.A.P.T. Bot — autonomous penetration testing concept (unbuilt)
+- Q.U.I.C.K.F.I.X. Bot — automated remediation concept (unbuilt)
+- S.E.R.E. Bot concept — a training simulation only (scripted adversary exercises in a sealed sandbox; never a weapon, never hack-back, never military-ready)
+- A.M.I.R. — what actually exists is the HUD/monitor: records and surfaces system state; takes no response actions
 
 **File**: `amir_bot.py` + `adapt_bot.py` + `quickfix_bot.py` + `sere_bot.py`  
 **Database**: `~/.mythara_engine/AMIR/amir_cybersecurity.db`  
 **Pricing**: $25K-100K annually (enterprise licensing)
 
-**Example Use Case**:
+**Example Use Case** (illustrative fiction — this workflow does not exist):
 > *Zero-day vulnerability detected in production API*  
-> → A.D.A.P.T. Bot escalates to RAGE mode (severity 0.95) → Q.U.I.C.K.F.I.X. Bot auto-deploys patch → S.E.R.E. Bot activates EVADE protocols → A.M.I.R. logs full audit trail
+> → (Concept only: autonomous response was never implemented. The real system records the event to the tamper-evident log and surfaces it; it never acts on its own.)
 
 **Custom Clauses**:
 ```python
@@ -573,9 +575,9 @@ Each product gets its own SQLite database:
 - ⏳ Crisis hotline integration (988 API if available)
 
 ### **Phase 5: A.M.I.R. Cybersecurity Suite**
-- ⏳ Enterprise pilot program outreach
+- ⏳ Enterprise pilot program outreach (never executed)
 - ⏳ SIEM/SOC integration (Splunk, QRadar)
-- ⏳ Compliance frameworks (SOC 2, ISO 27001)
+- ⏳ Compliance frameworks (SOC 2, ISO 27001) — roadmap only; no certifications held
 
 ### **Phase 6: Email Bot**
 - ⏳ IMAP/SMTP integration (Gmail, Outlook)
@@ -601,7 +603,7 @@ All products inherit Mythara Engine's security:
 2. **Sales Trainer**: Build MVP, recruit sales teams for pilot
 3. **VOIP Bot**: Partner with call center software vendors
 4. **Wellness Guardian**: HIPAA audit, therapist onboarding
-5. **A.M.I.R. Cybersecurity Suite**: Enterprise pilot outreach; pursue SOC 2 certification readiness
+5. **A.M.I.R. Cybersecurity Suite**: Enterprise pilot outreach (never executed); pursue SOC 2 certification readiness (never pursued)
 6. **Email Bot**: Gmail/Outlook plugin development
 
 ---

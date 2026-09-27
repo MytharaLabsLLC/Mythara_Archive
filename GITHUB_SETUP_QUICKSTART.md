@@ -1,6 +1,8 @@
 # GitHub Private Repository Setup — Quick Start
 
-**Package:** mythara-engine-v1.0.0.zip  
+> **Note (Sept 2026):** historical template from November 2025, edited to remove unverifiable claims. Pricing, SLAs, and certifications below describe a *planned* offering — none are currently held or guaranteed.
+
+**Package:** mythara-engine-v1.0.0.zip *(not present in this archive — hash file only)*  
 **Size:** 0.7 MB (736,030 bytes)  
 **SHA256:** 94B45D271F56B9CD06C9C1323AA09949CF81A9D9F1D951E20A7EE42180453DA2  
 **Date:** November 2, 2025
@@ -100,11 +102,11 @@ Expected: `94b45d271f56b9cd06c9c1323aa09949cf81a9d9f1d951e20a7ee42180453da2`
 
 ## What's Included
 
-- ✅ Production-ready inference orchestration engine
+- ✅ Mythara Engine source archive packaged for distribution
 - ✅ PGP-signed manifests and checksums
-- ✅ Complete validation suite (99.92% determinism)
-- ✅ Docker container with reproducible builds
-- ✅ Comprehensive licensing templates
+- ✅ Validation suite (deterministic clause-selection fingerprints — see the validation report in this archive)
+- ✅ Docker container build instructions
+- ✅ Licensing templates (planned offering — not currently executed)
 - ✅ API documentation and deployment guides
 
 ## Verification
@@ -133,27 +135,25 @@ See `INSTALL.md` for deployment instructions:
 
 This software is proprietary. Contact for licensing:
 
-**Herbert Velez Jr., Mythara Labs LLC (planned)**  
+**Herbert Velez Jr.** *(Mythara Labs LLC — formation filed with the Colorado SOS on 2026-09-27, pending completion)*  
 Email: legal@mythara.engine  
 PGP: 571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C
 
-**Available licenses:**
+**Available licenses (planned pricing tiers — not currently offered; no payment path exists):**
 - Development ($2,500/year) — Internal testing
 - Enterprise ($25,000/year) — Production deployment
 - Sovereign ($150,000/year) — Air-gapped, government, defense + source code escrow
 
-See `Commercial/` directory for pricing details and one-pager.
+See `Commercial/Pricing_Tiers.md` for pricing details.
 
 ## Support
 
-- Development License: 5 business day SLA
-- Enterprise License: 48-hour SLA
-- Sovereign License: 24-hour SLA + on-call support
+- Email: legal@mythara.engine (best effort — no SLAs currently offered)
 
 ## Next Steps
 
 1. Review `README.md` for feature overview
-2. Run verification scripts (`verify.ps1` or `verify.sh`)
+2. Run verification (gpg --verify, sha256sum -c — see above; note verify.ps1/verify.sh are not in this archive)
 3. Check `INSTALL.md` for deployment options
 4. Contact legal@mythara.engine to schedule pilot scoping call
 ```
@@ -223,9 +223,7 @@ After download, verify with:
 
 Installation:
 
-Extract the ZIP and run:
-  Windows: .\verify.ps1
-  Linux/macOS: bash verify.sh
+Extract the ZIP and run verification (note: `verify.ps1` / `verify.sh` are **not present in this archive** — use `gpg --verify` and `sha256sum -c` as shown above).
 
 Then review README.md for deployment options.
 
@@ -234,7 +232,7 @@ legal@mythara.engine
 
 Best regards,
 Herbert Velez Jr.
-Mythara Labs LLC (planned)
+*(Mythara Labs LLC — formation filed with the Colorado SOS on 2026-09-27, pending completion)*
 ```
 
 ---

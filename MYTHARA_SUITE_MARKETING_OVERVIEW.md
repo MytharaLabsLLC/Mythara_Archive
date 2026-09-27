@@ -2,6 +2,8 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
+> **Document status (2026-09-27):** Historical concept document from 2025. None of the products below have paying customers, launched betas, or signed pilots — market sizes, pricing, revenue projections, and go-to-market goals are 2025 working scenarios, not results. Mythara holds no SOC 2, ISO, HIPAA, FERPA, COPPA, GDPR, or FedRAMP certifications; no patents have been filed. Mythara Labs LLC: Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion — not yet a formed entity; "Mythara Industries" is not a legal entity. Capabilities are described as they actually exist today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, a hash-chained emotional chain, defanged Aries (signed action envelopes, benign handlers only), and SERE as a training simulation — never a weapon, never hack-back, never military-ready.
+
 ---
 
 ## 🌟 One Engine, Multiple Markets
@@ -101,7 +103,8 @@
 ---
 
 ### 4️⃣ **Wellness Guardian** - Mental Health Support AI
-**Tagline**: *"24/7 wellness support that never judges"
+**Tagline**: *"24/7 wellness support that never judges"*  
+**Note**: this is a design concept, not a launched product — it is not therapy and makes no medical claims
 
 **Target Customer**: Individuals seeking mental health support, therapy clinics  
 **Pain Point**: Therapy waitlists are 4-12 weeks, people need immediate distress detection  
@@ -141,7 +144,7 @@
 1. Client faces tort liability (data breach + negligence claim)
 2. Torts Analyzer Bot identifies 3 causes of action: negligence, privacy violation, breach of duty
 3. Contract Reviewer Bot checks vendor agreements for indemnification clauses
-4. Compliance Monitor Bot flags 5 regulatory violations (GDPR, CCPA, HIPAA, SOC 2, ISO 27001)
+4. Compliance Monitor Bot flags regulatory considerations (illustrative example — the system holds no SOC 2, ISO 27001, HIPAA, GDPR, or CCPA certifications)
 5. Litigation Strategist Bot generates defense strategy with case law precedents
 
 **Revenue Model**:
@@ -149,7 +152,7 @@
 - Enterprise: Custom white-label for BigLaw ($1M+ for Am Law 100)
 - Per-seat licensing: $5K/attorney/year (for boutique firms)
 
-**Market Size**: 1.3M attorneys in US, avg legal spend $18B/year for Fortune 500  
+**Market Size**: 1.3M attorneys in US, avg legal spend ~$18B/year among large enterprises (illustrative)  
 **Addressable Market**: 50K law firms + 10K corporate legal depts × $100K/year = $6B annual opportunity
 
 ---
@@ -157,20 +160,20 @@
 ### 6️⃣ **A.M.I.R. Cybersecurity Suite** - Enterprise Security Orchestration
 **Tagline**: *"One Ring to rule them all - The future of autonomous security"*
 
-**Target Customer**: Enterprise security teams (Fortune 500, government agencies, critical infrastructure)  
+**Target Customer**: Enterprise security teams (large enterprises, government agencies, critical infrastructure)  
 **Pain Point**: Manual pen testing costs $50K-200K per engagement, threat response takes hours/days, skilled security talent shortage  
-**Solution**: AI-powered autonomous security orchestration for $25K-100K/year
+**Solution (aspirational concept — not built)**: An AI-powered security orchestration approach for $25K-100K/year
 
-**Customer Journey**:
+**Illustrative Customer Journey** (conceptual — this workflow does not exist today):
 1. Zero-day vulnerability detected in production API
-2. A.D.A.P.T. Bot escalates to RAGE mode: **CRITICAL (0.95)** - active exploitation detected
-3. Q.U.I.C.K.F.I.X. Bot auto-deploys emergency patch (15-minute response time)
-4. S.E.R.E. Bot activates EVADE protocols (isolate affected systems)
+2. A.M.I.R. monitoring HUD records the event to the tamper-evident log
+3. Response: none automated — the system records and surfaces, it never strikes back
+4. S.E.R.E. exists only as a training simulation (sandboxed adversary exercises, see `sere_course.py`); it never isolates real systems or touches the real world
 5. A.M.I.R. command center logs full audit trail with integrity verification
 
-**Revenue Model**:
+**Revenue Model** (illustrative pricing scenario):
 - Subscription: $25K-100K/year (based on infrastructure size)
-- Enterprise: Custom SOC integration ($500K+ for Fortune 100)
+- Enterprise: Custom SOC integration ($500K+ for large enterprises)
 - Government: FedRAMP-aligned deployments (not yet FedRAMP certified; classified pricing)
 
 **Market Size**: 750K cybersecurity professionals in US, avg company spends $18M/year on security  
@@ -178,7 +181,7 @@
 
 ---
 
-### 6️⃣ **Email Bot** - Automated Email Management
+### 7️⃣ **Email Bot** - Automated Email Management
 **Tagline**: *"Inbox zero powered by AI that actually understands urgency"*
 
 **Target Customer**: Professionals with 100+ emails/day, executives  
@@ -202,7 +205,7 @@
 
 ---
 
-## 💰 Total Addressable Market (TAM)
+## 💰 Total Addressable Market (TAM) — 2025 working figures, not measured results
 
 | Product | Target Users | Avg Price/Month | Annual Opportunity |
 |---------|--------------|-----------------|-------------------|
@@ -223,34 +226,34 @@
 
 ---
 
-## 🎯 Go-To-Market Strategy
+## 🎯 Go-To-Market Strategy — planned 2025, never executed (no betas, pilots, or launches resulted)
 
 ### **Phase 1: Launch Gopher (Q1 2025)**
-- **Beta program**: 100 workers in CA/NY/TX (employment law hotspots)
-- **Attorney partnerships**: 20 law firms signed (referral fee: $100/lead)
+- **Planned beta (never ran)**: 100 workers in CA/NY/TX (employment law hotspots)
+- **Planned attorney outreach (never executed)**: 20 law firms targeted (referral fee: $100/lead)
 - **Marketing**: Reddit (r/legaladvice), TikTok (workplace rights content)
 - **Goal**: 1,000 paid users by end of Q1 ($49K MRR)
 
 ### **Phase 2: Launch Sales Trainer (Q2 2025)**
-- **Pilot program**: 10 SMB sales teams (5-20 reps each)
+- **Planned pilot (never ran)**: 10 SMB sales teams (5-20 reps each)
 - **CRM integration**: Salesforce, HubSpot connectors
 - **Marketing**: LinkedIn ads (sales managers), demo videos
 - **Goal**: 500 users by end of Q2 ($49.5K MRR)
 
 ### **Phase 3: Launch VOIP Bot (Q3 2025)**
-- **Pilot program**: 5 call centers (100-500 agents each)
+- **Planned pilot (never ran)**: 5 call centers (100-500 agents each)
 - **VoIP partnerships**: Twilio, RingCentral integrations
 - **Marketing**: Trade shows (Call Center World), white papers
 - **Goal**: 50 call centers by end of Q3 ($9.95K MRR)
 
 ### **Phase 4: Launch Wellness Guardian (Q4 2025)**
-- **Beta program**: 500 users (crisis support focus)
-- **Therapist network**: 50 licensed therapists signed
+- **Planned beta (never ran)**: 500 users (crisis support focus)
+- **Planned therapist network (never built)**: 50 licensed therapists targeted
 - **Marketing**: Instagram (mental health advocacy), 988 partnerships
 - **Goal**: 2,000 users by end of Q4 ($58K MRR)
 
 ### **Phase 5: Launch Email Bot (Q1 2026)**
-- **Beta program**: 1,000 professionals (Gmail/Outlook plugins)
+- **Planned beta (never ran)**: 1,000 professionals (Gmail/Outlook plugins)
 - **Phishing detection**: Training on labeled dataset (10K phishing examples)
 - **Marketing**: ProductHunt launch, HackerNews
 - **Goal**: 5,000 users by end of Q1 ($95K MRR)
@@ -278,7 +281,7 @@
 
 ---
 
-## 📊 Revenue Projections
+## 📊 Revenue Projections — illustrative 2025 scenarios, none achieved
 
 ### **Conservative Scenario (5-Year)**
 | Year | Gopher | Sales Trainer | VOIP Bot | Wellness Guardian | Email Bot | Total ARR |
@@ -298,7 +301,7 @@
 
 ---
 
-## 🚀 Investment Opportunity
+## 🚀 Investment Opportunity — aspirational outline, never raised
 
 ### **Seed Round ($2M)**
 - **Use of funds**:
@@ -314,9 +317,9 @@
   - Q4 2025: Wellness Guardian launch (2,000 users)
   - End 2025: $2M ARR
 
-- **Equity**: 15% stake ($13.3M post-money valuation)
+- **Equity (aspirational term)**: 15% stake ($13.3M post-money valuation — a 2025 working figure, not an appraised value)
 
-- **Exit strategy**:
+- **Exit strategy (aspirational)**:
   - Acquisition by HR tech company (Gopher)
   - Acquisition by sales software company (Sales Trainer)
   - Acquisition by VoIP platform (VOIP Bot)
@@ -330,11 +333,11 @@
 1. **Technical**: Finalize Gopher beta (attorney network)
 2. **Legal**: HIPAA audit for Wellness Guardian + UPL review for Legal Team Suite
 3. **Marketing**: Launch Gopher waitlist (target: 10,000 signups)
-4. **Partnerships**: BigLaw pilot for Legal Team Suite (target: 3 Am Law 100 firms)
+4. **Partnerships**: BigLaw pilot outreach for Legal Team Suite (aspirational target: 3 Am Law 100 firms — never executed)
 4. **Fundraising**: Pitch deck for seed round ($2M)
 
 ---
 
-**All products powered by Mythara Engine SDK - same AI core, different customer needs, $5.3B total addressable market.**
+**All products powered by Mythara Engine SDK — same AI core, different customer needs. (2025 working TAM figures above; internally inconsistent as drafted; none validated by market activity.)**
 
 For investor inquiries: herbert@mythara.com (placeholder)

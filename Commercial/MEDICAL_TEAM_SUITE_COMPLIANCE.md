@@ -1,21 +1,27 @@
-# Medical Team Suite - Multi-Regulatory Compliance Documentation
+# Medical Team Suite - Multi-Regulatory Compliance Support Documentation
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**
+
+> **What this document is:** a mapping of the Medical Team Suite's *technical controls* to requirements in three regulatory frameworks (HIPAA, PCI DSS v4.0, FCC/TCPA). ✅ below means "technical control implemented as designed and self-assessed" — **not** "certified compliant." Mythara is not HIPAA certified, not PCI DSS validated, and not FCC licensed. Whether a deployment is compliant is decided by the deploying organization's auditors, assessors, and legal counsel — never by this document.
 
 ---
 
 ## 🏥 Overview
 
-The Mythara Medical Team Suite implements comprehensive compliance with three major regulatory frameworks:
+The Mythara Medical Team Suite provides **technical safeguards designed to support** three major regulatory frameworks:
 
-1. **HIPAA** (Health Insurance Portability and Accountability Act)
-2. **PCI DSS v4.0** (Payment Card Industry Data Security Standard)
-3. **FCC Regulations** (Federal Communications Commission)
+1. **HIPAA** (Health Insurance Portability and Accountability Act) — controls mapped to support compliance; certification not claimed
+2. **PCI DSS v4.0** (Payment Card Industry Data Security Standard) — controls mapped; validation (SAQ/ROC) belongs to the deploying organization's assessor
+3. **FCC Regulations** (Federal Communications Commission) — controls mapped to support TCPA/CAN-SPAM/CPNI processes; legal review required
+
+These controls are implementation starting points. They do not replace the administrative safeguards, policies, workforce training, risk analyses, penetration tests, or legal review that compliance actually requires. See the legal disclaimer at the end.
 
 ---
 
-## 🔐 HIPAA Compliance
+## 🔐 HIPAA Compliance Support
+
+> Controls mapped to the HIPAA Security, Privacy, and Breach Notification rules. These are technical controls only — administrative and physical safeguards, BAAs, training, and the risk analysis are the deployer's responsibility. Mythara is not HIPAA certified.
 
 ### Security Rule Implementation (45 CFR § 164.312)
 
@@ -88,7 +94,9 @@ The Mythara Medical Team Suite implements comprehensive compliance with three ma
 
 ---
 
-## 💳 PCI DSS v4.0 Compliance
+## 💳 PCI DSS v4.0 Compliance Support
+
+> Controls mapped to PCI DSS v4.0 requirements. PCI compliance is validated by the merchant's Self-Assessment Questionnaire (SAQ) or a Qualified Security Assessor (QSA), plus quarterly ASV scans and annual penetration tests — none of which this document substitutes. Mythara is not PCI DSS validated.
 
 ### Build and Maintain a Secure Network and Systems
 
@@ -256,7 +264,9 @@ The Medical Team Suite supports organizations at all PCI DSS compliance levels:
 
 ---
 
-## 📡 FCC Regulations Compliance
+## 📡 FCC Regulations Compliance Support
+
+> Controls mapped to support TCPA, CAN-SPAM, and CPNI processes. Legal review by counsel is required before automated communications go live. Mythara is not FCC licensed.
 
 ### Telephone Consumer Protection Act (TCPA) - 47 U.S.C. § 227
 
@@ -403,7 +413,7 @@ This ensures:
 
 ## 📋 Compliance Checklist
 
-### Before Production Deployment
+### Before Production Deployment (technical prerequisites — legal/administrative review is separate and required)
 
 #### HIPAA Requirements
 - [ ] Conduct Risk Analysis (§ 164.308(a)(1)(ii)(A))
@@ -549,15 +559,16 @@ This ensures:
 
 ## ⚖️ Legal Disclaimer
 
-This compliance framework provides **technical safeguards** to support HIPAA, PCI DSS, and FCC regulatory compliance. Organizations deploying the Medical Team Suite must also implement:
+This compliance framework provides **technical safeguards** designed to support HIPAA, PCI DSS, and FCC regulatory programs. It does not certify anyone as compliant. Organizations deploying the Medical Team Suite must also implement:
 
 - **Administrative safeguards** (policies, procedures, training)
 - **Physical safeguards** (facility access, device controls)
 - **Organizational requirements** (Business Associate Agreements)
 - **Regular assessments** (risk analyses, penetration tests, vulnerability scans)
 - **Legal review** (consultation with healthcare attorneys, compliance consultants)
+- **Independent validation** (QSA/ASV for PCI; auditors for HIPAA; counsel for TCPA/CPNI)
 
-**Compliance is an ongoing process, not a one-time event.** Mythara Labs LLC (planned — not yet formed) provides tools to assist with compliance but does not guarantee regulatory compliance. Organizations are responsible for their own compliance programs and should consult legal counsel and compliance professionals.
+**Compliance is an ongoing process, not a one-time event.** Mythara is not HIPAA certified, not PCI DSS validated, and not FCC licensed. Mythara Labs LLC — formation filed with the Colorado Secretary of State on 2026-09-27, pending completion — provides tools to assist with compliance but does not guarantee regulatory compliance. Organizations are responsible for their own compliance programs and should consult legal counsel and compliance professionals before relying on any control described here.
 
 ---
 

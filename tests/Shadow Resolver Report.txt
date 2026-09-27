@@ -22,7 +22,7 @@ Notes:
 - No security-sensitive payloads were revealed in substitution samples.
 ### Shadow Resolver Report
 
-Prepared by Mythara Labs LLC (planned)  
+Prepared by Mythara Labs LLC (formation filed with the Colorado SOS on 2026-09-27, pending completion)  
 Manifest Ref ME-archive-0001  
 Date 2025-10-30
 

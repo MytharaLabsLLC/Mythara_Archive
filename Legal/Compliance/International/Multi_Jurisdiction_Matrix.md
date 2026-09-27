@@ -2,348 +2,194 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved. Proprietary and Confidential.**
 
-**Product:** Mythara Engine v1.0.0  
-**Version:** 1.0  
-**Last Updated:** November 2, 2025  
-**Scope:** Global accessibility, privacy, and AI/ML regulatory compliance
+**Product:** Mythara Engine (pre-release, unaudited)
+**Version:** 1.0
+**Last Updated:** November 2, 2025
+**Scope:** Mapping of global accessibility, privacy, and AI/ML regulations the project should plan for
+
+---
+
+## Standing Disclaimer
+
+> **No entry in this matrix is a certification, assessment, or audit.**
+> Every row names a law or framework the project has *mapped* — i.e., read
+> about and noted as relevant. No third-party audit (SOC 2, ISO 27001,
+> HIPAA, GDPR, FedRAMP, CMMC, or any other) has been completed, sought, or
+> passed. No regulator has reviewed Mythara. No legal counsel has validated
+> any row. Where an earlier draft of this document used ✅ marks, they
+> claimed achievements that do not exist and have been removed.
+
+**Legend:**
+- 🗺️ = Mapped — the law is understood to be relevant; nothing has been done about it
+- ⚠️ = Conditional or evolving — applicability depends on use case, market, or pending regulation
+- ❌ = Not assessed
 
 ---
 
 ## Quick Reference Matrix
 
-| **Jurisdiction** | **Accessibility** | **Privacy** | **AI/ML** | **Healthcare** | **Education** | **Overall Status** |
-|------------------|-------------------|-------------|-----------|----------------|---------------|-------------------|
-| **United States** | 🔍 ADA, 508, CVAA | 🔍 HIPAA, COPPA | ⚠️ Voluntary | 🔍 FDA (if applicable) | 🔍 FERPA, IDEA | 🔍 MAPPED — not certified |
-| **European Union** | 🔍 EAA, WAD, EN 301 549 | 🔍 GDPR | 🔍 AI Act | 🔍 MDR (if applicable) | 🔍 GDPR-ED | 🔍 MAPPED — not certified |
-| **United Kingdom** | 🔍 Equality Act | 🔍 UK GDPR, DPA | ⚠️ Voluntary | 🔍 MHRA (if applicable) | 🔍 DPA 2018 | 🔍 MAPPED — not certified |
-| **Canada** | 🔍 ACA, AODA | 🔍 PIPEDA | ⚠️ AIDA (pending) | 🔍 Health Canada | 🔍 PIPEDA | 🔍 MAPPED — not certified |
-| **Australia** | 🔍 DDA | 🔍 Privacy Act | ⚠️ Voluntary | 🔍 TGA (if applicable) | 🔍 Privacy Act | 🔍 MAPPED — not certified |
-| **Japan** | 🔍 JIS X 8341-3 | 🔍 APPI | ⚠️ Voluntary | 🔍 PMDA (if applicable) | 🔍 APPI | 🔍 MAPPED — not certified |
-| **China** | 🔍 GB/T standards | 🔍 PIPL | 🔍 Algorithm Reg | ⚠️ NMPA (if applicable) | 🔍 PIPL | ⚠️ PARTIAL* |
-| **India** | 🔍 RPWD Act | ⚠️ DPDP Act (new) | ⚠️ Voluntary | ⚠️ CDSCO (if applicable) | ⚠️ DPDP Act | ⚠️ EVOLVING |
-| **Singapore** | 🔍 ENGA guidelines | 🔍 PDPA | ⚠️ Model AI Gov | ⚠️ HSA (if applicable) | 🔍 PDPA | 🔍 MAPPED — not certified |
-| **South Korea** | 🔍 KCAG | 🔍 PIPA | ⚠️ Voluntary | ⚠️ MFDS (if applicable) | 🔍 PIPA | 🔍 MAPPED — not certified |
+| **Jurisdiction** | **Accessibility** | **Privacy** | **AI/ML** | **Healthcare** | **Education** | **Overall** |
+|------------------|-------------------|-------------|-----------|----------------|---------------|-------------|
+| **United States** | 🗺️ ADA, 508, CVAA | 🗺️ HIPAA, COPPA | 🗺️ Voluntary frameworks | ⚠️ FDA (if medical claims) | 🗺️ FERPA, IDEA | 🗺️ MAPPED — not assessed |
+| **European Union** | 🗺️ EAA, WAD, EN 301 549 | 🗺️ GDPR | 🗺️ AI Act | ⚠️ MDR (if medical claims) | 🗺️ GDPR-ED | 🗺️ MAPPED — not assessed |
+| **United Kingdom** | 🗺️ Equality Act | 🗺️ UK GDPR, DPA | 🗺️ Voluntary | ⚠️ MHRA (if medical claims) | 🗺️ DPA 2018 | 🗺️ MAPPED — not assessed |
+| **Canada** | 🗺️ ACA, AODA | 🗺️ PIPEDA | ⚠️ AIDA (pending) | ⚠️ Health Canada (if medical claims) | 🗺️ PIPEDA | 🗺️ MAPPED — not assessed |
+| **Australia** | 🗺️ DDA | 🗺️ Privacy Act | 🗺️ Voluntary | ⚠️ TGA (if medical claims) | 🗺️ Privacy Act | 🗺️ MAPPED — not assessed |
+| **Japan** | 🗺️ JIS X 8341-3 | 🗺️ APPI | 🗺️ Voluntary | ⚠️ PMDA (if medical claims) | 🗺️ APPI | 🗺️ MAPPED — not assessed |
+| **China** | 🗺️ GB/T standards | 🗺️ PIPL | 🗺️ Algorithm regulations | ⚠️ NMPA (if medical claims) | 🗺️ PIPL | ⚠️ PARTIAL* |
+| **India** | 🗺️ RPWD Act | ⚠️ DPDP Act (rules pending) | 🗺️ Voluntary | ⚠️ CDSCO (if medical claims) | ⚠️ DPDP Act | ⚠️ EVOLVING |
+| **Singapore** | 🗺️ ENGA guidelines | 🗺️ PDPA | 🗺️ Model AI Gov (voluntary) | ⚠️ HSA (if medical claims) | 🗺️ PDPA | 🗺️ MAPPED — not assessed |
+| **South Korea** | 🗺️ KCAG | 🗺️ PIPA | 🗺️ Voluntary | ⚠️ MFDS (if medical claims) | 🗺️ PIPA | 🗺️ MAPPED — not assessed |
 
-**Legend:**
-- ✅ = Alignment mapped / controls documented (not independently audited)
-- 🔍 = Readiness mapped — controls implemented, independent audit planned — not currently certified
-- ⚠️ = Partial readiness, evolving regulation, or conditional mapping
-- ❌ = Not assessed or not mapped
-
-> **No entry in this matrix is an independent certification.** All ✅ and 🔍 marks mean Mythara's controls were mapped against the named framework by the project itself. No third-party audit (SOC 2, ISO 27001, HIPAA, GDPR, FedRAMP, CMMC, ITAR) has been completed.
-- * = Requires local partner/data localization
+- \* = China market would require a local entity, data localization, and government approvals. No plans exist.
 
 ---
 
-## Detailed Jurisdiction Analysis
+## Detailed Jurisdiction Notes
 
 ### 🇺🇸 United States
 
-#### Accessibility Laws
-| **Law/Standard** | **Requirement** | **Compliance Level** | **Documentation** |
-|------------------|----------------|---------------------|-------------------|
-| ADA Title III | Public accommodations web access | ✅ WCAG 2.1 AA+ | `US/ADA_Compliance_Statement.md` |
-| Section 508 (Revised 2017) | Federal procurement accessibility | ✅ WCAG 2.0 AA | `US/VPAT_Section_508.md` |
-| CVAA | Advanced communications | ✅ Accessible UI | `US/CVAA_Compliance_Report.md` |
-| State laws (CA Unruh, NY) | State-specific accessibility | ✅ WCAG 2.1 AA | `US/State_Compliance_Matrix.md` |
-
-#### Privacy & Data Protection
-| **Law** | **Requirement** | **Compliance** | **Documentation** |
-|---------|----------------|----------------|-------------------|
-| HIPAA | Healthcare data protection | ✅ If applicable | `US/HIPAA_Security_Assessment.md` |
-| COPPA | Children's privacy (<13) | ✅ If serving minors | `US/COPPA_Privacy_Notice.md` |
-| CCPA/CPRA (CA) | Consumer privacy rights | ✅ Data rights | `US/CCPA_Privacy_Policy.md` |
-| SHIELD Act (NY) | Cybersecurity | ✅ Security controls | `US/SHIELD_Act_Compliance.md` |
-
-#### AI/ML Regulation
-| **Framework** | **Status** | **Compliance** |
-|---------------|-----------|----------------|
-| NIST AI Risk Management | Voluntary | ✅ Risk assessment documented |
-| FDA AI/ML Guidance (if medical) | Mandatory for SaMD | ✅ Design controls per 21 CFR 820 |
-| FTC AI Guidelines | Voluntary best practices | ✅ Fairness, transparency documented |
-
-#### Healthcare (If Applicable)
-- FDA 21 CFR 820: Quality system regulation ✅
-- FDA Cybersecurity Guidance: Premarket submission ✅
-- HIPAA Business Associate Agreement: Template ready ✅
-
----
+| **Law/Standard** | **Relevance** | **Status** |
+|------------------|---------------|------------|
+| ADA Title III | Web access as public accommodation | 🗺️ Mapped — no assessment |
+| Section 508 (Revised 2017) | Federal procurement accessibility | 🗺️ Mapped — no VPAT evaluation performed |
+| CVAA | Advanced communications accessibility | 🗺️ Mapped — no assessment |
+| HIPAA | Only if handling protected health information | ⚠️ Conditional — no handling today |
+| COPPA | Only if serving users under 13 | ⚠️ Conditional |
+| CCPA/CPRA (CA) | Consumer privacy rights | 🗺️ Mapped — no assessment |
+| SHIELD Act (NY) | Cybersecurity safeguards | 🗺️ Mapped — no assessment |
+| FERPA / IDEA | Only in education contexts | ⚠️ Conditional |
+| NIST AI Risk Management | Voluntary | 🗺️ Mapped |
+| FDA 21 CFR 820 / SaMD guidance | Only if marketed as a medical device | ⚠️ Not a medical device today; no filings, no 510(k), no design controls in place |
 
 ### 🇪🇺 European Union
 
-#### Accessibility Laws
-| **Directive/Standard** | **Deadline** | **Compliance** | **Documentation** |
-|------------------------|-------------|----------------|-------------------|
-| European Accessibility Act (2019/882) | June 28, 2025 | ✅ Ready | `EU/EAA_Compliance_Declaration.md` |
-| Web Accessibility Directive (2016/2102) | Sept 23, 2020 (past) | ✅ WCAG 2.1 AA | `EU/WAD_Accessibility_Statement.md` |
-| EN 301 549 v3.2.1 | Current standard | 🔍 Aligned — not certified | `EU/EN_301_549_Conformance.md` |
-
-#### Privacy & Data Protection
-| **Regulation** | **Key Requirements** | **Compliance** | **Documentation** |
-|----------------|---------------------|----------------|-------------------|
-| GDPR | Lawful basis, data rights, DPIA | 🔍 Alignment mapped | `EU/GDPR_Compliance_Framework.md` |
-| ePrivacy Directive | Cookies, electronic comms | ✅ Cookie consent | `EU/ePrivacy_Compliance.md` |
-| Data Protection Directive | Cross-border transfers | ✅ SCCs/adequacy | `EU/Data_Transfer_Mechanisms.md` |
-
-#### AI Regulation
-| **Regulation** | **Risk Category** | **Obligations** | **Compliance** |
-|----------------|------------------|----------------|----------------|
-| EU AI Act (2024) | Limited Risk | Transparency obligations | ✅ Documented |
-| | | Human oversight | ✅ Sanctification locks |
-| | | Technical documentation | ✅ Complete |
-| | | Conformity assessment | ✅ Self-assessment ready |
-
-**Risk Classification:** Limited Risk (general-purpose AI with transparency obligations)  
-**High-Risk Exclusions:** Not used for biometric ID, critical infrastructure control, law enforcement, or educational scoring without human oversight
-
-#### Medical Devices (If Applicable)
-- MDR (Regulation 2017/745): CE marking requirements ✅
-- Clinical evaluation: Required for medical claims ✅
-- Post-market surveillance: Plan documented ✅
-
----
+| **Directive/Standard** | **Relevance** | **Status** |
+|------------------------|---------------|------------|
+| European Accessibility Act (2019/882) | Product/service accessibility | 🗺️ Mapped — no assessment |
+| Web Accessibility Directive (2016/2102) | Public-sector web accessibility | 🗺️ Mapped — no assessment |
+| EN 301 549 | ICT accessibility standard | 🗺️ Mapped — no conformance report |
+| GDPR | Lawful basis, data-subject rights, DPIA | 🗺️ Mapped — no DPIA conducted, no assessment |
+| ePrivacy Directive | Cookies, electronic communications | 🗺️ Mapped — no implementation |
+| EU AI Act | Risk classification, transparency | 🗺️ Mapped — no formal classification; note that emotion recognition for vulnerable groups can be high-risk, which is why the design attests to self-reported records and never infers emotions |
+| MDR (2017/745) | Only if medical claims made | ⚠️ No medical claims today; no CE marking, no technical file, no clinical evaluation |
 
 ### 🇬🇧 United Kingdom
 
-#### Accessibility
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| Equality Act 2010 | Reasonable adjustments | ✅ WCAG 2.1 AA |
-| Public Sector Bodies Regulations 2018 | WCAG 2.1 AA | 🔍 Aligned — not certified |
-
-#### Privacy
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| UK GDPR + Data Protection Act 2018 | UK version of GDPR | ⏳ Registration planned (not currently registered) |
-| Investigatory Powers Act 2016 | Data access provisions | ✅ Lawful access procedures |
-
-#### Healthcare (If Applicable)
-- MHRA Medical Device Regulations: UKCA marking ✅
-- Clinical safety: DCB 0129/0160 standards ✅
-
----
+| **Law** | **Relevance** | **Status** |
+|---------|---------------|------------|
+| Equality Act 2010 | Reasonable adjustments | 🗺️ Mapped — no assessment |
+| UK GDPR + Data Protection Act 2018 | Data protection | 🗺️ Mapped — no ICO registration, no assessment |
+| MHRA regulations | Only if a medical device | ⚠️ Not applicable today; no UKCA marking |
 
 ### 🇨🇦 Canada
 
-#### Accessibility
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| Accessible Canada Act (Bill C-81) | WCAG 2.1 AA | ✅ Accessibility plan |
-| AODA (Ontario) | WCAG 2.0 AA | 🔍 Aligned — not certified |
-
-#### Privacy
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| PIPEDA | Consent, breach notification | ✅ Privacy assessment |
-| Provincial laws (Quebec, BC, AB) | Provincial privacy requirements | 🔍 Multi-province aligned — not certified |
-
-#### AI Regulation
-- AIDA (Artificial Intelligence and Data Act): Pending - monitoring ⚠️
-
----
+| **Law** | **Relevance** | **Status** |
+|---------|---------------|------------|
+| Accessible Canada Act | Accessibility planning | 🗺️ Mapped — no plan filed |
+| AODA (Ontario) | Provincial accessibility | 🗺️ Mapped — no assessment |
+| PIPEDA | Consent, breach notification | 🗺️ Mapped — no privacy assessment |
+| AIDA (pending) | AI regulation | ⚠️ Monitoring; not enacted |
 
 ### 🇦🇺 Australia
 
-#### Accessibility
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| Disability Discrimination Act 1992 | Web accessibility | ✅ WCAG 2.1 AA |
-| Australian Human Rights Commission guidelines | Best practices | ✅ Followed |
-
-#### Privacy
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| Privacy Act 1988 (amended 2022) | 13 Australian Privacy Principles | 🔍 Aligned — not certified |
-| Notifiable Data Breaches scheme | Breach notification | ✅ Procedures documented |
-
----
+| **Law** | **Relevance** | **Status** |
+|---------|---------------|------------|
+| Disability Discrimination Act 1992 | Web accessibility | 🗺️ Mapped — no assessment |
+| Privacy Act 1988 | Privacy principles, breach notification | 🗺️ Mapped — no assessment |
 
 ### 🇯🇵 Japan
 
-#### Accessibility
-| **Standard** | **Requirement** | **Compliance** |
-|--------------|----------------|----------------|
-| JIS X 8341-3:2016 | Based on WCAG 2.0 | ✅ Level AA |
-| Act for Eliminating Discrimination | Reasonable accommodation | 🔍 Aligned — not certified |
-
-#### Privacy
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| APPI (Act on Protection of Personal Information) | Data protection | 🔍 Aligned — not certified |
-| 2022 Amendments | Cross-border transfer restrictions | ✅ Transfer mechanisms |
-
----
+| **Law/Standard** | **Relevance** | **Status** |
+|------------------|---------------|------------|
+| JIS X 8341-3 | Web accessibility | 🗺️ Mapped — no assessment |
+| APPI | Data protection, cross-border transfers | 🗺️ Mapped — no assessment |
 
 ### 🇨🇳 China
 
-#### Accessibility
-| **Standard** | **Requirement** | **Compliance** |
-|--------------|----------------|----------------|
-| GB/T standards (Chinese national) | Accessibility guidelines | ✅ Documented |
-
-#### Privacy
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| PIPL (Personal Information Protection Law) | Consent, data localization | ⚠️ Requires local deployment |
-| Cybersecurity Law | Critical info infrastructure | ⚠️ Local partner required |
-| Data Security Law | Data classification | ⚠️ Assessment needed |
-
-#### AI Regulation
-| **Regulation** | **Requirement** | **Compliance** |
-|----------------|----------------|----------------|
-| Algorithm Recommendation Regulations (2022) | Registration, disclosure | ⚠️ Conditional (if operating in China) |
-| Deep Synthesis Regulations (2023) | Content labeling | ⚠️ Conditional |
-
-**Note:** China market requires local entity, data localization, and government approvals. Partnership model recommended.
-
----
+| **Law** | **Relevance** | **Status** |
+|---------|---------------|------------|
+| PIPL | Consent, data localization | ⚠️ Would require local deployment — no plans |
+| Cybersecurity Law / Data Security Law | Data classification, critical infrastructure | ⚠️ No assessment |
+| Algorithm Recommendation / Deep Synthesis regulations | Registration, content labeling | ⚠️ Conditional on operating in China |
 
 ### 🇮🇳 India
 
-#### Accessibility
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| Rights of Persons with Disabilities Act 2016 | Web accessibility | ✅ WCAG 2.0 AA |
-| GIGW (Guidelines for Indian Government Websites) | Government site standards | ✅ If gov sector |
-
-#### Privacy
-| **Law** | **Status** | **Compliance** |
-|---------|-----------|----------------|
-| Digital Personal Data Protection Act 2023 | Newly enacted | ⚠️ Rules pending (monitoring) |
-| IT Act 2000 (Section 43A) | Reasonable security | ✅ Security measures |
-
-**Note:** DPDP Act 2023 rules expected Q1 2026. Framework designed for compliance.
-
----
+| **Law** | **Relevance** | **Status** |
+|---------|---------------|------------|
+| RPWD Act 2016 | Web accessibility | 🗺️ Mapped — no assessment |
+| DPDP Act 2023 | Data protection | ⚠️ Rules still pending; monitoring |
 
 ### 🇸🇬 Singapore
 
-#### Accessibility
-| **Guideline** | **Requirement** | **Compliance** |
-|---------------|----------------|----------------|
-| ENGA (Enabling Masterplan) | Web accessibility | ✅ WCAG 2.0 AA |
-
-#### Privacy
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| PDPA (Personal Data Protection Act) | Consent, DPO | 🔍 Aligned — not certified |
-| 2020 Amendments | Data portability, breach notification | 🔍 Aligned — not certified |
-
-#### AI Governance
-| **Framework** | **Status** | **Compliance** |
-|---------------|-----------|----------------|
-| Model AI Governance Framework | Voluntary | ✅ Best practices adopted |
-
----
+| **Law/Guideline** | **Relevance** | **Status** |
+|-------------------|---------------|------------|
+| PDPA | Consent, breach notification | 🗺️ Mapped — no assessment |
+| Model AI Governance Framework | Voluntary best practices | 🗺️ Mapped |
 
 ### 🇰🇷 South Korea
 
-#### Accessibility
-| **Standard** | **Requirement** | **Compliance** |
-|--------------|----------------|----------------|
-| KCAG (Korean web Content Accessibility Guidelines) | Based on WCAG | 🔍 Aligned — not certified |
-| Act on Promotion of Information and Communications Network Utilization | Accessibility certification | ✅ Ready for certification |
-
-#### Privacy
-| **Law** | **Requirement** | **Compliance** |
-|---------|----------------|----------------|
-| PIPA (Personal Information Protection Act) | Strict consent requirements | 🔍 Aligned — not certified |
-| Network Act | Online service provider obligations | 🔍 Aligned — not certified |
+| **Law/Standard** | **Relevance** | **Status** |
+|------------------|---------------|------------|
+| KCAG | Web accessibility | 🗺️ Mapped — no assessment |
+| PIPA | Consent, data protection | 🗺️ Mapped — no assessment |
 
 ---
 
-## Industry-Specific Compliance
+## Industry-Specific Notes
 
-### 🏥 Healthcare/Medical Devices
+### 🏥 Healthcare / Medical Devices
 
-| **Jurisdiction** | **Regulator** | **Classification** | **Compliance** |
-|------------------|--------------|-------------------|----------------|
-| United States | FDA | Class II (if SaMD) | ✅ 510(k) ready |
-| European Union | Notified Body | Class IIa (if medical) | ✅ MDR technical file |
-| United Kingdom | MHRA | Class IIa | ✅ UKCA ready |
-| Canada | Health Canada | Class II/III | ✅ MDEL application ready |
-| Australia | TGA | Class IIa/IIb | ✅ Documentation ready |
-| Japan | PMDA | Class II | ⚠️ Local agent required |
+Mythara is not a medical device and makes no medical claims. If a future deployment ever made diagnostic or treatment claims, the following would apply and would require regulatory counsel and approvals *before* launch: FDA 510(k) or De Novo (US), CE marking under MDR (EU), UKCA (UK), MDEL (Canada), TGA registration (Australia), PMDA (Japan). **None of this exists today**: no filings, no technical files, no clinical evaluations, no "510(k)-ready" anything. The earlier draft's ✅ marks in this section were removed as fabricated.
 
-**Medical Device Determination:**
-- If marketed for diagnosis, treatment, or prevention: YES - medical device
-- If general wellness or administrative only: NO - not a medical device
-- Consult regulatory counsel for final determination
+### 🎓 Education
+
+FERPA, COPPA, IDEA (US); GDPR child-consent provisions (EU); age-appropriate design (UK). 🗺️ Mapped — no assessment; parental consent flows would need to be built and reviewed by counsel before serving minors.
+
+### 🏛️ Government / Public Sector
+
+Section 508 (US), EN 301 549 (EU). 🗺️ Mapped — no VPAT evaluation performed, no FISMA authorization, no FedRAMP certification. The earlier draft's claims of FISMA controls and FedRAMP positioning were removed.
 
 ---
 
-### 🎓 Education/EdTech
+## Compliance Maintenance Schedule *(proposed, not active)*
 
-| **Jurisdiction** | **Requirements** | **Compliance** |
-|------------------|-----------------|----------------|
-| United States | FERPA (student privacy) | 🔍 Aligned — not certified |
-| | COPPA (under 13) | ✅ Parental consent |
-| | IDEA (special education) | ✅ Accessibility |
-| European Union | GDPR Article 8 (child consent) | ✅ Age verification |
-| | Data processing in education | ✅ Lawful basis documented |
-| United Kingdom | DPA 2018 (children) | ✅ Age-appropriate design |
-
----
-
-### 🏛️ Government/Public Sector
-
-| **Jurisdiction** | **Requirements** | **Compliance** |
-|------------------|-----------------|----------------|
-| United States | Section 508 | ✅ VPAT available |
-| | FISMA (security) | ✅ NIST 800-53 controls |
-| | FedRAMP (cloud) | ⚠️ Not yet certified |
-| European Union | Public procurement directives | ✅ EN 301 549 |
-| | GDPR public authority provisions | ✅ DPIA conducted |
+| **Activity** | **Frequency** | **Status** |
+|-------------|--------------|------------|
+| Accessibility evaluation | Annual once a product ships | Not started — no product shipped |
+| VPAT | Per major release | Blank template on file; nothing evaluated |
+| Privacy review | Annual or when laws change | Not started |
+| Penetration testing | Annual | Not performed |
+| Regulatory monitoring | Continuous | By project owner |
 
 ---
 
-## Compliance Maintenance Schedule
+## Honest Risk Assessment
 
-| **Activity** | **Frequency** | **Next Due** | **Responsible Party** |
-|-------------|--------------|-------------|----------------------|
-| WCAG audit | Annual | Nov 2026 | Accessibility Team |
-| VPAT update | Annual or major release | Nov 2026 | Accessibility Team |
-| GDPR DPIA review | Annual | Nov 2026 | Privacy Officer |
-| Penetration testing | Annual | Nov 2026 | Security Team |
-| Privacy policy updates | Quarterly or as laws change | Feb 2026 | Legal Counsel |
-| Regulatory monitoring | Continuous | Ongoing | Compliance Officer |
-| User accessibility testing | Bi-annual | May 2026 | UX Research |
-| Third-party security audit | Annual | Nov 2026 | External Auditor |
+| **Jurisdiction** | **Risk Level** | **Primary Concern** | **Honest Mitigation** |
+|------------------|---------------|---------------------|----------------------|
+| United States | 🟡 MEDIUM | ADA litigation risk *if* a public product ships without accessibility work | Do the accessibility work before shipping; get counsel |
+| European Union | 🟡 MEDIUM | GDPR fines *if* personal data is mishandled | Design privacy in from the start; conduct a DPIA before launch |
+| China | 🔴 HIGH | Data localization, algorithm registration | Do not operate in China without a local partner and counsel |
+| India | 🟡 MEDIUM | Evolving DPDP rules | Monitor; design adaptably |
+| Global | 🟡 MEDIUM | AI regulation evolving everywhere | Transparency, human oversight, honest documentation — and no emotion-inference claims |
 
----
-
-## Risk Assessment
-
-| **Jurisdiction** | **Risk Level** | **Primary Concerns** | **Mitigation** |
-|------------------|---------------|---------------------|---------------|
-| United States | 🟢 LOW | Accessibility litigation (ADA) | WCAG AAA conformance, VPAT |
-| European Union | 🟢 LOW | GDPR fines (up to €20M) | Full compliance framework |
-| China | 🟡 MEDIUM | Data localization, algorithm registration | Local partnership model |
-| India | 🟡 MEDIUM | Evolving DPDP rules | Monitoring, adaptable architecture |
-| Global | 🟢 LOW | AI regulation evolution | Transparency, human oversight, documentation |
-
-**Risk Legend:**
-- 🟢 LOW: Fully compliant, low risk of regulatory action
-- 🟡 MEDIUM: Partial compliance or evolving regulations, monitoring required
-- 🔴 HIGH: Non-compliant or high regulatory risk
+The earlier draft rated most jurisdictions 🟢 LOW on the basis of compliance that did not exist. That was dishonest and has been corrected.
 
 ---
 
-## Licensee Obligations
+## Obligations of Anyone Building on Mythara
 
-**Mythara Labs provides:**
-- Accessibility-ready platform (WCAG 2.1 AAA target)
-- Privacy-by-design architecture
-- Compliance documentation templates
-- Technical updates for regulatory changes
+**The project provides:** this mapping, design intent documents, and an honest record of what has *not* been done.
 
-**Licensees must:**
-- Conduct jurisdiction-specific legal review
-- Obtain local legal counsel
-- Register with local data protection authorities (if required)
-- Implement jurisdiction-specific privacy policies
-- Obtain medical device approvals (if making medical claims)
-- Maintain compliance with local employment/accessibility laws
+**Anyone deploying or licensing Mythara must:**
+- Conduct jurisdiction-specific legal review with licensed counsel
+- Implement compliance measures in their own deployment
+- Register with data protection authorities where required
+- Obtain medical-device approvals *before* making any medical claim
+- Never represent this matrix as evidence of compliance
+
+**The project does NOT provide:** legal advice, compliance guarantees, liability coverage, or any certification.
 
 ---
 
@@ -351,13 +197,9 @@
 
 | **Version** | **Date** | **Changes** | **Author** |
 |------------|---------|-------------|-----------|
-| 1.0 | Nov 2, 2025 | Initial multi-jurisdiction matrix | Mythara Compliance Team |
-
-**Next Review:** February 1, 2026
+| 1.0 | Nov 2, 2025 | Initial multi-jurisdiction matrix | Herbert Velez Jr. |
+| 1.1 | Sep 27, 2026 | Voice-standard pass: removed fabricated conformance claims; re-mapped all entries as unassessed | Cal (voice-standard pass) |
 
 ---
 
-**Mythara Labs LLC (planned)**  
-**Compliance Contact:** compliance@mythara.ai  
-**Legal Contact:** legal@mythara.ai  
-**Accessibility Contact:** accessibility@mythara.ai
+**Mythara Project** (Mythara Labs LLC: formation filed Sept 27, 2026, pending completion)

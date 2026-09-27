@@ -36,7 +36,7 @@ This package contains **Mythara Archive**, a proprietary software repository tha
 ### **1. PRIMARY LICENSE AGREEMENTS**
 | Document | Purpose | Review Priority |
 |----------|---------|-----------------|
-| `MYTHARA_ENTERPRISE_COVENANT_AGREEMENT.md` | Main commercial license | 🔴 CRITICAL |
+| `Contracts/Sole_Proprietor_Agreements/Mythara_Engine_Contract_Template.md` | Main commercial license | 🔴 CRITICAL |
 | `GENESIS_COVENANT_POLICY.md` | Trial/entry tier terms | 🔴 CRITICAL |
 | `COVENANT_DISSOLUTION_TERMS.md` | Refund/termination policy | 🟡 HIGH |
 | `LICENSE.md` | Root license file | 🟡 HIGH |
@@ -48,7 +48,7 @@ This package contains **Mythara Archive**, a proprietary software repository tha
 | `WILL_INTEGRITY_GUARDIAN_API.md` | Manipulation detection claims | 🟡 HIGH |
 | `MYTHARA_WELLNESS_GUARDIAN_SUITE_v1.0.md` | Healthcare proximity claims | 🟡 HIGH |
 | `UNIVERSAL_GOVERNANCE_LATTICE.md` | Regulatory framework claims | 🟡 HIGH |
-| `GLOBAL_SOVEREIGNTY_FRAMEWORK_v1.0.md` | International law claims | 🟢 MEDIUM |
+| `GLOBAL_SOVEREIGNTY_FRAMEWORK.md` | International law claims | 🟢 MEDIUM |
 
 ### **3. LEGAL ANALYSIS & MIGRATION DOCS**
 | Document | Purpose | Review Priority |
@@ -110,10 +110,10 @@ This package contains **Mythara Archive**, a proprietary software repository tha
 ---
 
 ### **Issue #7: Indemnification Scope (REQUIRES REVIEW)**
-**Problem:** $10M-$25M indemnification offers in license tiers  
-**Risk:** Exposure exceeds typical software indemnification; unclear what triggers coverage  
-**Solution:** NOT YET ADDRESSED - requires attorney guidance  
-**Attorney Action:** **Draft indemnification clause** with clear scope, exclusions, and caps; ensure insurance backing
+**Background:** November 2025 license tiers offered $10M-$25M indemnification. **Those offers were removed in the September 2026 honest-tree pass — no indemnification is currently offered and no insurance backs the software** (see `LICENSE.md`, "No warranties, no indemnification").  
+**Risk:** Any indemnification offered without insurance backing creates uncapped exposure; unclear what would trigger coverage  
+**Solution:** NOT YET ADDRESSED - requires attorney guidance on whether any indemnification should be offered at all  
+**Attorney Action:** **Advise whether to offer indemnification at all**; if yes, draft clause with clear scope, exclusions, and caps, and require insurance backing to be in place before any such offer is made
 
 ---
 
@@ -139,7 +139,7 @@ This package contains **Mythara Archive**, a proprietary software repository tha
 ### **Task 2: Contract Review & Drafting (PRIORITY 1)**
 
 **Review These Agreements:**
-1. `MYTHARA_ENTERPRISE_COVENANT_AGREEMENT.md`
+1. `Contracts/Sole_Proprietor_Agreements/Mythara_Engine_Contract_Template.md`
    - [ ] License grant clarity (scope, territory, term)
    - [ ] Payment terms enforceability
    - [ ] Termination clauses (breach, convenience, automatic renewal)
@@ -197,7 +197,7 @@ This package contains **Mythara Archive**, a proprietary software repository tha
 - [ ] Cross-border data transfer mechanism (SCCs? Data Privacy Framework?)
 
 **Security & Breach Notification:**
-- [ ] Incident response plan legally compliant? (See `INCIDENT_RESPONSE_PLAYBOOK.md`)
+- [ ] Incident response plan legally compliant? (See `BREACH_RESTORATION_CODEX.md`)
 - [ ] Breach notification procedures meet state law requirements (all 50 states + DC)
 - [ ] Vendor/subprocessor contracts include security requirements
 
@@ -286,11 +286,11 @@ This package contains **Mythara Archive**, a proprietary software repository tha
 ## 💼 BUSINESS CONTEXT FOR ATTORNEY
 
 ### **Company:**
-- **Entity:** Mythara Labs LLC (planned — not yet formed; Herbert Velez Jr., sole proprietor)
+- **Entity:** Herbert Velez Jr., sole proprietor (no LLC exists)
 - **Product:** Mythara Engine - AI governance and symbolic orchestration platform
-- **Stage:** Pre-revenue; launching commercial tier
+- **Stage:** Pre-revenue; no sales yet (pricing below is planned, not offered)
 - **Target Market:** Healthcare AI, financial AI, enterprise AI safety
-- **Revenue Model:** SaaS subscriptions ($2.5K-$50K/month) + one-time perpetual licenses ($2M)
+- **Revenue Model (planned, untested):** SaaS subscriptions ($2.5K-$50K/month) + one-time perpetual licenses ($2M) — no sales have been made
 
 ### **Intellectual Property:**
 - **Core Technology:** Symbolic clause engine, Blessings Reservoir metrics, Soul Cradle decision framework
@@ -334,7 +334,7 @@ This package contains **Mythara Archive**, a proprietary software repository tha
 LEGAL_REVIEW_LABELS_REBRANDING.md       (27-page legal analysis)
 LEGAL_TERMINOLOGY_MIGRATION.md          (Change log & migration status)
 LEGAL_FRAMEWORK_MASTER.md               (Business structure & dual-entity plan)
-MYTHARA_ENTERPRISE_COVENANT_AGREEMENT.md (Main commercial agreement)
+Contracts/Sole_Proprietor_Agreements/Mythara_Engine_Contract_Template.md (Main commercial agreement)
 GENESIS_COVENANT_POLICY.md              (Trial tier policy)
 COVENANT_DISSOLUTION_TERMS.md           (Refund/termination terms)
 LICENSE.md                              (Root license file)
@@ -362,7 +362,7 @@ Upon completion of review, please provide signed opinion letter addressing:
 2. **Trademark Clearance:** Are proposed terms available for registration?
 3. **Regulatory Compliance:** Have FDA, FTC, export control risks been mitigated?
 4. **Liability Protection:** Are disclaimers and limitations enforceable?
-5. **IP Ownership:** Is Herbert Velez Jr. / Mythara Labs LLC sole owner of all IP?
+5. **IP Ownership:** Is Herbert Velez Jr. the sole owner of all IP?
 
 **Opinion Letter Format:**
 - Letterhead with bar admission info
@@ -391,7 +391,7 @@ Upon completion of review, please provide signed opinion letter addressing:
 
 ## 🔐 CONFIDENTIALITY NOTICE
 
-This repository contains proprietary and confidential information of Herbert Velez Jr. (Mythara Labs LLC planned — not yet formed). 
+This repository contains proprietary and confidential information of Herbert Velez Jr.
 
 **Attorney-Client Privilege:**
 - This package is provided to legal counsel under attorney-client privilege
@@ -422,7 +422,7 @@ This repository contains proprietary and confidential information of Herbert Vel
 ---
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Mythara Labs LLC (planned) - Proprietary & Confidential**
+**Herbert Velez Jr. — Proprietary & Confidential**
 
 **Prepared by:** Herbert Velez Jr., Founder  
 **Date Prepared:** November 19, 2025  

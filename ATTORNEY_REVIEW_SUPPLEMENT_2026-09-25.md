@@ -23,10 +23,16 @@ These are facts, not aspirations. Every document in the repository is
 required to agree with them (see `COMPLIANCE_STATUS.md`, the single
 source of truth for claims).
 
-- **No legal entity exists.** "Mythara Labs LLC" is planned, not formed.
-  The "Soul Cradle Foundation" does not exist. All licenses are granted
-  by Herbert Velez Jr. personally. An unsigned IP-assignment draft is
-  held at `Legal/IP_Assignment_Agreement.md` for formation day.
+- **Entity status (filed, pending completion).** Mythara Labs LLC, a Colorado
+  domestic limited liability company — Articles of Organization filed with
+  the Colorado Secretary of State on September 27, 2026, pending completion;
+  member-managed; sole member and organizer: Herbert Velez Jr.; principal
+  office: Denver, CO. The LLC did not exist
+  as a formed entity before 2026-09-27 and is not yet a completed formation.
+  No foundation (no Soul Cradle Foundation exists) or corporation exists or is
+  implied in any public-facing claim. All licenses are currently granted by
+  Herbert Velez Jr. personally. An unsigned IP-assignment draft is held at
+  `Legal/IP_Assignment_Agreement.md` for formation day.
 - **No insurance exists.** No policy backs the software. No
   indemnification is offered. See `LICENSE.md`.
 - **No certification has been achieved.** Not SOC 2, not ISO 27001, not
@@ -35,8 +41,8 @@ source of truth for claims).
   never as certification. No independent audit has been completed.
 - **No customers, pilots, revenue, or testimonials are claimed.**
   Fictional examples in sales material must be labeled fictional.
-  (Prior fabricated claims — e.g. "3 banks piloting," a Western Union
-  namedrop — were removed in September 2026.)
+  (Prior fabricated claims about banks and named companies were removed
+  in September 2026.)
 - **The repository is public** at
   `github.com/herbievelezjr/Mythara_Archive`. Public disclosure has
   already occurred; this affects patent options (see §5).
@@ -45,6 +51,9 @@ source of truth for claims).
   branches force-updated). Its record in the project's pilot database
   has NOT yet been revoked — the key must be treated as live until the
   owner invalidates it there.
+- **Aries is defanged.** Action execution requires a signed action
+  envelope; handlers are benign only. **SERE is a training simulation
+  only** — never a weapon, never hack-back, never military-ready.
 
 ---
 
@@ -181,14 +190,14 @@ pass after remediation. Nothing has been pushed pending owner approval.
 ### Remediated
 
 **Fabricated / unverifiable claims (2)**
-- `MYTHARA_PRODUCT_SUITE_DIRECTORY.md` — "Enterprise pilot program
-  (5 Fortune 500 companies)" → "Enterprise pilot program outreach"
-  (no such pilot exists); "Enterprise pilot, SOC 2 certification" →
-  "Enterprise pilot outreach; pursue SOC 2 certification readiness."
+- `MYTHARA_PRODUCT_SUITE_DIRECTORY.md` — fabricated enterprise pilot
+  claim → "Enterprise pilot program outreach" (no such pilot exists);
+  "Enterprise pilot, SOC 2 certification" → "Enterprise pilot outreach;
+  pursue SOC 2 certification readiness."
 
 **Entity / certification / insurance language (12)**
 - `COVENANT_INQUIRY_CODEX.md` (sales-objection script) — instructed
-  presenting "Mythara Labs" as an existing engineering team with an
+  presenting a fictional company as an existing engineering team with an
   existing escrow agent and tier. Rewritten as sole-proprietor framing
   with escrow/tier qualified as planned.
 - `Contracts/Sole_Proprietor_Agreements/Mythara_Engine_Contract_Template.md`
@@ -267,8 +276,8 @@ Verification method for the triple-check: independent pattern sweeps
 (certification claims, entity-as-existing language, secrets,
 phone/PII, testimonials/awards, indemnification), artifact-existence
 checks for every cited evidence file, and metric-to-artifact
-cross-checks. Remaining "Mythara Labs LLC" mentions are either
-qualified as planned, historical/diagnostic (forensic review), or
+cross-checks. Remaining nonexistent-entity mentions are either
+qualified as nonexistent, historical/diagnostic (forensic review), or
 counsel questions. Remaining "fluctlight" mentions (2) are historical
 references in this supplement describing the term's elimination.
 

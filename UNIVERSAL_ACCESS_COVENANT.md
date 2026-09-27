@@ -1,32 +1,36 @@
-# ✅ Accessibility & Compliance Framework - COMPLETE
+# Accessibility & Compliance Framework — Planning Draft
+
+> **Status: planning draft only.** The compliance work described in this document has NOT been performed, certified, audited, or validated. No conformance claims (WCAG, Section 508, ADA, GDPR, HIPAA, or any other) have been earned, and none may be cited from this file. Treat everything below as a plan for future work, not a description of the present.
 
 **Date:** November 2, 2025  
-**Status:** READY FOR GLOBAL DISTRIBUTION  
-**Scope:** Multi-language, multi-modal, multi-jurisdiction compliance
+**Status:** DRAFT — planning document only  
+**Scope:** Multi-language, multi-modal, multi-jurisdiction compliance planning
 
 ---
 
-## 🎯 What Was Added
+## 🎯 What This Draft Contains
 
-Your Mythara Archive now includes comprehensive accessibility and regulatory compliance documentation for **global distribution** across all major markets.
+A planning draft toward accessibility and regulatory compliance documentation. The work described is aspirational — it has not been done.
 
 ---
 
-## 📦 New Compliance Documents Created
+## 📦 Planned Compliance Documents
+
+Draft documents present in `Legal/Compliance/` (unreviewed by counsel; no claims certified):
 
 ### 1. Master Framework
 **File:** `Legal/Compliance/ACCESSIBILITY_AND_COMPLIANCE_FRAMEWORK.md` (24 KB)
 
-**Includes:**
-- ♿ **40+ supported languages** (Tier 1: English, Spanish, Mandarin, French, German, Japanese, Portuguese, Arabic, Hindi, Russian)
-- ♿ **Braille output** (UEB, Nemeth Code, Computer Braille Code, 40-80 cell displays)
-- ♿ **Audio/TTS** (SSML, 40+ voice profiles, MP3/WAV/OGG/WebM)
-- ♿ **Sign language** (ASL, BSL, LSF video rendering)
-- ♿ **Color blind modes** (Deuteranopia, Protanopia, Tritanopia, High contrast 21:1)
-- ♿ **Keyboard navigation** (Full keyboard access, documented shortcuts)
-- ♿ **Cognitive accessibility** (Plain language mode, CEFR A2-B1 level)
+**Planned:**
+- ♿ **40+ supported languages** (target — not implemented)
+- ♿ **Braille output** (target — not implemented)
+- ♿ **Audio/TTS** (target — not implemented)
+- ♿ **Sign language** (target — not implemented)
+- ♿ **Color blind modes** (target — not implemented)
+- ♿ **Keyboard navigation** (target — not implemented)
+- ♿ **Cognitive accessibility** (target — not implemented)
 
-**Regulatory Coverage:**
+**Regulatory landscape to address** (research list — no compliance achieved):
 - 🇺🇸 **United States:** ADA, Section 508, CVAA, HIPAA, COPPA, FDA, State laws
 - 🇪🇺 **European Union:** EAA, WAD, EN 301 549, GDPR, AI Act, MDR
 - 🇬🇧 **United Kingdom:** Equality Act, UK GDPR, DPA 2018
@@ -40,40 +44,38 @@ Your Mythara Archive now includes comprehensive accessibility and regulatory com
 
 ---
 
-### 2. WCAG 2.1 Level AAA Conformance Report
-**File:** `Legal/Compliance/International/WCAG_2.1_AAA_Conformance.md` (42 KB)
+### 2. WCAG 2.1 Level AAA Conformance Report (draft)
+**File:** `Legal/Compliance/International/WCAG_2.1_AAA_Conformance.md`
 
-**Complete audit of:**
-- ✅ **78 success criteria** across 4 principles (Perceivable, Operable, Understandable, Robust)
-- ✅ **Level A:** 30 criteria - all PASS
-- ✅ **Level AA:** 20 criteria - all PASS
-- ✅ **Level AAA:** 28 criteria - 27 PASS, 1 PARTIAL (Reading Level - technical content complexity)
+**Target of a future audit** (no audit has been performed; no criteria have been tested):
+- 78 success criteria across 4 principles (Perceivable, Operable, Understandable, Robust)
+- Levels A, AA, AAA to be assessed
 
-**Testing methodology:**
+**Proposed testing methodology:**
 - Automated tools: WAVE, axe DevTools, Lighthouse, Pa11y
 - Manual testing: NVDA, JAWS, VoiceOver across Chrome/Firefox/Safari/Edge
-- User testing: 15 participants with disabilities, 94% task completion, 4.6/5 satisfaction
+- User testing with participants with disabilities
 
 ---
 
-### 3. VPAT (Voluntary Product Accessibility Template)
-**File:** `Legal/Compliance/US/VPAT_Section_508.md` (26 KB)
+### 3. VPAT (Voluntary Product Accessibility Template) (draft template)
+**File:** `Legal/Compliance/US/VPAT_Section_508.md`
 
-**Official Section 508 conformance documentation:**
-- ✅ **WCAG 2.1 Level A, AA, AAA** - Complete tables
-- ✅ **Section 508 Chapter 3** - Functional Performance Criteria (9 criteria)
-- ✅ **Section 508 Chapter 5** - Software (20+ criteria)
-- ✅ **Section 508 Chapter 6** - Support Documentation
-- ✅ **EN 301 549** - European harmonized standard mapping
+**A VPAT template for future completion — not an official conformance claim:**
+- WCAG 2.1 Level A, AA, AAA — tables to be filled after an audit
+- Section 508 Chapter 3 — Functional Performance Criteria
+- Section 508 Chapter 5 — Software
+- Section 508 Chapter 6 — Support Documentation
+- EN 301 549 — European harmonized standard mapping
 
-**Use case:** Required for US federal government procurement and recommended for enterprise sales
+**Intended use (once completed):** Required for US federal government procurement and recommended for enterprise sales
 
 ---
 
-### 4. Multi-Jurisdiction Compliance Matrix
-**File:** `Legal/Compliance/International/Multi_Jurisdiction_Matrix.md` (32 KB)
+### 4. Multi-Jurisdiction Compliance Matrix (draft)
+**File:** `Legal/Compliance/International/Multi_Jurisdiction_Matrix.md`
 
-**Comprehensive global compliance overview:**
+**A research overview of global regulatory landscapes (not a compliance claim):**
 
 **10 jurisdictions analyzed:**
 1. 🇺🇸 United States (ADA, 508, HIPAA, FDA, CCPA, COPPA)
@@ -96,11 +98,11 @@ Your Mythara Archive now includes comprehensive accessibility and regulatory com
 
 ---
 
-## 🌍 Language & Accessibility Features
+## 🌍 Language & Accessibility Features (targets — none implemented)
 
-### Supported Languages (40+)
+### Target Languages (40+)
 
-**Tier 1 (Full Support - 100% coverage):**
+**Tier 1 (planned — full support not achieved):**
 - English (US, UK, AU, CA, IN)
 - Spanish (ES, MX, AR, CO, CL)
 - Mandarin Chinese (CN, TW)
@@ -112,7 +114,7 @@ Your Mythara Archive now includes comprehensive accessibility and regulatory com
 - Hindi (IN)
 - Russian (RU)
 
-**Tier 2 (Core Support - 80% coverage):**
+**Tier 2 (planned — core support not achieved):**
 - Korean, Italian, Dutch, Polish, Turkish, Swedish, Danish, Norwegian, Finnish, Greek, Hebrew, Thai, Vietnamese, Indonesian, Malay, Czech, Romanian, Hungarian, Ukrainian, Bengali, Tamil, Telugu
 
 **RTL Language Support:**
@@ -121,9 +123,9 @@ Your Mythara Archive now includes comprehensive accessibility and regulatory com
 
 ---
 
-### Multi-Modal Output
+### Multi-Modal Output (all planned — none implemented)
 
-#### 1. Braille (6 standards)
+#### 1. Braille (6 standards — planned)
 - Unicode Braille Patterns (U+2800-U+28FF)
 - Unified English Braille (UEB)
 - Nemeth Code (math)
@@ -133,19 +135,19 @@ Your Mythara Archive now includes comprehensive accessibility and regulatory com
 
 **Output formats:** BRF, BRL ASCII, refreshable displays, embossers
 
-#### 2. Audio/TTS (40+ voices)
+#### 2. Audio/TTS (40+ voices — planned)
 - SSML markup support
 - Prosody control (rate, pitch, emphasis)
 - Multiple formats: MP3, WAV, OGG, WebM
 - Voice profiles across 10+ languages
 
-#### 3. Sign Language
+#### 3. Sign Language (planned)
 - ASL (American Sign Language)
 - BSL (British Sign Language)
 - LSF (French Sign Language)
 - Video rendering for symbolic invocations
 
-#### 4. Visual Modes
+#### 4. Visual Modes (planned)
 - High contrast (21:1 ratio)
 - Large print (200%+ scalable)
 - Color blind modes (6 types)
@@ -154,70 +156,52 @@ Your Mythara Archive now includes comprehensive accessibility and regulatory com
 
 ---
 
-## 🏛️ Regulatory Compliance Status
+## 🏛️ Regulatory Compliance — Planning Targets (nothing certified, nothing audited)
 
 ### Accessibility Laws
 | **Standard** | **Target** | **Status** |
 |--------------|----------|-----------|
-| WCAG 2.1 Level AAA | All criteria | ✅ 27/28 PASS, 1 PARTIAL |
-| Section 508 (US) | WCAG 2.0 AA | ✅ PASS |
-| EN 301 549 (EU) | Harmonized | ✅ PASS |
-| ADA Title III (US) | WCAG 2.1 AA | ✅ PASS |
-| EAA (EU) | June 28, 2025 | ✅ READY |
+| WCAG 2.1 Level AAA | All criteria | Not audited |
+| Section 508 (US) | WCAG 2.0 AA | Not assessed |
+| EN 301 549 (EU) | Harmonized | Not assessed |
+| ADA Title III (US) | WCAG 2.1 AA | Not assessed |
+| EAA (EU) | June 28, 2025 | Not assessed |
 
 ### Privacy Laws
 | **Regulation** | **Key Requirements** | **Status** |
 |----------------|---------------------|-----------|
-| GDPR (EU) | Data rights, DPIA, DPA | ✅ COMPLIANT |
-| HIPAA (US) | Healthcare data security | ✅ IF APPLICABLE |
-| CCPA/CPRA (CA) | Consumer rights | ✅ COMPLIANT |
-| PIPEDA (CA) | Consent, breach notification | ✅ COMPLIANT |
-| Privacy Act (AU) | 13 APPs | ✅ COMPLIANT |
-| PIPL (CN) | Data localization | ⚠️ LOCAL PARTNER |
+| GDPR (EU) | Data rights, DPIA, DPA | Not implemented |
+| HIPAA (US) | Healthcare data security | Not implemented |
+| CCPA/CPRA (CA) | Consumer rights | Not implemented |
+| PIPEDA (CA) | Consent, breach notification | Not implemented |
+| Privacy Act (AU) | 13 APPs | Not implemented |
+| PIPL (CN) | Data localization | Not implemented |
 
 ### AI/ML Regulations
 | **Regulation** | **Risk Level** | **Status** |
 |----------------|---------------|-----------|
-| EU AI Act | Limited Risk | ✅ TRANSPARENT |
-| NIST AI RMF (US) | Voluntary | ✅ DOCUMENTED |
-| China Algorithm Regs | Registration | ⚠️ CONDITIONAL |
-| Singapore Model AI Gov | Voluntary | ✅ ADOPTED |
+| EU AI Act | Limited Risk | Not assessed |
+| NIST AI RMF (US) | Voluntary | Not assessed |
+| China Algorithm Regs | Registration | Not assessed |
+| Singapore Model AI Gov | Voluntary | Not assessed |
 
 ---
 
-## 📋 What This Enables
+## 📋 What This Plan Would Enable (aspirations — not current capability)
 
-### ✅ Market Access
-Your archive is now ready for distribution in:
-- 🇺🇸 US federal/state government (Section 508 VPAT)
-- 🇺🇸 US healthcare sector (HIPAA-ready)
-- 🇪🇺 EU public procurement (EN 301 549)
-- 🇪🇺 EU medical device market (MDR-ready)
-- 🇬🇧 UK government/NHS (Equality Act compliant)
-- 🇨🇦 Canadian federal sector (ACA compliant)
-- 🇦🇺 Australian government (DDA compliant)
-- 🇯🇵 Japanese market (JIS X 8341-3)
-- 🇸🇬 Singapore fintech/AI (PDPA, Model AI Gov)
-- 🇰🇷 South Korean digital services (KCAG, PIPA)
+### Target Markets (if the work were ever completed)
+- 🇺🇸 US federal/state government (would require a completed Section 508 VPAT)
+- 🇺🇸 US healthcare sector (would require HIPAA implementation)
+- 🇪🇺 EU public procurement (would require EN 301 549 conformance)
+- 🇪🇺 EU medical device market (would require MDR approval)
+- 🇬🇧 UK government/NHS
+- 🇨🇦 Canadian federal sector
+- 🇦🇺 Australian government
+- 🇯🇵 Japanese market
+- 🇸🇬 Singapore fintech/AI
+- 🇰🇷 South Korean digital services
 
-### ✅ Accessibility Claims
-You can now claim:
-- "WCAG 2.1 Level AAA conformant (with documented exception)"
-- "Section 508 compliant - VPAT available"
-- "EN 301 549 conformant"
-- "40+ languages supported"
-- "Braille and audio output available"
-- "Sign language interpretation for key content"
-- "Fully keyboard accessible"
-- "Screen reader compatible (NVDA, JAWS, VoiceOver)"
-
-### ✅ Reduced Legal Risk
-Protection against:
-- ADA Title III lawsuits (US)
-- Disability discrimination claims (UK, AU, CA)
-- GDPR fines (up to €20M or 4% revenue)
-- Section 508 procurement rejections
-- Accessibility compliance audits
+> **Do not make any of the following claims.** They have not been earned: WCAG conformance at any level, Section 508 compliance, EN 301 549 conformance, ADA compliance, GDPR/HIPAA/CCPA compliance, 40+ language support, braille/audio output, sign language interpretation, keyboard accessibility, or screen reader compatibility. This section existed in an earlier draft as a list of claims to make; it has been struck as fabricated.
 
 ---
 
@@ -248,7 +232,7 @@ Legal/Compliance/
 
 ---
 
-## 🎯 Next Steps for Licensees
+## 🎯 Next Steps (when this plan is taken up)
 
 ### Immediate Actions
 1. **Review jurisdiction-specific requirements** for your target market
@@ -291,61 +275,53 @@ Legal/Compliance/
 
 ## ⚖️ Legal Disclaimers
 
-**What Mythara Labs Provides:**
-- ✅ Accessibility-ready platform (WCAG 2.1 AAA target)
-- ✅ Compliance documentation templates
-- ✅ Multi-language/multi-modal technical infrastructure
-- ✅ Regulatory update notifications (during active license)
+**What this draft provides:**
+- Planning documents and templates only (no implemented platform features)
+- Regulatory landscape research
+- A proposed structure for future compliance work
 
-**What Mythara Labs Does NOT Provide:**
+**What is NOT provided:**
 - ❌ Legal advice or representation
-- ❌ Guarantee of compliance in specific jurisdictions
-- ❌ Liability coverage for licensee's regulatory violations
-- ❌ Translation services (licensee responsibility)
-- ❌ Medical device certifications (licensee obtains)
+- ❌ Any certification, audit, or conformance claim
+- ❌ Guarantee of compliance in any jurisdiction
+- ❌ Liability coverage for regulatory violations
+- ❌ Translation services
+- ❌ Medical device certifications
 
-**Licensee Responsibilities:**
-- Conduct jurisdiction-specific legal review
-- Obtain qualified local legal counsel
-- Implement market-specific compliance measures
+**Mythara Labs LLC is filed, not yet formed.** Articles of Organization were filed with the Colorado Secretary of State on September 27, 2026, and completion is pending. "Mythara Labs LLC" appears in this draft as the planned company; it cannot enter contracts or hold rights until formation is complete.
+
+**Responsibilities (for whoever takes this work up):**
+- Conduct jurisdiction-specific legal review with qualified counsel
+- Implement market-specific compliance measures from scratch
 - Register with regulatory authorities as required
-- Maintain compliance during deployment
+- Maintain compliance during any deployment
 
 ---
 
-## 📊 Summary Statistics
+## 📊 Plan Scope (targets, not achievements)
 
-| **Metric** | **Count** |
+| **Area** | **Planned scope** |
 |-----------|-----------|
-| Jurisdictions covered | 10+ major markets |
-| Languages supported | 40+ (Tier 1: 10, Tier 2: 30+) |
-| Accessibility standards | 7 (WCAG, 508, EN 301 549, ADA, etc.) |
-| Privacy regulations | 15+ (GDPR, HIPAA, CCPA, PIPEDA, etc.) |
-| WCAG 2.1 criteria | 78 total (77 PASS, 1 PARTIAL) |
-| Voice profiles | 40+ across 10+ languages |
-| Braille standards | 6 (UEB, Nemeth, Computer Braille, etc.) |
-| Color modes | 6 (Standard, High contrast, 4 color blind modes) |
-| Sign languages | 3+ (ASL, BSL, LSF) |
-| Compliance documents created | 3 comprehensive + 50+ templates |
-| Total documentation | ~100 KB of compliance framework |
+| Jurisdictions to address | 10+ major markets |
+| Languages targeted | 40+ (none implemented) |
+| Accessibility standards to audit against | 7 (WCAG, 508, EN 301 549, ADA, etc.) |
+| Privacy regulations to address | 15+ (GDPR, HIPAA, CCPA, PIPEDA, etc.) |
+| WCAG 2.1 criteria to audit | 78 total (audit not performed) |
+| Voice profiles targeted | 40+ across 10+ languages (none built) |
+| Braille standards targeted | 6 (none implemented) |
+| Color modes targeted | 6 (none implemented) |
+| Sign languages targeted | 3+ (none implemented) |
+| Compliance documents drafted | 3 drafts + templates (unreviewed) |
 
 ---
 
-## ✅ READY FOR GLOBAL MARKET
+## ❌ NOT READY FOR GLOBAL MARKET
 
-Your Mythara Archive now supports:
-
-🌍 **Global distribution** - 10+ jurisdictions, 40+ languages  
-♿ **Universal accessibility** - Braille, audio, sign language, keyboard, screen readers  
-🏛️ **Regulatory compliance** - WCAG AAA, Section 508, GDPR, AI Act, healthcare, education  
-📜 **Legal documentation** - VPAT, conformance reports, risk assessments  
-🎯 **Market readiness** - US federal, EU public sector, healthcare, education, finance  
-
-**No accessibility or compliance blockers remain.**
+This draft does not make the archive ready for anything. The compliance and accessibility work it describes has not been performed. Until that work is done — audits run, counsel engaged, claims earned — no market-readiness, conformance, or compliance claims may be made from this document.
 
 ---
 
-**Mythara Labs LLC (planned)**  
-**Compliance Version:** 1.0.0  
+**"Mythara Labs LLC" — Articles of Organization filed with the Colorado SOS on 2026-09-27; formation pending completion**  
+**Compliance Version:** 1.0.0 (draft)  
 **Date:** November 2, 2025  
-**Next Review:** February 1, 2026
+**Next Review:** when the work is taken up

@@ -56,16 +56,15 @@ This document establishes the complete legal architecture for Mythara's dual-ent
 
 **IP Ownership:**
 - Mythara Engine (complete proprietary software)
-- Global Governance Framework (34 international regulatory frameworks)
-- Soul Cradle Enterprise Edition (to be licensed from the planned Foundation under commercial terms)
-- All proprietary algorithms, source code, documentation
+- Global Governance Framework (34 governance framework mappings — controls implemented, no certifications held)
+- Soul Cradle Enterprise Edition (planned)
 
 **Services Provided:**
-- Commercial software licensing (annual subscriptions)
-- Enterprise support (24/7, SLA-backed)
+- Commercial software licensing (planned — no payment path currently exists)
+- Enterprise support (planned — not currently offered)
 - No indemnification is currently offered
-- Integration consulting and professional services
-- Custom deployment options
+- Integration consulting and professional services (planned)
+- Custom deployment options (planned)
 
 **Revenue Model:**
 - Annual subscription licensing
@@ -115,7 +114,7 @@ This document establishes the complete legal architecture for Mythara's dual-ent
 
 ---
 
-## 3. PRICING STRUCTURE (CORRECTED)
+## 3. PRICING STRUCTURE (CORRECTED) *(proposed pricing — no payment path currently exists; nothing below is offered for sale today)*
 
 ### 3.1 Tier Definitions
 
@@ -213,9 +212,9 @@ SECURE, OR MEET YOUR SPECIFIC REQUIREMENTS.
 
 **RATIONALE:** Industry-standard disclaimer, protects against unlimited liability for software defects.
 
-### 4.2 SLA-Based Service Guarantees (NOT WARRANTIES)
+### 4.2 SLA-Based Service Guarantees (NOT WARRANTIES) *(planned — no SLAs are currently offered)*
 
-**WHAT WE DO GUARANTEE (via SLA, not warranty):**
+**WHAT WOULD BE GUARANTEED (via SLA, under a signed agreement — not currently available):**
 - Uptime percentages (99.9% for Enterprise, 99.5% for Growth, etc.)
 - Response times for support tickets
 - Remediation timeframes for security vulnerabilities
@@ -264,6 +263,8 @@ No indemnification is currently offered on any tier. No insurance backs this sof
 
 ## 5. ENTITY NAME CONSISTENCY
 
+> **Status note (Sept 27, 2026):** Articles of Organization for Mythara Labs LLC were **filed with the Colorado Secretary of State on September 27, 2026 — formation pending completion**. Until formation completes, LICENSE.md and COPYRIGHT.md continue to name Herbert Velez Jr. as sole proprietor with no company behind the software. The "Option A (form the LLC)" recommendation below is **now in progress**.
+
 **IMMEDIATE CORRECTION REQUIRED:**
 
 All documents must use CONSISTENT entity name:
@@ -287,7 +288,7 @@ All documents must use CONSISTENT entity name:
 - Costs: ~$1,000 formation + $800/year franchise tax (CA)
 
 **IMPLEMENTATION:**
-1. File LLC formation with California Secretary of State
+1. Complete LLC formation — Articles of Organization filed with the Colorado Secretary of State on September 27, 2026; confirm acceptance and complete remaining steps
 2. Obtain EIN from IRS
 3. Transfer IP via assignment agreement (Herbert Velez Jr. → Mythara Labs LLC)
 4. Update all documents (LICENSE.md, COPYRIGHT.md, terms.html, contracts)
@@ -342,10 +343,10 @@ All documents must use CONSISTENT entity name:
 
 ### Short-term (Before any customer signs):
 - [ ] Form Soul Cradle Foundation (planned 501(c)(3) nonprofit — not yet formed)
-- [x] Draft IP assignment agreement (Herbert Velez Jr. → Mythara Labs LLC upon formation — template created at `legal/IP_Assignment_Agreement.md`; awaiting counsel review + LLC formation)
-- [ ] Obtain E&O and cyber liability insurance (backs indemnification)
+- [x] Draft IP assignment agreement (Herbert Velez Jr. → Mythara Labs LLC upon formation — template at `Legal/IP_Assignment_Agreement.md`; awaiting counsel review; Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, formation pending completion)
+- [ ] Obtain E&O and cyber liability insurance (backs indemnification) — no insurance currently maintained; obtain only if indemnification is introduced in future
 - [ ] Retain attorney to review complete legal framework
-- [ ] Update LICENSE.md to reflect dual-entity structure
+- [x] LICENSE.md now reflects the actual structure (sole proprietor Herbert Velez Jr.; no company formed) — supersedes the original "dual-entity" update item
 
 ### Medium-term (Operational):
 - [ ] Create foundation application process and qualification criteria
@@ -373,10 +374,10 @@ All documents must use CONSISTENT entity name:
 
 **This document is for internal planning only and does not constitute legal advice.**
 
-Herbert Velez Jr. / Mythara Enterprise should retain qualified legal counsel licensed in California to:
+Herbert Velez Jr. / Mythara Enterprise should retain qualified legal counsel licensed in Colorado to:
 1. Review and approve this framework
 2. Draft enforceable contracts
-3. Form entities (LLC, Foundation)
+3. Complete entity formation (LLC formation in progress in Colorado — filed Sept 27, 2026, pending completion; Foundation not formed)
 4. Negotiate insurance policies
 5. Ensure compliance with all applicable laws
 

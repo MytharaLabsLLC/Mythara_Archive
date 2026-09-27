@@ -104,3 +104,7 @@ Remediation actions performed:
   - Duplicate backups listing written to remediation_log.txt
   - No PEM private-key blobs were found in files; only log entries indicating blocked attempts were present in sanitizer/leakage logs.
 
+---
+
+**Forensic note (added 2026-09-27):** The "Mythara Labs LLC" attributions appearing in the archived artifact samples above (dated 2025-10-30) predate the company's formation filing — Articles of Organization were filed with the Colorado Secretary of State on September 27, 2026, and completion is pending. The LLC did not exist as a formed entity on the artifact dates shown. Sample text is preserved verbatim as historical record.
+

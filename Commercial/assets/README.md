@@ -1,38 +1,27 @@
 # Mythara Glyph Assets
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**
 
 ## Directory Structure
 
 ```
-assets/
-├── glyphs/              # Original SVG files (scalable, production-ready)
-│   ├── ssip_audit.svg
-│   ├── engine_subscription_monthly.svg
-│   ├── engine_subscription_annual.svg
-│   ├── enterprise_license.svg
-│   ├── custom_clause_dev.svg
-│   ├── training_onboarding.svg
-│   └── voip_bot_license.svg
-│
-└── glyphs_png/          # Exported PNG files (for PowerPoint, legacy systems)
-    ├── dark/            # Near-black (#0A0A0A) for light backgrounds
-    │   ├── 32/
-    │   ├── 64/
-    │   ├── 128/
-    │   └── 256/
-    ├── light/           # Near-white (#FAFAFA) for dark backgrounds
-    │   ├── 32/
-    │   ├── 64/
-    │   ├── 128/
-    │   └── 256/
-    └── brand/           # Blue accent (#3B82F6) for highlights
-        ├── 32/
-        ├── 64/
-        ├── 128/
-        └── 256/
+Commercial/assets/
+├── README.md            # This file
+└── glyphs/              # Original SVG files (scalable, production-ready)
+    ├── ssip_audit.svg
+    ├── engine_subscription_monthly.svg
+    ├── engine_subscription_annual.svg
+    ├── enterprise_license.svg
+    ├── custom_clause_dev.svg
+    ├── training_onboarding.svg
+    └── voip_bot_license.svg
 ```
+
+> **Note:** PNG exports (`glyphs_png/dark|light|brand/`) are not present on
+> disk — they were planned but never generated. SVG is the current source of
+> truth. Generate PNGs with `Commercial/export_glyph_pngs_simple.py` if a
+> PowerPoint/email fallback is needed.
 
 ## Usage
 
@@ -43,13 +32,13 @@ Use SVG files for best quality:
 ```
 
 ### PowerPoint / Keynote
-Use PNG files (choose color variant):
-- **Light backgrounds:** Use `dark/` folder
-- **Dark backgrounds:** Use `light/` folder
-- **Brand highlights:** Use `brand/` folder
+Export PNGs first (see below), then choose a color variant:
+- **Light backgrounds:** dark variant
+- **Dark backgrounds:** light variant
+- **Brand highlights:** brand variant
 
 ### Email Signatures / HTML Emails
-Use PNG files (many email clients don't support SVG):
+Use PNG files once exported (many email clients don't support SVG):
 ```html
 <img src="https://yourdomain.com/assets/glyphs_png/dark/64/ssip_audit.png" width="64" height="64" alt="SSIP Audit" />
 ```
@@ -64,9 +53,9 @@ Use PNG files (many email clients don't support SVG):
 | ![Enterprise](./glyphs/enterprise_license.svg) | `enterprise_license` | Enterprise License |
 | ![Custom](./glyphs/custom_clause_dev.svg) | `custom_clause_dev` | Custom Clause Development |
 | ![Training](./glyphs/training_onboarding.svg) | `training_onboarding` | Training & Onboarding |
-| ![VoIP](./glyphs/voip_bot_license.svg) | `voip_bot_license` | VoIP Bot License (Q1 2026) |
+| ![VoIP](./glyphs/voip_bot_license.svg) | `voip_bot_license` | VoIP Bot License (planned, not built) |
 
-## Color Variants
+## Color Variants (when exporting PNGs)
 
 ### Dark (#0A0A0A)
 Best for: Light backgrounds, documents, white slides
@@ -83,16 +72,17 @@ Best for: Highlights, CTAs, featured items
 - Blue accent matches Mythara brand palette
 - Use sparingly for emphasis
 
-## Regenerating PNGs
-
-If you need different sizes or colors:
+## Generating PNGs
 
 ```powershell
+# From the Commercial/ directory:
 # Edit export_glyph_pngs_simple.py
 # Modify SIZES = [32, 64, 128, 256] or COLORS dict
 # Then run:
 py -3.11 export_glyph_pngs_simple.py
 ```
+
+Output lands in `Commercial/assets/glyphs_png/` (dark/light/brand × 32/64/128/256).
 
 ## Technical Specs
 
@@ -104,7 +94,7 @@ py -3.11 export_glyph_pngs_simple.py
 - Style: Mono-line, rounded caps/joins
 - Accessibility: `role="img"` and `aria-label` attributes
 
-### PNG Files
+### PNG Files (once generated)
 - Format: PNG with transparency (RGBA)
 - Sizes: 32×32, 64×64, 128×128, 256×256
 - DPI: 96 (standard web resolution)
@@ -114,10 +104,11 @@ py -3.11 export_glyph_pngs_simple.py
 
 - **SVG is preferred** for web, apps, and high-resolution printing
 - **PNG is fallback** for systems without SVG support (PowerPoint, email, older browsers)
-- PNG files are simplified geometric versions for mockups
 - For production materials, always use SVG when possible
 
 ## License
 
-All glyphs are proprietary assets of Herbert Velez Jr. (Mythara Labs LLC planned — not yet formed). Do not distribute outside of Mythara commercial materials.
-
+All glyphs are proprietary assets of Herbert Velez Jr. (Mythara Labs LLC —
+formation filed with the Colorado Secretary of State on 2026-09-27, pending
+completion; sole member Herbert Velez Jr.). Do not distribute outside of
+Mythara commercial materials.

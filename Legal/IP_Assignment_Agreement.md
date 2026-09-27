@@ -6,9 +6,11 @@
 > signed, is not effective, and does not transfer any rights.
 > **No signature below means no assignment has occurred.**
 >
-> Mythara Labs LLC does not exist yet. This assignment, if ever executed,
-> becomes effective **only upon the legal formation of Mythara Labs LLC**
-> (see Section 2). **To be reviewed by a licensed attorney in the relevant
+> Articles of Organization for Mythara Labs LLC were filed with the Colorado
+> Secretary of State on **September 27, 2026**; formation is **pending
+> completion**. This assignment, if ever executed, becomes effective **only
+> upon the legal formation of Mythara Labs LLC** (see Section 2).
+> **To be reviewed by a licensed attorney in the relevant
 > jurisdiction and signed on (or after) LLC formation day.** This template is
 > not legal advice and creates no attorney–client relationship.
 
@@ -16,7 +18,7 @@
 
 ## INTELLECTUAL PROPERTY ASSIGNMENT AGREEMENT
 
-**Effective Date:** The date Mythara Labs LLC is legally formed (the "Effective Date"). *Not effective before that date.*
+**Effective Date:** The date the Articles of Organization filed September 27, 2026 are accepted and Mythara Labs LLC is legally formed (the "Effective Date"). *Not effective before that date.*
 
 ### 1. Parties
 
@@ -33,7 +35,7 @@ Address: ____________________________________________
 ### 2. Recitals
 
 A. Assignor is the sole creator and owner of the intellectual property described in Section 3 (the "Assigned IP"), created before the formation of Assignee.
-B. The parties intend that Assignee, a limited liability company planned for formation in the State of __________ (e.g., California), will own all right, title, and interest in the Assigned IP **upon its formation**.
+B. The parties intend that Assignee, a limited liability company in formation in the State of __________ (e.g., Colorado), will own all right, title, and interest in the Assigned IP **upon its formation**.
 C. This Agreement is **conditional**: it confers no rights on any entity until Assignee legally exists. If Assignee is never formed, this Agreement has no effect.
 
 ### 3. Assignment

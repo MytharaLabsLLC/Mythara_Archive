@@ -7,9 +7,9 @@
 
 ---
 
-## What You Have
+## What You Have *(as assembled November 2025 — historical snapshot; the ZIP itself is not present in this archive)*
 
-✅ **Complete licensing package** ready for private GitHub repository distribution
+✅ **Licensing package contents** for private GitHub repository distribution
 
 ### Package Contents
 
@@ -17,14 +17,14 @@
 - ✅ **LICENSE.md** — Proprietary license with evaluation terms
 - ✅ **COPYRIGHT.md** — Comprehensive IP ownership notice (all components protected)
 - ✅ **INSTALL.md** — Docker, native Python, and air-gapped deployment instructions
-- ✅ **Mythara_Engine_Validation_Report_v1.0.0.txt** — Complete test results (all 5 suites passing)
+- ✅ **Mythara_Engine_Validation_Report_v1.0.0.txt** — Test results (the archive's own Nov 2025 summary reports 4 suites passing)
 - ✅ **PGP-signed manifests** — RELEASE_MANIFEST.json.asc, checksums.sha256.asc
 - ✅ **Complete documentation** — docs/, core/API_SPEC_PUBLIC.md (all with copyright headers)
 - ✅ **Validation suite** — tests/, Evidence/ with all test results (copyright protected)
 - ✅ **Legal templates** — Legal/ with NDA, Master License Agreement, SOW templates
 - ✅ **Commercial materials** — Commercial/ with pricing, one-pager, clause specs
-- ✅ **Accessibility framework** — 40+ languages, braille, audio, WCAG AAA compliance
-- ✅ **Mental health integration** — DSM-5-TR clinical framework, crisis resources
+- ✅ **Accessibility test scripts** — braille and audio token delivery tests (no WCAG certification held)
+- ✅ **Crisis resource links** — `docs/Mental_Health_Crisis_Resources.md` (not a clinical product; real emergencies belong with real crisis resources)
 
 ---
 
@@ -66,7 +66,7 @@ Attached: mythara-engine-v1.0.0.zip
 SHA256: 94b45d271f56b9cd06c9c1323aa09949cf81a9d9f1d951e20a7ee42180453da2
 
 After extraction:
-1. Run verify.ps1 (Windows) or verify.sh (Linux/macOS)
+1. Run verification (gpg --verify and sha256sum -c as shown below; note verify.ps1/verify.sh are not in this archive)
 2. Review README.md for deployment options
 3. Contact legal@mythara.engine with questions
 ```
@@ -156,7 +156,7 @@ mythara-engine-v1.0.0/
 
 ### Step 1: NDA Execution
 
-Company signs mutual NDA (template in `Legal/NDA_Mutual_Template.md`)
+Company signs mutual NDA (template needed — `Legal/NDA_Mutual_Template.md` is not present in this archive)
 
 ### Step 2: Evaluation Period
 
@@ -171,7 +171,7 @@ Company signs mutual NDA (template in `Legal/NDA_Mutual_Template.md`)
 **Enterprise License** — Production deployment (100K req/month)  
 **Sovereign License** — Air-gapped, government, defense + source code escrow
 
-See `Commercial/### Pricing Tiers.txt`
+See `Commercial/Pricing_Tiers.md`
 
 ### Step 4: Pilot SOW (Optional)
 
@@ -185,14 +185,11 @@ Company deploys using `INSTALL.md` instructions
 
 ## Support for Licensed Companies
 
-**Herbert Velez Jr., Mythara Labs LLC (planned)**
+**Herbert Velez Jr.** *(Mythara Labs LLC — formation filed with the Colorado SOS on 2026-09-27, pending completion)*
 
 - **Email:** legal@mythara.engine
 - **PGP:** `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
-- **Response Time:**
-  - Development: 5 business days
-  - Enterprise: 48 hours
-  - Sovereign: 24 hours + on-call
+- **Response Time:** best effort — no SLAs currently offered
 
 ---
 
@@ -224,7 +221,7 @@ Company deploys using `INSTALL.md` instructions
 
 | File | Purpose |
 |------|---------|
-| `mythara-engine-v1.0.0.zip` | Complete licensing package (0.7 MB) |
+| `mythara-engine-v1.0.0.zip` | Complete licensing package (0.7 MB) — **not present in this archive** (hash file only) |
 | `mythara-engine-v1.0.0.zip.sha256` | SHA256 hash for verification |
 | `create_release_zip.ps1` | Script to rebuild package for future versions |
 | `GitHub_Release_Package/README.md` | Main documentation for companies |
@@ -248,4 +245,4 @@ When you update the archive:
 
 ---
 
-**Your licensing package is ready to distribute! 🚀**
+**Package contents as assembled November 2025 (historical snapshot). Nothing here is currently offered for sale, and no payment path exists.**

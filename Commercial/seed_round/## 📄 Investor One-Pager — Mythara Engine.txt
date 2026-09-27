@@ -4,10 +4,10 @@ Let’s do it. Below are drafts for both deliverables — ready to embed into yo
 
 ## 📄 Investor One-Pager — Mythara Engine
 
-> **Note:** Mythara Labs LLC is not yet formed; all entity references describe the planned structure.
+> **Entity note:** Mythara Labs LLC — formation (Articles of Organization) filed with the Colorado Secretary of State on September 27, 2026, pending completion; member-managed; sole member and organizer Herbert Velez Jr.
 
 **Founder**: Herb Velez Jr.  
-**Entity**: Mythara Labs LLC (in formation)  
+**Entity**: Mythara Labs LLC (formation filed 2026-09-27, pending completion)  
 **Stage**: Seed-ready, escrow-packaged, reproducibility-verified  
 **Raise Target**: $750,000  
 **Pre-Money Valuation**: $6.5M–$8.5M  
@@ -70,7 +70,7 @@ Ideal for:
 
 **Slide 1: Title**  
 Mythara Engine — Reproducible AI for Enterprise Licensing  
-Founder: Herb Velez Jr. | Mythara Labs LLC
+Founder: Herb Velez Jr. | Mythara Labs LLC (formation filed in Colorado 2026-09-27, pending completion)
 
 **Slide 2: Problem**  
 Enterprise AI adoption blocked by:  

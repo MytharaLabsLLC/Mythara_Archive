@@ -5,9 +5,9 @@
 
 ---
 
-## 🔄 TERMINOLOGY MIGRATION COMPLETED
+## 🔄 TERMINOLOGY MIGRATION — PARTIALLY APPLIED *(status corrected Sept 2026)*
 
-This repository has undergone comprehensive legal terminology rebranding to eliminate potential regulatory triggers and strengthen trademark protection.
+This repository underwent a legal terminology rebranding in November 2025 to eliminate potential regulatory triggers and strengthen trademark protection. Verification against this archive (Sept 2026) shows **several renames were not actually applied** — see the status column below. Do not reference the missing targets as if they exist.
 
 ### **CRITICAL CHANGES:**
 
@@ -19,7 +19,7 @@ This repository has undergone comprehensive legal terminology rebranding to elim
 #### **2. "Emotional Extortion" → "Will Integrity Guardian"**
 - **Old:** EmotionalExtortionDetector, EMOTIONAL_EXTORTION_API
 - **New:** WillIntegrityGuardian, WILL_INTEGRITY_GUARDIAN_API
-- **Reason:** "Extortion" is felony terminology (18 USC § 871-876); creates FDA/FTC liability exposure
+- **Reason:** "Extortion" is felony terminology (18 U.S.C. § 875 and related provisions); creates FDA/FTC liability exposure
 
 #### **3. "Medical/Dr" → "Wellness Guardian"**
 - **Old:** DrMythara, MEDICAL_TEAM_SUITE
@@ -45,60 +45,59 @@ This repository has undergone comprehensive legal terminology rebranding to elim
 
 ## 📋 FILE RENAME MAPPING
 
-### **High-Risk Legal Terms (COMPLETED):**
-```
-✅ PILOT_ABUSE_PREVENTION.md → GENESIS_COVENANT_SAFEGUARDS.md
-✅ EMOTIONAL_EXTORTION_API.md → WILL_INTEGRITY_GUARDIAN_API.md
-✅ DRMYTHARA_MEDICAL_TEAM_SUITE.md → MYTHARA_WELLNESS_GUARDIAN_SUITE.md
-✅ DRMYTHARA_MEDICAL_TEAM_SUITE_COMPLETE.md → MYTHARA_WELLNESS_GUARDIAN_SUITE_v1.0.md
-✅ MYTHARA_GOVERNANCE_LICENSE_AGREEMENT.md → MYTHARA_ENTERPRISE_COVENANT_AGREEMENT.md
-✅ MEDICAL_TEAM_ARCHITECTURE.md → WELLNESS_SENTINEL_ARCHITECTURE.md
-✅ MEDICAL_TEAM_QUICK_REFERENCE.md → WELLNESS_GUARDIAN_QUICKSTART.md
-```
+### **High-Risk Legal Terms:**
+| Old | New | Status (Sept 2026) |
+|-----|-----|-------------------|
+| PILOT_ABUSE_PREVENTION.md | GENESIS_COVENANT_SAFEGUARDS.md | ✅ applied |
+| EMOTIONAL_EXTORTION_API.md | WILL_INTEGRITY_GUARDIAN_API.md | ✅ applied |
+| DRMYTHARA_MEDICAL_TEAM_SUITE.md | MYTHARA_WELLNESS_GUARDIAN_SUITE.md | ✅ applied |
+| DRMYTHARA_MEDICAL_TEAM_SUITE_COMPLETE.md | MYTHARA_WELLNESS_GUARDIAN_SUITE_v1.0.md | ✅ applied |
+| MYTHARA_GOVERNANCE_LICENSE_AGREEMENT.md | MYTHARA_ENTERPRISE_COVENANT_AGREEMENT.md | ⚠️ **not found in archive** |
+| MEDICAL_TEAM_ARCHITECTURE.md | WELLNESS_SENTINEL_ARCHITECTURE.md | ✅ applied |
+| MEDICAL_TEAM_QUICK_REFERENCE.md | WELLNESS_GUARDIAN_QUICKSTART.md | ✅ applied |
 
-### **Pilot Terminology (COMPLETED):**
-```
-✅ PILOT_LICENSE_POLICY.md → GENESIS_COVENANT_POLICY.md
-✅ PILOT_DISTRIBUTION_GUIDE.md → GENESIS_INITIATION_GUIDE.md
-✅ PILOT_RUN_CONTAINER.md → GENESIS_COVENANT_CONTAINER.md
-✅ PILOT_SELF_HOSTED_GUIDE.md → GENESIS_COVENANT_SELF_HOSTED.md
-✅ pilot_package/ → genesis_sanctum/
-```
+### **Pilot Terminology:**
+| Old | New | Status (Sept 2026) |
+|-----|-----|-------------------|
+| PILOT_LICENSE_POLICY.md | GENESIS_COVENANT_POLICY.md | ✅ applied |
+| PILOT_DISTRIBUTION_GUIDE.md | GENESIS_INITIATION_GUIDE.md | ✅ applied |
+| PILOT_RUN_CONTAINER.md | GENESIS_COVENANT_CONTAINER.md | ✅ applied |
+| PILOT_SELF_HOSTED_GUIDE.md | GENESIS_COVENANT_SELF_HOSTED.md | ⚠️ **not found in archive** |
+| pilot_package/ | genesis_sanctum/ | ⚠️ **not found in archive** |
 
-### **Compliance Terminology (COMPLETED):**
-```
-✅ ACCESSIBILITY_COMPLIANCE_COMPLETE.md → UNIVERSAL_ACCESS_COVENANT_v1.0.md
-✅ INTERNATIONAL_TREATY_COMPLIANCE_COMPLETE.md → GLOBAL_SOVEREIGNTY_FRAMEWORK_v1.0.md
-✅ UNIFIED_COMPLIANCE_FRAMEWORK.md → UNIVERSAL_GOVERNANCE_LATTICE.md
-✅ COMPLIANCE_IMPLEMENTATION_COMPLETE.md → COVENANT_INTEGRITY_FRAMEWORK_v1.0.md
-```
+### **Compliance Terminology:**
+| Old | New | Status (Sept 2026) |
+|-----|-----|-------------------|
+| ACCESSIBILITY_COMPLIANCE_COMPLETE.md | UNIVERSAL_ACCESS_COVENANT_v1.0.md | ⚠️ **not found in archive** |
+| INTERNATIONAL_TREATY_COMPLIANCE_COMPLETE.md | GLOBAL_SOVEREIGNTY_FRAMEWORK_v1.0.md | ⚠️ **not found in archive** (note: `GLOBAL_SOVEREIGNTY_FRAMEWORK.md` exists) |
+| UNIFIED_COMPLIANCE_FRAMEWORK.md | UNIVERSAL_GOVERNANCE_LATTICE.md | ✅ applied |
+| COMPLIANCE_IMPLEMENTATION_COMPLETE.md | COVENANT_INTEGRITY_FRAMEWORK_v1.0.md | ⚠️ **not found in archive** (note: `COVENANT_INTEGRITY_FRAMEWORK.md` exists) |
 
-### **Generic Terminology (COMPLETED):**
-```
-✅ READY_FOR_SALE_COMPLETE.md → COMMERCIAL_DEPLOYMENT_READINESS.md
-✅ MENTAL_HEALTH_INTEGRATION_COMPLETE.md → WELLNESS_INTEGRATION_v1.0.md
-✅ FULLY_EXECUTABLE_PACKAGE_COMPLETE.md → GENESIS_SANCTUM_READY.md
-✅ WIDGET_REBUILD_COMPLETE.md → INTERFACE_MANIFESTATION_v1.0.md
-✅ START_HERE.md → GENESIS_PORTAL.md
-✅ REFUND_POLICY.md → COVENANT_DISSOLUTION_TERMS.md
-✅ OUTREACH_WEEK1_TARGETS.md → MESSENGER_OUTREACH_GENESIS.md
-✅ PROSPECT_QUESTIONS_PREP.md → COVENANT_INQUIRY_CODEX.md
-```
+### **Generic Terminology:**
+| Old | New | Status (Sept 2026) |
+|-----|-----|-------------------|
+| READY_FOR_SALE_COMPLETE.md | COMMERCIAL_DEPLOYMENT_READINESS.md | ✅ applied |
+| MENTAL_HEALTH_INTEGRATION_COMPLETE.md | WELLNESS_INTEGRATION_v1.0.md | ⚠️ **not found in archive** |
+| FULLY_EXECUTABLE_PACKAGE_COMPLETE.md | GENESIS_SANCTUM_READY.md | ✅ applied |
+| WIDGET_REBUILD_COMPLETE.md | INTERFACE_MANIFESTATION_v1.0.md | ⚠️ **not found in archive** |
+| START_HERE.md | GENESIS_PORTAL.md | ✅ applied |
+| REFUND_POLICY.md | COVENANT_DISSOLUTION_TERMS.md | ✅ applied |
+| OUTREACH_WEEK1_TARGETS.md | MESSENGER_OUTREACH_GENESIS.md | ✅ applied |
+| PROSPECT_QUESTIONS_PREP.md | COVENANT_INQUIRY_CODEX.md | ✅ applied |
 
-### **Sensitive Documents (PRIVATIZED):**
-```
-✅ SELL_MYTHARA_FAST_EXIT_STRATEGY.md → PRIVATE/MYTHARA_STRATEGIC_TRANSITIONS.md
-```
+### **Sensitive Documents:**
+| Old | New | Status (Sept 2026) |
+|-----|-----|-------------------|
+| SELL_MYTHARA_FAST_EXIT_STRATEGY.md | PRIVATE/MYTHARA_STRATEGIC_TRANSITIONS.md | ⚠️ **not found in archive** (no `PRIVATE/` directory exists) |
 
 ---
 
 ## 🔧 CODE REFACTORING STATUS
 
-### **Phase 1: File & Directory Renames (✅ COMPLETED)**
-- 27 markdown files renamed
-- 1 directory renamed (pilot_package → genesis_sanctum)
-- 3 test files renamed
-- 1 sensitive file moved to PRIVATE/
+### **Phase 1: File & Directory Renames (⚠️ PARTIALLY APPLIED — corrected Sept 2026)**
+- Applied: the renames marked ✅ in the mapping table above (verified on disk)
+- NOT applied: `pilot_package/ → genesis_sanctum/` (directory not found), `PRIVATE/` move (directory not found), and the `_v1.0`-suffixed targets marked ⚠️ above
+- Counts from the Nov 2025 draft ("27 markdown files renamed", "3 test files renamed") describe intent, not verified state
 
 ### **Phase 2: Code References (⏳ IN PROGRESS)**
 
@@ -119,18 +118,16 @@ This repository has undergone comprehensive legal terminology rebranding to elim
 
 ---
 
-## ⚖️ LEGAL PROTECTION ACHIEVED
+## ⚖️ LEGAL PROTECTION *(qualitative, Nov 2025 — unverifiable "reduction" percentages removed Sept 2026)*
 
-| Risk Category | Before | After | Reduction |
-|---------------|--------|-------|-----------|
-| FDA/Medical Regulation | 🔴 HIGH | 🟢 LOW | -85% |
-| Criminal Law Terminology | 🔴 HIGH | 🟢 LOW | -90% |
-| False Advertising Claims | 🟡 MEDIUM | 🟢 LOW | -70% |
-| Trademark Dilution | 🟡 MEDIUM | 🟢 LOW | -80% |
-| Consumer Protection | 🟡 MEDIUM | 🟢 LOW | -60% |
-| Implied Warranty Liability | 🟡 MEDIUM | 🟢 LOW | -50% |
-
-**Overall Legal Risk Reduction: ~75%**
+| Risk Category | Before | After |
+|---------------|--------|-------|
+| FDA/Medical Regulation | 🔴 HIGH | 🟢 LOW |
+| Criminal Law Terminology | 🔴 HIGH | 🟢 LOW |
+| False Advertising Claims | 🟡 MEDIUM | 🟢 LOW |
+| Trademark Dilution | 🟡 MEDIUM | 🟢 LOW |
+| Consumer Protection | 🟡 MEDIUM | 🟢 LOW |
+| Implied Warranty Liability | 🟡 MEDIUM | 🟢 LOW |
 
 ---
 
@@ -191,8 +188,8 @@ This repository has undergone comprehensive legal terminology rebranding to elim
 ## 📞 MIGRATION SUPPORT
 
 **Questions about terminology changes?**
-- Refer to: `LEGAL_REVIEW_LABELS_REBRANDING.md` (comprehensive 27-page analysis)
-- Contact: Herbert Velez Jr. (Mythara Labs LLC — planned)
+- Refer to: `LEGAL_REVIEW_LABELS_REBRANDING.md` (comprehensive analysis)
+- Contact: Herbert Velez Jr.
 
 **Need old file names?**
 - Git history preserves all previous names
@@ -216,19 +213,19 @@ This migration eliminates **terminology that creates legal risk** but does **NOT
 ---
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Herbert Velez Jr. (Mythara Labs LLC planned — not yet formed) - All Rights Reserved**
+**Herbert Velez Jr. — All Rights Reserved** *(Mythara Labs LLC: formation filed Sept 27, 2026 — pending completion)*
 
 ---
 
-## 🔐 INTEGRITY VERIFICATION
+## 🔐 INTEGRITY VERIFICATION *(claims from the Nov 2025 draft — not independently verified)*
 
-This migration maintains:
-- ✅ All copyright headers intact
-- ✅ All forensic hashes unchanged (SHA-256, PGP signatures)
-- ✅ All functional capabilities preserved
-- ✅ All API endpoints backward-compatible (via aliasing)
-- ✅ All database integrity maintained
-- ✅ All sanctification proofs valid
+The migration claimed to maintain:
+- Copyright headers intact
+- Forensic hashes unchanged (SHA-256, PGP signatures)
+- Functional capabilities preserved
+- API endpoints backward-compatible
+- Database integrity maintained
+- Sanctification proofs valid
 
 **Migration Integrity Hash:**  
 `SHA-256: [To be computed after final attorney review]`

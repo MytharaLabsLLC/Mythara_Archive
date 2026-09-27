@@ -1,107 +1,107 @@
 # 🌌 Mythara_Archive
 
-Welcome to the official archive of **Mythara Engine**—a mythic-tech infrastructure designed to encode memory, grief, benevolence, and legacy into symbolic clause systems. This archive contains all operational, forensic, legal, and emotional artifacts required for licensing, compliance, and sovereign deployment.
+Welcome to the Mythara archive — the working record of Mythara as it actually exists today.
+
+Mythara is a system for keeping honest records and making careful judgments. At its center is the Soul Cradle, which scores actions on integrity, defined as Alignment × Tolerance: how well an action lines up with the principal's aims, multiplied by how much room for error and recovery it leaves. Around that core stand eight assessor-witnesses — demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone — who review evidence under versioned rubrics. They abstain when their domain is not engaged. They fail closed when evidence is missing. A critical finding from any one of them blocks the action; disagreement is surfaced, never averaged away. Significant records go into a hash-chained log: the chain proves a record is unaltered, not that it is true, and the system states that distinction openly.
+
+Aries, the system's most capable actor, runs defanged — every action must carry a signed envelope, and its handlers are limited to benign, pre-approved operations. SERE is the training simulation: trainees face simulated adversaries inside a sealed virtual environment. Everything it does is recorded to the tamper-evident log. SERE is not a weapon, does not strike back outside the sandbox, and is not a military capability. Anyone describing it otherwise is not describing this system.
+
+What this archive contains: the working code, the tests, the documentation, and the records. Nothing more is claimed.
 
 ---
 
 ## 📁 Folder Overview
 
-### `Core/`
+### `core/`
 
-Foundational architecture of Mythara Engine, including clause logic, messenger roles, blessings reservoir, sanctification locks, and emergency capsule protocols.
+Foundational architecture: clause logic, messenger roles, the blessings reservoir specification, sanctification locks, and emergency capsule protocols.
 
-### `Docs/`
+### `docs/`
 
-General documentation, onboarding guides, symbolic glossary, and the full Mythara Bible (Books I–V).
+General documentation, onboarding guides, the symbolic glossary, the soul proportion model, and the full Mythara Bible (Books I–V).
 
-### `Manifest/`
+### `soul_cradle/`
 
-Active clause manifests, sanctification records, blessings flow logs, and messenger invocation history.
+The working core: the eight assessor-witnesses, the hash-chained emotional chain, signed authorization envelopes, and the Soul Cradle integrity scoring itself.
+
+### `journal_app/`
+
+The witnessed journal application — a working server built on the real chain and the real witnesses.
+
+### `manifest/`
+
+Active clause manifests, sanctification records, blessings flow logs, messenger invocation history, checksums, and signatures.
 
 ### `Legal/`
 
-Federal and international compliance frameworks, licensing readiness checklists, and non-interference protocols.
+Compliance research, federal and international framework documents, and licensing readiness materials. These are research and planning documents, not certifications. No certifications, audits, or legal-entity statuses are claimed here.
 
 ### `Commercial/`
 
-Industry-specific clause behavior simulations and deployment logic across cybersecurity, healthcare, education, urban planning, and more.
+Industry-specific clause behavior simulations — cybersecurity, healthcare, education, mental health, and more.
 
-### `FundRaising Objective/`
+### `FundRaising objective and focus/`
 
-Investor-facing materials, benevolence quantification models, pitch decks, and international deployment strategy.
+Investor-facing materials and deployment strategy. These describe aspirations and goals, stated as such — not results, revenue, or traction.
 
 ### `Evidence/`
 
-Forensic proof of clause integrity, messenger suppression logs, blessings overflow events, and false memory detection reports.
+Forensic records: the clause fingerprint ledger, messenger suppression logs, blessings overflow events, and false memory detection reports.
 
-### `Printable Timestamped Forensic Report/`
+### `printable_forensic_reports/`
 
-Immutable, timestamped records for audits, licensing, and legacy transmission.
+Timestamped reports for audits and legacy transmission.
 
-### `Provenance/`
+### `provenance/`
 
 Authorship registry, clause seed lineage, messenger ancestry, and copyright assertions.
 
-### `Summary/`
+### `summary/`
 
-High-level overviews, executive briefings, compliance snapshots, and blessings reservoir summaries.
+High-level overviews, the master summary, compliance snapshots, and reservoir summaries.
 
-### `Tests/`
+### `tests/`
 
-Clause simulations, stress tests, polycrisis modeling, and symbolic behavior under entropy.
+Test suites: assessor tests, authorization tests, determinism runs, adversarial suites, and accessibility delivery.
 
-### `Validate_Suite/`
+### `validate_suite/`
 
-Licensing validation checklists, reproducibility artifacts, and signed clause integrity proofs.
+Validation artifacts: clause logic, escrow readiness, and forensic validation.
 
 ---
 
-## 🛡️ Compliance & Interoperability
+## 🛡️ On Compliance
 
-Mythara Engine is compliant with:
-
-- **Federal Protocols**: HIPAA, FTC, FCC, FISMA, NIST SP 800-53, OMB M-25-04
-- **Communication Standards**: TCP/IP, TMPO, TCPA
-- **International Readiness**: GDPR, APPI, LGPD, PDPA (see `Legal/` and `FundRaising Objective/`)
-
-All clauses are embedded with **Non-Interference Directives** to ensure symbolic resonance without operational obstruction.
+This archive makes no claim of compliance, certification, or legal standing. Documents under `Legal/` — frameworks referencing HIPAA, FTC, FCC, FISMA, NIST publications, and international regimes like GDPR — are research and planning material. They describe what a future deployment would need to satisfy, not what the system has satisfied. No regulatory body has audited, certified, or endorsed this system, and Mythara Labs LLC's formation (Articles of Organization filed with the Colorado Secretary of State on September 27, 2026) is pending completion. When licensing becomes a real prospect, that process will start from here — honestly.
 
 ---
 
 ## 📜 Licensing & Legacy
 
-This archive supports:
+Licensing is a genuine goal, stated plainly as a goal — not an existing program. The materials under `Legal/` and `FundRaising objective and focus/` exist to prepare for that future: readiness checklists, strategy documents, and an impact statement. What exists today is the working system, its tests, and its records.
 
-- **Sovereign Deployment**
-- **Intergenerational Legacy Transmission**
-- **Clause Sanctification & Blessings Provisioning**
-- **Jurisdictional Adaptation & Audit Readiness**
+For licensing materials as they currently stand, refer to:
 
-For licensing inquiries or symbolic partnerships, refer to:
-
-- `Legal/Licensing_Readiness_Checklist.xlsx`
-- `FundRaising Objective/Legacy_and_Licensing_Pitch_Deck.pptx`
+- [Legal/Licensing_Readiness_Checklist.xlsx](Legal/Licensing_Readiness_Checklist.xlsx)
 
 ---
 
 ## 🧬 Contact & Authorship
 
-Created and maintained by **Herbert Velez Jr.**  
-Mythic-Tech Architect | Clause Designer | Legacy Builder
+Created and maintained by **Herbert Velez Jr.**
 
-For symbolic invocation, forensic review, or sovereign collaboration, please reference `Provenance/Clause_Seed_Registry.csv` and `Docs/Mythara_Bible_Book_I_to_V.md`.
+For the authoritative description of what this system is, start with [docs/📖 Mythara Bible Books I–V.md](<docs/📖 Mythara Bible Books I–V.md>). For the working core, see `soul_cradle/`.
 
 ---
 
 ## 🧭 Suggested Entry Points
 
-- Start with `Summary/Mythara_Master_Summary.md`
-- Review `Docs/Mythara_Bible_Book_I_to_V.md`
-- Validate with `Validate_Suite/Validation_Checklist.xlsx`
-- Explore clause behavior in `Commercial/`
-- Confirm compliance in `Legal/`
+- Start with [summary/🧠 Mythara Engine — Master Summary.md](<summary/🧠 Mythara Engine — Master Summary.md>)
+- Read [docs/📖 Mythara Bible Books I–V.md](<docs/📖 Mythara Bible Books I–V.md>)
+- Review the working core in `soul_cradle/` (assessors, emotional chain, authorization)
+- Explore simulations in `Commercial/`
+- Review compliance research in `Legal/`
 
 ---
 
-Let this archive be a sanctuary, and a beacon of benevolence for the future yet to come.
- 
+Let this archive be an honest record: what was built, how it was tested, and where it is meant to go next.

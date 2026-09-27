@@ -51,7 +51,7 @@ NEW: GENESIS_COVENANT_SAFEGUARDS.md
 - Multiple references in code/docs
 
 **Legal Risk:** ⚠️ **CRITICAL**
-- "Extortion" is a felony crime (18 USC § 871-876)
+- "Extortion" is a felony crime (18 U.S.C. § 875 and related provisions)
 - Using criminal terminology in product names could:
   - Attract unwanted regulatory attention
   - Imply Mythara facilitates criminal investigations (requires licenses)
@@ -560,18 +560,16 @@ patterns against the Soul Cradle integrity framework."
 
 ---
 
-## 📋 SECTION 9: RISK ASSESSMENT SUMMARY
+## 📋 SECTION 9: RISK ASSESSMENT SUMMARY *(qualitative, Nov 2025 — no percentages; the "reduction" figures have been removed because they were unverifiable estimates)*
 
-| Risk Category | Current Risk | Post-Rebranding Risk | Impact |
-|---------------|-------------|---------------------|--------|
-| FDA/Medical Regulation | 🔴 HIGH | 🟢 LOW | -85% |
-| Criminal Law Implications | 🔴 HIGH | 🟢 LOW | -90% |
-| False Advertising Claims | 🟡 MEDIUM | 🟢 LOW | -70% |
-| Trademark Dilution | 🟡 MEDIUM | 🟢 LOW | -80% |
-| Consumer Protection | 🟡 MEDIUM | 🟢 LOW | -60% |
-| Contract Liability | 🟡 MEDIUM | 🟢 LOW | -50% |
-
-**Overall Legal Risk Reduction: 75%**
+| Risk Category | Current Risk | Post-Rebranding Risk |
+|---------------|-------------|---------------------|
+| FDA/Medical Regulation | 🔴 HIGH | 🟢 LOW |
+| Criminal Law Implications | 🔴 HIGH | 🟢 LOW |
+| False Advertising Claims | 🟡 MEDIUM | 🟢 LOW |
+| Trademark Dilution | 🟡 MEDIUM | 🟢 LOW |
+| Consumer Protection | 🟡 MEDIUM | 🟢 LOW |
+| Contract Liability | 🟡 MEDIUM | 🟢 LOW |
 
 ---
 
@@ -614,7 +612,7 @@ patterns against the Soul Cradle integrity framework."
 
 ## ⚖️ LEGAL DISCLAIMER
 
-This review is provided for strategic planning purposes and does not constitute legal advice. Herbert Velez Jr. (Mythara Labs LLC planned — not yet formed) must retain licensed attorneys in relevant jurisdictions to:
+This review is provided for strategic planning purposes and does not constitute legal advice. Herbert Velez Jr. (Mythara Labs LLC: Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion) must retain licensed attorneys in relevant jurisdictions to:
 
 1. Review all contract templates and terms of service
 2. Conduct trademark clearance searches
@@ -627,4 +625,19 @@ This review is provided for strategic planning purposes and does not constitute 
 ---
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Mythara Labs LLC (planned) - Proprietary Strategic Document**
+**Proprietary Strategic Document** *(Mythara Labs LLC: formation filed Sept 27, 2026 — pending completion)*
+
+---
+
+## 📋 SEPT 2026 VERIFICATION NOTE
+
+Verified against this archive (Sept 2026): several renames this review recommended were **not applied**. The following recommended targets do **not** exist on disk — do not reference them as if they do:
+
+- `MYTHARA_ENTERPRISE_COVENANT_AGREEMENT.md` (recommended from `MYTHARA_GOVERNANCE_LICENSE_AGREEMENT.md`)
+- `genesis_sanctum/` directory (recommended from `pilot_package/`)
+- `UNIVERSAL_ACCESS_COVENANT_v1.0.md`
+- `GLOBAL_SOVEREIGNTY_FRAMEWORK_v1.0.md` (note: `GLOBAL_SOVEREIGNTY_FRAMEWORK.md` exists)
+- `COVENANT_INTEGRITY_FRAMEWORK_v1.0.md` (note: `COVENANT_INTEGRITY_FRAMEWORK.md` exists)
+- `WELLNESS_INTEGRATION_v1.0.md`
+- `INTERFACE_MANIFESTATION_v1.0.md`
+- `PRIVATE/MYTHARA_STRATEGIC_TRANSITIONS.md` (no `PRIVATE/` directory exists)
