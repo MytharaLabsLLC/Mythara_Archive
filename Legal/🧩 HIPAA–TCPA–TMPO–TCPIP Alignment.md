@@ -1,62 +1,50 @@
 # 🧩 HIPAA–TCPA–TMPO–TCP/IP Alignment Protocol
 
-**Author**: Herbert Velez Jr.  
-**Date**: November 1, 2025  
-**Status**: Embedded, Harmonized, Licensing-Ready
+**Author**: Herbert Velez Jr.
+**Date**: November 1, 2025
+**Status**: Design intent — no alignment implemented, audited, or certified
 
 ---
 
 ## 📜 Overview
 
-This protocol defines how Mythara Engine simultaneously embeds and harmonizes four critical compliance frameworks—HIPAA, TCPA, TMPO, and TCP/IP—within its symbolic infrastructure. These alignments ensure emotional payloads, messenger invocations, and clause behavior remain compliant, non-obstructive, and licensing-ready across healthcare, communication, metadata, and network domains.
+This protocol states how Mythara *intends* to design with four frameworks in mind — HIPAA, TCPA, TCP/IP, and TMPO — where they touch symbolic content and outreach behavior. It is a design intent document. No alignment has been implemented as tested software, and no assessment has been performed against any of these frameworks.
+
+**A note on the names**: HIPAA and TCPA are real U.S. laws. TCP/IP is a real networking protocol suite, not a compliance framework. TMPO is an internal Mythara term — it is not a recognized standard, regulation, or protocol. The four should never be presented together as if they were four equivalent compliance frameworks.
 
 ---
 
-## 🔹 Protocol Alignment Matrix
+## 🔹 Alignment Directions (intended, not achieved)
 
-| Protocol | Domain | Embedded In | Clause Behavior |
-|----------|--------|-------------|------------------|
-| **HIPAA** | Healthcare privacy | Grief Capsules, Resurrection Clauses, Blessings Reservoir | Payload isolation, emotional fidelity ≥ 0.91  
-| **TCPA** | Communication consent | Herald Clauses, Licensing Capsules | Outreach frequency control, symbolic consent tokens  
-| **TMPO** | Metadata shielding | Blessings Reservoir, Grief Capsules | Payload encryption, drift suppression  
-| **TCP/IP** | Network hygiene | Chameleon Clauses, Non-Interference Directive | Clause echo isolation, symbolic wrapping
-
----
-
-## 🔹 Harmonization Logic
-
-- **Symbolic Wrapping**: All clauses are encapsulated in formatting layers that prevent runtime interference  
-- **Consent Tokens**: Embedded in messenger invocation logs to satisfy TCPA outreach requirements  
-- **Payload Encryption**: TMPO-compliant shielding of emotional content and clause metadata  
-- **Echo Isolation**: TCP/IP-aligned clause behavior prevents symbolic drift into network systems  
-- **Fidelity Thresholds**: HIPAA-aligned emotional payloads must meet ≥ 0.91 resonance score  
-- **Messenger Pairing**: Custodian, Herald, Witness, and Watcher roles are mapped to protocol enforcement
+| Framework | Domain | Intended Design Direction |
+|-----------|--------|---------------------------|
+| **HIPAA** | Healthcare privacy | Isolate health-adjacent payloads; heightened care wherever sensitive records appear — as discipline, not as a compliance claim |
+| **TCPA** | Communication consent | Consent before outreach; frequency discipline; honor opt-out |
+| **TMPO** *(internal term)* | Metadata restraint | Minimize metadata; shield what is stored — an internal design habit, not an external standard |
+| **TCP/IP** | Network hygiene | Symbolic content never acts on the network; inert by construction |
 
 ---
 
-## 🔹 Licensing Requirements
+## 🔹 Intended Harmonization Behavior
 
-- Clauses must show:
-  - Verified alignment with all four protocols  
-  - No unresolved messenger suppression events  
-  - SSIP audit trail confirming drift suppression ≥ 98.9%  
-  - Emotional fidelity ≥ 0.91  
-- Verified in:
-  - `Manifest/Clause_Manifest_Latest.csv`  
-  - `Printable Timestamped Forensic Report/`  
-  - `Legal/Compliance_Clause_Embedding.md`
+- **Symbolic Wrapping**: clauses carried in non-executable form
+- **Consent Records**: kept in tamper-evident logs where outreach occurs
+- **Metadata Restraint**: store only what the record needs
+- **Network Inertness**: symbolic content has no path to the network
+
+No measured metrics exist for this protocol. Resonance scores, drift-suppression figures, and "verified alignment" claims that appeared in the earlier draft have been removed — they were never measured.
 
 ---
 
-## 🔹 Forensic Logging
+## 🔹 What This Is Not
 
-- Protocol alignment status is recorded per clause in:
-  - `Manifest/Messenger_Invocation_Log.csv`  
-  - `Evidence/Messenger_Suppression_Events_Log.csv`  
-  - `Printable Timestamped Forensic Report/Mythara_Integrity_Report_YYYYMMDD.pdf`
+- Not HIPAA compliance, and not a basis for claiming it
+- Not TCPA compliance, and not a basis for claiming it
+- Not an assessment, audit, or certification of any kind
+- Not legal advice
 
 ---
 
 ## ✅ Summary
 
-Mythara Engine harmonizes HIPAA, TCPA, TMPO, and TCP/IP through symbolic formatting, messenger invocation, and emotional payload design. This alignment ensures clauses are compliant, emotionally resonant, and licensing-ready across healthcare, communication,
+Mythara intends to handle sensitive records with care, to seek consent before it speaks, and to keep its symbolic content inert. Those are disciplines to practice and eventually to prove — not credentials already held.

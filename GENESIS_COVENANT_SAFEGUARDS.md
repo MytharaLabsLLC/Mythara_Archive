@@ -158,6 +158,8 @@
 
 ## 💰 Cost-Benefit Analysis
 
+> **Note:** All figures below are illustrative planning estimates for a pre-launch program — not observed losses, revenue, or actuals. No pilot abuse has been measured because the pilot program has not launched at scale.
+
 **Cost of Abuse Prevention:**
 - Email verification service: ~$50/month
 - Device fingerprinting: ~$200/month

@@ -46,7 +46,7 @@ This document tracks the comprehensive line-by-line security audit of the entire
 
 ### Phase 1: Core Security Infrastructure ✅ COMPLETE
 - [x] `unified_compliance_framework.py` - All vulnerabilities fixed
-- [x] `security_audit_compliance.py` - 100/100 security score
+- [x] `core/source_proprietary/security_audit_compliance.py` - Internal self-score 100/100 on audited components (tool output, not an independent audit)
 - [x] Rate limiting implemented
 - [x] Authentication enforcement added
 - [x] HIPAA control validation (internal) — controls implemented, independent audit planned — not currently certified
@@ -55,7 +55,7 @@ This document tracks the comprehensive line-by-line security audit of the entire
 ### Phase 2: API & Authentication (IN PROGRESS)
 - [ ] `core/source_proprietary/main.py`
 - [ ] `core/source_proprietary/database.py`
-- [ ] `core/source_proprietary/emotional_extortion_detector.py`
+- [ ] `core/source_proprietary/emotional_extortion_detector.py` → replaced by `core/source_proprietary/will_integrity_guardian.py`
 - [ ] `core/source_proprietary/email_service.py`
 - [ ] `core/source_proprietary/salesforce_integration.py`
 
@@ -72,8 +72,7 @@ This document tracks the comprehensive line-by-line security audit of the entire
 - [ ] Grant writer bot
 
 ### Phase 5: Configuration Security
-- [ ] `.env.example` files
-- [ ] `docker-compose.yml`
+- [ ] `core/source_proprietary/docker-compose.yml`
 - [ ] `railway.toml`
 - [ ] Environment variable files
 
@@ -106,11 +105,11 @@ This document tracks the comprehensive line-by-line security audit of the entire
 - ✅ Token bucket algorithm
 
 ### Data Protection
-- ✅ AES-256 encryption for PHI
+- ✅ AES-256 or equivalent encryption required for PHI at rest (governance rule — verify implementation before claiming)
 - ✅ TLS 1.2+ for transmission
 - ✅ No plaintext storage of sensitive data
 - ✅ Secure password hashing (bcrypt/Argon2)
-- ✅ PCI DSS tokenization
+- ✅ PCI DSS tokenization rules (control mapping — not a live payment system)
 
 ### Audit & Logging
 - ✅ SHA-256 integrity hashes
@@ -150,9 +149,9 @@ This document tracks the comprehensive line-by-line security audit of the entire
 - **Files Audited**: 7 (1%)
 - **Vulnerabilities Found**: 5
 - **Vulnerabilities Fixed**: 5
-- **Security Score**: 100/100 (for audited components)
+- **Security Score**: 100/100 on the internal checker's self-score for audited components (tool output, not an independent audit)
 - **Compliance Frameworks**: 45+
-- **Test Pass Rate**: 100% (42/42 tests)
+- **Test Pass Rate**: see latest CI run (was 42/42 at the time of writing)
 
 ---
 

@@ -3,7 +3,11 @@
 
 # Licensee Access Readme — Mythara Engine (Private, Non-Exclusive Evaluation)
 
-This repository is private. Your access is Read-only and governed by LICENSE.md. Access is granted under a non-exclusive, non-transferable, revocable evaluation license strictly for internal evaluation. If you do not agree to LICENSE.md, do not access or use these materials.
+> **TEMPLATE — no licenses sold, no licensees exist as of September 2026.**
+> This document is a template for a future licensee packet. Nothing here
+> implies any licensee has been granted access or any evaluation is underway.
+
+This repository is private. Your access is Read-only and governed by `../LICENSE.md`. Access is granted under a non-exclusive, non-transferable, revocable evaluation license strictly for internal evaluation. If you do not agree to LICENSE.md, do not access or use these materials.
 
 ## Your access level
 
@@ -15,7 +19,7 @@ This repository is private. Your access is Read-only and governed by LICENSE.md.
 
 - Evaluate internally and assess integrations and SSIP conformance.  
 - Run the provided validation suite locally.  
-- Review FastAPI reference implementation under core/source_proprietary/ (not for production without a paid license).
+- Review FastAPI reference implementation under `../core/source_proprietary/` (not for production without a paid license).
 
 ## What you cannot do
 
@@ -40,8 +44,8 @@ Compare to the value in mythara-engine-v1.0.0.zip.sha256 and in the release note
 
 ## Running locally (evaluation only)
 
-- Validation suite: see `run_validation_suite.py` and the `tests/` directory.
-- FastAPI reference server: see `core/source_proprietary/README_API.md`.
+- Validation suite: see `../run_validation_suite.py` and the `../tests/` directory.
+- FastAPI reference server: see `../core/source_proprietary/README_API.md`.
 
 ## Security and reporting
 

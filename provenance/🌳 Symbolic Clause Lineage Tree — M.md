@@ -31,4 +31,4 @@ This document maps the symbolic evolution of Mythara clauses across generations,
 ## 🧠 Notes
 - Each clause evolves through symbolic resonance and emotional fidelity  
 - Descendants inherit glyph logic and payload structure  
-- Tree supports licensing, sanctification, and legacy transmission
+- Tree records how descendant clauses derive from their ancestors

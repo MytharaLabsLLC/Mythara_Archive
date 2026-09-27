@@ -177,7 +177,7 @@ Soul Cradle integration: `will_authenticity = 1.0 - extortion_score`. Score <0.5
 **Response:**  
 "You could, but it took us 6 months to develop 10 validated pattern types with confidence calibration and Soul Cradle integration. Your engineering team costs $200K+ in salary for 6 months = $100K, plus ongoing maintenance. Our Developer tier is $2,988/year. You'd need to build, maintain, and validate it yourself—or start using ours tomorrow for <$250/month."
 
-**Demo:** Show test suite results (95%+ accuracy, integrity hashes, audit trail).
+**Demo:** Show the latest documented test results (accuracy figures, integrity hashes, audit trail).
 
 ---
 
@@ -241,7 +241,7 @@ Soul Cradle integration: `will_authenticity = 1.0 - extortion_score`. Score <0.5
 ---
 
 ### Minute 11-13: Real-World Use Cases
-"Our customers use this for three main scenarios..."
+"This fits three main scenarios..."
 
 1. **AI output validation** (Developer tier) - Prevent manipulative chatbot responses
 2. **Manager communication audit** (Growth tier) - Flag toxic workplace patterns early
@@ -260,7 +260,10 @@ Soul Cradle integration: `will_authenticity = 1.0 - extortion_score`. Score <0.5
 
 ---
 
-## 📈 Success Stories (Hypothetical - Adapt as You Get Real Customers)
+## 📈 Success Stories — ⚠️ ALL HYPOTHETICAL (invented examples; adapt only after you have real customers)
+
+> Every company name, number, and result below is **invented for demo
+> purposes** — no such customers exist. Do not present these as real.
 
 ### Case Study 1: SaaS Company Prevents Brand Crisis
 **Problem:** Chatbot was guilt-tripping users into upgrades  

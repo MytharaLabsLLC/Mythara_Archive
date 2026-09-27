@@ -1,4 +1,6 @@
 # What is Mythara Engine?
+> DRAFT SCRIPT — unproduced. References a planned $49/7-day pilot that was never built or launched. No signup or payment flow exists.
+
 Duration: 90 seconds
 
 ## Script

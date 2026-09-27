@@ -14,7 +14,7 @@ Quick reference for adding Mythara products to your POS system.
 - **SKU:** MYTH-AUDIT-001
 - **Price:** $2,500 (Early adopter: $500)
 - **Category:** Professional Services
-- **Icon:** `assets/glyphs_png/dark/128/ssip_audit.png`
+- **Icon:** `assets/glyphs/ssip_audit.svg`
 - **Track Inventory:** No (service)
 - **Tax:** Exempt (B2B professional service)
 
@@ -23,7 +23,7 @@ Quick reference for adding Mythara products to your POS system.
 - **SKU:** MYTH-SUB-MONTH
 - **Price:** $500/month (Early adopter: $300/month)
 - **Category:** SaaS Subscription
-- **Icon:** `assets/glyphs_png/dark/128/engine_subscription_monthly.png`
+- **Icon:** `assets/glyphs/engine_subscription_monthly.svg`
 - **Track Inventory:** No (digital service)
 - **Tax:** Exempt
 
@@ -32,7 +32,7 @@ Quick reference for adding Mythara products to your POS system.
 - **SKU:** MYTH-SUB-YEAR
 - **Price:** $5,000/year
 - **Category:** SaaS Subscription
-- **Icon:** `assets/glyphs_png/dark/128/engine_subscription_annual.png`
+- **Icon:** `assets/glyphs/engine_subscription_annual.svg`
 - **Track Inventory:** No (digital service)
 - **Tax:** Exempt
 
@@ -41,7 +41,7 @@ Quick reference for adding Mythara products to your POS system.
 - **SKU:** MYTH-ENT-YEAR
 - **Price:** $25,000/year
 - **Category:** Enterprise
-- **Icon:** `assets/glyphs_png/dark/128/enterprise_license.png`
+- **Icon:** `assets/glyphs/enterprise_license.svg`
 - **Track Inventory:** No (digital service)
 - **Tax:** Exempt
 
@@ -50,7 +50,7 @@ Quick reference for adding Mythara products to your POS system.
 - **SKU:** MYTH-CUSTOM-001
 - **Price:** $10,000 one-time
 - **Category:** Custom Development
-- **Icon:** `assets/glyphs_png/dark/128/custom_clause_dev.png`
+- **Icon:** `assets/glyphs/custom_clause_dev.svg`
 - **Track Inventory:** No (service)
 - **Tax:** Exempt
 
@@ -59,7 +59,7 @@ Quick reference for adding Mythara products to your POS system.
 - **SKU:** MYTH-TRAIN-001
 - **Price:** $1,000 one-time
 - **Category:** Training
-- **Icon:** `assets/glyphs_png/dark/128/training_onboarding.png`
+- **Icon:** `assets/glyphs/training_onboarding.svg`
 - **Track Inventory:** No (service)
 - **Tax:** Exempt
 
@@ -68,7 +68,7 @@ Quick reference for adding Mythara products to your POS system.
 - **SKU:** MYTH-VOIP-2026
 - **Price:** $1,500,000 one-time
 - **Category:** Enterprise Software
-- **Icon:** `assets/glyphs_png/dark/128/voip_bot_license.png`
+- **Icon:** `assets/glyphs/voip_bot_license.svg`
 - **Track Inventory:** No (digital license)
 - **Tax:** Exempt
 
@@ -124,17 +124,18 @@ Name,SKU,Price,Category,Tax,Track Inventory
 
 ## Icon Setup Instructions
 
-1. **Download icons from:**
-   - `Commercial/assets/glyphs_png/dark/128/` folder
+Icons ship as SVG in `Commercial/assets/glyphs/` (e.g. `ssip_audit.svg`, `engine_subscription_monthly.svg`). The PNG variants at `Commercial/assets/glyphs_png/dark/128/` referenced below are not currently in the repo — export the SVGs to 128×128 PNG before uploading, or upload the SVG directly if Loyverse accepts it.
+
+1. **Icon source:** `Commercial/assets/glyphs/` folder (SVG)
    
 2. **In Loyverse:**
    - Go to each product
    - Click "Edit"
-   - Upload icon from the folder
-   - Choose 128×128 dark version (best for POS screens)
+   - Upload the icon (exported 128×128 PNG from the SVG, or the SVG itself)
+   - Choose the dark variant for POS screens (best for POS screens)
 
 3. **For light mode displays:**
-   - Use `Commercial/assets/glyphs_png/light/128/` folder
+   - Export the SVG to a light variant — the `glyphs_png/light/` PNG set is not in the repo either.
 
 ---
 

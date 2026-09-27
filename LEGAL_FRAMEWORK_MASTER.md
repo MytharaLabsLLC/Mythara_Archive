@@ -263,7 +263,7 @@ No indemnification is currently offered on any tier. No insurance backs this sof
 
 ## 5. ENTITY NAME CONSISTENCY
 
-> **Status note (Sept 27, 2026):** Articles of Organization for Mythara Labs LLC were **filed with the Colorado Secretary of State on September 27, 2026 — formation pending completion**. Until formation completes, LICENSE.md and COPYRIGHT.md continue to name Herbert Velez Jr. as sole proprietor with no company behind the software. The "Option A (form the LLC)" recommendation below is **now in progress**.
+> **Status note (Sept 27, 2026):** Articles of Organization for Mythara Labs LLC filing was **attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; formation incomplete**. Until formation completes, LICENSE.md and COPYRIGHT.md continue to name Herbert Velez Jr. as sole proprietor with no company behind the software. The "Option A (form the LLC)" recommendation below is **now in progress**.
 
 **IMMEDIATE CORRECTION REQUIRED:**
 
@@ -278,22 +278,22 @@ All documents must use CONSISTENT entity name:
 **Option B: Keep Sole Proprietorship**
 - Use "Mythara Engine, a sole proprietorship of Herbert Velez Jr." everywhere
 - Remove all "Mythara Labs LLC" references
-- Update terms.html to match LICENSE.md/COPYRIGHT.md
+- Update core/static/terms.html to match LICENSE.md/COPYRIGHT.md
 - Advantage: Simpler structure, no formation costs
 
 **RECOMMENDED: Option A (Form LLC)**
 - Provides liability protection
 - More credible to enterprise customers
 - Easier to raise capital or sell business later
-- Costs: ~$1,000 formation + $800/year franchise tax (CA)
+- Costs: formation costs per the Colorado Secretary of State's current schedule (verify before budgeting — the prior California figures, including the $800/year franchise tax, do not apply)
 
 **IMPLEMENTATION:**
-1. Complete LLC formation — Articles of Organization filed with the Colorado Secretary of State on September 27, 2026; confirm acceptance and complete remaining steps
+1. Complete LLC formation — Articles of Organization filing attempted with the Colorado Secretary of State on September 27, 2026 (not confirmed); confirm acceptance and complete remaining steps
 2. Obtain EIN from IRS
 3. Transfer IP via assignment agreement (Herbert Velez Jr. → Mythara Labs LLC)
-4. Update all documents (LICENSE.md, COPYRIGHT.md, terms.html, contracts)
+4. Update all documents (LICENSE.md, COPYRIGHT.md, core/static/terms.html, contracts)
 5. Update Stripe account, banking, contracts with customers
-6. Notify existing customers of entity change (no impact to their contracts)
+6. Notify existing customers of entity change (no impact to their contracts) — none exist as of Sept 2026; skip this step if still none
 
 ---
 
@@ -337,16 +337,16 @@ All documents must use CONSISTENT entity name:
 ### Immediate (Block all sales until fixed):
 - [ ] Decide entity structure (LLC or Sole Proprietorship)
 - [ ] Update all documents for entity name consistency
-- [ ] Rewrite terms.html with corrected pricing, refund policy, indemnification
-- [ ] Update widget.js responses to avoid warranty-conflicting language
-- [ ] Update pricing.html to remove "bulletproof" and warranty-implying claims
+- [ ] Rewrite core/static/terms.html with corrected pricing, refund policy, indemnification
+- [ ] Update core/static/widget.js responses to avoid warranty-conflicting language
+- [ ] Update core/static/pricing-video-demo.html and pricing-video-v2.html to remove "bulletproof" and warranty-implying claims
 
 ### Short-term (Before any customer signs):
 - [ ] Form Soul Cradle Foundation (planned 501(c)(3) nonprofit — not yet formed)
-- [x] Draft IP assignment agreement (Herbert Velez Jr. → Mythara Labs LLC upon formation — template at `Legal/IP_Assignment_Agreement.md`; awaiting counsel review; Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, formation pending completion)
+- [x] Draft IP assignment agreement (Herbert Velez Jr. → Mythara Labs LLC upon formation — template at `Legal/IP_Assignment_Agreement.md`; awaiting counsel review; Articles of Organization filing attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; formation incomplete)
 - [ ] Obtain E&O and cyber liability insurance (backs indemnification) — no insurance currently maintained; obtain only if indemnification is introduced in future
 - [ ] Retain attorney to review complete legal framework
-- [x] LICENSE.md now reflects the actual structure (sole proprietor Herbert Velez Jr.; no company formed) — supersedes the original "dual-entity" update item
+- [x] LICENSE.md now reflects the actual structure (Herbert Velez Jr.; no company formed — LLC formation filing attempted Sept 27, 2026 — not confirmed; entity not yet formed) — supersedes the original "dual-entity" update item
 
 ### Medium-term (Operational):
 - [ ] Create foundation application process and qualification criteria
@@ -377,7 +377,7 @@ All documents must use CONSISTENT entity name:
 Herbert Velez Jr. / Mythara Enterprise should retain qualified legal counsel licensed in Colorado to:
 1. Review and approve this framework
 2. Draft enforceable contracts
-3. Complete entity formation (LLC formation in progress in Colorado — filed Sept 27, 2026, pending completion; Foundation not formed)
+3. Complete entity formation (LLC formation in progress in Colorado — filing attempted Sept 27, 2026 — not confirmed; entity not yet formed; Foundation not formed)
 4. Negotiate insurance policies
 5. Ensure compliance with all applicable laws
 

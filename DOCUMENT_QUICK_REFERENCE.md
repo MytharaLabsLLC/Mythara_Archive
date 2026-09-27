@@ -178,10 +178,10 @@ print(response)
 ## Key Features
 
 ✅ **SHA-256 Timestamping** - All documents cryptographically timestamped  
-✅ **Tamper-Proof** - Integrity hash detects any modifications  
-✅ **Court-Ready** - Professional legal formatting  
-✅ **Forensic Audit Trail** - Blockchain-level integrity  
-✅ **Admissible Evidence** - Timestamps valid in court  
+✅ **Tamper-Evident** - Integrity hash detects any modifications  
+✅ **Professional legal formatting**  
+✅ **Forensic Audit Trail** - Hash-chained integrity trail  
+✅ **Timestamped Records** - SHA-256 timestamps support the evidentiary trail (admissibility is determined by the court)  
 
 ## Common Workflows
 

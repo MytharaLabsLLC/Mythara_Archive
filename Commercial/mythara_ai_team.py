@@ -180,8 +180,8 @@ class MarketingBot:
         return {
             "best_performing_subject_lines": [
                 "Quick question about {{company}}'s AI validation process",
-                "How {{company}} can cut compliance time by 75%",
-                "{{name}}, your competitors are using this..."
+                "How {{company}} handles AI compliance validation today",
+                "{{name}}, question about your AI governance approach"
             ],
             "best_performing_industries": ["Banking", "Healthcare"],  # Highest reply rates
             "optimal_send_times": {
@@ -296,7 +296,7 @@ class SalesTrainerBot:
                 training_update["tactics_to_amplify"].append({
                     "tactic": "urgency",
                     "reason": f"{urgency_count}/{len(successful)} successful convos used urgency",
-                    "recommendation": "Use scarcity ('2 slots left') in EVERY interested response"
+                    "recommendation": "Tie timing to the prospect's audit calendar in interested responses (never invent slots or deadlines)"
                 })
         
         # What didn't work in failed conversations?
@@ -437,7 +437,7 @@ class GrowthStrategyBot:
         if "Healthcare" not in current_industries:
             levers.append({
                 "lever": "expand_to_healthcare",
-                "reasoning": "Healthcare AI validation is $500M market (FDA regulations)",
+                "reasoning": "Healthcare AI validation is a large, growing market driven by FDA regulations (rough estimate — verify before planning)",
                 "tactics": [
                     "Build healthcare case studies",
                     "Partner with health IT conferences",
@@ -450,7 +450,7 @@ class GrowthStrategyBot:
         # Lever 3: Launch VoIP bot (Q1 2026)
         levers.append({
             "lever": "voip_bot_launch",
-            "reasoning": "Voice = 50% better conversion than email",
+            "reasoning": "Voice calls tend to convert better than email — test this assumption before investing",
             "tactics": [
                 "Build in Q1 2026 (after $10k revenue)",
                 "Offer $1.5M source code licensing to 1 enterprise buyer",
@@ -660,9 +660,9 @@ Here's what every bank needs to know:
 
 Most banks are still using spreadsheets and manual documentation. 😬
 
-That's why we built Mythara — automated model governance that auditors actually accept.
+That's why we built Mythara — automated model governance that gives auditors a tamper-evident trail to review.
 
-Same rigor, 75% faster.
+Same rigor, less manual work.
 
 If you're in banking/fintech and dealing with model risk management, let's talk.
 
@@ -671,7 +671,7 @@ If you're in banking/fintech and dealing with model risk management, let's talk.
         
         elif pillar == "Customer Success Stories":
             return """
-📊 Illustrative Example (hypothetical): How a Bank Could Cut AI Validation Time by 75%
+📊 What a deployment like this COULD look like (illustrative — not a real client)
 
 The Challenge:
    - 6 weeks to validate each AI model
@@ -683,10 +683,10 @@ The Solution (Mythara):
    - Tamper-evident audit trail
    - Automated compliance reporting
 
-The Results:
-   ✅ 6 weeks → 8 days (75% faster)
-   ✅ Zero audit findings (auditors loved the crypto seals)
-   ✅ 3 models deployed vs 1 in same timeframe
+What it could produce (goals for a real deployment, not results):
+   ✅ Faster validation cycles (target: weeks, not months)
+   ✅ Cleaner audits (auditors get crypto-sealed evidence)
+   ✅ More models through the pipeline in the same timeframe
 
 The secret? We don't replace your process. We make it auditable.
 
@@ -715,7 +715,7 @@ If you're a bank struggling with model governance, DM me.
                     "The 5-Step Model Validation Framework",
                     "Common Pitfalls (Spreadsheets, Email Trails, Manual Docs)",
                     "How Cryptographic Hashing Solves Integrity Problems",
-                    "Illustrative Example (hypothetical): How a Bank Could Cut Validation Time by 75%",
+                    "Illustrative Example (hypothetical): How a Bank Could Streamline Validation",
                     "Conclusion: Start with Tamper-Evident Seals"
                 ],
                 "cta": "Book a demo to see how Mythara automates model validation"
@@ -788,7 +788,7 @@ We need a Sales Engineer who can:
    ✅ Demo our product to CTOs and Chief Risk Officers
    ✅ Explain cryptographic hashing to non-technical buyers
    ✅ Close $50k-$500k enterprise deals
-   ✅ Build custom POCs for Fortune 500 prospects
+   ✅ Build custom POCs for enterprise prospects
 
 You're a great fit if:
    - You've sold technical products ($100k+ ACV)

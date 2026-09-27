@@ -41,7 +41,7 @@ class FullyAutomatedSalesBot:
                 "content": """
 # AI Compliance Readiness Assessment - Fully Automated
 
-**$500** (Regular $2,500) - Valid until Nov 15, 2025
+**$500** — flat early-adopter price.
 
 ## What You Get (Auto-Delivered in 5 Days):
 ✅ Cryptographic proof of AI model integrity
@@ -70,7 +70,7 @@ Questions? Email support@mythara.engine (auto-response bot, 1-hour reply time)
                 "content": """
 # Unlimited AI Readiness Assessments - $300/month
 
-**Early Adopter Rate** - Lock in $300/mo forever (Regular $500/mo)
+**Early Adopter Rate** - $300/mo flat, cancel anytime
 
 ## What You Get:
 ✅ Unlimited AI model validations
@@ -139,12 +139,12 @@ Questions? Email enterprise@mythara.engine (auto-response, human escalation if n
             "pricing": """
 Thank you for your inquiry about Mythara pricing.
 
-Our current offerings (early adopter rates until Nov 15, 2025):
+Our current offerings (early adopter rates):
 
-1. SSIP Compliance Readiness Assessment: $500 (reg. $2,500)
+1. SSIP Compliance Readiness Assessment: $500
    Payment: https://paypal.me/MytharaEngine/500
    
-2. Monthly Subscription: $300/mo (reg. $500/mo)
+2. Monthly Subscription: $300/mo
    Subscribe: https://paypal.me/MytharaEngine/300
    
 3. Enterprise License: $25,000/year

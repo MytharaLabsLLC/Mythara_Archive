@@ -1,4 +1,6 @@
 # How to Start Your Mythara Pilot
+> DRAFT SCRIPT — unproduced. Describes a planned $49/7-day pilot flow that was never built or launched. No signup or payment flow exists.
+
 Duration: 2 minutes
 
 ## Script

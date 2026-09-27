@@ -68,7 +68,9 @@ Simply ask Gopher for an attorney in natural language:
 
 ## Geographic Coverage
 
-Currently supported states:
+*(Prototype design doc: the attorney database currently holds no entries — the states below are planned coverage, not live referral coverage.)*
+
+Planned states:
 - **CA** - California
 - **NY** - New York
 - **TX** - Texas
@@ -206,6 +208,8 @@ def _handle_attorney_referral(self, query: str, entities: Dict, context: Convers
 ---
 
 ## Examples
+
+*(All example responses below are illustrative only — the attorney database currently holds no entries, so these responses do not reflect real listings.)*
 
 ### Example 1: Employment Law in California
 

@@ -3,8 +3,8 @@
 **Seed Round Presentation**
 **November 2, 2025** — historical record; product description updated 2026-09-27
 **Herbert Velez Jr., Founder**
-**Entity:** Mythara Labs LLC — formation filed with the Colorado Secretary of
-State on September 27, 2026, pending completion; member-managed; sole member
+**Entity:** Mythara Labs LLC — formation filing attempted with the Colorado Secretary of
+State on September 27, 2026 — not confirmed; entity not yet formed; member-managed; sole member
 Herbert Velez Jr.
 
 > ## ⚠️ INVESTOR NOTICE — READ FIRST

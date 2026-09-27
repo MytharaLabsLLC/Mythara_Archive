@@ -155,11 +155,11 @@ Some customers (especially enterprise) will say: "We need a licensing agreement 
 > - Support via email
 > - No liability for pilot/eval use
 > 
-> I can send it as a PDF or Word doc — whichever your legal team prefers. Most customers sign and return within 1–2 days.
+> I can send it as a PDF or Word doc — whichever your legal team prefers. (No customers yet — this is the playbook for when the first one arrives.)
 > 
 > Would you like me to send that over now?"
 
-**Then use the agreement template in `Licensee_Packet/Development_License_Agreement_Template.md`** (if it exists — if not, I can create one).
+**Then use a standard licensing agreement.** The repo does not currently ship a development-license template (`Licensee_Packet/` has only the invitation email and access README) — draft one or use a vetted template before a customer asks. A starting point for the agreement's content:
 
 ---
 
@@ -219,7 +219,7 @@ Thanks for moving forward with Mythara! Attached is your invoice for the 30-day 
 **Next steps:**
 1. Process payment via ACH or Zelle
 2. I'll send your private GitHub repo invite within 24 hours of payment clearing
-3. INSTALL.md will walk you through setup (10 minutes)
+3. Setup guide walks you through installation (10 minutes)
 
 **W-9:** Attached (if you need it for AP)
 

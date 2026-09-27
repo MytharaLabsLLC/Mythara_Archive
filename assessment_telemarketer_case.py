@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Soul Cradle Assessment: Real-World Case Analysis
-Using EQ = (G/T) × H formula to analyze telemarketer burnout trajectory
+Soul Cradle Assessment: Burnout Case Analysis
+Using EQ = (G/T) × H formula to analyze a telemarketer burnout trajectory
 
 Copyright © 2025 Herbert Velez Jr. All rights reserved.
 """
@@ -29,7 +29,7 @@ from soul_cradle_systems_framework import (
 
 def analyze_telemarketer_case():
     """
-    Real-world case: 4-year telemarketer trajectory
+    Case study: 4-year telemarketer trajectory
     
     Data:
     - Year 1: $35k income

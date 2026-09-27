@@ -411,7 +411,7 @@ Track these metrics to validate improvements:
    - Migrate to Kubernetes
    - Implement zero-downtime deployments
    - Build comprehensive observability dashboards
-   - Achieve SOC 2 Type II compliance
+   - Start SOC 2 Type II audit readiness (long-term aspiration — no certification held or claimed)
 
 ---
 

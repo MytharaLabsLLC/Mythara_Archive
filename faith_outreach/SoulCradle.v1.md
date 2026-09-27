@@ -7,7 +7,7 @@
 ## Module Classification
 - **Tier**: Faith & Legacy  
 - **Tag**: `FaithOrg-Deployable`  
-- **Status**: Production-Ready  
+- **Status**: Code-complete — API implemented in `../core/source_proprietary/main.py`; no production deployment yet  
 - **Deployment Mode**: Gift Core + Paid Scaffolding
 
 ---
@@ -33,6 +33,9 @@ Integrity Function:
   Alignment(C) = exp(-λ · distance(action, C))
   Tolerance(W) = 1 - |will_tension|
 ```
+
+### Implementation Note (as of September 2026)
+The `Cradle(S, W, C)` statement above is the operator's original formal definition. The implementation that exists today scores actions through eight evidence-fed assessor-witnesses (demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone) under versioned rubrics: they abstain when their domain is not engaged, they fail closed when evidence is missing, a critical finding from any one of them blocks the action, and disagreement is surfaced rather than averaged. Every judgment is content-hashed and chained to the record it judges (`../soul_cradle/assessors.py`). The faith-deployment API in `../core/source_proprietary/main.py` carries the endpoints specified below.
 
 ### Collapse Detection
 When paradox becomes unbearable:
@@ -165,6 +168,8 @@ Response: {
 
 ## Use Case: St. Jude Children's Research Hospital
 
+> **Illustrative use case only.** St. Jude is named as a familiar example of the kind of organization this framework is designed for. No engagement with St. Jude exists; no pilot or partnership has begun.
+
 ### Scenario
 St. Jude's mission: "Finding cures. Saving children."  
 **Core Paradox**: Treating children who may not survive, holding hope and grief together.
@@ -188,9 +193,9 @@ St. Jude's mission: "Finding cures. Saving children."
 ## Support & Documentation
 
 ### Included Resources
-- Operator installation guide (`docs/SOUL_CRADLE_OPERATOR.md`)
+- Operator installation guide (`../docs/SOUL_CRADLE_OPERATOR.md`)
 - API reference (`/api/docs`)
-- Test suite (`tests/test_soul_cradle.py`)
+- Test suite (`../tests/test_soul_cradle.py`)
 - Example mappings for healthcare, hospice, donor stewardship
 
 ### Contact

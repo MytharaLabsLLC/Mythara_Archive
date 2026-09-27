@@ -2,6 +2,12 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
+> **Document status (2026-09-27):** Internal 2025 setup draft. Claims below
+> like "production-ready" and "operational" are the author's internal
+> assessment, not a third-party audit or benchmark. No production
+> deployment, customers, or certifications exist. The Mythara Engine has not
+> been independently benchmarked.
+
 ---
 
 ## 🚀 QUICK START (5 Minutes)

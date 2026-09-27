@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Mythara Robustness Framework - Enterprise-Grade Reliability Patterns
+Mythara Robustness Framework - Reliability Patterns
 Database connection pooling, retry logic, input validation, logging, rate limiting
 
 Copyright © 2025 Herbert Velez Jr. All rights reserved.

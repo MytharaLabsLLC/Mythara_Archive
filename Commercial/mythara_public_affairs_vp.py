@@ -271,13 +271,14 @@ class MytharaPublicAffairsVP:
         In production: would integrate with Twitter API, Google Alerts, etc.
         """
         
-        # Simulated mentions (in production: actual API calls)
+        # Sample mentions (SIMULATED for testing — these are not real
+        # customer statements; no customer has implemented SSIP)
         sample_mentions = [
             {
                 'platform': 'twitter',
                 'sentiment': 'positive',
                 'reach': 5000,
-                'content': 'Just implemented @MytharaEngine SSIP - game changer for our security compliance!'
+                'content': 'Reading up on @MytharaEngine SSIP — interesting approach to AI safety guardrails.'
             },
             {
                 'platform': 'linkedin',
@@ -289,7 +290,7 @@ class MytharaPublicAffairsVP:
                 'platform': 'reddit',
                 'sentiment': 'positive',
                 'reach': 8000,
-                'content': 'Mythara symbolic integrity is exactly what AI safety needed. Impressed by the tech.'
+                'content': 'Mythara symbolic integrity writeup is a solid read on AI safety tooling.'
             }
         ]
         
@@ -449,7 +450,7 @@ FOR IMMEDIATE RELEASE
 {details.get('background', '')}
 
 About Mythara Engine:
-Mythara Engine provides symbolic safety integrity protocol (SSIP) orchestration for enterprise AI systems. Our proprietary technology ensures AI safety through cryptographic sanctification, emotional fidelity tracking, and zero-trust architecture.
+Mythara Engine builds symbolic safety integrity protocol (SSIP) tooling for enterprise AI systems. The approach combines cryptographic sanctification, emotional fidelity tracking, and zero-trust architecture. No certifications, customer counts, or revenue figures are claimed here.
 
 Contact:
 Mythara.Engine@yahoo.com
@@ -516,7 +517,7 @@ Mythara.Engine@yahoo.com"""
 Our SSIP (Symbolic Safety Integrity Protocol) uses cryptographic sanctification to ensure AI behavior remains within defined safety boundaries. Key features:
 
 • Zero-trust architecture with integrity hashing
-• SOC 2 Type II controls implemented, audit planned (not currently certified)
+• We are not SOC 2 certified — ask us for our current security documentation
 • GDPR/CCPA data protection
 • Immutable audit trails
 • Shadow Resolver failsafe mechanisms
@@ -725,13 +726,13 @@ if __name__ == "__main__":
     # Generate press release
     print("\n4. Generating press release...")
     press_release = vp.generate_press_release(
-        subject="Mythara Engine Secures $2.5M Seed Round for AI Safety Technology",
+        subject="Mythara Engine Ships Symbolic Safety Integrity Protocol for Enterprise AI",
         details={
             'location': 'Remote',
-            'lede': 'Mythara Engine today announced $2.5M in seed funding to accelerate development of its Symbolic Safety Integrity Protocol (SSIP) for enterprise AI systems.',
-            'body': 'The funding will support expansion of the engineering team, enterprise customer acquisition, and compliance readiness work across North America and Europe.',
-            'quote': '"AI safety cannot be an afterthought. SSIP provides cryptographic guarantees that AI systems operate within defined ethical and operational boundaries," said Herbert Velez Jr., Founder & CEO.',
-            'background': 'Founded in 2024, Mythara Engine builds SSIP integrity technology for AI systems. Early design partners and pilots are not publicly disclosed; no customer claims are made in this draft.'
+            'lede': 'Mythara Engine today announced the public release of its Symbolic Safety Integrity Protocol (SSIP) tooling for enterprise AI systems.',
+            'body': 'The release adds cryptographic integrity hashing, immutable audit trails, and failsafe resolver patterns for teams building guardrails around AI deployments. Early design partners and pilots are not publicly disclosed; no customer claims are made in this draft.',
+            'quote': '"AI safety cannot be an afterthought. SSIP is designed to help AI systems operate within defined ethical and operational boundaries," said Herbert Velez Jr.',
+            'background': 'Mythara Engine builds SSIP integrity tooling for AI systems. The company is a solo-founded project; no funding rounds, revenue figures, or customer counts are claimed in this draft.'
         }
     )
     print(f"   Release ID: {press_release['release_id']}")

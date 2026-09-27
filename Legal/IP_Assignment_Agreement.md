@@ -6,9 +6,9 @@
 > signed, is not effective, and does not transfer any rights.
 > **No signature below means no assignment has occurred.**
 >
-> Articles of Organization for Mythara Labs LLC were filed with the Colorado
-> Secretary of State on **September 27, 2026**; formation is **pending
-> completion**. This assignment, if ever executed, becomes effective **only
+> Articles of Organization filing for Mythara Labs LLC was attempted with the Colorado
+> Secretary of State on **September 27, 2026** — not confirmed; formation is **incomplete**;
+> the entity is **not yet formed**. This assignment, if ever executed, becomes effective **only
 > upon the legal formation of Mythara Labs LLC** (see Section 2).
 > **To be reviewed by a licensed attorney in the relevant
 > jurisdiction and signed on (or after) LLC formation day.** This template is
@@ -18,7 +18,7 @@
 
 ## INTELLECTUAL PROPERTY ASSIGNMENT AGREEMENT
 
-**Effective Date:** The date the Articles of Organization filed September 27, 2026 are accepted and Mythara Labs LLC is legally formed (the "Effective Date"). *Not effective before that date.*
+**Effective Date:** The date the Articles of Organization for Mythara Labs LLC are accepted by the Colorado Secretary of State and Mythara Labs LLC is legally formed (the "Effective Date"). *Not effective before that date.*
 
 ### 1. Parties
 

@@ -1,8 +1,9 @@
 # Witnessed Journal — v1 prototype
 
-A working product surface for the emotional chain: a tamper-evident
-journaling app where every entry is attested by the eight
-assessor-witnesses. Stdlib only — no dependencies.
+A working product surface for the Soul Cradle emotional chain: a
+tamper-evident journaling app where every entry is attested by the
+eight assessor-witnesses, whose sealed judgments are hash-chained with
+the entry. Stdlib only — no dependencies.
 
 ## Run it
 

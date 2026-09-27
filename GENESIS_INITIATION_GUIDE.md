@@ -106,7 +106,6 @@ https://calendly.com/mythara-engine/pilot-onboarding
 
 Best,
 Herbert Velez Jr.
-Mythara Labs LLC (planned)
 Mythara.Engine@yahoo.com
 ```
 

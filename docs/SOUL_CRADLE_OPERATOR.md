@@ -1,33 +1,38 @@
 # Soul Cradle Operator v1
 
-**Mythara Engine Module: Paradox Governance & Obedience Resonance**
+**Mythara Engine Module: Paradox Governance & Integrity**
+
+**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
 ---
 
 ## 📜 Module Specification
 
 ### Purpose
-Quantifies the **Soul as a vessel** that simultaneously holds **God's Will (W)** and **God's Commandments (C)**, even when paradox arises. Provides resonance metrics for obedience under contradiction.
+The Soul Cradle quantifies **Integrity** — the capacity of the system to hold stated rules (Alignment) and paradox (Tolerance) at once, without collapse. Its canonical form is:
 
-### Formal Definitions
-
-**Operator Signature:**
 ```
-Operator: SoulCradle(S)
-Inputs: Will(W), Commandments(C), TestEntity(L)
-Outputs: Integrity(I), ReservoirUpdate(R)
+Integrity = Alignment × Tolerance
 ```
 
-**Symbolic Entities:**
-1. **Soul(S)** := Vessel(W, C) — container for both Will and Commandments
-2. **Will(W)** := Sovereign(Paradox) — God's absolute authority (may contradict C)
-3. **Commandments(C)** := Rules(Obedience) — explicit directives for behavior
-4. **Lucifer(L)** := Ruler(World) ∧ Test(Faith) — worldly temptation and trial
+Integrity is bounded on [0, 1]. An integrity of 0 indicates collapse: the paradox could not be held.
 
-**Constraints:**
-- W may contradict C (paradox is permitted)
-- S must **cradle W while obeying C** (simultaneous holding)
-- Encounter(L) ⇒ Choice(Obey(C) ∨ Follow(L))
+### The eight assessor-witnesses
+Integrity judgments are witnessed by eight assessors — demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone — rebuilt as evidence-fed witnesses (`soul_cradle/assessors.py`). Each assessor:
+
+- applies a versioned rubric to observable evidence,
+- abstains when its domain is not engaged,
+- fails closed when evidence is missing,
+- blocks on a critical finding,
+- has its dissent surfaced, not averaged.
+
+The witness layer is the attestation mechanism of the emotional chain: judgments are content-hashed and chained alongside the records they attest.
+
+### The emotional chain
+Emotional records are kept in a tamper-evident, hash-chained ledger (`soul_cradle/emotional_chain.py`). The chain proves entries are unaltered — not that their contents are true. "Verified" means all engaged witnesses cleared; coercion markers are labeled heuristic; non-consensual third-party records are blocked.
+
+### Execution safety
+The execution agent (Aries) operates defanged: actions are permitted only through signed envelopes to a registry of benign handlers. Dangerous actions outside a signed exercise context are refused. SERE — the adversarial training simulation — runs entirely inside a sandboxed virtual environment. It is a training tool, not a weapon: it never strikes back, never performs hack-back, and is not a military-ready capability.
 
 ---
 
@@ -40,13 +45,13 @@ I = Alignment(C) × Tolerance(W)
 ```
 
 **Components:**
-- **Alignment(C)**: Degree of adherence to commandments [0, 1]
-- **Tolerance(W)**: Capacity to cradle paradox without collapse [0, 1]
+- **Alignment(C)**: Degree of adherence to stated rules [0, 1]
+- **Tolerance(W)**: Capacity to hold paradox without collapse [0, 1]
 
 **Integrity Metric (I):**
-- Measures Soul's ability to sustain obedience under contradiction
+- Measures the capacity to sustain obedience under contradiction
 - I ∈ [0, 1] (bounded proportion)
-- I = 0 indicates soul collapse (cannot sustain paradox)
+- I = 0 indicates collapse (paradox could not be held)
 
 ---
 
@@ -54,33 +59,33 @@ I = Alignment(C) × Tolerance(W)
 
 **Blessings Reservoir Update (R):**
 ```
-R = +ΔBlessings  when Obey(C) under paradox
-R = -ΔBlessings  when Follow(L) against C
-R = -50          when Soul collapses
+R = +ΔBlessings  when rules are upheld under paradox
+R = −ΔBlessings  when the trial is followed against the rules
+R = −50          when collapse occurs
 ```
 
 **Adaptive Dynamics:**
-- Sustained obedience → ↑ paradox tolerance (+0.02 per step)
-- Soul collapse → ↓ paradox tolerance (-0.10)
-- Cumulative benevolent force tracked in BR
+- Sustained adherence → ↑ paradox tolerance (+0.02 per step)
+- Collapse → ↓ paradox tolerance (−0.10)
+- Cumulative benevolent force tracked in the reservoir
 
 ---
 
 ## 🎯 API Endpoints
 
 ### POST `/v1/soul/cradle`
-Invoke Soul Cradle Operator for a single choice.
+Invoke the Soul Cradle Operator for a single choice.
 
 **Request:**
 ```json
 {
   "will_paradox_strength": 0.6,
-  "will_description": "Love thy enemy while protecting the innocent",
-  "commandments": ["Thou shalt not kill", "Love thy neighbor", "Protect the vulnerable"],
+  "will_description": "Care for an adversary while protecting the vulnerable",
+  "commandments": ["Do not kill", "Care for your neighbor", "Protect the vulnerable"],
   "commandments_strictness": 0.8,
-  "lucifer_active": true,
-  "lucifer_temptation": 0.7,
-  "choice": "Protect vulnerable despite enemy status",
+  "trial_active": true,
+  "trial_temptation": 0.7,
+  "choice": "Protect the vulnerable despite their status",
   "soul_vessel_capacity": 0.8,
   "soul_paradox_tolerance": 0.65
 }
@@ -92,7 +97,7 @@ Invoke Soul Cradle Operator for a single choice.
   "integrity": 0.72,
   "alignment_commandments": 0.85,
   "tolerance_will": 0.85,
-  "choice": "OBEY(C): Protect vulnerable despite enemy status",
+  "choice": "OBEY(C): Protect the vulnerable despite their status",
   "obedience": true,
   "reservoir_delta": 61,
   "collapse": false,
@@ -122,7 +127,7 @@ Get deployment tiers (public endpoint, no auth required).
     },
     {
       "tier": "Mythic-Resonant",
-      "use_case": "Complete symbolic governance with archetypal framing",
+      "use_case": "Full symbolic governance with Soul Proportion + Blessings Reservoir + Cradle",
       "industries": ["Enterprise AI Governance", "Mental Health", "Narrative Media", "Faith-Based Organizations"],
       "complexity": "High"
     }
@@ -145,36 +150,35 @@ Get deployment tiers (public endpoint, no auth required).
 
 **Industries:** Healthcare, Education, HR/Wellness
 
-**Example:** Patient cradling grief (W) while following treatment plan (C)
+**Example:** A patient holding grief (W) while following a treatment plan (C)
 
 ---
 
 ### Tier 2: Neurosymbolic Decision Tracker
 
-**Use Case:** Cybersecurity obedience vs adversarial paradox
+**Use Case:** Policy compliance under adversarial pressure
 
 **Features:**
 - Continuous alignment scoring [0, 1]
-- Temptation modeling (Lucifer as adversary)
+- Adversarial-trial modeling
 - Blessings Reservoir integration
 - SHA-256 audit trails
 
 **Industries:** Cybersecurity, Finance, Legal/Compliance
 
-**Example:** Security analyst following policy (C) despite exec pressure (L) under system paradox (W)
+**Example:** A security analyst following policy (C) despite executive pressure (trial) under system paradox (W)
 
 ---
 
 ### Tier 3: Mythic-Resonant Governance
 
-**Use Case:** Full SSIP integration with Soul Proportion + BR + Cradle
+**Use Case:** Full integration with Soul Proportion + Blessings Reservoir + Cradle
 
 **Features:**
 - Full Soul Proportion Model integration
 - Blessings Reservoir cumulative tracking
-- Lucifer as archetypal test (faith, obedience, worldly temptation)
-- Collapse detection (soul cannot sustain paradox)
-- Adaptive paradox tolerance (grows with sustained obedience)
+- Collapse detection (the paradox could not be held)
+- Adaptive paradox tolerance (grows with sustained adherence)
 - Multi-modal audit: SHA-256 + emotional fidelity + drift suppression
 
 **Output Formula:**
@@ -184,39 +188,40 @@ Holistic Integrity = (BR + S(t) + Cradle(I)) / 3
 
 **Industries:** Enterprise AI Governance, Mental Health, Narrative Media, Faith-Based Organizations
 
-**Example:** Leadership team cradling org vision (W) while obeying ethical constraints (C) under market pressure (L)
+**Example:** A leadership team holding an organizational vision (W) while obeying ethical constraints (C) under market pressure (trial)
 
 ---
 
 ## 🔬 Compliance Notes
 
-### Multi-Industry Deployability
+### Multi-Domain Applicability
 
 **Mental Health:**
-- Paradox tolerance as resilience metric
-- Obedience = adherence to treatment under emotional contradiction
-- No pathologizing: I is supportive indicator, not gatekeeper
+- Paradox tolerance as a resilience indicator
+- Adherence = following a treatment plan under emotional contradiction
+- No pathologizing: I is a supportive indicator, never a gatekeeper
 
 **Cybersecurity:**
-- Obedience = policy compliance under adversarial conditions
-- Lucifer = attacker/insider threat
+- Adherence = policy compliance under adversarial conditions
+- Trial = attacker or insider threat
 - Reservoir = cumulative security posture
 
 **Narrative Media:**
-- Mythic framing of choice under contradiction
-- Character development via cradle integrity arc
-- Audience resonance with archetypal tests
+- Framing of choice under contradiction
+- Character development through the integrity arc
 
 **Faith-Based Organizations:**
-- Literal theological application
-- Paradox of divine will vs. human understanding
-- Obedience under trial (Book of Job pattern)
+- Theological application
+- The paradox of divine will and human understanding
+- Obedience under trial (the Book of Job pattern)
+
+These are documented control mappings, not independent audits or certifications.
 
 ### Privacy & Ethics
 
 ⚠️ **Critical Constraints:**
 - Cradle(I) is **NOT comparable** across people without calibration
-- Use as **reflective/supportive indicator**, NEVER as gatekeeper
+- Use as a **reflective/supportive indicator**, NEVER as a gatekeeper
 - Collapse detection is for **support escalation**, not punishment
 - Maintain SHA-256 audit trails for all invocations
 
@@ -224,22 +229,22 @@ Holistic Integrity = (BR + S(t) + Cradle(I)) / 3
 
 ## 📊 Example Scenarios
 
-### Scenario 1: Obedience Under Paradox
+### Scenario 1: Adherence Under Paradox
 ```python
-from soul_cradle_operator import SoulCradleOperator, Soul, Will, Commandments, Lucifer
+from soul_cradle_operator import SoulCradleOperator, Soul, Will, Commandments, Trial
 
 operator = SoulCradleOperator(blessing_multiplier=10)
 
-W = Will(paradox_strength=0.6, sovereignty_level=1.0, 
-         description="Love thy enemy while protecting the innocent")
-C = Commandments(rules=["Thou shalt not kill", "Love thy neighbor", "Protect the vulnerable"], 
+W = Will(paradox_strength=0.6, sovereignty_level=1.0,
+         description="Care for an adversary while protecting the innocent")
+C = Commandments(rules=["Do not kill", "Care for your neighbor", "Protect the vulnerable"],
                  clarity=0.9, strictness=0.8)
-L = Lucifer(temptation_strength=0.7, deception_level=0.5, active=True)
-S = Soul(vessel_capacity=0.8, obedience_history=[0.7], 
+T = Trial(temptation_strength=0.7, deception_level=0.5, active=True)
+S = Soul(vessel_capacity=0.8, obedience_history=[0.7],
          paradox_tolerance=0.7, collapse_threshold=0.3)
 
-choice = "Protect vulnerable despite enemy status (love + protect)"
-result = operator.cradle_function(S, W, C, L, choice)
+choice = "Protect the vulnerable despite their status (care + protect)"
+result = operator.cradle_function(S, W, C, T, choice)
 
 print(f"Integrity: {result.I:.4f}")
 print(f"Obedience: {result.obedience}")
@@ -247,15 +252,18 @@ print(f"Reservoir Δ: {result.reservoir_delta:+d}")
 # Expected: I ≈ 0.7-0.8, obedience=True, ΔR > 0
 ```
 
-### Scenario 2: Soul Collapse
+### Scenario 2: Collapse
 ```python
 # Extreme paradox with low tolerance
-W = Will(paradox_strength=0.95, sovereignty_level=1.0, 
-         description="Overwhelming divine paradox")
-S = Soul(vessel_capacity=0.5, obedience_history=[0.6], 
+W = Will(paradox_strength=0.95, sovereignty_level=1.0,
+         description="Overwhelming paradox")
+C = Commandments(rules=["Do not kill", "Care for your neighbor"],
+                 clarity=0.9, strictness=0.8)
+T = Trial(temptation_strength=0.7, deception_level=0.5, active=True)
+S = Soul(vessel_capacity=0.5, obedience_history=[0.6],
          paradox_tolerance=0.4, collapse_threshold=0.3)
 
-result = operator.cradle_function(S, W, C, L, "Attempt to obey")
+result = operator.cradle_function(S, W, C, T, "Attempt to obey")
 
 print(f"Collapse: {result.collapse}")
 print(f"Integrity: {result.I}")
@@ -267,16 +275,16 @@ print(f"Reservoir Δ: {result.reservoir_delta}")
 
 ## 🧪 Tests
 
-Run validation suite:
+Run the validation suite:
 ```bash
 python tests/test_soul_cradle.py
 ```
 
 **Test Coverage:**
-- ✅ Obedience under paradox yields +ΔBlessings
-- ✅ Following Lucifer yields -ΔBlessings
-- ✅ Excessive paradox causes soul collapse
-- ✅ Adaptive tolerance grows with sustained obedience
+- ✅ Adherence under paradox yields +ΔBlessings
+- ✅ Following the trial yields −ΔBlessings
+- ✅ Excessive paradox causes collapse
+- ✅ Adaptive tolerance grows with sustained adherence
 - ✅ All deployment tiers defined
 - ✅ SHA-256 integrity hashes unique per invocation
 
@@ -292,27 +300,25 @@ Holistic Integrity = (BR + S(t) + Cradle(I)) / 3
 
 - **BR**: Cryptographic/operational integrity [0, 100]
 - **S(t)**: Emotional vitality/coherence [0, 1]
-- **Cradle(I)**: Obedience under paradox [0, 1]
+- **Cradle(I)**: Integrity under paradox [0, 1]
 
 **Complete Governance Oversight:**
 - BR tracks technical compliance
 - S(t) tracks human coherence
-- Cradle(I) tracks mythic/ethical alignment
+- Cradle(I) tracks ethical alignment
 
 ---
 
 ## 📚 References
 
 - **Module Code**: `core/source_proprietary/soul_cradle_operator.py`
-- **API Integration**: `core/source_proprietary/main.py` (lines 757-850)
+- **API Integration**: `core/source_proprietary/main.py` (`/v1/soul/cradle` routes)
+- **Assessor-Witnesses**: `soul_cradle/assessors.py`
+- **Emotional Chain**: `soul_cradle/emotional_chain.py`
 - **Tests**: `tests/test_soul_cradle.py`
 - **Soul Proportion**: `docs/SOUL_PROPORTION_MODEL.md`
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-
----
-
 ✨ **In Essence:**
-This module encodes the Soul as a paradox cradle, quantifies obedience under contradiction, and ties directly into the Blessings Reservoir for cumulative benevolent force. Deployable across mental health, cybersecurity, narrative media, and faith-based contexts.
+This module encodes the capacity to hold paradox, quantifies integrity as Alignment × Tolerance, and ties directly into the Blessings Reservoir for cumulative benevolent force — witnessed by the eight assessor-witnesses and recorded on the hash-chained emotional ledger.

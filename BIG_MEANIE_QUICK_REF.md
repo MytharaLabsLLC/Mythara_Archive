@@ -20,7 +20,7 @@ Big Meanie is the APEX PREDATOR of security testing that makes even sophisticate
 
 ### 🟠 TIER 2: PSYCHOLOGICAL WARFARE
 - AI vs AI social engineering
-- Credential stuffing (millions/sec)
+- Credential stuffing (rate-limited, sandboxed simulation)
 - Timing attacks (microsecond precision)
 - Side-channel exploitation
 - Cryptographic break attempts
@@ -44,11 +44,11 @@ Big Meanie is the APEX PREDATOR of security testing that makes even sophisticate
 - Anti-forensics testing
 - Lateral movement simulation
 
-### ⚫ TIER 6: THE NUCLEAR OPTION
-- **Rage Mode**: Removes ALL safety limits
-- Full system compromise simulation
+### ⚫ TIER 6: FULL-SPECTRUM SIMULATION
+- **Rage Mode**: Maximum simulation intensity — still sandboxed, safety limits stay on (no `--mode rage` flag exists; see Quick Start below for the real invocation)
+- Full system compromise simulation (virtual targets only)
 - Data exfiltration simulation
-- Ransomware behavior testing
+- Ransomware behavior testing (simulated, sandboxed)
 - Supply chain attack vectors
 
 ---
@@ -57,7 +57,7 @@ Big Meanie is the APEX PREDATOR of security testing that makes even sophisticate
 
 1. **Unrelenting Persistence**: Never gives up, always adapts
 2. **Evolutionary Intelligence**: Learns from every block
-3. **Terminal Risk Scoring**: Predicts exact system collapse
+3. **Terminal Risk Scoring**: Estimates collapse scenarios (heuristic, not a guarantee)
 4. **Multi-Vector Assault**: Attacks EVERYTHING simultaneously
 5. **Self-Documenting**: Generates undeniable evidence of vulnerabilities
 
@@ -92,14 +92,11 @@ Risk Levels:
 ## ⚡ Quick Start
 
 ```bash
-# Standard scan
+# Run the full Big Meanie adversarial scan on the archive
 python tests/run_big_meanie_on_archive.py
 
-# Compliance-focused
-python tests/big_meanie.py --frameworks HIPAA,PCI
-
-# Maximum aggression (staging only!)
-python tests/big_meanie.py --mode rage --no-mercy
+# (No --frameworks / --mode / --no-mercy flags exist — the script runs its
+#  full suite against virtual targets. Use staging environments only.)
 ```
 
 ---
@@ -116,7 +113,7 @@ A system is "Big Meanie Hardened" when:
 ✅ Input validation on all inputs  
 ✅ Authentication cannot be bypassed  
 ✅ Compliance controls functioning  
-✅ Incident response < 100ms  
+✅ Incident response automated (measure and report your actual response time)
 ✅ Complete audit trail  
 
 ---
@@ -141,7 +138,7 @@ A system is "Big Meanie Hardened" when:
 | Evolution | Static patterns | Real-time learning |
 | Risk Analysis | Basic scoring | Terminal risk prediction |
 | Reporting | Generic findings | Exact collapse scenarios |
-| Cost | $50,000+/year | Open source |
+| Cost | Varies by vendor | Community-maintained |
 | Impact | Find known vulns | Make hackers cry |
 
 ---
@@ -161,7 +158,7 @@ That's when they retreat to easier targets.
 
 ---
 
-*For complete documentation, see `BIG_MEANIE_ARSENAL.md`*
+*Full attack-suite source and results: `tests/big_meanie.py`, `tests/run_big_meanie_on_archive.py`*
 
-**Copyright © 2025 Herbert Velez Jr. | Mythara Industries**  
+**Copyright © 2025 Herbert Velez Jr.**  
 *Where Security Meets Soulcraft™*

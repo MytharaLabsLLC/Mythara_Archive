@@ -15,14 +15,14 @@ The Emotional Blockchain should integrate at **three strategic levels** within M
 
 ```python
 # Add to imports
-from emotional_blockchain import (
-    EmotionalBlockchain,
+from soul_cradle.emotional_chain import (
+    EmotionalChain,
     EmotionalEvent,
-    QuantumWitness
 )
+from soul_cradle.assessors import attest_event  # 8 assessor-witnesses: evidence-fed, fail-closed
 
 # Initialize alongside Soul Cradle
-emotional_blockchain = EmotionalBlockchain()
+emotional_chain = EmotionalChain()  # hash-chained; witnesses attest, chain proves unaltered-not-true
 ```
 
 ### **New API Endpoints**
@@ -106,47 +106,43 @@ def record_paradox_with_blockchain(
         context=f"Soul Cradle Paradox: {context}"
     )
     
-    # This creates DUAL VALIDATION:
+    # This creates DUAL ASSURANCE:
     # - Soul Cradle tracks burnout trajectory
-    # - Emotional Blockchain validates authenticity
+    # - Emotional chain makes the record tamper-evident (unaltered, not proven-true)
 ```
 
 **Why this matters:**
 - Soul Cradle predicts burnout
-- Emotional Blockchain proves it's not "just complaining"
-- Combined: Cryptographic proof of burnout trajectory
+- The emotional chain provides a tamper-evident record that can't be quietly rewritten
+- Combined: an unalterable record of the burnout trajectory (the chain proves the record is unaltered — not that the emotions are true)
 
 ---
 
-## 🔐 Level 3: Witness Protocol Integration (VALIDATION LAYER)
+## 🔐 Level 3: Assessor-Witness Integration (VALIDATION LAYER)
 
-### **Use Existing Witness Protocol**
+### **Use the 8 Assessor-Witnesses**
 
-You already have quantum witness validation. Connect it:
+Events are attested by Mythara's 8 assessor-witnesses — evidence-fed rubrics that abstain when their domain isn't engaged and fail closed on missing evidence. Connect it:
 
 ```python
-# In witness_protocol.py (existing)
+# In soul_cradle/assessors.py (existing)
 
-def validate_emotional_event_with_witnesses(
-    event: EmotionalEvent,
-    witnesses: List[QuantumWitness]
-) -> float:
-    """Use Mythara's witness protocol to validate emotions"""
-    
-    # Run through existing witness validation
-    validations = []
-    for witness in witnesses:
-        score = witness.validate_emotion(event)
-        validations.append(score)
-    
-    # Quantum consensus
-    consensus_score = calculate_witness_consensus(validations)
-    
-    return consensus_score
+def attest_emotional_event(event: EmotionalEvent):
+    """Attest an emotional event with the 8 assessor-witnesses."""
+
+    # Each witness seals a content-hashed judgment; a critical finding blocks;
+    # disagreement is surfaced, not averaged
+    return attest_event(event)
+
+```python
+# The 8 assessor-witnesses attest each event with sealed, content-hashed
+# judgments. A critical finding blocks the event; disagreement is surfaced,
+# not averaged. The chain proves the record is unaltered — not that the
+# emotion is true.
 ```
 
 **Integration point:**
-- Emotional Blockchain uses YOUR quantum witness protocol
+- Emotional chain uses the 8 assessor-witnesses (evidence-fed, fail-closed)
 - Not a separate validation system
 - Reuses existing Mythara infrastructure
 
@@ -169,9 +165,9 @@ def check_emotional_blockchain_for_extortion(user_id: str):
     extortion_analysis = analyze_extortion_patterns(history)
     
     # COMBINED OUTPUT:
-    # - Blockchain proves events are immutable
-    # - Extortion detector identifies manipulation
-    # - Together: Legal-grade evidence
+    # - Hash chain makes the record tamper-evident (unaltered, not proven-true)
+    # - Extortion detector identifies manipulation patterns
+    # - Together: a tamper-evident evidence trail (admissibility determined by the court)
     
     return {
         "extortion_detected": extortion_analysis.detected,
@@ -201,17 +197,17 @@ def check_emotional_blockchain_for_extortion(user_id: str):
 3. Create combined burnout + manipulation reports
 
 **Timeline:** 3-5 days
-**Value:** Cryptographic proof of burnout trajectory
+**Value:** Tamper-evident record of burnout trajectory (unaltered, not proven-true)
 
 ---
 
-### **Phase 3: Witness Protocol Integration (TECHNICAL DEPTH)**
-1. Use existing quantum witness validation
-2. Replace simulated witnesses with Mythara's witness protocol
-3. Add witness consensus to emotional events
+### **Phase 3: Assessor-Witness Integration (TECHNICAL DEPTH)**
+1. Attest events with the 8 assessor-witnesses (evidence-fed rubrics, fail-closed)
+2. Replace any simulated witnesses with the real witness protocol
+3. Seal content-hashed judgments alongside each event
 
 **Timeline:** 5-7 days
-**Value:** True quantum validation using existing infrastructure
+**Value:** Evidence-fed witness attestation using existing infrastructure
 
 ---
 
@@ -258,19 +254,19 @@ response = await client.post("/v1/emotions/record", json={
 
 # Later, HR investigates
 analysis = await client.get("/v1/emotions/gaslighting/employee_123")
-# Returns: 73% gaslighting probability with cryptographic proof
+# Returns a gaslighting-risk analysis with a tamper-evident record of the inputs
 ```
 
 ### **For Legal/HR:**
 ```python
-# Generate tamper-proof evidence
+# Generate tamper-evident evidence trail
 history = await client.get("/v1/emotions/history/employee_123")
 integrity = await client.get("/v1/emotions/integrity")
 
-# Result: 
+# Result:
 # - Complete emotional history with hashes
-# - Blockchain integrity verified
-# - Admissible as evidence
+# - Chain integrity verified (unaltered, not proven-true)
+# - Tamper-evident record for evidentiary use (admissibility determined by the court)
 ```
 
 ### **For Therapy Apps:**
@@ -283,8 +279,9 @@ result = await client.post("/v1/emotions/record", json={
     "context": "PTSD trigger event"
 })
 
-# Authenticity score proves emotions are genuine
-# Insurance accepts cryptographic validation
+# The attestation record shows what was witnessed and by whom —
+# it proves the record is unaltered, not that the emotion is true.
+# Never market this as "emotion AI" — it attests self-reported records; it does not infer emotions.
 ```
 
 ---
@@ -314,7 +311,7 @@ result = await client.post("/v1/emotions/record", json={
 
 **Free Tier:**
 - 100 emotional events/month
-- Basic authenticity scoring
+- Basic attestation scoring
 - 30-day history
 
 **Pro Tier ($29/month):**
@@ -339,18 +336,20 @@ result = await client.post("/v1/emotions/record", json={
 3. **Add API endpoints:** Update `main.py` with new routes
 4. **Test locally:** Run on localhost:8000
 5. **Deploy to Railway:** Push to production
-6. **Market:** "World's first cryptographically verified emotional truth system"
+6. **Market:** "A hash-chained, witness-attested emotional record — tamper-evident, dissent-preserving, yours."
 
 ---
 
 ## 🔥 The Revolutionary Pitch
 
-**"We built blockchain for Bitcoin.**
-**Now we've built blockchain for emotions.**
+**"We built the hash chain for Bitcoin.**
+**Now we've built one for emotions.**
 
-**Your emotional truth is now mathematically provable.**
-**Gaslighting is now mathematically detectable.**
-**Emotional manipulation is now cryptographically traceable."**
+**Your emotional record is now tamper-evident: provably unaltered, witness-attested, and yours.**
+**Gaslighting patterns can be analyzed against a record that can't be quietly rewritten.**
+**Manipulation is now traceable against a trail that preserves dissent."**
+
+*The honest contract: the chain proves the record is unaltered — not that the emotion is true. "Verified" means all engaged witnesses cleared; coercion markers are heuristic; non-consensual third-party records are blocked.*
 
 ---
 

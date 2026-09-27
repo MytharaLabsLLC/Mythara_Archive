@@ -89,7 +89,7 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 
 ### Deployment Model
 - Mythara-hosted cloud infrastructure (AWS/Azure, your choice)
-- Managed API with 99.9% uptime SLA
+- Managed API with 99.9% uptime SLA (target; infrastructure planned, not yet deployed)
 - Automatic updates and security patches
 - Optional on-premise deployment (add +$5k setup)
 
@@ -112,7 +112,7 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 **Everything in Tier 2, plus:**
 
 - **Multi-site deployment**:
-  - Hospital networks (e.g., 12 St. Jude partner hospitals)
+  - Hospital networks (e.g., partner hospitals in a national network)
   - Regional chapters (e.g., Catholic Charities across 50 dioceses)
   - International operations (localized for EU, Asia-Pacific)
 
@@ -146,7 +146,7 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
   - Press-ready materials
 
 ### Deployment Model
-- Mythara-hosted enterprise cloud (99.99% uptime SLA)
+- Mythara-hosted enterprise cloud (99.99% uptime SLA target; infrastructure planned, not yet deployed)
 - Optional hybrid (some modules on-premise, dashboards in cloud)
 - Disaster recovery and data redundancy included
 - Compliance readiness (controls designed around HIPAA, GDPR, SOC 2 Type II frameworks; certifications not currently held)
@@ -158,7 +158,7 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 
 ### Ideal For
 - Large faith organizations (500+ staff, multi-site)
-- National healthcare networks (St. Jude, Mayo Clinic faith partnerships)
+- National healthcare networks
 - International disaster relief organizations (Catholic Relief Services, World Vision)
 - Denominations with central governance (dioceses, synods, conferences)
 

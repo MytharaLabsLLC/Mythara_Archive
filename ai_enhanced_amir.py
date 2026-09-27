@@ -1,22 +1,17 @@
 #!/usr/bin/env python3
 """
-A.M.I.R. AI - Autonomous Mythara Intelligence & Response with AI Enhancement
-The One Ring of Cybersecurity - Now with GPT-4 Powered Intelligence
+A.M.I.R. AI - Autonomous Mythara Intelligence & Response with AI enhancement
 
 Copyright © 2025 Herbert Velez Jr. All rights reserved.
 
-AI-ENHANCED CAPABILITIES:
-- GPT-4 powered threat prediction (real-time analysis)
+Adds AI-powered features on top of the base A.M.I.R. (amir_bot.py):
+- Threat prediction via an LLM API (when keys are configured)
 - Vector memory for attack pattern learning
-- LangGraph multi-agent orchestration
-- Autonomous decision-making with explainability
-- Natural language security analysis
-- Self-improving threat intelligence
+- Multi-agent orchestration
+- Natural language security queries
 
-"One Ring to rule them all, One Ring powered by AI,
- One Ring that learns and grows, making competitors wonder why."
- 
-A.M.I.R. AI - Your dream child, grown beyond imagination.
+All AI integrations are optional: the bot degrades gracefully to the base
+capabilities when libraries or API keys are missing.
 """
 
 import os
@@ -83,11 +78,11 @@ class LearningEvent:
 
 class AIEnhancedAMIR(AMIRBot):
     """
-    A.M.I.R. with AI superpowers
+    A.M.I.R. with optional AI integrations
     
     Adds:
-    - GPT-4 threat prediction
-    - Claude strategic analysis
+    - Threat prediction via an LLM API
+    - Strategic analysis via an LLM API
     - Vector memory learning
     - Natural language security queries
     - Explainable AI decisions
@@ -164,8 +159,9 @@ class AIEnhancedAMIR(AMIRBot):
         """
         AI-POWERED THREAT PREDICTION
         
-        Uses GPT-4 to analyze current security posture and predict threats
-        with higher accuracy than rule-based systems.
+        Uses the configured LLM to analyze current security posture and
+        suggest likely threats. Falls back to base predictions when AI
+        is unavailable.
         """
         if not self.ai_enabled or not self.openai_client:
             print("\n⚠️  AI prediction unavailable, using base predictions")
@@ -464,7 +460,7 @@ Return ONLY valid JSON:
             }
         }
         
-        prompt = f"""You are A.M.I.R., responding to a security incident with sub-100ms decision-making.
+        prompt = f"""You are A.M.I.R., responding to a security incident.
 
 INCIDENT CONTEXT:
 {json.dumps(context, indent=2)}
@@ -492,7 +488,7 @@ Return ONLY valid JSON:
             completion = self.openai_client.chat.completions.create(
                 model="gpt-4-turbo-preview",
                 messages=[
-                    {"role": "system", "content": "You are A.M.I.R., making autonomous security decisions in <100ms."},
+                    {"role": "system", "content": "You are A.M.I.R., making autonomous security decisions."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.2,
@@ -544,7 +540,7 @@ Return ONLY valid JSON:
                 "response_strategy": ai_response.get('response_strategy'),
                 "autonomous_actions": len(actions_taken),
                 "actions_taken": actions_taken,
-                "decision_time": "< 100ms",
+                "decision_time": "not measured",  # placeholder: actual timing is not tracked
                 "ai_confidence": ai_response.get('estimated_success_probability', 0.9),
                 "reasoning": ai_response.get('reasoning'),
                 "rollback_plan": ai_response.get('rollback_plan'),
@@ -600,7 +596,7 @@ CURRENT SECURITY STATE:
 
 Provide a clear, actionable answer to the user's question. Be concise but thorough.
 If the query requires action, recommend specific next steps.
-Speak in A.M.I.R.'s voice: professional, confident, military precision."""
+Speak in A.M.I.R.'s voice: professional, direct, plain language."""
 
         try:
             completion = self.openai_client.chat.completions.create(
@@ -655,15 +651,15 @@ Speak in A.M.I.R.'s voice: professional, confident, military precision."""
     
     def ai_complete_analysis(self):
         """
-        THE ONE RING: COMPLETE AI-ENHANCED SECURITY ANALYSIS
+        COMPLETE AI-ENHANCED SECURITY ANALYSIS
         
-        Full autonomy + AI intelligence + learning memory
+        Full AI intelligence + learning memory over the base modules.
         """
         print("\n" + "="*70)
-        print("    THE ONE RING - AI-ENHANCED SECURITY DOMINION")
+        print("    AI-ENHANCED SECURITY ANALYSIS")
         print("="*70)
         
-        print("\n🎙️  Initiating AI-enhanced One Ring analysis, sir.")
+        print("\n🎙️  Starting AI-enhanced analysis.")
         print("    AI-powered intelligence coordinating all security operations...")
         
         # Phase 1: AI Threat Prediction
@@ -695,10 +691,10 @@ Speak in A.M.I.R.'s voice: professional, confident, military precision."""
         
         # Summary
         print("\n" + "="*70)
-        print("    AI-ENHANCED ONE RING ANALYSIS COMPLETE")
+        print("    AI-ENHANCED ANALYSIS COMPLETE")
         print("="*70)
         
-        print(f"\n📊 AI-ENHANCED DOMINION SUMMARY:")
+        print(f"\n📊 AI-ENHANCED ANALYSIS SUMMARY:")
         print(f"    Threat Predictions: {len(predictions)} (AI-powered)")
         print(f"    Strategic Insights: {len(insights)} (AI-powered)")
         print(f"    Business Risk: {risk_analysis['risk_level']}")
@@ -711,9 +707,8 @@ Speak in A.M.I.R.'s voice: professional, confident, military precision."""
         print(f"    Claude Analysis: {'ONLINE' if self.anthropic_client else 'OFFLINE'}")
         print(f"    Vector Memory: {'ONLINE' if self.vector_db else 'OFFLINE'}")
         
-        print(f"\n🎙️  The One Ring, enhanced by AI, has spoken, sir.")
-        print(f"    All security operations under AI-enhanced A.M.I.R. dominion.")
-        print(f"    Learning, adapting, evolving. Beyond its time. Never just a dream.")
+        print(f"\n🎙️  AI-enhanced analysis complete.")
+        print(f"    A.M.I.R. standing by.")
         
         return {
             "predictions": predictions,
@@ -740,7 +735,7 @@ Speak in A.M.I.R.'s voice: professional, confident, military precision."""
                     continue
                 
                 if command.lower() in ['exit', 'quit', 'shutdown']:
-                    print("\n🎙️  Understood, sir. A.M.I.R. AI standing by.")
+                    print("\n🎙️  Understood. A.M.I.R. AI standing by.")
                     break
                 
                 # AI-specific commands
@@ -773,7 +768,7 @@ Speak in A.M.I.R.'s voice: professional, confident, military precision."""
                     super().interactive_mode.__code__.co_consts[1](self, command)
             
             except KeyboardInterrupt:
-                print("\n\n🎙️  Shutting down gracefully. Goodbye, sir.")
+                print("\n\n🎙️  Shutting down gracefully. Goodbye.")
                 break
             except Exception as e:
                 print(f"\n⚠️  Error: {e}")
@@ -844,7 +839,6 @@ def main():
     
     if amir.ai_enabled:
         print("\n🎙️  AI enhancements operational.")
-        print("    Your dream child has grown beyond imagination.")
     else:
         print("\n⚠️  AI enhancements unavailable (set API keys):")
         print("    export OPENAI_API_KEY='your-key'")

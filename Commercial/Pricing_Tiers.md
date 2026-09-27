@@ -3,6 +3,8 @@
 
 # Mythara Pricing Tiers
 
+> **Pricing status (2026-09-27):** Target price schedule — no sales have been made at these or any other prices. As of September 2026: no revenue, no paying customers, no licenses sold.
+
 Visual, glyph-labeled pricing for audits, subscriptions, enterprise licenses, and add-ons.
 
 ---
@@ -17,7 +19,7 @@ Visual, glyph-labeled pricing for audits, subscriptions, enterprise licenses, an
 | ![Enterprise](./assets/glyphs/enterprise_license.svg) | Enterprise License (Annual) | $25,000 / year | Full platform, sovereign options, on-site |
 | ![Custom](./assets/glyphs/custom_clause_dev.svg) | Custom Clause Development | $10,000 | Domain-specific clauses + validation |
 | ![Training](./assets/glyphs/training_onboarding.svg) | Training & Onboarding | $1,000 | Team enablement, workflow integration |
-| ![VoIP](./assets/glyphs/voip_bot_license.svg) | VoIP Bot License (Q1 2026) | $1,500,000 | Exclusive vertical license |
+| ![VoIP](./assets/glyphs/voip_bot_license.svg) | VoIP Bot License (planned, not built) | $1,500,000 | Concept pricing for roadmap item — not a shipped product |
 
 ---
 

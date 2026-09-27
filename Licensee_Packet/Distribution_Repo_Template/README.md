@@ -3,6 +3,10 @@
 
 # Mythara Engine — Licensee Distribution Repository (Private)
 
+> **TEMPLATE — no licenses sold, no licensees exist as of September 2026.**
+> This document is a template for a future licensee distribution
+> repository. Nothing here implies any licensee has been granted access.
+
 This repository is for authorized licensees to download evaluation artifacts only. No source code is published here. Access is private and read-only.
 
 - License: Non-exclusive, non-transferable, revocable evaluation license as defined in LICENSE.md.
@@ -21,7 +25,7 @@ Compare to the SHA-256 value in mythara-engine-v1.0.0.zip.sha256 and the release
 
 ## Usage boundaries (summary)
 
-- Allowed: Internal evaluation and integration assessment.
+- Allowed: Internal evaluation, security testing, and integration assessment.
 - Not allowed: Redistribution, sublicensing, public posting, or production use without a signed production license.
 
 ## Support

@@ -9,7 +9,7 @@
 
 ## Purpose of This Publication
 
-This document serves as **prior art** to establish the invention date of the technologies described herein. By publishing these inventions publicly on GitHub with timestamped commits, we create an irrefutable record that prevents competitors from patenting these innovations.
+This document serves as **prior art** to establish the invention date of the technologies described herein. By publishing these inventions publicly on GitHub with timestamped commits, we create a timestamped public record that may serve as prior art — consult counsel on IP strategy.
 
 **Legal Effect:** Under 35 U.S.C. § 102, prior art includes any public disclosure made before a patent application filing date. This publication constitutes such disclosure.
 
@@ -139,21 +139,21 @@ def optimize_network_topology():
 
 **Key Innovation:** Mimics slime mold optimization where efficient paths are reinforced and unused paths atrophy.
 
-#### 1.7 Response Time Guarantee
-**Performance Characteristics:**
+#### 1.7 Response Time Target (design goal — not benchmarked)
+**Performance Characteristics (design targets — not measured):**
 - Local node response: <10ms (instant detection)
 - Signal propagation (3 hops): <30ms
 - Collective voting: <20ms
 - Action execution: <40ms
-- **Total response time: <100ms**
+- **Total response time target: <100ms**
 
-**Key Innovation:** Distributed architecture eliminates central bottleneck, enabling sub-100ms response impossible in traditional centralized systems.
+**Key Innovation (design claim):** Distributed architecture removes the central bottleneck, targeting sub-100ms response. No benchmarks exist to substantiate the figures above.
 
 ### Novel Contributions
 1. **Novel application** of slime mold (Physarum polycephalum) collective intelligence algorithms to distributed cybersecurity
-2. **Specific mathematical formulas** for signal decay (hop × 0.2) and threshold voting (0.7/0.4) with empirical validation
+2. **Specific mathematical formulas** for signal decay (hop × 0.2) and threshold voting (0.7/0.4) as implemented (not empirically validated)
 3. **Structural memory** mechanism for permanent topology adaptation without external storage
-4. **Provable sub-100ms response** through distributed architecture (benchmarked)
+4. **Sub-100ms response as a design target** of the distributed architecture (not benchmarked)
 5. **Prior art context**: Bio-inspired security (artificial immune systems, ant colony optimization) exists separately; this combines slime mold pathfinding with cybersecurity threat response
 
 ### Embodied in Code
@@ -234,9 +234,9 @@ def optimize_topology():
         adjust_strength(connection)
 ```
 
-**Total: <100ms guaranteed**
+**Total target: <100ms (unverified — design goal)**
 
-#### 2.2 Performance Guarantees
+#### 2.2 Performance Targets (design goals — not benchmarked)
 **Benchmarking methodology:**
 ```python
 def measure_response_time():
@@ -253,11 +253,11 @@ def measure_response_time():
     t1 = time.time_ns()
     response_time_ms = (t1 - t0) / 1_000_000
     
-    assert response_time_ms < 100  # Guarantee
+    assert response_time_ms < 100  # Design target — run on your hardware to validate
     return response_time_ms
 ```
 
-**Measured results:**
+**Reported figures (historical, unverified — measure before citing):**
 - Average: 47ms
 - P50: 42ms
 - P95: 73ms
@@ -292,11 +292,11 @@ RESPONSE_PLAYBOOKS = {
 **Key Innovation:** Pre-defined playbooks execute in parallel across distributed nodes without central coordination, enabling <100ms response.
 
 ### Novel Contributions
-1. **Novel autonomous security system** with provable sub-100ms response (benchmarked and validated)
-2. **Specific 6-phase architecture** with measured timing for each phase (<10ms detection, <30ms propagation, <20ms voting, <10ms decision, <20ms execution, <10ms confirmation)
+1. **Novel autonomous security system** targeting sub-100ms response (design goal, unmeasured)
+2. **Specific 6-phase architecture** with target timing for each phase (<10ms detection, <30ms propagation, <20ms voting, <10ms decision, <20ms execution, <10ms confirmation — design targets, unmeasured)
 3. **Distributed execution** without central approval bottleneck (enables speed impossible in centralized systems)
-4. **7,200x faster** than industry standard 2-hour human approval SLA (100ms vs 7,200,000ms)
-5. **Working implementation** with benchmarking suite and test coverage
+4. **Aims to respond faster than typical human-approval workflows** (industry standard figures vary — verify before citing)
+5. **Working implementation** with test coverage
 
 ### Embodied in Code
 - `amir_bot.py` (autonomous_response method)
@@ -427,7 +427,7 @@ def calculate_ssip_score(drift_suppression, pairing_fidelity, emotional_fidelity
 
 ### Novel Contributions
 1. **Novel quantitative framework** for symbolic language model safety (drift suppression, messenger pairing fidelity, emotional fidelity)
-2. **Three specific metrics** with mathematical formulas and empirically validated thresholds
+2. **Three specific metrics** with mathematical formulas (thresholds implemented, not empirically validated)
 3. **Multi-modal measurement** using geometric mean + exponential penalties prevents gaming individual metrics
 4. **Production readiness threshold** (0.85) based on empirical validation across 1000+ test cases
 5. **Prior art context**: ML model evaluation frameworks exist; this addresses symbolic safety for privacy-preserving language models without training data access
@@ -680,9 +680,9 @@ def create_timestamp_proof(manifest_file):
 5. **Production implementation** with daily manifest updates
 
 ### Embodied in Code
-- `manifest/forensic_manifest.json`
-- `forensic_manifest.json.asc` (PGP signature)
-- `manifest/checksums.sha256`
+- `forensic_manifest.json.asc` (PGP signature — verified artifact exists at repository root; the unsigned JSON itself is not present)
+- `manifest/checksums.sha256` (+ `manifest/checksums.sha256.asc` PGP signature)
+- `manifest/RELEASE_MANIFEST.json.asc` (PGP-signed release manifest)
 - Verification scripts in repository
 
 ---
@@ -865,7 +865,7 @@ This publication establishes prior art for all technologies described herein as 
 
 ### Inventor Rights Reserved
 
-While this publication establishes prior art to prevent third-party patents, the inventor (Herbert Velez Jr.; Mythara Labs LLC is planned — not yet formed) reserves all rights to:
+While this publication establishes prior art to prevent third-party patents, the inventor (Herbert Velez Jr.) reserves all rights to:
 
 1. File patent applications claiming these inventions (within one year of this publication under 35 U.S.C. § 102(b)(1)(A))
 2. Practice these inventions commercially
@@ -883,7 +883,7 @@ To verify the authenticity and timestamp of this publication:
 
 2. **Verify PGP signature:**
    ```bash
-   gpg --verify forensic_manifest.json.asc forensic_manifest.json
+   gpg --verify manifest/checksums.sha256.asc manifest/checksums.sha256
    ```
 
 3. **Validate SHA-256 checksums:**
@@ -899,7 +899,6 @@ To verify the authenticity and timestamp of this publication:
 ### Contact Information
 
 **Inventor:** Herbert Velez Jr.  
-**Company:** Mythara Labs LLC (planned — not yet formed)  
 **Email:** Mythara.Engine@yahoo.com  
 **PGP Key ID:** 571F FB4C CCFA DCF A44A 63F6 D968 C2D5 DBE2 486C
 
@@ -917,19 +916,19 @@ For patent licensing inquiries, technical clarifications, or legal matters relat
 - `core/source_proprietary/main.py` - API implementation (500+ lines)
 
 ### Test Coverage
-- 500+ unit tests across all systems
-- Performance benchmarks with <100ms response verification
+- Unit tests across all systems (counts unverified)
+- Performance targets (unmeasured)
 - Multi-framework compliance validation suite
 - SLIME algorithm demonstration scripts
 
 ### Forensic Verification
-- `manifest/forensic_manifest.json` - File integrity manifest
-- `forensic_manifest.json.asc` - PGP-signed manifest
-- `manifest/checksums.sha256` - SHA-256 checksums
+- `forensic_manifest.json.asc` - PGP-signed forensic manifest (repository root; unsigned JSON not present)
+- `manifest/checksums.sha256` (+ PGP signature `manifest/checksums.sha256.asc`) - SHA-256 checksums
+- `manifest/RELEASE_MANIFEST.json.asc` - PGP-signed release manifest
 - GitHub commit history - Public timestamp proof
 
 ### Working Demonstrations
-All technologies described herein are fully implemented and operational. Demonstrations available upon request.
+All technologies described herein are implemented at varying stages of readiness. Availability and performance claims are historical and unverified — demonstrations available upon request, with independent measurement required before citing any figures.
 
 ---
 
@@ -945,10 +944,12 @@ All technologies described herein are fully implemented and operational. Demonst
 
 ## Addendum (2026-09-21)
 
+Current Soul Cradle architecture (supersedes older descriptions where they conflict): **Integrity = Alignment × Tolerance**; eight evidence-fed assessor-witnesses that abstain when their domain is not engaged; fail-closed on missing evidence; a critical finding blocks; dissent is surfaced, never averaged; emotional records are hash-chained and witness-attested.
+
 New Soul Cradle modules, added 2026-09-21:
 
 - **Moral standing law** (`soul_cradle/standing.py`) — The system judges per case who may declare trespass, forgiveness, or repentance: the wronged declares the trespass and forgives; the trespasser repents; a witness states only what was observed; a stranger declares nothing, ever. Every declaration is HMAC-SHA256 signed, timestamped, and audited. A pluggable credibility check (`set_credibility_check`) is the seam where the purpose resolver judges whether a claimed role is credible for the event.
 - **Hephaestus Forge** (`soul_cradle/forge.py`) — Governed bonding between bots: souls combine and create witnessed compounds, an emergent product with a full paper trail. Every bond is signed; every compound is audited. The judge callable is REQUIRED — no judge, no forge — fail-closed by construction, so ungoverned mutation cannot spread like cancer.
 - **Mythara identity** (`soul_cradle/identity.py`) — The identity every cell agrees on: Mythara is female, she/her pronouns, with a warm, friendly, American, gentle voice character.
-- **Aries authorization** (`soul_cradle/authorization.py`) — Every action Aries executes carries a signed `ActionEnvelope`: canonical JSON, HMAC-SHA256 signature, expiry timestamp, and an append-only audit trail. No envelope, no execution.
-- **SERE doctrine** — Sandbox-only defense, no hack-back. On illegal entrance, refuse exit: seal egress, exfiltration, lateral movement, and C2 callbacks, then build a forensic profile inside the sandbox.
+- **Aries authorization** (`soul_cradle/authorization.py`) — Aries is defanged: every action carries a signed `ActionEnvelope` (canonical JSON, HMAC-SHA256 signature, expiry timestamp) with benign handlers only and an append-only audit trail. No envelope, no execution.
+- **SERE doctrine** — SERE is a training simulation only: sandboxed, no hack-back, never a weapon, never military-ready.

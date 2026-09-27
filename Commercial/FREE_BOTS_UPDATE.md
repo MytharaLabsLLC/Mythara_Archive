@@ -10,7 +10,7 @@
 ### Before:
 - ❌ Required OpenAI API key ($200-300/month)
 - ❌ Bots couldn't run without it
-- ❌ Too expensive for current revenue
+- ❌ Too expensive before revenue justifies it
 
 ### After:
 - ✅ Uses **rule-based logic** (no AI API needed)
@@ -23,7 +23,7 @@
 
 ### Marketing Bot:
 ```
-✅ Lead scoring: Working (Wells Fargo = 85/100 HOT)
+✅ Lead scoring: Working (example: fictional bank = 85/100 HOT)
 ✅ Google Ads tracking: Working
 ✅ LinkedIn outreach: Working
 ✅ Sales Bot training: Working
@@ -62,7 +62,7 @@ if "compliance" in messages: pattern = "compliance_language_works"
 if "only $" in messages and outcome == "lost": pattern = "pricing_too_early"
 ```
 
-**Accuracy:** 80-85% (Good enough for most use cases)
+**Accuracy:** unmeasured — rule-based scoring is a starting heuristic, not a benchmarked model. Treat scores as directional, not precise.
 
 ---
 
@@ -81,7 +81,6 @@ if "only $" in messages and outcome == "lost": pattern = "pricing_too_early"
 **Free Tier Limits:**
 - 60 requests/minute (more than enough)
 - Unlimited duration (no expiration)
-- GPT-4 level quality
 
 **Cost:** $0/month  
 **Upgrade:** No code changes needed, just set the API key
@@ -93,7 +92,7 @@ if "only $" in messages and outcome == "lost": pattern = "pricing_too_early"
 1. **mythara_ai_team_free.py** (NEW)
    - Free version with rule-based logic
    - No API dependencies
-   - 80%+ accuracy
+   - Accuracy unmeasured — heuristic scoring
 
 2. **run_marketing_bot.py** (UPDATED)
    - Now imports from `mythara_ai_team_free`
@@ -118,7 +117,7 @@ if "only $" in messages and outcome == "lost": pattern = "pricing_too_early"
 ### What's different:
 
 - ✅ **Cost:** $0/month instead of $200-300/month
-- ✅ **Quality:** 80-85% accuracy (vs 95% with AI)
+- ✅ **Quality:** heuristic rule-based scoring (unmeasured) — AI is more capable when justified
 - ✅ **Speed:** Faster (no API calls)
 
 ---
@@ -135,11 +134,11 @@ if "only $" in messages and outcome == "lost": pattern = "pricing_too_early"
 
 ---
 
-## 📈 When to Upgrade to AI
+## When to Upgrade to AI
 
 Upgrade to Google Gemini (free) or OpenAI (paid) when:
 
-1. **You have $10k+ MRR** (AI costs become negligible)
+1. **You have meaningful revenue** (AI costs become negligible) — aspiration: $10k+ MRR
 2. **Lead volume > 500/month** (need AI for accuracy)
 3. **Close rate < 10%** (AI can find hidden patterns)
 

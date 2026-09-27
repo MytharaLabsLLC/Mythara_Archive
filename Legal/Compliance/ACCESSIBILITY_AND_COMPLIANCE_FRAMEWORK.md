@@ -117,7 +117,7 @@ This roadmap is provided as part of the project's internal planning. It confers 
 3. Implement compliance measures in their own deployment — this document does not implement them
 4. Never represent this roadmap as evidence of compliance
 
-**Mythara (the project; Mythara Labs LLC formation filed Sept 27, 2026, pending completion) does NOT provide:**
+**Mythara (the project; Mythara Labs LLC formation filing attempted Sept 27, 2026 — not confirmed; entity not yet formed) does NOT provide:**
 - Legal advice or representation
 - Guarantee of compliance in any jurisdiction
 - Liability coverage of any kind

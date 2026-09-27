@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Mythara Paradox Topology Engine
-The Universal Framework for Mapping Systemic Impossible Choices
+A framework for mapping systemic impossible choices
 
 Copyright © 2025 Herbert Velez Jr. All rights reserved.
 
@@ -500,7 +500,7 @@ class UniversalPatternLibrary:
 if __name__ == "__main__":
     print("\n" + "█" * 70)
     print("  MYTHARA PARADOX TOPOLOGY ENGINE")
-    print("  The Exclusive Framework for Mapping Systemic Impossible Choices")
+    print("  A Framework for Mapping Systemic Impossible Choices")
     print("█" * 70)
 
     print("\n🎯 This is not a burnout predictor.")
@@ -518,7 +518,7 @@ if __name__ == "__main__":
     print("✓ Industry Benchmarking")
     print("✓ Universal Pattern Library\n")
 
-    print("This framework makes Mythara the ultimate system because:")
+    print("Why this framework matters:")
     print("  1. It works for 1 person or 10,000")
     print("  2. It reveals which policies create which paradoxes")
     print("  3. It shows WHERE to intervene for maximum impact")

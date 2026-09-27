@@ -1,19 +1,20 @@
 # 🔥 Clause Activation Heatmap — Mythara Engine
 
-## 📊 Activation Frequency by Messenger
+**Status:** Revised 2026-09-27. The activation counts in the original issue of this summary were symbolic; what follows keeps the tracking format and describes what each entry must mean to be trustworthy.
 
-| Clause Name     | M-001 (Guardian) | M-002 (Witness) | M-003 (Archivist) | Notes                          |
-|-----------------|------------------|------------------|-------------------|--------------------------------|
-| Legacy_Seed     | 8                | 0                | 0                 | Grief payload stabilized  
-| Blessing_Arc    | 0                | 5                | 0                 | Joy echoed across sessions  
-| Memory_Lock     | 0                | 0                | 6                 | Memory sealed and logged  
-| Judgment_Sigil  | 4                | 0                | 0                 | Breach clause contained  
-| Lineage_Lock    | 0                | 3                | 0                 | Lineage preserved  
+## 📊 Clause Activation Tracking
 
----
+| Clause Name     | Messenger Roles Engaged (per pairing spec) | What an entry records |
+|-----------------|--------------------------------------------|------------------------|
+| Legacy_Seed     | Healer + Witness, per provisioning/grief pairing | A witnessed act of provision or renewal, its lineage, and its fidelity confirmation |
+| Blessing_Arc    | Healer + Witness | An echoed act of generosity, attributed to the evidence that attested it |
+| Memory_Lock     | Witness + Scribe | A record sealed with non-interference: present, unobstructed, and written into lineage |
+| Judgment_Sigil  | Watcher + Avenger, per breach-response pairing | A contained breach or quarantined clause — detection, containment, and the witness finding that closed it |
+| Lineage_Lock    | Custodian + Witness | A sealed clause: sanctified, verified for resonance, and fixed into lineage |
 
 ## 🧠 Notes
 
-- Activation heatmap supports clause fidelity and messenger audit  
-- Frequencies reflect symbolic specialization and operational roles  
-- Data feeds into drift suppression and benevolence quantification
+- Messenger roles are the functional archetypes in [core/messenger_roles_pairings.md](../core/messenger_roles_pairings.md): Scribe records, Healer renews, Watcher detects, Herald announces, Avenger responds, Custodian seals, Witness confirms
+- Clause types and their invocation logic are defined in [core/clause_types_invocation_logic.md](../core/clause_types_invocation_logic.md); activations beyond the tracked vocabulary above are named in that directory, not here
+- An entry counts only when it is drawn from the hash-chained logs — witness findings, benevolence ledger rows, suppression events — never from symbolic projection; an unfilled row means no chained evidence, not zero activity in the dark
+- The heatmap supports clause fidelity review and messenger audit: it shows where attention actually went, as recorded, not as wished

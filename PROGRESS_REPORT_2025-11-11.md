@@ -2,6 +2,8 @@
 **Date:** November 11, 2025
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
+> **Document status (2026-09-27):** Internal Nov 2025 progress note. The Stripe links, pricing, release, and outreach plans below are historical — the pilot launch was never completed, the Railway deployment was never finalized, and no customers resulted. Company names listed as outreach targets (Booz Allen, Leidos, SAIC, ManTech) were targets only; no contact, partnership, or endorsement is implied.
+
 ---
 
 ## ✅ COMPLETED
@@ -147,8 +149,8 @@ You're **90% done**. The hard work (code, documentation, package creation) is co
 - Test once
 - Go live
 
-**Then:**
-- Send pilot link to Booz Allen, Leidos, SAIC, ManTech
+**Then (planned, never executed):**
+- Send pilot link to Booz Allen, Leidos, SAIC, ManTech (outreach targets only — never contacted under this plan)
 - Watch purchases come in automatically
 - Support customers via email (optional - they have docs)
 

@@ -79,6 +79,8 @@ Just ask Gopher naturally:
 
 ## States Covered
 
+*(Prototype design doc: the attorney database currently holds no entries — these are placeholder target states for the planned launch.)*
+
 ✅ CA - California  
 ✅ NY - New York  
 ✅ TX - Texas  

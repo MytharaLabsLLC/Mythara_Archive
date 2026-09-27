@@ -87,7 +87,7 @@ $env:OPENAI_API_KEY = "sk-proj-YOUR-KEY-HERE"
 4. User support email: Herbievelezjr@gmail.com
 5. Developer contact: Herbievelezjr@gmail.com
 6. Scopes: Add `https://www.googleapis.com/auth/gmail.modify`
-7. Test users: Add Mythara.Engine@yahoo.com
+7. Test users: Add Mytharalabs@yahoo.com
 8. Save
 
 ### 3.4 First-Time Authentication
@@ -97,7 +97,7 @@ $env:OPENAI_API_KEY = "sk-proj-YOUR-KEY-HERE"
 cd C:\Users\HVele\OneDrive\Desktop\Mythara_Archive\Commercial
 py -3.11 autonomous_sales_bot.py
 
-# Browser will open → Sign in with Mythara.Engine@yahoo.com
+# Browser will open → Sign in with Mytharalabs@yahoo.com
 # Click "Allow" to grant permissions
 # Token saved to gmail_token.json (don't delete this!)
 ```
@@ -233,7 +233,7 @@ The bot can't send initial outreach emails autonomously (that would be spam). Yo
 
 **Monday Morning Routine (15 minutes):**
 
-1. Open Gmail (Mythara.Engine@yahoo.com)
+1. Open Yahoo Mail (Mytharalabs@yahoo.com)
 2. Copy template from `First_100_Outreach_Targets.md`
 3. Send to 20 prospects (personalize company name)
 4. Add label "Mythara-Outreach" to sent emails
@@ -298,7 +298,7 @@ Bot automatically:
 - Quits after 3 nos (adds to quarterly cycle)
 
 ### Friday 5pm (Bot)
-- Sends you summary email:
+- Sends you summary email (example figures, not results):
   - Emails processed: 47
   - Interested: 8
   - Calls booked: 2

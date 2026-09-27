@@ -3,6 +3,8 @@
 
 # Mythara Engine — Detailed Pricing & Packages
 
+> **Pricing status (2026-09-27):** Target price schedule from November 2025 — no sales have been made at these or any other prices. As of September 2026: no revenue, no paying customers, no licenses sold. Review before quoting.
+
 **Effective:** November 2025  
 **Contact:** Herbievelezjr@gmail.com | Mythara.Engine@yahoo.com
 
@@ -111,9 +113,9 @@ Teams new to SSIP, first-time adopters
 
 ---
 
-## ![VoIP Bot](./assets/glyphs/voip_bot_license.svg) VoIP Bot License (Q1 2026)
+## ![VoIP Bot](./assets/glyphs/voip_bot_license.svg) VoIP Bot License (Planned)
 
-**$1,500,000** one-time | Pre-order now, ships Q1 2026
+**$1,500,000** one-time | Not yet built — roadmap item, pre-order concept only. Do not sell as a shipped product.
 
 ### What's Included
 - Full VoIP bot source code
@@ -146,11 +148,11 @@ Sales orgs closing $1M+ annually, high-volume outbound
 
 ---
 
-## Early Adopter Pricing (Limited Time)
+## Early Adopter Pricing
 
-**Until November 15, 2025:**
-- SSIP Audit: ~~$2,500~~ **$500** (first 20 customers)
-- Monthly Subscription: ~~$500/month~~ **$300/month** (first 3 months)
+**Status: ENDED November 15, 2025.** Kept for record only — do not quote:
+- ~~SSIP Audit: $500 (was $2,500)~~
+- ~~Monthly Subscription: $300/month (was $500/month, first 3 months)~~
 
 ---
 
@@ -222,6 +224,6 @@ Sales orgs closing $1M+ annually, high-volume outbound
 
 ---
 
-**Limited-time offer:** First 20 SSIP Audits at $500 (normally $2,500).
+**Confirm current rates with Herb before quoting — the early adopter promotion ended November 15, 2025.**
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**

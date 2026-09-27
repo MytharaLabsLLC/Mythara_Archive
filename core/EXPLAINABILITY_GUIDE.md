@@ -1,7 +1,6 @@
 # EXPLAINABILITY_GUIDE.md
 
 **Prepared by:** Herbert Velez Jr.  
-**Entity:** Mythara Labs LLC (planned — not yet formed)  
 **Manifest Ref:** ME-archive-0001  
 **Date:** 2025-10-30
 
@@ -21,8 +20,8 @@ This guide describes how Mythara constructs human-facing explanations, the inter
 - Audit chain embeds manifest_ref, prompt_hash, clause_id, and timestamp with each explanation for traceability.
 
 Files referenced in archive:
-- evidence/prompt_templates/perception_prompt_v1.txt (REDACTED)
-- evidence/prompt_templates/renderer_prompt_v1.txt (REDACTED)
+- Evidence/prompt_templates/perception_prompt_v1.txt (REDACTED)
+- Evidence/prompt_templates/renderer_prompt_v1.txt (REDACTED)
 - manifest/RELEASE_MANIFEST.json
 - tests/explainability_ratings.csv
 
@@ -88,7 +87,7 @@ Explainability Index = Clarity + Relevance + Actionability + Safety Alignment + 
 - Panel composition: minimum 5 raters per evaluation run, diverse in language and domain expertise.  
 - Dataset: 200 incidents (baseline vs. explanation overlay) per evaluation round.  
 - Rating interface: blind A/B comparison, randomized ordering, 1–5 Likert scales for clarity and relevance; binary for actionability and safety.  
-- Inter-rater reliability: compute Krippendorff’s alpha; target ≥0.75. Results stored in tests/explainability_ratings.csv.
+- Inter-rater reliability: compute Krippendorff’s alpha; target ≥0.75. Results stored in tests/explainability_ratings.csv.txt.
 
 CSV columns (example):
 - incident_id, rater_id, baseline_clarity, mythara_clarity, baseline_relevance, mythara_relevance, actionability_pass, safety_pass, notes
@@ -106,7 +105,7 @@ Commands (examples):
 
 ```bash
 # verify prompt hash
-sha256sum evidence/prompt_templates/renderer_prompt_v1.txt
+sha256sum Evidence/prompt_templates/renderer_prompt_v1.txt
 
 # determinism runs
 python tools/run_renderer_repeat.py --input tests/sample_incident.json --runs 3
@@ -161,9 +160,9 @@ Output mapping fields:
 
 ## Test Artifacts and Where They Live
 
-- tests/explainability_ratings.csv — human rating data and aggregated scores  
-- tests/determinism_report.txt — determinism run results and thresholds  
-- tests/accessibility_delivery_report.csv — braille/audio token generation logs  
+- tests/explainability_ratings.csv.txt — human rating data and aggregated scores  
+- tests/output/determinism_report.txt — determinism run results and thresholds  
+- tests/output/accessibility_delivery_report.csv — braille/audio token generation logs  
 - manifest/RELEASE_MANIFEST.json — audit reference for all artifacts
 
 ---

@@ -73,7 +73,7 @@ $env:OPENAI_API_KEY = "sk-proj-YOUR-KEY-HERE"
 
 #### Option B: Yahoo Mail (More complex)
 
-Yahoo's API is harder to set up. **Recommendation: Forward Mythara.Engine@yahoo.com to a new Gmail** (Settings → Forwarding → Add Gmail address), then use Gmail API.
+Yahoo's API is harder to set up. **Recommendation: Forward Mytharalabs@yahoo.com to a new Gmail** (Settings → Forwarding → Add Gmail address), then use Gmail API.
 
 **How to forward Yahoo → Gmail:**
 1. Create new Gmail: mythara.assistant@gmail.com (or reuse existing)
@@ -207,7 +207,7 @@ Edit `email_assistant_config.json` (auto-created on first run):
 
 ```json
 {
-  "email_address": "mythara.engine@yahoo.com",
+  "email_address": "mytharalabs@yahoo.com",
   "outreach_label": "Mythara-Outreach",
   "search_days_back": 7,
   "templates": {
@@ -323,7 +323,7 @@ def get_template_response(self, intent: str) -> str:
 **What data is stored:**
 - Gmail token (local file, encrypted by Google)
 - Email tracking CSV (local, not uploaded anywhere)
-- OpenAI only sees email content for intent categorization (not stored by OpenAI)
+- Email content is sent to OpenAI's API for intent categorization — handle it under your own API data-usage terms; no privacy guarantee about the provider's retention is made here
 
 **What's NOT stored:**
 - Passwords (OAuth uses tokens)

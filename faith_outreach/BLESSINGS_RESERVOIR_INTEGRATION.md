@@ -46,7 +46,7 @@ Cumulative Reservoir:
 ### Step 1: Identify Sacred Acts
 Map your organization's core mission activities to BR-trackable events.
 
-**Example: St. Jude Children's Research Hospital**
+**Example (illustrative — no engagement with any named organization exists): St. Jude Children's Research Hospital**
 | Sacred Act | Description | Typical BR Impact |
 |-----------|-------------|-------------------|
 | Pediatric cancer treatment | Administering chemotherapy to child with 20% survival odds | +15 to +25 |
@@ -170,8 +170,8 @@ metadata = {"patient_id_hash": patient_id_hash}
 
 ## Dashboard & Reporting
 
-### Real-Time BR Dashboard (Neurosymbolic Tier)
-Mythara provides a web-based dashboard showing:
+### Real-Time BR Dashboard (Neurosymbolic Tier; planned — not yet built)
+Mythara will provide a web-based dashboard showing:
 - **Cumulative BR over time** (line chart)
 - **BR by event type** (bar chart: treatments, counseling, donations, etc.)
 - **Integrity score trends** (are staff maintaining mission fidelity under stress?)
@@ -183,8 +183,8 @@ https://dashboard.mythara.ai/org/[YOUR_ORG_ID]
 Login: API key or SSO integration
 ```
 
-### Quarterly Impact Reports (Mythic-Resonant Tier)
-Mythara generates board-ready PDF reports including:
+### Quarterly Impact Reports (Mythic-Resonant Tier; planned — not yet built)
+Mythara will generate board-ready PDF reports including:
 - Executive summary of BR accumulation
 - Narrative case studies (anonymized) of high-integrity events
 - Comparative analysis (how does your integrity compare to sector benchmarks?)
@@ -395,7 +395,7 @@ def on_donation_received(donor_id, amount, campaign):
         json={
             "soul_state": 0.88,
             "will_description": f"Support {campaign} through generosity",
-            "commandment_context": "Love thy neighbor, give sacrificially",
+            "commandment_context": "Love your neighbor, give sacrificially",
             "paradox_severity": paradox,
             "metadata": {
                 "donor_hash": donor_hash,

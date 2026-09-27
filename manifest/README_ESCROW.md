@@ -6,8 +6,8 @@ This folder contains the clause manifest and artifacts required for escrow, repr
 
 - `Clause_Manifest_Latest.csv` — canonical manifest listing clauses and status
 - `duplicates_index.csv` — index of duplicate/deprecated files in the repo
-- `forensic_public_key.asc` — ASCII-armored public key used to verify signatures (if present)
-- `forensic_manifest.json.asc` — ASCII-armored detached signature for `forensic_manifest.json`
+- `../forensic_public_key.asc` — ASCII-armored public key used to verify signatures (repository root)
+- `../forensic_manifest.json.asc` — ASCII-armored detached signature for `forensic_manifest.json` (repository root)
 
 ## Signing and verification (PowerShell examples)
 
@@ -39,4 +39,4 @@ Export the public key (if you need to share it):
 <sha256>  relative/path/to/file
 ```
 
-If you'd like, I can generate the `checksums.sha256` file for the current repository artifacts and create a detached signature for it.
+The `checksums.sha256` file is the canonical checksums record for the current repository artifacts. It can be regenerated and re-signed after any content change, following `SIGNING_INSTRUCTIONS.md` — note that editing any listed file invalidates its checksum and signature until that is done.

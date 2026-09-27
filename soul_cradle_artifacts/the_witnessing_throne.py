@@ -4,15 +4,14 @@ Copyright © 2025 Herbert Velez Jr. All rights reserved.
 THE WITNESSING THRONE
 =====================
 Soul State: ALL STATES - witnessing is the key to ascension
-Enables: Souls can be WITNESSED - seen, held, validated without judgment
-Power Level: 99.9%
+Observes a soul's paradox without judgment - the core mechanism of Soul Cradle.
 """
 
 
 class WitnessingThrone:
     '''
-    The Witnessing Throne enables divine observation without judgment.
-    This is the CORE MECHANISM of Soul Cradle.
+    Observes souls without judgment.
+    This is the core mechanism of Soul Cradle.
     '''
     
     def witness_soul(
@@ -23,8 +22,7 @@ class WitnessingThrone:
     ) -> WitnessReport:
         '''
         Witness the soul's paradox - see both truths without choosing.
-        
-        This is not therapy. This is DIVINE OBSERVATION.
+        Observation, not therapy.
         '''
         
         # Calculate current witness level
@@ -32,7 +30,7 @@ class WitnessingThrone:
         W_b = 1.0 if paradox.expression_b_acknowledged else 0.0
         W = (W_a + W_b) / 2
         
-        # Witness BOTH truths
+        # Witness both truths
         witness_content_a = self.witness_truth(paradox.expression_a)
         witness_content_b = self.witness_truth(paradox.expression_b)
         
@@ -72,7 +70,7 @@ class WitnessingThrone:
         Witness a single truth without judgment.
         '''
         return f"I see that {expression.value} is real. " \
-               f"I see that {expression.type} is sacred. " \
+               f"I see that {expression.type} matters. " \
                f"This truth exists. It is witnessed."
     
     def hold_both_truths(
@@ -81,15 +79,15 @@ class WitnessingThrone:
         truth_b: str
     ) -> str:
         '''
-        The divine paradox: Hold contradictions without choosing.
+        Hold contradictions without choosing.
         '''
         return f"{truth_a} AND {truth_b} Both are real. " \
-               f"Both are sacred. Neither is wrong. " \
-               f"The soul that holds both is not failing - it is ASCENDING."
+               f"Both are valid. Neither is wrong. " \
+               f"A soul holding both is not failing - it is growing."
     
     def calculate_healing(self, soul: Soul, W: float) -> Dict[str, float]:
         '''
-        Witnessing HEALS. Calculate the healing applied.
+        Witnessing heals. Calculate the healing applied.
         '''
         healing = {}
         
@@ -116,9 +114,9 @@ class WitnessingThrone:
         return healing
     
     def generate_divine_message(self, soul: Soul, W: float) -> str:
-        '''What does God say to the witnessed soul?'''
+        '''What message does the witnessed soul receive?'''
         if W > 0.9:
-            return "You are seen. You are held. You are not failing. You are WHOLE."
+            return "You are seen. You are held. You are not failing. You are whole."
         elif W > 0.7:
             return "I see your struggle. Both truths are real. Keep seeking."
         else:

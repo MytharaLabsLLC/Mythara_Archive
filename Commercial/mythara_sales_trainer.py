@@ -132,10 +132,13 @@ class SalesTrainer:
         ]
         
         # Strong language patterns (increase confidence score)
+        # Note: phrases implying clients/results ("our clients see",
+        # "proven results") were removed — we have no customers and no measured
+        # results, and the sales bot's compliance rules forbid claiming them.
         self.strong_phrases = [
             "i recommend", "you'll benefit from", "this solves",
-            "proven results", "guarantee", "best solution",
-            "our clients see", "this delivers", "you need",
+            "guarantee", "best solution",
+            "this delivers", "you need",
             "let's schedule", "here's what we'll do", "commitment"
         ]
         
@@ -307,7 +310,7 @@ class SalesTrainer:
             recommendations.append(f"Remove weak phrases: {', '.join(weak_detected[:3])}")
             recommendations.append("Use assertive language: 'I recommend' instead of 'I think'")
         if len(strong_detected) < 2:
-            recommendations.append("Add more confident phrases: 'proven results', 'best solution'")
+            recommendations.append("Add more confident phrases: 'here is what we will do', 'best solution'")
         if "?" in pitch_text and pitch_text.count("?") > 2:
             recommendations.append("Reduce questions - make statements instead")
         if confidence_score < 0.7:
@@ -431,7 +434,7 @@ class SalesTrainer:
         if objection_type == ObjectionType.PRICE:
             recommendations.append("Reframe as investment: 'For $X, you'll save $Y in 6 months'")
         elif objection_type == ObjectionType.TIMING:
-            recommendations.append("Create urgency without pressure: 'Next quarter's pricing goes up 15%'")
+            recommendations.append("Create urgency honestly: 'If we start now, you can be live before next quarter'")
         elif objection_type == ObjectionType.COMPETITION:
             recommendations.append("Differentiate: 'Unlike competitor X, we offer Y which saves you Z'")
         
@@ -608,7 +611,7 @@ def main():
     print("-"*70)
     strong_pitch = """
     I recommend our Enterprise solution. This solves your scalability challenge 
-    and delivers proven results within 30 days. Our clients see 40% efficiency gains.
+    and most teams that automate this step free up hours every week. 
     Let's schedule implementation for next week. Here's what we'll do...
     """
     analysis2 = trainer.analyze_pitch(strong_pitch)
@@ -639,9 +642,9 @@ def main():
     
     # Good response (empathy + value)
     good_response = """
-    I understand your concern about pricing. Let me show you the ROI: 
-    Our solution saves clients an average of $50K/year through automation. 
-    For your $30K investment, you'll break even in 7 months and save $20K net in year one.
+    I understand your concern about pricing. Let's work the numbers together:
+    if this saves your team five hours a week, that's roughly 260 hours a year.
+    Compare that against the price and see whether it beats your current setup.
     """
     response2 = trainer.handle_objection(
         ObjectionType.PRICE,

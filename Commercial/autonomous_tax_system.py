@@ -32,7 +32,7 @@ class TaxRevenueTracker:
         self.ledger = self._load_ledger()
         self.owner_email = "Herbievelezjr@gmail.com"
         self.business_name = "Mythara Engine"
-        self.ein = "PENDING"  # You'll get this when you form LLC
+        self.ein = "PENDING"  # Mythara Labs LLC formation filed with Colorado SOS 2026-09-27, pending completion; EIN follows
     
     def _load_ledger(self) -> Dict:
         if self.filepath.exists():
@@ -411,11 +411,11 @@ if __name__ == '__main__':
     
     bot = AutonomousBotWithTaxes()
     
-    # Simulate some sales
+    # Simulate some sales (demo: placeholder addresses, not real customers)
     print("\n📊 RECORDING SALES...")
-    bot.record_closed_deal("sarah@westernunion.com", 500, "stripe")
-    bot.record_closed_deal("mike@pingidentity.com", 2500, "zelle")
-    bot.record_closed_deal("james@uchealth.org", 500, "stripe")
+    bot.record_closed_deal("demo.prospect1@example.com", 500, "stripe")
+    bot.record_closed_deal("demo.prospect2@example.com", 2500, "zelle")
+    bot.record_closed_deal("demo.prospect3@example.com", 500, "stripe")
     
     # Record some expenses
     print("\n📤 RECORDING EXPENSES...")

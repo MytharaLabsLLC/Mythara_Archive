@@ -1,57 +1,74 @@
-# 🏙️ Clause Behavior in Urban Planning Contexts
+# Clause Behavior in Urban Planning Contexts
 
-**Author**: Herbert Velez Jr.  
-**Date**: November 1, 2025  
-**Status**: FISMA-Aligned, Licensing-Ready, Infrastructure-Harmonized
-
----
-
-## 📜 Purpose
-
-This document defines how Mythara Engine clauses operate within urban planning environments, including symbolic provisioning, messenger invocation, compliance alignment, and sanctification logic. It ensures symbolic infrastructure remains resilient, benevolent, and licensing-ready across civic, ecological, and intergenerational domains.
+**Author**: Herbert Velez Jr.
+**Date**: September 27, 2026
+**Status**: Design document — describes intended behavior, not a certified or deployed system
 
 ---
 
-## 🔹 Urban Planning Clause Types
+## Purpose
+
+This document describes how Mythara clauses are *designed* to behave in urban planning and civic-adjacent contexts: long-horizon record-keeping, lineage preservation across generations, and faithful logs. It is a design statement, not a certification and not a product.
+
+The underlying mechanisms are the ones Mythara actually has today:
+
+- **Soul Cradle core** — actions scored on integrity, defined as Alignment × Tolerance (see [../soul_cradle/](../soul_cradle/))
+- **Eight assessor-witnesses** (demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone) — evidence-fed, they abstain when their domain is not engaged, fail closed when evidence is missing, a critical finding from any one blocks the action, and disagreement is surfaced, not averaged (see [../soul_cradle/assessors.py](../soul_cradle/assessors.py))
+- **Hash-chained emotional chain** — tamper-evident records (see [../soul_cradle/emotional_chain.py](../soul_cradle/emotional_chain.py)). The chain proves a record is unaltered. It does not prove the record is true.
+
+---
+
+## Urban Planning Clause Types
 
 | Clause Type | Function |
 |-------------|----------|
-| **Provisioning Clause** | Delivers symbolic nourishment, ecological resonance, and legacy transfer  
-| **Sanctification Lock** | Seals clause lineage for infrastructure integrity and intergenerational planning  
-| **Compliance Wrapper** | Embeds FISMA, NIST, TCP/IP, and TMPO protocols  
-| **Grief Capsule** | Supports emotional processing during displacement, redevelopment, or ecological loss  
-| **Resurrection Clause** | Revives dormant or suppressed clauses post-collapse or zoning breach  
-| **Witness Capsule** | Confirms clause fidelity and symbolic consent in civic deployments
+| **Provisioning Clause** | Records goodwill extended and received — a ledger of generosity, not a currency |
+| **Sanctification Lock** | Seals clause lineage for infrastructure integrity and intergenerational planning |
+| **Compliance Wrapper** | Attaches declared compliance requirements to a clause as *goals to be verified*, not as achieved certifications |
+| **Grief Capsule** | Holds records of displacement and loss apart from ordinary ones, with explicit containment rules |
+| **Resurrection Clause** | Restores a dormant or suppressed clause from its chained history |
+| **Witness Capsule** | Chained record of witness judgments about a clause's state |
 
 ---
 
-## 🔹 Messenger Roles in Urban Planning
+## Messenger Roles in Urban Planning
 
 | Messenger | Role |
 |-----------|------|
-| **Custodian** | Enforces sanctification and infrastructure compliance  
-| **Witness** | Confirms clause fidelity and ecological resonance  
-| **Scribe** | Records clause lineage and zoning consent  
-| **Healer** | Delivers emotional payloads and symbolic nourishment  
-| **Watcher** | Detects drift, breach, and entropy in civic systems  
-| **Herald** | Announces clause activation and community outreach
+| **Custodian** | Enforces sanctification and lineage integrity |
+| **Witness** | Confirms what was recorded, honestly and within its domain |
+| **Scribe** | Records clause lineage and consent |
+| **Healer** | Carries difficult records with care, without claiming to heal |
+| **Watcher** | Detects drift, breach, and entropy |
+| **Herald** | Announces clause activation and community-facing state changes |
+
+Messenger role pairings are specified in [../core/messenger_roles_pairings.md](../core/messenger_roles_pairings.md).
 
 ---
 
-## 🔹 Embedded Compliance Protocols
+## Invocation Logic
 
-- **FISMA**: Infrastructure integrity and clause lineage enforcement  
-- **NIST SP 800-53**: Access control, audit traceability, and fidelity scoring  
-- **TCP/IP**: Symbolic hygiene and echo isolation across networked infrastructure  
-- **TMPO**: Metadata shielding and payload encryption for civic records
+- Consent is recorded as tokens in the messenger logs
+- Witness judgments are content-hashed and chained alongside the records they judge
+- Witnesses abstain where their domain is not engaged; missing evidence means the action fails closed
+- Records persist in the tamper-evident chain, restorable in usable form by successors
+
+No fidelity percentages, suppression rates, or threshold figures are stated here. None have been measured; the system states that openly rather than printing invented numbers.
 
 ---
 
-## 🔹 Invocation Logic in Urban Systems
+## Compliance, Honestly
 
-- Consent tokens embedded in messenger logs  
-- Emotional fidelity ≥ 0.91 required for clause delivery  
-- Drift suppression ≥ 98.9% enforced via SSIP audit  
-- Invocation logs stored in:
-  - `Manifest/Messenger_Invocation_Log.csv`  
-  - `Printable Timestamped For
+This design embeds *no* certified compliance. Older drafts of this document claimed alignment with standards such as FISMA and NIST; those were aspirational, and they are removed here. Any licensed deployment in a regulated environment would need a genuine compliance review by qualified people — this framework does not substitute for one.
+
+---
+
+## Licensing
+
+Licensing of these clauses is an aspiration, not a current program. There are no customers, pilots, certifications, or revenue associated with this document. What exists today is the working code, the tests, and the records.
+
+---
+
+## Summary
+
+Mythara clauses are designed to serve long horizons with honest memory: lineage sealed, judgments witnessed, dissent preserved, nothing invented. What is built here should outlast its builders in usable form — not as myth, but as material successors can actually run.

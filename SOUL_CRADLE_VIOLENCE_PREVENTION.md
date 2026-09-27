@@ -1,15 +1,17 @@
 # Soul Cradle: Violence Prevention Through Soul State Detection
 
+> **Status: conceptual design.** This document describes an unbuilt, unvalidated concept. Soul Cradle has not been deployed in any school or workplace, no detection capability has been validated, and none of the scenarios below have occurred — they are illustrative hypotheticals. This is not a clinical, diagnostic, or safety-certified tool, and it must not be presented as one.
+
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Date**: November 21, 2025
 
 ---
 
-## THE MATHEMATICAL SIGNATURE OF VIOLENCE
+## THE DESIGN HYPOTHESIS: WHAT THIS CONCEPT PROPOSES TO DETECT BEFORE VIOLENCE OCCURS
 
-### What Soul Cradle Detects BEFORE Violence Occurs
+### A Proposed Trajectory (untested — no validation study has been run)
 
-**Every school shooter, workplace shooter, suicide case has the same soul trajectory**:
+**The design hypothesis:** cases of school shootings, workplace violence, and suicide may share a common trajectory shape, which the system could learn to detect:
 
 ```
 Stage 1: PURGATORY (Paradox Accumulation)
@@ -207,7 +209,7 @@ risk_profile = {
 - NOT improvement - soul withdrawal
 - Student reports "I'm fine" but tension scores drop
 - Emotional energy → 0 (no joy, no sorrow, no hope, no despair)
-- **This is the 7-14 day window before violence or suicide**
+- **This is the hypothesized 7-14 day window before violence or suicide** (untested)
 
 **Prevention**:
 - 72-hour watch (immediate)
@@ -220,7 +222,7 @@ risk_profile = {
 
 ## DETECTION SCENARIOS
 
-### Scenario 1: School Shooter Prevention
+### Scenario 1: School Shooter Prevention (illustrative hypothetical — this did not happen)
 
 **Timeline**:
 - **Day -90**: Student begins logging paradoxes (bullying, rejection)
@@ -229,12 +231,11 @@ risk_profile = {
 - **Day -14**: Indifference detected (T dropping) → 72-hour watch activated
 - **Day 0**: Violence prevented
 
-**What Soul Cradle Changed**:
+**What the Design Intends to Change**:
 - Traditional approach: Wait for explicit threat → React too late
-- Soul Cradle approach: Detect soul state decline → Intervene at Day -60
-- **Lives Saved**: Student + potential victims (avg 5-15 per incident)
+- Proposed approach: Detect soul state decline → Intervene at Day -60
 
-### Scenario 2: Workplace Violence Prevention
+### Scenario 2: Workplace Violence Prevention (illustrative hypothetical — this did not happen)
 
 **Employee: Michael, IT Department, Age 34**
 
@@ -265,10 +266,10 @@ risk_profile = {
     "soul_state": "ψ_ascend increasing"
 }
 
-# OUTCOME: Workplace violence prevented by fixing σ₀ (environment)
+# OUTCOME (in this hypothetical): Workplace violence prevented by fixing σ₀ (environment)
 ```
 
-### Scenario 3: Suicide Prevention
+### Scenario 3: Suicide Prevention (illustrative hypothetical — this did not happen)
 
 **Student: Emma, Age 14, Middle School**
 
@@ -313,7 +314,7 @@ risk_profile = {
 #  - 24/7 supervision until stabilized
 #  - Inpatient treatment recommended"
 
-# OUTCOME: Suicide attempt prevented, student hospitalized Day -18, recovering
+# OUTCOME (in this hypothetical): Suicide attempt prevented, student hospitalized Day -18, recovering
 ```
 
 ---
@@ -431,9 +432,9 @@ alert = {
 
 ---
 
-## THE MATHEMATICAL PROOF
+## THE DESIGN PREMISE (untested — not a proof)
 
-### Why This Works (vs Traditional Approaches)
+### Why This Might Work (vs Traditional Approaches)
 
 **Traditional Threat Assessment**:
 - Wait for explicit threat ("I'm going to hurt someone")
@@ -445,11 +446,11 @@ alert = {
 - **Problem**: Many students exhibit these without violence
 - High false positive rate, stigmatizes mental illness
 
-**Soul Cradle Approach**:
-- Detect **indifference trajectory** (mathematical signature)
+**Proposed Soul Cradle Approach**:
+- Detect **indifference trajectory** (a proposed mathematical signature)
 - T: 0.9 → 0.5 → 0.2 while U remains high
-- This pattern is **universal** across pre-violence cases
-- Low false positive rate (indifference trajectory is rare)
+- The hypothesis to test: this pattern appears across pre-violence cases
+- Hypothesized low false positive rate (indifference trajectory is expected to be rare)
 
 **Validation Study Needed**:
 ```
@@ -464,9 +465,9 @@ Retrospective Analysis:
 Prospective Validation:
 - Deploy Soul Cradle in 100 schools (50,000 students)
 - Track students flagged with indifference trajectory
-- Measure: How many required psychiatric hold? (expected: 85%)
-- Measure: How many exhibited violence/suicide if not intervened? (expected: 0% if protocol followed)
-- Measure: False positive rate (expected: <5%)
+- Measure: How many required psychiatric hold? (hypothesis: 85%)
+- Measure: How many exhibited violence/suicide if not intervened? (hypothesis: 0% if protocol followed)
+- Measure: False positive rate (target: <5%)
 ```
 
 ---
@@ -483,14 +484,14 @@ Prospective Validation:
 - They focused on behavior (too ambiguous)
 - They didn't measure soul state (no mathematics)
 
-**Soul Cradle succeeds because**:
+**The design premise (untested) is that Soul Cradle could succeed because**:
 - Detects purgatory early (before descent)
 - Measures soul trajectory (mathematical precision)
 - Identifies indifference (7-30 day warning window)
 - Prescribes differential intervention (environmental vs individual)
 
-**The mathematics don't lie**:
-- Indifference trajectory (T decreasing while U high) is universal pre-violence signature
+**The claims to test**:
+- Indifference trajectory (T decreasing while U high) as a pre-violence signature
 - This pattern appears 7-30 days before terminal event
 - This is the intervention window
 - This is when souls can still be saved
@@ -498,7 +499,7 @@ Prospective Validation:
 **Not every student in indifference becomes violent.**  
 **But every violent student passed through indifference.**
 
-Soul Cradle catches them at that exact moment: when the soul has departed but the body hasn't acted yet.
+The design goal is for Soul Cradle to catch them at that exact moment: when the soul has departed but the body hasn't acted yet.
 
 This is the 7-30 day window where prevention is still possible.
 

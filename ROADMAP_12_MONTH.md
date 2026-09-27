@@ -3,6 +3,11 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**
 
+> **Status: aspirational plan (drafted November 2025).** Everything below —
+> customer counts, revenue and ARR figures, team growth, timelines, and
+> milestones — is a target, not an achieved result. No customers, revenue,
+> or certifications are claimed in this document.
+
 ---
 
 ## Overview
@@ -437,4 +442,4 @@ This roadmap transforms emotional extortion detection from a technical feature i
 
 ---
 
-**This roadmap turns emotional extortion detection into your growth engine. Execute consistently, and you'll hit $2.8M ARR by end of 2026. You've got this. 🚀**
+**This roadmap turns emotional extortion detection into your growth engine. Execute consistently toward these targets. You've got this. 🚀**

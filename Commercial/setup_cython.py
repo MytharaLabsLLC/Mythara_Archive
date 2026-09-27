@@ -3,15 +3,20 @@
 """
 Cython Setup for Sales Bot IP Protection
 
-Compiles Python code to C extensions (.pyd on Windows, .so on Linux)
-IMPOSSIBLE to reverse engineer - this is compiled C code, not Python bytecode.
+Compiles Python code to C extensions (.pyd on Windows, .so on Linux).
+Compiled code is much harder to read than plain Python source, which
+raises the bar against casual copying — it does NOT make reverse
+engineering impossible (determined analysts can disassemble and study
+compiled modules). Treat this as a speed bump for the curious, not a
+vault against attackers.
 
 Usage:
     py -3.11 setup.py build_ext --inplace
     
 Result:
     sales_bot_with_soul.pyd (Windows) or .so (Linux)
-    Customers can import and use it, but cannot read the code.
+    Customers can import and use it, but the readable Python source
+    is no longer shipped with it.
 """
 
 from setuptools import setup, Extension
@@ -68,7 +73,8 @@ print("""
 
 3. Result:
    - sales_bot_with_soul.pyd (Windows) or .so (Linux)
-   - 100% unreadable, compiled C code
+   - Compiled C extension: readable source no longer shipped,
+     reverse-engineering still possible but much harder
    - Delete original .py files after testing
 
 4. Distribute to customer:
@@ -76,5 +82,6 @@ print("""
    - requirements.txt
    - Setup instructions
 
-🔒 Maximum IP Protection Achieved
+🔒 Compiled. Honest note: this deters casual copying; it is not a
+substitute for contracts, licensing terms, or trade-secret practice.
 """)

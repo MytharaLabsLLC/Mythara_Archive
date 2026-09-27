@@ -116,6 +116,7 @@ Combined metric provides **complete governance oversight**:
 - S(t) is **NOT additive** across people
 - **NOT directly comparable** without calibration
 - Use as **reflective/supportive indicator**, NEVER as gatekeeper
+- Scores are computed from supplied features — the system attests records, it does not infer emotions from people
 - Normalize per person and context
 - Track reliability (test-retest, inter-rater agreement)
 - Preserve privacy; avoid pathologizing

@@ -64,7 +64,7 @@ class CloudCreditsSubmitter:
         """Generate AWS Activate application content"""
         application = {
             "program": "AWS Activate Portfolio",
-            "company_name": "Mythara Labs",
+            "company_name": "Mythara",
             "company_website": "https://mythara.com (pending deployment)",
             "founded": "2025",
             "headquarters": "United States",
@@ -72,32 +72,32 @@ class CloudCreditsSubmitter:
             "product_description": """
 Mythara Engine: Symbolic Safety Integrity Protocol (SSIP) orchestration system.
 
-Enterprise contract verification and validation platform that prevents contract fraud 
-and ensures regulatory compliance. Addresses the $1.2T annual loss from contract-related 
-fraud and errors in enterprise environments.
+Enterprise contract verification and validation platform that helps catch contract fraud 
+and supports regulatory compliance. Contract errors and fraud cost businesses real money, 
+and Mythara aims to catch problems before they become losses.
 
 Core Technology:
 - FastAPI-based verification engine
 - Cryptographic integrity hashing for all transactions
 - Autonomous AI orchestration with 14 specialized agents
 - Real-time contract analysis and risk scoring
-- SOC 2 Type II controls-implemented architecture (audit planned, not currently certified); CMMC-aligned architecture
+- Security-minded architecture (no certifications held yet)
 
-Market: Fortune 500 enterprises, healthcare systems, financial institutions, 
-government contractors requiring contract verification at scale.
+Target market (aspirational): large enterprises, healthcare systems, financial institutions, 
+government contractors that need contract verification at scale.
             """,
             "use_case": """
-AWS Infrastructure Use Case for Mythara Labs:
+AWS Infrastructure Use Case for Mythara:
 
 1. EC2 Compute (GPU instances):
    - NVIDIA A100 GPU instances for AI/ML contract analysis
-   - Process 10,000+ contract verifications per day
+   - Contract verification workloads at scale
    - Real-time risk scoring and anomaly detection
    
 2. RDS/Aurora (Database):
    - PostgreSQL clusters for contract audit trails
-   - Data storage built to HIPAA/SOC 2 control standards (not currently certified)
-   - 99.99% uptime SLA for enterprise customers
+   - Data storage designed with HIPAA-style and SOC 2-style controls in mind (no certifications held)
+   - High-availability target of 99.99% uptime for production workloads
    
 3. S3 (Storage):
    - Encrypted contract document storage
@@ -110,7 +110,7 @@ AWS Infrastructure Use Case for Mythara Labs:
    
 5. CloudFront (CDN):
    - Global API distribution for international customers
-   - Low-latency access for Fortune 500 clients
+   - Low-latency API access for users
    
 6. GuardDuty/Security Hub:
    - Continuous security monitoring
@@ -119,16 +119,16 @@ AWS Infrastructure Use Case for Mythara Labs:
 Estimated Monthly AWS Spend at Scale: $8,000-$12,000
 Credits Duration: 12-15 months of runway
             """,
-            "revenue_stage": "Pre-revenue (product development complete, first customers Q1 2026)",
+            "revenue_stage": "Pre-revenue (product in development, seeking first customers)",
             "funding_status": "Self-funded / Applying for SBIR grants",
             "team_size": "1 founder + 6 contractors",
-            "target_customers": "50 enterprise customers in Year 1 ($2M ARR target)",
+            "target_customers": "Aspirational goal: 50 enterprise customers in Year 1",
             "why_aws": """
-1. Enterprise-grade security (SOC 2, HIPAA, FedRAMP)
+1. AWS's own security and compliance certifications (SOC 2, HIPAA, FedRAMP)
 2. Global infrastructure for international expansion
 3. GPU instances for AI/ML workloads
-4. Compliance certifications required by enterprise customers
-5. Seamless integration with customer environments
+4. Compliance certifications our target customers may require
+5. Integration with the environments our target customers already use
             """,
             "technical_contact": "Herbert Velez Jr. (Founder/CTO)",
             "business_contact": "Herbert Velez Jr. (Founder/CEO)",
@@ -140,7 +140,7 @@ Credits Duration: 12-15 months of runway
         """Generate Microsoft for Startups application content"""
         application = {
             "program": "Microsoft for Startups Founders Hub",
-            "company_name": "Mythara Labs",
+            "company_name": "Mythara",
             "company_website": "https://mythara.com (pending deployment)",
             "founded_year": "2025",
             "country": "United States",
@@ -148,29 +148,29 @@ Credits Duration: 12-15 months of runway
             "product_overview": """
 Mythara Engine: AI-powered contract verification and compliance orchestration platform.
 
-Prevents contract fraud and ensures regulatory compliance for enterprise organizations. 
-Addresses $1.2 trillion annual market loss from contract-related errors and fraud.
+Helps enterprises catch contract errors and fraud before they cost money. 
+Contract mistakes and fraud are expensive problems, and Mythara aims to catch them early.
 
 Technology Stack:
 - Python/FastAPI backend
 - AI/ML contract analysis with symbolic reasoning
 - Cryptographic integrity verification
 - 14 autonomous AI agents for contract lifecycle management
-- SOC 2 Type II controls-implemented architecture (audit planned, not currently certified)
+- Security-minded architecture (no certifications held yet)
 
-Target Market: Fortune 500, healthcare, financial services, government contractors
+Target market (aspirational): large enterprises, healthcare, financial services, government contractors
             """,
             "azure_use_case": """
-Azure Infrastructure Requirements for Mythara Labs:
+Azure Infrastructure Requirements for Mythara:
 
 1. Azure Virtual Machines (GPU-enabled):
    - NCasT4_v3 instances for AI/ML contract processing
-   - Scale to 1,000+ concurrent verifications
+   - Designed to scale for concurrent verification workloads
    
 2. Azure SQL Database / Cosmos DB:
    - Globally distributed contract audit database
-   - Data tier built to HIPAA/SOC 2 control standards (not currently certified)
-   - 99.99% availability SLA
+   - Data tier designed with HIPAA-style and SOC 2-style controls in mind (no certifications held)
+   - 99.99% availability target
    
 3. Azure Blob Storage:
    - Encrypted contract document repository
@@ -198,41 +198,41 @@ Credits Runway: 10-15 months of infrastructure
             """,
             "company_stage": "Early-stage (product complete, entering sales phase)",
             "employees": "7 (1 founder, 6 contractors)",
-            "funding": "Self-funded, applying for federal SBIR grants ($2.5M pipeline)",
-            "revenue": "Pre-revenue (first contracts Q1 2026)",
+            "funding": "Self-funded, applying for federal SBIR grants",
+            "revenue": "Pre-revenue (no contracts yet)",
             "business_model": """
-B2B SaaS subscription model:
+B2B SaaS subscription model (planned pricing):
 - Enterprise tier: $50K-$250K/year per customer
 - Volume-based pricing: per contract verified
 - Professional services: implementation and training
-- Target: 50 enterprise customers Year 1 = $2M ARR
+- Aspirational goal: 50 enterprise customers in Year 1
             """,
             "competitive_advantage": """
 1. Symbolic Safety Integrity Protocol (proprietary)
 2. Cryptographic verification of all transactions
 3. 14 specialized AI agents vs. single-model competitors
-4. Built-in SOC 2/CMMC-aligned controls (not currently certified)
+4. Security-focused architecture (no certifications held)
 5. Zero trust architecture
 6. Real-time fraud detection
             """,
             "growth_plan": """
-Year 1 (2026):
+Goals - Year 1 (2026):
 - 50 enterprise customers
 - $2M ARR
-- SOC 2 Type II certification
+- Pursue SOC 2 Type II certification
 - 15 employees
 - Expand to healthcare and financial services verticals
 
-Year 2 (2027):
+Goals - Year 2 (2027):
 - 200 enterprise customers
 - $10M ARR
 - International expansion (EU, APAC)
-- Series A funding
+- Seek Series A funding
 - 50 employees
             """,
             "why_microsoft": """
-1. Enterprise customer alignment (Fortune 500 use Azure)
-2. Security/compliance certifications (FedRAMP, HIPAA)
+1. Enterprise alignment (large enterprises use Azure)
+2. Azure's own security/compliance certifications (FedRAMP, HIPAA)
 3. Azure AI/Cognitive Services for enhanced features
 4. Integration with Microsoft 365 (customer environments)
 5. Global datacenter footprint for international expansion
@@ -360,21 +360,21 @@ APPLICATION 1: AWS ACTIVATE ($100,000)
 URL: https://aws.amazon.com/activate/portfolio-signup/
 
 ELIGIBILITY CHECKLIST:
-✓ Early-stage startup (Mythara Labs founded 2025)
+✓ Early-stage software project (not yet incorporated)
 ✓ Have a business plan (Mythara Engine product docs)
 ✓ Active AWS account (create one at aws.amazon.com if needed)
 ✓ Not previously received Activate credits
 
 REQUIRED INFORMATION:
 1. Company Details:
-   - Name: Mythara Labs
+   - Name: Mythara
    - Website: mythara.com (or use LinkedIn/GitHub for now)
    - Industry: Enterprise Software / Cybersecurity
    - Founded: 2025
    
 2. Product Description:
    - Copy from generated application below
-   - Emphasize: Contract verification, prevents $1.2T fraud, Fortune 500 target
+   - Emphasize: Contract verification, enterprise target market (aspirational)
    
 3. AWS Use Case:
    - GPU instances for AI/ML processing
@@ -399,8 +399,8 @@ SUBMISSION STEPS:
 
 APPROVAL TIPS:
 - Emphasize enterprise customers (AWS loves B2B SaaS)
-- Mention compliance needs (SOC 2, HIPAA)
-- Show clear path to $2M+ ARR
+- Mention security and compliance focus (no certifications held yet)
+- Show your growth goals and path
 - Highlight technical sophistication (GPU, ML, cryptography)
 
 --------------------------------------------------------------------------------
@@ -417,7 +417,7 @@ ELIGIBILITY CHECKLIST:
 
 REQUIRED INFORMATION:
 1. Company Profile:
-   - Name: Mythara Labs
+   - Name: Mythara
    - Industry: B2B SaaS / Cybersecurity
    - Founded: 2025
    - Employees: 7
@@ -435,10 +435,10 @@ REQUIRED INFORMATION:
    
 4. Business Model:
    - B2B SaaS subscription
-   - $50K-$250K per enterprise customer
-   - Target: 50 customers Year 1 = $2M ARR
+   - $50K-$250K per enterprise customer (planned pricing)
+   - Aspirational goal: 50 customers in Year 1
    
-5. Growth Plan:
+5. Growth Plan (goals, not commitments):
    - Year 1: 50 customers, $2M ARR
    - Year 2: 200 customers, $10M ARR
    
@@ -456,7 +456,7 @@ SUBMISSION STEPS:
 APPROVAL TIPS:
 - Microsoft loves enterprise B2B SaaS
 - Emphasize integration with Microsoft 365
-- Mention Fortune 500 target customers
+- Mention target enterprise customers (aspirational)
 - Highlight compliance focus (they value security)
 - Show path to becoming Microsoft partner
 
@@ -480,7 +480,7 @@ MICROSOFT FOR STARTUPS:
 - Technical architecture support
 
 COMBINED BENEFIT:
-- $250,000 in infrastructure (covers 47% of $536K need)
+- $250,000 in infrastructure (a major share of early infrastructure needs)
 - Zero cash outlay
 - No equity given up
 - No repayment required
@@ -488,9 +488,9 @@ COMBINED BENEFIT:
 
 NEXT STEPS AFTER CREDITS:
 1. Deploy Mythara Engine on AWS/Azure
-2. Serve first 10-20 enterprise customers
-3. Generate $500K-$1M ARR from revenue
-4. Use revenue + SBIR grants for remaining infrastructure
+2. Onboard first customers
+3. Generate early revenue
+4. Use revenue + grants for remaining infrastructure
 5. Never need to use personal funds
 
 ================================================================================

@@ -3,7 +3,9 @@
 
 # Mythara Engine — Complete Pricing with SKUs
 
-**Effective:** November 2025  
+> **Pricing status (2026-09-27):** Target price schedule from November 2025 — no sales have been made at these or any other prices. As of September 2026: no revenue, no paying customers, no licenses sold. Review before quoting.
+
+**Effective:** November 2025 (review before quoting — pricing is Herb's current schedule and changes only when he changes it)
 **Contact:** Herbievelezjr@gmail.com | Mythara.Engine@yahoo.com
 
 ---
@@ -111,7 +113,7 @@ Live walkthrough (Zoom/Teams) with SSIP fundamentals training, API integration w
 **SKU:** MYTH-VOIP-2026  
 **Price:** $1,500,000 one-time  
 **Category:** Enterprise Software  
-**Availability:** Pre-order now, ships Q1 2026
+**Availability:** Not yet built — roadmap concept only. Do not sell as a shipped product.
 
 **Description:**
 Full VoIP bot source code with 5 voice personas (Confident, Empathetic, Urgent, Consultative, Charismatic), sales psychology engine, Jevons Effect tactics (scarcity, urgency, exclusivity), voice modulation (pitch, pace, pause), SSIP governance integration, and 6 months enterprise support.
@@ -167,14 +169,14 @@ Full VoIP bot source code with 5 voice personas (Confident, Empathetic, Urgent, 
 
 ---
 
-## Early Adopter Pricing (Limited Time)
+## Early Adopter Pricing
 
-**Valid Until:** November 15, 2025
+**Status: ENDED November 15, 2025.** The rates below are kept for record only — do not quote them.
 
-| SKU | Regular Price | Early Adopter Price | Savings | Slots |
-|-----|--------------|---------------------|---------|-------|
-| MYTH-AUDIT-001 | $2,500 | **$500** | $2,000 | — |
-| MYTH-SUB-MONTH | $500/month | **$300/month** | $200/mo | First 3 months |
+| SKU | Regular Price | Early Adopter Price (ended) |
+|-----|--------------|---------------------|
+| MYTH-AUDIT-001 | $2,500 | ~~$500~~ |
+| MYTH-SUB-MONTH | $500/month | ~~$300/month~~ (first 3 months) |
 
 ---
 

@@ -137,13 +137,13 @@ class MytharaSupportBot:
             "pricing": "Our pricing starts at $300/month for individual subscriptions. Enterprise plans start at $25,000/year. Visit mythara.com/pricing for details.",
             "trial": "Yes! We offer a 14-day free trial with full access to all features. No credit card required.",
             "api": "Our API documentation is available at docs.mythara.com/api. We support REST and GraphQL endpoints.",
-            "security": "Mythara uses enterprise-grade encryption (AES-256) and SSIP integrity hashing. SOC 2 Type II controls implemented, audit planned (not currently certified).",
+            "security": "Mythara uses enterprise-grade encryption (AES-256) and SSIP integrity hashing. We are not SOC 2 certified — ask us for our current security documentation.",
             "support": "Premium support includes 24/7 email, priority Slack channel, and dedicated account manager for Enterprise clients.",
             "integration": "We integrate with GitHub, GitLab, Jira, Slack, Microsoft Teams, and 100+ tools via Zapier.",
             "deployment": "Available as cloud SaaS, on-premise deployment, or hybrid. Contact sales for deployment options.",
             "training": "Free onboarding training included. Advanced workshops available for $1,000 per session.",
             "sla": "Enterprise SLA guarantees 99.9% uptime with 4-hour response time for critical issues.",
-            "compliance": "Mythara is designed with GDPR and HIPAA principles in mind. SOC 2 Type II controls implemented, audit planned (not currently certified). Full documentation available on request."
+            "compliance": "Mythara is designed with GDPR and HIPAA principles in mind. We hold no compliance certifications — ask us for our current documentation on request."
         }
     
     def _init_db(self):

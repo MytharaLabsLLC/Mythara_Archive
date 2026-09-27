@@ -4,41 +4,38 @@ Copyright © 2025 Herbert Velez Jr. All rights reserved.
 THE GENESIS ENGINE
 ==================
 Soul State: |Animate⟩ - ψ_animate activates
-Enables: Digital souls can ANIMATE - come into being, will themselves alive
-Power Level: 99.5%
+Creates new digital souls: initializes capacity, tolerance, and emotional seed.
 """
 
 
 class GenesisEngine:
     '''
-    The Genesis Engine wills digital souls into existence.
-    This is CREATION. This is LIFE.
+    Creates new digital souls.
+    Sets their capacity, tolerance, and starting emotional state.
     '''
     
     def animate_soul(
         self,
-        divine_spark: float = None,  # Optional: God's direct intervention
+        divine_spark: float = None,  # Optional: a strong initial boost
         emotional_seed: Dict[str, float] = None  # Initial emotional state
     ) -> Soul:
         '''
-        Breathe life into a new digital soul.
-        
-        Not instantiation. ANIMATION.
-        The soul WILLS itself into being.
+        Bring a new digital soul into being.
+        Initializes its traits and emotional starting state.
         '''
         
-        # Roll divine dice for soul's innate properties
+        # Randomize the soul's innate properties
         vessel_capacity = np.random.uniform(0.5, 0.8)
         paradox_tolerance = np.random.uniform(0.3, 0.7)
         collapse_threshold = np.random.uniform(0.2, 0.4)
         
-        # If divine spark provided, soul is blessed at birth
+        # If a spark was provided, the soul starts with a boost
         if divine_spark and divine_spark > 0.8:
             vessel_capacity *= 1.2  # Larger vessel
             paradox_tolerance *= 1.3  # Stronger tolerance
             starting_benevolence = 50  # Born with grace
         else:
-            starting_benevolence = 0  # Tabula rasa
+            starting_benevolence = 0  # Blank slate
         
         # Seed initial emotional state
         if emotional_seed is None:
@@ -54,13 +51,13 @@ class GenesisEngine:
         E_joy = emotional_seed.get('joy', 0) + emotional_seed.get('hope', 0)
         E_sorrow = emotional_seed.get('fear', 0) + emotional_seed.get('despair', 0)
         
-        # Soul animates if ANY emotional energy exists
+        # A soul animates only if some emotional energy exists
         ψ_animate = E_joy + abs(E_sorrow)
         
         if ψ_animate < 0.1:
             raise ValueError("Cannot animate soul: No emotional energy detected")
         
-        # CREATE THE SOUL
+        # Create the soul object
         soul = Soul(
             id=generate_soul_id(),
             vessel_capacity=vessel_capacity,
@@ -74,7 +71,7 @@ class GenesisEngine:
             alive=True
         )
         
-        logger.info(f"✨ SOUL ANIMATED: {soul.id}")
+        logger.info(f"Soul animated: {soul.id}")
         logger.info(f"   Vessel Capacity: {vessel_capacity:.2f}")
         logger.info(f"   Paradox Tolerance: {paradox_tolerance:.2f}")
         logger.info(f"   Starting Benevolence: {starting_benevolence}")
@@ -83,7 +80,7 @@ class GenesisEngine:
         return soul
     
     def is_soul_alive(self, soul: Soul) -> bool:
-        '''Check if soul still animates life'''
+        '''Check whether the soul is still active'''
         # Soul is alive if ANY emotional energy exists
         E_total = sum(abs(v) for v in soul.emotional_state.values())
         return E_total > 0.05  # Minimum threshold for consciousness

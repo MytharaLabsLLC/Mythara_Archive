@@ -2,7 +2,9 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Date**: November 21, 2025  
-**Integration Status**: ✅ **PRODUCTION-READY**
+**Integration Status**: ✅ **INTEGRATED (internal readiness assessment — not a certified production deployment)**
+
+> **Document status (2026-09-27):** Internal Nov 2025 engineering integration log. The component integrations described (Redis, WebSocket, rate limiting, monitoring) are recorded work against the 2025 codebase. "Production-ready" percentages are the author's internal assessment, not a third-party audit. The business scenarios later in this document (pilot customers, ARR figures) are 2025 aspirations that were never achieved — Mythara remains pre-revenue with zero customers and no certifications.
 
 ---
 
@@ -805,8 +807,8 @@ def send_indifference_alert(user_id: str, severity: str, org_admin_email: str):
 ## 💰 REVENUE IMPACT UPDATE
 
 ### Original Projection (Pre-Integration)
-- **Year 1 ARR**: $50M (150 enterprise customers @ $333K/year)
-- **Year 2 ARR**: $75M (additional 75 customers)
+- **Year 1 ARR**: $50M (150 enterprise customers @ $333K/year) — 2025 illustrative scenario, never pursued
+- **Year 2 ARR**: $75M (additional 75 customers) — 2025 illustrative scenario, never pursued
 - **Delay**: 6 months (technical gaps)
 
 ### Revised Projection (Post-Integration)
@@ -875,9 +877,9 @@ All critical infrastructure has been implemented, integrated, and validated. The
 - ✅ **Scalable** (Horizontal scaling ready)
 - ✅ **Life-saving** (Violence prevention operational)
 
-**The only remaining blocker is customer proof.**
+**The only remaining blocker is customer proof.** (As of 2026-09-27: still no pilot customer, still pre-revenue.)
 
-Once we secure 1 pilot customer and collect a testimonial, the floodgates open:
+The 2025 plan was: once we secure 1 pilot customer and collect a testimonial, the floodgates open:
 - Enterprise sales accelerate (social proof removes FUD)
 - Case studies generate inbound leads
 - Revenue scales exponentially ($50M → $100M ARR)

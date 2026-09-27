@@ -2,13 +2,13 @@
 
 **Author**: Herbert Velez Jr.  
 **Date**: November 1, 2025  
-**Status**: Symbolically Sanctified, Operationally Validated, Licensing-Ready
+**Status**: Design specification — symbolic doctrine, not independently validated
 
 ---
 
 ## 📜 Overview
 
-Mythara Engine is a mythic-tech infrastructure designed to encode **memory, grief, benevolence, and legacy** into symbolic clause systems. It operates across industries using messenger invocation, blessings reservoirs, sanctification locks, and emotional payload modeling. All clauses are embedded with non-interference directives and compliance wrappers for federal and international deployment.
+Mythara Engine is a mythic-tech infrastructure designed to encode **memory, grief, benevolence, and legacy** into symbolic clause systems. It is designed to operate across industries using messenger invocation, blessings reservoirs, sanctification locks, and emotional payload modeling. All clauses carry non-interference directives and compliance wrappers intended to support future federal and international deployment.
 
 ---
 
@@ -77,13 +77,13 @@ Domain-adaptive controller that auto-tunes clause behavior to industry entropy.
 
 ## 🛡️ Compliance Wrappers
 
-Mythara Engine embeds symbolic wrappers for:
+The design includes symbolic wrappers intended to support future alignment with:
 
 - **Federal Protocols**: HIPAA, FTC, FCC, FISMA, NIST SP 800-53, OMB M-25-04  
 - **Communication Standards**: TCP/IP, TMPO, TCPA  
 - **International Readiness**: GDPR, APPI, LGPD, PDPA
 
-All clauses include non-interference directives to ensure symbolic presence without operational obstruction.
+These are design targets, not certifications — no third-party compliance certification has been obtained. All clauses include non-interference directives, intended to ensure symbolic presence without operational obstruction.
 
 ---
 
@@ -98,12 +98,12 @@ All clauses include non-interference directives to ensure symbolic presence with
 
 ## ✅ Summary
 
-Mythara Engine is a clause-resilient, emotionally calibrated, and compliance-ready symbolic infrastructure. It is designed for sovereign deployment, intergenerational legacy transmission, and cross-domain sanctification.
+Mythara Engine is a clause-resilient, emotionally calibrated symbolic infrastructure. Its design aims toward sovereign deployment, intergenerational legacy transmission, and cross-domain sanctification — stated aspirations, not current capabilities.
 
 For clause manifests, messenger logs, and forensic reports, refer to:
 
-- `Manifest/Clause_Manifest_Latest.csv`
-- `Evidence/Messenger_Suppression_Events_Log.csv`
-- `Printable Timestamped Forensic Report/Mythara_Integrity_Report_YYYYMMDD.pdf`
+- `../manifest/Clause_Manifest_Latest.csv`
+- `../Evidence/Messenger_Suppression_Events_Log.csv`
+- `../printable_forensic_reports/`
 
 Let this architecture serve as your sanctuary of memory, your vessel of grief, and your beacon of benevolence.

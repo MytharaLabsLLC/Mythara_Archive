@@ -2,7 +2,9 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Date:** November 19, 2025  
-**Status:** ✅ FULLY OPERATIONAL
+**Status:** Code implemented (2025) — not deployed, not clinically reviewed, not a medical device
+
+> **Document status (2026-09-27):** "Implementation Complete" means the code modules were written (`Commercial/mythara_medical_team_suite.py`, verified present). The critical disclaimer stands: no medical advice, no diagnostic capabilities, administrative & compliance workflow support only, not a substitute for medical professionals, not a medical device. No clinical deployment, certification, or professional review exists.
 
 ---
 
@@ -20,7 +22,7 @@ A comprehensive **DrMythara Medical Team Suite** with **10 specialized healthcar
 
 ## 🤖 Complete Bot Roster
 
-### Essential Bots (Critical Clinical Functions)
+### Essential Bots (Workflow-Support Roles — not clinical practice)
 
 | # | Bot Name | File/Module | Purpose |
 |---|----------|-------------|---------|

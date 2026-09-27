@@ -1,0 +1,2 @@
+{"ts": "2026-09-22T17:10:42", "sender": "dryrun", "to": "a@b.com", "subject": "test", "body_sha256": "230d8358dc8e8890b4c58deeb62912ee2f20357ae92a5cc861b98e68fe31acb5", "status": "DRY_RUN", "detail": "wrote 20260922-171042-291409-a_b_com.eml", "message_id": ""}
+{"ts": "2026-09-25T22:19:10", "sender": "dryrun", "to": "herbievelezjr@test.local", "subject": "Proof-of-notary dry run", "body_sha256": "e70f2781f20ecc566c811607eedebe0224739522876635cee3015f3db679c954", "status": "DRY_RUN", "detail": "wrote 20260925-221910-832203-herbievelezjr_test_local.eml", "message_id": ""}

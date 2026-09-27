@@ -4,8 +4,8 @@
  * Copyright © 2025 Herbert Velez Jr. All rights reserved.
  * 
  * Best-in-class chat widget for Global Governance positioning
- * - 100% reliable with comprehensive error handling
- * - Fast (<500ms responses)
+ * - Comprehensive error handling
+ * - Fast client-side responses
  * - Mobile-responsive
  * - Industry-aware conversations
  * - Seamless pricing tier integration
@@ -425,7 +425,7 @@ class MytharaWidget {
         
         // Adversarial hardening / Security
         if (lowerInput.includes('adversarial') || lowerInput.includes('security') || lowerInput.includes('attack') || lowerInput.includes('loophole')) {
-            return "We catch hidden characters, homoglyph attacks, prompt injections, and data exfiltration attempts. Every validation gets cryptographically signed for audit trails. Most teams integrate this in under 4 hours. Want me to have our team reach out about your specific security needs?";
+            return "We catch hidden characters, homoglyph attacks, prompt injections, and data exfiltration attempts. Every validation gets cryptographically signed for audit trails. Most teams integrate this in a few hours. Want me to have our team reach out about your specific security needs?";
         }
         
         // Legal indemnification
@@ -435,17 +435,17 @@ class MytharaWidget {
         
         // ROI / Business case
         if (lowerInput.includes('roi') || lowerInput.includes('return') || lowerInput.includes('save') || lowerInput.includes('business case')) {
-            return "One GDPR violation averages 20 million euros. One FDA warning letter can delay your launch 6 to 12 months. Our Startup Small Teams tier starts at 249 per month. Most teams see positive ROI within the first month by avoiding just one compliance issue. Want me to send you our ROI calculator?";
+            return "A single GDPR fine can reach 20 million euros or more. One FDA warning letter can delay your launch 6 to 12 months. Our Startup Small Teams tier starts at 249 per month. Most teams see positive ROI within the first month by avoiding just one compliance issue. Want me to send you our ROI calculator?";
         }
         
         // How it works / Technical
         if (lowerInput.includes('how') || lowerInput.includes('technical') || lowerInput.includes('api') || lowerInput.includes('integrate')) {
-            return "REST API with JSON—validates in under 50ms. Most teams integrate in 2-4 hours using our SDK. We provide sandbox keys for testing. Should I email you the API documentation and a sandbox key to start testing today?";
+            return "REST API with JSON. Most teams integrate in a few hours using our SDK. We provide sandbox keys for testing. Should I email you the API documentation and a sandbox key to start testing today?";
         }
         
         // Industries
         if (lowerInput.includes('industry') || lowerInput.includes('who uses') || lowerInput.includes('healthcare') || lowerInput.includes('finance')) {
-            return "We work with healthcare AI (HIPAA), financial services (FINRA), pharma (FDA), and defense contractors (ITAR). Each industry has specific compliance requirements we validate against. Which industry describes your AI application best?";
+            return "The system is built for regulated industries like healthcare AI (HIPAA), financial services (FINRA), pharma (FDA), and defense (ITAR). Each industry has specific compliance requirements it is designed to address. Which industry describes your AI application best?";
         }
         
         // Competition / Alternatives

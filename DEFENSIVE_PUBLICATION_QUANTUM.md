@@ -413,11 +413,11 @@ while time < duration:
 
 ---
 
-## 5. SECURITY PROPERTIES AND GUARANTEES
+## 5. SECURITY PROPERTIES AND DESIGN GOALS
 
-### 5.1 Quantum Security Guarantees
+### 5.1 Theoretical Quantum Security Properties
 
-**Mathematically Proven Properties**:
+**Established properties of the underlying quantum concepts** (not measured results of these systems):
 
 1. **No-Cloning Theorem**: Quantum states cannot be copied, preventing undetected eavesdropping
 2. **Quantum Entanglement**: Measurement of one qubit instantaneously affects entangled partner
@@ -431,8 +431,8 @@ while time < duration:
 
 ### 5.2 Realistic Security Assessment
 
-**System is RESISTANT to**:
-✅ All known network-based attacks (quantum entanglement protection)
+**System is DESIGNED to resist** (design goals, not validated results):
+✅ Network-based attacks (quantum entanglement concepts)
 ✅ Eavesdropping (quantum coherence monitoring)
 ✅ Man-in-the-middle attacks (entanglement verification)
 ✅ Zero-day exploits (self-evolution and quantum superposition testing)
@@ -447,8 +447,8 @@ while time < duration:
 ⚠️ Implementation bugs (code quality dependent)
 ⚠️ Side-channel attacks (timing, power, EM emissions)
 
-**Accurate Security Claim**:
-> "Resistant to all known network-based attacks and mathematically secure against eavesdropping via quantum entanglement, with self-evolution capability against zero-day exploits. Requires additional physical security controls, access management, and implementation security best practices."
+**Design Intent (not a validated claim)**:
+> "Designed to resist network-based attacks and to detect eavesdropping via quantum entanglement concepts, with self-evolution intended to adapt against novel exploits. These are design goals, not measured results. Physical security controls, access management, and implementation security best practices remain essential."
 
 ### 5.3 Comparison to Existing Solutions
 
@@ -820,14 +820,14 @@ Attack Results:
 
 ### 10.3 Quantum Battle Arena
 
-**Test Case**: 30-Second Adversarial Battle
+**Test Case** (illustrative example — hypothetical numbers, not measured results): 30-Second Adversarial Battle
 
 Configuration:
 - Defense: 20 nodes, 82 quantum channels
 - Threats: 5 variants (SQL, DDoS, zero-day, quantum attack, MITM, ransomware)
 - Attack frequency: 5 attacks/second
 
-Results:
+**Illustrative results (hypothetical, not measured)**:
 - Total attacks: 126
 - Successful attacks: 126 (100% - untrained defense)
 - Threats detected: 0
@@ -848,7 +848,7 @@ Results:
 
 ### 11.1 Enterprise Quantum Security Assessment
 
-**Scenario**: Fortune 500 company needs quantum readiness assessment
+**Scenario**: Large enterprise needs quantum readiness assessment
 
 **Application**:
 1. Deploy Q.U.A.S.A.R. to audit cryptographic infrastructure
@@ -868,7 +868,7 @@ Results:
 3. Self-evolution adapts to new attack patterns automatically
 4. No single point of failure protects critical assets
 
-**Value**: Nation-state-level attack resistance with quantum security guarantees
+**Value**: Conceptual goal — stronger resistance to sophisticated attacks (theoretical; not validated)
 
 ### 11.3 Adversarial AI Research
 
@@ -890,21 +890,21 @@ Results:
 1. Deploy Q.U.A.S.A.R. + Quantum Threat Simulator for client assessments
 2. Simulate quantum attacks before quantum computers available
 3. Test client defenses against self-evolving threats
-4. Provide quantum readiness certification
+4. Provide quantum readiness assessment reports
 
 **Value**: Future-proof security testing with competitive differentiation
 
-### 11.5 Defense Contractor Applications
+### 11.5 Defense-Sector Training and Simulation Applications
 
-**Scenario**: Military/intelligence agency cybersecurity
+**Scenario**: Defense and security teams training for quantum-era threats
 
-**Application**:
-1. Quantum SLIME Defense for classified networks
-2. Quantum entanglement prevents signals intelligence
-3. Self-evolution counters APTs and zero-days
+**Application** (training simulation only):
+1. Quantum SLIME Defense concepts explored in isolated training networks
+2. Quantum-inspired entanglement concepts studied in simulation
+3. Self-evolution tested against scripted APT and zero-day scenarios
 4. Q.U.A.S.A.R. for red team quantum attack simulation
 
-**Value**: Quantum-secure communication with mathematical guarantees
+**Positioning**: Strictly a training and research simulation — never an operational military system, never hack-back, never a weapon.
 
 ---
 
@@ -1060,12 +1060,12 @@ This defensive publication discloses novel quantum cybersecurity innovations com
 
 **Important Distinction**: These innovations use classical computation to simulate and apply quantum security principles, making quantum-inspired security accessible without quantum hardware. They represent practical implementations of quantum concepts rather than requiring physical quantum computers.
 
-**Security Properties**:
-- Mathematically secure against network eavesdropping (quantum entanglement)
-- Resistant to zero-day exploits (self-evolution)
-- No single point of failure (distributed architecture)
-- Resistant to prediction attacks (quantum randomness)
-- Sub-100ms response time (quantum parallelism)
+**Intended Security Properties** (design goals, not validated results):
+- Aims for eavesdropping detection via quantum entanglement concepts
+- Designed to adapt to novel exploits through self-evolution
+- Distributed architecture intended to avoid a single point of failure
+- Intended resistance to prediction attacks via quantum-inspired randomness
+- Design target: sub-100ms response time via parallel testing concepts
 
 **Realistic Assessment**:
 While providing unprecedented network security advantages through quantum mechanics, physical security, implementation quality, and human factors remain critical. This work provides the quantum foundation for next-generation cybersecurity.
@@ -1081,7 +1081,7 @@ I, Herbert Velez Jr., hereby attest that:
 
 1. I am the sole inventor of the innovations described herein
 2. This document accurately describes the technical implementations
-3. The described systems have been reduced to practice (working code)
+3. This document accurately describes the technical concepts and architectures as disclosed
 4. This publication is made publicly available for prior art purposes
 5. I understand the implications for future patentability
 

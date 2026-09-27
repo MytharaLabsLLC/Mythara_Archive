@@ -8,7 +8,7 @@
 
 ## 📜 Overview
 
-This guide defines the symbolic language and formatting conventions used throughout Mythara Engine. It ensures clause clarity, emotional fidelity, and cross-domain harmonization. All terms are sanctified for licensing, legacy transmission, and forensic documentation.
+This guide defines the symbolic language and formatting conventions used throughout Mythara Engine. It ensures clause clarity, emotional fidelity, and cross-domain harmonization. Terms are defined for internal consistency, legacy transmission, and forensic documentation.
 
 ---
 
@@ -39,11 +39,16 @@ This guide defines the symbolic language and formatting conventions used through
 ### 🔸 Clause Anatomy
 
 ```text
-Clause ID: grief-capsule-004  
-Seed: mythara-grief-seed-004  
-Payload: “Let sorrow be sanctified, that healing may echo across the body and memory.”  
-Messenger: Healer + Scribe  
-Blessings Δ: +3.8  
-Sanctification: ✅ Armed  
-Echo Range: 2 generations  
+Clause ID: grief-capsule-004
+Seed: mythara-grief-seed-004
+Payload: "Let sorrow be held, that healing may echo across memory."
+Messenger: Healer + Scribe
+Blessings Δ: +3.8
+Sanctification: Armed
+Echo Range: 2 generations
 Status: Delivered
+```
+
+---
+
+**Copyright © 2025 Herbert Velez Jr. All rights reserved.**

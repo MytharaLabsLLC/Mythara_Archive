@@ -20,4 +20,4 @@ This registry documents the initial encoding of symbolic clauses, including thei
 
 - Each clause is seeded with a glyph and emotional payload  
 - Tier indicates operational depth and symbolic complexity  
-- Registry supports licensing, audit, and sovereign deployment
+- Registry supports audit and licensing review of clause origin

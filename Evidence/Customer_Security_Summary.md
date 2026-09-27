@@ -1,5 +1,5 @@
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
+**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Public — shareable with prospects and customers.**
 
 ---
 
@@ -36,13 +36,13 @@ We maintain an automated test suite that attempts to break Mythara's cryptograph
 - ✅ Race conditions on invocation IDs
 - ✅ Performance degradation under load
 
-**Current Status:** All 10 attack vectors blocked or mitigated.
+**Current Status (internal testing):** All 10 attack vectors blocked or mitigated in internal testing. Not independently verified — no third-party assessment has been completed.
 
 ### Third-Party Penetration Testing
 
-- Mythara undergoes external penetration testing aligned with OWASP API Security Top 10 and NIST SP 800-53.
-- Reports available to customers under NDA during procurement.
-- Remediation timeline: Critical findings < 7 days; High < 30 days.
+- External penetration testing aligned with OWASP API Security Top 10 and NIST SP 800-53 is planned before customer deployments. No engagement has been completed yet; the report template in this repository is the working starting point.
+- Completed reports will be available to customers under NDA during procurement.
+- Target remediation timeline: Critical findings < 7 days; High < 30 days.
 
 ---
 
@@ -115,8 +115,8 @@ We maintain an automated test suite that attempts to break Mythara's cryptograph
 ## Dependency Security
 
 - All dependencies pinned in `requirements-api.txt`.
-- Weekly automated scanning (`pip-audit`, GitHub Dependabot).
-- Critical CVEs patched within 7 days; high within 30 days.
+- Target: weekly automated scanning (`pip-audit`, GitHub Dependabot) — not yet configured.
+- Target: critical CVEs patched within 7 days; high within 30 days.
 - Update testing in staging before production rollout.
 
 ---

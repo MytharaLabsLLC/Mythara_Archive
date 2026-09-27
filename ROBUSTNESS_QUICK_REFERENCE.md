@@ -167,7 +167,7 @@ python core/source_proprietary/robustness_framework.py
 python tests/test_robustness_improvements.py
 
 # 3. Check your bot
-python Commercial/your_bot.py
+python Commercial/<your_bot>.py
 ```
 
 ---

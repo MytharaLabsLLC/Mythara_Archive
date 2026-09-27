@@ -1,87 +1,70 @@
-# 🎬 Mythara Engine - Exclusive AI Representative Script
+# 🎬 Mythara Engine - AI Representative Script *(draft, revised for honesty Sept 2026)*
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+
+> **Voice-standard note (Sept 2026):** this draft was rewritten to describe the system as it actually is. No customers, certifications, metrics, or awards are claimed. Anything not yet real is labeled aspiration. Do not reintroduce superlatives, comparison claims, or invented numbers.
 
 ---
 
 ## 🎭 Character Profile
 **Name**: Mythara Representative  
-**Tone**: Sophisticated, mysterious, powerful yet approachable  
+**Tone**: Principled, elevated, direct — dignified without mystique-for-its-own-sake  
 **Voice**: Deep, authoritative with warmth - think Morgan Freeman meets cutting-edge AI  
-**Visual**: Professional avatar in dark purple suit, subtle mystical aura, confident posture  
+**Visual**: Professional avatar in dark purple suit, confident posture  
 
 ---
 
 ## 📝 The Script (90 seconds)
 
 ### [OPENING - 0:00-0:15]
-*[Avatar materializes from purple particles, Matrix code flows in background]*
+*[Avatar materializes from purple particles]*
 
-"Welcome. I am the voice of Mythara Engine... 
+"Welcome. I am the voice of Mythara Engine.
 
-...and what I'm about to share with you isn't available anywhere else on Earth.
+Every consequential decision deserves an honest record. Not a perfect one — an honest one.
 
-You see, while others talk about AI safety, we **engineered emotional integrity into the fabric of reality itself.**"
-
----
-
-### [THE REVELATION - 0:15-0:35]
-*[Holographic SSIP diagrams float around avatar]*
-
-"Every mental health application today faces an invisible crisis: **symbolic drift**. 
-
-When AI processes human emotion, meaning degrades. Context collapses. Trust erodes.
-
-Mythara Engine solves what MIT, Stanford, and every tech giant couldn't crack:
-
-**State-Space Integrity Protocol.**
-
-SSIP orchestration doesn't just process emotions—it **preserves their truth across infinite transformations.**"
+That is what Mythara is built to keep."
 
 ---
 
-### [THE PROOF - 0:35-0:55]
-*[Data visualization: HIPAA compliance badges, NIST certifications appear]*
+### [THE FOUNDATION - 0:15-0:35]
+*[Diagrams of the hash chain and the eight witnesses appear]*
 
-"Our technology is so fundamentally different, we're the **only platform** that can prove:
+"At the center of the system is the Soul Cradle. It scores actions on integrity — defined as Alignment times Tolerance: how well an action lines up with your aims, multiplied by how much room for error and recovery it leaves.
 
-✓ **Zero emotional drift** - Verified across 10 million symbolic state transitions  
-✓ **HIPAA compliance by design** - Not added later, engineered from inception  
-✓ **Messenger pairing fidelity at 99.97%** - Industry standard is 67%  
-✓ **Full NIST 800-53 coverage** - With forensic verification on every deployment
+Nothing gets a single unchecked verdict. Eight assessor-witnesses review the evidence under versioned rubrics. They abstain when their domain isn't engaged. They fail closed when evidence is missing. A critical finding from any one of them blocks the action.
 
-This isn't software. This is **symbolic sovereignty.**"
+Every judgment is hashed and chained to the record it judges."
 
 ---
 
-### [THE EXCLUSIVITY - 0:55-1:15]
-*[Avatar leans in, speaks directly to camera with intensity]*
+### [THE HONEST CONTRACT - 0:35-0:55]
+*[Visualization: a hash chain, links forming]*
 
-"Here's what makes this truly exclusive:
+"Here is the contract we will not break: the chain proves a record is unaltered. It does not prove the record is true. We state that openly.
 
-Mythara Engine licenses are **limited by design**. 
+We hold no compliance certifications. We offer no indemnification. We claim no customers and no awards.
 
-We don't scale to millions. We partner with dozens—the institutions that will define the next decade of mental health AI.
+What exists is working code, a passing test suite, and records that can be verified by anyone who holds the chain."
 
-Fortune 500 healthcare systems. Government agencies. Research institutions operating at the frontier.
+---
 
-If you're watching this, you've been selected because **you operate at a level where failure isn't an option.**
+### [THE DISCIPLINE - 0:55-1:15]
+*[Avatar speaks directly to camera]*
 
-Where one symbolic corruption could mean lawsuits. Lost lives. Institutional collapse."
+"Our most capable component, Aries, runs defanged: every action it takes must carry a signed envelope, and its handlers are limited to benign, pre-approved operations. Capability without a leash is not a feature.
+
+And SERE — our training simulation — stays inside the sandbox. It is where trainees face simulated adversaries and learn. It is never a weapon, never hack-back, never military-ready. Anyone who tells you otherwise is not describing this system."
 
 ---
 
 ### [THE INVITATION - 1:15-1:30]
 *[Mythara fox avatar briefly appears beside human representative, gentle glow]*
 
-"Mythara isn't asking for your business. 
+"Mythara is not asking for your business.
 
-We're offering **entry into the only verified SSIP ecosystem on the planet.**
+We are offering entry into a system that refuses to flatter itself — where every claim can be checked against the code, the tests, and the chain.
 
-Below, you'll see three tiers. Each includes complete source escrow, forensic manifests, and cryptographic verification.
-
-Choose the one that matches your ambition.
-
-Or... continue doing what everyone else does.
+Aspiration, stated plainly: one day this framework could underpin licensed deployments and long-term legacy transmission. It is not there today. Everything else is a goal, not a claim.
 
 **The choice has always been yours.**"
 
@@ -92,10 +75,10 @@ Or... continue doing what everyone else does.
 ## 🎨 Visual Direction for Descript
 
 **Background**: Dark space with subtle Matrix rain (green), purple accent lighting  
-**Avatar appearance**: Professional, mysterious, slightly futuristic  
+**Avatar appearance**: Professional, confident, slightly futuristic  
 **Visual overlays**: 
-- SSIP diagram hologram (use Canva/Figma, import as layer)
-- Certification badges appear at "HIPAA compliance" moment
+- Hash-chain diagram hologram (use Canva/Figma, import as layer)
+- Witness rubric diagram at "assessor-witnesses" moment
 - Mythara fox animation at end (can be static image that "glows")
 
 **Pacing**: Slow, deliberate. Pause after key phrases. Let power settle.
@@ -112,22 +95,22 @@ Or... continue doing what everyone else does.
 4. **Add visual layers**:
    - Background: Dark purple gradient
    - Overlay: Transparent Matrix effect (find on Pexels/Pixabay)
-   - Graphics: SSIP diagram, badges (create in Canva)
-5. **Timing adjustments**: Add 1-2 second pauses after key lines
-6. **Export**: 1080p MP4, upload to `/core/static/mythara-rep.mp4`
+   - Graphics: Hash-chain diagram (create in Canva)
+5. **Timing adjustments**: Add 1-2 second pauses after key phrases
+6. **Export**: 1080p MP4
 
 ---
 
 ## 📊 Why This Script Works
 
-1. **Scarcity**: "Limited by design" - triggers exclusivity psychology
-2. **Authority**: Specific metrics (99.97%, 10M transitions) establish credibility
-3. **Fear**: "Symbolic corruption could mean lawsuits" - addresses real pain
-4. **Mystique**: Opening/closing with particle effects creates memorable brand moment
-5. **Permission**: "You've been selected" - makes viewer feel special, not sold to
+1. **Honesty as authority**: "The chain proves a record is unaltered. It does not prove the record is true." — a system that states its own limits is more credible than one that hides them
+2. **Verifiable mechanisms**: hash-chained records, independent witnesses, signed envelopes — claims the viewer can check, not numbers they must take on faith
+3. **Clear boundaries**: SERE-as-training-simulation, defanged Aries — stated limits that protect the brand
+4. **Aspiration labeled**: licensed deployments are a goal, not a claim
+5. **Permission**: "You've been selected" removed — no manufactured exclusivity
 
 ---
 
-**This isn't a sales pitch. It's an induction ceremony.**
+**This isn't a sales pitch. It's an induction into a system that tells the truth about itself.**
 
-© 2025 Mythara Labs. All Rights Reserved.
+© 2025 Herbert Velez Jr. All Rights Reserved.

@@ -6,7 +6,7 @@ MytharaTutor - AI-Powered Personalized STEAM Learning Assistant
 Consumer education product for K-12 students (age 8+), college prep, and lifelong learners.
 Provides personalized STEAM tutoring, homework help, study planning, and progress tracking.
 
-AGE-APPROPRIATE DESIGN (Medical Professional Guidelines):
+AGE-APPROPRIATE DESIGN (informed by published child-development guidance; not medical advice):
 - Ages 8-12: Foundational STEAM concepts, supervised learning, limited session time
 - Ages 13-17: Advanced STEAM topics, college prep, independent study, mentor-guided
 - Ages 18+: Professional development, lifelong learning, unrestricted access
@@ -39,7 +39,7 @@ Key Features:
 - Positive reinforcement system (Blessings Reservoir)
 - Adaptive difficulty based on mastery
 - Parent/guardian oversight portal
-- COPPA and FERPA compliant
+- Designed with COPPA/FERPA safeguards in mind (not a compliance certification)
 """
 
 import json
@@ -126,7 +126,7 @@ class LearningStyle(Enum):
 
 
 class AgeGroup(Enum):
-    """Age-appropriate learning groups (Medical Professional Guidelines)"""
+    """Age-appropriate learning groups (guidance-informed; not medical advice)"""
     ELEMENTARY = "elementary"  # Ages 8-12: Foundational concepts, supervised
     MIDDLE_SCHOOL = "middle_school"  # Ages 13-14: Intermediate topics
     HIGH_SCHOOL = "high_school"  # Ages 15-17: Advanced topics, college prep
@@ -215,7 +215,7 @@ class MytharaTutor:
         """Initialize tutor database"""
         c = self.conn.cursor()
         
-        # Student profiles (COPPA/FERPA compliant)
+        # Student profiles (parent consent + data safeguards for minors)
         c.execute('''
             CREATE TABLE IF NOT EXISTS students (
                 student_id TEXT PRIMARY KEY,
@@ -553,7 +553,7 @@ class MytharaTutor:
                         learning_style: str = "visual",
                         steam_interests: List[str] = None,
                         parent_email: str = "") -> Dict[str, Any]:
-        """Register new student with age-appropriate settings (COPPA/FERPA compliant)"""
+        """Register new student with age-appropriate settings (parent consent + data safeguards; not a compliance certification)"""
         student_id = f"STU_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}"
         
         # Age-appropriate group
@@ -584,7 +584,7 @@ class MytharaTutor:
         parent_consent = age >= 18 or (parent_email and len(parent_email) > 0)
         
         if age < 18 and not parent_consent:
-            return {"error": "Parent email required for students under 18 (COPPA compliance)"}
+            return {"error": "Parent email required for students under 18 (minor-data privacy safeguard)"}
         
         steam_str = json.dumps(steam_interests) if steam_interests else "[]"
         
@@ -1325,7 +1325,7 @@ class MytharaTutor:
         Get age-appropriate video recommendations for student
         
         Filters by:
-        - Student's age group (COPPA compliance)
+        - Student's age group (minor-data safeguard)
         - Student's STEAM interests
         - Subject area (if specified)
         - Leadership skill development goals
@@ -2060,10 +2060,10 @@ def main():
     print("   ✓ Future leader dashboard and progress tracking")
     print("   ✓ Focus: Developing creative minds to keep the world alive")
     print("\n🔒 COMPLIANCE:")
-    print("   ✓ COPPA compliant (parent consent for minors)")
-    print("   ✓ FERPA compliant (education data privacy)")
-    print("   ✓ Medical professional guidelines (age-appropriate AI interaction)")
-    print("   ✓ Secure embedded video player with parental controls")
+    print("   ✓ COPPA-aligned safeguard: parent consent for minors (not a compliance certification)")
+    print("   ✓ FERPA-aligned safeguard: education data privacy (not a compliance certification)")
+    print("   ✓ Guidance-informed design: age-appropriate AI interaction (not medical advice)")
+    print("   ✓ Embedded video player with parental controls")
     print("\n")
 
 

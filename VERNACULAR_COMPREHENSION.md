@@ -252,8 +252,10 @@ The system includes comprehensive tests to verify:
 
 Run tests:
 ```powershell
-python test_vernacular_support.py
+python tests/test_vernacular_support.py
 ```
+
+> Note: the test lives in the `tests/` directory (a bare `test_vernacular_support.py` path will not resolve).
 
 ---
 

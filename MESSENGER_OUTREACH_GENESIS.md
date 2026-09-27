@@ -1,6 +1,8 @@
 # Mythara Engine - Week 1 Outreach Target List
 # Copyright © 2025 Herbert Velez Jr. All rights reserved.
 
+> **⚠️ DRAFT OUTREACH PLAN (November 2025) — voice-standard pass Sept 2026.** The message templates below contain an unverified Stripe link and capability claims ("reduces validation from weeks to days", "deterministic NIST SP 800-53 validation") that are marketing copy, not verified results. **Do not send any of these messages without rewriting them** and re-verifying every claim. No fulfillment path exists for the linked pilot.
+
 **Created**: November 10, 2025
 **Goal**: 10 personalized outreach messages this week
 **Target response rate**: 20% (2 responses)
@@ -160,7 +162,6 @@ I can also share a one-pager and a signed manifest we use for audits.
 
 Best,
 Herbert Velez Jr.
-Mythara Labs LLC (planned)
 
 
 ---

@@ -1,5 +1,5 @@
 # Mythara Token-Based Orchestrator System
-## ✅ OPERATIONAL - Fully Autonomous AI Team
+## Architecture plan — deploy before treating as operational
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
@@ -7,13 +7,15 @@
 
 ## 🎯 System Overview
 
-You now have a **token-based orchestrator** managing all your AI bots with:
-- ✅ **Zero human contact** required
-- ✅ **$0/month** operating cost
-- ✅ **SSIP integration** (Sanctification, Integrity Hashes, Blessings Reservoir)
-- ✅ **Centralized decision-making** via VP Bot
-- ✅ **SQLite database** for shared state
-- ✅ **REST API** for bot coordination
+The design for a **token-based orchestrator** managing all AI bots:
+- **Minimal human contact by design** (VP Bot makes routine decisions)
+- **$0/month code operating cost** (third-party APIs bill separately by usage)
+- **SSIP integration** (Sanctification, Integrity Hashes, Blessings Reservoir)
+- **Centralized decision-making** via VP Bot
+- **SQLite database** for shared state
+- **REST API** for bot coordination
+
+> Status: architecture and code (`mythara_orchestrator.py`) exist. The orchestrator is not confirmed running — "System Status" below describes the intended deployment, not current operations.
 
 ---
 
@@ -21,9 +23,9 @@ You now have a **token-based orchestrator** managing all your AI bots with:
 
 ### Master VP Token:
 ```
-7561cec685b50635eab5693e5e6121dd12f7321f81903187ae0f6b07389201bf
+<redacted — generate at deploy time, store outside the repo, never commit a real token>
 ```
-**KEEP THIS SECRET** - Only VP Bot uses this token.
+**Generate this at deployment** — a master token committed to a document is a compromised token. Only the VP Bot uses it.
 
 ### How It Works:
 
@@ -56,7 +58,7 @@ SQLite Database (audit trail)
 YOU (Owner - Zero Contact)
     |
     └─ 🎯 VP Bot (Daily 8am)
-        ├─ Token: 7561cec6...
+        ├─ Token: <generated at registration>
         ├─ Analyzes KPIs
         ├─ Deploys new bots
         └─ Makes all decisions
@@ -276,39 +278,42 @@ def log_decision(bot_id, action, approved):
 
 ---
 
-## 📈 KPIs Tracked
+**KPIs Tracked** (operating targets — aspirational, not achieved)
 
-**Sanctified Targets** (Never Change):
+**Sanctified Targets** (configuration constants, reviewed before each cycle):
 - Monthly Revenue: **$10,000**
 - Monthly Leads: **100**
 - Conversion Rate: **5%**
 - Max CAC: **$200**
 - Max Budget: **$500/month**
 
-**Current Performance** (Auto-updated):
-- Bots Active: **5** (3 more deploying)
-- Current Cost: **$0/month**
+**Deployment state (intended, not current):**
+- Bots Active: **5** (3 more to deploy)
+- Code cost: **$0/month**
 - Decisions Made: **Logged in DB**
 - Tasks Completed: **Tracked per bot**
 
 ---
 
-## 🎯 What Happens Automatically
+## 🎯 Intended Automation (after deployment)
 
-### No Human Contact Required:
+### Routine decisions the VP Bot handles:
 
-1. **Sales** → Autonomous Sales Bot handles everything
-2. **Affiliates** → Recruiter Bot + Payout Bot handle everything
+1. **Sales** → Autonomous Sales Bot handles drafting and clause checks
+2. **Affiliates** → Recruiter Bot + Payout Bot handle tracking and payouts
 3. **Payments** → Payment Monitor tracks, VP Bot allocates
-4. **Lead Gen** → LinkedIn Bot + Marketing Bot handle everything
+4. **Lead Gen** → LinkedIn Bot + Marketing Bot handle outreach
 5. **Nurture** → Email Bot follows up automatically
-6. **Decisions** → VP Bot makes all strategic calls
-7. **Deployment** → VP Bot deploys new bots when needed
+6. **Decisions** → VP Bot makes routine calls within its targets
+7. **Deployment** → VP Bot deploys new bots when targets call for it
 
-### You Only Check:
-- **Dashboard** (optional): See what's happening
-- **Bank Account**: Watch money come in
-- **Email** (optional): Bots CC you on major events
+### Operator checks (not "zero human contact"):
+- **Dashboard** (optional): see what's happening
+- **Bank account**: verify money that actually arrives
+- **Email** (optional): bots CC you on major events
+- **Clause violations**: review what the orchestrator blocked
+
+Human judgment stays in the loop on pricing, contracts, and anything outside the sanctified targets.
 
 ---
 
@@ -357,26 +362,26 @@ VP_MASTER_TOKEN = new_token
 
 ---
 
-## ✅ System Status
+## ✅ System Status (intended deployment)
 
-**Orchestrator:** ✅ Running on localhost:5000  
-**VP Bot:** ✅ Scheduled daily 8am  
-**Worker Bots:** ✅ 5 active, 3 deploying  
-**Database:** ✅ mythara_orchestrator.db  
-**Cost:** ✅ $0/month  
-**Human Contact:** ✅ Zero required  
+**Orchestrator:** localhost:5000 (when started)  
+**VP Bot:** scheduled daily 8am (to configure)  
+**Worker Bots:** 5 planned active, 3 to deploy  
+**Database:** mythara_orchestrator.db  
+**Code cost:** $0/month  
+**Human contact:** minimized by design, not zero — pricing, contracts, and clause violations come to you
 
 ---
 
-## 🎉 You're Done!
+## 🎉 Deployment Summary
 
-Your fully autonomous AI team is operational with:
-- Token-based security
+The orchestrator architecture is documented above with:
+- Token-based security (generate the master token at deploy time)
 - Central orchestration
 - SSIP integrity
-- Zero ongoing work required
+- Routine decisions automated; exceptions escalated to you
 
-**Next steps:** Watch the money roll in. 🚀
+**Next steps:** generate tokens, start the orchestrator, schedule the VP Bot, verify the dashboard — then run it a week and review the decision log.
 
 ---
 

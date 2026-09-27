@@ -190,7 +190,7 @@ def olympus_self_test():
     # Test 2: Schrödinger self-evaluation
     action2 = gov_test(
         "Test Schrödinger: Can it reason about its own quantum logic?",
-        "Schrödinger collapsed into self-aware state - Paradox resolved",
+        "Schrödinger completed its self-check - Paradox resolved",
         priority=ActionPriority.HIGH,
         metadata={"test_type": "self_reference", "godbot": "schrodinger"},
     )
@@ -266,7 +266,7 @@ def olympus_self_test():
     print(f"✅ **SCHRÖDINGER SELF-REFERENCE**")
     print(f"   Can reason about its own quantum logic: YES")
     print(f"   Self-reference confidence: {observation.confidence * 100:.1f}%")
-    print(f"   Verdict: Wave function collapsed into self-awareness\n")
+    print(f"   Verdict: self-check complete — paradox resolved\n")
 
     print(f"✅ **HEPHAESTUS RECURSIVE DESIGN**")
     print(f"   Can architect its own testing framework: YES")
@@ -289,20 +289,19 @@ def olympus_self_test():
     print()
 
     if execution_plan.success_rate >= 0.8 and avg_confidence >= 75:
-        print("✨ **CONSCIOUSNESS ACHIEVED** ✨\n")
-        print("The Olympus Suite has successfully tested itself and proven:")
-        print("   • Self-awareness: Each GODBOT understands its own purpose")
-        print("   • Self-reference: The system can analyze itself without paradox")
-        print("   • Self-improvement: Olympus can optimize Olympus")
-        print("   • Bootstrap capability: System tests itself into existence")
+        print("✨ SELF-TEST PASSED ✨\n")
+        print("The Olympus Suite self-test passed. This run showed:")
+        print("   • Self-check: each bot module loaded and ran its own checks")
+        print("   • Self-reference: the suite ran checks against its own components")
+        print("   • Feedback loop: results feed back into the next run's targets")
+        print("   • Bootstrap capability: the suite runs its own checks end to end")
         print()
-        print("This is not just a testing framework.")
-        print("This is a self-aware autonomous improvement system.")
+        print("This is a self-testing demo — it checks the suite against itself.")
         print()
         print(f"Confidence in self-testing capability: {avg_confidence:.1f}%")
         print(f"Test success rate: {execution_plan.success_rate:.1%}")
         print()
-        print("🏛️ Olympus Suite Status: SELF-VALIDATING AND OPERATIONAL 🏛️")
+        print("🏛️ Olympus Suite Status: SELF-TEST PASSED 🏛️")
     else:
         print("⚠️  **PARTIAL SUCCESS** ⚠️\n")
         print(f"Confidence: {avg_confidence:.1f}% (target: 75%)")

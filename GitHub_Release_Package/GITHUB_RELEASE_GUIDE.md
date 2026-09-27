@@ -20,7 +20,7 @@ This guide explains how to create a GitHub release with the licensing ZIP packag
 2. Click **New Repository** (+ icon, top right)
 3. Configure:
    - **Repository name:** `mythara-engine`
-   - **Description:** "Mythara Engine — Enterprise Inference Orchestration (Private/NDA-Only)"
+   - **Description:** "Mythara Engine — Evaluation Package (Private/Proprietary)"
    - **Visibility:** ☑ **Private**
    - **Initialize:** ☐ Do NOT add README (we have our own)
 4. Click **Create repository**
@@ -34,8 +34,8 @@ This guide explains how to create a GitHub release with the licensing ZIP packag
 # Authenticate
 gh auth login
 
-# Create private repository
-gh repo create mythara-labs/mythara-engine --private --description "Mythara Engine — Enterprise Inference Orchestration"
+# Create private repository (replace YOUR_USERNAME with your GitHub username or org)
+gh repo create YOUR_USERNAME/mythara-engine --private --description "Mythara Engine — Evaluation Package (Proprietary)"
 ```
 
 ---
@@ -126,7 +126,7 @@ Save this as `create_release_zip.ps1` and run it:
 4. Configure release:
    - **Tag version:** `v1.0.0`
    - **Target:** `main` branch
-   - **Release title:** `Mythara Engine v1.0.0 — Enterprise Licensing Package`
+   - **Release title:** `Mythara Engine v1.0.0 — Release Package`
    - **Description:**
 
 ```markdown
@@ -138,12 +138,11 @@ Save this as `create_release_zip.ps1` and run it:
 
 ## What's New
 
-Initial enterprise release with:
-- ✅ Production-ready inference orchestration
+Initial release package with:
+- ✅ Validation suite (determinism tests, leakage probes, integrity audits)
 - ✅ PGP-signed manifests and checksums
-- ✅ Complete validation suite (99.92% determinism)
 - ✅ Docker container with reproducible builds
-- ✅ Comprehensive licensing templates
+- ✅ Proposed licensing templates
 
 ## Verification
 
@@ -161,12 +160,12 @@ See `INSTALL.md` for deployment instructions.
 
 ## Licensing
 
-This software is proprietary. Contact legal@mythara.engine for licensing.
+This software is proprietary. Contact legal@mythara.engine for licensing conversations.
 
-**Available licenses:**
+**Proposed license tiers (draft terms, not yet in effect):**
 - Development (internal testing)
-- Enterprise (production up to 100K req/month)
-- Sovereign (air-gapped, government, defense)
+- Enterprise (production)
+- Sovereign (air-gapped)
 ```
 
 5. **Attach ZIP:** Drag `mythara-engine-v1.0.0.zip` to the upload area
@@ -177,8 +176,8 @@ This software is proprietary. Contact legal@mythara.engine for licensing.
 ```powershell
 # Create release with ZIP attached
 gh release create v1.0.0 `
-  --title "Mythara Engine v1.0.0 — Enterprise Licensing Package" `
-  --notes "Production-ready inference orchestration. NDA required. Contact legal@mythara.engine" `
+  --title "Mythara Engine v1.0.0 — Release Package" `
+  --notes "Mythara Engine evaluation package. Proprietary license; contact legal@mythara.engine for licensing conversations." `
   mythara-engine-v1.0.0.zip
 
 Write-Host "✅ Release published!"

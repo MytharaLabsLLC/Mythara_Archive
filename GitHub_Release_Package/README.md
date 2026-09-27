@@ -1,4 +1,4 @@
-# Mythara Engine — Enterprise Licensing Package
+# Mythara Engine — Evaluation Package
 
 **Version:** 1.0.0  
 **Release Date:** November 2, 2025  
@@ -10,17 +10,25 @@
 
 ## Overview
 
-Mythara Engine is a production-ready inference orchestration system with built-in explainability, safety fallbacks, and audit trail generation. This package contains everything needed for enterprise evaluation, pilot deployment, and sovereign integration.
+This package contains the Mythara codebase in its current working state, released under a proprietary license for evaluation. It is research software, not a finished commercial product. Read the [Mythara Bible](../docs/📖 Mythara Bible Books I–V.md) first — it describes the system as it actually works today, and this package should be judged against that account, not against marketing language.
 
-**All source code, documentation, and materials are proprietary and confidential. Copyright headers are present in all files.**
+**What the system is:**
 
-**Key Features:**
-- ✅ Clause orchestration with deterministic constraints (99.92% reproducibility)
-- ✅ Automated safety fallbacks and shadow resolver
-- ✅ Full audit chain with PGP-signed manifests
-- ✅ Accessibility support (braille/audio tokens, 99%+ delivery)
-- ✅ Air-gapped deployment via Docker container
-- ✅ Comprehensive validation suite included
+- **Soul Cradle core** — the governing mechanism. It scores actions on integrity, defined as *Alignment × Tolerance*: how well an action lines up with the principal's aims, multiplied by how much room for error and recovery it leaves. Stated math, stated limits.
+- **Eight assessor-witnesses** — demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone. Evidence-fed witnesses under versioned rubrics. They abstain when their domain is not engaged; they fail closed when evidence is missing; a critical finding from any one of them blocks the action; disagreement is surfaced, not averaged away. Every judgment is content-hashed and chained to the record it judges.
+- **Hash-chained emotional chain** — tamper-evident emotional records, each attested by the engaged witnesses with sealed judgments chained alongside. The chain proves a record is unaltered. It does not prove the record is true.
+- **Aries, defanged** — the system's most capable actor runs behind signed action envelopes, limited to benign, pre-approved handlers. Capability without a leash is not a feature.
+- **SERE, the training simulation** — trainees face simulated adversaries inside a sealed virtual environment; everything is recorded to the tamper-evident log and nothing touches the real world. Be plain about this: SERE is a training simulation. It is not a military capability, not an operational cyber weapon, and it never strikes back outside the sandbox.
+- **Witnessed Journal** — a local prototype interface on the real chain (`journal_app/server.py`), stdlib-only, localhost by design.
+
+**Package contents for evaluation:**
+
+- ✅ PGP-signed manifests and checksums for authenticity verification
+- ✅ Validation suite with determinism tests, leakage probes, and integrity audits
+- ✅ Docker container with reproducible builds (runs the validation suite by default)
+- ✅ Complete licensing templates (proposed terms — see Licensing Options below)
+
+**All source code, documentation, and materials are proprietary and confidential.**
 
 ---
 
@@ -39,7 +47,7 @@ Mythara Engine is a production-ready inference orchestration system with built-i
 ### Documentation
 - `docs/` — Symbolic glossary, invocation manuals, audit protocols
 - `Commercial/` — Pricing tiers, one-pager, clause behavior specs
-- `Legal/` — Master licensing agreement, NDA templates, compliance frameworks
+- `Legal/` — Compliance frameworks, IP assignment and licensing agreements
 
 ### Verification Artifacts
 - `manifest/RELEASE_MANIFEST.json` + `.asc` (PGP-signed file inventory)
@@ -82,10 +90,10 @@ All files should show `OK`.
 
 Start with these files:
 - `README.md` (this file)
-- `Commercial/one_pager.md` — Business overview and value proposition
+- `docs/📖 Mythara Bible Books I–V.md` — how the system actually works today; the authoritative technical account
+- `Commercial/one_pager.md` — business overview (aspirational; read it against the Bible, not in place of it)
 - `core/API_SPEC_PUBLIC.md` — API endpoints and authentication
-- `core/EXPLAINABILITY_GUIDE.md` — How audit trails work
-- `docs/📖 Mythara Bible Books I–V.md` — Comprehensive technical documentation
+- `core/EXPLAINABILITY_GUIDE.md` — how audit trails work
 
 ### 3. Run Validation Suite
 
@@ -109,59 +117,52 @@ python tests/run_leakage_probes.py --count 1000
 
 See `tests/README.md` for full validation suite instructions.
 
-### 4. Deploy (Pilot or Production)
+### 4. Evaluate
 
-**Option A: Cloud Deployment**
-- Deploy Docker container to your cloud provider
-- Configure environment variables (see `core/README_ESCROW.md`)
-- Point API clients to your deployment endpoint
+**Option A: Container evaluation**
+- Build the Docker container and run the included validation suite (see `INSTALL.md`)
 
-**Option B: Sovereign/Air-Gapped**
-- Transfer this entire package to air-gapped environment
+**Option B: Sovereign/Air-Gapped evaluation**
+- Transfer this entire package to the air-gapped environment
 - Verify signatures offline
-- Build container from Dockerfile
-- Deploy to on-premises infrastructure
+- Build the container and run the validation suite there
 
 ---
 
 ## Licensing Options
 
-### Development License
+> **Plainly stated:** commercial licensing is a planned program, not a live one. The tiers below are proposed draft terms. No licenses have been issued, no pilots are running, and no enterprise or government deployments exist. Anyone representing otherwise is not describing this system.
+
+### Development License (proposed)
 - **Use Case:** Internal testing, proof-of-concept
 - **Restrictions:** Non-production environments only
-- **Support:** Email support, 5-day SLA
 
-### Enterprise License
-- **Use Case:** Production deployment (up to 100K requests/month)
-- **Restrictions:** Single business unit
-- **Support:** Priority email + quarterly review calls
+### Enterprise License (proposed)
+- **Use Case:** Production deployment
+- **Restrictions:** To be defined in a signed agreement
 
-### Sovereign License
-- **Use Case:** Government, defense, air-gapped deployments
-- **Restrictions:** Geographic/entity-specific deployment rights
-- **Support:** On-site integration assistance + escrow unlock
-- **Includes:** Source code access via escrow release
+### Sovereign License (proposed)
+- **Use Case:** Air-gapped deployments
+- **Restrictions:** To be defined in a signed agreement
+- **Includes:** Source code access via escrow release, with an escrow agent of the licensee's choosing
 
-See `Commercial/### Pricing Tiers.txt` for detailed pricing.
+See `Commercial/Pricing_Tiers.md` for the current draft pricing.
 
 ---
 
 ## Support & Contact
 
-**Herbert Velez Jr.**  
-Mythara Labs LLC (planned)
+**Herbert Velez Jr.**
 
 - **Email:** legal@mythara.engine
 - **PGP Fingerprint:** `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
-- **Response Time:** 24-48 hours for licensing inquiries
 
-**For Technical Support:**
-- Include your license ID and deployment environment
+**For Technical Questions:**
+- Describe your evaluation environment and what you ran
 - Attach relevant log files from `tests/output/`
 
 **For Escrow Services:**
-- We work with Iron Mountain, Amboseli, or your preferred escrow agent
-- Escrow release conditions defined in Master Licensing Agreement
+- Escrow release conditions, where applicable, are defined in the signed licensing agreement
 
 ---
 
@@ -176,27 +177,25 @@ This package contains proprietary technology protected by:
 
 By downloading this package, you agree to:
 1. Maintain confidentiality of all contents
-2. Use only for authorized evaluation/deployment
-3. Not redistribute without written permission from Mythara Labs
+2. Use only for authorized evaluation
+3. Not redistribute without written permission from Herbert Velez Jr.
 
 ---
 
 ## Version History
 
 ### v1.0.0 (November 2, 2025)
-- Initial enterprise release
+- Initial release package
 - PGP-signed manifest and checksums
-- Complete validation suite
+- Validation suite
 - Docker container with reproducible builds
-- Comprehensive documentation and licensing templates
+- Documentation and proposed licensing templates
 
 ---
 
 ## Next Steps
 
-1. **Schedule Pilot Scoping Call** — Discuss integration requirements, timeline, and success metrics
-2. **Execute NDA** — See `Legal/NDA_Mutual_Template.md` for template
-3. **Define Pilot SOW** — 4-8 week scoped integration (template in `Legal/`)
-4. **Select Escrow Agent** (for Sovereign licenses) — We support major providers
-
-**Ready to get started?** Email legal@mythara.engine with your company name and use case.
+1. **Verify the package** — import the PGP key and check signatures (steps above)
+2. **Run the validation suite** — see `INSTALL.md`
+3. **Read the Bible** — `docs/📖 Mythara Bible Books I–V.md` is the authoritative account of how the system works
+4. **Talk licensing** — email legal@mythara.engine with your organization and use case; any engagement begins with a mutual NDA and a written agreement

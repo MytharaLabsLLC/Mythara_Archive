@@ -10,7 +10,7 @@ A FEW QUESTIONS
    We designed it to honor the paradox you carry — holding hope and grief together — without reducing your mission to KPIs.
 
 2. **Did IT or compliance teams have questions about integration?**  
-   We've worked with HIPAA-regulated organizations before, and we're happy to address any technical or regulatory concerns.
+   The operator was designed with HIPAA-oriented controls (mapping only — not certified; no HIPAA-regulated deployments have been completed), and we're happy to address any technical or regulatory concerns.
 
 3. **Did donor relations or board leadership see value in the Blessings Reservoir for impact reporting?**  
    If tracking benevolent force could strengthen your fundraising narrative, we'd love to explore how Mythara could support that.

@@ -1,32 +1,23 @@
 #!/usr/bin/env python3
 """
 A.M.I.R. - Autonomous Mythara Intelligence & Response
-The One Ring of Cybersecurity - Command Center for All Security Operations
+Security operations orchestrator for the Mythara modules.
 
 Copyright © 2025 Herbert Velez Jr. All rights reserved.
 
-A.M.I.R. (Autonomous Mythara Intelligence & Response) is the unified orchestrator
-that rules all cybersecurity operations across Mythara Industries:
+A.M.I.R. coordinates the security modules in one place:
 
-THE ONE RING ARCHITECTURE:
-- Orchestrates A.D.A.P.T. (adaptive penetration testing)
-- Commands Q.U.I.C.K.F.I.X. (automated remediation)
-- Directs S.E.R.E. (survival protocols)
-- Integrates Big Meanie (adversarial enforcement)
-- Coordinates threat intelligence across all modules
+- A.D.A.P.T. (adaptive penetration testing)
+- Q.U.I.C.K.F.I.X. (automated remediation)
+- S.E.R.E. (training simulation for survival/evasion/resistance/escape drills)
+- Big Meanie (adversarial testing)
+- Threat intelligence shared across all modules
 
-NEXT-GENERATION CAPABILITIES:
-- Predictive threat modeling using historical attack patterns
-- Autonomous decision-making for zero-day responses
-- Real-time risk quantification and business impact analysis
-- Self-healing security infrastructure
-- Continuous compliance monitoring across 15+ frameworks
-- Strategic security roadmap planning
-
-"One Ring to rule them all, One Ring to find them,
- One Ring to bring them all, and in security bind them."
- 
-A.M.I.R. - Beyond its time, never just a dream.
+Capabilities (work in progress, results depend on local signals):
+- Threat modeling from recorded attack patterns
+- Heuristic risk estimates for local findings
+- Business impact summaries from local signals
+- Structured remediation playbooks
 """
 
 import os
@@ -185,10 +176,7 @@ class StrategicInsight:
 class AMIRBot:
     """
     A.M.I.R. - Autonomous Mythara Intelligence & Response
-    THE ONE RING OF CYBERSECURITY
-    
-    The ultimate orchestrator that rules all security operations.
-    Beyond its time. Never just a dream. Always executable.
+    Security operations orchestrator for the Mythara modules.
     """
     
     def __init__(self, operator_name: str = "Sir"):
@@ -607,7 +595,7 @@ class AMIRBot:
         self.attack_pattern_history.append(entry)
 
     def predict_threats(self) -> List[ThreatPrediction]:
-        """ONE RING: Threat pressure derived from live local signals.
+        """Threat pressure derived from live local signals.
 
         Each scenario's score (0.0-1.0) is computed deterministically from
         real inputs: Q.U.I.C.K.F.I.X. scan findings, current system health,
@@ -616,7 +604,7 @@ class AMIRBot:
         each scenario, nothing more. When no live signals exist, the method
         says so plainly instead of inventing numbers.
         """
-        print("\n🔮 THE ONE RING: Threat pressure from live local signals...")
+        print("\n🔮 Threat pressure from live local signals...")
         signals = self._collect_threat_signals()
         print(f"    Live signals: {signals['coverage']} of 3 sources "
               f"(quickfix_scan={signals['has_quickfix']}, "
@@ -824,8 +812,8 @@ class AMIRBot:
         return scenarios
     
     def generate_strategic_insights(self) -> List[StrategicInsight]:
-        """ONE RING: Strategic security insights with business impact analysis"""
-        print("\n📊 THE ONE RING: Generating strategic security insights...")
+        """Strategic security insights with business impact analysis"""
+        print("\n📊 Generating strategic security insights...")
         
         insights = []
         
@@ -899,8 +887,8 @@ class AMIRBot:
         return insights
     
     def autonomous_response(self, threat_type: str) -> Dict[str, Any]:
-        """ONE RING: Autonomous decision-making for immediate threats"""
-        print(f"\n⚡ THE ONE RING: Autonomous response to {threat_type}")
+        """Autonomous decision-making for immediate threats (simulated playbook demo)"""
+        print(f"\n⚡ Autonomous response to {threat_type}")
         print("    A.M.I.R. making autonomous security decision...")
         
         # This is where A.M.I.R. acts WITHOUT human approval for critical threats
@@ -950,18 +938,18 @@ class AMIRBot:
             "threat_type": threat_type,
             "autonomous_actions": len(actions_taken),
             "actions_taken": actions_taken,
-            "decision_time": "< 100ms",
+            "decision_time": "not measured",  # placeholder: actual timing is not tracked
             "human_approval_required": False
         }
         
-        print(f"\n    ✓ Autonomous response complete in {result['decision_time']}")
+        print("\n    ✓ Autonomous response complete (timing not measured)")
         print(f"    Total autonomous decisions: {self.autonomous_decisions}")
         
         return result
     
     def quantify_business_risk(self) -> Dict[str, Any]:
-        """ONE RING: Real-time business risk quantification"""
-        print("\n💰 THE ONE RING: Quantifying business risk...")
+        """Business risk estimates from local signals"""
+        print("\n💰 Quantifying business risk...")
         
         # Calculate comprehensive risk score
         health = self._get_system_health()
@@ -990,7 +978,7 @@ class AMIRBot:
                 "operational_risk": operational_risk
             },
             "recommended_investment": potential_loss * 0.05,  # 5% of potential loss for prevention
-            "roi_on_prevention": 20.0  # Average 20:1 ROI on prevention vs breach cost
+            "roi_on_prevention": 20.0  # placeholder ratio, not a measured result
         }
         
         print(f"\n💰 Business Risk Analysis:")
@@ -998,18 +986,18 @@ class AMIRBot:
         print(f"    Risk Level: {result['risk_level']}")
         print(f"    Financial Exposure: ${result['estimated_financial_exposure']:,.0f}")
         print(f"    Recommended Security Investment: ${result['recommended_investment']:,.0f}")
-        print(f"    Expected ROI: {result['roi_on_prevention']}:1")
+        print(f"    Expected ROI: {result['roi_on_prevention']}:1 (assumed ratio, not measured)")
         
         return result
     
     def one_ring_analysis(self):
-        """THE ONE RING: Complete next-generation security analysis"""
+        """Complete security analysis across all A.M.I.R. modules"""
         print("\n" + "="*70)
-        print("    THE ONE RING - COMPLETE SECURITY DOMINION")
+        print("    A.M.I.R. - COMPLETE SECURITY ANALYSIS")
         print("="*70)
         
-        print("\n🎙️  Initiating One Ring analysis, sir.")
-        print("    The Ring rules all - coordinating complete security operations...")
+        print("\n🎙️  Starting full analysis.")
+        print("    Coordinating the security modules...")
         
         # Phase 1: Predictive Intelligence
         print("\n" + "-"*70)
@@ -1038,19 +1026,17 @@ class AMIRBot:
         
         # Summary
         print("\n" + "="*70)
-        print("    ONE RING ANALYSIS COMPLETE")
+        print("    FULL ANALYSIS COMPLETE")
         print("="*70)
         
-        print(f"\n📊 THE ONE RING DOMINION SUMMARY:")
+        print(f"\n📊 ANALYSIS SUMMARY:")
         print(f"    Threat Predictions: {len(predictions)}")
         print(f"    Strategic Insights: {len(insights)}")
         print(f"    Business Risk: {risk_analysis['risk_level']}")
         print(f"    Autonomous Decisions: {self.autonomous_decisions}")
         print(f"    Zero-Day Responses: {self.zero_day_responses}")
         
-        print(f"\n🎙️  The One Ring has spoken, sir.")
-        print(f"    All security operations under A.M.I.R. dominion.")
-        print(f"    Beyond its time. Never just a dream. Always in control.")
+        print(f"\n🎙️  Full analysis complete. A.M.I.R. standing by.")
         
         return {
             "predictions": predictions,
@@ -1185,7 +1171,7 @@ class AMIRBot:
         print("    M.A.X.I.M.U.S. - PENETRATION TESTING")
         print("="*70)
         
-        print("\n⚡  Initiating M.A.X.I.M.U.S. penetration test, sir.")
+        print("\n⚡  Initiating M.A.X.I.M.U.S. penetration test.")
         print("    Maximum Adversarial eXploitation & Intrusion Management")
         print("    Professional security validation framework.")
         print("\n⚠️  WARNING: Aggressive security testing commencing...\n")
@@ -1322,7 +1308,7 @@ class AMIRBot:
                     continue
                 
                 if command in ['exit', 'quit', 'shutdown']:
-                    print("\n🎙️  Understood, sir. A.M.I.R. standing by.")
+                    print("\n🎙️  Understood. A.M.I.R. standing by.")
                     break
                 
                 elif command == 'help':
@@ -1371,11 +1357,11 @@ class AMIRBot:
                     self.one_ring_analysis()
                 
                 else:
-                    print(f"\n🎙️  Command not recognized: '{command}', sir.")
+                    print(f"\n🎙️  Command not recognized: '{command}'.")
                     print("    Type 'help' for available commands.")
             
             except KeyboardInterrupt:
-                print("\n\n🎙️  Shutting down gracefully. Goodbye, sir.")
+                print("\n\n🎙️  Shutting down gracefully. Goodbye.")
                 break
             except Exception as e:
                 print(f"\n⚠️  Error: {e}")
@@ -1449,7 +1435,7 @@ class AMIRBot:
         print(f"  Missions completed: {self.missions_completed}")
         print(f"  Security scans: {self.security_scans}")
         print(f"  Threats neutralized: {self.threats_neutralized}")
-        print("\n🎙️  Standing by for further instructions, sir.")
+        print("\n🎙️  Standing by for further instructions.")
 
 
 def main():
@@ -1472,7 +1458,7 @@ def main():
     if response in ['y', 'yes']:
         amir.interactive_mode()
     else:
-        print("\n🎙️  Very well, sir. A.M.I.R. standing by.")
+        print("\n🎙️  Very well. A.M.I.R. standing by.")
     
     return 0
 

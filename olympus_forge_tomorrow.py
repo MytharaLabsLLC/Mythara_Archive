@@ -126,9 +126,9 @@ def forge_tomorrow():
         "forge_temperature": "White-hot (divine fire from Prometheus)",
         "hammer_strikes": 1000,  # Each strike shapes reality
         "material": "Pure innovation alloyed with human compassion",
-        "quenching_medium": "Real-world validation (telemarketer case proven)",
-        "structural_integrity": "95.8% (Soul Cradle improvement validated)",
-        "estimated_impact": "$2B healthcare market, prevent 10M burnout cases/year"
+        "quenching_medium": "Anecdotal demo cases (not a validated study)",
+        "structural_integrity": "Unmeasured (story figure, not a real result)",
+        "estimated_impact": "Aspirational goal — no market sizing done, no outcomes measured"
     }
     
     print(f"🔨 HEPHAESTUS HAS FORGED THE VISION INTO FORM:")
@@ -155,7 +155,7 @@ def forge_tomorrow():
     
     action1 = aries.create_action(
         "Manifest Soul Cradle Engine into production",
-        "python:result='Soul Cradle deployed - Witnessing 1000 users/day'",
+        "python:result='SIMULATED: Soul Cradle deployed (fiction — no real deployment)'",
         priority=ActionPriority.CRITICAL,
         timeout=600,
         metadata={"divine_command": "forge_soul_cradle", "god": "hephaestus"}
@@ -163,7 +163,7 @@ def forge_tomorrow():
     
     action2 = aries.create_action(
         "Activate Emotional Authenticity Tracker (EQ Formula)",
-        "python:result='EQ tracking active - Measuring G/T×H for all interactions'",
+        "python:result='SIMULATED: EQ tracking active (fiction)'",
         priority=ActionPriority.CRITICAL,
         dependencies=[action1.action_id],
         metadata={"divine_command": "activate_eq_tracking", "god": "prometheus"}
@@ -171,7 +171,7 @@ def forge_tomorrow():
     
     action3 = aries.create_action(
         "Deploy Temporal Paradox Chains (Burnout Prediction)",
-        "python:result='Paradox chains active - Predicting burnout 90 days ahead'",
+        "python:result='SIMULATED: paradox chains active (fiction — predictions not validated)'",
         priority=ActionPriority.HIGH,
         dependencies=[action2.action_id],
         metadata={"divine_command": "deploy_prediction", "god": "prometheus"}
@@ -179,7 +179,7 @@ def forge_tomorrow():
     
     action4 = aries.create_action(
         "Activate Authenticity Oracle (Manipulation Detection)",
-        "python:result='Oracle online - Detecting manipulation in real-time'",
+        "python:result='SIMULATED: oracle online (fiction)'",
         priority=ActionPriority.HIGH,
         dependencies=[action2.action_id],
         metadata={"divine_command": "activate_oracle", "god": "prometheus"}
@@ -187,23 +187,23 @@ def forge_tomorrow():
     
     action5 = aries.create_action(
         "Establish Distributed Emotional Consensus Protocol",
-        "python:result='Consensus network live - 100 witnesses validating truth'",
+        "python:result='SIMULATED: consensus network live (fiction)'",
         priority=ActionPriority.NORMAL,
         dependencies=[action4.action_id],
         metadata={"divine_command": "establish_consensus", "god": "prometheus"}
     )
     
     action6 = aries.create_action(
-        "Launch Healthcare Pilot (10 Organizations)",
-        "python:result='Pilot launched - 10 hospitals testing burnout prevention'",
+        "Simulate healthcare pilot plan (10 organizations — aspirational, not launched)",
+        "python:result='SIMULATED: healthcare pilot planned (fiction — no real pilot)'",
         priority=ActionPriority.CRITICAL,
         dependencies=[action3.action_id, action4.action_id, action5.action_id],
         metadata={"divine_command": "launch_pilot", "god": "aries"}
     )
     
     action7 = aries.create_action(
-        "Forge reality: First 1000 people witnessed and healed",
-        "python:result='1000 souls witnessed - Average EQ improvement 87.3%'",
+        "Simulate: first 1000 people witnessed and healed (fiction)",
+        "python:result='SIMULATED: 1000 souls witnessed (fiction — figure not measured)'",
         priority=ActionPriority.CRITICAL,
         dependencies=[action6.action_id],
         metadata={"divine_command": "manifest_healing", "god": "all_gods"}

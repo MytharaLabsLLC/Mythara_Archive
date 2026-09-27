@@ -1,19 +1,19 @@
 """
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright Â© 2025 Herbert Velez Jr. All rights reserved.
 Proprietary and Confidential.
 
 EMOTIONAL BLOCKCHAIN
 ====================
-Divine Artifact forged by: Prometheus, Hephaestus, Schrödinger
-Purpose: Create immutable history of emotional states, prevent truth from being rewritten
-Power Level: 94.0%
+Design concept: a tamper-evident ledger for emotional events.
+Purpose: keep an append-only record of emotional states so recorded history can't be quietly rewritten.
 """
 
 
 class EmotionalBlockchain:
     '''
-    Divine artifact: Immutable ledger of emotional truth.
-    What is witnessed cannot be un-witnessed.
+    A ledger design for emotional events: entries are witness-attested and
+    hash-chained to the previous entry, so recorded history can't be
+    quietly changed later.
     '''
     
     def record_emotional_event(
@@ -56,7 +56,7 @@ class EmotionalBlockchain:
         timestamp: datetime,
         claimed_state: EmotionalState
     ) -> bool:
-        '''Divine verification: Can the past be trusted?'''
+        '''Check whether a recorded state at a timestamp can be trusted.'''
         # Find block at timestamp
         block = self.find_block_at_time(timestamp)
         

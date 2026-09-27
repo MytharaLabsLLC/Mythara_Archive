@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 ARIES - The Action Execution Engine
-A GODBOT that takes decisions and executes them with precision, speed, and relentless determination.
-The warrior that transforms plans into reality.
+An execution engine that takes approved decisions and runs them through
+registered handlers — with precision and speed, one signed action at a time.
 
 Copyright © 2025 Herbert Velez Jr. All rights reserved.
 
@@ -119,9 +119,8 @@ class AriesBot:
     """
     A.R.I.E.S. - The Action Execution Engine
 
-    The warrior GODBOT that executes plans with precision and speed.
     Takes output from Prometheus (ideas), Schrödinger (evaluated paths),
-    and Hephaestus (implementation plans) and MAKES IT HAPPEN.
+    and Hephaestus (implementation plans) and runs it via registered handlers.
 
     Key Capabilities:
     - Priority-based action queuing

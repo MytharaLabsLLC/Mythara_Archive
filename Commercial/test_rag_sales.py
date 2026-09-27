@@ -2,6 +2,9 @@
 
 """
 Test script to demonstrate RAG-powered email assistant with sales psychology
+
+NOTE: all people, titles, and companies in the fixtures below are fictional
+stand-ins for testing — never treat them as real prospects or customers.
 """
 
 import os
@@ -27,7 +30,7 @@ us to prove why agents approved certain high-risk loans.
 I'd like to learn more.
 
 Sarah Chen
-VP Model Risk, Western Union"""
+VP Model Risk, Example Bank (fictional fixture)"""
     }
     
     ea = EmailAssistant()
@@ -56,7 +59,7 @@ AI decision logs are tamper-evident and auditable.
 Also, can it integrate with our existing Epic EHR system?
 
 Dr. James Park
-CMIO, UCHealth"""
+CMIO, Example Health System (fictional fixture)"""
     }
     
     ea = EmailAssistant()

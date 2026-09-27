@@ -392,7 +392,7 @@ if __name__ == "__main__":
             "ai_flags": ["income_mismatch", "short_employment"],
             "agent_id": "AGENT-5432",
             "agent_name": "Jane Doe",
-            "agent_justification": "Verified income via tax returns showing $85k annual salary. Customer has 10-year relationship with perfect payment history. Recent job change was to higher-paying position at Fortune 500 company (Google). Debt-to-income ratio is 0.32, well below 0.43 threshold.",
+            "agent_justification": "Verified income via tax returns showing $85k annual salary. Customer has 10-year relationship with perfect payment history. Recent job change was to higher-paying position at a large technology company. Debt-to-income ratio is 0.32, well below 0.43 threshold.",
             "override_authority_level": "Senior_Underwriter",
             "application_amount": 50000,
         }

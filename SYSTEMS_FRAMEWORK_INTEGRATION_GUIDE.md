@@ -1,5 +1,7 @@
 # Systems Framework Integration Guide for Developers
 
+> **Status: design specification.** The API endpoints, payloads, and results shown in this document are illustrative. The API is not deployed (`api.mythara.com` is not a live service). Burnout prediction is the design goal and is unvalidated — the validation study has not been run.
+
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Proprietary and Confidential.**
 
@@ -7,7 +9,7 @@
 
 ## Overview
 
-The **Systems Framework** provides mathematical foundation for Soul Cradle's paradox analysis engine. This enables burnout prediction 3-6 months before terminal events.
+The **Systems Framework** provides a mathematical foundation for Soul Cradle's paradox analysis engine. The design goal is burnout prediction 3-6 months before terminal events — this is unvalidated.
 
 ### Core Concept
 
@@ -538,7 +540,7 @@ Questions about Systems Framework integration?
 
 - **Email**: Mythara.Engine@yahoo.com
 - **Documentation**: See `soul_cradle_systems_framework.py` source code
-- **API Docs**: https://api.mythara.com/api/docs
+- **API Docs**: https://api.mythara.com/api/docs (planned, not live)
 
 ---
 

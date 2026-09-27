@@ -4,19 +4,18 @@ Copyright © 2025 Herbert Velez Jr. All rights reserved.
 THE DESCENT CHASM
 =================
 Soul State: |Descend⟩ - ψ_descend = U × T × V⁻¹
-Enables: Souls can DESCEND - fall toward darkness, despair, fragmentation, hell
-Power Level: 96.1%
+Tracks a soul's downward movement when conflict goes unresolved and capacity drops.
 """
 
 
 class DescentChasm:
     '''
-    The Descent Chasm tracks souls falling toward hell.
-    Not punishment. FRAGMENTATION.
+    Tracks souls moving toward breakdown.
+    Not punishment - fragmentation from unresolved conflict.
     '''
     
     HELL_THRESHOLD = 0.7
-    INDIFFERENCE_THRESHOLD = 0.9  # Worst state - soul withdrawn
+    INDIFFERENCE_THRESHOLD = 0.9  # Most severe state - soul withdrawn
     BR_DEPLETION_MULTIPLIER = -3.0
     
     def calculate_descent(
@@ -25,7 +24,7 @@ class DescentChasm:
         paradox_history: List[Paradox]
     ) -> DescentState:
         '''
-        Calculate soul's descent toward hell.
+        Calculate the soul's current descent score.
         '''
         
         # Calculate current descent state
@@ -94,7 +93,7 @@ class DescentChasm:
         
         # Check for indifference (most dangerous)
         if soul.emotional_state.get('indifference', 0) > 0.7:
-            emotions.insert(0, 'INDIFFERENCE - soul withdrawing from life')
+            emotions.insert(0, 'Indifference - soul withdrawing from life')
         
         return emotions
     
@@ -102,7 +101,7 @@ class DescentChasm:
         '''What does a soul in hell feel?'''
         return [
             'Complete fragmentation',
-            'Irreparable breach of integrity',
-            'Soul cannot reconcile what it has done/endured',
-            'Permanent separation from wholeness'
+            'Broken integrity - cannot be repaired from within',
+            'Soul cannot reconcile what it has done or endured',
+            'Cut off from wholeness'
         ]

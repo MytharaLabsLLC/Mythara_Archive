@@ -33,7 +33,7 @@ class PublicContactHarvester:
         self.session = requests.Session()
         self.session.headers.update(
             {
-                "User-Agent": "Mythara Labs Business Development (Mythara.Engine@yahoo.com)"
+                "User-Agent": "Mythara Business Development (Mythara.Engine@yahoo.com)"
             }
         )
 

@@ -3,6 +3,14 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Date**: November 21, 2025
 
+> **Document status (2026-09-27):** Internal 2025 concept document. The
+> integrations described are design sketches, not tested deployments — no
+> independent benchmark or validation exists. "Operational",
+> "production-ready", and similar status claims below are the author's
+> internal assessment, not audited results. Figures such as "$300M ARR
+> market" are illustrative scenarios, not measured or achieved. No
+> customers, revenue, or certifications are claimed.
+
 ---
 
 ## EXECUTIVE SUMMARY
@@ -702,15 +710,15 @@ def process_customer_email(email_data: Dict, customer_id: str):
   - High risk → HR bot schedules counseling
   - Critical risk → Manager notified + EAP referral
 
-### Revenue Impact
+### Revenue Impact (illustrative model — not measured results)
 
-**Per 1000-Employee Organization**:
+**Per 1000-Employee Organization** (hypothetical illustration):
 - Soul Cradle: $5/employee/month = $5k/month = $60k/year
 - Prevents 10 employee departures/year (avg $75k/each to replace) = $750k saved
-- ROI: 12.5x
+- Illustrative ROI: 12.5x
 
-**Market Sizing**:
-- 10,000 orgs × 500 employees avg × $5/employee/month = $25M MRR = **$300M ARR**
+**Market Sizing** (illustrative TAM estimate, not revenue):
+- 10,000 orgs × 500 employees avg × $5/employee/month = $25M MRR = **$300M ARR** (illustrative)
 
 ---
 

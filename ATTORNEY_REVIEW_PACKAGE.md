@@ -286,7 +286,7 @@ This package contains **Mythara Archive**, a proprietary software repository tha
 ## 💼 BUSINESS CONTEXT FOR ATTORNEY
 
 ### **Company:**
-- **Entity:** Herbert Velez Jr., sole proprietor (no LLC exists)
+- **Entity:** Herbert Velez Jr. — Mythara Labs LLC, a Colorado domestic limited liability company; Articles of Organization filing attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; entity not yet formed; member-managed; sole member and organizer: Herbert Velez Jr.; principal office: Denver, CO. The LLC is not yet a formed entity — no company currently stands behind the software.
 - **Product:** Mythara Engine - AI governance and symbolic orchestration platform
 - **Stage:** Pre-revenue; no sales yet (pricing below is planned, not offered)
 - **Target Market:** Healthcare AI, financial AI, enterprise AI safety

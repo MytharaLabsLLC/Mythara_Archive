@@ -10,19 +10,20 @@ The Mythara Engine, including all associated software, documentation, test suite
 
 ---
 
-## Proprietary and Confidential
+## Proprietary and Copyright
 
-This Software contains proprietary information, trade secrets, and confidential materials. All components are protected under:
+This Software contains copyrighted material. All components are protected under:
 
 - **Copyright Law** (United States and international)
-- **Trade Secret Law**
-- **Contractual Confidentiality Obligations**
+- **The license terms in LICENSE.md** (contractual obligations where a license is executed)
+
+*(This repository is public — no trade-secret protection or confidentiality obligation exists absent a signed confidentiality agreement with the owner.)*
 
 ---
 
 ## Protected Components
 
-The following components are proprietary and confidential:
+The following components are proprietary (all rights reserved):
 
 ### Core Engine
 - Mythara Engine architecture and implementation
@@ -90,7 +91,7 @@ The following components are proprietary and confidential:
 - Modify, adapt, or create derivative works
 - Reverse engineer, decompile, or disassemble
 - Remove or obscure copyright notices
-- Disclose confidential information to third parties
+- Redistribution of copyrighted material without a license from the owner
 
 ---
 
@@ -106,7 +107,7 @@ PGP Fingerprint: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 1. **Development License ($2,500/year)** — Internal testing and proof-of-concept
 2. **Enterprise License** — Production deployment with SLA
-3. **Sovereign License** — Air-gapped, government, defense deployments (includes source escrow)
+3. **Sovereign License** — Air-gapped deployments (includes source escrow terms; no government/defense contract capability is claimed)
 
 No indemnification is currently offered. No insurance backs this software.
 
@@ -122,7 +123,7 @@ This Software is protected worldwide under:
 - **WIPO Copyright Treaty** (WCT)
 - **TRIPS Agreement** (Trade-Related Aspects of Intellectual Property Rights)
 - **Paris Convention** for the Protection of Industrial Property
-- National copyright, trade secret, and contract laws of applicable jurisdictions
+- National copyright and contract laws of applicable jurisdictions
 
 ---
 
@@ -131,8 +132,8 @@ This Software is protected worldwide under:
 Unauthorized use, distribution, or disclosure of this Software constitutes:
 
 - **Copyright infringement** (17 U.S.C. § 501 et seq.)
-- **Breach of trade secret protections** (18 U.S.C. § 1836, DTSA)
-- **Breach of contract** (if confidentiality agreement executed)
+- **Copyright infringement** (unauthorized copying or distribution)
+- **Breach of contract** (if a license or confidentiality agreement was executed)
 - **Computer fraud** (18 U.S.C. § 1030, CFAA) if accessed without authorization
 
 Remedies may include:
@@ -164,4 +165,4 @@ For licensing inquiries, technical support, or security disclosures, please use 
 
 **Last Updated:** November 18, 2025
 
-*Revised September 21, 2026 to remove claims about a nonexistent company (Mythara Labs LLC), a nonexistent foundation (Soul Cradle Foundation), ungranted open-source licenses, and indemnification terms with no insurance behind them. See LICENSE.md for the governing license terms.*
+*Revised September 27, 2026: removed all references to nonexistent entities, ungranted open-source licenses, and indemnification terms with no insurance behind them. Note: this repository is public — do not treat its contents as confidential or trade secrets absent a signed confidentiality agreement with the owner. See LICENSE.md for the governing license terms.*

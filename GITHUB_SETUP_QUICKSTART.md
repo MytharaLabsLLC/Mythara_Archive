@@ -135,7 +135,7 @@ See `INSTALL.md` for deployment instructions:
 
 This software is proprietary. Contact for licensing:
 
-**Herbert Velez Jr.** *(Mythara Labs LLC — formation filed with the Colorado SOS on 2026-09-27, pending completion)*  
+**Herbert Velez Jr.** *(Mythara Labs LLC — formation filing attempted with the Colorado SOS on 2026-09-27 — not confirmed; entity not yet formed)*  
 Email: legal@mythara.engine  
 PGP: 571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C
 
@@ -232,7 +232,7 @@ legal@mythara.engine
 
 Best regards,
 Herbert Velez Jr.
-*(Mythara Labs LLC — formation filed with the Colorado SOS on 2026-09-27, pending completion)*
+*(Mythara Labs LLC — formation filing attempted with the Colorado SOS on 2026-09-27 — not confirmed; entity not yet formed)*
 ```
 
 ---

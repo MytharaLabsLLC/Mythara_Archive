@@ -44,11 +44,13 @@ PGP: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 ### Available License Types
 
-1. **Development License** — Internal testing and proof-of-concept
-2. **Enterprise License** — Production deployment with SLA
-3. **Sovereign License** — Air-gapped, government, defense deployments (includes escrow)
+> Proposed terms only — no licenses have been issued and no licensing program is live.
 
-See `Commercial/### Pricing Tiers.txt` for details.
+1. **Development License (proposed)** — Internal testing and proof-of-concept
+2. **Enterprise License (proposed)** — Production deployment with SLA
+3. **Sovereign License (proposed)** — Air-gapped, government, defense deployments (includes escrow)
+
+See `Commercial/Pricing_Tiers.md` for the current draft pricing.
 
 ---
 

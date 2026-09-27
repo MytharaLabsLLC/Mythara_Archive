@@ -10,7 +10,7 @@ Uses Mythara SSIP:
 - Soul Cradle: Detects student engagement, at-risk students, bullying indicators
 - Blessings Reservoir: Rewards student achievements, teacher effectiveness
 - Messenger Protocol: Adaptive communication style for students, parents, teachers
-- Sanctification: FERPA compliance, academic integrity lockdown
+- Sanctification: FERPA-aligned data handling, academic integrity controls
 - Shadow_Resolver: Escalates behavioral issues, academic concerns to administrators
 
 Key Features:
@@ -21,7 +21,7 @@ Key Features:
 - Multi-class and multi-teacher support
 - Curriculum alignment tracking
 - Behavioral monitoring and intervention
-- FERPA-compliant data security
+- Data security designed around FERPA expectations (design goal, not certification)
 """
 
 import json
@@ -63,7 +63,7 @@ class MytharaEducationSuite:
     Mythara Education Team Suite - Complete School Management System
     
     Manages classrooms, students, teachers, curriculum, and parent communication
-    with FERPA compliance and Mythara SSIP integration.
+    with FERPA-aligned data handling and Mythara SSIP integration.
     """
     
     def __init__(self, db_path: str = "mythara_education.db"):
@@ -288,7 +288,7 @@ class MytharaEducationSuite:
         return {
             "school_id": school_id,
             "school_name": school_name,
-            "message": f"School registered: {school_name}. FERPA compliance enabled.",
+            "message": f"School registered: {school_name}. FERPA-aligned privacy controls active.",
             "integrity_hash": integrity_hash[:16]
         }
     
@@ -370,7 +370,7 @@ class MytharaEducationSuite:
             "student_id": student_id,
             "name": name,
             "grade_level": grade_level,
-            "message": f"Student enrolled: {name} ({grade_level}). FERPA protections active.",
+            "message": f"Student enrolled: {name} ({grade_level}). FERPA-aligned privacy controls active.",
             "integrity_hash": integrity_hash[:16]
         }
     

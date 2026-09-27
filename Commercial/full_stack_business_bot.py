@@ -193,7 +193,7 @@ class SignLanguageInterpreter:
         """Generate appropriate sales response for deaf customer"""
         responses = {
             "INTERESTED": "Great! $500 early adopter price. Demo Tuesday or Wednesday?",
-            "PRICE": "$500 for early adopters (normally $2,500). Limited slots left.",
+            "PRICE": "$500 early adopter price. Happy to walk you through it.",
             "WHEN": "I can demo Tuesday 10am or Wednesday 2pm. Which works?",
             "YES": "Perfect! I'll send calendar invite. What's your email?",
             "NO": "No problem. Do you know anyone who needs AI audit trails?",
@@ -645,14 +645,15 @@ bot = FullStackBusinessBot()
 bot.start_autonomous_operations()
 ```
 
-## Revenue Projection
+## Revenue Projection (illustrative scenario — real results will differ)
 
+Example math only, not a forecast:
 **Month 1:** 400 emails → 15 responses → 3 deals × $500 = **$1,500**
 **Month 2:** 400 emails → 20 responses → 5 deals × $2,500 = **$12,500**
 **Month 3:** 400 emails → 25 responses → 8 deals × $2,500 = **$20,000**
 
-**Quarterly Total:** **$34,000**
-**Estimated Tax Due (Q1 2026):** **$12,682** (37.3% self-employment + income)
+**Quarterly Total (example):** **$34,000**
+**Estimated Tax Due on that example (Q1 2026):** **$12,682** (37.3% self-employment + income)
 
 ## Tax Filing Dates
 

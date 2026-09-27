@@ -16,8 +16,8 @@ Copy-paste these into PayPal invoice templates for quick sending.
 **Description**:  
 Single AI model validation with cryptographic proof. Includes integrity hash chain and readiness assessment report. Delivered within 5 business days.
 
-**Regular Price**: ~~$2,500~~ **$500** (Early Adopter - Save $2,000!)  
-**Valid Until**: November 15, 2025
+**Regular Price**: ~~$2,500~~ **$500** (Early Adopter)  
+**Promo status:** ENDED November 15, 2025 — the early adopter rate is no longer offered; current price is $2,500 unless a new promotion is announced.
 
 ---
 
@@ -29,8 +29,8 @@ Single AI model validation with cryptographic proof. Includes integrity hash cha
 **Description**:  
 Unlimited model validations with API access and 24-hour support. Auto-renews monthly.
 
-**Regular Price**: ~~$500/mo~~ **$300/mo** (Early Adopter - Save $200/month!)  
-**Valid Until**: November 15, 2025  
+**Regular Price**: ~~$500/mo~~ **$300/mo** (Early Adopter, first 3 months)  
+**Promo status:** ENDED November 15, 2025 — current price is $500/month unless a new promotion is announced.  
 **Recurring**: Yes (Monthly)
 
 ---
@@ -93,7 +93,7 @@ Live workshop with API integration and best practices guide. Includes recorded s
 **SKU**: MYTH-VOIP-2026  
 **Amount**: $1,500,000.00  
 **Description**:  
-Full VoIP bot source code with 5 voice personas and 6 months support. Ships Q1 2026. Includes exclusive territory rights.
+Full VoIP bot source code with 5 voice personas and 6 months support. Not yet built — roadmap item. Includes exclusive territory rights if the product is delivered.
 
 **One-time fee**  
 **Ships**: Q1 2026  
@@ -178,9 +178,9 @@ Full source code access with rebuild rights and perpetual license.
 - 3+ Annual Subscriptions: 10% off
 - 5+ Enterprise Licenses: 15% off + Free Custom Clause
 
-**Refund Policy**: 14-day money-back guarantee on first audit or first month subscription.
+**Refund Policy**: 14-day money-back guarantee on first audit or first month subscription. Terms are as offered at the time of sale — keep a copy of the invoice terms with the customer's records.
 
-**Early Adopter Pricing**: Valid until November 15, 2025. Lock in these rates by signing up before the deadline!
+**Early Adopter Pricing**: the November 15, 2025 promotion has ended. Confirm current rates before quoting.
 
 ---
 

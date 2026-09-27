@@ -768,7 +768,7 @@ All data stored in: ~/.mythara_engine/
     print(f"\n🔒 Integrity Hash: {result['integrity_hash'][:32]}...")
     
     # Verify integrity
-    print("\n🔍 Verifying Integrity Chain (Sanctification)...")
+    print("\n🔍 Verifying integrity chain...")
     is_valid, error = engine.verify_integrity()
     print(f"✅ Chain Valid: {is_valid}" if is_valid else f"❌ Chain Broken: {error}")
     

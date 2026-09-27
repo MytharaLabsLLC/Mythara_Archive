@@ -4,6 +4,8 @@
 **Effective Date:** November 19, 2025  
 **Contact:** Mythara.Engine@yahoo.com
 
+> **Document status (2026-09-27):** Draft legal notice template from 2025. Not reviewed by a licensed attorney — treat as a starting template, not as executed legal terms. Compliance sections already state no certifications are held; patent applications were never filed.
+
 ---
 
 ## MONITORING & COMPLIANCE NOTICE
@@ -45,7 +47,7 @@ All interactions are:
 - **Accessible to authorized personnel** including system administrators, quality assurance teams, and legal counsel
 - **Potentially discoverable in legal proceedings** if relevant to employment disputes, litigation, or regulatory investigations
 
-**Court-Admissible Evidence:** Paradox severity scores, integrity timestamps, and attorney referral records may be used as evidence in legal proceedings under Federal Rules of Evidence 702 (expert testimony) and 803(6) (business records exception).
+**Potential evidentiary use:** Paradox severity scores, integrity timestamps, and attorney referral records are preserved with integrity hashing so they may be offered in legal proceedings (e.g., under Federal Rules of Evidence 702 or 803(6)). Admissibility is determined by the court, not by this notice.
 
 ### 4. No Attorney-Client Privilege (Yet)
 
@@ -328,7 +330,7 @@ c/o Herbert Velez Jr.
 🔍 **CCPA/CPRA Alignment** (California Consumer Privacy Act — controls mapped, independent audit planned, not currently certified)  
 🔍 **COPPA Alignment** (Children's Online Privacy Protection Act — controls mapped, independent audit planned, not currently certified)  
 ✅ **HIPAA Aware** (does not handle protected health information)  
-✅ **SOC 2 Type II** (controls implemented, audit planned — not currently certified)  
+🔍 **SOC 2 Type II** (controls designed, audit planned — not currently certified; no audit has occurred)  
 
 **Audit Trail:** All monitoring activities are logged with SHA-256 timestamps per Sanctification Verification protocol. Audit logs available upon request for legal compliance reviews.
 

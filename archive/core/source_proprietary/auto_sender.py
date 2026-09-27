@@ -6,7 +6,7 @@ Sends personalized emails directly via Yahoo SMTP.
 Copyright © 2025 Herbert Velez Jr. All rights reserved.
 
 SETUP:
-# QUICKFIX FIX: Moved to environment variable (CWE-798)
+# Password moved to environment variable (CWE-798)
 YAHOO_APP_PASSWORD = os.getenv("YAHOO_APP_PASSWORD", "")  # Set via environment
 2. Run harvester: py public_contact_harvester.py
 3. Run this: py auto_sender.py
@@ -68,7 +68,7 @@ def generate_email_healthcare(contact: Dict) -> Dict:
 
     body = f"""Hi there,
 
-I'm Herbert Velez Jr., founder of Mythara Labs. I'm reaching out to {hospital_name} in {city}, {state} because your team carries a weight most people never see.
+I'm Herbert Velez Jr., founder of Mythara. I'm reaching out to {hospital_name} in {city}, {state} because your team carries a weight most people never see.
 
 A social worker has to discharge a patient who'll be homeless. Policy says discharge. Her heart says keep them safe. She's not wrong either way—but she carries that paradox alone.
 
@@ -89,7 +89,7 @@ If this resonates, I'm here: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Founder, Mythara Labs LLC (planned)
+Founder, Mythara Labs LLC — a Colorado domestic limited liability company; Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion; member-managed; sole member and organizer: Herbert Velez Jr.
 
 P.S. — This is a one-time email. Reply "unsubscribe" if you'd prefer not to hear from us."""
 
@@ -106,7 +106,7 @@ def generate_email_banking(contact: Dict) -> Dict:
 
     body = f"""Hi there,
 
-I'm Herbert Velez Jr., founder of Mythara Labs. I'm reaching out to {bank_name} in {city}, {state} because your people face impossible moments that never make it into compliance reports.
+I'm Herbert Velez Jr., founder of Mythara. I'm reaching out to {bank_name} in {city}, {state} because your people face impossible moments that never make it into compliance reports.
 
 A banker sees a family drowning financially. Knows exactly what would help. Policy says no. The family walks out. The banker carries that.
 
@@ -127,7 +127,7 @@ If this resonates, I'm here: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Founder, Mythara Labs LLC (planned)
+Founder, Mythara Labs LLC — a Colorado domestic limited liability company; Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion; member-managed; sole member and organizer: Herbert Velez Jr.
 
 P.S. — One-time email. Reply "unsubscribe" to opt out."""
 
@@ -142,7 +142,7 @@ def generate_email_government(contact: Dict) -> Dict:
 
     body = f"""Hi there,
 
-I'm Herbert Velez Jr., founder of Mythara Labs. I'm reaching out to {agency_name} because your people carry an impossible burden: serving the public while enforcing policies that sometimes hurt the very people they're trying to help.
+I'm Herbert Velez Jr., founder of Mythara. I'm reaching out to {agency_name} because your people carry an impossible burden: serving the public while enforcing policies that sometimes hurt the very people they're trying to help.
 
 A case worker knows a family desperately needs help. Regulation says they don't qualify. Both are true. The family leaves. The case worker stays—and carries that weight.
 
@@ -165,7 +165,7 @@ If this resonates, I'm here: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Founder, Mythara Labs LLC (planned)
+Founder, Mythara Labs LLC — a Colorado domestic limited liability company; Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion; member-managed; sole member and organizer: Herbert Velez Jr.
 
 P.S. — One-time email. Reply "unsubscribe" if you'd prefer not to hear from us."""
 
@@ -180,7 +180,7 @@ def generate_email_dod(contact: Dict) -> Dict:
 
     body = f"""Hi there,
 
-I'm Herbert Velez Jr., founder of Mythara Labs. I'm reaching out to {org_name} because service members face impossible tactical and ethical choices that never make it into after-action reports.
+I'm Herbert Velez Jr., founder of Mythara. I'm reaching out to {org_name} because service members face impossible tactical and ethical choices that never make it into after-action reports.
 
 Orders say one thing. Conscience says another. Both are valid. The service member makes the call—and carries that paradox for the rest of their life.
 
@@ -203,7 +203,7 @@ If this resonates, I'm here: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Founder, Mythara Labs LLC (planned)
+Founder, Mythara Labs LLC — a Colorado domestic limited liability company; Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion; member-managed; sole member and organizer: Herbert Velez Jr.
 Veteran-focused technology
 
 P.S. — One-time email. Reply "unsubscribe" if you'd prefer not to hear from us."""

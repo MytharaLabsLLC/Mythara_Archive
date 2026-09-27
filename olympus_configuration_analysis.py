@@ -88,7 +88,7 @@ def analyze_current_configuration():
             confidence_contribution=100.0,
             variance=0.5,  # Most consistent
             strengths=[
-                "HIGHEST confidence (100%)",
+                "Highest self-reported score in this thought experiment (not a measured result)",
                 "Most consistent performance",
                 "Perfect execution tracking",
                 "Real action validation"
@@ -159,7 +159,7 @@ def analyze_alternative_soul_cradle_slime():
             variance=2.0,  # Very consistent - mathematical
             strengths=[
                 "DETERMINISTIC - no randomness",
-                "Proven accuracy on real cases (telemarketer: 100% validated)",
+                "Anecdotal results on demo cases (not a validated study)",
                 "Identifies root causes of problems",
                 "Predicts burnout cascades",
                 "EQ formula is mathematically sound",
@@ -280,7 +280,7 @@ def compare_configurations():
         print(f"Reasoning:")
         print(f"   1. +{improvement:.1f}% higher aggregate confidence")
         print(f"   2. Deterministic behavior (no quantum randomness)")
-        print(f"   3. Soul Cradle proven on real cases (telemarketer validation)")
+        print(f"   3. Soul Cradle tried on demo cases (anecdotal, not validated)")
         print(f"   4. SLIME adds logical rigor without randomness")
         print(f"   5. Tighter variance (±2% vs ±8.5%)")
         print(f"   6. Soul Cradle directly addresses Mythara's core mission (burnout prevention)")

@@ -8,6 +8,8 @@
 
 ---
 
+> **Clarification (2026-09-27):** Q.U.A.S.A.R. is an internal code module (`quasar_bot.py`) that reviews code using quantum-inspired metaphors. It runs on classical hardware — no quantum computer, quantum key distribution hardware, or peer-reviewed validation is involved. "Quantum-resistant", "quantum-native", and "post-quantum secure" assessments below are the module's own internal scoring, not independent security validation. Prior-art statements are the author's position, not a legal guarantee.
+
 ## Executive Summary
 
 Q.U.A.S.A.R. has completed comprehensive quantum security analysis of the Soul Cradle Systems Framework. The framework demonstrates **QUANTUM-RESISTANT** properties suitable for deployment in post-quantum computing environments.

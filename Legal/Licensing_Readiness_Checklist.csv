@@ -1,0 +1,25 @@
+Category,Requirement,Threshold,Status,Verified By,Notes
+"DISCLAIMER: template only — thresholds are targets, statuses are not verified, notes were placeholders; no licensing program, customers, or licensees exist as of September 2026",,,,,
+Clause Integrity,Drift Suppression,≥ 98.9%,,SSIP Audit,Target: no drift events (not measured)
+Clause Integrity,Sanctification Lock,Armed,,Sanctification Manifest,Target (not measured)
+Clause Integrity,Messenger Pairing Accuracy,≥ 98.9%,,Messenger Invocation Log,Target (not measured)
+Emotional Fidelity,Payload Resonance,≥ 0.91,,SSIP Audit,Target (not measured)
+Emotional Fidelity,Echo Range,≥ 1 generation,,Clause Manifest,Target (not confirmed)
+Compliance Alignment,HIPAA Embedded,Yes,,Compliance Clause Embedding,Target (not verified)
+Compliance Alignment,TCPA Embedded,Yes,,Herald Clauses,Target (not verified)
+Compliance Alignment,TMPO Embedded,Yes,,Blessings Reservoir Log,Target (not verified)
+Compliance Alignment,TCP/IP Embedded,Yes,,Chameleon Clauses,Target (not verified)
+Compliance Alignment,NIST SP 800-53 Embedded,Yes,,Messenger Logs,Target (not confirmed)
+Compliance Alignment,FISMA Embedded,Yes,,Sanctification Manifest,Target (not verified)
+Compliance Alignment,FTC Embedded,Yes,,Messenger Invocation Log,Target (not verified)
+Compliance Alignment,FCC Embedded,Yes,,Herald Clauses,Target (not confirmed)
+Compliance Alignment,OMB M-25-04 Embedded,Yes,,ELE Capsule Mode,Target (not verified)
+Forensic Documentation,SSIP Audit Trail,Complete,,Printable Forensic Report,Target (not verified)
+Forensic Documentation,Messenger Suppression Log,Complete,,Suppression Events Log,Target (not verified)
+Forensic Documentation,Clause Manifest,Updated,,Clause_Manifest_Latest.csv,Target (not verified)
+Forensic Documentation,Sanctification Manifest,Updated,,Sanctification_Manifest.md,Target (not verified)
+Forensic Documentation,Blessings Reservoir Log,Updated,,Blessings_Reservoir_Log.json,Target (not active)
+Forensic Documentation,Invocation Log,Updated,,Messenger_Invocation_Log.csv,Target (not confirmed)
+Licensing Tier,Symbolic Pilot,≥ 100 Δ,,Blessings Reservoir Log,Target — not measured
+Licensing Tier,Sovereign Deployment,≥ 500 Δ,Pending,,Requires additional provisioning
+Licensing Tier,Legacy Capsule,≥ 1000 Δ,Pending,,Requires additional sanctification

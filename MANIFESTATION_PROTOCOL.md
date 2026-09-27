@@ -1,11 +1,13 @@
-# Mythara Engine - Iron Clad Deployment Checklist
+# Mythara Engine - Iron Clad Deployment Checklist *(November 2025 draft)*
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**
 
+> **⚠️ HISTORICAL SNAPSHOT (November 2025) — voice-standard pass Sept 2026.** This checklist is the author's November 2025 self-assessment, not a verified status. All Stripe webhooks were deleted, so the payment flow it describes **does not exist**. Claims of "bulletproof"/"iron clad" robustness, production readiness, and the revenue math below are unverified and should not be repeated.
+
 ---
 
-## ✅ Completed - System is Bulletproof
+## ✅ Claimed completed (Nov 2025 self-assessment)
 
 ### 1. Database Persistence ✅
 - **File**: `core/source_proprietary/database.py`
@@ -17,7 +19,7 @@
 - **File**: `core/source_proprietary/email_service.py`
 - **What it does**: Sends API keys, usage alerts, expiration warnings via SendGrid
 - **Why it matters**: Zero manual work - customers get API keys instantly post-payment
-- **Status**: READY - SendGrid API key configured in `.env`
+- **Status**: Claimed READY in Nov 2025 — unverified in this archive *(a Sept 2026 review found zero API keys on the SendGrid account, and the prior SendGrid key was scrubbed; do not treat email delivery as configured)*
 
 ### 3. ~~Stripe Webhook Integration ✅~~ — DISABLED
 - **File**: `core/source_proprietary/main.py` (webhook handler updated)
@@ -38,10 +40,10 @@
 - **Status**: READY - Emails queued in database, sent automatically
 
 ### 6. Refund Policy ✅
-- **File**: `REFUND_POLICY.md`
+- **File**: `COVENANT_DISSOLUTION_TERMS.md` *(the migration renamed `REFUND_POLICY.md`; that old name is not present in this archive)*
 - **What it does**: "ALL SALES FINAL - Exchanges Only" legal protection
 - **Why it matters**: Prevents refund abuse, protects revenue
-- **Status**: READY - Need to link on pricing page
+- **Status**: Claimed READY in Nov 2025 — unverified
 
 ---
 
@@ -88,18 +90,16 @@ git push origin main
 ```
 
 ### Step 5: Test End-to-End
-```bash
-# Test payment flow:
-1. Make test Stripe payment ($49 pilot)
+**Test payment flow:** *(historical — no payment path exists)*
+1. ~~Make test Stripe payment ($49 pilot)~~ — disabled: webhooks deleted
 2. Check Railway logs: "Pilot created and email sent"
 3. Check email inbox: API key delivery email received
 4. Test API key: curl -H "Authorization: Bearer YOUR_KEY" https://mythara-engine.railway.app/v1/pilot/dashboard
 5. Verify database: Pilot data persists after Railway restart
-```
 
 ---
 
-## 🛡️ What's Now Bulletproof
+## 🛡️ What the draft claimed was addressed *(Nov 2025 self-assessment — unverified)*
 
 | **Vulnerability** | **Before** | **After** |
 |------------------|-----------|----------|
@@ -112,28 +112,27 @@ git push origin main
 
 ---
 
-## 📊 Cost Analysis (100 Customers)
+## 📊 Cost Analysis (100 Customers) — ⚠️ historical planning scenario (Nov 2025); illustrative math only, no customers existed
 
-### Revenue
+### Revenue *(illustrative only — not actual revenue)*
 - 100 pilots × $49 = **$4,900**
 
-### Costs
+### Costs *(illustrative estimates)*
 - Railway PostgreSQL: $5/month
 - Railway API calls: ~$300 (100 customers × $3 avg)
 - SendGrid emails: $0 (free tier = 100/day)
 - Total costs: **$305/month**
 
-### Profit
-- **$4,595/month** (94% margin)
-- **Zero bankruptcy risk** ✅
+### Profit *(illustrative only)*
+- **$4,595/month (94% margin)**
 
 ---
 
 ## ⚠️ Remaining Tasks (Non-Critical)
 
 ### 1. Link Refund Policy on Pricing Page
-**File**: `core/static/pricing.html`
-**Add**: Checkbox "I agree to Terms of Service" with link to REFUND_POLICY.md
+**File**: ~~`core/static/pricing.html`~~ *(not present in this archive)*
+**Add**: Checkbox "I agree to Terms of Service" with link to COVENANT_DISSOLUTION_TERMS.md
 **Priority**: Medium (legal protection)
 
 ### 2. Verify SendGrid Sender Email
@@ -148,17 +147,17 @@ git push origin main
 
 ---
 
-## 🎯 System Status: PRODUCTION READY
+## 🎯 System Status: ~~PRODUCTION READY~~ — Nov 2025 self-assessment, not verified
 
-**Database**: ✅ Persistent storage implemented  
-**Email**: ✅ Automated delivery configured  
+**Database**: Claimed — persistent storage implemented *(claimed Nov 2025)*  
+**Email**: Claimed — automated delivery configured *(claimed Nov 2025; SendGrid account shows zero API keys as of Sept 2026)*  
 **Webhook**: ❌ DISABLED — webhooks deleted, no end-to-end payment flow  
-**Dashboard**: ✅ Customer visibility enabled  
-**Alerts**: ✅ Proactive warnings implemented  
-**Policy**: ✅ Legal protection documented  
+**Dashboard**: Claimed — customer visibility enabled *(claimed Nov 2025)*  
+**Alerts**: Claimed — proactive warnings implemented *(claimed Nov 2025)*  
+**Policy**: Claimed — legal protection documented *(claimed Nov 2025)*  
 
-**Next action**: Deploy to Railway with PostgreSQL and test first pilot purchase.
+**Next action (Nov 2025 plan):** ~~Deploy to Railway with PostgreSQL and test first pilot purchase.~~ *(No payment path exists; do not follow.)*
 
 ---
 
-**NO MORE PITFALLS. SYSTEM IS IRON CLAD.**
+*Checklist ends as written November 2025. See the banner at the top before acting on any of it.*

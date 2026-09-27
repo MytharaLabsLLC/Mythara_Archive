@@ -25,7 +25,9 @@ INFO: Uvicorn running on http://0.0.0.0:8000
 
 ## Step 2: Test the API (Open a NEW PowerShell window)
 
-### Option A: Using the Test Script (EASIEST)
+### Option A: Using the Test Script
+
+> **Note (Sept 2026):** `test_soul_api.py` is **not present in this archive** — this step is from an earlier draft and will not work as written. Use Option B below instead.
 
 ```powershell
 cd "c:\Users\Mythara\Desktop\Clone Repo Mythara\Mythara_Archive"
@@ -61,7 +63,7 @@ curl.exe "http://127.0.0.1:8000/v1/soul/status?frame=industry" -H "Authorization
 ### What is `dev_test_key_001`?
 This is your **API key** - like a password that lets you access the API.
 
-**Available API Keys:**
+**Available API Keys:** *(sample development keys from the original tutorial — not issued credentials)*
 1. `dev_test_key_001` - Development (basic access)
 2. `ent_prod_key_001` - Enterprise (more features)
 3. `sov_airgap_key_001` - Sovereign (full access)

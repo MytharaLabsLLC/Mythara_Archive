@@ -5,7 +5,7 @@
 Auto-send connection requests and messages
 
 ## Expected impact:
-- Expected leads/month: 50
+- Expected leads/month: 50 (target, not a measured result)
 
 ## To deploy:
 

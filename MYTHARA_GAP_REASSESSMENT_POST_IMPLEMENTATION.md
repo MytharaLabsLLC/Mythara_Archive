@@ -4,6 +4,8 @@
 **Date:** November 21, 2025  
 **Analysis:** Post-implementation review after critical infrastructure additions
 
+> **Document status (2026-09-27):** Internal Nov 2025 engineering review against the 2025 codebase. Readiness percentages are the author's internal assessment, not an audit. The "Customer Proof (Pilot Program)" gap called out here as critical remains unfilled — no pilot customer was ever recruited. Crisis/indifference-detection references describe concept code, not validated capability.
+
 ---
 
 ## 📊 EXECUTIVE SUMMARY
@@ -399,7 +401,7 @@ async def delete_user(user_id: str, api_key: str = Depends(require_role(Role.ADM
 | Gap # | Component | Priority | Effort | Value | Timeline |
 |-------|-----------|----------|--------|-------|----------|
 | 1 | WebSocket endpoints | 🔴 HIGH | 2h | Real-time dashboard | Day 1 |
-| 2 | Dashboard endpoints | 🔴 HIGH | 4h | Violence prevention API | Day 1 |
+| 2 | Dashboard endpoints | 🔴 HIGH | 4h | Crisis-detection API (concept) | Day 1 |
 | 3 | Rate limiting integration | 🔴 HIGH | 30min | DDoS protection | Day 1 |
 | 4 | Monitoring endpoints | 🔴 HIGH | 30min | Observability | Day 1 |
 | 5 | Redis integration | 🔴 HIGH | 2h | Data persistence | Day 2 |

@@ -104,9 +104,11 @@ PGP Fingerprint: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 ### Available License Tiers
 
-1. **Development License ($2,500/year)** — Internal testing and proof-of-concept
-2. **Enterprise License** — Production deployment with SLA
-3. **Sovereign License** — Air-gapped, government, defense deployments (includes source escrow)
+> Proposed terms only — no licenses have been issued and no licensing program is live.
+
+1. **Development License ($2,500/year, proposed)** — Internal testing and proof-of-concept
+2. **Enterprise License (proposed)** — Production deployment with SLA
+3. **Sovereign License (proposed)** — Air-gapped, government, defense deployments (includes source escrow)
 
 See `LICENSE.md` and `Contracts/Sole_Proprietor_Agreements/Mythara_Engine_Contract_Template.md` for complete terms.
 

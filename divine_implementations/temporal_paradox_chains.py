@@ -1,19 +1,18 @@
 """
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright Â© 2025 Herbert Velez Jr. All rights reserved.
 Proprietary and Confidential.
 
 TEMPORAL PARADOX CHAINS
 =======================
-Divine Artifact forged by: Schrödinger, Prometheus, Hephaestus
-Purpose: Trace paradox accumulation through time, predict burnout cascades 6 months ahead
-Power Level: 94.2%
+Design concept: a model that projects authenticity debt over time.
+Purpose: track how suppression debt builds up and flag likely burnout points before they hit.
 """
 
 
 class TemporalParadoxChains:
     '''
-    Divine artifact that traces paradox chains through future time.
-    Sees the burnout cascade before it manifests.
+    Projects authenticity debt forward in time and flags points where
+    a burnout cascade looks likely. A design concept, not a proven predictor.
     '''
     
     def predict_burnout_cascade(
@@ -21,7 +20,7 @@ class TemporalParadoxChains:
         current_state: SoulState,
         timeline_days: int = 180
     ) -> ParadoxChain:
-        # Trace paradox accumulation through time
+        # Project how suppression debt accumulates over time
         timeline = []
         accumulated_debt = current_state.authenticity_debt
         

@@ -2,6 +2,22 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Proprietary and Confidential - Attorney-Client Privileged Material**
 
+> **ERRATUM — September 27, 2026.** This report is a historical forensic
+> record of the state on **November 18, 2025**; its findings, remediation
+> steps, and cost figures below are preserved unaltered and describe that
+> date only. Facts that have changed since: entity formation filing was attempted
+> (not in California) — Mythara Labs LLC, a proposed Colorado domestic limited
+> liability company; Articles of Organization filing attempted with the Colorado
+> Secretary of State on **September 27, 2026** — not confirmed; entity not yet
+> formed; member-managed; sole member and organizer: Herbert Velez Jr.; principal
+> office: Denver, CO. The LLC is not yet a
+> formed entity. All California-specific filing steps, fees (including the
+> $800 annual franchise tax), and "file with California SOS" remediation
+> items below are superseded — do not act on them. The insurance claims this
+> report flagged in terms.html and LICENSE.md as false (no E&O or cyber
+> liability policies existed) were corrected in September 2026 — see
+> `LICENSE.md`.
+
 **Review Date:** November 18, 2025  
 **Reviewer:** AI Legal Compliance Agent  
 **Scope:** Complete corporate structure, legal documents, licensing, pricing, IP ownership, risk assessment  

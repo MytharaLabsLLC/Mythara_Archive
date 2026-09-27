@@ -1,7 +1,6 @@
 # Mythara Engine — Escrow Rebuild Instructions
 
 **Prepared by:** Herbert Velez Jr.  
-**Entity:** Mythara Labs LLC (planned — not yet formed)  
 **Manifest Ref:** ME-archive-0001  
 **Date:** 2025-10-30
 
@@ -9,7 +8,7 @@
 
 ## 🔐 Purpose
 
-This document provides step-by-step instructions for rebuilding the Mythara Engine demo container from escrowed artifacts. It ensures reproducibility, auditability, and sovereign deployment readiness.
+This document provides step-by-step instructions for rebuilding the Mythara Engine demo container from escrowed artifacts. It ensures reproducibility and auditability for anyone holding the archive.
 
 ---
 
@@ -19,8 +18,8 @@ Ensure the following files are present in the archive:
 
 - `core/Dockerfile`
 - `core/source_proprietary/` (unlocked by escrow trigger)
-- `evidence/prompt_templates/perception_prompt_v1.txt`
-- `evidence/prompt_templates/renderer_prompt_v1.txt`
+- `Evidence/prompt_templates/perception_prompt_v1.txt`
+- `Evidence/prompt_templates/renderer_prompt_v1.txt`
 - `tests/` (all validation logs)
 - `manifest/RELEASE_MANIFEST.json`
 - `manifest/checksums.sha256`
@@ -36,7 +35,7 @@ gpg --verify manifest/checksums.sha256.asc checksums.sha256
 sha256sum -c manifest/checksums.sha256
 ```
 
-All files should return `OK`. If any fail, halt and contact Mythara Labs.
+All files should return `OK`. If any fail, halt and contact the maintainer.
 
 ---
 
@@ -72,8 +71,8 @@ Results are written to `/output/` and should match the hashes in `checksums.sha2
 ## 🔍 Step 4: Verify Prompt Hashes
 
 ```bash
-sha256sum evidence/prompt_templates/perception_prompt_v1.txt
-sha256sum evidence/prompt_templates/renderer_prompt_v1.txt
+sha256sum Evidence/prompt_templates/perception_prompt_v1.txt
+sha256sum Evidence/prompt_templates/renderer_prompt_v1.txt
 ```
 
 Compare against `prompt_hashes_manifest.json`.
@@ -98,7 +97,7 @@ Confirm:
 
 ## 🧳 Optional: Sovereign Deployment
 
-To deploy in an air-gapped environment:
+Sovereign deployment is a stated aspiration, not a current capability. The procedure below describes how a future deployment from this archive would be rebuilt in an air-gapped environment:
 
 - Transfer the full archive via secure media
 - Rebuild using the same steps above
@@ -111,7 +110,7 @@ To deploy in an air-gapped environment:
 For licensing, escrow release, or sovereign deployment support, contact:
 
 ```plaintext
-Mythara Labs LLC (planned)
+Herbert Velez Jr.
 legal@mythara.engine
 PGP Fingerprint: 571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C
 ```

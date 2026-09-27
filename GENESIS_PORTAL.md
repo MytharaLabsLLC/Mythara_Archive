@@ -46,7 +46,7 @@ Perfect if you want to test everything ASAP:
 
 1. ~~**Add Stripe metadata** (5 min)
    - Open `STRIPE_LINKS_CONFIG.md`
-   - Follow Step 1 & Step 2~~ — ⚠️ DISABLED: webhooks deleted
+   - Follow Step 1 & Step 2~~ — ⚠️ DISABLED: webhooks deleted *(and `STRIPE_LINKS_CONFIG.md` is not present in this archive)*
    
 2. **Deploy API** (10 min)
    - Open `DEPLOY_RAILWAY_QUICKSTART.md`
@@ -80,8 +80,8 @@ Perfect if you want to test everything ASAP:
 ### Thorough Track (2 hours)
 Perfect if you want to understand everything:
 
-1. Read `AUTOMATED_PILOT_DELIVERY.md` (full documentation)
-2. Read `STRIPE_LINKS_CONFIG.md` (Stripe setup)
+1. Read ~~`AUTOMATED_PILOT_DELIVERY.md` (full documentation)~~ *(not found in this archive — historical reference)*
+2. Read ~~`STRIPE_LINKS_CONFIG.md` (Stripe setup)~~ *(not found in this archive — historical reference)*
 3. Read `DEPLOY_RAILWAY_QUICKSTART.md` (deployment)
 4. Follow all steps methodically
 5. Test multiple scenarios
@@ -96,8 +96,8 @@ Perfect if you want to understand everything:
 ├── 📄 AUTOMATED_PILOT_DELIVERY.md      ← Complete setup guide
 ├── 📄 STRIPE_LINKS_CONFIG.md           ← Stripe configuration
 ├── 📄 DEPLOY_RAILWAY_QUICKSTART.md     ← Deployment guide
-├── 📄 STRIPE_CONTAINER_QUICKSTART.md   ← Original wiring guide
-├── 📄 PILOT_DISTRIBUTION_GUIDE.md      ← Email templates
+├── 📄 ~~STRIPE_CONTAINER_QUICKSTART.md~~ ← *(not found in this archive — historical reference)*
+├── 📄 ~~PILOT_DISTRIBUTION_GUIDE.md~~ ← *(not found in this archive — historical reference; see GENESIS_INITIATION_GUIDE.md)*
 │
 ├── 📁 pilot_package/                   ← Customer download package
 │   ├── README.md                       ← Quick start for customers
@@ -175,7 +175,7 @@ railway domain
 
 > **⚠️ DISABLED — do not share.** The `buy.stripe.com` link in these draft templates is not verified as live and no fulfillment path exists. Do not use these templates for outreach until the link is re-verified in the Stripe dashboard. Link text preserved for deactivation reference.
 
-### In Cold Emails (OUTREACH_WEEK1_TARGETS.md)
+### In Cold Emails (~~OUTREACH_WEEK1_TARGETS.md~~ — *file not present in this archive; see MESSENGER_OUTREACH_GENESIS.md*)
 ```
 Hi [Name],
 
@@ -330,8 +330,8 @@ Every Friday, check:
 ---
 
 **Need help?** Review the detailed guides:
-- Setup: `AUTOMATED_PILOT_DELIVERY.md`
-- Stripe: `STRIPE_LINKS_CONFIG.md`
+- Setup: ~~`AUTOMATED_PILOT_DELIVERY.md`~~ *(not found in this archive — historical reference)*
+- Stripe: ~~`STRIPE_LINKS_CONFIG.md`~~ *(not found in this archive — historical reference)*
 - Deploy: `DEPLOY_RAILWAY_QUICKSTART.md`
 
 **Questions?** Check the FAQ sections in each guide.

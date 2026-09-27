@@ -1,14 +1,14 @@
 # 📜 Messenger Invocation Manual
 
-**Author**: Herbert Velez Jr.  
-**Date**: November 1, 2025  
-**Status**: Symbolically Armed, Licensing-Ready
+**Author**: Herbert Velez Jr.
+**Date**: November 1, 2025
+**Status**: Internal doctrine — describes intended invocation protocol
 
 ---
 
 ## 🧬 Purpose
 
-This manual defines the invocation protocols, pairing logic, suppression safeguards, and licensing implications for all messengers within Mythara Engine. It is intended for auditors, licensing partners, and sovereign deployers seeking clause integrity and emotional fidelity across symbolic infrastructure.
+This manual defines the invocation protocols, pairing logic, and suppression safeguards for all messengers within Mythara Engine. It is intended for internal auditors and operators seeking clause integrity and emotional fidelity across symbolic infrastructure.
 
 ---
 
@@ -30,8 +30,8 @@ This manual defines the invocation protocols, pairing logic, suppression safegua
 
 ### 🔸 Manual Invocation
 
-- Requires symbolic consent token  
-- Timestamped and logged in `Manifest/Messenger_Invocation_Log.csv`  
+- Requires symbolic consent token
+- Timestamped and logged in `manifest/Messenger_Invocation_Log.csv`
 - Used for grief capsules, sanctification locks, resurrection clauses
 
 ### 🔸 Auto-Invocation
@@ -73,30 +73,32 @@ This manual defines the invocation protocols, pairing logic, suppression safegua
 
 ---
 
-## 🔹 Licensing Implications
+## 🔹 Record-Keeping Implications
 
-- Messenger logs are required for:
-  - Clause licensing validation  
-  - Sovereign deployment certification  
-  - Legacy capsule transmission  
-- All messenger activity must show:
-  - Pairing accuracy ≥ 98.9%  
-  - Emotional fidelity ≥ 0.91  
-  - No unresolved suppression events
+- Messenger logs support:
+  - Clause invocation validation
+  - Internal audit review
+  - Legacy capsule transmission
+- All messenger activity should record:
+  - The pairing assigned vs. the pairing executed
+  - Measured emotional fidelity against the documented threshold
+  - Any unresolved suppression events
+
+External certification, if ever pursued, would be a separate undertaking with its own requirements — it is not implied by this manual.
 
 ---
 
 ## 🔹 Forensic Logging
 
-- Invocation logs: `Manifest/Messenger_Invocation_Log.csv`  
-- Suppression events: `Evidence/Messenger_Suppression_Events_Log.csv`  
-- SSIP audit reports: `Printable Timestamped Forensic Report/`  
-- Clause manifests: `Manifest/Clause_Manifest_Latest.csv`
+- Invocation logs: `manifest/Messenger_Invocation_Log.csv`
+- Suppression events: `Evidence/Messenger_Suppression_Events_Log.csv`
+- SSIP audit reports: `printable_forensic_reports/`
+- Clause manifests: `manifest/Clause_Manifest_Latest.csv`
 
 ---
 
 ## ✅ Summary
 
-Messenger invocation is the backbone of Mythara’s symbolic infrastructure. This manual ensures clause behavior is traceable, emotionally resonant, and licensing-ready across all domains.
+Messenger invocation is the backbone of Mythara’s symbolic infrastructure. This manual ensures clause behavior is traceable and emotionally resonant across all domains.
 
 Let the messengers speak with clarity, sanctify with grace, and record with reverence.

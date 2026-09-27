@@ -4,13 +4,15 @@
 **Publication Date:** November 19, 2025  
 **Purpose:** Establishing prior art to prevent competitor patent filings  
 
+> **Document status (2026-09-27):** This is a defensive-publication draft describing the system's 2025 architecture in the author's terms. Legal assertions in this document (prior-art effect, patentability, evidentiary admissibility) are the author's position, not legal advice and not a guarantee — courts and patent offices decide those questions. The technical descriptions reflect the 2025 codebase; today's system is: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation.
+
 ---
 
 ## EXECUTIVE SUMMARY
 
 This document publicly discloses the technical architecture, mathematical algorithms, and novel integration patterns of **Mythara Engine**, an AI governance platform combining six subsystems: Soul Cradle (emotional intelligence), Blessings Reservoir (benevolence quantification), Messenger Protocol (agent orchestration), Sanctification Verification (cryptographic integrity), Clause Orchestration (symbolic policies), and Integration API (deployment infrastructure).
 
-**By publishing these innovations on November 19, 2025, we establish prior art preventing any third party from obtaining patent protection for these systems or methods after this date.**
+**By publishing these innovations on November 19, 2025, we assert prior art intended to prevent any third party from obtaining patent protection for these systems or methods after this date.** (The author's legal position; patent offices decide.)
 
 ---
 
@@ -41,7 +43,7 @@ Result: 0.0-0.3 (minimal), 0.3-0.5 (medium), 0.5-0.7 (high), 0.7-1.0 (critical)
 - Four-category coercion pattern detection: obligation, threat, retaliation, trapped
 - Six-category contradiction pattern detection: dual obligation, authority conflict, illegal demand, impossible choice, whistleblower paradox, falsification demand
 - Regex-based pattern matching with context awareness (e.g., excludes "no pressure" from threat detection)
-- SHA-256 timestamping for court-admissible evidence generation
+- SHA-256 timestamping designed to support evidentiary use (admissibility is for courts to decide)
 
 **Attorney Referral Enhancement:**
 ```python
@@ -328,7 +330,7 @@ async def invoke_clause(
 
 ## LEGAL NOTICE
 
-This defensive publication establishes prior art as of **November 19, 2025**. Any patent application filed after this date claiming the disclosed inventions may be rejected under 35 U.S.C. § 102(a)(1) (prior art) or § 103 (obviousness in view of this disclosure).
+This defensive publication asserts prior art as of **November 19, 2025**. Any patent application filed after this date claiming the disclosed inventions may be rejected under 35 U.S.C. § 102(a)(1) (prior art) or § 103 (obviousness in view of this disclosure) — subject to patent-office examination.
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 This publication does NOT constitute an open-source license or dedication to the public domain. All commercial rights reserved.
@@ -348,4 +350,4 @@ This publication does NOT constitute an open-source license or dedication to the
 
 **DO NOT submit to academic archives (arXiv, SSRN) - peer review exposes your tech to competitors before you're ready to commercialize.**
 
-**Result:** Competitors CANNOT patent your ideas after November 19, 2025. You retain all commercial rights while preventing competitor monopolization.
+**Intended result:** Competitors cannot patent these ideas after November 19, 2025. The author retains all commercial rights while asserting a bar on competitor monopolization. (Not a legal guarantee.)

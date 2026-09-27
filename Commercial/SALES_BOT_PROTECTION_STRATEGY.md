@@ -43,7 +43,7 @@ pyarmor gen --restrict autonomous_sales_bot.py
 
 **Pros:**
 - Code runs on customer's machine (they like this)
-- Completely unreadable (reversed = gibberish)
+- Much harder to read than source (obfuscated bytecode; determined attackers can still reverse it — nothing is unbreakable)
 - Still Python (no compilation needed)
 - Can add license key verification
 
@@ -71,7 +71,7 @@ py -3.11 setup.py build_ext --inplace
 ```
 
 **Pros:**
-- 100% unreadable (compiled C, not Python bytecode)
+- Difficult to reverse engineer (compiled C, not Python bytecode — raises the bar significantly, though no protection is absolute)
 - Faster performance
 - Industry standard for IP protection
 
@@ -180,7 +180,7 @@ verify_license()
 - Use **Cython compilation** (.pyd/.so files)
 - Add **license key verification**
 - Charge $2,500-$5,000 for maximum security version
-- Marketing: "Compiled C extensions for maximum security"
+- Marketing: "Compiled C extensions for IP protection"
 
 **Tech/SaaS Companies:**
 - Use **PyArmor obfuscation**
@@ -270,7 +270,7 @@ verify_license()
 - Cython compiled (.pyd/.so)
 - License key required
 - Perpetual license + 1 year support
-- **Protection:** Compiled C extensions, impossible to reverse
+- **Protection:** Compiled C extensions, difficult to reverse; license verification
 
 ### Tier 4: Hosted SaaS ($2,500-$5,000/month)
 - API-only access

@@ -1,5 +1,12 @@
 # Archive Patch Report — 2025-11-02
 
+> **Note (2026-09-27):** Two files referenced below were later archived during the
+> repo factual cleanup: `Commercial/Clause_Behavior_Cybersecurity.md.md` →
+> `archive/Commercial/Clause_Behavior_Cybersecurity.md.md` and
+> `Commercial/Clause_Behavior_Mental_Health.md.md` →
+> `archive/Commercial/Clause_Behavior_Mental_Health.md.md`. The 2025-11-02
+> content below is preserved as written.
+
 ## Summary
 
 I consolidated deprecated duplicate markdown files, standardized DEPRECATED markers, updated security documentation, created a canonical checksum list, and produced a short improvements summary.
@@ -15,7 +22,7 @@ I consolidated deprecated duplicate markdown files, standardized DEPRECATED mark
 - Created: `summary/System_Improvements_20251102.md` — improvement summary
 - Created: `Evidence/Breach_Event_20251102.md` — simulated breach event (forensics)
 - Created: `Evidence/Messenger_Suppression_Events_Log.csv` — event timeline log
-- Created: `Printable Timestamped Forensic Report/Security_Validation_Summary_20251102.md` — validation summary
+- Created: `printable_forensic_reports/Security_Validation_Summary_20251102.md` — validation summary (directory renamed from "Printable Timestamped Forensic Report")
 - Created: `summary/improved_test_completion_checklist.csv` — improved test status
 
 ## What I ran / verification steps

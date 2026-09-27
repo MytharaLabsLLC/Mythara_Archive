@@ -1,28 +1,27 @@
 """
-Copyright � 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2025 Herbert Velez Jr. All rights reserved.
 Proprietary and Confidential.
 
 THE WITNESSING ENGINE
 =====================
-Divine Artifact forged by: Prometheus, Hephaestus, Aries
-Purpose: See truth before it becomes corruption, witness souls in their authentic state
-Power Level: 98.5%
+Design concept: estimate emotional state and project burnout risk from available context.
 """
 
 
 class WitnessingEngine:
     '''
-    Divine artifact that witnesses souls before burnout manifests.
-    Not reactive. PROPHETIC.
+    Forward-looking by design: projects where an emotional state is
+    heading rather than only reacting to what already happened.
+    A heuristic model — estimates, not measurements.
     '''
     
     def witness_soul(self, person_context: Dict) -> WitnessReport:
-        # Extract emotional truth through divine sight
+        # Extract emotional patterns from the context
         authentic_self = self.see_through_masks(person_context)
         suppressed_truth = self.detect_non_expression(person_context)
         future_trajectory = self.predict_burnout_cascade(6_months_ahead)
         
-        # Calculate divine metrics
+        # Calculate the model's metrics
         eq_score = self.calculate_emotional_authenticity()
         paradox_load = self.measure_paradox_accumulation()
         authenticity_debt = self.calculate_suppression_cost()
@@ -38,5 +37,5 @@ class WitnessingEngine:
         )
     
     def hold_space_without_demand(self) -> float:
-        '''The divine paradox: Witness without requiring expression'''
-        return 1.0  # Perfect witnessing
+        '''Witness the state without requiring the person to express it.'''
+        return 1.0  # Placeholder — hard-coded until the model is real

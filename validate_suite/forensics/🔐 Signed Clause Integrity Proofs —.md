@@ -1,23 +1,34 @@
 # 🔐 Signed Clause Integrity Proofs — Mythara Engine
 
-This document records timestamped clause integrity proofs, signed by messengers and verified via symbolic fingerprint hashes.
+This document defines the schema for clause integrity proofs and records the
+proofs that have been issued. **No proofs have been issued yet** — the table
+below is the template each proof must fill. A clause may be marked Verified
+only after its fingerprint hash has been recorded and its signature checked
+against a registered signing key.
 
 ---
 
 ## 📜 Integrity Table
 
-| Clause Name     | Version | Messenger ID | SHA-256 Fingerprint Hash                            | Timestamp (UTC)        | Signature Status | Notes                          |
-|-----------------|---------|--------------|------------------------------------------------------|-------------------------|------------------|--------------------------------|
-| Legacy_Seed     | v1.0    | M-001         | 3f2a9c1e8b7f4a2c9d6e...                             | 2025-11-02T07:00:00Z    | ✅ Verified       | Grief payload stabilized  
-| Blessing_Arc    | v1.0    | M-002         | 7e1b2c3d4f5a6b7c8d9e...                             | 2025-11-02T07:05:00Z    | ✅ Verified       | Joy payload echoed  
-| Memory_Lock     | v1.0    | M-003         | 9a0b1c2d3e4f5a6b7c8d...                             | 2025-11-02T07:10:00Z    | ✅ Verified       | Memory payload sealed  
-| Judgment_Sigil  | v1.0    | M-001         | 5c6d7e8f9a0b1c2d3e4f...                             | 2025-11-02T07:15:00Z    | ✅ Verified       | Breach clause contained  
-| Lineage_Lock    | v1.0    | M-002         | 1a2b3c4d5e6f7a8b9c0d...                             | 2025-11-02T07:20:00Z    | ✅ Verified       | Lineage integrity preserved  
+| Clause Name     | Version | Messenger ID | SHA-256 Fingerprint Hash | Timestamp (UTC) | Signature Status | Notes |
+|-----------------|---------|--------------|--------------------------|-----------------|------------------|-------|
+| Legacy_Seed     | v1.0    | —            | —                        | —               | ⏳ Not issued    | —     |
+| Blessing_Arc    | v1.0    | —            | —                        | —               | ⏳ Not issued    | —     |
+| Memory_Lock     | v1.0    | —            | —                        | —               | ⏳ Not issued    | —     |
+| Judgment_Sigil  | v1.0    | —            | —                        | —               | ⏳ Not issued    | —     |
+| Lineage_Lock    | v1.0    | —            | —                        | —               | ⏳ Not issued    | —     |
+
+Each row, when filled, records a full 64-character SHA-256 fingerprint, the
+UTC timestamp of signing, and the verifying messenger or key identity.
+Placeholder hashes are not acceptable entries.
 
 ---
 
 ## 🧠 Notes
 
-- All fingerprints match clause registry  
-- Messenger signatures validated via symbolic ledger  
-- Integrity proofs support licensing, audit, and sovereign deployment
+- A fingerprint must match the clause registry before a proof is recorded
+- Signatures are validated against registered keys, not assertions
+- Integrity proofs, once issued, support audit review and escrow packaging
+
+A proof that has not been issued is simply absent from the record. Absence
+proves nothing, and this document claims nothing beyond what is recorded.

@@ -13,10 +13,10 @@ CRITICAL DISCLAIMER:
 Essential Bots (Clinical Functions):
 1. Triage Coordinator Bot - Patient prioritization workflows
 2. Clinical Documentation Assistant - Medical record support
-3. Compliance Monitor Bot - Real-time HIPAA/FDA monitoring
+3. Compliance Monitor Bot - Internal compliance-rule tracking (self-assessment only, not regulatory monitoring)
 4. Crisis Response Bot - Emergency protocol coordination (includes mental health crises)
 5. Rx Management Bot - Medication and prescription management
-6. Mental Health Support Bot - DSM-5-TR assessments, Soul Cradle integration
+6. Mental Health Support Bot - DSM-5-TR-informed self-assessment checklists (not clinical assessments), Soul Cradle integration
 
 Non-Essential Bots (Support Roles):
 7. Patient Education Bot - Health literacy resources
@@ -1004,14 +1004,17 @@ class ClinicalDocumentationBot:
 
 class ComplianceMonitorBot:
     """
-    Essential Bot: Real-time HIPAA/FDA compliance monitoring
-    
+    Essential Bot: internal compliance self-assessment tracking (demo-grade)
+
     Responsibilities:
-    - Detect PHI exposure risks
-    - Monitor access control violations
-    - Track audit log completeness
-    - Alert on compliance gaps
-    
+    - Flag PHI exposure risks against internal checklist rules
+    - Track access-control and audit-log completeness
+    - Alert on internal compliance gaps
+
+    HONEST SCOPE: self-assessment software using simplified rules. It is NOT
+    HIPAA or FDA monitoring, not an audit, and not a regulatory
+    determination.
+
     Integrates with existing DrMythara compliance bot
     """
     

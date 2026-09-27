@@ -37,7 +37,7 @@ Most clients start with a paid pilot to validate ROI before committing to enterp
 #### 3. **"What's your company size? How many engineers?"**
 
 **DON'T SAY:** "It's just me" or "We're a startup"
-**DO SAY:** "Mythara is a focused solo engineering practice optimized for sovereign deployment and escrow-ready systems. The development model prioritizes reproducibility and audit trails over headcount. That's why everything is PGP-signed and container-ready from day one."
+**DO SAY:** "Mythara is a focused solo engineering practice optimized for sovereign deployment and escrow-ready systems. The development model prioritizes reproducibility and audit trails over headcount. That's why every release carries a SHA-256 integrity manifest and is container-ready from day one."
 
 **Why this works:** Reframes "small" as "focused" and turns it into a technical advantage.
 
@@ -75,7 +75,7 @@ We're complementary, not competitive — Vanta handles policies, Mythara handles
 
 #### 6. **"How does this integrate with our existing compliance tools?"**
 
-**DO SAY:** "Mythara exposes a RESTful API with OpenAPI/Swagger documentation. You can call our endpoints from your existing compliance workflows, CI/CD pipelines, or governance platforms. Most customers integrate via webhooks or scheduled API calls."
+**DO SAY:** "Mythara exposes a RESTful API with OpenAPI/Swagger documentation. Adopters would call our endpoints from their existing compliance workflows, CI/CD pipelines, or governance platforms. Most integrations would run via webhooks or scheduled API calls."
 
 **Example:** "For example, if you use ServiceNow for ticketing, you'd call our SSIP audit endpoint after each deployment and log the results as an attachment to your change ticket."
 
@@ -85,7 +85,7 @@ We're complementary, not competitive — Vanta handles policies, Mythara handles
 
 **DO SAY:** "That's why Mythara is built escrow-ready from day one. The planned Sovereign tier will include full source code escrow with a third-party escrow agent once the entity is formed. Even if the practice ceases operations, you would have complete access to the codebase, validation suite, and documentation to maintain it in-house."
 
-**Proof point:** "All our releases are PGP-signed and reproducibly buildable. You're never locked in."
+**Proof point:** "All our releases carry SHA-256 integrity manifests and are reproducibly buildable. You're never locked in."
 
 ---
 
@@ -138,7 +138,7 @@ The clause system is extensible, so you can add custom compliance rules specific
 #### 11. **"Is this SOC 2 certified? Do you have a security audit?"**
 
 **DON'T SAY:** "No, we're too small for that" or deflect
-**DO SAY:** "Not currently certified — SOC 2 Type II controls are implemented and an audit is planned. Our validation suite includes:
+**DO SAY:** "Not currently certified — SOC 2 Type II controls are mapped and an audit is planned. Our validation suite includes:
 - Adversarial probe suites (injection, fuzzing, tamper, data-leak probes — see tests/adversarial_attack_suite.py)
 - Determinism testing (100/100 reproducible runs in the latest report)
 - Leakage detection probes included in the adversarial suite
@@ -170,7 +170,7 @@ All validation reports are included in the pilot package. Since you'll be deploy
 
 **DO SAY:** "We treat security reports seriously. During the pilot, you have direct access to me (Herbert) via email with 24-hour response time. If you find a vulnerability, we'll patch it within 48 hours and provide a signed update.
 
-For enterprise customers, we offer dedicated support with SLAs."
+For enterprise deployments, dedicated support with SLAs is planned."
 
 ---
 
@@ -318,8 +318,8 @@ If they ask these, they're tire kickers:
 **When you feel nervous, remember:**
 
 1. You have a working product (many founders don't)
-2. You have validation reports (99.92% determinism, 0 high-severity leaks)
-3. You have PGP-signed manifests (institutional-grade)
+2. You have validation reports (100/100 reproducible determinism runs — see `tests/output/determinism_report.txt`; adversarial probe suite in `tests/adversarial_attack_suite.py`)
+3. You have integrity-hashed manifests (SHA-256 — see `manifest/`)
 4. You have a free pilot (no risk to them)
 5. You built this yourself (technical credibility)
 6. The worst they can say is "no" (then you move to the next prospect)

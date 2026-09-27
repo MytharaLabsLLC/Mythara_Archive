@@ -196,22 +196,22 @@ I built **Mythara Engine** — cryptographic integrity + SSIP audit trails for A
 - Per-invocation integrity hashes
 - Clause-level explainability logs
 - SSIP compliance metrics
-- Validation report (all tests passing)
-- **Agent override accountability:** Underwriters can override AI flags — every override logs agent ID + justification (cryptographically hashed). If loan defaults, you know who approved it. If it succeeds, agent gets credit.
+- Validation report (results from real test runs)
+- **Agent override accountability:** Underwriters can override AI flags — every override logs agent ID + justification to a hash-chained record. If a loan defaults, the log shows who approved it; if it succeeds, the agent gets credit.
 
 **30-day evaluation: $2,500**
 
 15-minute call this week to walk you through a sample audit log?
 
 — Herbert Velez Jr.  
-Mythara.Engine@yahoo.com  
-Private GitHub: https://github.com/herbievelezjr/Mythara_Archive
+mythara.engine@yahoo.com  
+GitHub: https://github.com/herbievelezjr/Mythara_Archive
 
 ---
 
 ### Template B: Clinical AI (Healthcare, Mental Health)
 
-**Subject:** Clinical AI safety + DSM-5-TR compliance
+**Subject:** Clinical AI safety + audit-ready records
 
 ---
 
@@ -219,21 +219,21 @@ Hi [First Name],
 
 Does [Company] need explainability + safety trails for clinical AI systems?
 
-**Mythara Engine** adds SSIP compliance, DSM-5-TR framing, and cryptographic integrity to healthcare AI. Built for FDA/MDR audit readiness.
+**Mythara Engine** adds SSIP-style compliance scaffolding, DSM-5-TR-informed clinical framing, and cryptographic integrity to healthcare AI workflows — designed to support audit readiness, not a medical device. Mythara is not FDA-approved and not HIPAA certified.
 
 **What you get:**
-- Clinical safety validation
-- Crisis escalation pathways (DSM-5-TR aligned)
+- Technical controls mapped to clinical safety workflows
+- Crisis escalation pathways (referencing DSM-5-TR categories; this is record-keeping support, not therapy or diagnosis)
 - Tamper-evident audit logs
-- Full validation report
+- Validation report from real test runs
 
 **30-day evaluation: $2,500**
 
 15-minute call to show you a sample clinical invocation log?
 
 — Herbert Velez Jr.  
-Mythara.Engine@yahoo.com  
-Private GitHub: https://github.com/herbievelezjr/Mythara_Archive
+mythara.engine@yahoo.com  
+GitHub: https://github.com/herbievelezjr/Mythara_Archive
 
 ---
 
@@ -252,16 +252,15 @@ Security and trust teams ask: "Can we prove our AI decisions are auditable and t
 **What you get:**
 - Integrity hashes on every decision
 - Clause-level explainability
-- Adversarial testing (10 attack vectors blocked)
-- Full validation suite
+- Sample validation report from real test runs
 
 **30-day evaluation: $2,500**
 
 Quick 15-minute call to walk through?
 
 — Herbert Velez Jr.  
-Mythara.Engine@yahoo.com  
-Private GitHub: https://github.com/herbievelezjr/Mythara_Archive
+mythara.engine@yahoo.com  
+GitHub: https://github.com/herbievelezjr/Mythara_Archive
 
 ---
 
@@ -330,7 +329,7 @@ Copy this to Google Sheets:
 
 > Hi [First Name],
 > 
-> Last note for now: I can send you our validation report (all 5 test suites passing, including adversarial attacks) if you'd like to review before scheduling a call.
+> Last note for now: I can send you our validation report from real test runs if you'd like to review before scheduling a call.
 > 
 > Let me know if now isn't the right time — happy to circle back when [model risk / clinical safety / compliance] becomes a priority.
 > 

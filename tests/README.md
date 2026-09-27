@@ -116,4 +116,4 @@ This directory is created automatically if it doesn't exist.
 
 ## License
 
-Proprietary - Herbert Velez Jr. (Mythara Labs LLC — formation filed with the Colorado SOS on 2026-09-27, pending completion)
+Proprietary - Herbert Velez Jr. (Mythara Labs LLC — formation filing attempted with the Colorado SOS on 2026-09-27 — not confirmed; entity not yet formed)

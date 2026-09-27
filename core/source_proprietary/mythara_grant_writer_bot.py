@@ -146,7 +146,7 @@ class MytharaGrantWriterBot:
         self._populate_initial_infrastructure_needs()
 
     def _populate_initial_infrastructure_needs(self):
-        """Populate infrastructure needs for Mythara Labs"""
+        """Populate infrastructure needs for Mythara"""
         c = self.conn.cursor()
 
         # Check if already populated
@@ -154,7 +154,7 @@ class MytharaGrantWriterBot:
         if c.fetchone()[0] > 0:
             return
 
-        # Define Mythara Labs infrastructure requirements
+        # Define Mythara infrastructure requirements
         needs = [
             {
                 "category": "servers",
@@ -217,7 +217,7 @@ class MytharaGrantWriterBot:
                 "description": "Security Operations Center (SOC) tooling (SIEM, IDS/IPS)",
                 "cost": 25000,
                 "priority": "critical",
-                "justification": "Monitor for threats, achieve SOC 2 Type II and CMMC Level 3 certification",
+                "justification": "Monitor for threats, work toward SOC 2 Type II and CMMC Level 3 certification (not currently held)",
                 "grant_alignment": "DHS Cybersecurity grants, DOD SBIR (defense contractors)",
             },
             {
@@ -257,7 +257,7 @@ class MytharaGrantWriterBot:
                 "description": "Security engineer (1 FTE, 1 year)",
                 "cost": 130000,
                 "priority": "critical",
-                "justification": "Achieve SOC 2, CMMC certifications, manage security operations",
+                "justification": "Work toward SOC 2, CMMC certifications, manage security operations",
                 "grant_alignment": "Cybersecurity workforce grants, Defense contractor grants",
             },
             {
@@ -752,20 +752,21 @@ class MytharaGrantWriterBot:
 
         # Generate application narrative (template-based, in production use AI)
         narrative = f"""
-PROJECT TITLE: Scaling Mythara Labs Infrastructure for Enterprise Contract Verification
+PROJECT TITLE: Scaling Mythara Infrastructure for Enterprise Contract Verification
 
-EXECUTIVE SUMMARY:
-Mythara Labs is developing a revolutionary Symbolic Safety Integrity Protocol (SSIP) 
+EXECUTIVE SUMMARY (draft — figures below are projections and targets, not current performance; verify before filing):
+Mythara is developing a Symbolic Safety Integrity Protocol (SSIP) 
 that provides cryptographic verification for contracts and legal agreements. Our 
 technology addresses the critical need for tamper-proof, auditable contract management 
 in industries including healthcare, financial services, government, and manufacturing.
 
-This grant will enable Mythara Labs to deploy dedicated server infrastructure capable 
+This grant will enable Mythara to deploy dedicated server infrastructure capable 
 of processing 10,000+ contract verifications per day while maintaining 99.9% uptime 
 and meeting stringent security requirements aligned with SOC 2, CMMC Level 3, and HIPAA control frameworks (certifications not currently held).
 
 PROBLEM STATEMENT:
-Organizations lose $1.2 trillion annually to contract fraud, disputes, and inefficiencies. 
+Contract fraud, disputes, and inefficiencies cost organizations significantly each year. 
+(Insert a verified figure with citation before filing.) 
 Current solutions (DocuSign, Adobe Sign) provide basic e-signatures but lack cryptographic 
 integrity verification. Our SSIP technology fills this gap by creating immutable audit 
 trails with blockchain-style verification.
@@ -808,7 +809,7 @@ Infrastructure investment of ${sum(need[1] for need in needs):,.0f} will enable:
 
         narrative += """
 
-IMPACT & SUSTAINABILITY:
+IMPACT & SUSTAINABILITY (projections — targets, not current results):
 Year 1 Impact:
 - 50 enterprise customers deployed
 - 3.65M contract verifications processed annually
@@ -817,7 +818,7 @@ Year 1 Impact:
 - Zero contract fraud for customers (100% integrity verification)
 
 Long-term Sustainability:
-Mythara Labs operates on a SaaS model with 95% gross margins. Infrastructure 
+Mythara operates on a SaaS model with 95% gross margins. Infrastructure 
 investment will be recovered within 12 months through customer revenue. By Year 3, 
 we project 500 customers and $20M ARR.
 
@@ -848,7 +849,7 @@ Quarterly metrics:
         app_data = {
             "grant_opportunity_id": grant_opportunity_id,
             "application_title": title
-            or f"Mythara Labs Infrastructure Scaling - {grant_name}",
+            or f"Mythara Infrastructure Scaling - {grant_name}",
             "narrative": narrative,
             "budget": budget,
             "project_summary": narrative.split("\n\n")[1],  # Executive summary
@@ -1048,7 +1049,7 @@ if __name__ == "__main__":
     print(f"     Success factors identified: {len(winning['success_factors'])}")
 
     print("\n[DEMO] Writing grant application\n")
-    application = bot.write_grant_application(1, "Mythara Labs Infrastructure Scaling")
+    application = bot.write_grant_application(1, "Mythara Infrastructure Scaling")
     print(f"[OK] Grant application drafted: {application['title']}")
     print(f"     For: {application['grant_name']}")
     print(f"     Budget Total: {application['budget_total']}")

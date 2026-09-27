@@ -18,7 +18,7 @@ KEY FEATURE (PROPRIETARY IP):
    - Sales phase (opening → confident, objection → empathetic, close → urgent)
 
 ================================================================================
-💰 $1.5M SOURCE CODE LICENSING STRATEGY
+💰 $1.5M SOURCE CODE LICENSING STRATEGY (planned — not executed)
 ================================================================================
 
 TRIGGER CONDITIONS:
@@ -33,12 +33,12 @@ LICENSING TERMS:
    - Scope: Full source code + voice cloning process + training data
    - Restrictions: Cannot resell to competitors
 
-VALUE PROPOSITION FOR BUYER:
-   - 1 great sales rep = $500k/year quota
-   - This bot = $5M/year quota equivalent (10x capacity, never sleeps)
-   - Cost to hire 10 reps = $6M/year salary + overhead
-   - This bot operational cost = $90k/year (API usage)
-   - ROI: Break-even in 4 months, then $5.9M/year savings
+VALUE PROPOSITION FOR BUYER (illustrative pitch math — not measured results):
+   - 1 great sales rep = roughly $500k/year quota (industry rule of thumb)
+   - This bot = the call capacity of a large sales team, never sleeps
+   - Cost to hire 10 reps = roughly $6M/year salary + overhead
+   - This bot operational cost = roughly $90k/year (API usage)
+   - Pitch scenario: break-even in about 4 months on paper
 
 DISQUALIFIERS:
    ❌ Startups (<$10M revenue) = too small, offer SaaS instead
@@ -46,27 +46,29 @@ DISQUALIFIERS:
    ❌ Competitors = NEVER (Mythara proprietary IP)
 
 ================================================================================
-📊 2026 REVENUE PROJECTION
+📊 2026 REVENUE TARGETS (aspirational — nothing earned yet, bot not built)
 ================================================================================
 
-PRIMARY REVENUE: Source Code Licensing
-   - Target: 1 strategic buyer in 2026
-   - Price: $1,500,000
-   - Expected close: Q1-Q2 2026
+TARGET 1: Source Code Licensing
+   - Goal: 1 strategic buyer in 2026
+   - Asking price: $1,500,000
+   - Target close: Q1-Q2 2026
 
-SECONDARY REVENUE: SaaS Subscriptions
+TARGET 2: SaaS Subscriptions
    - Price: $5,000/month per customer
-   - Target: 20 customers by end of 2026
-   - Annual: $1,200,000
+   - Goal: 20 customers by end of 2026
+   - Illustrative annual: $1,200,000
 
-TERTIARY REVENUE: Per-Call Pricing
-   - Price: $5/call (our cost $0.90, profit $4.10)
-   - Target: 5,000 calls/month by end of 2026
-   - Annual: $300,000
+TARGET 3: Per-Call Pricing
+   - Price: $5/call (estimated cost $0.90, margin $4.10)
+   - Goal: 5,000 calls/month by end of 2026
+   - Illustrative annual: $300,000
 
-TOTAL 2026 REVENUE: $3,000,000
-TOTAL 2026 COSTS: $850,000 (API usage, hosting, legal, marketing)
-NET PROFIT: $2,150,000
+TARGET TOTAL 2026 REVENUE: $3,000,000
+ESTIMATED 2026 COSTS: $850,000 (API usage, hosting, legal, marketing)
+ILLUSTRATIVE NET: $2,150,000
+
+These are targets, not results. The bot does not exist yet.
 
 ================================================================================
 🗓️ Q1 2026 DEVELOPMENT ROADMAP
@@ -157,14 +159,14 @@ TOTAL IP PROTECTION COST: ~$17,565 upfront + $500/year
 ROI: Protects $1.5M asset. Worth it.
 
 ================================================================================
-🎯 SUCCESS METRICS (Q1 2026 Goals)
+🎯 Q1 2026 TARGETS (aspirational — not results, bot not built)
 ================================================================================
 
-CALLS MADE: 1,000
-CLOSE RATE TARGET: 15% (vs 10% email bot)
-SOFTWARE REVENUE: $150k (100 deals @ $1,500 avg)
-LICENSING REVENUE: $1,500,000 (1 strategic buyer)
-TOTAL Q1 2026 REVENUE: $1,650,000
+CALLS TARGET: 1,000
+CLOSE RATE TARGET: 15%
+SOFTWARE REVENUE TARGET: $150k (100 deals @ $1,500 avg)
+LICENSING REVENUE TARGET: $1,500,000 (1 strategic buyer)
+TOTAL Q1 2026 REVENUE TARGET: $1,650,000
 
 WHY VOICE BEATS EMAIL:
    - Trust: Voice = human connection, email = easy to ignore
@@ -181,7 +183,7 @@ WHY VOICE BEATS EMAIL:
 1. CONFIDENT
    - Use: Opening pitch, pricing discussion, assumptive close
    - Tone: Medium-high pitch, steady pace, strong volume
-   - Example (hypothetical): "We could help a bank compress 6 weeks of validation. $2,500. When do you start?"
+   - Example (hypothetical): "Our readiness assessment is $2,500. Want to see how it fits your review timeline?"
 
 2. EMPATHETIC
    - Use: Prospect concerns, budget objections, first 'no'
@@ -189,12 +191,12 @@ WHY VOICE BEATS EMAIL:
    - Example: "I totally get it—compliance projects always compete with revenue..."
 
 3. URGENT
-   - Use: Creating scarcity, competitor pressure, delayed decision
+   - Use: Time-sensitive follow-up, decision pressure, delayed decision
    - Tone: Slightly higher pitch, faster pace, strong volume
-   - Example: "2 slots left this month at $500. After Friday, we're booked through December..."
+   - Example: "If timing matters, I can send the pilot agreement today so your team can review it this week. Does that work?"
 
 4. PROFESSIONAL
-   - Use: Banking, healthcare, legal buyers, Fortune 500
+   - Use: Banking, healthcare, legal buyers, large enterprises
    - Tone: Medium pitch, measured pace, even volume
    - Example: "Our solution addresses OCC Bulletin 2011-12 and SR 11-7 requirements..."
 
@@ -207,7 +209,7 @@ REAL-TIME TONE SWITCHING:
    - Prospect hesitates → Switch from confident to empathetic
    - Prospect asks price → Switch to confident (never apologize)
    - Prospect says "too expensive" → Confident → Empathetic → Urgent
-   - Prospect interested but delaying → Switch to urgent (create scarcity)
+   - Prospect interested but delaying → Switch to urgent (emphasize timeline, no invented scarcity)
    - Prospect mentions competitor → Casual → Confident (assert superiority)
 
 ================================================================================
@@ -246,7 +248,7 @@ RESPONSE:
     
     - CONFIDENT when discussing pricing (never apologize)
     - EMPATHETIC when handling objections (show understanding)
-    - URGENT when creating scarcity (2 slots left)
+    - URGENT for time-sensitive follow-ups (emphasize timeline honestly)
     - PROFESSIONAL for banking/healthcare (regulatory language)
     - CASUAL for tech/startups (fast-paced, direct)
     
@@ -258,11 +260,11 @@ RESPONSE:
     → Renewal at $750k for another 5 years
     → You own it completely—deploy internally, white-label, whatever
     
-    The value proposition:
-    - This bot = $5M/year quota equivalent
-    - Cost to hire 10 reps = $6M/year
-    - Operational cost = $90k/year
-    - ROI: Break-even in 4 months, then $5.9M/year savings
+    The value proposition (illustrative numbers, not measured results):
+    - This bot = the call capacity of a large sales team, never sleeps
+    - Cost to hire 10 reps = roughly $6M/year
+    - Operational cost = roughly $90k/year
+    - Pitch scenario: break-even in about 4 months on paper
     
     Want to see the voice modulation in action? I can demo it for you."
 
@@ -292,15 +294,14 @@ CREATED TODAY:
 
 EMAIL BOT (NOW):
    - $500-$5,000 per customer
-   - 10% close rate
    - Launch Monday (Nov 4, 2025)
    - Goal: $10k revenue in 30 days
 
 VOIP BOT (Q1 2026):
    - $5,000/month SaaS OR $1.5M source code licensing
-   - 15% close rate (50% better than email)
+   - 15% close rate target
    - Build after $10k revenue proves demand
-   - Goal: $3M revenue, $2.15M profit in 2026
+   - Aspirational goal: $3M revenue, $2.15M profit in 2026
 
 KEY DIFFERENTIATOR:
    "Voice training can be modulated in real-time"

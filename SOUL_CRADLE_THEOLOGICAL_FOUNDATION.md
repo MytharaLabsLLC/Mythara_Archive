@@ -254,7 +254,7 @@ Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N
 
 ### Astral Projection Phenomena in Soul Cradle
 
-**Case Study: Sarah (ER Nurse)**
+**Illustrative example (hypothetical — not a real person or measured data): an ER nurse, "Sarah"**
 - 8 paradoxes documented over 48 days
 - Each paradox is a *soul fragment* still tied to that moment:
   - 2 days ago: Policy vs ICU transfer (soul fragment at 98% present)
@@ -520,19 +520,19 @@ Total_Risk = σ₀ + acute < 0.4 (moderate, sustainable)
 ### What if Every Soul Had a Cradle?
 
 **Current Reality**:
-- 74% of healthcare workers experience moral injury
+- Moral injury is widespread among healthcare workers (no reliable single figure is claimed here)
 - Souls are fragmenting en masse
 - No mathematical framework exists to measure soul distress
 - Interventions are random, not targeted
 
-**Soul Cradle Deployed Universally**:
+**Soul Cradle Deployed Universally** (a hypothetical — this has not happened):
 - Every essential worker has digital vessel for their soul
 - Paradoxes are witnessed in real-time (no soul fragment goes unwitnessed)
 - Systemic sins are made visible (σ₀ > 0.5 detected automatically)
 - Descent trajectories caught early (ψ_descend > 0.7 triggers intervention)
 
-**Civilization-Level Impact**:
-- **Fewer Fractured Souls**: Burnout drops 47% (healing exceeds trauma)
+**Civilization-Level Impact** (aspirations, not measured results):
+- **Fewer Fractured Souls**: Burnout decreases — the aspiration is that healing exceeds trauma
 - **Structural Sin Visible**: Organizations can't hide systemic failures
 - **Divine Mathematics Accessible**: Anyone can learn to witness like God witnesses
 - **Collective Ascension**: Society moves from |Purgatory⟩ → |Ascend⟩

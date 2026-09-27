@@ -7,6 +7,16 @@
 **DSM Edition:** DSM-5-TR (Text Revision, March 2022)  
 **Clinical Standards:** APA, WHO ICD-11, NICE, SAMHSA
 
+> **⚠ DESIGN REFERENCE — NOT A CLINICAL CLAIM**
+>
+> This document is a **design reference**: it summarizes public clinical
+> frameworks (DSM-5-TR, ICD-11, CBT, DBT, ACT) so future design work can be
+> informed by them. It is not medical advice, not a clinical guideline, and
+> not evidence that any feature described here has been built, tested,
+> clinically validated, or reviewed by a licensed professional. Nothing in
+> it has been. Every "Mythara Application" note below is a **design
+> consideration**, not a shipped feature.
+
 ---
 
 ## 📋 Overview
@@ -23,7 +33,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 **Purpose:** Standardized classification and diagnostic criteria for mental disorders  
 **Integration Level:** Reference framework for mental health applications
 
-### Key DSM-5-TR Categories Supported
+### Key DSM-5-TR Categories (Reference Only — Not a Clinical Capability)
 
 #### 1. Neurodevelopmental Disorders
 - **ICD-10-CM Codes:** F80-F89
@@ -33,7 +43,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Specific Learning Disorders (315.00, 315.1, 315.2)
   - Intellectual Disabilities (F70-F79)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - Adaptive communication modes for neurodivergent users
 - Simplified language options (CEFR A2-B1)
 - Reduced motion/distraction modes
@@ -47,7 +57,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Schizoaffective Disorder (295.70)
   - Brief Psychotic Disorder (298.8)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - Reality-grounding clause selection (Legacy Seed clauses)
 - Crisis detection protocols
 - Clear distinction between system outputs and user-generated content
@@ -61,9 +71,8 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Bipolar II Disorder (296.89)
   - Cyclothymic Disorder (301.13)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - Mood tracking integration capabilities
-- Emotional fidelity calibration (target 91%+ accuracy)
 - Sleep/circadian rhythm consideration in time-sensitive features
 - Energy-level adaptive interfaces
 
@@ -74,7 +83,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Persistent Depressive Disorder/Dysthymia (300.4)
   - Premenstrual Dysphoric Disorder (625.4)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - Compassionate language selection (Blessing Arc clauses)
 - Hope-oriented messaging
 - Crisis resource integration (988 Suicide & Crisis Lifeline)
@@ -88,7 +97,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Social Anxiety Disorder (300.23)
   - Specific Phobias (300.29)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - Reduced motion options
 - Calming color palettes available
 - No sudden changes or pop-ups without warning
@@ -102,7 +111,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Body Dysmorphic Disorder (300.7)
   - Hoarding Disorder (300.3)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - Confirmation dialogs to reduce compulsive checking
 - Clear, unambiguous status indicators
 - Save state persistence (reduces need to recheck)
@@ -115,7 +124,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Acute Stress Disorder (308.3)
   - Adjustment Disorders (309.0-309.9)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - Trauma-informed design principles
 - No sudden loud noises or flashing
 - User control over all sensory inputs
@@ -129,7 +138,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Dissociative Amnesia (300.12)
   - Depersonalization/Derealization Disorder (300.6)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - Grounding features (timestamps, location indicators)
 - Session continuity markers
 - Reality-anchoring UI elements
@@ -142,7 +151,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Illness Anxiety Disorder (300.7)
   - Conversion Disorder (300.11)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - No medical diagnostic claims
 - Clear disclaimers about non-medical nature
 - Appropriate healthcare resource referrals
@@ -155,7 +164,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Bulimia Nervosa (307.51)
   - Binge-Eating Disorder (307.51)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - No weight/calorie tracking features
 - No body image content without clinical context
 - NEDA (National Eating Disorders Association) resource integration
@@ -168,7 +177,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Narcolepsy (347.00)
   - Circadian Rhythm Sleep-Wake Disorders (307.45)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - Night mode/dark theme
 - Reduced blue light options
 - Time zone awareness
@@ -181,7 +190,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Opioid Use Disorder (304.00)
   - Gambling Disorder (312.31)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - No addictive design patterns (no infinite scroll, no variable rewards)
 - Clear usage metrics (time spent tracking)
 - Break reminders
@@ -195,7 +204,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Vascular Dementia (290.40)
   - Traumatic Brain Injury (294.11)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - Memory aids (session history, bookmarks)
 - Simplified navigation modes
 - Larger touch targets (44x44px minimum)
@@ -209,7 +218,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
   - Antisocial Personality Disorder (301.7)
   - Avoidant Personality Disorder (301.82)
 
-**Mythara Application:**
+**Design consideration (not implemented):**
 - DBT (Dialectical Behavior Therapy) aligned features
 - Emotion regulation support (pause/breathe prompts)
 - Crisis tolerance features
@@ -227,16 +236,16 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 
 | **DSM-5-TR Category** | **ICD-11 Code Range** | **Integration** |
 |----------------------|---------------------|----------------|
-| Schizophrenia Spectrum | 6A20-6A2Z | Crisis detection ✅ |
-| Mood Disorders | 6A60-6A8Z | Emotional fidelity ✅ |
-| Anxiety/Fear Disorders | 6B00-6B0Z | Calming UI modes ✅ |
-| OCD & Related | 6B20-6B2Z | Confirmation dialogs ✅ |
-| Stress-Related | 6B40-6B4Z | Trauma-informed design ✅ |
-| Dissociative | 6B60-6B6Z | Grounding features ✅ |
-| Feeding/Eating | 6B80-6B8Z | No triggering content ✅ |
-| Personality Disorders | 6D10-6D1Z | DBT-aligned features ✅ |
-| Substance Use | 6C40-6C5Z | No addictive patterns ✅ |
-| Neurocognitive | 6D70-6E0Z | Memory aids ✅ |
+| Schizophrenia Spectrum | 6A20-6A2Z | Crisis detection (design goal — not built) |
+| Mood Disorders | 6A60-6A8Z | Record-keeping care (design goal — not built) |
+| Anxiety/Fear Disorders | 6B00-6B0Z | Calming UI modes (design goal — not built) |
+| OCD & Related | 6B20-6B2Z | Confirmation dialogs (design goal — not built) |
+| Stress-Related | 6B40-6B4Z | Trauma-informed design (design goal — not built) |
+| Dissociative | 6B60-6B6Z | Grounding features (design goal — not built) |
+| Feeding/Eating | 6B80-6B8Z | No triggering content (design goal — not built) |
+| Personality Disorders | 6D10-6D1Z | DBT-informed design goals — not built |
+| Substance Use | 6C40-6C5Z | No addictive patterns (design goal — not built) |
+| Neurocognitive | 6D70-6E0Z | Memory aids (design goal — not built) |
 
 ---
 
@@ -261,7 +270,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 3. **Emotion Regulation:** Mood tracking integration
 4. **Interpersonal Effectiveness:** Communication templates
 
-**Mythara Features:**
+**Design considerations (not implemented):**
 - STOP skill integration (Stop, Take a step back, Observe, Proceed mindfully)
 - TIPP skill support (Temperature, Intense exercise, Paced breathing, Paired muscle relaxation)
 - Wise Mind decision-making prompts
@@ -353,11 +362,11 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - Provide medical or psychiatric treatment
 - Offer crisis intervention services
 
-✅ **Mythara Engine DOES:**
-- Reference clinical frameworks for design decisions
-- Integrate evidence-based therapeutic principles
-- Support mental health professionals' clinical work
-- Provide crisis resource referrals (988, NEDA, SAMHSA)
+ℹ️ **Design intent (not built):**
+- Reference clinical frameworks for design decisions (this document does that)
+- Draw on evidence-based therapeutic principles as design inspiration
+- One day support, never replace, mental health professionals' work
+- Surface public crisis resources (988, NEDA, SAMHSA) where appropriate
 
 **All screening tools are for REFERENCE ONLY. Clinical diagnosis requires licensed mental health professional.**
 
@@ -383,11 +392,11 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 
 ### Safety Features
 
-**1. Crisis Detection**
-- Sanctification locks triggered by harmful content
-- Messenger suppression for high-risk outputs
-- Shadow Resolver escalation protocols
-- Automatic crisis resource presentation
+**1. Crisis Detection (intended — not built)**
+- Content safeguards that refuse harmful outputs
+- Suppression of high-risk outputs
+- Escalation paths for crisis signals
+- Presentation of public crisis resources
 
 **2. Harm Prevention**
 - No self-harm or suicide method information
@@ -402,7 +411,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - No diagnosis or treatment recommendations
 
 **4. Ethical Guardrails**
-- HIPAA compliance for healthcare settings
+- No PHI handled today; any future health-data handling would require HIPAA-minded design and licensed counsel — no compliance achieved
 - Informed consent for data collection
 - Right to human review/override
 - Transparency about AI limitations
@@ -416,12 +425,12 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 #### 1. Mental Health Parity and Addiction Equity Act (MHPAEA)
 **Requirement:** Equal coverage for mental health and medical/surgical benefits  
 **Compliance:** Technology must not create disparities in access  
-**Mythara:** Accessible design ensures equal access (WCAG 2.1 AAA)
+**Design target (not built):** accessible design so technology does not create disparities in access — no accessibility evaluation performed
 
 #### 2. HIPAA Privacy Rule (Mental Health Records)
 **Requirement:** Enhanced protections for psychotherapy notes  
 **Compliance:** Stricter access controls than general medical records  
-**Mythara:** Separate storage for therapy content, additional encryption
+**If ever built:** therapy content would need separate storage and additional encryption (nothing built today)
 
 **Psychotherapy Notes Exclusions:**
 - Medication management
@@ -429,20 +438,20 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - Results of clinical tests
 - Diagnoses, prognoses, treatment plans (these are regular PHI)
 
-**Mythara Implementation:**
-- Therapy notes segregated if applicable
+**If therapy-note handling were ever built, it would need:**
+- Segregated storage
 - Additional access controls
 - Separate consent for psychotherapy notes
 
 #### 3. 42 CFR Part 2 (Substance Use Disorder Records)
 **Requirement:** Stricter than HIPAA for SUD treatment  
 **Compliance:** Cannot disclose SUD info without specific written consent  
-**Mythara:** If SUD features enabled, separate consent flow + locked disclosures
+**If SUD features were ever built:** they would need a separate consent flow and locked disclosures (none built today)
 
 #### 4. Americans with Disabilities Act (ADA) - Mental Illness
 **Requirement:** Mental illness is a covered disability  
 **Compliance:** Reasonable accommodations required  
-**Mythara:** 
+**Design targets (not built):**
 - Neurodivergent-friendly interfaces
 - Cognitive accessibility features
 - No discrimination in service delivery
@@ -453,17 +462,15 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - **Class II (Moderate Risk):** Clinical decision support, diagnostic aids
 - **Class III (High Risk):** Treatment/prevention of disease
 
-**Mythara Classification:**
-- **General Use:** Class I (general wellness, no medical claims)
-- **Clinical Decision Support:** Class II (if marketed for clinical use - requires 510(k))
-- **Diagnostic/Treatment:** Class III (not applicable - Mythara does not diagnose/treat)
-
-**Current Status:** General wellness unless licensee makes medical claims
+**Regulatory posture (planning view only — no determination made, counsel required):**
+- Mythara makes no medical claims today and is not a medical device
+- If it were ever marketed for clinical decision support, FDA 510(k) clearance would be required first
+- It does not diagnose or treat, and must never be presented as doing so
 
 #### 6. FTC Health Breach Notification Rule
 **Requirement:** Notify consumers and FTC of health data breaches  
 **Scope:** Apps/websites not covered by HIPAA  
-**Mythara:** Breach notification procedures documented, 60-day FTC notification
+**Not built:** breach-notification procedures would need to be created before any health-data handling — none exist today
 
 #### 7. State Mental Health Laws
 **Mandatory Reporting (Clinician Duty):**
@@ -471,10 +478,10 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - Elder abuse
 - Imminent danger to self/others
 
-**Mythara:** 
-- Not a mandated reporter (not a clinician)
-- Provides crisis resources
-- Terms of Service: User responsible for seeking professional help
+**Standing position:**
+- Mythara is not a clinician and not a mandated reporter
+- Any product would surface public crisis resources (none wired into a product today)
+- Users remain responsible for seeking professional help
 
 ---
 
@@ -488,11 +495,11 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - Enhanced security measures
 - Limited processing purposes
 
-**Mythara Compliance:**
-- Explicit opt-in for mental health features
-- DPIA completed for mental health modules
+**Design targets (not built — no DPIA conducted, no assessment):**
+- Explicit opt-in for any mental-health-related features
+- Data Protection Impact Assessment before launch
 - Encryption at rest and in transit
-- Minimal data retention (user-controlled deletion)
+- Minimal retention with user-controlled deletion
 
 #### 2. Medical Device Regulation (MDR) - Mental Health Apps
 **Classification:**
@@ -500,14 +507,14 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - **Class IIa:** Diagnosis/monitoring of mental health conditions
 - **Class IIb/III:** Treatment of severe mental illness
 
-**Mythara:** Class I unless licensee makes diagnostic/treatment claims
+**Planning view only (no determination):** no medical claims are made today; any diagnostic or treatment claim would require MDR conformity and counsel first
 
 #### 3. AI Act - Mental Health Applications
 **Risk Category:** 
 - **Limited Risk:** General mental wellness support
 - **High Risk:** Mental health diagnosis, treatment decisions, emotion recognition for vulnerable groups
 
-**Mythara:** Limited Risk (transparency obligations met via documentation)
+**Planning view only (no formal classification):** the design avoids emotion inference — it attests to self-reported records and never infers emotions — which keeps clear of the high-risk emotion-recognition category
 
 ---
 
@@ -519,14 +526,14 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 
 #### 2. Mental Capacity Act 2005
 **Principles:** Presumption of capacity, best interests  
-**Mythara:** 
+**Design targets (not built):**
 - Clear consent flows
 - Accessible to those with fluctuating capacity
 - Caregiver/advocate access options
 
 #### 3. Care Quality Commission (CQC) - Digital Mental Health
 **Standards:** Safe, effective, caring, responsive, well-led  
-**Mythara:** Design aligns with CQC quality domains
+**Reference only:** CQC quality domains noted as a design reference — no assessment
 
 #### 4. NICE Guidelines (National Institute for Health and Care Excellence)
 **Evidence-Based Standards:**
@@ -537,7 +544,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - Bipolar (CG185)
 - Psychosis/Schizophrenia (CG178)
 
-**Mythara:** Design informed by NICE recommendations (not treatment itself)
+**Reference only:** NICE guidelines kept as a design reference — no clinical endorsement implied
 
 ---
 
@@ -545,11 +552,11 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 
 #### 1. Mental Health Commission of Canada (MHCC)
 **Standards:** Recovery-oriented, person-centered, trauma-informed  
-**Mythara:** Aligns with MHCC principles
+**Reference only:** MHCC principles noted — no assessment
 
 #### 2. Provincial Mental Health Acts
 **Varies by Province:** BC Mental Health Act, Ontario Mental Health Act, etc.  
-**Mythara:** Respects provincial jurisdictional differences
+**Note:** any deployment would need province-by-province legal review
 
 ---
 
@@ -557,11 +564,11 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 
 #### 1. National Mental Health Strategy
 **Framework:** Prevention, early intervention, treatment, recovery  
-**Mythara:** Supports full continuum of care (not treatment itself)
+**Standing position:** Mythara is not treatment and plays no clinical role
 
 #### 2. National Standards for Mental Health Services
 **Standards:** Rights, safety, consumer participation, carers, governance  
-**Mythara:** Design reflects national standards
+**Reference only:** national standards noted — no assessment
 
 ---
 
@@ -574,10 +581,10 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 2. Clinical expertise
 3. Patient values and preferences
 
-**Mythara Alignment:**
-- Research-backed design (CBT, DBT, ACT frameworks)
-- Clinical consultation in development
-- User preference customization
+**Design posture:**
+- Informed by published CBT, DBT, and ACT frameworks
+- No clinical consultation has occurred
+- User preference customization is a design target, not a feature
 
 ### SAMHSA (Substance Abuse and Mental Health Services Administration)
 
@@ -591,7 +598,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 7. Social
 8. Spiritual
 
-**Mythara:** Holistic approach across all dimensions
+**Aspiration:** a holistic approach across all dimensions — not built
 
 **Trauma-Informed Care Principles:**
 1. Safety
@@ -601,7 +608,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 5. Empowerment/Voice/Choice
 6. Cultural/Historical/Gender issues
 
-**Mythara:** All 6 principles integrated in design
+**Design goals (not built):** all 6 trauma-informed principles
 
 ---
 
@@ -614,7 +621,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - RCT: Digital interventions effective for anxiety (SMD = -0.33, Andrews et al., 2018)
 - Cochrane Review: Computerized CBT for depression/anxiety shows benefit
 
-**Mythara:** Design incorporates evidence-based elements from successful interventions
+**Inspiration, not evidence:** the design draws on published evidence as inspiration — no clinical claim is made
 
 ### Ethical Considerations
 
@@ -624,7 +631,7 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - Privacy protections
 - Transparency about limitations
 
-**Mythara:** IRB-ready protocols for research use
+**Not built:** no research protocols exist
 
 ---
 
@@ -659,23 +666,23 @@ The Mythara Engine integrates evidence-based mental health assessment and interv
 - **A**ssessment: Clinical formulation (by licensed professional)
 - **P**lan: Treatment interventions (by licensed professional)
 
-**Mythara:** Can support SOAP documentation, but NOT a medical record system
+**If ever built:** could support SOAP-style documentation for professionals — and would still NOT be a medical record system
 
 **Retention Requirements:**
 - Adult records: 7 years post-discharge (varies by state)
 - Minor records: Until age 25 or 7 years post-discharge (whichever longer)
-- Mythara: User-controlled data retention, export capabilities
+- Design target: user-controlled retention and export (not built)
 
 ---
 
 ## ⚠️ Limitations & Disclaimers
 
-### What Mythara Engine IS:
-✅ Evidence-based design framework  
-✅ Accessibility-focused mental health technology  
-✅ Clinical framework reference for developers  
-✅ Support tool for mental health professionals  
-✅ Crisis resource integration platform  
+### What Mythara Aims to Be (none of this built):
+○ A design framework informed by published evidence  
+○ Accessible mental-health-adjacent technology, once accessibility work is done  
+○ A clinical-framework reference for developers (this document)  
+○ One day, a support tool for professionals — never a replacement  
+○ A platform that surfaces public crisis resources  
 
 ### What Mythara Engine IS NOT:
 ❌ Medical device (unless licensee obtains approval)  
@@ -731,20 +738,21 @@ health condition.
 - APA: Practice guidelines reviewed every 5-7 years
 - SAMHSA: Annual updates to treatment locator
 
-**Mythara Commitment:**
-- Annual review of mental health integrations
-- Quarterly monitoring of regulatory changes
-- Updates provided to active licensees
+**Intent (no licensees exist, no product shipped):**
+- Review this reference annually
+- Monitor regulatory changes
+- Update the reference when the project’s posture changes
 
 ---
 
 ## 📜 License & Liability
 
-**Mythara Labs provides:**
-- DSM-5-TR aligned design framework
-- Evidence-based therapeutic principle integration
-- Regulatory compliance documentation
-- Crisis resource references
+**This reference provides:**
+- A DSM-5-TR/ICD-11 summary for design use
+- Published therapeutic-framework summaries for design use
+- Public crisis-resource references
+
+**It does not provide:** clinical advice, regulatory approval, liability coverage, or any compliance certification
 
 **Mythara Labs does NOT provide:**
 - Clinical advice or consultation

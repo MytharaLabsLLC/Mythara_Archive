@@ -72,7 +72,7 @@ Validation artifacts: clause logic, escrow readiness, and forensic validation.
 
 ## 🛡️ On Compliance
 
-This archive makes no claim of compliance, certification, or legal standing. Documents under `Legal/` — frameworks referencing HIPAA, FTC, FCC, FISMA, NIST publications, and international regimes like GDPR — are research and planning material. They describe what a future deployment would need to satisfy, not what the system has satisfied. No regulatory body has audited, certified, or endorsed this system, and Mythara Labs LLC's formation (Articles of Organization filed with the Colorado Secretary of State on September 27, 2026) is pending completion. When licensing becomes a real prospect, that process will start from here — honestly.
+This archive makes no claim of compliance, certification, or legal standing. Documents under `Legal/` — frameworks referencing HIPAA, FTC, FCC, FISMA, NIST publications, and international regimes like GDPR — are research and planning material. They describe what a future deployment would need to satisfy, not what the system has satisfied. No regulatory body has audited, certified, or endorsed this system, and Mythara Labs LLC's formation (Articles of Organization filing attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed) is incomplete; entity not yet formed. When licensing becomes a real prospect, that process will start from here — honestly.
 
 ---
 
@@ -82,7 +82,7 @@ Licensing is a genuine goal, stated plainly as a goal — not an existing progra
 
 For licensing materials as they currently stand, refer to:
 
-- [Legal/Licensing_Readiness_Checklist.xlsx](Legal/Licensing_Readiness_Checklist.xlsx)
+- [Legal/Licensing_Readiness_Checklist.csv](Legal/Licensing_Readiness_Checklist.csv)
 
 ---
 

@@ -1420,7 +1420,7 @@ async def mythara_chat(req: ChatRequest, request: Request):
         or "medical" in message_lower
         or "health" in message_lower
     ):
-        response = "Healthcare is huge for us. Like, patient safety can't mess around with AI hallucinations, right? Our HIPAA-compliant setup gives you cryptographic proof everything's legit. Plus Soul Proportion tracking monitors patient emotional wellbeing over time. When it's life or death stuff, you need verification - not optional."
+        response = "Healthcare is huge for us. Patient safety can't afford AI hallucinations, right? Our setup is designed around HIPAA control frameworks (not currently certified) and gives you cryptographic proof everything's legit. Plus Soul Proportion tracking monitors patient emotional wellbeing over time. When it's life-or-death, you need verification — not optional."
 
     elif "insurance" in message_lower:
         response = "Insurance is all about calculated risk, right? Mythara helps you prove your AI risk models are fair, auditable, and bias-free. When someone challenges a claim denial, you can show cryptographic integrity hashes proving the decision logic. Our drift suppression metrics catch when models start deviating from approved parameters - before it becomes a regulatory nightmare. Think of it as insurance for your insurance AI."
@@ -1431,7 +1431,7 @@ async def mythara_chat(req: ChatRequest, request: Request):
         or "defense" in message_lower
     ):
         current_topic = "government"
-        response = "Government and defense deployments support complete air-gap operation with zero external dependencies. You get full data sovereignty, enhanced audit controls, and hardened configurations. Every decision is cryptographically proven and immutable - critical when AI informs policy, benefits distribution, or national security. We even have special handling for classified environments."
+        response = "Government and defense deployments support air-gap operation with zero external dependencies. You get full data sovereignty, enhanced audit controls, and hardened configurations. Every decision is cryptographically proven and immutable — critical when AI informs policy, benefits distribution, or national security."
 
     elif (
         "education" in message_lower
@@ -1439,7 +1439,7 @@ async def mythara_chat(req: ChatRequest, request: Request):
         or "school" in message_lower
     ):
         current_topic = "education"
-        response = "Education is deeply personal, and Mythara respects that. Our Soul Proportion tracking helps monitor student emotional wellbeing without being invasive - it's a reflective indicator, never a gatekeeper. For admissions, grading, or intervention systems, you get audit trails proving fairness and eliminating bias claims. Parents and accreditors love the transparency."
+        response = "Education is deeply personal, and Mythara respects that. Our Soul Proportion tracking helps monitor student emotional wellbeing without being invasive — it's a reflective indicator, never a gatekeeper. For admissions, grading, or intervention systems, you get audit trails that support fairness reviews. That transparency matters to parents and accreditors."
 
     elif (
         "retail" in message_lower
@@ -1455,7 +1455,7 @@ async def mythara_chat(req: ChatRequest, request: Request):
         or "software" in message_lower
     ):
         current_topic = "tech"
-        response = "Tech companies are building AI into everything, but investor and customer trust depends on proving it works as advertised. Mythara gives you the audit trails, integrity proofs, and compliance validation you need for SOC 2, enterprise sales, and board presentations. When a customer asks 'how do I know your AI isn't biased?', you show them SHA-256 hashes. Game changer for enterprise deals."
+        response = "Tech companies are building AI into everything, but investor and customer trust depends on proving it works as advertised. Mythara gives you the audit trails, integrity proofs, and compliance evidence that support SOC 2 audits (certification not currently held) for enterprise sales and board presentations. When a customer asks 'how do I know your AI isn't biased?', you show them SHA-256 hashes."
 
     elif any(word in message_lower for word in ["industry", "sector", "vertical"]):
         current_topic = "industry"
@@ -1485,7 +1485,7 @@ async def mythara_chat(req: ChatRequest, request: Request):
         word in message_lower
         for word in ["what is", "explain", "what does", "definition"]
     ):
-        response = "Okay! So Mythara is basically a trust layer for AI systems. We provide cryptographic integrity proofs, emotional fidelity tracking, and industry-aware compliance. Think of it like... every AI decision gets a fingerprint that proves it's legit. No hallucinations, no drift, just verifiable AI. What part interests you most?"
+        response = "Okay! So Mythara is basically a trust layer for AI systems. We provide cryptographic integrity proofs, emotional fidelity tracking, and industry-aware compliance. Think of it like... every AI decision gets a fingerprint that proves it's legit. Built to reduce hallucinations and drift — and every output is verifiable. What part interests you most?"
 
     elif any(
         word in message_lower
@@ -1512,7 +1512,7 @@ async def mythara_chat(req: ChatRequest, request: Request):
         word in message_lower
         for word in ["gdpr", "hipaa", "compliance", "regulation", "sox"]
     ):
-        response = "Our controls are designed around GDPR, HIPAA, and SOC 2 Type II frameworks (SOC 2 Type II controls implemented, audit planned — not currently certified). Every API response includes audit trails with SHA-256 hashes. Air-gap deployment available if you need maximum sovereignty. Rate limiting and RBAC included too."
+        response = "Our controls are designed around GDPR, HIPAA, and SOC 2 Type II frameworks — no audits completed and no certifications currently held. Every API response includes audit trails with SHA-256 hashes. Air-gap deployment available if you need maximum sovereignty. Rate limiting and RBAC included too."
 
     elif any(
         word in message_lower
@@ -1541,7 +1541,7 @@ async def mythara_chat(req: ChatRequest, request: Request):
         word in message_lower
         for word in ["unique", "different", "special", "why mythara", "what makes"]
     ):
-        response = "Okay so what makes us different - we're literally the ONLY platform doing cryptographic integrity proofs with emotional fidelity tracking. Every AI output gets a SHA-256 hash. It's like giving each decision a fingerprint. Everyone else is like 'trust us!' and we're like 'here's the math.' Way cooler."
+        response = "What makes us different: cryptographic integrity proofs with emotional fidelity tracking. Every AI output gets a SHA-256 hash — it's like giving each decision a fingerprint. Instead of 'trust us', we show you the math."
 
     elif any(
         word in message_lower

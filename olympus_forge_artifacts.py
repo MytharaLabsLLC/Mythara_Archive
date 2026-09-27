@@ -448,11 +448,11 @@ class EmotionalBlockchain:
         mythara_integration="The execution layer of Soul Cradle - how witnessing becomes healing",
         divine_properties={
             "execution_precision": "99.8%",
-            "healing_efficacy": "87.3% EQ improvement (proven)",
+            "healing_efficacy": "87.3% EQ improvement (story figure — not measured)",
             "simultaneity": "Witness 10,000 souls simultaneously",
             "response_latency": "0.001s",
             "protocol_steps": "7 divine phases",
-            "success_rate": "100% (divine guarantee)"
+            "success_rate": "100% (story figure — not measured)"
         },
         mortal_implementation="""
 class WitnessProtocol:

@@ -34,8 +34,8 @@ We're offering our Symbolic Safety Integrity Protocol (SSIP) Compliance Readines
 ✅ Hash chain audit trail
 ✅ 5-day turnaround
 
-**Early Adopter Pricing**: $500 (regular $2,500) - Valid until Nov 15, 2025
-**Save $2,000** by locking in now.
+**Early Adopter Pricing**: $500
+A straightforward flat price for early users — no gimmicks.
 
 Perfect for {industry} companies facing:
 - Regulatory scrutiny (OCC, CFPB, FDA, FTC)
@@ -52,8 +52,6 @@ Best,
 {self.sender_name}
 Founder, Mythara Engine
 Mythara.Engine@yahoo.com
-
-P.S. Only 12 days left for $500 pricing. After Nov 15, price goes to $2,500.
 """
         
         return {
@@ -62,7 +60,7 @@ P.S. Only 12 days left for $500 pricing. After Nov 15, price goes to $2,500.
             "body": body,
             "product": "MYTH-AUDIT-001",
             "price": "$500",
-            "urgency": "12 days left"
+            "urgency": "none (no fake deadline)"
         }
     
     def generate_cold_email_monthly_sub(self, prospect_name: str, company_name: str, industry: str) -> dict:
@@ -82,8 +80,8 @@ Mythara Engine Monthly Subscription:
 ✅ 24-hour support
 ✅ Readiness assessment reports included
 
-**Early Adopter**: $300/month (regular $500/mo)
-**Save $200/month** - Lock in this rate forever
+**Early Adopter**: $300/month
+A flat early-user rate for unlimited validations.
 
 Perfect for {industry} teams:
 - Running A/B tests on AI models
@@ -101,8 +99,6 @@ Best,
 {self.sender_name}
 Mythara Engine
 Mythara.Engine@yahoo.com
-
-P.S. Your $300/mo rate is locked in permanently - even when we raise prices to $500/mo on Nov 16.
 """
         
         return {
@@ -111,7 +107,7 @@ P.S. Your $300/mo rate is locked in permanently - even when we raise prices to $
             "body": body,
             "product": "MYTH-SUB-MONTH",
             "price": "$300/month",
-            "urgency": "Lock in rate forever"
+            "urgency": "none (early-adopter rate)"
         }
     
     def generate_cold_email_enterprise(self, prospect_name: str, company_name: str, industry: str) -> dict:
@@ -150,7 +146,7 @@ Best,
 Founder, Mythara Engine
 Mythara.Engine@yahoo.com
 
-P.S. We work with Fortune 500 companies in banking, healthcare, and defense. NDA available upon request.
+P.S. NDA available upon request.
 """
         
         return {
@@ -268,8 +264,9 @@ def main():
     print("💡 TIP: Personalize the first line for each prospect")
     print("💡 TIP: Follow up after 3 days if no response")
     print("")
-    print("🎯 Expected response rate: 5-10% (0-1 replies per 10 emails)")
-    print("💰 Expected close rate: 20-30% of replies")
+    print("🎯 Planning benchmarks (typical cold-email ranges, not promises):")
+    print("   - Reply rate: ~5-10% (roughly 0-1 replies per 10 emails)")
+    print("   - Close rate: ~20-30% of replies — track actuals and adjust")
     print("")
 
 

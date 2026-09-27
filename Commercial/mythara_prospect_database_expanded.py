@@ -2,7 +2,9 @@
 
 """
 Mythara Prospect Database - EXPANDED EDITION
-Comprehensive B2B targeting across ALL relatable business verticals
+Prospect-research entries across business verticals. No company listed
+here is a customer or pilot — they are targeting leads, and no contact
+info is on file.
 """
 
 import sqlite3
@@ -975,7 +977,7 @@ class MytharaProspectDatabaseExpanded:
             fit_score=84,
             website="fluor.com",
             pain_points="EPC contracts; Joint ventures; Multi-billion dollar projects",
-            notes="Fortune 500 engineering firm with global mega-projects",
+            notes="Engineering firm with global mega-projects",
             use_case="EPC contract verification, JV agreement integrity"
         )
         

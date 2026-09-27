@@ -173,6 +173,7 @@ class SoulCradleAuthority:
         self,
         key: Optional[bytes] = None,
         issuer_policy: Optional[Dict[str, List[str]]] = None,
+        handlers: Optional[Dict[str, Handler]] = None,
     ):
         if key is None:
             env_key = os.environ.get("SOUL_CRADLE_KEY", "")
@@ -186,6 +187,13 @@ class SoulCradleAuthority:
                     "This is NOT production posture."
                 )
         self._key = key
+        # Handler registry is instance-scoped: it defaults to the shared
+        # global registry, but a caller may pass a private one (the SERE
+        # war machine does) so its action types never leak into anyone
+        # else's world.
+        self._handlers: Dict[str, Handler] = (
+            handlers if handlers is not None else _ACTION_HANDLERS
+        )
         # issuer -> list of action types it may request ("*" = all)
         self._issuer_policy: Dict[str, List[str]] = issuer_policy or {
             "soul_cradle": ["*"],
@@ -229,7 +237,7 @@ class SoulCradleAuthority:
         """Bounds-check and sign an action. Raises AuthorizationError on refusal."""
         now = int(time.time())
 
-        if action_type not in _ACTION_HANDLERS:
+        if action_type not in self._handlers:
             raise AuthorizationError(f"unknown action type: {action_type!r}")
         allowed = self._issuer_policy.get(issuer, [])
         if action_type not in allowed and "*" not in allowed:
@@ -313,7 +321,7 @@ class SoulCradleAuthority:
                 "payload hash mismatch (tampered payload)",
             )
             return False, "payload hash mismatch"
-        if envelope.action_type not in _ACTION_HANDLERS:
+        if envelope.action_type not in self._handlers:
             return False, f"unknown action type: {envelope.action_type!r}"
         allowed = self._issuer_policy.get(envelope.issuer, [])
         if envelope.action_type not in allowed and "*" not in allowed:
@@ -331,7 +339,7 @@ class SoulCradleAuthority:
         ok, reason = self.verify(envelope, payload)
         if not ok:
             raise AuthorizationError(f"refused: {reason}")
-        handler = _ACTION_HANDLERS[envelope.action_type]
+        handler = self._handlers[envelope.action_type]
         result = handler(payload)
         self._audit(
             "executed", envelope.issuer, envelope.action_type, envelope.action_id

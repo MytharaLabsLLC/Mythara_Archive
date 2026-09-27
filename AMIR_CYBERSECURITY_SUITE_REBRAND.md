@@ -10,7 +10,7 @@ The A.M.I.R. Cybersecurity Suite has been rebranded with legally-safe, trademark
 ## Suite Components
 
 ### 1. **A.M.I.R. - Autonomous Mythara Intelligence & Response**
-- **Status:** ✅ Operational
+- **Status:** ⚠️ Training simulation only — not deployed, not operational in production
 - **Function:** JARVIS-style AI orchestration and command interface
 - **Legal:** ✅ Original trademark-safe name
 
@@ -29,7 +29,7 @@ The A.M.I.R. Cybersecurity Suite has been rebranded with legally-safe, trademark
 
 ### 4. **S.E.R.E. Bot - Survive, Evade, Resist, and Escape**
 - **Status:** ✅ Already trademark-safe
-- **Function:** Military-grade survival and evasion protocols
+- **Function:** Survival/evasion protocol training simulation (sandboxed; never a weapon, never military-ready)
 - **Phases:** SURVIVE → EVADE → RESIST → ESCAPE
 - **Legal:** ✅ Public domain military concept
 
@@ -65,9 +65,9 @@ The A.M.I.R. Cybersecurity Suite has been rebranded with legally-safe, trademark
 
 ## Legal Status
 
-### ✅ Safe for Commercial Use
+### ✅ Trademark-Risk Pass Complete (legal review still pending — see ATTORNEY_REVIEW_PACKAGE.md)
 All component names are now:
-- **Original trademarks** owned by Mythara Industries
+- **Original names** created by Herbert Velez Jr. (no trademark registrations claimed)
 - **Descriptive acronyms** (legally defensible)
 - **Public domain concepts** (S.E.R.E.)
 
@@ -85,18 +85,20 @@ All component names are now:
 
 ## Marketing Position
 
-**"The A.M.I.R. Cybersecurity Suite"**
-- Enterprise-grade penetration testing
-- Automated vulnerability remediation
-- Military-inspired survival protocols
-- AI-powered security orchestration
+**"The A.M.I.R. Cybersecurity Suite"** — a training-simulation concept, not a deployed product:
+- Enterprise-grade penetration testing (target capability, not yet independently tested)
+- Automated vulnerability remediation (target capability, not yet independently tested)
+- Survival-protocol training simulation
+- AI-powered security orchestration (target capability, not yet independently tested)
+
+Note: nothing in this suite is deployed, accredited, certified, or independently benchmarked. All offense is simulated inside the sandbox; it is never directed at real systems.
 
 ## Commercial Readiness
 
-✅ **Cleared for:**
-- Product licensing
-- SaaS offerings
-- Enterprise pilots
+✅ **Trademark-risk pass complete — not legal clearance:**
+- Product licensing (pending legal review)
+- SaaS offerings (pending legal review)
+- Enterprise pilots (planned — none active yet)
 - Public marketing materials
 - Investor presentations
 
@@ -111,11 +113,11 @@ All component names are now:
 2. 🔄 Update internal class implementations (IN PROGRESS)
 3. ⏳ Update documentation and marketing materials
 4. ⏳ File trademark applications for A.M.I.R., A.D.A.P.T., Q.U.I.C.K.F.I.X.
-5. ⏳ Update enterprise pilot materials
+5. ⏳ Draft enterprise pilot materials (no pilots active yet)
 
-## Pricing Model
+## Pricing Model (draft targets — not yet offered)
 
-The suite can now be marketed as:
+The suite can be marketed as:
 - **A.M.I.R. Cybersecurity Suite** - $25K-100K annually
 - **A.D.A.P.T. Testing Module** - $10K-50K per engagement
 - **Q.U.I.C.K.F.I.X. Auto-Remediation** - $5K/month subscription
@@ -123,8 +125,8 @@ The suite can now be marketed as:
 
 ---
 
-**Status:** LEGALLY CLEARED FOR COMMERCIAL USE ✅
+**Status:** TRADEMARK-RISK PASS COMPLETE — legal review still pending (see ATTORNEY_REVIEW_PACKAGE.md)
 
 **Date:** November 19, 2025
 **Version:** 1.0.0
-**Mythara Industries**
+**Herbert Velez Jr.**

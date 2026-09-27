@@ -7,11 +7,11 @@
 
 ## FastAPI Server Implementation
 
-Production-ready API for Mythara Engine symbolic clause invocation and SSIP orchestration.
+Reference implementation of the Mythara Engine API: symbolic clause invocation and SSIP orchestration over FastAPI.
 
 ### Features
 
-✅ **7 RESTful Endpoints**
+✅ **7 documented core endpoints** (the server exposes additional endpoints; see `main.py`)
 - `POST /v1/clauses/invoke` — Invoke symbolic clauses
 - `GET /v1/reservoir/status` — Blessings Reservoir metrics
 - `GET /v1/manifest/clauses` — Clause manifest with integrity hashes

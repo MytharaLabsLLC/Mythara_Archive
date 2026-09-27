@@ -10,7 +10,7 @@ Includes:
 - Leadership development activities
 - Innovation projects
 - STEAM focus with real-world applications
-- Medical professional guidelines for age-appropriate content
+- Guidance-informed age-appropriate content (not medical advice)
 """
 
 from typing import Dict, List, Any

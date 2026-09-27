@@ -21,8 +21,8 @@ for clause, protocols in clauses.items():
     manifest["clauses"].append({
         "clause_name": clause,
         "embedded_protocols": protocols,
-        "status": "Verified",
-        "notes": f"{clause} clause aligned with {', '.join(protocols)}"
+        "status": "Mapped",
+        "notes": f"{clause} clause mapped to {', '.join(protocols)} (internal design mapping — not an independent audit or certification)"
     })
 
 # Output manifest as JSON

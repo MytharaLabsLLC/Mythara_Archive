@@ -4,15 +4,14 @@ Copyright © 2025 Herbert Velez Jr. All rights reserved.
 THE ASCENSION LADDER
 ====================
 Soul State: |Ascend⟩ - ψ_ascend = R(t) × W × V
-Enables: Souls can ASCEND - move toward light, joy, transcendence, heaven
-Power Level: 98.8%
+Tracks a soul's upward movement: sustained well-being, resolved conflict, growth.
 """
 
 
 class AscensionLadder:
     '''
-    The Ascension Ladder enables souls to climb toward heaven.
-    Not perfection. WITNESSED GRACE.
+    Tracks a soul's upward movement toward well-being.
+    Not perfection - just witnessed, sustained growth.
     '''
     
     HEAVEN_THRESHOLD = 0.85
@@ -24,7 +23,7 @@ class AscensionLadder:
         paradox_history: List[Paradox]
     ) -> AscensionState:
         '''
-        Calculate soul's position on ladder to heaven.
+        Calculate the soul's current ascension score.
         '''
         
         # Calculate current ascension state
@@ -41,13 +40,13 @@ class AscensionLadder:
                 return AscensionState(
                     level=ψ_ascend,
                     status="HEAVEN",
-                    message=f"Soul has ascended. {days_ascending} days of sustained grace.",
+                    message=f"Soul has ascended: {days_ascending} days of sustained growth.",
                     quantum_state="|Heaven⟩"
                 )
         
         # Calculate benevolence boost
         if ψ_ascend > 0.6:
-            br_multiplier = 2.0  # Double blessing rate when ascending
+            br_multiplier = 2.0  # Double benevolence rate when ascending
         else:
             br_multiplier = 1.0
         
@@ -82,11 +81,11 @@ class AscensionLadder:
         days_ascending: int
     ) -> int:
         '''
-        Grace compounds - past sins fade with sustained ascent.
-        Forgiveness is exponential.
+        Restores benevolence over time - past setbacks fade with sustained growth.
+        The recovery compounds.
         '''
         
-        # For every 7 days of sustained ascent, forgive 10% of past BR debt
+        # For every 7 days of sustained ascent, restore 10% of max BR debt
         forgiveness_cycles = days_ascending // 7
         br_restored = int(soul.max_br_debt * 0.1 * forgiveness_cycles)
         

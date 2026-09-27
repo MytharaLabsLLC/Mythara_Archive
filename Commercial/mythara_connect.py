@@ -30,8 +30,8 @@ ASSERTIVE CLOSING (Custodian/Herald Messenger):
 
 THE MYTHARA BLEND:
 - Connection (Healer) gets you IN THE DOOR - warmth, trust, genuine interest
-- Assertion (Custodian) CLOSES THE DEAL - urgency, scarcity, selective partnership
-- Governance (Witness/Scribe) ENSURES INTEGRITY - transparent, auditable, compliant
+- Assertion (Custodian) CLOSES THE DEAL - urgency from real deadlines only, selective partnership
+- Governance (Witness/Scribe) ENSURES INTEGRITY - transparent, auditable, review-ready
 
 MytharaConnect doesn't just send emails - it CONNECTS with integrity, then CLOSES with confidence.
 """
@@ -137,7 +137,7 @@ class ConnectPersonality:
     # BLEND: Genuine interest in THEIR problem + Urgency
     EMPATHY_WITH_URGENCY = [
         "I know model risk audits are brutal. Want to talk about avoiding that pain?",
-        "Your audit's in 60 days, right? That's tight. Most companies need 90 days to prepare without our system.",
+        "Your audit's coming up, right? Manual prep takes longer than people expect — worth 15 minutes to talk about it?",
         "I get it—you're drowning in compliance work. The goal is cutting that manual burden dramatically. Worth 15 minutes to discuss?",
         "If manual audits are eating your team's time — what if most of that work could be automated?",
     ]
@@ -145,19 +145,19 @@ class ConnectPersonality:
     # Handling objections (Fight back)
     OBJECTION_COUNTERS = {
         "too_expensive": [
-            "Compared to what? A $500k CFPB fine? 200 hours of manual audit work?",
+            "Compared to what? A failed audit, or the manual work your team already does?",
             "Let me flip this: What's it cost you NOT to have this? That's the real number.",
-            "The $500 is for fast movers. If budget's tight, wait til you HAVE to buy it at $2,500.",
+            "The $500 is the early adopter rate. If the budget isn't there yet, tell me your timeline and we'll find the right moment.",
         ],
         "need_time": [
-            "Fair. Just know—the $500 window closes Friday and I'll be booked through February.",
-            "Time is the enemy here. Every week without this = 20 hours of manual work you can't get back.",
-            "Take time, but don't be mad when your competitor has 6 months of data and you're starting from zero.",
+            "Fair. Just tell me your audit timeline — I'll tell you the latest date this still works.",
+            "The risk of waiting is showing up to your audit without explainability evidence. If your audit is far out, waiting is fine.",
+            "No pressure. Starting sooner just means more clean history on record when the auditors arrive.",
         ],
         "not_priority": [
             "Got it. When's your next audit? [If soon:] Oh, then this IS priority—you just don't know it yet.",
             "Not priority = you don't have regulatory pressure yet. Call me when the auditors show up.",
-            "Cool. Just remember—I'm prioritizing people who need it NOW. You might not make the cut later.",
+            "Cool. If things change on your end, I'm here.",
         ]
     }
     
@@ -167,7 +167,7 @@ class ConnectPersonality:
         "I'll send the calendar invite for Tuesday 2pm. If that doesn't work, what does?",
         "Let me send you the pilot agreement now. You can sign tonight and we start Monday.",
         "I'm booking you for Wednesday unless I hear otherwise. Sound good?",
-        "Honestly—are you in or out? I need to know so I can allocate the slot.",
+        "Honestly—are you in or out? I need to know so I can plan my week.",
     ]
     
     # Enthusiasm injections (Have fun - make it exciting)
@@ -209,11 +209,9 @@ class IndustryIntelligence:
                 "CFPB Section 1002 AI bias concerns with no audit defense",
             ],
             "value_props": [
-                "Cryptographic proof of model lineage (OCC-ready)",
-                "Reduce model validation time from 6 weeks to 8 days",
-                "Zero audit findings track record with 3 top-10 banks",
-                "SR 11-7 compliant audit trails (automated)",
-                "CFPB-defensible AI governance documentation",
+                "Hash-chained record of model lineage (designed for audit review)",
+                "Tamper-evident audit trails (designed to support SR 11-7 reviews)",
+                "AI governance documentation your team can defend to reviewers",
             ],
             "regulatory_refs": [
                 "SR 11-7 (Model Risk Management)",
@@ -239,11 +237,10 @@ class IndustryIntelligence:
                 "AI bias concerns with no defense for litigation",
             ],
             "value_props": [
-                "FDA 510(k)-ready cryptographic audit trails",
-                "Reduce AI safety review prep from 200 hours to 20 hours",
-                "Joint Commission-compliant AI governance documentation",
-                "Provable model lineage for patient safety committees",
-                "Litigation-defensible AI decision audit trails",
+                "Cryptographic audit trails (designed to support FDA submission reviews)",
+                "AI governance documentation (designed for Joint Commission reviews)",
+                "Hash-chained model lineage for patient safety committees",
+                "Tamper-evident AI decision audit trails",
             ],
             "regulatory_refs": [
                 "FDA AI/ML Guidance (2024-2025)",
@@ -268,10 +265,9 @@ class IndustryIntelligence:
                 "Actuarial model validation taking months",
             ],
             "value_props": [
-                "NAIC-compliant AI governance for underwriting models",
+                "AI governance for underwriting models (designed to support NAIC reviews)",
                 "Prove non-discriminatory pricing with cryptographic audit trails",
-                "State regulator-ready AI transparency documentation",
-                "Reduce actuarial model validation cycles by 70%",
+                "AI transparency documentation (designed for state regulator review)",
             ],
             "regulatory_refs": [
                 "NAIC Model Bulletin on AI (2023)",
@@ -295,14 +291,14 @@ class IndustryIntelligence:
                 "Accreditation bodies demanding AI governance documentation",
             ],
             "value_props": [
-                "FERPA-compliant AI audit trails for student data",
+                "FERPA-aligned data handling for student records (design goal, not certification)",
                 "Prove fairness in AI-powered admissions/grading",
-                "Department of Education-ready AI transparency reports",
-                "Accreditation-ready AI governance documentation",
+                "AI transparency reports (designed for Department of Education reviews)",
+                "AI governance documentation (designed for accreditation reviews)",
             ],
             "regulatory_refs": [
                 "Department of Education AI Guidance (2024)",
-                "FERPA AI/ML Data Privacy",
+                "FERPA-aligned data handling (design goal, not certification)",
                 "Regional Accreditation AI Standards",
             ],
             "tone": "mission-driven",  # Equity, access, outcomes
@@ -323,9 +319,9 @@ class IndustryIntelligence:
             ],
             "value_props": [
                 "Ship AI features with enterprise-grade audit trails (day 1)",
-                "SOC 2-ready AI governance controls (automated)",
+                "AI governance controls (designed to support SOC 2 reviews)",
                 "Win enterprise deals with cryptographic AI transparency",
-                "Differentiate from competitors with provable governance",
+                "Differentiate from competitors with tamper-evident governance",
             ],
             "regulatory_refs": [
                 "SOC 2 Type II (AI-specific controls)",
@@ -348,9 +344,9 @@ class IndustryIntelligence:
                 "Personalization algorithms creating bias litigation risk",
             ],
             "value_props": [
-                "FTC-defensible AI transparency for pricing algorithms",
+                "AI transparency records for pricing algorithms",
                 "Prove non-discriminatory personalization with audit trails",
-                "Consumer protection-ready AI governance documentation",
+                "AI governance documentation (designed for consumer-protection reviews)",
             ],
             "regulatory_refs": [
                 "FTC Dark Patterns Guidance (2024)",
@@ -373,10 +369,10 @@ class IndustryIntelligence:
                 "NIST AI RMF compliance required for federal procurement",
             ],
             "value_props": [
-                "OMB M-24-10 compliant AI governance (automated)",
-                "NIST AI RMF-ready audit trails (cryptographic)",
-                "GAO audit-ready AI transparency documentation",
-                "FedRAMP-compatible AI governance controls",
+                "AI governance records (designed to support OMB M-24-10 reviews)",
+                "Cryptographic audit trails (mapped to NIST AI RMF)",
+                "AI transparency documentation (designed for audit review)",
+                "AI governance controls (designed with FedRAMP control families in mind)",
             ],
             "regulatory_refs": [
                 "OMB Memorandum M-24-10 (AI Governance)",
@@ -1006,7 +1002,7 @@ ILLUSTRATIVE UPSIDE: {config['roi_metric']}
 
 REALITY CHECK: The regulatory landscape is tightening. Organizations building audit trails NOW will have 6-12 months of clean history when enforcement accelerates.
 
-AVAILABILITY: We have capacity for 2 more engagements this quarter at the early adopter rate ($500 pilot). After that, standard pricing ($2,500) and a waitlist through Q1 2026.
+AVAILABILITY: Early adopter pilot: $500. Standard engagement: $2,500. If the timing fits your review cycle, we can scope the pilot this week.
 
 NEXT STEP: I'd like to schedule a brief validation call to show you exactly how this works in {industry}.
 
@@ -1059,7 +1055,7 @@ P.S. At the $500 early adopter tier I'll personally run your first {regulatory_r
             regulatory_ref = random.choice(config["regulatory_refs"])
             return f"""Great question. Let me give you the technical answer for {industry}:
 
-TECHNICAL DEPTH: SHA-256 cryptographic hashing on every AI decision—same standard used by federal systems. Auditors can mathematically verify zero tampering. It's provably immutable.
+TECHNICAL DEPTH: SHA-256 cryptographic hashing on every AI decision. Auditors can verify the chain mathematically — any tampering breaks the link and shows. Tamper-evident, not tamper-proof: we claim detection, not magic.
 
 DESIGN INTENT: tamper-proof audit trails so {config['social_proof']} face audits with cryptographic evidence. Illustrative upside: {config['roi_metric']}
 
@@ -1177,9 +1173,9 @@ P.S. If you know anyone in {industry} dealing with audit trail challenges, I'd a
 
 Do you have an upcoming model risk review, OCC examination, or SR 11-7 validation in the next 90 days?
 
-If yes: We should talk this week. Most banks need 60-90 days to build clean audit trails, and you're running tight on time.
+If yes: We should talk this week. Building a clean audit trail takes most teams 60-90 days, so if your review is soon, timing matters.
 
-If no: You might want to wait until regulatory pressure increases. We're prioritizing institutions with imminent audits (2 slots remaining at $500 pilot rate).
+If no: You may want to wait until regulatory pressure increases. If your audit timeline moves up, the pilot runs 4-8 weeks — reach out and we'll scope it.
 
 Could you share your audit timeline? That'll help me determine if this is the right time for you.
 
@@ -1193,9 +1189,9 @@ P.S. Either Tuesday 10am or Wednesday 2pm works for a brief 15-minute qualificat
 
 Do you have an upcoming FDA submission, Joint Commission review, or AI safety audit in the next 90 days?
 
-If yes: We should connect this week. Most health systems need 60-90 days to build provable AI governance, and timing is tight.
+If yes: We should connect this week. Building provable AI governance takes most teams 60-90 days, so if your review is soon, timing matters.
 
-If no: You may want to wait until regulatory pressure increases. We're prioritizing organizations with imminent reviews (2 pilot slots remaining at $500).
+If no: You may want to wait until regulatory pressure increases. If your review timeline moves up, the pilot runs 4-8 weeks — reach out and we'll scope it.
 
 Could you share your review timeline? That'll help determine if now is the right time.
 
@@ -1308,6 +1304,7 @@ if __name__ == '__main__':
         print("-"*80)
     
     # DEMO 3: Closing scenarios (after industry is known)
+    # Demo fixtures: placeholder addresses, not real customers
     print("\n" + "="*80)
     print("📋 DEMO 3: CLOSING SCENARIOS (Industry-Aware Responses)")
     print("="*80)
@@ -1319,7 +1316,7 @@ if __name__ == '__main__':
             "email": {
                 "subject": "Re: Model Risk Solution",
                 "body": "This looks interesting. Can we schedule a call?",
-                "prospect_email": "sarah.johnson@wellsfargo.com"
+                "prospect_email": "demo.prospect1@example.com"
             },
             "intent": "interested"
         },
@@ -1328,7 +1325,7 @@ if __name__ == '__main__':
             "email": {
                 "subject": "Re: AI Governance",
                 "body": "How does the cryptographic hashing actually work?",
-                "prospect_email": "james.martinez@uchealth.org"
+                "prospect_email": "demo.prospect2@example.com"
             },
             "intent": "question"
         },
@@ -1337,7 +1334,7 @@ if __name__ == '__main__':
             "email": {
                 "subject": "Re: Mythara Demo",
                 "body": "Not interested right now, thanks.",
-                "prospect_email": "mike.chen@pingidentity.com"
+                "prospect_email": "demo.prospect3@example.com"
             },
             "intent": "not_interested"
         },

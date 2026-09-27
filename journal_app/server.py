@@ -8,8 +8,11 @@ PWA journal UI and a JSON API.
 v1 scope, stated plainly:
   - Binds to 127.0.0.1 only. Single local user. No auth, no TLS.
   - This is a working prototype, NOT production: real users need auth,
-    TLS, backups, terms of service, and an LLC behind it. None of that
-    exists yet.
+    TLS, backups, and terms of service. None of that exists yet.
+  - Entity: Mythara Labs LLC — a Colorado domestic limited liability
+    company; Articles of Organization filed with the Colorado Secretary
+    of State on September 27, 2026, pending completion; member-managed;
+    sole member and organizer: Herbert Velez Jr.
 
 Run:
     python3 journal_app/server.py

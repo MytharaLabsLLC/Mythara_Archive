@@ -1,7 +1,10 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Proprietary and Confidential.**
 
-# Target Accounts Pipeline — Mythara Engine (SSIP Orchestration)
+# Target Accounts Pipeline — Mythara Engine
+
+> **Aspirational pipeline.** No customers, pilots, or accounts exist yet.
+> Everything below is a targeting plan, not a customer list.
 
 Use this to track outreach. Keep sensitive contact info private within the repo.
 
@@ -9,39 +12,47 @@ Use this to track outreach. Keep sensitive contact info private within the repo.
 |---|---|---|---|---|---|---|---|---|---|---|---|
 |  |  |  |  |  |  |  |  |  |  |  |  |
 
-## Ideal Customer Profiles (ICP)
+## Ideal Customer Profiles (ICP) — targets, not customers
 
 - Enterprise AI Governance & Model Risk (Banking/Insurance/Fintech)
   - Buyers: Head of Model Risk, Chief Risk Officer, Model Governance Lead, VP Compliance
-  - Why Mythara: SSIP auditability, integrity hashes, explainability trail, policy enforcement
+  - Why Mythara: hash-chained audit trail, integrity scoring, explainable
+    decisions with stated evidence — material a model-risk reviewer can inspect
 
 - Healthcare/MedTech/Digital Therapeutics
-  - Buyers: VP Clinical Safety, CMIO, Regulatory Affairs (FDA/MDR), Quality/Clinical Ops
-  - Why Mythara: Safety and clinical explainability, crisis pathways, DSM-5-TR alignment
+  - Buyers: VP Clinical Safety, CMIO, Regulatory Affairs, Quality/Clinical Ops
+  - Why Mythara: tamper-evident decision records, safety fallbacks, audit trail
+    for AI-assisted workflows
 
-- Automotive/Autonomy/Robotics (ISO 26262/IEC 61508/DO-178C contexts)
+- Automotive/Autonomy/Robotics
   - Buyers: Functional Safety Lead, Head of Autonomy, Product Safety, Compliance
-  - Why Mythara: Clause-level integrity, invocation logs, safety metrics for certification
+  - Why Mythara: content-hashed decision records, invocation logs,
+    reproducibility evidence for safety reviews
 
 - Defense/Public Sector/National Labs
   - Buyers: Program Manager, AI Assurance Lead, CISO, Cyber/ML Ops
-  - Why Mythara: Traceable SSIP pipeline, enclave-friendly, audit protocols
+  - Why Mythara: traceable decision pipeline, reproducible builds, audit-ready
+    records. Note: SERE is a training simulation only — never pitched as a
+    capability or weapon.
 
 - Cloud/AI Platforms & Responsible AI Teams
   - Buyers: Responsible AI Lead, Partner PM, Platform Security, Trust & Safety
-  - Why Mythara: Integrates as a service; adds measurable SSIP compliance and metrics
+  - Why Mythara: integrates as a service; adds an evidence-judged integrity
+    layer to AI workflows
 
 - Cybersecurity & GRC Vendors (AppSec, Supply Chain)
   - Buyers: CTO/VP Product, Head of Governance/Risk, Security Architecture
-  - Why Mythara: Assurance layer and forensic ledger for AI-enabled workflows
+  - Why Mythara: tamper-evident audit trail for AI-enabled workflows
 
 - Critical Infrastructure & Energy (ICS/OT)
   - Buyers: Safety Engineering, Reliability, Risk Management
-  - Why Mythara: Tamper-evident orchestration, audit-ready logs, integrity enforcement
+  - Why Mythara: tamper-evident records, fail-closed governance, audit-ready logs
 
 - EdTech & Mental Health Platforms
   - Buyers: Clinical Safety, Compliance, Product
-  - Why Mythara: DSM-5-TR aware patterns, crisis escalation, audit trail
+  - Why Mythara: crisis-escalation pathways, audit trail. Never marketed as
+    therapy or emotion AI — the system attests records, it does not infer
+    feelings.
 
 ## Pipeline Stages (suggested)
 
@@ -53,8 +64,8 @@ Use this to track outreach. Keep sensitive contact info private within the repo.
 - 5: License negotiation
 - 6: Closed-won (Production) / Closed-lost
 
-## Pilot offer (evaluation)
+## Pilot offer (evaluation) — template, no pilots signed
 
-- Non-exclusive evaluation license (read-only repo access)  
-- Deliverables: SSIP compliance report, integrity hashes, invocation audit, a11y report  
+- Non-exclusive evaluation license (read-only repo access)
+- Deliverables: SSIP audit report, integrity hashes, invocation audit, accessibility report
 - Duration: 30–45 days with success criteria agreed upfront

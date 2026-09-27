@@ -1,4 +1,6 @@
-# Emotional Extortion Detection API
+# Emotional Extortion Detection API (design concept — not implemented)
+
+> **Status: design concept.** No emotional-extortion module exists in the repo, no tests exist, and no endpoints are live. Treat all endpoints, scores, payloads, and pricing below as illustrative design — not as a working system.
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**
@@ -260,9 +262,9 @@ curl -X POST https://api.mythara.dev/v1/emotional-extortion/detect \
 
 ---
 
-## Pricing
+## Pricing (proposed — aspirational, not currently offered)
 
-Emotional Extortion Detection is included in all tiers:
+If this were ever offered, the draft tier structure would be:
 
 | Tier | Monthly Invocations | Price |
 |------|---------------------|-------|
@@ -275,14 +277,11 @@ Emotional Extortion Detection is included in all tiers:
 
 ## Testing
 
-Run the test suite:
-```bash
-python tests/test_emotional_extortion.py
-```
+No test files exist in the repo — `tests/test_emotional_extortion.py` and `test_extortion_api.py` are not present. The commands below are planned, not runnable:
 
-Run quick validation:
 ```bash
-python test_extortion_api.py
+python tests/test_emotional_extortion.py   # planned
+python test_extortion_api.py              # planned
 ```
 
 ---
@@ -291,8 +290,7 @@ python test_extortion_api.py
 
 For technical support or questions about emotional extortion detection:
 - Email: Mythara.Engine@yahoo.com
-- Documentation: https://mythara.dev/docs/emotional-extortion
-- Slack: #emotional-safety channel
+- Documentation: https://mythara.dev/docs/emotional-extortion (planned, not live)
 
 ---
 

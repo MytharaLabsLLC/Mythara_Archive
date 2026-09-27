@@ -99,7 +99,7 @@ TECH_STACK = {
     "speech_to_text": {
         "service": "OpenAI Whisper API",
         "cost": "$0.006/minute",
-        "accuracy": "95%+ (industry best)",
+        "accuracy": "high on clean audio; vendor-published benchmarks vary",
         "languages": "50+ languages",
         "endpoint": "https://api.openai.com/v1/audio/transcriptions"
     },
@@ -373,7 +373,7 @@ class VoIPSalesBot:
 '''
 
 # =============================================================================
-# SUCCESS METRICS (Q1 2026)
+# TARGET METRICS (Q1 2026 — aspirational goals, not results)
 # =============================================================================
 
 SUCCESS_METRICS = {
@@ -384,6 +384,8 @@ SUCCESS_METRICS = {
     "target_revenue": "$12,500",     # 5 deals × $2,500 avg
     "roi": "12x",                    # $12,500 revenue / $1,000 cost
 }
+# NOTE: every value above is a target for a project that has not launched.
+# No calls have been made and no revenue has been earned from this bot.
 
 # =============================================================================
 # LAUNCH CHECKLIST

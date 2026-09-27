@@ -87,7 +87,7 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 
 ### Deployment Model
 - Mythara-hosted cloud infrastructure (AWS/Azure, your choice)
-- Managed API with 99.9% uptime SLA
+- Managed API with 99.9% uptime SLA (target; infrastructure planned, not yet deployed)
 - Automatic updates and security patches
 - Optional on-premise deployment (add +$5k setup)
 
@@ -110,7 +110,7 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 **Everything in Tier 2, plus:**
 
 - **Multi-site deployment**:
-  - Hospital networks (e.g., 12 St. Jude partner hospitals)
+  - Hospital networks (e.g., partner hospitals in a national network)
   - Regional chapters (e.g., Catholic Charities across 50 dioceses)
   - International operations (localized for EU, Asia-Pacific)
 
@@ -144,7 +144,7 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
   - Press-ready materials
 
 ### Deployment Model
-- Mythara-hosted enterprise cloud (99.99% uptime SLA)
+- Mythara-hosted enterprise cloud (99.99% uptime SLA target; infrastructure planned, not yet deployed)
 - Optional hybrid (some modules on-premise, dashboards in cloud)
 - Disaster recovery and data redundancy included
 - Compliance readiness (controls designed around HIPAA, GDPR, SOC 2 Type II frameworks; certifications not currently held)
@@ -156,8 +156,8 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 
 ### Ideal For
 - Large faith organizations (500+ staff, multi-site)
-- National healthcare networks (St. Jude, Mayo Clinic faith partnerships)
-- International disaster relief organizations (Catholic Relief Services, World Vision)
+- National healthcare networks
+- International disaster relief organizations (e.g., Catholic Relief Services, World Vision as illustrative examples — no engagements exist)
 - Denominations with central governance (dioceses, synods, conferences)
 
 ---
@@ -211,8 +211,10 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 
 ## Case Study: Hypothetical St. Jude Deployment
 
+> **Hypothetical scenario for illustration only.** No engagement with St. Jude exists; no pilot has begun. St. Jude is named here solely as a familiar example of the kind of organization this tier would serve.
+
 ### Scenario
-St. Jude Children's Research Hospital seeks to:
+In this hypothetical scenario, a pediatric research hospital would seek to:
 1. Quantify mission resilience during budget constraints
 2. Generate donor impact reports showing benevolent force accumulation
 3. Support staff emotional wellbeing by honoring their sacred work
@@ -220,14 +222,14 @@ St. Jude Children's Research Hospital seeks to:
 ### Recommended Tier: Mythic-Resonant 🌍
 
 **Why?**
-- Multi-site: St. Jude has partner hospitals nationwide
-- Narrative outreach: Donor communications are core to fundraising ($2B+ annual revenue)
+- Multi-site: partner hospitals nationwide
+- Narrative outreach: donor communications are core to fundraising
 - Advanced analytics: Board needs evidence of mission integrity during resource scarcity
 
 ### Deployment Plan
 
 **Phase 1 (Months 1-3): Setup**
-- Install Soul Cradle at flagship Memphis hospital
+- Install Soul Cradle at the flagship hospital
 - Map sacred acts to BR events:
   - Treatment protocols: +15 to +25 BR
   - Grief counseling: +10 to +15 BR
@@ -237,7 +239,7 @@ St. Jude Children's Research Hospital seeks to:
 - Train 50 staff members (nurses, chaplains, social workers, fundraisers)
 
 **Phase 2 (Months 4-6): Expansion**
-- Deploy to 6 partner hospitals (St. Louis, Los Angeles, Miami, etc.)
+- Deploy to 6 partner hospitals
 - Launch real-time dashboard for executive team
 - Generate first quarterly impact report
 
@@ -247,12 +249,12 @@ St. Jude Children's Research Hospital seeks to:
 - Present annual report to board: "47,000 Blessings accumulated across 1,850 acts of care"
 
 **Phase 4 (Year 2+): Scale**
-- Expand internationally (St. Jude Global partnerships)
+- Expand internationally (global partnerships, if applicable)
 - White-label dashboard for donor portal ("See your impact in real-time")
 - Publish peer-reviewed case study in healthcare management journal
 
 ### Projected ROI
-- **Hard ROI**: $500k additional donor revenue (via impact storytelling)
+- **Projected hard ROI**: $500k additional donor revenue (via impact storytelling) — projection, not a measured result
 - **Soft ROI**: 15% reduction in staff turnover (via mission reinforcement)
 - **Strategic ROI**: Board confidence in mission resilience during funding uncertainty
 

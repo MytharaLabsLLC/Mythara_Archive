@@ -11,7 +11,7 @@ Hi [First Name],
 
 I saw [Company] [recent contract win/news] — congratulations on [specific detail].
 
-I'm reaching out because we've just released Mythara Engine pilot packages specifically for government contractors who need reproducible, auditable compliance validation for NIST/FISMA submissions.
+I'm reaching out because we offer Mythara Engine pilot packages for government contractors who need reproducible, auditable compliance validation for NIST/FISMA submissions.
 
 Unlike typical compliance tools, Mythara provides:
 - **PGP-signed forensic manifests** with SHA-256 integrity proofs
@@ -22,7 +22,7 @@ Would a 30-day pilot be valuable ahead of your next contract submission? I can h
 
 Best,  
 Herbert Velez Jr.  
-Mythara Labs LLC (planned)  
+
 Mythara.Engine@yahoo.com  
 Enterprise: $60K/year (firm pricing; trial is the evaluation period)
 
@@ -49,7 +49,7 @@ Worth a quick run-through this month before your next exam window?
 
 Best,  
 Herbert Velez Jr.  
-Mythara Labs LLC (planned)  
+
 Mythara.Engine@yahoo.com  
 Enterprise: $60K/year
 
@@ -67,14 +67,14 @@ For [Company]'s provider workflows, we deliver cryptographic integrity artifacts
 
 What we've built:
 - **PGP-signed manifests** for every clause invocation
-- **99.92% determinism** across reproducibility runs
+- **Deterministic, reproducible runs** — signed integrity artifacts verify every execution
 - **Container-based deployment** (air-gap compatible)
 
 Teams usually go from manual compliance checks to signed, verifiable reports in hours. Interested in a 30-day pilot to prep for your next audit cycle?
 
 Best,  
 Herbert Velez Jr.  
-Mythara Labs LLC (planned)  
+
 Mythara.Engine@yahoo.com  
 Enterprise: $60K/year (firm; no discounts)
 
@@ -118,7 +118,7 @@ In the meantime, best of luck with [specific initiative you mentioned in first e
 
 Best,  
 Herbert Velez Jr.  
-Mythara Labs LLC (planned)  
+
 Mythara.Engine@yahoo.com
 
 ---

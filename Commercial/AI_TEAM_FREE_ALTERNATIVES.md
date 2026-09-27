@@ -2,6 +2,8 @@
 
 # 🆓 AI Team - Free/Low-Cost Alternatives
 
+> **Note.** The MRR figures in the phase plan below are aspirational targets, not current revenue. No revenue exists at these or any figures.
+
 **Problem:** OpenAI API costs $200-300/month for all 6 bots  
 **Solution:** Use free/cheaper alternatives until revenue justifies GPT-4
 
@@ -143,19 +145,19 @@ Use OpenAI but minimize costs:
 
 ## Recommended Approach (Start Free, Scale Up)
 
-### Phase 1: Free (Now - First $5k MRR)
+### Phase 1: Free (Now - First $5k MRR) — aspiration, not current revenue
 - Use **Google Gemini** free tier
 - Run bots **manually** when needed
 - Use **rule-based** scoring where possible
 - Focus on closing deals manually
 
-### Phase 2: Low-Cost ($5k-$20k MRR)
+### Phase 2: Low-Cost ($5k-$20k MRR) — aspiration
 - Upgrade to **GPT-3.5** ($20-30/month)
 - Run Marketing Bot **daily** instead of hourly
 - Automate Sales Trainer Bot **weekly**
 - Invest 1% of revenue in AI (~$50-200/month)
 
-### Phase 3: Full Power ($20k+ MRR)
+### Phase 3: Full Power ($20k+ MRR) — aspiration
 - Upgrade to **GPT-4** ($200-300/month)
 - Run all 6 bots fully automated
 - Add Google Ads budget ($5k/month)

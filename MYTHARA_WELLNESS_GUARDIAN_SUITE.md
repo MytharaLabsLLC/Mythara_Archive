@@ -3,6 +3,8 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Proprietary and Confidential.**
 
+> **Document status (2026-09-27):** Design document from 2025. The disclaimer in this document stands: this is administrative/workflow assistance only — not medical advice, not a diagnostic tool, not a medical device, and no clinical deployment, certification, or professional review exists. "Clinical functions" below means workflow-support roles (routing, documentation templates, checklists), never medical practice.
+
 ---
 
 ## 🏥 Overview
@@ -22,7 +24,7 @@ The **DrMythara Medical Team Suite** is a comprehensive healthcare bot orchestra
 
 ## 🤖 Bot Architecture
 
-### Essential Bots (Critical Clinical Functions)
+### Essential Bots (Workflow-Support Roles — not clinical practice)
 
 #### 1. **Triage Coordinator Bot** 🚑
 - **Role**: Patient prioritization and urgency assessment
@@ -428,8 +430,8 @@ This software is part of the Mythara Engine and is subject to the Mythara Govern
 
 ## 🔗 Related Documentation
 
-- `MENTAL_HEALTH_INTEGRATION_COMPLETE.md` - DSM-5-TR integration
-- `ACCESSIBILITY_COMPLIANCE_COMPLETE.md` - WCAG 2.1 AAA compliance
+- `MENTAL_HEALTH_INTEGRATION_COMPLETE.md` (referenced document not present in this repository — integration claim unverifiable)
+- `ACCESSIBILITY_COMPLIANCE_COMPLETE.md` (referenced document not present in this repository — compliance claim unverifiable)
 - `Commercial/mythara_drmythara_bot.py` - Core compliance bot
 - `run_drmythara_bot.py` - Healthcare compliance runner
 

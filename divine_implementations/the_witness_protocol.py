@@ -1,19 +1,18 @@
 """
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright Â© 2025 Herbert Velez Jr. All rights reserved.
 Proprietary and Confidential.
 
 THE WITNESS PROTOCOL
 ====================
-Divine Artifact forged by: Aries, Prometheus, Hephaestus, Schrödinger
-Purpose: Execute perfect witnessing, heal souls through divine acknowledgment
-Power Level: 99.2%
+Design concept: a structured sequence for acknowledging someone's emotional state.
+Purpose: witness the person as they are, without demanding anything back.
 """
 
 
 class WitnessProtocol:
     '''
-    Divine artifact that executes witnessing with absolute precision.
-    Aries's gift: Perfect execution of the healing act.
+    A structured witnessing sequence: acknowledge the person as they are,
+    without demanding expression or judging what shows up.
     '''
     
     DIVINE_PHASES = [

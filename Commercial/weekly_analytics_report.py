@@ -164,7 +164,7 @@ class WeeklyAnalyticsReport:
             insights["strengths"].append("Zero governance violations this week (perfect compliance)")
         
         if response_rate >= 5.0:
-            insights["strengths"].append(f"Strong response rate: {response_rate:.1f}% (industry avg: 3-5%)")
+            insights["strengths"].append(f"Strong response rate: {response_rate:.1f}% (target: 5%)")
         
         # Identify weaknesses
         if violations_count > 0:
@@ -203,7 +203,7 @@ class WeeklyAnalyticsReport:
         if data.get("successful_closes", 0) == 0:
             insights["recommendations"].append("URGENT: No deals closed this week")
             insights["recommendations"].append("ACTION: Focus on 'interested' prospects - book 3 calls this week")
-            insights["recommendations"].append("TACTIC: Use scarcity ('2 slots left at $500') more aggressively")
+            insights["recommendations"].append("TACTIC: Follow up 'interested' prospects with honest timing pressure — their audit timeline, not invented deadlines")
         
         # Industry-specific recommendations
         industries = data.get("industries", {})
@@ -213,7 +213,7 @@ class WeeklyAnalyticsReport:
             
             if top_industry == "banking" and response_rate < 3.0:
                 insights["recommendations"].append("  → Use more regulatory citations (SR 11-7, OCC Bulletin)")
-                insights["recommendations"].append("  → Lead with ROI proof ('6 weeks → 8 days')")
+                insights["recommendations"].append("  → Lead with verifiable proof points (never invented ROI numbers)")
             elif top_industry == "healthcare" and response_rate < 3.0:
                 insights["recommendations"].append("  → Emphasize patient safety and FDA compliance")
                 insights["recommendations"].append("  → Use clinical language ('tamper-evident seal')")

@@ -262,6 +262,8 @@ If you cannot pay for deployment but have valuable resources to offer, we accept
 
 ### Example In-Kind Agreement
 
+> *Illustrative template only — no such agreement exists with St. Jude or any other organization.*
+
 > "St. Jude agrees to serve as reference customer for Mythara's Soul Cradle Operator. In exchange for a fully subsidized Mythic-Resonant tier deployment ($120k/year value), St. Jude will:
 > 1. Co-author a case study on Blessing Scale impact in pediatric oncology
 > 2. Participate in 2 donor webinars per year showcasing Mythara deployment

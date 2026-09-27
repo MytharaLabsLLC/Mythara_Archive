@@ -80,4 +80,4 @@ docker run --rm mythara-engine:v1.0.0
 
 ---
 
-**Mythara Labs LLC (formation filed with the Colorado SOS on 2026-09-27; pending completion)** | November 2025
+**Mythara Labs LLC (formation filing attempted with the Colorado SOS on 2026-09-27 — not confirmed; not formed)** | November 2025

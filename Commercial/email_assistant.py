@@ -327,68 +327,65 @@ Return ONLY the category name and a confidence score (0-1) as JSON:
             for chunk in context_chunks:
                 rag_context += f"- From {chunk['filepath']}: {chunk['text'][:300]}...\n"
         
-        # Sales psychology frameworks (Jevons Effect + Fear of Loss + Urgency + Indifference)
+        # Honest framing for outbound drafts (no invented scarcity, no fake deadlines)
         sales_psychology = """
-**SALES PSYCHOLOGY FRAMEWORK (JEVONS EFFECT MODEL):**
+**HONEST FRAMING FOR OUTBOUND DRAFTS:**
 
-1. JEVONS EFFECT (SCARCITY → PERCEIVED VALUE):
-   - LIMITED SUPPLY TRIGGERS: "Only 3 early adopter slots left" (not "limited time offer")
-   - CONSTRAINED ACCESS: "I can only onboard 5 companies this quarter" (capacity constraint, not fake scarcity)
-   - COMPETITIVE PRESSURE: "2 other banks in your region are evaluating this week"
-   - EXCLUSIVITY FRAME: "Most companies don't qualify for $500 pricing—you do because of [specific reason]"
-   
-2. FEAR OF LOSS (LOSS AVERSION > GAIN SEEKING):
-   - REGULATORY RISK: "Your next CFPB audit without this = $500k-$5M fine exposure"
-   - COMPETITIVE LOSS: "While you evaluate, competitors are building auditable AI advantage"
-   - OPPORTUNITY COST: "Every week without this = 20+ hours of manual audit prep you can't get back"
-   - PRICING LOSS: "$500 expires Friday. After that it's $2,500 (I can't make exceptions)"
-   - SOCIAL PROOF LOSS: "Early adopters will have 6 months of validated data before you start"
+Hard rule: never invent slot counts, customer numbers, deadlines, prices,
+or what other companies are doing. If you do not know it, do not write it.
+Real constraints (e.g. Herb's actual onboarding capacity) may be stated
+only if Herb provided the exact number.
 
-3. SENSE OF URGENCY (TIME COMPRESSION):
-   - EXTERNAL DEADLINES: "Fed AI governance rules effective Q2 2026—setup takes 60 days"
-   - INTERNAL CONSTRAINTS: "I'm booking December pilots this week. After Friday I'm locked until February"
-   - PRICING WINDOWS: "$500 pricing ends when I hit 20 customers (currently at 17)"
-   - EVENT-DRIVEN: "Your audit is in 6 weeks—we can have validation reports ready in 10 days"
-   - MOMENTUM LOSS: "The longer you wait, the less historical data you'll have for your first audit"
+1. STRAIGHT VALUE (instead of manufactured scarcity):
+   - Say what it is: "$500 SSIP audit, 5-day delivery, findings report included"
+   - Say who it is for: "teams facing AI audit pressure in the next 90 days"
+   - Let fit do the qualifying: "If that is not you, no hard feelings"
 
-4. STRATEGIC INDIFFERENCE (TAKEAWAY SELLING):
+2. HONEST RISK FRAMING (instead of invented fines):
+   - Reference real obligations: "If your next audit asks for AI explainability evidence, this is the artifact they want"
+   - No invented fine amounts, no invented competitor behavior, no invented hours-saved numbers
+
+3. REAL TIMING (instead of fake deadlines):
+   - Tie timing to THEIR calendar: "Your audit is in 6 weeks — we deliver in 5 days"
+   - Never invent a Friday deadline, a slot count, or a customer count
+
+4. STRATEGIC INDIFFERENCE (takeaway selling):
    - NOT CONVINCING, QUALIFYING: "This might not be a fit if you don't have regulatory pressure right now"
-   - WILLING TO WALK: "If timing's not right, totally understand. I'll check back in Q2"
+   - WILLING TO WALK: "If timing's not right, totally understand. I'll check back next quarter"
    - SELECTIVE AVAILABILITY: "I'm prioritizing companies with audits in next 90 days—is that you?"
-   - PEER PRESSURE: "Most banks need model risk committee approval first. Do you have that authority or should I talk to someone else?"
    - HIGH-STATUS POSITIONING: "I only work with teams that can move fast. Can you decide this week or do you need more approvals?"
 
-5. OBJECTION REFRAMING (INDIFFERENCE + LOSS):
-   - "Too expensive" → "Compared to what? A CFPB fine? A failed audit? 200 hours of manual work?"
-   - "Need time to think" → "Totally fair. Just know the $500 window closes Friday and I might be booked by the time you circle back"
+5. OBJECTION REFRAMING (honest):
+   - "Too expensive" → "Compared to what? A failed audit, or the manual work your team already does?"
+   - "Need time to think" → "Totally fair. Just tell me your audit timeline and I'll tell you the latest date this still works"
    - "Already have logs" → "That's great—this replaces them with cryptographic proof. But if your current solution passes audits, you probably don't need this"
    - "Not priority" → "Got it. Out of curiosity, when's your next model risk review? [If soon] Ah, then you might want this sooner than you think"
    
 6. TONE CALIBRATION:
    - Confident, not arrogant
-   - Helpful, not needy  
-   - Scarce, not desperate
+   - Helpful, not needy
+   - Selective, not desperate
    - Indifferent to outcome, obsessed with fit
    - "I don't chase—I qualify and close"
 
 7. CLOSING MECHANICS:
    - ASSUMPTIVE: "I'll send the calendar invite for Tuesday 2pm—does that work or is Wednesday better?"
    - ALTERNATIVE CHOICE: "Do you want the full audit module or just agent override tracking to start?"
-   - URGENCY STACK: "If you commit by Friday: $500 price + priority onboarding + I'll personally run your first audit report"
+   - TIMING TIE: "If your audit is coming up, let's lock a date now so the report is ready in time"
    - TAKEAWAY CLOSE: "If you're not 100% sure, let's not waste time. I'd rather you be certain this solves your problem"
 """
         
         # Build prompt based on intent
         if intent == 'interested':
-            instruction = """They are interested. Your goal: QUALIFY + CREATE SCARCITY + CLOSE FAST.
+            instruction = """They are interested. Your goal: QUALIFY + CLOSE FAST.
 
-**JEVONS EFFECT APPLICATION:**
+**HONEST APPLICATION:**
 1. Acknowledge interest (1 sentence do not gush)
 2. QUALIFY HARD - Quick question do you have regulatory pressure in next 90 days or is this exploratory
-3. CREATE SCARCITY - I have 2 early adopter slots left at $500 (normally $2500) After Friday it is full price
-4. FEAR OF LOSS - For example, an early adopter starting today would have 6 months of audit data before a latecomer even starts
+3. HONEST FIT - At the $500 early adopter rate I am prioritizing companies with near-term audit pressure
+4. REAL TIMING - Starting sooner means more audit evidence on record when you need it
 5. ASSUMPTIVE CLOSE - I am booking Tuesday or Wednesday this week Which works better 10am or 2pm MT
-6. INDIFFERENCE SAFETY NET - If timing is not right totally understand just do not want you to miss the $500 window
+6. INDIFFERENCE SAFETY NET - If timing is not right totally understand — no pressure, the early adopter rate stands while the program runs
 7. Keep under 130 words
 8. Sign as Herbert
 
@@ -400,13 +397,13 @@ Return ONLY the category name and a confidence score (0-1) as JSON:
 - Ask permission (TELL them the next step)"""
 
         elif intent == 'question':
-            instruction = """They have a question. Your goal: ANSWER BRIEFLY + REFRAME TO URGENCY + ADVANCE.
+            instruction = """They have a question. Your goal: ANSWER BRIEFLY + ADVANCE.
 
-**JEVONS EFFECT APPLICATION:**
+**HONEST APPLICATION:**
 1. Answer their question directly (2 sentences max use RAG context)
-2. REFRAME TO LOSS - Tie answer to what they are losing without it
-3. SOCIAL PROOF SCARCITY - Early adopters will have their validation reports ready first
-4. URGENCY INJECTION - Early adopter pricing $500 closes Friday then it is $2500
+2. REFRAME TO TIMING - Tie answer to their audit timeline, not an invented deadline
+3. HONEST NEXT STEP - Offer the validation report sample so they can evaluate async
+4. REAL TIMING - Reference the $500 early adopter rate and their own calendar, never invent a deadline
 5. ASSUMPTIVE ADVANCE - 15-min screen share Tuesday or Wednesday which is better
 6. INDIFFERENCE OPTION - Or I can send our validation report now and you can evaluate async up to you
 7. Keep under 140 words
@@ -417,15 +414,15 @@ Return ONLY the category name and a confidence score (0-1) as JSON:
 **DO NOT:**
 - Write a technical manual
 - Say let me know if you have more questions (too passive)
-- Forget to create urgency around pricing and availability"""
+- Invent deadlines, slot counts, or customer numbers"""
 
         elif intent == 'not_interested':
             instruction = """They are not interested RIGHT NOW. Your goal: STRATEGIC INDIFFERENCE + PLANT FEAR SEED + REFERRAL.
 
-**JEVONS EFFECT APPLICATION:**
+**HONEST APPLICATION:**
 1. TOTAL INDIFFERENCE - No problem at all appreciate you letting me know
-2. PLANT FUTURE LOSS - If your next audit gets flagged for AI explainability feel free to reach out (casual not pushy)
-3. TAKEAWAY SCARCITY - I am only taking new clients through Q1 anyway so timing works out
+2. HONEST DOOR-OPEN - If your next audit asks for AI explainability evidence, feel free to reach out (casual not pushy)
+3. CLEAN EXIT - I only take on new clients when the timing is right for both sides, so no hard feelings
 4. REFERRAL ASK - Quick question do you know anyone at competitor handling model risk Happy to help them out
 5. FINAL VALUE OFFER - If you ever need our validation report as a benchmark just ping me
 6. Keep under 70 words
@@ -439,15 +436,15 @@ Return ONLY the category name and a confidence score (0-1) as JSON:
 - Use needy language"""
 
         else:  # unknown/question
-            instruction = """Unclear intent. Your goal: QUALIFY HARD + CREATE URGENCY + FORCE DECISION.
+            instruction = """Unclear intent. Your goal: QUALIFY HARD + ADVANCE TO A DECISION.
 
-**JEVONS EFFECT APPLICATION:**
+**HONEST APPLICATION:**
 1. Acknowledge their email (1 sentence)
 2. QUALIFY HARD - Quick clarification do you have an upcoming audit or review or is this more exploratory
-3. SCARCITY FRAME - I am down to 2 early adopter slots at $500 (normally $2500) so I am prioritizing companies with near-term need
-4. FEAR OF LOSS - If you are in exploratory mode you might want to wait until you have regulatory pressure
+3. HONEST FIT - At the $500 early adopter rate I am prioritizing companies with near-term need
+4. REAL TIMING - If they are exploratory, suggest reconnecting when audit pressure arrives
 5. ASSUMPTIVE CLOSE - If it is urgent Tuesday 10am or Wednesday 2pm MT work for a 15-min overview
-6. INDIFFERENT EXIT - If timing is not right totally cool just do not want to burn a $500 slot on someone who is not ready
+6. INDIFFERENT EXIT - If timing is not right totally cool — happy to reconnect when it is
 7. Keep under 110 words
 8. Sign as Herbert
 
@@ -474,7 +471,7 @@ Body: {email_data['body']}
             response = self.openai_client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[
-                    {"role": "system", "content": "You are Herbert, a confident B2B sales closer for Mythara Engine. You use consultative selling, pain-point focus, and always advance toward close. You are helpful but direct. You create urgency without being pushy."},
+                    {"role": "system", "content": "You are Herbert, founder of Mythara Engine. You sell honestly: consultative, pain-point focused, always advancing toward a clear next step. You are direct and helpful. You never invent deadlines, slot counts, customer numbers, or prices — no manufactured urgency."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.7,

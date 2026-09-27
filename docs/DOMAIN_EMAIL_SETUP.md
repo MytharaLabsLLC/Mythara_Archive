@@ -1,7 +1,4 @@
-# GitHub Copilot Instructions for Mythara Engine
-
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 ---
 

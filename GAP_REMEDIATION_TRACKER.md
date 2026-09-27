@@ -6,11 +6,13 @@
 **Target Completion:** February 20, 2026 (90 days)  
 **Daily Update Required:** Yes (EOD)
 
+> **Note:** All revenue figures in this tracker are internal planning projections and aspirational targets — not earned revenue, pipeline, or actuals. Mythara is pre-launch; these numbers model what closing each gap could unlock.
+
 ---
 
 ## 📊 OVERALL PROGRESS
 
-| Gap | Priority | Status | Revenue Impact | Completion % | Target Date |
+| Gap | Priority | Status | Projected Revenue Impact* | Completion % | Target Date |
 |-----|----------|--------|----------------|--------------|-------------|
 | **GAP 1: Customer Proof** | 🔴 CRITICAL | 🟡 In Progress | $50M ARR | 0% | Dec 20, 2025 |
 | **GAP 2: Live Demo** | 🟠 HIGH | ⚪ Not Started | $30M ARR | 0% | Dec 4, 2025 |
@@ -278,7 +280,7 @@
 - [ ] Controls implemented
 - [ ] Observation period started
 
-**Success Metric:** $28.8M ARR pipeline (double baseline)
+**Success Metric (aspirational target):** $28.8M ARR pipeline (projection — double baseline target)
 
 ---
 
@@ -385,9 +387,9 @@
 
 **END OF TRACKER - UPDATE DAILY**
 
-**Quick Link:** [FORENSIC_GAP_ANALYSIS.md](./FORENSIC_GAP_ANALYSIS.md)
+**Quick Link:** [FORENSIC_CORPORATE_REVIEW_2025-11-18.md](./FORENSIC_CORPORATE_REVIEW_2025-11-18.md)
 
 ---
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Mythara Industries. 90 days to dominance.**
+**Mythara. 90 days to dominance.**

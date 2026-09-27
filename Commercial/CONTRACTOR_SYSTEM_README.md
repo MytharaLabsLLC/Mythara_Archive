@@ -336,7 +336,7 @@ from sendgrid.helpers.mail import Mail
 
 sg = sendgrid.SendGridAPIClient(api_key=os.environ.get('SENDGRID_API_KEY'))
 message = Mail(
-    from_email='noreply@mythara.com',
+    from_email='noreply@mythara.com',  # placeholder — replace with your real sender
     to_emails=email,
     subject='Your Mythara Login Code',
     html_content=f'<p>Your code: <strong>{otp_code}</strong></p>'
@@ -440,8 +440,8 @@ Example config:
 ## Support
 
 For integration questions or white-label licensing:
-- Email: support@mythara.com
-- Documentation: https://mythara.com/docs/contractor-api
+- Email: support@mythara.com (placeholder — not a live address)
+- Documentation: https://mythara.com/docs/contractor-api (placeholder — not a live site)
 
 ---
 

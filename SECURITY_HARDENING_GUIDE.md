@@ -388,7 +388,7 @@ Planned security improvements:
 
 - [OWASP API Security Top 10](https://owasp.org/www-project-api-security/)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Big Meanie Arsenal](BIG_MEANIE_ARSENAL.md)
+- [Big Meanie Quick Reference](BIG_MEANIE_QUICK_REF.md)
 - [Comprehensive Security Audit](COMPREHENSIVE_SECURITY_AUDIT.md)
 
 ---

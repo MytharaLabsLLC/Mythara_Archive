@@ -3,6 +3,8 @@
 **Package:** mythara-engine-v1.0.0.zip (0.7 MB)  
 **SHA256:** 94B45D271F56B9CD06C9C1323AA09949CF81A9D9F1D951E20A7EE42180453DA2
 
+> **Note (Sept 2026):** `mythara-engine-v1.0.0.zip` is **not present in this archive** (only its hash file, `mythara-engine-v1.0.0.zip.sha256`). These are template instructions from November 2025 — adapt them to whatever package you actually distribute.
+
 ---
 
 ## Quick Upload (5 Commands)

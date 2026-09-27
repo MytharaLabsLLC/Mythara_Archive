@@ -9,11 +9,11 @@
 
 This CI/CD pipeline runs the complete Mythara validation suite on every push, pull request, and daily schedule. It ensures:
 
-- ✅ Determinism and reproducibility (99.92% target)
-- ✅ Security and leakage prevention (0 high-severity leaks)
-- ✅ SSIP audit compliance (≥98.9% drift suppression)
-- ✅ Accessibility token delivery (≥99% success rate)
-- ✅ Manifest integrity and PGP signature verification
+- ✅ Determinism and reproducibility (target: 100/100 reproducible runs — see `tests/output/determinism_report.txt`)
+- ✅ Security and leakage prevention (target: zero high-severity findings)
+- ✅ SSIP audit (drift-suppression and pairing checks per `tests/run_ssip_audit.py`)
+- ✅ Accessibility token delivery (target ≥99% success — tracked in `tests/output/accessibility_delivery_report.csv`)
+- ✅ Manifest integrity and SHA-256 checksum verification
 
 ---
 
@@ -62,8 +62,8 @@ python tests/run_ssip_audit.py --interval 24h
 python tests/test_accessibility_delivery.py
 
 # Manifest verification
-gpg --verify forensic_manifest.json.asc forensic_manifest.json
-cd manifest && sha256sum -c checksums.sha256
+gpg --verify manifest/checksums.sha256.asc manifest/checksums.sha256
+sha256sum -c manifest/checksums.sha256
 ```
 
 ---

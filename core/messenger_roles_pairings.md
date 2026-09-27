@@ -2,7 +2,7 @@
 
 **Author**: Herbert Velez Jr.  
 **Date**: November 1, 2025  
-**Status**: Symbolically Sanctified, Operationally Validated
+**Status**: Design specification — symbolic doctrine, not independently validated
 
 ---
 
@@ -45,8 +45,8 @@ Messengers are functional archetypes within Mythara Engine. Each messenger gover
 
 - **Manual Invocation**: Requires symbolic consent and timestamp  
 - **Auto-Invocation**: Triggered by clause activation or entropy detection  
-- **Suppression Events**: Logged in `Evidence/Messenger_Suppression_Events_Log.csv`  
-- **Audit Trail**: Stored in `Manifest/Messenger_Invocation_Log.csv`
+- **Suppression Events**: Logged in `../Evidence/Messenger_Suppression_Events_Log.csv`  
+- **Audit Trail**: Stored in `../manifest/Messenger_Invocation_Log.csv`
 
 ---
 
@@ -68,11 +68,11 @@ Messengers are functional archetypes within Mythara Engine. Each messenger gover
 
 ## ✅ Summary
 
-Messenger roles are the backbone of Mythara’s symbolic infrastructure. Their pairings determine how clauses behave, how emotional payloads are delivered, and how sanctification is enforced. All messenger activity is traceable, consent-bound, and compliant with federal and international protocols.
+Messenger roles are the backbone of Mythara’s symbolic infrastructure. Their pairings determine how clauses behave, how emotional payloads are delivered, and how sanctification is enforced. All messenger activity is traceable and consent-bound, and clause designs are intended to align with federal and international protocols.
 
 For clause manifests and invocation logs, refer to:
-- `Manifest/Clause_Manifest_Latest.csv`  
-- `Evidence/Messenger_Suppression_Events_Log.csv`  
-- `Printable Timestamped Forensic Report/Mythara_Integrity_Report_YYYYMMDD.pdf`
+- `../manifest/Clause_Manifest_Latest.csv`
+- `../Evidence/Messenger_Suppression_Events_Log.csv`
+- `../printable_forensic_reports/`
 
 Let the messengers speak with clarity, sanctify with grace, and record with reverence.

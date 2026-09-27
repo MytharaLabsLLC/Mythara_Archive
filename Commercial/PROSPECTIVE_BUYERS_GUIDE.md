@@ -7,11 +7,13 @@
 
 ## Executive Summary
 
-**49 high-value prospects identified** across 10 industries with systematic outreach priority scoring.
+**49 prospects identified** across 10 industries with outreach priority scoring.
 
-**Total Addressable Market Value:** $15M-$30M in first-year deal potential  
-**Acquisition Targets:** 4 strategic acquirers (Microsoft, AWS, ServiceNow, Adobe)  
-**Critical Priority:** 24 prospects ($500K+ deals or acquisition potential)
+> **Honesty note:** The deal sizes, market values, and acquisition targets below are a hypothetical sizing model and a wish list — not a forecast. There are no current acquisition discussions, no enterprise clients in healthcare/finance/defense, no patents filed or pending, and no revenue to report. Nothing in this doc implies traction. Outreach is the work; the numbers below are what outreach would be worth if it worked.
+
+**Hypothetical sizing:** $15M-$30M in first-year deal potential (model, not forecast)  
+**Strategic aspirations:** 4 large-platform outreach targets (Microsoft, AWS, ServiceNow, Adobe) — no discussions have taken place; pursuing them is Herb's call  
+**Outreach priority:** 24 prospects flagged for the first two weeks
 
 ---
 
@@ -27,54 +29,56 @@
 
 ### CRITICAL (24 prospects) - Contact Weeks 1-2
 **Target:** C-level executives (CEO, CTO, Chief Digital Officer)  
-**Deal Size:** $500K-$2M or ACQUISITION  
-**Fit Score:** 90-98/100
+**Sizing:** aspirational $500K-$2M deal sizes; no basis in current pipeline  
+**Fit Score:** 90-98/100 (internal guess, not validated)
 
 **Top 10 Critical Targets:**
-1. **Microsoft** - ACQUISITION TARGET ($3T+ company)
+1. **Microsoft** - strategic outreach target
    - Contact: CVP Azure/M365
-   - Pitch: Integrate SSIP into Azure platform
+   - Pitch: SSIP concepts for Azure-scale AI governance
    
-2. **Amazon Web Services** - ACQUISITION TARGET
+2. **Amazon Web Services** - strategic outreach target
    - Contact: VP of Blockchain/Web3
-   - Pitch: AWS Blockchain + QLDB integration
+   - Pitch: audit-trail concepts alongside AWS QLDB-style ledgers
    
-3. **ServiceNow** - ACQUISITION TARGET ($150B+ company)
+3. **ServiceNow** - strategic outreach target
    - Contact: Chief Product Officer
-   - Pitch: Contract module for platform
+   - Pitch: contract-module governance concepts
    
-4. **Adobe** - ACQUISITION TARGET ($250B+ company)
+4. **Adobe** - strategic outreach target
    - Contact: EVP Digital Experience
-   - Pitch: Complement to Adobe Sign/Document Cloud
+   - Pitch: complement to document workflows
    
-5. **Kaiser Permanente** - $500K-$1M deal
+   (None of the above have been contacted or have expressed interest. These are cold-outreach aspirations.)
+
+5. **Kaiser Permanente** - outreach target
    - Contact: CTO / VP Digital Transformation
-   - Pain Points: 8.7M member contracts, HIPAA compliance
+   - Pitch: audit trails for contract-heavy operations; HIPAA-readiness support, not certification
    
-6. **JPMorgan Chase** - $1M-$2M deal
+6. **JPMorgan Chase** - outreach target
    - Contact: Head of Technology Innovation
-   - Pain Points: Thousands of daily trade contracts
+   - Pitch: audit-trail concepts for contract-heavy operations
    
-7. **Salesforce** - $500K-$1M deal
+7. **Salesforce** - outreach target
    - Contact: VP Platform Engineering
-   - Pitch: White-label SSIP for Salesforce platform
+   - Pitch: SSIP governance concepts for platform teams
    
-8. **Lockheed Martin** - $1M-$2M deal
+8. **Lockheed Martin** - outreach target
    - Contact: VP IT Systems
-   - Pain Points: Defense contracts, CMMC compliance
+   - Pitch: audit-trail concepts for contract operations (CMMC controls mapped, not certified)
    
-9. **Stripe** - $200K-$400K deal
+9. **Stripe** - outreach target
    - Contact: Head of Platform
-   - Perfect fit: Developer-first, API-driven
+   - Pitch: developer-friendly API concepts
    
-10. **Palantir** - $200K-$400K deal
+10. **Palantir** - outreach target
     - Contact: VP Government Solutions
-    - STRATEGIC PARTNER opportunity
+    - Pitch: governance concepts for data platforms (cold outreach, no contact made)
 
 ### HIGH PRIORITY (20 prospects) - Contact Weeks 3-6
 **Target:** VP-level (VP Engineering, VP Operations)  
-**Deal Size:** $100K-$500K  
-**Fit Score:** 85-92/100
+**Sizing:** aspirational $100K-$500K; no basis in current pipeline  
+**Fit Score:** 85-92/100 (internal guess, not validated)
 
 **Industries:**
 - **Technology:** HubSpot, Atlassian, Zoom, DocuSign
@@ -86,8 +90,8 @@
 
 ### MEDIUM PRIORITY (5 prospects) - Contact Weeks 7-12
 **Target:** Director-level  
-**Deal Size:** $25K-$100K  
-**Fit Score:** 78-85/100
+**Sizing:** aspirational $25K-$100K; no basis in current pipeline  
+**Fit Score:** 78-85/100 (internal guess, not validated)
 
 **Industries:**
 - Real Estate: CBRE, Zillow
@@ -98,8 +102,8 @@
 
 ## Industry Breakdown
 
-| Industry | Prospects | Est. Total Value |
-|----------|-----------|------------------|
+| Industry | Prospects | Hypothetical Sizing (model, not forecast) |
+|----------|-----------|--------------------------------------------|
 | Technology | 19 | $8M-$15M |
 | Financial Services | 8 | $4M-$8M |
 | Healthcare | 6 | $2M-$4M |
@@ -111,6 +115,8 @@
 | Education | 2 | $200K-$400K |
 | Consulting | 1 | $300K-$500K |
 
+> These are aspirational deal sizes applied to company counts — a model of what a working pipeline could be worth, not a forecast of what will close.
+
 ---
 
 ## Systematic Outreach Strategy
@@ -120,31 +126,28 @@
 **Approach:**
 - Personalized CEO/CTO outreach (no mass emails)
 - Custom demo focused on their specific pain points
-- Acquisition targets: Arrange M&A intro call
-- Reference customers in their industry
-- Offer pilot program with ROI guarantee
+- Strategic outreach: arrange an intro call if Herb decides to pursue it
+- Never claim customers, results, or traction we don't have
+- Offer a pilot program with a written success criteria — never an "ROI guarantee"
 
-**Email Template (Acquisition Targets):**
+**Email Template (Strategic Outreach):**
 ```
-Subject: Strategic Partnership Discussion - Mythara SSIP Platform
+Subject: Audit-trail infrastructure for AI decisions — [Company] fit?
 
 Dear [Name],
 
-I'm reaching out regarding a potential strategic acquisition/partnership 
-opportunity that aligns with [Company]'s expansion in contract 
-automation and blockchain verification.
+I'm reaching out regarding Mythara, a Symbolic Safety Integrity Protocol (SSIP)
+that adds cryptographic verification and hash-chained audit trails to AI-driven
+contract and agreement workflows — concepts that would sit alongside
+[Azure/AWS/Platform] governance tooling.
 
-Mythara has developed a Symbolic Safety Integrity Protocol (SSIP) that 
-provides cryptographic verification for contracts and agreements - 
-technology that would integrate seamlessly with [Azure/AWS/Platform].
+Current state, stated plainly:
+- Working code, passing tests, public repo — no customers, no revenue, no certifications
+- No patents filed or pending
+- One person building and operating it
 
-Our current traction:
-- $300 MRR, scaling to $11K ARR
-- Zero operating costs (fully autonomous)
-- Patent-pending SSIP technology
-- Enterprise clients in healthcare, finance, defense
-
-Would you have 20 minutes next week to discuss?
+Would you have 20 minutes next week to discuss whether the approach fits
+anything on your roadmap?
 
 Best regards,
 [Your Name]
@@ -152,20 +155,17 @@ Best regards,
 
 **Email Template (Enterprise Sales):**
 ```
-Subject: Reduce Contract Risk by 95% - [Company] Use Case
+Subject: Provable audit trails for AI decisions — [Company] use case
 
 Dear [Name],
 
 I noticed [Company] manages [X thousand] contracts across [regions/departments].
-Our clients in [industry] faced similar challenges with:
-- Manual contract verification
-- Compliance audit trails
-- Fraud detection
+A system like Mythara's SSIP is designed to automate verification workflows,
+with every decision hash-chained so an auditor can confirm nothing was altered.
 
-Mythara's SSIP platform automated these processes, reducing risk by 95%
-and cutting contract processing time from days to minutes.
-
-ROI Example: [Similar Company] saved $2.1M annually in their first year.
+Hypothetical ROI for a company at your scale: preventing one failed audit or
+compliance finding pays for years of tooling. (That is an illustration, not a
+claim about what Mythara has delivered — we have no customer results yet.)
 
 Would you be open to a 15-minute demo focused on [their pain point]?
 
@@ -204,22 +204,22 @@ Best regards,
 ### Financial Services (8 prospects)
 **Pain Points:** Trade compliance, contract integrity, audit automation, risk management  
 **Value Prop:** Cryptographic verification reduces regulatory risk, automated audit trails  
-**ROI:** Prevent $10M+ in compliance fines, reduce audit costs by 80%
+**ROI:** hypothetical — audit-trail tooling that pays for itself if it prevents one failed review. Never quote percentages or dollar savings as achieved results.
 
 ### Healthcare (6 prospects)
 **Pain Points:** Contract compliance, patient data integrity, vendor management, HIPAA  
 **Value Prop:** Immutable audit trails, contract verification designed to align with HIPAA  
-**ROI:** Reduce compliance costs by 70%, eliminate contract disputes
+**ROI:** hypothetical — controls mapped against HIPAA requirements (readiness support, not certification). Quote only as illustration, never as achieved results.
 
 ### Technology (19 prospects)
 **Pain Points:** Customer contracts, partner agreements, subscription management, SLAs  
 **Value Prop:** API-first integration, developer-friendly, scalable automation  
-**ROI:** Reduce contract processing time by 90%, scale without headcount
+**ROI:** hypothetical — illustration of what automated audit trails could do at scale, never quoted as achieved results.
 
 ### Manufacturing (4 prospects)
 **Pain Points:** Supplier contracts, quality assurance, defense compliance, audit trails  
 **Value Prop:** Supply chain transparency, cryptographic verification, CMMC readiness (controls mapped — not currently certified)  
-**ROI:** Prevent supply chain fraud, reduce supplier disputes by 95%
+**ROI:** hypothetical — illustration of what cryptographic verification could do for supply chains, never quoted as achieved results. (CMMC controls mapped, not certified.)
 
 ---
 

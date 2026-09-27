@@ -3,8 +3,8 @@
 > **⚠ FORMATION IN PROGRESS — NOT LEGAL ADVICE**
 >
 > Mythara Labs LLC, a Colorado domestic limited liability company —
-> Articles of Organization **filed with the Colorado Secretary of State on
-> September 27, 2026, pending completion**. Member-managed; sole member and
+> Articles of Organization **filing attempted with the Colorado Secretary of State on
+> September 27, 2026 — not confirmed; entity not yet formed**. Member-managed; sole member and
 > organizer: Herbert Velez Jr.; principal office: Denver, CO,
 > Denver, CO.
 >
@@ -34,7 +34,7 @@
 - Principal office address: Denver, CO
 - Management structure: Member-managed (single member and organizer: Herbert Velez Jr.)
 
-**Remaining on this step:** confirm acceptance of the filing and obtain the filed/approved Articles of Organization from the Colorado Secretary of State. Confirm next steps with licensed Colorado counsel.
+**Remaining on this step:** confirm acceptance of the filing and obtain the accepted/approved Articles of Organization from the Colorado Secretary of State. Confirm next steps with licensed Colorado counsel.
 
 ### Step 2: Obtain EIN from IRS
 
@@ -112,8 +112,8 @@
 **Files to Update:**
 - LICENSE.md (entity name, warranty language)
 - COPYRIGHT.md (entity name)
-- PRICING.md (entity name)
-- terms.html (entity name, pricing, refund policy)
+- core/static/terms.html (entity name, pricing, refund policy)
+- core/static/widget.js (response language)
 - All source code copyright headers
 - All marketing materials
 - Contracts and agreements
@@ -158,20 +158,24 @@ Member, Mythara Labs LLC
 
 | Item | Cost | Frequency |
 |------|------|-----------|
-| CA LLC Filing (superseded — Colorado filing Sept 27, 2026) | — | One-time |
-| Statement of Information | $20 | Every 2 years |
-| CA Franchise Tax | $800 | Annual |
-| Business Insurance | $10,000 | Annual |
-| Registered Agent (optional) | $200 | Annual |
-| Attorney Review (optional) | $2,000 | One-time |
-| **Total First Year** | **~$13,090** | - |
-| **Annual Recurring** | **~$11,000** | - |
+| Colorado Articles of Organization (filing attempted Sept 27, 2026 — not confirmed) | $50 (online; CO SOS fee schedule rev. July 1, 2024 — verify current fees before filing) | One-time |
+| Colorado Periodic Report | $25/year (due in formation anniversary month; $50 late penalty; CO SOS fee schedule rev. July 1, 2024 — verify before filing) | Annual |
+| Business Insurance | ~$10,000/year (estimate — no policy currently maintained) | Annual |
+| Registered Agent (optional) | ~$200/year (estimate) | Annual |
+| Attorney Review (optional) | ~$2,000 (estimate) | One-time |
+| **Total First Year** | **~$12,200+ (rough estimate — excludes verified Colorado filing/report fees)** | - |
+| **Annual Recurring** | **~$10,200 (rough estimate)** | - |
+
+> Prior California-based figures ($70 filing, $800 annual minimum franchise
+> tax, SI-550 Statement of Information) are superseded and must not be used
+> for budgeting — formation occurred in Colorado. Verify all Colorado fees
+> with licensed counsel or the Colorado Secretary of State before budgeting.
 
 ---
 
 ## Timeline
 
-- **Sept 27, 2026:** Articles of Organization filed with Colorado Secretary of State — formation pending completion
+- **Sept 27, 2026:** Articles of Organization filing attempted with Colorado Secretary of State — not confirmed; formation incomplete
 - **After formation completes:** Apply for EIN (instant)
 - **After formation completes:** Draft and execute Operating Agreement + IP Assignment Agreement
 - **After formation completes:** Open business bank account

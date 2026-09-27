@@ -1,5 +1,7 @@
 # DrMythara Medical Team Suite - Architecture Diagram
 
+> **Design document.** This architecture describes an experimental module. It is not a medical device, is not clinically validated, and has not been audited for HIPAA or any other compliance framework. The frameworks named below (HIPAA, FDA 21 CFR 11, DSM-5-TR, WCAG 2.1 AAA) are design references, not certifications.
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                    🏥 DrMythara Medical Team Suite                          │

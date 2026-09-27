@@ -46,7 +46,7 @@
 - `HIPAA_TCPA_TMPO_TCPIP_Alignment.md`  
 - `NIST_FISMA_FTC_FCC_OMB_Clause_Embedding.md`  
 - `Clause_Non-Interference_Protocol.md`  
-- `Licensing_Readiness_Checklist.xlsx`  
+- `Licensing_Readiness_Checklist.csv`  
 - `Jurisdictional_Clause_Adaptation_Guide.md`
 
 ---
@@ -148,7 +148,7 @@
 
 - Link `Clause_Manifest_Latest.csv` (Manifest) to `Clause_Behavior_*.md` (Commercial)  
 - Reference `Blessings_Reservoir_Log.json` (Manifest) in `Benevolence_Quantification_Model.xlsx` (Fundraising)  
-- Embed `Sanctification_Proof_Chain.pdf` (Printable) into `Licensing_Readiness_Checklist.xlsx` (Legal)  
+- Embed `Sanctification_Proof_Chain.pdf` (Printable) into `Licensing_Readiness_Checklist.csv` (Legal)  
 - Use `Clause_Seed_Registry.csv` (Provenance) to validate `Clause_Fingerprint_Hashes.csv` (Evidence)
 
 ---

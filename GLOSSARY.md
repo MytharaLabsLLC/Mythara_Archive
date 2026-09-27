@@ -127,7 +127,7 @@
 
 ---
 
-## 🏢 Licensing Tiers
+## 🏢 Licensing Tiers *(planned offering — none of these tiers are currently available; no payment path exists)*
 
 **Development** — Pilot scoping, limited clause access
 

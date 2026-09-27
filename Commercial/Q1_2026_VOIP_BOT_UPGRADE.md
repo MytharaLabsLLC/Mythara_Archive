@@ -1,5 +1,7 @@
 # Copyright © 2025 Herbert Velez Jr. All rights reserved.
 
+> **Status:** roadmap plan written November 2025. The VoIP bot is not built; no licensing discussions have taken place; all revenue figures below are projections, not results.
+
 """
 Q1 2026 VoIP AI Sales Bot Upgrade - Complete Project Plan
 
@@ -74,8 +76,8 @@ RESPONSE:
 
    "I'm glad you're impressed! The secret is our voice modulation engine.
     
-    Most sales bots use one robotic voice. Ours has 5 distinct personas that 
-    it switches between in real-time based on what the prospect says:
+    Most sales bots use one robotic voice. The VoIP design calls for 5 distinct personas that 
+    the bot would switch between in real-time based on what the prospect says:
     
     - CONFIDENT when discussing pricing (never apologize for price)
     - EMPATHETIC when handling objections (show understanding)
@@ -83,8 +85,7 @@ RESPONSE:
     - PROFESSIONAL for banking/healthcare (regulatory language)
     - CASUAL for tech/startups (fast-paced, direct)
     
-    We've had enterprise clients ask to license the source code outright.
-    The terms are:
+    If the VoIP bot were built and working, the pitch would lead with the voice modulation engine — that is the planned differentiator, not a shipped feature. The proposed terms would be:
     
     → $1.5 million for 5-year exclusive rights in your vertical
     → Includes full source code, voice cloning process, training data

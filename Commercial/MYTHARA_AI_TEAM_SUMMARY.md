@@ -2,11 +2,13 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
+> **Status:** This is a design and deployment plan. The bot framework exists in code (`mythara_ai_team.py`, `AI_TEAM_IMPLEMENTATION_GUIDE.py`); the schedules, budgets, and revenue numbers below are planning targets, not live operations or achieved results.
+
 ---
 
 ## Overview
 
-You now have a **complete AI-powered team** of 6 autonomous bots that work silently in the background to handle marketing, sales training, growth strategy, backlog management, brand awareness, and HR.
+A planned **AI-powered team** of 6 autonomous bots to handle marketing, sales training, growth strategy, backlog management, brand awareness, and HR — once deployed and scheduled.
 
 ---
 
@@ -41,11 +43,11 @@ You now have a **complete AI-powered team** of 6 autonomous bots that work silen
   - Identifies growth levers (pricing, new industries, partnerships)
   - Competitive analysis
   - Partnership opportunities (HubSpot, Salesforce integration)
-- **Goals:**
+- **Goals (planning targets, not results):**
   - Q4 2025: $20k MRR
   - 2026: $3M revenue
   - 2027: $10M revenue
-- **Runs:** Daily at 9am
+- **Runs:** Daily at 9am (once scheduled)
 
 ### 4. **Backlog Bot** 📝
 - **Role:** Task management, prioritization
@@ -131,9 +133,9 @@ You now have a **complete AI-powered team** of 6 autonomous bots that work silen
 
 ## Weekly Performance Report
 
-**Sent every Sunday 6pm MT to:** Herbievelezjr@gmail.com
+**Sends every Sunday 6pm MT to:** Herbievelezjr@gmail.com (once deployed)
 
-**Sample Report:**
+**Sample Report (illustrative — not real metrics):**
 
 ```
 🤖 Mythara AI Team - Weekly Report
@@ -208,11 +210,11 @@ You now have a **complete AI-powered team** of 6 autonomous bots that work silen
 - Hosting (Heroku/AWS): $100
 - Monitoring (Sentry, Datadog): $100
 
-### **Expected ROI:**
+### **Expected ROI (projection, not a promise):**
 - **Revenue:** $25k MRR (100 leads/week → 10 deals/month @ $2.5k)
 - **Cost:** $7.5k/month
 - **Profit:** $17.5k/month
-- **ROI:** 233%
+- **ROI:** 233% (model output — depends on actually hitting every funnel target above)
 
 ---
 
@@ -298,9 +300,11 @@ heroku addons:create scheduler:standard
 
 **You now have a complete AI-powered company running in the background while you focus on high-level strategy and closing enterprise deals.**
 
-🚀 **Deploy today, hit $20k MRR by end of November.**
+🚀 **Deploy the schedule, then run it weekly and measure against the targets above.**
 
 ---
 
+**Status:** Code complete (`mythara_ai_team.py`), deployment steps below are the remaining work. The framework is ready to schedule — it is not yet running in production.
+
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**For support:** Mythara.Engine@yahoo.com
+**For support:** Mytharalabs@yahoo.com

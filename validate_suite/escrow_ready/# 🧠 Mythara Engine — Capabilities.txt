@@ -46,7 +46,7 @@ This document outlines the core capabilities of Mythara Engine, a symbolic AI fr
 
 ## 🔬 Stress Testing & Forensic Review
 
-- Executes 100,000+ clause runs under load
+- Provides load/stress-testing harnesses for clause runs (capacity unmeasured — no 100,000-run claim)
 - Tracks symbolic drift, formatting errors, and emotional payload variance
 - Logs forensic ledger with clause metadata, messenger actions, and reproducibility results
 
@@ -63,7 +63,7 @@ This document outlines the core capabilities of Mythara Engine, a symbolic AI fr
 
 ## 🔁 Feedback & Evolution Channels
 
-- Accepts feedback from enterprise pilots, strategic partners, accessibility advocates, and investors
+- Accepts feedback from future enterprise pilots, prospective partners, accessibility advocates, and investors
 - Logs symbolic breaches, accessibility failures, and emotional payload anomalies for remediation
 - Custodian affirmation protocol ensures symbolic and legal integrity
 

@@ -1,5 +1,7 @@
 # Mythara Engine - Refund & Exchange Policy
 
+> **DRAFT — not legal advice, requires attorney review before use.** This policy assumes live products, active customers, and payment processing, none of which exist today. Prices, tiers, and response times below are placeholders to be finalized with counsel. Do not present this policy as an active commercial agreement.
+
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**
 
@@ -7,17 +9,17 @@
 
 ## 🔒 ALL SALES FINAL • EXCHANGES ONLY • ONE PILOT PER BUSINESS DOMAIN
 
-**Last Updated:** November 17, 2025
+**Last Updated:** November 17, 2025 (draft — not in effect)
 
-**No refunds will be issued for any Mythara Engine purchases, including:**
-- Pilot tier ($49)
-- Enterprise tier ($25K-$300K/year)
+**Refunds are not contemplated for Mythara Engine purchases. Draft tiers under consideration:**
+- Pilot tier (price TBD)
+- Enterprise tier (price TBD)
 - Add-ons or upgrades
 
-**Key Rules:**
-1. ✅ **ALL SALES FINAL** - No cash refunds under any circumstances
-2. ✅ **EXCHANGES ONLY** - Equal or lesser value products only (see below)
-3. ✅ **ONE PILOT PER BUSINESS DOMAIN** - Verified by email domain (e.g., one pilot for @acme.com)
+**Key Rules (draft):**
+1. ✅ **ALL SALES FINAL** — subject to applicable consumer-protection law; counsel to confirm before launch
+2. ✅ **EXCHANGES ONLY** — equal or lesser value products only (see below)
+3. ✅ **ONE PILOT PER BUSINESS DOMAIN** — verified by email domain (e.g., one pilot per company domain)
 
 Once payment is processed and access is granted, all sales are final.
 
@@ -206,9 +208,9 @@ A: Pilot period extended by documented downtime days. Not considered grounds for
 
 ## 📞 Contact
 
-**Exchange requests:** Mythara.Engine@yahoo.com
+**Exchange requests:** Mythara.Engine@yahoo.com (contact not staffed for commercial support today)
 
-**Response time:** 1-2 business days
+**Response time:** not yet established — to be defined before commercial launch
 
 **Required info:**
 - Purchase receipt

@@ -612,7 +612,7 @@ patterns against the Soul Cradle integrity framework."
 
 ## ⚖️ LEGAL DISCLAIMER
 
-This review is provided for strategic planning purposes and does not constitute legal advice. Herbert Velez Jr. (Mythara Labs LLC: Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion) must retain licensed attorneys in relevant jurisdictions to:
+This review is provided for strategic planning purposes and does not constitute legal advice. Herbert Velez Jr. (Mythara Labs LLC: Articles of Organization filing attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; entity not yet formed) must retain licensed attorneys in relevant jurisdictions to:
 
 1. Review all contract templates and terms of service
 2. Conduct trademark clearance searches
@@ -625,7 +625,7 @@ This review is provided for strategic planning purposes and does not constitute 
 ---
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary Strategic Document** *(Mythara Labs LLC: formation filed Sept 27, 2026 — pending completion)*
+**Proprietary Strategic Document** *(Mythara Labs LLC: formation filing attempted Sept 27, 2026 — not confirmed; not formed)*
 
 ---
 

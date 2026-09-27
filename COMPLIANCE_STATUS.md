@@ -19,7 +19,7 @@
 - **No certification is claimed.** Compliance products are sold as **readiness assessments** — mapping controls against a framework — never as certification.
 - **DrMythara is not a medical professional.** Compliance guidance only; never medical advice.
 - **No indemnification is offered.** No insurance backs this software. See LICENSE.md.
-- **Entity status:** Mythara Labs LLC — Articles of Organization filed with the Colorado Secretary of State on September 27, 2026; formation pending completion (not yet a formed entity). No foundation or corporation exists, is implied, or is claimed. Licenses are granted by Herbert Velez Jr. personally pending entity formation. An unsigned IP-assignment draft is held at `Legal/IP_Assignment_Agreement.md` for formation completion.
+- **Entity status:** Mythara Labs LLC — Articles of Organization filing attempted with the Colorado Secretary of State on September 27, 2026; formation not confirmed — entity not yet formed (not yet a formed entity). No foundation or corporation exists, is implied, or is claimed. Licenses are granted by Herbert Velez Jr. personally pending entity formation. An unsigned IP-assignment draft is held at `Legal/IP_Assignment_Agreement.md` for formation completion.
 
 ## Rules for claims
 

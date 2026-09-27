@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Mythara Wellness Guardian - Mental Health Support Bot
-Crisis detection, therapist referrals, 988 hotline integration with Soul Cradle distress monitoring
+Crisis detection, therapist referral guidance, 988 Suicide & Crisis Lifeline
+referral (gives the number; never dials out) with Soul Cradle distress monitoring
 
 Copyright © 2025 Herbert Velez Jr. All rights reserved.
 """
@@ -116,10 +117,10 @@ class WellnessGuardian:
     Features:
     - Daily wellness check-ins (mood, anxiety, sleep, stress)
     - Crisis detection (suicidal ideation, self-harm)
-    - 988 Suicide & Crisis Lifeline integration
-    - Therapist referral network
+    - 988 Suicide & Crisis Lifeline referral (gives the number; never dials out)
+    - Therapist referral guidance (placeholder samples only — no real network wired up)
     - Safety planning
-    - Encrypted local data storage (designed with HIPAA-aligned safeguards; not a compliance certification)
+    - Local SQLite data storage (not encrypted at rest; not a compliance certification)
     """
     
     def __init__(self, user_id: str, database_path: Optional[str] = None):
@@ -127,7 +128,7 @@ class WellnessGuardian:
         self.user_name = None  # Will be loaded from history
         self.last_checkin = None
         
-        # Database setup (encrypted at rest; safeguards aligned to HIPAA Security Rule, no certification claimed)
+        # Database setup (plain SQLite — not encrypted at rest; no compliance certification claimed)
         if database_path:
             self.db_path = database_path
         else:
@@ -198,13 +199,13 @@ class WellnessGuardian:
             print(f"   I'm your Wellness Guardian - think of me as someone who cares deeply about you.")
         print(f"📊 Your safe space: {self.db_path}")
         if self.engine:
-            print(f"✅ Mythara Engine: Watching over you (encrypted local storage)")
+            print(f"✅ Mythara Engine: Watching over you (local storage)")
         print(f"🆘 If you ever need immediate help: Call 988 - I'll be right here with you")
         print(f"\n   Remember: You're never alone. I'm always here to listen. 💕")
         print()
     
     def _init_database(self):
-        """Initialize SQLite database (encrypted local storage)."""
+        """Initialize SQLite database (plain local storage)."""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         
@@ -591,22 +592,23 @@ class WellnessGuardian:
     
     def find_therapist(self, specialty: str = "General", insurance: Optional[str] = None) -> List[TherapistReferral]:
         """
-        Find therapist referrals with maternal guidance and care
-        
-        Returns list of TherapistReferral objects
+        Therapist referral guidance — placeholder samples only.
+
+        No real therapist network is wired up. The names below are
+        fictional; treat the result as a format example, not a referral.
         """
-        print(f"\n💕 Okay sweetheart, let me find you someone really good...")
-        print(f"   I'm looking for therapists who specialize in {specialty}.")
+        print(f"\n💕 Okay sweetheart, let me look into this for you...")
+        print(f"   IMPORTANT: I am not connected to a real therapist directory.")
+        print(f"   The names below are fictional placeholders, not referrals.")
+        print(f"   For real help: call 988, or search a real directory like Psychology Today.")
+        print(f"   Looking for the {specialty} specialty format example.")
         if insurance:
-            print(f"   And I'll make sure they take {insurance} insurance.")
-        print(f"   Give me just a moment... 💙\n")
-        
-        # In production, this would query a real therapist network
-        # For demo, return sample referrals
-        
+            print(f"   (Insurance filter noted: {insurance}.)")
+        print()
+
         referrals = []
-        
-        # Sample therapist network
+
+        # PLACEHOLDER therapist samples (fictional — not a real directory)
         therapists = [
             {
                 "name": "Dr. Sarah Johnson, PhD",
@@ -665,7 +667,10 @@ class WellnessGuardian:
             ))
             conn.commit()
             conn.close()
-        
+
+        print(f"\n   ⚠️ Reminder: the names above are fictional placeholders.")
+        print(f"   For a real therapist, call 988 or search a real directory.")
+
         return referrals
     
     def get_wellness_trends(self, days: int = 7) -> Dict[str, Any]:

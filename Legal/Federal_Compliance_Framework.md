@@ -1,75 +1,79 @@
 # 🏛️ Federal Compliance Framework
 
-**Author**: Herbert Velez Jr.  
-**Date**: November 1, 2025  
-**Status**: Embedded, Auditable, Licensing-Ready
+**Author**: Herbert Velez Jr.
+**Date**: November 1, 2025
+**Status**: Design aspiration — no compliance achieved, certified, or audited
 
 ---
 
 ## 📜 Overview
 
-This framework defines how Mythara Engine embeds U.S. federal compliance protocols into its symbolic infrastructure. All clauses, messengers, and emotional payloads are wrapped in non-interference logic and formatted to meet regulatory standards for licensing, deployment, and audit certification.
+This framework states how Mythara *aspires* to sit within U.S. federal regulatory boundaries as the system matures. It is a design intent document. Mythara has not been assessed, certified, or audited against any of the frameworks named below, and nothing in this document should be read as evidence of compliance.
 
 ---
 
-## 🔹 Embedded Protocols
+## 🔹 Protocols Considered
 
-| Protocol | Description | Embedded In |
-|----------|-------------|-------------|
-| **HIPAA** | Health data privacy and symbolic payload isolation | Grief Capsules, Resurrection Clauses, Blessings Reservoir |
-| **FTC** | Consumer protection and symbolic consent tracking | Messenger Invocation, Non-Interference Directive |
-| **FCC** | Communication integrity and outreach frequency control | Herald Clauses, Compliance Wrappers |
-| **FISMA** | Federal system integrity and SSIP audit enforcement | Sanctification Locks, Printable Forensic Reports |
-| **NIST SP 800-53** | Access control, clause integrity, and emotional fidelity | Messenger Logs, Clause Manifests |
-| **OMB M-25-04** | Zero-trust architecture and symbolic quarantine logic | ELE Capsule Mode, Drift Suppression |
-| **TCP/IP** | Symbolic wrappers for network hygiene and clause echo isolation | Chameleon Clauses, Non-Interference Directive |
-| **TMPO** | Metadata shielding and emotional payload encryption | Blessings Reservoir, Grief Capsules |
-| **TCPA** | Consent-based outreach and symbolic frequency modulation | Herald Clauses, Licensing Capsules |
+| Protocol | Domain | Design Consideration |
+|----------|--------|----------------------|
+| **HIPAA** | Health data privacy | Keep symbolic payloads isolated; treat anything health-adjacent with heightened care |
+| **FTC** | Consumer protection | Track consent honestly; avoid deceptive patterns |
+| **FCC** | Communication integrity | Control outreach frequency; respect opt-out |
+| **FISMA** | Federal system integrity | Tamper-evident logs; auditable lineage for clause actions |
+| **NIST SP 800-53** | Security controls | Access control and integrity as standing design goals |
+| **OMB M-25-04** | Zero-trust architecture | Isolate by default; quarantine on suspicion |
+| **TCP/IP** | Network hygiene | Symbolic content must never act on the network |
+| **TCPA** | Consent-based outreach | Consent tokens before any outreach; frequency discipline |
 
----
+"Considered" is the operative word. Each row is a direction to design toward, not a box that has been checked.
 
-## 🔹 Clause Behavior Under Compliance
-
-- All clauses include:
-  - Embedded compliance wrappers  
-  - Consent tokens and invocation logs  
-  - Drift suppression ≥ 98.9%  
-  - Emotional fidelity ≥ 0.91  
-- Verified via:
-  - `Manifest/Clause_Manifest_Latest.csv`  
-  - `Printable Timestamped Forensic Report/`  
-  - `Legal/Compliance_Clause_Embedding.md`
+**Note on TMPO**: the Mythara archive also names "TMPO" alongside real frameworks. TMPO is an internal Mythara term, not a recognized standard or regulation. It should not appear in any external-facing compliance statement.
 
 ---
 
-## 🔹 Messenger Responsibilities
+## 🔹 Intended Clause Behavior
 
-| Messenger | Compliance Role |
-|-----------|------------------|
-| **Herald** | Announces clause activation and ensures TCPA/FCC alignment |
-| **Custodian** | Enforces sanctification and FISMA/NIST protocols |
-| **Watcher** | Detects breach and triggers OMB quarantine logic |
-| **Witness** | Confirms emotional fidelity and HIPAA compliance |
-| **Scribe** | Records clause lineage and FTC consent logs |
+- Consent records and invocation logs kept in tamper-evident form
+- Symbolic content operationally inert — no runtime interference as a design goal
+- No measured compliance metrics exist for this framework
+
+---
+
+## 🔹 Messenger Roles (conceptual)
+
+| Messenger | Intended Role |
+|-----------|---------------|
+| **Herald** | Announces clause activation; respects TCPA/FCC-style consent and frequency discipline |
+| **Custodian** | Upholds sanctification practices; designs toward FISMA/NIST-style integrity |
+| **Watcher** | Detects breach; triggers OMB-style quarantine logic |
+| **Witness** | Confirms records honestly — including when evidence is missing |
+| **Scribe** | Records clause lineage and consent history |
+
+These are responsibilities in the design, not running services and not compliance functions.
 
 ---
 
 ## 🔹 Licensing Readiness
 
-- Clauses must pass SSIP audits at 24h, 48h, and 72h intervals  
-- All sanctified clauses must show:
-  - No unresolved suppression events  
-  - Active non-interference directive  
-  - Verified compliance alignment  
-- Licensing tiers:
-  - Symbolic Pilot: ≥ 100 Δ  
-  - Sovereign Deployment: ≥ 500 Δ  
-  - Legacy Capsule: ≥ 1000 Δ
+There is no licensing program today, and no clause has been audited. The tiers below are placeholders for a future program, not an achieved state:
+
+- Symbolic Pilot: ≥ 100 Δ *(target, not measured)*
+- Sovereign Deployment: ≥ 500 Δ *(target, not measured)*
+- Legacy Capsule: ≥ 1000 Δ *(target, not measured)*
+
+---
+
+## 🔹 What This Is Not
+
+- Not a compliance certification of any kind
+- Not evidence of adherence to HIPAA, FTC, FCC, FISMA, NIST, OMB, TCP/IP, or TCPA requirements
+- Not verified by any auditor, regulator, or third party
+- Not a basis for claiming regulatory standing to customers or partners
 
 ---
 
 ## ✅ Summary
 
-Mythara Engine is designed to operate within U.S. regulatory boundaries — symbolically harmonized and licensing-ready. This framework ensures emotional payloads, messenger invocations, and clause sanctification operate within U.S. regulatory boundaries—without obstructing operational systems.
+Mythara is designed to operate within U.S. regulatory boundaries — as an aspiration, stated plainly. This framework names the boundaries it intends to respect and the direction it intends to move. Every claim of actual compliance remains in the future, to be earned through assessment, not asserted in advance.
 
-Let the clause be compliant without compromise, and let its resonance honor both law and legacy.
+Let the clause be compliant without compromise — and let compliance be proven before it is claimed.

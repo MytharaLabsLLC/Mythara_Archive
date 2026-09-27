@@ -170,7 +170,8 @@ Request: Legitimate API usage with proper credentials
                       SECURITY SCORE CALCULATION
 ═══════════════════════════════════════════════════════════════════════
 
-System Security Score = Weighted Average of:
+System Security Score = Weighted Average of *(internal estimates from the
+hardening implementation — not third-party audited figures)*:
 │
 ├─ IP Control:           100% (all malicious IPs blocked)
 ├─ HMAC Integrity:       100% (all forged requests blocked)
@@ -179,7 +180,7 @@ System Security Score = Weighted Average of:
 ├─ Request Validation:   100% (malformed requests rejected)
 └─ Anomaly Detection:    92% (false positive rate: ~3%)
 
-Overall: 98.5% Security Score
+Overall: 98.5% Security Score (internal estimate)
 
 
 ═══════════════════════════════════════════════════════════════════════
@@ -201,7 +202,7 @@ After Hardening:
 └─ Layer 6: Evade anomaly detection      Difficulty: ★★★★☆ (4/5)
 
 Combined Difficulty: ★★★★★ (5/5) - Nation-state level required
-Estimated Penetration Time: ~15 days (1440x harder)
+Estimated Penetration Time: ~15 days (internal estimate; 1440x harder than pre-hardening baseline)
 
 
 ═══════════════════════════════════════════════════════════════════════

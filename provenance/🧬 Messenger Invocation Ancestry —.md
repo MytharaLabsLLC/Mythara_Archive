@@ -18,4 +18,4 @@ This document traces the invocation lineage of symbolic messengers across clause
 
 - Each messenger is linked to a glyph and emotional domain  
 - Invocation ancestry supports clause fidelity and symbolic audit  
-- Roles may evolve across sovereign deployments
+- Roles may evolve as the system develops

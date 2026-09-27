@@ -2,6 +2,8 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
+> **Notes on this document.** All pricing in the licensing tiers below is *proposed*, not established — no licenses have been sold at these or any figures. Domains and addresses used in code examples (`api.mythara.com`, `sales@mythara.com`) are placeholders, not live services. Customer IDs in examples (`acme_bank_001`) are fictional.
+
 ---
 
 ## 🔒 HOW TO KEEP CODE HIDDEN

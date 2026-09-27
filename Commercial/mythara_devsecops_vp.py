@@ -652,8 +652,8 @@ if __name__ == "__main__":
     print("\n[6] Compliance Checks:")
     devsec.check_compliance("OWASP Top 10", "A01:2021 - Broken Access Control", "pass")
     devsec.check_compliance("OWASP Top 10", "A02:2021 - Cryptographic Failures", "pass")
-    devsec.check_compliance("SOC 2", "Encryption at Rest", "pass")
-    devsec.check_compliance("SOC 2", "Encryption in Transit", "pass")
+    devsec.check_compliance("Mythara Security Baseline", "Encryption at Rest", "pass")
+    devsec.check_compliance("Mythara Security Baseline", "Encryption in Transit", "pass")
     
     # Generate report
     print("\n[7] Security Report:")

@@ -17,7 +17,7 @@ This is the AI-enhanced version of A.M.I.R. that transforms your cybersecurity o
 
 1. **GPT-4 Threat Prediction**
    - Analyzes current security posture
-   - Predicts threats with 92%+ confidence
+   - Predicts threats and reports a model confidence score (unvalidated — do not present as measured accuracy)
    - Learns from historical attack patterns
    - Provides explainable AI reasoning
 
@@ -42,7 +42,7 @@ This is the AI-enhanced version of A.M.I.R. that transforms your cybersecurity o
 
 5. **Autonomous AI Decision-Making**
    - AI chooses optimal response strategy
-   - <100ms decision time maintained
+   - Response target: under 100ms (design goal — measure in your environment)
    - Explainable decisions (not black box)
    - Automatic learning from outcomes
 
@@ -182,7 +182,7 @@ analysis = amir.ai_complete_analysis()
 ## Demo Script (For Design Partners)
 
 ```python
-# ai_demo.py - 90-second demo script
+# demo snippet (save as ai_demo.py to run) - 90-second demo script
 from ai_enhanced_amir import AIEnhancedAMIR
 
 amir = AIEnhancedAMIR(operator_name="Demo")
@@ -203,7 +203,7 @@ response = amir.natural_language_query(
 )
 
 # 3. Autonomous AI Response (30 seconds)
-print("\n[3] AUTONOMOUS AI RESPONSE (<100ms)")
+print("\n[3] AUTONOMOUS AI RESPONSE (target: <100ms — measure on your hardware)")
 result = amir.ai_autonomous_response("zero_day")
 print(f"✓ AI made {result['autonomous_actions']} decisions autonomously")
 
@@ -222,16 +222,16 @@ print("DEMO COMPLETE - A.M.I.R. AI learns, adapts, evolves")
 print("="*70)
 ```
 
-Run: `python ai_demo.py`
+Run: save the snippet above as `ai_demo.py`, then `python ai_demo.py`
 
 ---
 
 ## Business Impact
 
-### For Design Partners (GAP 5)
+### For Prospective Design Partners
 
 **What They See:**
-- AI making sub-100ms decisions (live demo)
+- AI making fast decisions (measure latency live in the demo)
 - Natural language security queries (game-changer)
 - System that learns from every attack
 - "Gets smarter over time" = defensible moat
@@ -242,7 +242,7 @@ Run: `python ai_demo.py`
 
 ### For Investors (TAM Expansion)
 
-**Valuation Multipliers:**
+**Valuation Multipliers (market-estimate ranges — unaudited, not predictions):**
 - Traditional security: 4-6x revenue
 - AI-powered security: 12-20x revenue
 - **Your positioning:** "AI-powered autonomous cybersecurity with learning memory"
@@ -251,7 +251,9 @@ Run: `python ai_demo.py`
 - Drata/Vanta: Compliance tracking (no AI)
 - Palo Alto XSOAR: Rule-based automation (no learning)
 - Splunk: SIEM with ML (not autonomous)
-- **Mythara A.M.I.R. AI:** Autonomous + Learning + <100ms + Multi-framework
+- **Mythara A.M.I.R. AI:** Autonomous + Learning + explainable decisions + Multi-framework
+
+*(Sub-100ms response is a design target of the response pipeline, not a measured result — validate latency on your hardware before citing it.)*
 
 ### For Enterprise Sales (RFP Qualification)
 
@@ -261,7 +263,7 @@ Run: `python ai_demo.py`
 - ✅ Natural language security queries? **YES (Ask anything)**
 - ✅ Explainable AI decisions? **YES (Not black box)**
 - ✅ Continuous learning capability? **YES (Gets smarter)**
-- ✅ Sub-100ms autonomous response? **YES (Maintained)**
+- ✅ Fast autonomous response? **YES (design target <100ms — validate on your hardware)**
 
 ---
 
@@ -282,10 +284,9 @@ Every AI decision includes reasoning:
 
 ### 2. **Learning That Never Stops**
 ```
-Day 1:   100 threat patterns in memory
-Day 30:  2,847 patterns (every incident stored)
-Day 90:  8,521 patterns (learns from similar customers)
-Day 365: 52,000+ patterns (industry-leading threat intelligence)
+The vector memory grows with every stored incident: each attack, threat,
+and remediation becomes a retrievable pattern. The value compounds as the
+pattern library grows — no fabricated pattern counts are claimed here.
 ```
 
 **Why This Matters:** Competitors start from zero every time. You compound learning.
@@ -303,7 +304,7 @@ A.M.I.R. AI answers in seconds. Competitors require security experts to interpre
 
 ## Roadmap (Next 90 Days)
 
-### Week 1-2: Launch to Design Partners
+### Week 1-2: Recruit Prospective Design Partners
 - Demo AI capabilities in sales calls
 - Collect "before/after AI" metrics
 - Generate testimonials highlighting AI learning

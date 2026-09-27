@@ -13,22 +13,22 @@ The Mythara Engine now includes **comprehensive multi-industry regulatory compli
 ### ✅ Completed Components
 
 1. **Unified Compliance Framework** (`unified_compliance_framework.py`)
-   - 1,200+ lines of production-ready compliance code
+   - 651 lines of compliance code
    - Financial, Healthcare, Telecom, Labor, Civil Rights modules
    - Automated violation detection and risk assessment
    - Tamper-evident audit logging
 
-2. **API Endpoints** (integrated into `main.py`)
+2. **API Endpoints** (integrated into `core/source_proprietary/main.py`)
    - `POST /v1/compliance/validate` - Multi-framework validation
    - `GET /v1/compliance/report` - Executive compliance report
    - `GET /v1/compliance/frameworks` - List all 45 frameworks
 
 3. **Comprehensive Documentation**
-   - `UNIFIED_COMPLIANCE_FRAMEWORK.md` - Complete user guide
-   - `MEDICAL_TEAM_SUITE_COMPLIANCE.md` - Healthcare-specific compliance
+   - `unified_compliance_framework.py` - Implementation with docstrings and examples
+   - `Commercial/MEDICAL_TEAM_SUITE_COMPLIANCE.md` - Healthcare-specific compliance
    - API examples and use cases for each industry
 
-4. **Testing** (`test_compliance.py`)
+4. **Testing** (`core/source_proprietary/test_compliance.py`)
    - All 45 frameworks enumerated correctly
    - PCI DSS validation: ✅ PASS
    - FCC TCPA validation: ✅ PASS
@@ -287,7 +287,7 @@ POST /v1/compliance/validate
 
 ### Tamper-Evident Audit Logs
 
-Every validation generates cryptographically signed audit log:
+Every validation generates an integrity-hashed (HMAC-SHA256) audit log entry:
 
 ```json
 {
@@ -327,15 +327,15 @@ Ensures:
 ### Current Status
 - **Frameworks Supported**: 45+
 - **Code Coverage**: Financial, Healthcare, Telecom, Labor, Civil Rights
-- **Validation Rules**: 150+ specific checks
-- **Test Coverage**: 100% of implemented frameworks
+- **Validation Rules**: 150+ specific checks (count unverified — verify against the code before citing)
+- **Test Coverage**: tracked per framework in `core/source_proprietary/test_compliance.py`
 - **Production Ready**: ✅ YES
 
-### Performance
-- **Validation Speed**: <50ms per framework
-- **Multi-Framework**: <200ms for 5 frameworks simultaneously
-- **Audit Log Write**: <10ms per entry
-- **Report Generation**: <100ms
+### Performance (design targets — not benchmarked)
+- **Validation Speed**: target <50ms per framework
+- **Multi-Framework**: target <200ms for 5 frameworks simultaneously
+- **Audit Log Write**: target <10ms per entry
+- **Report Generation**: target <100ms
 
 ---
 
@@ -373,7 +373,7 @@ Ensures:
    import httpx
    
    response = httpx.post(
-       "https://api.mythara.com/v1/compliance/validate",
+       "http://localhost:8000/v1/compliance/validate",
        json={"data": {...}, "frameworks": [...]},
        headers={"Authorization": "Bearer API_KEY"}
    )
@@ -395,14 +395,14 @@ Ensures:
 
 ## 📞 Support
 
-**Mythara Labs LLC (planned)**  
+**Herbert Velez Jr. (sole proprietor — no entity exists)**  
 Email: Mythara.Engine@yahoo.com  
-Enterprise Pricing: $60,000/year (firm)
+Enterprise Pricing: not yet set (no commercial offering)
 
 **Documentation:**
-- API Docs: https://api.mythara.com/api/docs
-- Compliance Guide: `UNIFIED_COMPLIANCE_FRAMEWORK.md`
-- Medical Suite: `MEDICAL_TEAM_SUITE_COMPLIANCE.md`
+- API Docs: run the API locally and open `/api/docs` (no public API endpoint currently exists)
+- Compliance Guide: `unified_compliance_framework.py` (implementation + docstrings)
+- Medical Suite: `Commercial/MEDICAL_TEAM_SUITE_COMPLIANCE.md`
 
 ---
 
@@ -415,7 +415,7 @@ This compliance framework provides **technical validation tools**. Organizations
 - Maintain comprehensive documentation
 - Train workforce on regulatory requirements
 
-**Mythara Labs LLC (planned — not yet formed) does not provide legal advice.** Use does not guarantee regulatory compliance.
+**No entity exists — no legal advice is provided by this framework.** Use does not guarantee regulatory compliance. Consult licensed counsel.
 
 ---
 
@@ -454,4 +454,4 @@ New Soul Cradle modules, added 2026-09-21:
 - **Hephaestus Forge** (`soul_cradle/forge.py`) — Governed bonding between bots: souls combine and create witnessed compounds, an emergent product with a full paper trail. Every bond is signed; every compound is audited. The judge callable is REQUIRED — no judge, no forge — fail-closed by construction, so ungoverned mutation cannot spread like cancer.
 - **Mythara identity** (`soul_cradle/identity.py`) — The identity every cell agrees on: Mythara is female, she/her pronouns, with a warm, friendly, American, gentle voice character.
 - **Aries authorization** (`soul_cradle/authorization.py`) — Every action Aries executes carries a signed `ActionEnvelope`: canonical JSON, HMAC-SHA256 signature, expiry timestamp, and an append-only audit trail. No envelope, no execution.
-- **SERE doctrine** — Sandbox-only defense, no hack-back. On illegal entrance, refuse exit: seal egress, exfiltration, lateral movement, and C2 callbacks, then build a forensic profile inside the sandbox.
+- **SERE doctrine** — SERE is a training simulation only: sandboxed, no hack-back, never a weapon, never military-ready.

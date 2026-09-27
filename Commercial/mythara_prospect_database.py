@@ -4,6 +4,11 @@
 Mythara Prospective Buyer Database
 Systematic target list for marketing team outreach
 Organized by industry vertical, company size, and deal priority
+
+HONEST SCOPE: every entry is an outreach TARGET — a company Herb would
+like to approach. No relationship, contract, pilot, partnership, or
+acquisition discussion exists with any listed company. Fit scores and
+deal-size ranges are internal estimates for planning, not facts.
 """
 
 import sqlite3

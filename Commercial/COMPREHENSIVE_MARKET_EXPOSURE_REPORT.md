@@ -3,6 +3,8 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Proprietary and Confidential.**
 
+> **Honest framing.** This is a prospect and outreach-target list, compiled November 2025. Every company named below is a *target for outreach* — not a customer, not a pilot, not a partner, not an investor. No relationship, conversation, or deal of any kind exists with any of them. All fit scores, valuations, close-rate assumptions, and revenue figures are illustrative projections invented for planning — not results, not metrics, not commitments.
+
 ---
 
 ## Executive Summary
@@ -62,16 +64,16 @@ You now have exposure to **EVERY RELATABLE BUSINESS VERTICAL** that could benefi
 
 ---
 
-#### 3. **TECHNOLOGY - ACQUISITION TARGETS** (4 prospects)
-**Total Addressable Market:** $50M-$150M acquisition value
+#### 3. **TECHNOLOGY - HYPOTHETICAL EXIT SCENARIOS** (4 targets)
+**Note:** Illustrative targets only. No contact, conversation, or valuation exists.
 
-**Companies:**
-- **Microsoft** (98 fit score) - Azure/M365 integration
-- **Amazon Web Services** (98 fit score) - AWS Blockchain integration
-- **ServiceNow** (97 fit score) - Contract module for platform
-- **Adobe** (95 fit score) - Complement to Adobe Sign
+**Targets (aspiration, not fact):**
+- **Microsoft** - Azure/M365 integration
+- **Amazon Web Services** - AWS integration
+- **ServiceNow** - Contract module for platform
+- **Adobe** - Complement to Adobe Sign
 
-**Strategic Value:** These 4 companies alone could provide exit opportunities worth $50M-$150M+
+**Strategic value (aspiration):** *If* any of these companies ever engaged, an exit *could* be discussed. No acquisition value is stated because none exists.
 
 ---
 
@@ -144,7 +146,7 @@ The full `mythara_prospect_database_expanded.py` file includes complete prospect
 - **Legal Research:** Thomson Reuters (Westlaw), LexisNexis
 - **Practice Management:** Intapp
 - **Law Firms:** Baker McKenzie, DLA Piper, Latham & Watkins
-- **CLM Platforms:** Icertis, Ironclad (STRATEGIC PARTNERS)
+- **CLM Platforms:** Icertis, Ironclad (outreach targets, not partners)
 
 **Use Cases:**
 - White-label SSIP for LegalZoom
@@ -156,7 +158,7 @@ The full `mythara_prospect_database_expanded.py` file includes complete prospect
 
 #### 9. **GOVERNMENT & DEFENSE** (20 prospects designed)
 - **Defense Contractors:** Lockheed Martin, Boeing, Northrop Grumman, Raytheon, General Dynamics
-- **Government IT:** Booz Allen Hamilton, SAIC, Leidos, CACI, **Palantir (STRATEGIC PARTNER)**
+- **Government IT:** Booz Allen Hamilton, SAIC, Leidos, CACI, Palantir (outreach target, not a partner)
 - **State/Local Gov Software:** Tyler Technologies, Motorola Solutions
 
 **Use Cases:**
@@ -278,12 +280,12 @@ The full `mythara_prospect_database_expanded.py` file includes complete prospect
 
 ### By Priority Tier
 
-| Priority | Currently Loaded | Full Design | Deal Size Range |
+| Priority | Currently Loaded | Full Design | Illustrative Deal Size Range |
 |----------|------------------|-------------|-----------------|
-| **Critical** | 22 prospects | 60+ prospects | $500K-$2M or ACQUISITION |
+| **Critical** | 22 prospects | 60+ prospects | $500K-$2M or HYPOTHETICAL EXIT |
 | **High** | 14 prospects | 120+ prospects | $100K-$500K |
 | **Medium** | 0 prospects | 20+ prospects | $25K-$100K |
-| **TOTAL** | **36 prospects** | **200+ prospects** | **$50M+ ARR potential** |
+| **TOTAL** | **36 prospects** | **200+ prospects** | **illustrative; no revenue exists** |
 
 ---
 
@@ -307,89 +309,78 @@ The full `mythara_prospect_database_expanded.py` file includes complete prospect
 | **Telecom** | 12+ | $2B-$4B | Customer contracts, roaming agreements |
 | **Education** | 15+ | $500M-$1B | University partnerships, licensing |
 | **Consulting** | 10+ | $1B-$2B | Engagement contracts, audit agreements |
-| **TOTAL** | **200+** | **$60B-$120B+** | **Every major contract type** |
+| **TOTAL** | **200+** | **$60B-$120B+ (published market estimates, not Mythara figures)** | **Every major contract type** |
 
 ---
 
-## Strategic Acquisition Targets
+## Hypothetical Exit Scenarios (Aspirations, Not Facts)
 
-### TOP 4 - Immediate M&A Conversations
+### Four large-platform targets
 
-1. **Microsoft** ($3T market cap)
-   - **Fit Score:** 98/100
-   - **Strategic Rationale:** Integrate SSIP into Azure, M365, Dynamics
-   - **Acquisition Value:** $75M-$150M+
-   - **Contact:** CVP Azure/M365
-   - **Next Step:** CEO-level M&A intro call
+1. **Microsoft**
+   - **Strategic rationale:** Integrate integrity tooling into Azure, M365, Dynamics
+   - **Aspired next step:** Introductory conversation (none has happened)
 
-2. **Amazon Web Services** ($500B+ revenue)
-   - **Fit Score:** 98/100
-   - **Strategic Rationale:** AWS Blockchain as a Service + QLDB integration
-   - **Acquisition Value:** $50M-$100M+
-   - **Contact:** VP of Blockchain/Web3
-   - **Next Step:** Product integration discussion
+2. **Amazon Web Services**
+   - **Strategic rationale:** Contract-verification integration for AWS services
+   - **Aspired next step:** Partnership discussion (none has happened)
 
-3. **ServiceNow** ($150B market cap)
-   - **Fit Score:** 97/100
-   - **Strategic Rationale:** Contract management module for platform
-   - **Acquisition Value:** $60M-$120M+
-   - **Contact:** Chief Product Officer
-   - **Next Step:** Platform partnership → acquisition
+3. **ServiceNow**
+   - **Strategic rationale:** Contract management module for the platform
+   - **Aspired next step:** Platform partnership discussion (none has happened)
 
-4. **Adobe** ($250B market cap)
-   - **Fit Score:** 95/100
-   - **Strategic Rationale:** Complement Adobe Sign with blockchain verification
-   - **Acquisition Value:** $50M-$100M+
-   - **Contact:** EVP Digital Experience
-   - **Next Step:** Adobe Sign enhancement discussion
+4. **Adobe**
+   - **Strategic rationale:** Complement Adobe Sign with tamper-evident verification
+   - **Aspired next step:** Enhancement discussion (none has happened)
+
+No fit scores are published (none were measured). No acquisition values are stated (none exist).
 
 ---
 
-## Strategic Partnership Opportunities
+## Potential Partnership Targets (Aspirations, Not Facts)
 
-### WHITE-LABEL PLATFORM PARTNERS
+### WHITE-LABEL PLATFORM TARGETS
 
-1. **Palantir Technologies** (95 fit score)
-   - **Partnership:** Palantir data integrity + Mythara contract integrity
-   - **Value:** Both companies focused on similar mission (trust/verification)
-   - **Opportunity:** Joint government/defense offering
+1. **Palantir Technologies**
+   - **Hypothesis:** Data integrity + contract integrity could pair for joint offerings
+   - **Status:** No contact, no partnership, no conversation
 
-2. **Icertis** (85 fit score)
-   - **Partnership:** Blockchain verification layer for Icertis CLM
-   - **Value:** Add cryptographic integrity to existing CLM platform
-   - **Opportunity:** White-label SSIP to Icertis customers
+2. **Icertis**
+   - **Hypothesis:** Tamper-evident verification layer for CLM platforms
+   - **Status:** No contact, no partnership, no conversation
 
-3. **Ironclad** (86 fit score)
-   - **Partnership:** Verification module for Ironclad contracts
-   - **Value:** Fast-growing CLM startup needs differentiation
-   - **Opportunity:** Strategic investment + technology partnership
+3. **Ironclad**
+   - **Hypothesis:** Verification module for contract platforms
+   - **Status:** No contact, no partnership, no conversation
 
 ---
 
-## Revenue Potential by Outreach Wave
+## Revenue Potential by Outreach Wave (Illustrative Projections — Not Results)
+
+> Every figure below is a planning illustration. No revenue, deals, or close rates exist. These are arithmetic exercises for prioritization, not claims.
 
 ### Wave 1: Critical Prospects (Weeks 1-4)
-- **22 prospects currently loaded + 40 more designed = 62 total**
-- **Deal Size:** $500K-$2M each
-- **Close Rate Assumption:** 15% (9-10 deals)
-- **Revenue Potential:** $4.5M-$20M ARR
+- **62 prospects** (22 loaded + 40 designed)
+- **Illustrative deal size:** $500K-$2M each
+- **Illustrative close rate:** 15% (9-10 deals)
+- **Illustrative revenue:** $4.5M-$20M ARR
 
 ### Wave 2: High Priority (Months 2-6)
-- **14 prospects currently loaded + 106 more designed = 120 total**
-- **Deal Size:** $100K-$500K each
-- **Close Rate Assumption:** 20% (24 deals)
-- **Revenue Potential:** $2.4M-$12M ARR
+- **120 prospects** (14 loaded + 106 designed)
+- **Illustrative deal size:** $100K-$500K each
+- **Illustrative close rate:** 20% (24 deals)
+- **Illustrative revenue:** $2.4M-$12M ARR
 
 ### Wave 3: Medium Priority (Months 7-12)
 - **20 prospects designed**
-- **Deal Size:** $25K-$100K each
-- **Close Rate Assumption:** 30% (6 deals)
-- **Revenue Potential:** $150K-$600K ARR
+- **Illustrative deal size:** $25K-$100K each
+- **Illustrative close rate:** 30% (6 deals)
+- **Illustrative revenue:** $150K-$600K ARR
 
-### TOTAL FIRST-YEAR POTENTIAL
-- **Acquisition Exit:** $50M-$150M (if Microsoft/AWS/ServiceNow/Adobe interested)
-- **OR Enterprise ARR:** $7M-$32M+ from commercial deals
-- **Platform Partnerships:** $1M-$5M additional revenue through white-labeling
+### TOTAL FIRST-YEAR POTENTIAL (all illustrative)
+- Acquisition exit: figure not stated (none exists)
+- OR Commercial ARR: $7M-$32M+ (projection, not a result)
+- Platform partnerships: $1M-$5M (projection, not a result)
 
 ---
 
@@ -517,34 +508,29 @@ Status: 36/200+ prospects loaded (script stopped early)
 ### Why EVERY Industry Needs SSIP
 
 1. **Universal Pain Point:** Contract integrity, fraud prevention, audit trails
-2. **Regulatory Pressure:** SEC, HIPAA, SOC 2, CMMC, GDPR all require verification
+2. **Regulatory Pressure:** Contract-heavy industries face audit and record-keeping requirements (SEC, HIPAA, CMMC, GDPR)
 3. **Digital Transformation:** Every industry moving to digital contracts
 4. **Blockchain Native:** Next-generation verification beats legacy DocuSign
 5. **API-First:** Integrates with existing systems (Salesforce, SAP, Oracle, etc.)
 6. **Zero Marginal Cost:** Cloud-native scaling
-7. **Patent-Pending:** SSIP technology is proprietary and defensible
+7. **Open design:** The integrity protocol is implemented in working code with tests, not asserted by marketing copy
 
 ---
 
 ## Conclusion
 
-**YOU NOW HAVE MAXIMUM MARKET EXPOSURE.**
+**WHAT THIS REPORT IS:** a prospect and target list for outreach planning. It covers:
 
-Your expanded prospect database covers:
-- ✅ **200+ companies** across **17 major industries**
-- ✅ **Every contract type** that matters (trade, supplier, customer, employment, franchise, federal, etc.)
-- ✅ **$60B-$120B+ total addressable market**
-- ✅ **4 acquisition targets** worth $50M-$150M+
-- ✅ **Strategic partnerships** with Palantir, Icertis, Ironclad
-- ✅ **Geographic diversity** (US, Europe, limited APAC)
-- ✅ **All company sizes** (Fortune 10 to high-growth startups)
+- **200+ outreach targets** across **17 major industries**
+- **Every contract type** that matters (trade, supplier, customer, employment, franchise, federal, etc.)
+- **4 hypothetical exit scenarios** (aspirations, not conversations)
+- **3 partnership hypotheses** (aspirations, not relationships)
+- **Geographic diversity** (US, Europe, limited APAC)
+- **All company sizes** (large caps to high-growth startups)
 
-**TOTAL FIRST-YEAR REVENUE POTENTIAL:**
-- Acquisition exit: $50M-$150M
-- OR Commercial ARR: $7M-$32M+
-- Platform partnerships: $1M-$5M+
+**What is NOT true (stated so it is never misread):** no customer, pilot, partner, investor, certification, or revenue exists behind any figure in this report. All projections are illustrative.
 
-**Your marketing team now has a systematic roadmap to capture market share in every relatable business vertical.**
+**Your marketing team now has a systematic roadmap for outreach in every relatable business vertical — targets to contact, not wins to claim.**
 
 ---
 

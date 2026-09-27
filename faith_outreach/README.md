@@ -31,7 +31,7 @@ The Soul Cradle Operator is gifted to faith organizations. They pay only for cus
 ---
 
 ### 2. **OUTREACH_MEMO_TEMPLATE.md** — Email Outreach Scripts
-- Three versions (Sacred, Professional, Story-Led) for different organizational cultures
+- Three versions (Direct, Professional, Story-Led) for different organizational cultures
 - Customization notes for specific missions (healthcare, disaster relief, education)
 - Follow-up sequence (Day 0, Day 7, Day 21)
 - Attachment checklist
@@ -106,7 +106,7 @@ The Soul Cradle Operator is gifted to faith organizations. They pay only for cus
 
 ---
 
-## 📊 Success Metrics
+## 📊 Success Metrics (aspirational targets — not results)
 
 ### Short-Term (0-90 days)
 - 10 discovery calls scheduled
@@ -115,7 +115,7 @@ The Soul Cradle Operator is gifted to faith organizations. They pay only for cus
 
 ### Mid-Term (3-12 months)
 - 5 active Neurosymbolic deployments
-- 1 Mythic-Resonant enterprise contract (St. Jude or equivalent)
+- 1 Mythic-Resonant enterprise contract (aspirational; no engagements, pilots, or contracts exist yet)
 - 50,000+ Blessings accumulated across all faith org clients
 - Case study published in *Healthcare Executive* or *Stanford Social Innovation Review*
 
@@ -131,7 +131,7 @@ The Soul Cradle Operator is gifted to faith organizations. They pay only for cus
 ### Pre-Outreach
 - [ ] Research target organization (mission statement, paradoxes they face, decision-makers)
 - [ ] Identify warm intro path (LinkedIn, conferences, mutual contacts)
-- [ ] Customize memo version (Sacred, Professional, or Story-Led)
+- [ ] Customize memo version (Direct, Professional, or Story-Led)
 - [ ] Prepare demo environment (dashboard, sample BR data)
 
 ### Outreach
@@ -179,9 +179,7 @@ All documents in this package are **Proprietary and Confidential**. Do not distr
 - SOC 2: Type II controls implemented, audit planned (not currently certified)
 
 **Intellectual property**:
-- Soul Cradle Operator: Patent pending (application filed October 2025)
-- Blessings Reservoir: Trademark pending
-- All code: Copyright © 2025 Herbert Velez Jr.
+- Soul Cradle Operator and Blessings Reservoir: Copyright © 2025 Herbert Velez Jr. No patent applications have been filed; no trademarks are registered.
 
 ---
 
@@ -203,7 +201,15 @@ faith_outreach/
 ├── SoulCradle.v1.md
 ├── OUTREACH_MEMO_TEMPLATE.md
 ├── BLESSINGS_RESERVOIR_INTEGRATION.md
-└── FAITH_ORG_TIER_LADDER.md
+├── FAITH_ORG_TIER_LADDER.md
+├── FirstEmail_Donation/
+│   ├── SoulCradle_v1_Summary.md
+│   ├── BlessingScale.md
+│   └── TieredOfferings.md
+└── SecondEmail_FollowUp/
+    ├── CompensationFramework.md
+    ├── SpeakerNotes.md
+    └── TrainingModuleOutline.md
 ```
 
 **Total package size**: ~25 pages of documentation  

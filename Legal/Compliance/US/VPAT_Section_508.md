@@ -244,6 +244,6 @@ This Voluntary Product Accessibility Template (VPAT) is for informational purpos
 
 ---
 
-**Mythara Project** (Mythara Labs LLC: formation filed Sept 27, 2026, pending completion)
+**Mythara Project** (Mythara Labs LLC: formation filing attempted Sept 27, 2026 — not confirmed; entity not yet formed)
 **VPAT Version:** 1.0.0 (blank template)
 **Report Date:** November 2, 2025

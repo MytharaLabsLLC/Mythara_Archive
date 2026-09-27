@@ -529,21 +529,22 @@ if __name__ == '__main__':
     # Initialize autonomous operations
     ops = AutonomousOperations(business_info)
     
-    # Simulate bot closing deals autonomously
+    # Simulate bot closing deals autonomously (demo: placeholder addresses,
+    # not real customers)
     print("\n" + "="*80)
     print("💼 BOT AUTONOMOUSLY CLOSING DEALS")
     print("="*80)
     
     # Deal 1: Early adopter
-    deal1 = ops.close_deal("sarah@westernunion.com", Decimal("500"), "Zelle")
+    deal1 = ops.close_deal("demo.prospect1@example.com", Decimal("500"), "Zelle")
     ops.record_payment_received(deal1.invoice_number, "Zelle")
     
     # Deal 2: Standard pricing
-    deal2 = ops.close_deal("mike@pingidentity.com", Decimal("2500"), "ACH")
+    deal2 = ops.close_deal("demo.prospect2@example.com", Decimal("2500"), "ACH")
     ops.record_payment_received(deal2.invoice_number, "ACH")
     
     # Deal 3: Enterprise
-    deal3 = ops.close_deal("james@uchealth.org", Decimal("5000"), "pending")
+    deal3 = ops.close_deal("demo.prospect3@example.com", Decimal("5000"), "pending")
     # Payment not yet received
     
     # Show dashboard

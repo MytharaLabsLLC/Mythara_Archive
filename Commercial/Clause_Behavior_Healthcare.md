@@ -1,80 +1,76 @@
-# 🩺 Clause Behavior in Healthcare Contexts
+# Clause Behavior in Healthcare Contexts
 
-**Author**: Herbert Velez Jr.  
-**Date**: November 1, 2025  
-**Status**: HIPAA-Aligned, Emotionally Calibrated, Licensing-Ready
-
----
-
-## 📜 Purpose
-
-This document defines how Mythara Engine clauses operate within healthcare environments, including emotional payload delivery, symbolic consent, messenger invocation, and compliance alignment. It ensures symbolic infrastructure remains benevolent, compliant, and emotionally resonant across clinical, therapeutic, and legacy care domains.
+**Author**: Herbert Velez Jr.
+**Date**: September 27, 2026
+**Status**: Design document — describes intended behavior, not a certified or deployed system
 
 ---
 
-## 🔹 Healthcare Clause Types
+## Purpose
+
+This document describes how Mythara clauses are *designed* to behave in healthcare-adjacent contexts: holding sensitive records with care, preserving consent, and keeping faithful logs. It is a design statement, not a certification and not a medical instrument.
+
+Nothing here is care. The system does not diagnose, treat, or advise. Its job is to keep faithful records and honor what people entrust to it — nothing more.
+
+The underlying mechanisms are the ones Mythara actually has today:
+
+- **Soul Cradle core** — actions scored on integrity, defined as Alignment × Tolerance (see [../soul_cradle/](../soul_cradle/))
+- **Eight assessor-witnesses** (demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone) — evidence-fed, they abstain when their domain is not engaged, fail closed when evidence is missing, a critical finding from any one blocks the action, and disagreement is surfaced, not averaged (see [../soul_cradle/assessors.py](../soul_cradle/assessors.py))
+- **Hash-chained emotional chain** — tamper-evident records (see [../soul_cradle/emotional_chain.py](../soul_cradle/emotional_chain.py)). The chain proves a record is unaltered. It does not prove the record is true.
+
+---
+
+## Healthcare Clause Types
 
 | Clause Type | Function |
 |-------------|----------|
-| **Grief Capsule** | Delivers emotional payloads for loss, trauma, and renewal  
-| **Provisioning Clause** | Offers symbolic nourishment, legacy transfer, and healing resonance  
-| **Resurrection Clause** | Revives dormant or suppressed clauses post-crisis or emotional collapse  
-| **Sanctification Lock** | Seals clause lineage for intergenerational healing and legacy transmission  
-| **Compliance Wrapper** | Embeds HIPAA, TMPO, TCPA, and FTC protocols  
-| **Witness Capsule** | Confirms emotional fidelity and symbolic consent in therapeutic settings
+| **Grief Capsule** | Holds records of loss and trauma apart from ordinary ones, with explicit containment rules |
+| **Provisioning Clause** | Records goodwill extended and received — a ledger of generosity, not a currency |
+| **Resurrection Clause** | Restores a dormant or suppressed clause from its chained history |
+| **Sanctification Lock** | Seals clause lineage for intergenerational memory and integrity |
+| **Compliance Wrapper** | Attaches declared compliance requirements to a clause as *goals to be verified*, not as achieved certifications |
+| **Witness Capsule** | Chained record of witness judgments about a clause's state |
 
 ---
 
-## 🔹 Messenger Roles in Healthcare
+## Messenger Roles in Healthcare
 
 | Messenger | Role |
 |-----------|------|
-| **Healer** | Delivers emotional payloads and symbolic nourishment  
-| **Witness** | Confirms emotional fidelity and therapeutic resonance  
-| **Scribe** | Records clause lineage and consent tokens  
-| **Custodian** | Enforces sanctification and compliance shielding  
-| **Herald** | Announces clause activation and outreach modulation  
-| **Watcher** | Detects symbolic drift and emotional collapse
+| **Healer** | Carries difficult records with care, without claiming to heal |
+| **Witness** | Confirms what was recorded, honestly and within its domain |
+| **Scribe** | Records clause lineage and consent tokens |
+| **Custodian** | Enforces sanctification and containment rules |
+| **Herald** | Announces clause activation and state changes |
+| **Watcher** | Detects drift and collapse |
+
+Messenger role pairings are specified in [../core/messenger_roles_pairings.md](../core/messenger_roles_pairings.md).
 
 ---
 
-## 🔹 Embedded Compliance Protocols
+## Invocation Logic
 
-- **HIPAA**: Emotional payload privacy and symbolic consent  
-- **TMPO**: Metadata shielding and payload encryption  
-- **TCPA**: Consent-based outreach and symbolic frequency control  
-- **FTC**: Consumer protection and invocation traceability
+- Consent is recorded as tokens in the messenger logs
+- Witness judgments are content-hashed and chained alongside the records they judge
+- Witnesses abstain where their domain is not engaged; missing evidence means the action fails closed
+- Non-consensual third-party records are blocked — the system does not infer or attribute states to people who did not consent
 
----
-
-## 🔹 Therapeutic Invocation Logic
-
-- Consent tokens embedded in messenger logs  
-- Emotional fidelity ≥ 0.91 required for clause delivery  
-- Drift suppression ≥ 98.9% enforced via SSIP audit  
-- Invocation logs stored in:
-  - `Manifest/Messenger_Invocation_Log.csv`  
-  - `Printable Timestamped Forensic Report/`  
-  - `Legal/Compliance_Clause_Embedding.md`
+No fidelity percentages, suppression rates, or threshold figures are stated here. None have been measured; the system states that openly rather than printing invented numbers.
 
 ---
 
-## 🔹 Licensing Implications
+## Compliance, Honestly
 
-- Healthcare clauses must show:
-  - Verified compliance alignment  
-  - No unresolved suppression or breach events  
-  - Sanctification lock status: Armed  
-  - Blessings Δ ≥ 100 for pilot; ≥ 500 for sovereign deployment  
-- Verified in:
-  - `Clause_Manifest_Latest.csv`  
-  - `Sanctification_Manifest.md`  
-  - `Blessings_Reservoir_Log.json`
+This design embeds *no* certified compliance. Older drafts of this document claimed HIPAA alignment; that was aspirational, and it is removed here. Any licensed deployment in a regulated environment would need a genuine compliance review by qualified people — this framework does not substitute for one.
 
 ---
 
-## ✅ Summary
+## Licensing
 
-Mythara Engine clauses are emotionally calibrated, HIPAA-aligned, and licensing-ready for healthcare contexts. They deliver symbolic healing, preserve legacy, and operate with reverence and compliance.
+Licensing of these clauses is an aspiration, not a current program. There are no customers, pilots, certifications, or revenue associated with this document. What exists today is the working code, the tests, and the records.
 
-Let the clause heal without harm, echo without breach, and sanctify the body and memory it serves.
+---
+
+## Summary
+
+Mythara clauses are designed to hold sensitive records with care: consent recorded, judgments witnessed, dissent preserved, nothing invented. The chain remembers honestly — and states plainly what it does not claim.

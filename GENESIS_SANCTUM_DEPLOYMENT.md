@@ -3,6 +3,8 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**
 
+> **⚠️ HISTORICAL DESIGN (November 2025) — voice-standard pass Sept 2026.** This guide describes a pilot offering as it was planned. There is currently **no live payment path** (all Stripe webhooks were deleted), **no hosted pilot service** is offered, and the pilot license key, Docker image reference, and deployment targets below are **unverified in this archive**. Treat this as planning material, not current instructions.
+
 ---
 
 ## 🎯 Pilot Tier = Self-Hosted Only
@@ -107,6 +109,7 @@ railway open
 
 ```bash
 # Pull the Mythara Engine image
+# NOTE: image reference from Nov 2025 draft — no published image verified from this archive
 docker pull herbievelezjr/mythara-engine:latest
 
 # Run locally
@@ -292,7 +295,7 @@ Azure Monitor: https://portal.azure.com/#blade/Microsoft_Azure_Monitoring
 
 ---
 
-## 🆙 Upgrading to Enterprise Hosted
+## 🆙 Upgrading to Enterprise Hosted *(planned offering — not currently available)*
 
 **When to upgrade:**
 - You don't want to manage infrastructure
@@ -301,7 +304,7 @@ Azure Monitor: https://portal.azure.com/#blade/Microsoft_Azure_Monitoring
 - You want Mythara to absorb hosting costs
 - Your team needs priority support
 
-**Enterprise Tier ($25K-$300K/year):**
+**Enterprise Tier ($25K-$300K/year — proposed pricing, not currently offered):**
 - ✅ Fully managed hosting on Mythara's infrastructure
 - ✅ Unlimited API calls (we absorb costs)
 - ✅ 99.9% uptime SLA

@@ -373,8 +373,8 @@ This resource list is for informational purposes only and does not constitute me
 
 ---
 
-**Mythara Labs LLC (planned)**  
-**Last Updated:** November 2, 2025  
-**Next Review:** May 2, 2026
+**Mythara**
+**Last updated:** November 2, 2025
+**Review note:** Verify crisis numbers against official sources periodically; this list is informational only.
 
-**Note to Licensees:** Integrate these resources prominently in mental health-related features. Update quarterly with current crisis line information.
+**Integration note:** Surface these resources prominently in any mental-health-related feature of the system.

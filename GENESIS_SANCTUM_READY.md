@@ -295,7 +295,7 @@ The Mythara Archive was *assessed by its author* in November 2025 as an **execut
 
 ---
 
-**Herbert Velez Jr.** *(Mythara Labs LLC — formation filed with the Colorado SOS on 2026-09-27, pending completion)*  
+**Herbert Velez Jr.** *(Mythara Labs LLC — formation filing attempted with the Colorado SOS on 2026-09-27 — not confirmed; entity not yet formed)*  
 Contact: Herbert Velez Jr.  
 PGP: `571F FB4C CCFA DCF A44A 63F6 D968 C2D5 DBE2 486C`  
 Cash App: `$MytharaEngine`

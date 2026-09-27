@@ -1,5 +1,7 @@
 # DrMythara Medical Team Suite - Quick Reference
 
+> **Status: technical documentation for an experimental module.** This is not a medical device, is not clinically validated, and has not been audited for HIPAA or any other compliance framework. The disclaimers at the bottom of this page are part of the contract — this system supports administrative workflows; it does not diagnose, treat, or advise.
+
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
 ---
@@ -256,8 +258,8 @@ medical_team_report_YYYYMMDD_HHMMSS.json
 | `run_medical_team_suite.py` | Suite runner script |
 | `run_drmythara_bot.py` | Compliance bot runner |
 | `schedule_medical_team_bots.ps1` | Task scheduler setup |
-| `DRMYTHARA_MEDICAL_TEAM_SUITE.md` | Full documentation |
-| `MENTAL_HEALTH_INTEGRATION_COMPLETE.md` | DSM-5-TR integration |
+| `Legal/Compliance/US/Mental_Health_Clinical_Integration.md` | Mental health clinical design notes |
+| *(doc not present in repo)* | Full medical team suite documentation — not written |
 
 ---
 
@@ -295,7 +297,7 @@ pip install -r requirements.txt
 
 For issues or questions:
 - Email: herb@mythara.ai
-- Documentation: `DRMYTHARA_MEDICAL_TEAM_SUITE.md`
+- Related files: see the table above (a standalone full-documentation file is not present in the repo)
 - Repository: Mythara_Archive
 
 ---

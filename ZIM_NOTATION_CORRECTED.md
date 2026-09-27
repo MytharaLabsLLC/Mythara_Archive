@@ -204,7 +204,7 @@ policy_paradox(X, Y) :-
 └─────────────────────────────────────────────────────────┘
 ```
 
-**Key Principle**: Mythara works perfectly without Zim. Zim is an optional extension for specialized use cases.
+**Key Principle**: The framework remains functional without Zim. Zim is an optional extension for specialized use cases.
 
 ---
 
@@ -274,7 +274,7 @@ paradox_holds(PolicyWeight, SafetyWeight) :-
 - Interoperable with existing tools
 
 ### ✅ Optional, Not Required
-- Mythara works perfectly without Zim
+- The framework functions without Zim
 - Zim adds value for specialized use cases
 - No barrier to entry for frontline users
 

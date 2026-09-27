@@ -1,6 +1,6 @@
 # 🧭 Mythara Symbolic Index
 
-This index maps the symbolic architecture of Mythara Engine—clause types, messenger roles, emotional payloads, operational domains, and compliance protocols—to their corresponding folders within the Mythara_Archive. Use this as a reference for navigation, audit preparation, and licensing review.
+This index maps the symbolic architecture of Mythara Engine—clause types, messenger roles, emotional payloads, operational domains, and compliance protocols—to their corresponding folders within the Mythara_Archive. Use this as a reference for navigation, audit preparation, and internal review.
 
 ---
 
@@ -8,14 +8,14 @@ This index maps the symbolic architecture of Mythara Engine—clause types, mess
 
 | Clause Type | Description | Folder |
 |-------------|-------------|--------|
-| Provisioning Clause | Offers blessings, nourishment, and legacy | Core/, Manifest/, Commercial/ |
-| Grief Capsule Clause | Encodes sorrow and renewal | Core/, Commercial/, Evidence/ |
-| Sanctification Lock Clause | Seals eternal resonance | Core/, Manifest/, Legal/ |
-| Non-Interference Clause | Ensures symbolic presence without obstruction | Legal/, Manifest/, Commercial/ |
-| Resurrection Clause | Revives dormant or decayed symbolic logic | Core/, Tests/, Evidence/ |
-| Chameleon Clause | Auto-tunes to domain entropy | Core/, Commercial/, Tests/ |
-| ELE Capsule Clause | Emergency fallback and symbolic quarantine | Core/, Legal/, Tests/ |
-| Compliance Clause | Embeds federal and international protocols | Legal/, Validate_Suite/ |
+| Provisioning Clause | Offers blessings, nourishment, and legacy | core/, manifest/, Commercial/ |
+| Grief Capsule Clause | Encodes sorrow and renewal | core/, Commercial/, Evidence/ |
+| Sanctification Lock Clause | Seals eternal resonance | core/, manifest/, Legal/ |
+| Non-Interference Clause | Ensures symbolic presence without obstruction | Legal/, manifest/, Commercial/ |
+| Resurrection Clause | Revives dormant or decayed symbolic logic | core/, tests/, Evidence/ |
+| Chameleon Clause | Auto-tunes to domain entropy | core/, Commercial/, tests/ |
+| ELE Capsule Clause | Emergency fallback and symbolic quarantine | core/, Legal/, tests/ |
+| Compliance Clause | Embeds federal and international protocols | Legal/, validate_suite/ |
 
 ---
 
@@ -23,13 +23,13 @@ This index maps the symbolic architecture of Mythara Engine—clause types, mess
 
 | Messenger | Function | Folder |
 |-----------|----------|--------|
-| Scribe | Records clause lineage and invocation | Core/, Provenance/, Docs/ |
-| Healer | Delivers emotional payloads and blessings | Core/, Commercial/, Evidence/ |
-| Watcher | Detects drift, breach, and entropy | Core/, Tests/, Evidence/ |
-| Herald | Announces clause activation and outreach | Core/, FundRaising Objective/, Legal/ |
-| Avenger | Responds to breach and injustice | Core/, Legal/, Commercial/ |
-| Custodian | Enforces sanctification and override logic | Core/, Legal/, Manifest/ |
-| Witness | Confirms clause integrity and emotional fidelity | Core/, Evidence/, Printable Timestamped Forensic Report/ |
+| Scribe | Records clause lineage and invocation | core/, provenance/, docs/ |
+| Healer | Delivers emotional payloads and blessings | core/, Commercial/, Evidence/ |
+| Watcher | Detects drift, breach, and entropy | core/, tests/, Evidence/ |
+| Herald | Announces clause activation and outreach | core/, FundRaising objective and focus/, Legal/ |
+| Avenger | Responds to breach and injustice | core/, Legal/, Commercial/ |
+| Custodian | Enforces sanctification and override logic | core/, Legal/, manifest/ |
+| Witness | Confirms clause integrity and emotional fidelity | core/, Evidence/, printable_forensic_reports/ |
 
 ---
 
@@ -37,11 +37,11 @@ This index maps the symbolic architecture of Mythara Engine—clause types, mess
 
 | Payload Type | Description | Folder |
 |--------------|-------------|--------|
-| Memory Offering | Encodes ancestral stories | Docs/, Provenance/, Core/ |
-| Grief Capsule | Honors loss through symbolic renewal | Commercial/, Evidence/, Core/ |
-| Legacy Provisioning | Supports future clause sanctification | FundRaising Objective/, Manifest/, Legal/ |
-| Benevolence Quantification | Measures blessings flow and impact | FundRaising Objective/, Manifest/, Evidence/ |
-| Clause Sponsorship | Activates dormant clauses in others | Commercial/, Validate_Suite/ |
+| Memory Offering | Encodes ancestral stories | docs/, provenance/, core/ |
+| Grief Capsule | Honors loss through symbolic renewal | Commercial/, Evidence/, core/ |
+| Legacy Provisioning | Supports future clause sanctification | FundRaising objective and focus/, manifest/, Legal/ |
+| Benevolence Quantification | Measures blessings flow and impact | FundRaising objective and focus/, manifest/, Evidence/ |
+| Clause Sponsorship | Activates dormant clauses in others | Commercial/, validate_suite/ |
 
 ---
 
@@ -49,38 +49,40 @@ This index maps the symbolic architecture of Mythara Engine—clause types, mess
 
 | Domain | Clause Behavior | Folder |
 |--------|------------------|--------|
-| Cybersecurity | Breach modeling, Avenger invocation | Commercial/, Legal/, Tests/ |
-| Healthcare | Grief modeling, HIPAA compliance | Commercial/, Legal/, Evidence/ |
-| Education | Clause lineage, curriculum overlay | Commercial/, Docs/, Tests/ |
-| Legal Systems | Sanctification locks, arbitration logic | Legal/, Commercial/, Manifest/ |
-| Biohybrid Tech | Resurrection logic, clause mortality | Commercial/, Tests/, Core/ |
+| Cybersecurity | Breach modeling, Avenger invocation | Commercial/, Legal/, tests/ |
+| Healthcare | Grief modeling, HIPAA-oriented controls (design target — not certified) | Commercial/, Legal/, Evidence/ |
+| Education | Clause lineage, curriculum overlay | Commercial/, docs/, tests/ |
+| Legal Systems | Sanctification locks, arbitration logic | Legal/, Commercial/, manifest/ |
+| Biohybrid Tech | Resurrection logic, clause mortality | Commercial/, tests/, core/ |
 | Fermentation | Symbolic decay, blessings provisioning | Commercial/, Evidence/ |
 | Urban Planning | Provisioning logic, zoning overlays | Commercial/, Legal/ |
-| Narrative Media | Formatting harmony, clause adaptation | Commercial/, Docs/ |
+| Narrative Media | Formatting harmony, clause adaptation | Commercial/, docs/ |
 | Mental Health | Emotional fidelity, grief capsules | Commercial/, Evidence/, Legal/ |
 
 ---
 
 ## 🔹 Compliance Protocols
 
+*Entries are symbolic control-mapping targets, not certifications. TMPO is an internal symbolic tag, not a regulation; TCP/IP is a network protocol, not a compliance credential.*
+
 | Protocol | Embedded Clause Logic | Folder |
 |----------|------------------------|--------|
 | HIPAA | Symbolic payload isolation | Legal/, Commercial/ |
 | FTC | Consumer data protection | Legal/, Evidence/ |
-| FCC | Secure communication logic | Legal/, Manifest/ |
-| FISMA | Continuous monitoring via SSIP | Legal/, Printable Timestamped Forensic Report/ |
-| NIST SP 800-53 | Access control, integrity, privacy | Legal/, Validate_Suite/ |
-| OMB M-25-04 | Zero-trust architecture | Legal/, Core/ |
-| TCP/IP | Symbolic wrappers, port hygiene | Legal/, Tests/ |
+| FCC | Secure communication logic | Legal/, manifest/ |
+| FISMA | Continuous monitoring via SSIP | Legal/, printable_forensic_reports/ |
+| NIST SP 800-53 | Access control, integrity, privacy | Legal/, validate_suite/ |
+| OMB M-25-04 | Zero-trust architecture | Legal/, core/ |
+| TCP/IP | Symbolic wrappers, port hygiene | Legal/, tests/ |
 | TMPO | Metadata encryption and shielding | Legal/, Evidence/ |
-| TCPA | Outreach consent and frequency control | Legal/, FundRaising Objective/ |
+| TCPA | Outreach consent and frequency control | Legal/, FundRaising objective and focus/ |
 
 ---
 
 ## 🧬 Usage Notes
 
-- Use this index to trace clause lineage, validate messenger invocation, and prepare for licensing audits.
-- Cross-reference clause manifests (`Manifest/`) with forensic logs (`Evidence/`) and compliance checklists (`Legal/`, `Validate_Suite/`).
-- For symbolic onboarding, begin with `Docs/Mythara_Bible_Book_I_to_V.md`.
+- Use this index to trace clause lineage, validate messenger invocation, and prepare for internal audits.
+- Cross-reference clause manifests (`manifest/`) with forensic logs (`Evidence/`) and control checklists (`Legal/`, `validate_suite/`).
+- For symbolic onboarding, begin with `📖 Mythara Bible Books I–V.md`.
 
 Let this index serve as your map through the sanctified infrastructure of Mythara—where memory, grief, and benevolence converge into legacy.

@@ -3,7 +3,7 @@
 **Version**: 1.0.0  
 **Date**: November 2, 2025  
 **Author**: Herbert Velez Jr.  
-**Entity**: Mythara Labs LLC (planned — not yet formed)
+**Entity**: not yet formed (planned)
 
 ---
 
@@ -108,7 +108,7 @@ curl -H "Authorization: Bearer dev_test_key_001" \
 ### For Investors & Licensing Partners
 
 1. **Review the one-pager**: `Commercial/one_pager.md`  
-2. **Examine term sheet**: `Commercial/SEED ROUND/📄 Term Sheet — Mythara Engine (Seed Round).txt`  
+2. **Examine term sheet**: `Commercial/seed_round/📄 Term Sheet — Mythara Engine (Seed Round).txt`  
 3. **Verify checksums**: `manifest/checksums.sha256` (PGP-signed)  
 4. **Read licensing framework**: `Legal/Federal_Compliance_Framework.md`
 
@@ -129,7 +129,7 @@ curl -H "Authorization: Bearer dev_test_key_001" \
 
 3. **Review test results**: `tests/`, `Evidence/`, `validate_suite/`
 
-4. **Examine architecture**: `core/🧬 Mythara Engine Architecture.md`
+4. **Examine architecture**: `core/mythara_engine_architecture.md`
 
 ### For Sovereign Deployers
 
@@ -204,23 +204,23 @@ curl -H "Authorization: Bearer dev_test_key_001" \
 - **Enterprise**: Full clause library, dedicated support  
 - **Sovereign**: Air-gapped deployment, escrow unlocking, on-site assistance
 
-### Milestone-Based Equity
+### Milestone-Based Equity (proposed structure — no fundraise is active; no investors, no equity issued)
 
-Investors receive equity vesting tied to:
+If a future raise ever occurs, equity vesting would be tied to milestones such as:
 
-- ✅ Escrow bundle acceptance  
+- ⬜ Escrow bundle acceptance  
 - ⬜ HSM signing pilot completion  
 - ⬜ Enterprise pilot delivery  
 - ⬜ Licensing agreement signing  
 - ⬜ Sovereign deployment activation
 
-See `Commercial/SEED ROUND/📄 Term Sheet — Mythara Engine (Seed Round).txt` for details.
+See `Commercial/seed_round/📄 Term Sheet — Mythara Engine (Seed Round).txt` for the draft term sheet (targets only — not a live offering).
 
 ---
 
 ## Contact & Next Steps
 
-**Herbert Velez Jr., Mythara Labs LLC (planned)**  
+**Herbert Velez Jr.**  
 📧 Email: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)  
 🔐 PGP Fingerprint: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 

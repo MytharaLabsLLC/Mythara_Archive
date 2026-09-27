@@ -3,13 +3,13 @@
 **Version**: 1.0.0  
 **Date**: November 2, 2025  
 **Classification**: PUBLIC  
-**Author**: Herbert Velez Jr., Mythara Labs LLC (planned)
+**Author**: Herbert Velez Jr.
 
 ---
 
 ## Overview
 
-This document defines the public-facing API surface for Mythara Engine, designed for enterprise licensing, sovereign deployment, and third-party integration. All endpoints are versioned, reproducible, and include symbolic integrity checks.
+This document is a design specification for the public-facing API surface of Mythara Engine. It describes the intended endpoints for clause invocation, blessings reservoir queries, clause manifests, and integrity audits — what a future implementation should expose, not a live service running today. Endpoints are versioned, and responses carry symbolic integrity checks.
 
 ---
 
@@ -189,10 +189,10 @@ X-PGP-Signature: SIGNATURE_BLOCK
 
 ## Support
 
-**Mythara Labs LLC (planned)**  
+**Herbert Velez Jr.**  
 Email: [api@mythara.engine](mailto:api@mythara.engine)  
 PGP Fingerprint: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 ---
 
-**API is stable, versioned, and ready for sovereign deployment.**
+**This specification is versioned. Sovereign deployment is an aspiration, not a current capability.**

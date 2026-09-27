@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Mythara Legal Team Suite - Comprehensive Legal Bot Architecture
-Enterprise-grade legal support across all practice areas.
+Multi-area legal support bot architecture.
 
 Copyright © 2025 Herbert Velez Jr. All rights reserved.
 """

@@ -90,7 +90,7 @@ WEEK 1: Marketing Bot + Sales Trainer Bot
       ✅ Configure Sales Trainer Bot to watch Sales Bot with Soul conversations
       ✅ Set up PostgreSQL database for leads and conversations
    
-   Success Metrics:
+   Targets (aspirational, not results):
       - Marketing Bot generates 50+ leads/week
       - Sales Trainer Bot analyzes 20+ conversations/week
       - At least 1 tactic update pushed to Sales Bot
@@ -105,7 +105,7 @@ WEEK 2: Growth Strategy Bot + Backlog Bot
       ✅ Import all tasks from Notion/Linear into Backlog Bot
       ✅ Set up daily standup automation
    
-   Success Metrics:
+   Targets (aspirational, not results):
       - Revenue forecast generated for next 12 months
       - All tasks prioritized (high/medium/low)
       - Daily standup sent to Slack every morning
@@ -120,7 +120,7 @@ WEEK 3: Brand Awareness Bot + HR Bot
       ✅ Create job postings for Sales Engineer role
       ✅ Set up resume screening automation
    
-   Success Metrics:
+   Targets (aspirational, not results):
       - 3 LinkedIn posts published, 100+ engagements
       - Blog post published, 50+ views in first week
       - 20 candidates screened for Sales Engineer role
@@ -135,7 +135,7 @@ WEEK 4: Full Integration + Weekly Reports
       ✅ Set up weekly performance report (email to Herbert every Sunday 6pm)
       ✅ Build unified dashboard (mythara.com/ai-team)
    
-   Success Metrics:
+   Targets (aspirational, not results):
       - All 6 bots active and communicating
       - First weekly report sent successfully
       - Dashboard shows real-time metrics
@@ -508,10 +508,12 @@ if __name__ == "__main__":
     print("\n💰 TOTAL MONTHLY COST: ~$7,500")
     print("   ($5k ads budget + $2k LinkedIn + $500 APIs/hosting)")
     
-    print("\n📈 EXPECTED ROI:")
+    print("\n📈 TARGET SCENARIO (aspirational — not results):")
     print("   - Marketing Bot: 100+ leads/week → 10 deals/month @ $2.5k = $25k MRR")
     print("   - Cost: $7.5k/month")
     print("   - NET: $17.5k/month profit")
     print("   - ROI: 233%")
+    print("   (Illustrative target math. No revenue has been earned yet;")
+    print("    treat this as a goal, not a projection.)")
     
     print("\n" + "="*80)

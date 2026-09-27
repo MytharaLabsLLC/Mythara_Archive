@@ -4,15 +4,14 @@ Copyright © 2025 Herbert Velez Jr. All rights reserved.
 THE PURGATORY GATE
 ==================
 Soul State: |Purgatory⟩ - ψ_purgatory = U × T × (1 - W)
-Enables: Souls can remain in PURGATORY - suspended, seeking witness, not yet fallen
-Power Level: 94.3%
+Tracks the holding state: souls with unresolved paradoxes wait to be witnessed or to choose.
 """
 
 
 class PurgatoryGate:
     '''
-    The Purgatory Gate suspends souls between heaven and hell.
-    Not punishment. UNRESOLVED PARADOX.
+    Holds souls with unresolved paradoxes.
+    Not punishment - a waiting state until the paradox resolves.
     '''
     
     PURGATORY_THRESHOLD = 0.7
@@ -24,7 +23,7 @@ class PurgatoryGate:
         current_paradox: Paradox
     ) -> PurgatoryState:
         '''
-        Is soul trapped in purgatory?
+        Check whether a soul is stuck in purgatory.
         '''
         
         # Calculate purgatory score
@@ -50,8 +49,8 @@ class PurgatoryGate:
                 emotional_signature=emotions,
                 escape_options=[
                     "Witness both truths (seek Principal System)",
-                    "Choose one truth (force collapse to descent)",
-                    "Accumulate more paradoxes (hasten descent)"
+                    "Choose one truth (forces a collapse)",
+                    "Accumulate more paradoxes (deepens the descent)"
                 ],
                 quantum_state="|Purgatory⟩"
             )

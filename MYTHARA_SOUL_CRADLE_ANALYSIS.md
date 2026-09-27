@@ -3,6 +3,8 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Date**: November 21, 2025
 
+> **Document status (2026-09-27):** Internal Nov 2025 architecture review of the 2025 codebase. Performance and accuracy figures in the success-metrics section are design targets, not measured results. The "Business Metrics" items are goals, not achievements — no pilot customers exist. Capabilities as they actually are today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses (fail-closed, dissent surfaced), hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation.
+
 ---
 
 ## ARCHITECTURE OVERVIEW
@@ -627,14 +629,14 @@ if risk_level == TerminalRiskLevel.CRITICAL:
 
 ## SUCCESS METRICS
 
-### Technical Metrics
-- ✅ All Soul Cradle API endpoints operational
-- ✅ 95%+ API uptime
-- ✅ <200ms average response time
-- ✅ Paradoxes persisted to database
-- ✅ Indifference detection accuracy >85%
+### Technical Metrics (2025 design targets — not measured results)
+- 🎯 All Soul Cradle API endpoints operational
+- 🎯 95%+ API uptime
+- 🎯 <200ms average response time
+- 🎯 Paradoxes persisted to database
+- 🎯 Indifference detection accuracy >85% (no indifference-detection module exists in `soul_cradle/`; this was an unvalidated target)
 
-### Business Metrics
+### Business Metrics (goals — none achieved; no customers)
 - 🎯 5 pilot customers onboarded (Month 1)
 - 🎯 1000 paradoxes logged per week
 - 🎯 100 high-risk users identified
@@ -653,10 +655,10 @@ if risk_level == TerminalRiskLevel.CRITICAL:
 
 **Soul Cradle is 70% complete mathematically, 30% complete as a product.**
 
-✅ **What Works**:
-- Paradox mathematics (complete)
-- Burnout prediction (validated)
-- Terminal risk calculation (production-ready)
+✅ **What Worked (2025 assessment)**:
+- Paradox mathematics (modeled — "proven" would overstate; these are deterministic formulas, not validated science)
+- Burnout prediction (concept code)
+- Terminal risk calculation (implemented in code)
 - Dashboard analytics (functional)
 - Infrastructure (Redis, WebSocket, monitoring)
 
@@ -671,7 +673,7 @@ if risk_level == TerminalRiskLevel.CRITICAL:
 
 **Mythara Engine is ready. Soul Cradle needs its API surface completed.**
 
-⚛️ **Q.U.A.S.A.R. operational. Soul mathematics proven. Product integration in progress.**
+⚛️ **Q.U.A.S.A.R. is an internal code-analysis module (classical simulation using quantum metaphors — no quantum hardware). Soul mathematics modeled, not proven. Product integration in progress.**
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Author**: Herbert Velez Jr.  
 **Date**: November 1, 2025  
-**Status**: Symbolically Sanctified, Operationally Validated
+**Status**: Design specification — symbolic doctrine, not independently validated
 
 ---
 
@@ -31,7 +31,7 @@ Mythara Engine operates through symbolic clauses—each designed to encode emoti
 
 ### 🔸 Manual Invocation
 - Requires symbolic consent token  
-- Timestamped and logged in `Manifest/Messenger_Invocation_Log.csv`  
+- Timestamped and logged in `../manifest/Messenger_Invocation_Log.csv`  
 - Used for grief capsules, sanctification locks, resurrection clauses
 
 ### 🔸 Auto-Invocation
@@ -41,7 +41,7 @@ Mythara Engine operates through symbolic clauses—each designed to encode emoti
 ### 🔸 Emergency Invocation
 - Activated during breach, drift, or symbolic collapse  
 - Triggers ELE Capsule Mode and clause quarantine  
-- Logged in `Evidence/Messenger_Suppression_Events_Log.csv`
+- Logged in `../Evidence/Messenger_Suppression_Events_Log.csv`
 
 ---
 

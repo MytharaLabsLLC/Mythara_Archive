@@ -11,10 +11,10 @@
 
 **Valuation Date:** November 18, 2025  
 **Analyst:** AI Business Valuation Agent (generated estimate — not an independent appraisal, not a licensed valuation)  
-**Entity:** Sole Proprietorship (Herbert Velez Jr.) → Mythara Labs LLC (formation filed with the Colorado Secretary of State on 2026-09-27, pending completion; member-managed; sole member Herbert Velez Jr.)  
+**Entity:** Sole Proprietorship (Herbert Velez Jr.) → Mythara Labs LLC (formation filing attempted with the Colorado Secretary of State on 2026-09-27 — not confirmed; entity not yet formed; member-managed; sole member Herbert Velez Jr.)  
 **Stage:** Pre-revenue, pilot-ready
 
-> **Document status (2026-09-27):** This is a 2025 AI-generated planning estimate, not a statement of fact. All valuation ranges, revenue projections, and "post-pilot" scenarios are speculative — none of the business scenarios (pilot customers, revenue) have occurred; LLC formation was filed on 2026-09-27 and is pending completion. Mythara remains pre-revenue with zero paying customers, no certifications, and no filed patents. Capabilities as they actually are today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation.
+> **Document status (2026-09-27):** This is a 2025 AI-generated planning estimate, not a statement of fact. All valuation ranges, revenue projections, and "post-pilot" scenarios are speculative — none of the business scenarios (pilot customers, revenue) have occurred; LLC formation filing was attempted on 2026-09-27 and is not confirmed; entity not yet formed. Mythara remains pre-revenue with zero paying customers, no certifications, and no filed patents. Capabilities as they actually are today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation.
 
 ---
 
@@ -80,7 +80,7 @@
 
 **IP Ownership Status:** ⚠️ CRITICAL ISSUE
 - **Current:** Herbert Velez Jr. (sole proprietor) owns all IP
-- **Claimed:** Mythara Labs LLC (formation filed 2026-09-27, pending completion)
+- **Claimed:** Mythara Labs LLC (formation filing attempted 2026-09-27 — not confirmed; not formed)
 - **Impact:** IP transfer required before LLC can license anything
 - **Remediation:** IP Assignment Agreement ($500-$1K attorney cost)
 
@@ -253,7 +253,7 @@
 
 **CRITICAL RISKS (Blocking):**
 1. **Legal Entity Incomplete** (-20% value)
-   - LLC formation filed 2026-09-27 but pending completion — the entity cannot sign contracts until formation completes
+   - LLC formation filing attempted 2026-09-27 — not confirmed — the entity cannot sign contracts until formation completes
    - Personal liability exposure until completion
    - **Impact:** All contracts must wait until remediated
 
@@ -297,7 +297,7 @@
 ### Value Recovery Timeline
 
 **Fix Critical Issues (30-60 days, ~$13K-$20K):**
-- Confirm LLC formation: Articles of Organization filed with Colorado SOS 2026-09-27 ($50 fee), pending completion
+- Confirm LLC formation: Articles of Organization filing attempted with Colorado SOS 2026-09-27 ($50 fee) — not confirmed; entity not yet formed
 - Get insurance: $10K-$15K annually
 - Execute IP assignment: $500-$1K attorney
 - **Value Recovery:** +50% → $750K becomes $1.1M
@@ -541,8 +541,8 @@
 
 ### Immediate Actions (This Week)
 
-1. **Complete LLC Formation** (filed 2026-09-27, pending)
-   - Articles of Organization filed with the Colorado Secretary of State on 2026-09-27 — track to completion and confirm the certificate
+1. **Complete LLC Formation** (filing attempted 2026-09-27 — not confirmed)
+   - Articles of Organization filing attempted with the Colorado Secretary of State on 2026-09-27 — not confirmed — track to completion and confirm the certificate
    - **Value Impact:** +$200K-$400K (legitimizes business)
 
 2. **Stop Claiming Foundation Exists** ($0, 1 day) ✅ COMPLETED

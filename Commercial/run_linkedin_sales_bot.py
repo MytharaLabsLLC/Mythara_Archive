@@ -198,7 +198,7 @@ class LinkedInSalesBot:
         # Campaign 1: Banking prospects (SSIP Audit $500)
         self.search_prospects("Chief Risk Officer AI Banking", max_results=15)
         
-        message = """Hi [First Name], I help banks prove AI compliance cryptographically. With OCC/CFPB tightening AI regulations, thought you'd find our SSIP audits valuable. Would love to connect!"""
+        message = """Hi [First Name], I'm building tools to help banks prove AI compliance cryptographically. With OCC/CFPB tightening AI regulations, thought our SSIP audit work might interest you. Would love to connect!"""
         
         sent = self.send_connection_requests(message, target_count=5)
         
@@ -206,7 +206,7 @@ class LinkedInSalesBot:
         time.sleep(10)
         self.search_prospects("CISO Healthcare AI", max_results=15)
         
-        message = """Hi [First Name], I work with healthcare orgs on AI safety validation. Noticed your AI initiatives - would love to share insights on compliance automation. Connect?"""
+        message = """Hi [First Name], I'm working on AI safety validation for healthcare teams. Noticed your AI initiatives — would love to share what we're learning about compliance automation. Connect?"""
         
         sent += self.send_connection_requests(message, target_count=5)
         
@@ -214,7 +214,7 @@ class LinkedInSalesBot:
         time.sleep(10)
         self.search_prospects("Head of AI SaaS", max_results=15)
         
-        message = """Hi [First Name], I help AI teams automate compliance validation. Saw your AI work - thought our API might be useful. Would love to connect!"""
+        message = """Hi [First Name], I'm building tools to help AI teams automate compliance validation. Saw your AI work — thought our API work might be relevant. Would love to connect!"""
         
         sent += self.send_connection_requests(message, target_count=5)
         

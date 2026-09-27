@@ -5,6 +5,10 @@
 > application has been submitted to the USPTO and no application number
 > exists. Do not represent anything in this repository as "patent pending"
 > until a provisional application is actually filed.
+>
+> **Evidence language note (Sept 2026):** Where this draft says "court-admissible," it means
+> records *designed to support* evidentiary use (hash-chained, timestamped, witness-attested).
+> Whether any record is admitted as evidence is decided by a court, not by this document.
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Proprietary and Confidential.**
@@ -62,7 +66,7 @@ Current legal technology systems focus exclusively on document generation and at
 2. Quantify emotional distress for legal evidence purposes
 3. Assess burnout risk resulting from workplace compliance conflicts
 4. Measure emotional coercion in legal relationships
-5. Provide court-admissible emotional intelligence metrics
+5. Provide tamper-evident emotional intelligence metrics (designed to support evidentiary use; admissibility is determined by a court)
 
 ### Limitations of Prior Art
 
@@ -96,7 +100,7 @@ Unlike prior art systems that address compliance OR emotional intelligence separ
    - Detects legal paradoxes and contradictory obligations
    - Calculates integrity scores (0.0-1.0) representing emotional contradiction severity
    - Assesses burnout risk using formula: Cradle(S, W, C) → Integrity(I)
-   - Generates SHA-256 timestamped court-admissible evidence
+   - Generates SHA-256 timestamped, hash-chained records (designed to support evidentiary use; admissibility is determined by a court)
    - Matches users with attorneys based on emotional context
 
 2. **Blessings Reservoir™ (Benevolence Quantification Subsystem)**
@@ -125,7 +129,7 @@ Unlike prior art systems that address compliance OR emotional intelligence separ
    - Dynamic invocation of policies based on triggering conditions
    - Drift detection for AI behavior deviations from defined norms
    - Reproducibility guarantees for deterministic AI decision-making
-   - Integration with 50+ regulatory frameworks (GDPR, HIPAA, SOX, etc.)
+   - Integration with multiple regulatory frameworks (GDPR, HIPAA, SOX, etc.)
 
 6. **Integration API™ (Enterprise Deployment Subsystem)**
    - RESTful endpoints for accessing all subsystem capabilities
@@ -563,7 +567,7 @@ def process_legal_query(self, query: str):
 - Human attorney review (prior art) = 10 documents/hour, subjective, inconsistent
 - Soul Cradle = 1,000 documents/hour, quantified severity (0.0-1.0), reproducible
 - **Technical advancement:** Transformer-based NLP trained on legal contradiction corpus
-- **Unexpected result:** 95%+ paradox detection accuracy (validated in testing)
+- **Unexpected result:** strong paradox detection performance in internal testing (independent validation still pending)
 
 **Improvement #3: Psychological Competency-Based Attorney Matching**
 - Avvo/LegalMatch (prior art) = generic matching (location + practice area only)
@@ -1130,7 +1134,7 @@ b) An attorney database with psychological competency fields: psychological_harm
 
 c) A multi-stage matching algorithm: Stage 1 filters by jurisdiction and practice area; Stage 2 applies emotional context filters (terminal_risk triggers terminal_risk_availability requirement, coercion_score greater than 0.7 requires high_coercion_experience_count greater than or equal to 3, burnout_risk CRITICAL requires psychological_harm_cases_count greater than or equal to 5); Stage 3 calculates emotional_fit_score by summing: 30 points if integrity_score less than 0.3 and attorney psychological_harm_cases_count exceeds 10, plus 25 points if paradox_resolution_certified TRUE, plus 20 points if terminal_risk TRUE and terminal_risk_availability TRUE, plus attorney high_coercion_experience_count multiplied by 2.5 capped at 20, plus 10 points if emotional_intelligence_training TRUE, normalized to 0-100; Stage 4 ranks by fit_score descending and returns top 10 matches.
 
-**Distinguishing Features:** Avvo matches by ratings (subjective) vs. Soul Cradle by psychological competency (objective); LegalMatch uses manual questionnaires vs. Soul Cradle uses NLP extraction; Martindale provides directory vs. Soul Cradle calculates optimal fit algorithmically; non-obvious combination produces 3x higher compatibility.
+**Distinguishing Features:** Avvo matches by ratings (subjective) vs. Soul Cradle by psychological competency (objective); LegalMatch uses manual questionnaires vs. Soul Cradle uses NLP extraction; Martindale provides directory vs. Soul Cradle calculates optimal fit algorithmically; non-obvious combination designed to improve compatibility over generic matching (comparative measurement pending).
 
 ---
 
@@ -1266,11 +1270,11 @@ I hereby declare that:
 
 **Total 2-Year Protection Cost: $9,190-17,750**
 
-**ROI Justification:**
-- One Frank Azar white-label deal: $2M/year
+**ROI Justification (hypothetical — no such deal exists):**
+- A single large white-label deal at scale would pay for the patent many times over
 - Patent protection prevents competitor copying
 - "Patent-pending" status (after filing) increases valuation for Series A
-- Estimated value: $10M-50M in increased company valuation
+- Illustrative value: $10M-$50M in increased company valuation (projection, not measured)
 
 ---
 

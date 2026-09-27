@@ -794,7 +794,7 @@ TOP 5 GRANT RECORDS (ILLUSTRATIVE SAMPLES — NOT REAL LISTINGS):
             report += f"\n      Fit Score: {fit}/100"
             report += f"\n      SBGA Advantage: {advantage}"
 
-        report += "\n\nTOP 5 PARTNERSHIP OPPORTUNITIES:\n"
+        report += "\n\nTOP 5 PARTNERSHIP OPPORTUNITIES (illustrative samples — verify before acting):\n"
 
         c.execute("""
             SELECT partner_company, opportunity_type, industry, potential_revenue, status, priority

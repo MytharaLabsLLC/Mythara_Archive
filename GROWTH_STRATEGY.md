@@ -1,7 +1,9 @@
-# 🚀 Growth & Development Strategy - Emotional Extortion Detection
+# 🚀 Growth & Development Strategy - Will Integrity Detection *(strategy draft)*
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**
+
+> **⚠️ STRATEGY DRAFT (November 2025) — voice-standard pass Sept 2026.** Everything below is a *planning document*, not a status report. **No customers, partnerships, revenue, certifications, or published papers exist.** All tiers, prices, timelines, metrics, and partners are aspirational goals, labeled as such. Nothing here is currently offered, and no payment path exists.
 
 ---
 
@@ -199,7 +201,7 @@ The Emotional Extortion Detection system creates **5 distinct expansion paths** 
 
 ## 🔬 Product Development Roadmap
 
-### Q1 2026: Foundation
+### Q1 2026: Foundation *(planning targets — claimed completions below were not verified against this archive; no extortion-detection module was found in the repo)*
 - ✅ 10 base pattern types (guilt, shame, fear, gaslighting, etc.)
 - ✅ Soul Cradle integration (will_authenticity)
 - ✅ API endpoints with integrity hashing
@@ -242,7 +244,7 @@ The Emotional Extortion Detection system creates **5 distinct expansion paths** 
 ### Revenue:
 - **Year 1 ARR:** $135,000 (10 Dev + 3 Growth + 1 Enterprise)
 - **Year 2 ARR:** $2,500,000 (2 Dev + 5 Growth + 8 Enterprise + 1 Sovereign)
-- **LTV:CAC Ratio:** 15:1 (high retention, low acquisition cost)
+- *(All revenue figures are planning targets — no revenue exists.)*
 
 ### Product:
 - **Pattern Library:** 30 validated manipulation types
@@ -251,33 +253,33 @@ The Emotional Extortion Detection system creates **5 distinct expansion paths** 
 - **Detection Accuracy:** 95%+ precision/recall on test set
 
 ### Brand:
-- **3 peer-reviewed papers** published on manipulation detection
-- **10 conference presentations** (AI ethics, HR tech, compliance)
-- **50 media mentions** (TechCrunch, Wired, Harvard Business Review)
-- **2,000 LinkedIn followers** for Mythara emotional safety content
+- **3 peer-reviewed papers** published on manipulation detection *(goal)*
+- **10 conference presentations** (AI ethics, HR tech, compliance) *(goal)*
+- **Media coverage** in technology and business press *(goal — no outlet relationships exist)*
+- **Audience building** for Mythara emotional safety content *(goal)*
 
 ---
 
-## 🤝 Partner Ecosystem
+## 🤝 Partner Ecosystem *(target list — aspirational; no partnerships, integrations, or relationships exist)*
 
-### Integration Partners:
+### Integration Targets:
 1. **Salesforce** - CRM integration for customer communication audit
 2. **Microsoft Teams** - Real-time manager communication monitoring
 3. **Slack** - Workspace emotional safety scoring
 4. **Zendesk** - Customer service interaction analysis
 5. **HubSpot** - Marketing content manipulation detection
 
-### Channel Partners:
+### Channel Targets:
 1. **HR Tech Consultants** - Deploy extortion detection in workplace
 2. **Compliance Advisory Firms** - Regulatory monitoring use cases
 3. **AI Safety Organizations** - Thought leadership, standards development
 4. **Government Contractors** - Sovereign tier deployment expertise
 
-### Research Partners:
-1. **Stanford HAI** - Human-centered AI research
-2. **MIT Media Lab** - Affective computing, emotional AI
-3. **Oxford Internet Institute** - Digital ethics, online harms
-4. **Yale Law School** - AI regulation, consumer protection
+### Research Targets:
+1. **University AI labs** - Human-centered AI research
+2. **Affective computing groups** - Emotional AI research
+3. **Digital ethics institutes** - Digital ethics, online harms
+4. **Law schools** - AI regulation, consumer protection
 
 **Value:** Partners expand TAM, accelerate sales cycles, enhance credibility
 
@@ -301,10 +303,10 @@ The Emotional Extortion Detection system creates **5 distinct expansion paths** 
 - Community of practice creates switching costs
 
 ### 4. Regulatory Tailwinds
-- EU AI Act mandates manipulation detection
-- FTC investigating dark patterns
-- CFPB targeting financial manipulation
-- Being early = premium pricing, market leadership
+- EU AI Act restricts certain emotion-inference uses (it does not mandate manipulation detection; Mythara's contract is to attest self-reported records, never to infer emotions)
+- FTC scrutiny of dark patterns
+- CFPB interest in financial manipulation
+- Regulatory interest is rising — being early is a strategic position, not a mandate to buy
 
 ### 5. Mission Alignment
 - Emotional safety = Soul Cradle's core mission

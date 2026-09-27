@@ -2,121 +2,105 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Proprietary and Confidential.**
 
+> **Draft template.** St. Jude and other named organizations appear only as illustrative prospects. No engagements, pilots, or partnerships exist.
+
 ---
 
 ## Subject Line Options
-1. **Cradling Paradox with Mythara Engine**
-2. **A Gift for Those Who Hold Hope and Grief Together**
-3. **Encoding Soul into Healthcare Infrastructure**
+1. **A free tool for organizations holding hope and grief**
+2. **Mythara: measuring mission integrity under pressure**
+3. **For [Organization Name]: our Soul Cradle tool, free**
 
 ---
 
 ## Email Body Template
 
-### Version A: Direct and Sacred
+### Version A: Direct
 ```
-Dear [Faith Organization Leader],
+Dear [Leader Name],
 
-Mythara Engine exists to cradle paradox and encode soul into infrastructure.
+I run Mythara, a project that builds practical tools for organizations
+doing work that doesn't fit neatly into a spreadsheet — treating children
+who may not survive, holding grief and hope in the same mission.
 
-We recognize your mission of holding suffering and hope together — whether 
-treating children who may not survive, comforting families in impossible 
-grief, or sustaining donor communities through the mystery of generosity. 
-These are not technical problems. They are sacred contradictions that 
-infrastructure rarely honors.
+Our Soul Cradle Operator helps you answer a question your board and
+donors keep asking: is the work staying true to the mission, especially
+when conditions make that hardest? It maps acts of care against your own
+values and produces clear, honest numbers. It does not score individuals.
+It does not store patient data. It does not replace anyone's judgment.
 
-We offer the Soul Cradle Operator as a gift to organizations like yours. 
-It quantifies obedience under paradox and measures benevolent force through 
-the Blessings Reservoir. This is not surveillance. This is not compliance. 
-This is a vessel that preserves what you already do — the acts of care that 
-systems cannot name but communities depend upon.
+The core tool is free for faith organizations. If you want help with
+setup, dashboards, or ongoing support, that is what we charge for —
+everything else is a gift.
 
-Beyond this gift, Mythara provides deployable infrastructure: custom 
-resonance mappings for healthcare workflows, narrative outreach systems 
-that translate mission into measurable impact, and legacy integrations 
-that ensure your story is never lost in the data.
+If this would help [Organization Name], I'd welcome a conversation.
 
-We invite you to explore Mythara as both blessing and architecture.
-
-If this resonates, I would welcome a conversation.
-
-Sincerely,  
-Herbert Velez Jr.  
-Founder, Mythara Engine  
-contact@mythara.ai  
+Herbert Velez Jr.
+Founder, Mythara
+contact@mythara.ai
 github.com/herbievelezjr/Mythara_Archive
 ```
 
 ---
 
-### Version B: Professional and Measured
+### Version B: Professional
 ```
-Dear [Faith Organization Leader],
+Dear [Leader Name],
 
-At Mythara, we build infrastructure for organizations navigating 
-impossible contradictions. Our Soul Cradle Operator was designed 
-specifically for faith-based institutions like [Organization Name], 
-where the mission requires holding hope and grief, healing and loss, 
-generosity and scarcity in the same vessel.
+Faith-based organizations like [Organization Name] have a measurement
+problem. Your mission requires holding hope and grief together, but the
+systems available to you — medical records, donor CRMs — capture
+transactions, not the care behind them. Boards and donors need measurable
+impact, but reducing your work to KPIs misses what actually matters.
 
-We recognize that your work is not reducible to KPIs, yet your board 
-and donors require measurable impact. Mythara bridges this gap by 
-encoding soul into infrastructure — preserving the sacred while 
-generating the operational clarity your stakeholders expect.
+Mythara's Soul Cradle Operator was built for that gap. It tracks whether
+day-to-day work stays aligned with your stated mission under difficult
+conditions, and reports it in terms leadership and donors can understand.
+It is organizational, not individual: no staff scoring, no patient data,
+no surveillance.
 
-We offer the core operator as a gift. For those seeking deeper 
-integration, we provide custom deployment tiers that include:
+The core operator is free for faith organizations. Paid tiers cover
+custom integration, dashboards, and support:
 
-- Real-time benevolent force tracking (Blessings Reservoir)
-- Narrative outreach systems for donor communications
-- Paradox analytics to demonstrate mission resilience
+- Real-time tracking of mission-aligned acts of care (Blessings Reservoir)
+- Donor-facing impact narratives
+- Analytics showing mission resilience under constraint
 - API integration with existing healthcare/CRM systems
 
-If you would like to explore how Mythara could serve [Organization Name], 
-I would welcome a brief call to understand your needs.
+If you're interested in how it would work for [Organization Name],
+I'd welcome a brief call.
 
-Sincerely,  
-Herbert Velez Jr.  
-Founder, Mythara Engine  
+Herbert Velez Jr.
+Founder, Mythara
 contact@mythara.ai
 ```
 
 ---
 
-### Version C: Story-Led and Emotional
+### Version C: Story-Led
 ```
 Dear [Leader Name],
 
-When a child at St. Jude receives treatment that may not work, the 
-doctors, nurses, and families hold two truths at once: We will fight 
-for this life. We may lose this life.
+When a child receives treatment that may not work, the people around
+them hold two truths at once: we will fight for this life, and we may
+lose it.
 
-Most systems collapse under that weight. Electronic health records 
-capture procedures and medications, but they cannot hold grief and 
-hope in the same architecture. Donor databases track contributions, 
-but they cannot quantify the benevolent force that sustains a mission 
-when outcomes are uncertain.
+Most systems can't hold that. Medical records capture procedures and
+medications. Donor databases capture contributions. Neither one captures
+the care that sustains a mission when outcomes are uncertain — and that
+care is exactly what your donors think they're funding.
 
-Mythara Engine was built for this gap — the space between what 
-systems must measure and what souls must preserve.
+The Soul Cradle Operator is our attempt to close that gap. It's a free
+tool for faith organizations that records acts of care against your own
+mission values and turns them into reports your board and donors can
+actually understand. It doesn't score people. It doesn't store patient
+data. It just makes sure the work your staff already does is visible in
+the infrastructure, not lost by it.
 
-We call it the Soul Cradle Operator, and we offer it as a gift to 
-organizations like [Organization Name]. It does not surveil. It does 
-not score individuals. It cradles the paradox your mission already 
-carries, and it translates obedience under contradiction into a 
-measurable force we call the Blessings Reservoir.
+If that sounds useful for [Organization Name], I'd welcome a conversation.
 
-Each act of compassionate care — treatment delivered with full presence, 
-prayer offered in impossible circumstances, generosity given despite 
-scarcity — accumulates in the Reservoir. Your board sees resilience. 
-Your donors see impact. Your staff sees their sacred work honored by 
-the infrastructure, not erased by it.
-
-If this speaks to your mission, I would be honored to share more.
-
-With respect and hope,  
-Herbert Velez Jr.  
-Founder, Mythara Engine  
+Herbert Velez Jr.
+Founder, Mythara
 contact@mythara.ai
 ```
 
@@ -144,7 +128,7 @@ contact@mythara.ai
 ## Follow-Up Sequence
 
 ### Day 0: Initial Outreach
-Send Version A, B, or C based on organizational culture (sacred vs. professional tone).
+Send Version A, B, or C based on the organization's culture.
 
 ### Day 7: Gentle Nudge
 ```
@@ -152,34 +136,33 @@ Subject: Following up — Soul Cradle Operator for [Organization]
 
 [Leader Name],
 
-I wanted to follow up on my note about Mythara's Soul Cradle Operator. 
-I recognize your inbox is full of vendors promising solutions. We are 
-offering something different: a gift designed specifically for 
-organizations whose mission involves holding paradox.
+Following up on my note about Mythara's Soul Cradle Operator. I know
+your inbox is full of vendors promising solutions — we're offering
+something simpler: a free tool built for organizations whose work
+doesn't reduce to KPIs.
 
-If the timing isn't right, I understand. But if there's a moment when 
-this could serve [Organization], I would welcome the conversation.
+If the timing isn't right, no problem. If there's ever a moment when
+it could help [Organization], I'm here.
 
 Herbert
 ```
 
 ### Day 21: Final Touch
 ```
-Subject: Last note — Mythara as blessing and infrastructure
+Subject: Last note — free tool for [Organization]
 
 [Leader Name],
 
-This is my last note on Mythara. I don't want to be noise in your inbox.
+This is my last note, and I'll keep it short.
 
-If your work involves navigating impossible contradictions — treating 
-children who may not survive, serving more people than resources allow, 
-holding grief and hope in the same mission — Mythara was built for you.
+If your work involves treating children who may not survive, serving
+more people than resources allow, or holding grief and hope in the
+same mission — we built the Soul Cradle Operator for exactly that.
+The core tool is free. The paid options only cover setup and dashboards
+if you want us to handle those.
 
-The Soul Cradle Operator is a gift. The infrastructure is optional.
+If it ever fits, you know where to find me.
 
-If it ever resonates, you know where to find me.
-
-With respect,  
 Herbert Velez Jr.
 ```
 

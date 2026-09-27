@@ -568,7 +568,7 @@ This compliance framework provides **technical safeguards** designed to support 
 - **Legal review** (consultation with healthcare attorneys, compliance consultants)
 - **Independent validation** (QSA/ASV for PCI; auditors for HIPAA; counsel for TCPA/CPNI)
 
-**Compliance is an ongoing process, not a one-time event.** Mythara is not HIPAA certified, not PCI DSS validated, and not FCC licensed. Mythara Labs LLC — formation filed with the Colorado Secretary of State on 2026-09-27, pending completion — provides tools to assist with compliance but does not guarantee regulatory compliance. Organizations are responsible for their own compliance programs and should consult legal counsel and compliance professionals before relying on any control described here.
+**Compliance is an ongoing process, not a one-time event.** Mythara is not HIPAA certified, not PCI DSS validated, and not FCC licensed. Mythara Labs LLC — formation filing attempted with the Colorado Secretary of State on 2026-09-27 — not confirmed; entity not yet formed — provides tools to assist with compliance but does not guarantee regulatory compliance. Organizations are responsible for their own compliance programs and should consult legal counsel and compliance professionals before relying on any control described here.
 
 ---
 

@@ -288,7 +288,7 @@ Legal/Compliance/
 - ❌ Translation services
 - ❌ Medical device certifications
 
-**Mythara Labs LLC is filed, not yet formed.** Articles of Organization were filed with the Colorado Secretary of State on September 27, 2026, and completion is pending. "Mythara Labs LLC" appears in this draft as the planned company; it cannot enter contracts or hold rights until formation is complete.
+**Mythara Labs LLC is not yet formed — filing attempted, not confirmed.** Articles of Organization filing was attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; completion pending. "Mythara Labs LLC" appears in this draft as the planned company; it cannot enter contracts or hold rights until formation is complete.
 
 **Responsibilities (for whoever takes this work up):**
 - Conduct jurisdiction-specific legal review with qualified counsel
@@ -321,7 +321,7 @@ This draft does not make the archive ready for anything. The compliance and acce
 
 ---
 
-**"Mythara Labs LLC" — Articles of Organization filed with the Colorado SOS on 2026-09-27; formation pending completion**  
+**"Mythara Labs LLC" — Articles of Organization filing attempted with the Colorado SOS on 2026-09-27 — not confirmed; formation incomplete**  
 **Compliance Version:** 1.0.0 (draft)  
 **Date:** November 2, 2025  
 **Next Review:** when the work is taken up

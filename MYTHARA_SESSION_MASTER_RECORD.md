@@ -2,6 +2,8 @@
 **Session Date:** November 18, 2025  
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
+> **Document status (2026-09-27):** Internal work log from a Nov 2025 session — chatbot fixes and tutorial-video generation against the 2025 codebase and a Railway deployment. Historical record; deployment references are to that 2025 setup. No customers, pilots, or launches resulted from this session.
+
 ---
 
 ## Session Overview

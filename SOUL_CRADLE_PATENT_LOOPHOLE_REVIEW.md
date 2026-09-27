@@ -4,6 +4,10 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Proprietary and Confidential.**
 
+> **Evidence language note (Sept 2026):** Where this draft says "court-admissible," it means
+> records *designed to support* evidentiary use (hash-chained, timestamped, witness-attested).
+> Whether any record is admitted as evidence is decided by a court, not by this document.
+
 **Date:** November 19, 2025  
 **Reviewer:** GitHub Copilot (Claude Sonnet 4.5)  
 **Purpose:** Identify exploitable loopholes in provisional patent before filing
@@ -149,7 +153,7 @@ def calculate_integrity_score(soul_state: Dict, will_autonomy: Dict, commandment
 
 2. **Specific Improvement to Computing:**
    - Maslach Burnout Inventory = subjective self-report survey (not court-admissible)
-   - Soul Cradle = objective mathematical analysis with cryptographic proof (court-admissible)
+   - Soul Cradle = mathematical analysis with hash-chained records (designed to support evidentiary use; admissibility is determined by a court)
    - **Technical advancement:** First system to convert psychological assessment into legally verifiable evidence
 
 3. **Concrete Technological Application:**
@@ -907,14 +911,14 @@ evidence for court proceedings...
 - Non-provisional (with attorney): $9,000-$17,000
 - **Total 2-year cost: $9,130-$17,130**
 
-**Patent Value:**
+**Patent Value (projections — not measured results):**
 - Blocks LegalZoom/Rocket Lawyer from copying Soul Cradle
 - Enables "Patent Pending" marketing (increases perceived value)
-- Supports $10M-$50M Series A valuation (investors love patents)
-- Enables white-label licensing to attorneys ($50K-$100K/month)
-- **Estimated value: $10M-$50M in increased company valuation**
+- Supports $10M-$50M Series A valuation (projected; investors love patents)
+- Enables white-label licensing to attorneys (projected: $50K-$100K/month)
+- **Estimated value: $10M-$50M in increased company valuation** (projection, not measured)
 
-**One Frank Azar deal ($2M/year) pays for patent 100x over.**
+**A single large white-label deal at scale would pay for the patent many times over (hypothetical — no such deal exists).**
 
 ---
 

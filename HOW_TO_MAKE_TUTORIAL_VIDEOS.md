@@ -3,6 +3,8 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 **Proprietary and Confidential.**
 
+> **⚠️ SCRIPT DRAFTS (November 2025) — voice-standard pass Sept 2026.** The scripts below describe a pilot signup flow that **no longer exists** (all Stripe webhooks were deleted; there is no $49 pilot, no live payment path, no hosted service to demo). **Do not record, share, or publish these scripts without rewriting them.** Corrected claims are noted inline.
+
 ---
 
 ## Quick Start: Free Tools You Already Have
@@ -182,7 +184,7 @@ Soul Cradle documents:
 
 [Show cryptographic hash example or explain]
 
-We generate a cryptographic hash. Timestamp it. Make it immutable.
+We generate a cryptographic hash. Timestamp it. The result is tamper-evident: if anyone alters the record, the chain shows it. *(The chain proves a record is unaltered — it does not prove the record is true, and nothing here is immutable.)*
 
 [Show aggregate view - or describe]
 
@@ -191,12 +193,12 @@ before people break.
 
 [Show audit trail or describe]
 
-Audit-ready. Court-ready. Human-ready.
+Tamper-evident. Human-readable. *(Do not claim "audit-ready" or "court-ready" — legal admissibility and audit acceptance are aspirations, not current claims.)*
 
 We donate Soul Cradle to the industries that need it most:
 Healthcare, banking, justice, nonprofits, civil service, education.
 
-It's included in every tier. No charge.
+It's included in every tier. No charge. *(Aspiration: the planned free tier for qualifying organizations has not launched.)*
 
 Because some things shouldn't have a price.
 
@@ -301,7 +303,7 @@ Questions? Email Mythara.Engine@yahoo.com"
 ### Advanced Videos (Nice-to-have):
 4. ⚡ Enterprise Features Overview (3 min)
 5. ⚡ API Integration Basics (3 min)
-6. ⚡ HIPAA & Security Deep Dive (4 min)
+6. ⚡ HIPAA & Security Deep Dive (4 min) *(script must frame honestly — no HIPAA certification exists; cover the tamper-evident record design, not compliance claims)*
 
 ---
 

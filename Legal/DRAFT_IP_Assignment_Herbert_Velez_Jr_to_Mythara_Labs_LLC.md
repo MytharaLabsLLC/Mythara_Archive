@@ -6,9 +6,9 @@
 > has not been signed, is not effective, and transfers no rights. **No
 > signature below means no assignment has occurred.**
 >
-> Articles of Organization for Mythara Labs LLC were filed with the Colorado
-> Secretary of State on **September 27, 2026**; formation is **pending
-> completion**. This assignment becomes effective **only upon the legal
+> Articles of Organization filing for Mythara Labs LLC was attempted with the Colorado
+> Secretary of State on **September 27, 2026** — not confirmed; formation is **incomplete**;
+> the entity is **not yet formed**. This assignment becomes effective **only upon the legal
 > formation of Mythara Labs LLC** (see Section 2). If the LLC is never formed,
 > this draft has no effect.
 >

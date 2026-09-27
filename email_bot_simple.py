@@ -72,13 +72,14 @@ def generate_draft(sender_name, classification):
 
 Thanks for reaching out about Mythara Engine.
 
-We help compliance-focused organizations deliver cryptographic integrity proofs and SSIP audit metrics that cut validation time from weeks to days.
+We help compliance-focused organizations deliver cryptographic integrity proofs and SSIP audit metrics
+that make validation faster and easier to repeat.
 
 Would a 30-day pilot be valuable? I can send the pilot package today.
 
 Best,
 Herbert Velez Jr.
-Mythara Labs LLC (planned)
+Mythara (planned)
 mythara.engine@yahoo.com
 Enterprise: $60K/year (firm pricing)""",
 
@@ -109,7 +110,7 @@ I understand budget considerations.
 
 $60K/year covers:
 - Cryptographic integrity proofs
-- high determinism across reproducibility runs
+- Deterministic reproducibility runs
 - SSIP audit metrics
 - Priority support
 

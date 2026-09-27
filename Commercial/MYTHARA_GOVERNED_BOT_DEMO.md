@@ -1,4 +1,4 @@
-# Mythara-Governed Sales Bot - SSIP Demo in Production
+# Mythara-Governed Sales Bot — SSIP Demo (local demo, not in production)
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
@@ -6,15 +6,16 @@
 
 ## 🔥 THE BREAKTHROUGH
 
-**You just built a DEMO of your own product.**
+**A live dogfood demo of your own product.**
 
-The sales bot is governed by **Mythara Engine's SSIP** - the same system you're selling to banks/hospitals.
+The sales bot design is governed by **Mythara Engine's SSIP** — the same system you'd sell to banks and hospitals. Once deployed, this becomes the best demo you can give because:
 
-This is **THE best demo** because:
 - ✅ You're dogfooding your own technology
-- ✅ Prospects see it working in real-time (on your sales process)
+- ✅ Prospects see it working in real-time on your sales process
 - ✅ You have audit trails, integrity hashes, clause enforcement
 - ✅ It's a perfect analogy: "AI sales bot" = "AI credit decision" (same governance needs)
+
+> Deployment note: this demo works once the sales bot is live and processing real replies. Until then, treat every "see it live" line in this doc as the pitch for the deployed version — not as something running today.
 
 ---
 
@@ -238,7 +239,7 @@ If ANY violation → Can't auto-send (even if FULL autonomy)
 
 **Prospect:** "$2,500 seems expensive..."
 
-**YOU:** "Compare to what? A bad AI credit decision costs you $50k-$500k. Mythara prevents that with real-time clause enforcement. You're seeing it work right now—our bot literally CAN'T offer you a discount below $500 because Mythara blocks it."
+**YOU:** "Compare to what? A bad AI credit decision costs you $50k-$500k. Mythara's clause enforcement is designed to catch that before it happens — in real-time. The SalesClause in this bot's code is built to block a below-minimum discount the same way: on a live demo, I can show you the violation being caught."
 
 ---
 

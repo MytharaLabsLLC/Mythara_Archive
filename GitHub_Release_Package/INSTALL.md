@@ -56,33 +56,34 @@ docker build -t mythara-engine:1.0.0 -f core/Dockerfile .
 docker images | grep mythara-engine
 ```
 
-#### Step 3: Run Container
+#### Step 3: Run the Validation Suite
+
+The container's default command runs the validation suite:
 
 ```bash
 # Create output directory
 mkdir -p mythara_output
 
-# Run container
-docker run -d \
+# Run container (validation suite runs automatically)
+docker run --rm \
   --name mythara-engine \
-  -p 8080:8080 \
   -v $(pwd)/mythara_output:/output \
   -e MYTHARA_ENV=production \
   -e MYTHARA_MANIFEST_REF=ME-archive-0001 \
   mythara-engine:1.0.0
 ```
 
-#### Step 4: Verify Deployment
+#### Step 4: Review Results
 
 ```bash
-# Check container health
-docker ps | grep mythara-engine
+# Check container exited cleanly
+docker ps -a | grep mythara-engine
 
-# Test API endpoint
-curl http://localhost:8080/health
-
-# Expected: {"status": "healthy", "version": "1.0.0"}
+# Review validation reports
+ls mythara_output/
 ```
+
+Validation reports are written to the mounted `/output` directory. Review them before drawing any conclusions about the system's behavior.
 
 ---
 
@@ -125,27 +126,23 @@ pip install -r requirements.txt
 
 #### Step 4: Configure Environment
 
-```bash
-# Copy example config
-cp config.example.yml config.yml
+Some components read their settings from environment variables or a `config.yml` file. If the component you are running needs one, create it from the table below — there is no example config shipped in this package.
 
-# Edit configuration
-nano config.yml
+Set the relevant variables:
 
-# Set required variables:
-# - MYTHARA_MANIFEST_REF: ME-archive-0001
-# - MYTHARA_ENV: production
-# - API_KEY: <generate secure key>
-```
+- `MYTHARA_MANIFEST_REF`: ME-archive-0001
+- `MYTHARA_ENV`: production
+- `API_KEY`: <generate a secure key>
 
-#### Step 5: Run Application
+#### Step 5: Run the Software
 
 ```bash
-# Start server
-python -m mythara.server --config config.yml
+# Run the full validation suite
+python run_validation_suite.py
 
-# Or use gunicorn (production)
-gunicorn mythara.wsgi:app --bind 0.0.0.0:8080 --workers 4
+# Or run the Witnessed Journal prototype (local interface on the emotional chain)
+python journal_app/server.py
+# Then open http://127.0.0.1:8137 — localhost only, a working prototype, not production
 ```
 
 ---
@@ -197,14 +194,16 @@ Follow Method 1 or Method 2 steps on the air-gapped system.
 
 ### Environment Variables
 
-| Variable | Required | Default | Description |
-|----------|----------|---------|-------------|
-| `MYTHARA_ENV` | Yes | `development` | Environment: `development`, `staging`, `production` |
-| `MYTHARA_MANIFEST_REF` | Yes | - | Manifest ID (e.g., `ME-archive-0001`) |
-| `API_PORT` | No | `8080` | HTTP port for API server |
-| `LOG_LEVEL` | No | `INFO` | Logging level: `DEBUG`, `INFO`, `WARN`, `ERROR` |
-| `MAX_WORKERS` | No | `4` | Number of worker processes |
-| `ENABLE_AUDIT_LOG` | No | `true` | Enable audit chain logging |
+These are honored by the container image and by components that read them. Defaults shown are what `core/Dockerfile` sets.
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `MYTHARA_ENV` | `production` (container) / `development` | Environment: `development`, `staging`, `production` |
+| `MYTHARA_MANIFEST_REF` | `ME-archive-0001` (container) | Manifest ID for this package |
+| `API_PORT` | `8080` | HTTP port, where an HTTP component is in use |
+| `LOG_LEVEL` | `INFO` | Logging level: `DEBUG`, `INFO`, `WARN`, `ERROR` |
+| `MAX_WORKERS` | `4` | Number of worker processes |
+| `ENABLE_AUDIT_LOG` | `true` | Enable audit chain logging |
 
 ### Configuration File (config.yml)
 
@@ -250,12 +249,7 @@ python tests/test_accessibility_delivery.py
 
 ### Expected Results
 
-- **Determinism:** ≥99.9% reproducibility
-- **Leakage:** 0 high-severity leaks
-- **SSIP Drift Suppression:** ≥98.9%
-- **Accessibility Delivery:** ≥99%
-
-Results are saved to `tests/output/`.
+Each suite writes its report under `tests/output/` (determinism report, leakage probe log, SSIP audit report, accessibility delivery report). Review those reports directly — they state their own pass/fail outcomes and any anomalies. Do not treat a passing local run as a certification of any kind; it is evidence of behavior on this machine, on this day.
 
 ---
 
@@ -302,35 +296,26 @@ pip install --force-reinstall -r requirements.txt
 
 ---
 
-## Production Deployment Checklist
+## Evaluation Checklist
 
 - [ ] Signatures verified with GPG
 - [ ] Checksums validated
-- [ ] Validation suite passed
-- [ ] Environment variables configured
-- [ ] API keys generated and secured
-- [ ] Firewall rules configured (port 8080)
-- [ ] SSL/TLS certificates installed
-- [ ] Monitoring/alerting configured
-- [ ] Backup strategy implemented
-- [ ] Incident response plan documented
+- [ ] Validation suite run and reports reviewed
+- [ ] Environment variables configured as needed
+- [ ] API keys generated and secured, where an HTTP component is in use
+- [ ] Firewall rules configured for any exposed ports
+- [ ] Backup strategy considered for chain data
 
 ---
 
 ## Support
 
-**Technical Issues:**  
+**Questions:**  
 Email: legal@mythara.engine  
-Include: License ID, error logs, deployment environment
+Include: what you ran, your environment, and relevant logs
 
-**Escrow Services:**  
-For Sovereign licenses with source code access via escrow
-
-**Response Time:**  
-- Development License: 5 business days
-- Enterprise License: 48 hours
-- Sovereign License: 24 hours + on-call support
+Support terms, where any exist, are defined in a signed licensing agreement — there is no standing SLA on an evaluation package.
 
 ---
 
-**Installation complete!** Proceed to API documentation: `core/API_SPEC_PUBLIC.md`
+**Evaluation setup complete.** For the authoritative account of how the system works, read `docs/📖 Mythara Bible Books I–V.md`.

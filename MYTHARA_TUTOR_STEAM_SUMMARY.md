@@ -2,11 +2,13 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
+> **Document status (2026-09-27):** Design document from 2025 for `Commercial/mythara_tutor.py`, which exists in this repository. No certification claims hold: nothing here is COPPA, FERPA, or medically certified or approved. Pricing and market figures are 2025 working scenarios, not results — no students, schools, or customers.
+
 ---
 
 ## 🎓 Overview
 
-**MytharaTutor** is an AI-powered STEAM learning assistant with **full Mythara SSIP integration**, designed for students ages 8+ with age-appropriate content and medical professional-approved interaction guidelines.
+**MytharaTutor** is an AI-powered STEAM learning assistant concept with Mythara SSIP integration in code, designed for students ages 8+ with age-appropriate content guidelines. (No medical professionals reviewed or approved these guidelines.)
 
 ---
 
@@ -228,21 +230,21 @@ Students can create hands-on projects:
 
 ## 🔒 Compliance & Safety
 
-### **COPPA Compliance**
+### **COPPA Design Goals** (no COPPA certification — design intentions only)
 - Parent email required for ages <13
 - Parent consent tracking
 - Data minimization
 - Parent access to all records
 - Right to delete data
 
-### **FERPA Compliance**
+### **FERPA Design Goals** (no FERPA certification — design intentions only)
 - Education records protected
 - SHA-256 integrity hashing
 - Tamper-proof audit trails
 - Parent/guardian access only
 - No unauthorized disclosure
 
-### **Medical Guidelines**
+### **Safety Design Goals** (not medical guidelines — no clinical review)
 - Age-appropriate AI interaction
 - Session time limits enforced
 - Mental health safeguards
@@ -278,10 +280,10 @@ Students can create hands-on projects:
    ✓ College prep for high school students
    ✓ Age-appropriate content (Ages 8+)
 
-🔒 COMPLIANCE:
-   ✓ COPPA compliant (parent consent for minors)
-   ✓ FERPA compliant (education data privacy)
-   ✓ Medical professional guidelines (age-appropriate AI interaction)
+🔒 COMPLIANCE (design goals — no certifications):
+   • COPPA-style parent consent design (not certified)
+   • FERPA-style education data privacy design (not certified)
+   • Age-appropriate AI interaction guidelines (no medical professional review)
 ```
 
 ---
@@ -296,13 +298,13 @@ Students can create hands-on projects:
 **Competitive Advantages:**
 1. **Full Mythara SSIP** - Only tutor with emotional intelligence + distress detection
 2. **STEAM Focus** - Not just homework help, but interactive project-based learning
-3. **Age-Appropriate** - Medical professional guidelines, not one-size-fits-all
+3. **Age-Appropriate** - safety-oriented interaction guidelines (no medical professional review), not one-size-fits-all
 4. **Interactive Projects** - Hands-on learning, portfolio building
 5. **College Prep** - SAT/ACT prep, AP support, essay coaching
-6. **Compliance-First** - COPPA/FERPA compliant out of the box
+6. **Compliance-Aware** - COPPA/FERPA design goals built in (no certifications held)
 
 ---
 
-**File**: `Commercial/mythara_tutor.py` (850+ lines)  
-**Status**: ✅ FULLY OPERATIONAL  
+**File**: `Commercial/mythara_tutor.py` (850+ lines — verified present in this repository)  
+**Status**: Code implemented (2025); no deployment, no students, no certification  
 **Demo**: Run `python mythara_tutor.py` to see it in action!

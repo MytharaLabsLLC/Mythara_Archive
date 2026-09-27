@@ -308,14 +308,12 @@ Professional legal analysis with case law.
 **ALL documents include:**
 - **SHA-256 Integrity Hash** - Detects any tampering
 - **ISO Timestamp** - Precise to millisecond
-- **Forensic Certification** - Court-admissible proof
+- **Forensic Certification** - Tamper-evidence trail that may support authentication in court; admissibility depends on the jurisdiction and rules of evidence — consult counsel
 
 **Why This Matters:**
-- Proves document authenticity
+- Proves document integrity (not the truth of its contents)
 - Detects any modification
 - Creates audit trail
-- Admissible as evidence in court
-- Blockchain-level integrity
 
 ## Usage Patterns
 
@@ -345,20 +343,7 @@ print(f"Timestamp: {doc.timestamp}")
 
 ## Demo Script
 
-Run comprehensive demo showing all document types:
-
-```bash
-python demo_comprehensive_documents.py
-```
-
-**Demo includes:**
-1. Civil Complaint (wrongful termination)
-2. Motion to Compel Discovery
-3. Interrogatories (10 questions)
-4. Request for Production (8 document requests)
-5. Affidavit (sworn statements)
-6. Subpoena Duces Tecum
-7. Answer to Complaint (with affirmative defenses)
+*(No demo script is currently included in the repo — `demo_comprehensive_documents.py` does not exist yet. The examples above show each document type.)*
 
 ## Important Disclaimers
 

@@ -202,4 +202,4 @@ The earlier draft rated most jurisdictions 🟢 LOW on the basis of compliance t
 
 ---
 
-**Mythara Project** (Mythara Labs LLC: formation filed Sept 27, 2026, pending completion)
+**Mythara Project** (Mythara Labs LLC: formation filing attempted Sept 27, 2026 — not confirmed; entity not yet formed)

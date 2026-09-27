@@ -96,7 +96,7 @@
 - **Same day:** Send demo recording + one-pager + audit proposal
 - **48 hours:** "Did you review the materials? Questions?"
 - **1 week:** "Following up. Available for 15-min call this week?"
-- **1 month:** "New case study: [Company] prevented crisis with this. Relevant?"
+- **1 month:** "New demo results to share — relevant?" (Only reference real materials; no case studies exist yet.)
 
 ---
 
@@ -104,7 +104,7 @@
 
 ✅ "Quantified manipulation scoring"  
 ✅ "Genuine consent vs. coerced compliance"  
-✅ "EU AI Act Article 5 compliance"  
+✅ "EU AI Act Article 5 readiness assessment" (never imply certification)  
 ✅ "Protect your brand from manipulation lawsuits"  
 ✅ "Natural expansion from Developer to Enterprise"  
 ✅ "Soul Cradle philosophical grounding" (moat)

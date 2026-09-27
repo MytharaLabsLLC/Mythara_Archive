@@ -64,7 +64,7 @@ Thanks for connecting, [First Name]!
 
 Quick question: How is [Company] handling AI model audits at scale?
 
-We built Mythara Engine for healthcare - on-premise deployment, unlimited validation, HIPAA-ready. The dedicated compliance dashboard is designed for enterprise healthcare teams.
+We built Mythara Engine for healthcare — on-premise deployment, unlimited validation, and technical controls mapped to HIPAA requirements (readiness support, not certification). The compliance dashboard design targets enterprise healthcare teams. Mythara is not HIPAA certified or FDA-approved.
 
 Open to a brief demo call?
 
@@ -114,7 +114,7 @@ Herbert
 2. Send PayPal invoices to interested prospects
 3. Repeat outreach (15 more prospects)
 
-**Goal: 100 connections in 7 days**
+**Goal: 100 connections in 7 days** (targets, not results)
 - Expected responses: 10-20 people
 - Expected sales calls: 5-10 calls
 - Expected closes: 1-3 sales ($500-$25k)

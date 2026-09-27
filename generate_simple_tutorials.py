@@ -66,7 +66,7 @@ You'll enter your payment info. Takes 2 minutes.
 
 That's it. You're in. Full access to Mythara for 7 days.
 
-Most people know by day three if it's the right fit.
+You'll know quickly whether it's the right fit.
 
 And if you upgrade to Enterprise? That 49 dollars gets credited back.
 
@@ -101,7 +101,7 @@ We generate a cryptographic hash. Timestamp it. Make it immutable.
 Leadership sees the pattern across your org. They spot burnout 
 before people break.
 
-Audit-ready. Court-ready. Human-ready.
+Audit-ready. Human-ready.
 
 We donate Soul Cradle to the industries that need it most:
 Healthcare, banking, justice, nonprofits, civil service, education.
@@ -118,7 +118,7 @@ Questions? Email Mythara.Engine@yahoo.com""",
             "Slide 4: What Soul Cradle captures (4 points)",
             "Slide 5: 'Cryptographic Hash + Timestamp'",
             "Slide 6: Leadership dashboard view",
-            "Slide 7: 'Audit-ready, Court-ready, Human-ready'",
+            "Slide 7: 'Audit-ready, Human-ready'",
             "Slide 8: Industries (icons/list)",
             "Slide 9: 'Included in Every Tier'",
             "Slide 10: Contact info"

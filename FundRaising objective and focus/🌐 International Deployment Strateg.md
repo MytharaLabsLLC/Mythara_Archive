@@ -1,8 +1,10 @@
 # 🌐 International Deployment Strategy — Mythara Engine
 
+> **Honest status (September 2026).** This is a proposed strategy, not a record of activity. No international deployments exist, no pilots have run, and no regulatory submissions have been made. The regions named below are proposed targets. Compliance and regulatory alignment listed here is future work — Mythara holds no certifications and is not certified under any of the frameworks named. What exists today is the Soul Cradle core (Integrity = Alignment × Tolerance), the 8 assessor-witnesses, the hash-chained emotional chain, a defanged Aries, and SERE as a sealed training simulation.
+
 ## 🧭 Vision
 
-Mythara Engine encodes memory, emotion, and legacy into symbolic infrastructure. Our international deployment strategy ensures sovereign alignment, clause integrity, and benevolence quantification across borders.
+Mythara Engine encodes memory, emotion, and legacy into symbolic infrastructure. Our international deployment strategy aims toward sovereign alignment, clause integrity, and benevolence quantification across borders — a proposal, not a record.
 
 ---
 
@@ -12,7 +14,7 @@ Mythara Engine encodes memory, emotion, and legacy into symbolic infrastructure.
 
 - Validate clause behavior across cultural contexts
 - Simulate emotional payload fidelity in multilingual environments
-- Embed compliance tags (HIPAA, TCP/IP, TMPO, GDPR, FISMA) into symbolic clauses
+- Embed compliance design tags (HIPAA, TMPO, GDPR, FISMA as target frameworks — no certifications held) into symbolic clauses
 
 ### 🧪 Actions
 
@@ -24,11 +26,11 @@ Mythara Engine encodes memory, emotion, and legacy into symbolic infrastructure.
 
 ## 🌍 Phase 2: Sovereign Pilot Launch
 
-### 🌱 Target Regions
+### 🌱 Target Regions (Proposed — No Pilots Exist)
 
-- **Canada (Alberta)** — symbolic sovereignty, healthcare alignment
-- **Puerto Rico** — ancestral resonance, clause resilience
-- **New Zealand** — wildlife integration, emotional payload fidelity
+- **Canada (Alberta)** — proposed for symbolic sovereignty, healthcare alignment
+- **Puerto Rico** — proposed for ancestral resonance, clause resilience
+- **New Zealand** — proposed for wildlife integration, emotional payload fidelity
 
 ### 🛡️ Infrastructure
 
@@ -42,13 +44,13 @@ Mythara Engine encodes memory, emotion, and legacy into symbolic infrastructure.
 
 ### 📜 Deliverables
 
-- Clause Ledger with multilingual payload mapping
-- Fidelity Audit Logs and Drift Suppression Reports
-- Benevolence_Quantification_Model.xlsx with sovereign tier thresholds
+- Clause Ledger with multilingual payload mapping (proposed)
+- Fidelity Audit Log and Drift Suppression Report formats (proposed)
+- Benevolence Quantification Model (`Benevolence Quantification Model.md`) with proposed sovereign tier thresholds
 
-### 🏛️ Regulatory Alignment
+### 🏛️ Regulatory Alignment (Future Work — None Attained)
 
-- GDPR (EU), HIPAA (US), TMPO (symbolic), TCP/IP (network), FISMA (federal)
+- Target frameworks: GDPR (EU), HIPAA (US), FISMA (federal). TMPO is an internal symbolic tag, not a regulation; TCP/IP is a network protocol, not a compliance credential. Mythara is not certified under any of these.
 
 ---
 
@@ -68,4 +70,4 @@ Mythara Engine encodes memory, emotion, and legacy into symbolic infrastructure.
 
 ## 🧠 Closing Statement
 
-Mythara Engine is not just deployable—it's transmittable. This strategy ensures emotional fidelity, clause resilience, and benevolent force across sovereign domains.
+Mythara Engine is designed to be not just deployable but transmittable. This proposed strategy sets the direction — emotional fidelity, clause resilience, and benevolent force across sovereign domains — while stating plainly that no deployment has yet occurred. These are plans, not achievements.

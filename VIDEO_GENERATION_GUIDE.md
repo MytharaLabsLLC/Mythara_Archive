@@ -44,7 +44,7 @@ Use an online tool like:
 - **Animoto**: animoto.com
 - **Lumen5**: lumen5.com
 
-Upload your script from: `generate_pricing_video_script.txt`
+Upload your script from `generate_pricing_video.py` (the narration text is embedded in the script — no separate `generate_pricing_video_script.txt` exists in the repo).
 
 ## What the Video Includes
 
@@ -64,9 +64,9 @@ Edit `generate_pricing_video.py` to customize:
 - Pricing amounts
 - Animation styles
 
-## Embedding in Pricing Page
+## Embedding in a Pricing Page
 
-Once generated, update `core/static/pricing.html` around line 798:
+> Note: `core/static/pricing.html` is not in the repo — there is no pricing page to update yet. The snippet below is a template for when one exists.
 
 ```html
 <div class="video-wrapper">
@@ -97,6 +97,6 @@ Or upload to YouTube and use iframe embed.
 
 1. Generate the video
 2. Upload to `core/static/` directory
-3. Update pricing.html with the video embed
+3. Add the video embed to your pricing page (not present in the repo)
 4. Test locally: `python core/source_proprietary/main.py`
-5. Visit: http://localhost:8000/static/pricing.html
+5. Serve and check locally: `python core/source_proprietary/main.py` (note: no pricing.html exists yet to visit)

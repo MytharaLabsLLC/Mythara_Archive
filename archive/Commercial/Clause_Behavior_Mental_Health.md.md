@@ -2,7 +2,7 @@
 
 This file is a deprecated duplicate (double-extension). The canonical, up-to-date file lives at:
 
-`Commercial/Clause_Behavior_Cybersecurity.md`
+[Clause_Behavior_Mental_Health.md](Clause_Behavior_Mental_Health.md)
 
 Purpose of this marker file:
 
@@ -16,4 +16,4 @@ Recommended options:
 
 ---
 
-See the canonical file (`Commercial/Clause_Behavior_Cybersecurity.md`) for complete, current content and security improvements.
+See the canonical file ([Clause_Behavior_Mental_Health.md](Clause_Behavior_Mental_Health.md)) for complete, current content.

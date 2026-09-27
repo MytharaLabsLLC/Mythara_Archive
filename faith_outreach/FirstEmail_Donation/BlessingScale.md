@@ -6,7 +6,9 @@
 
 ## The Biblical Continuum
 
-At the heart of Mythara's offering to St. Jude is the **Blessing Scale**, a continuum expressed in **biblical anchors** rather than medical or technical terms. This ensures sacred resonance, clarity, and compliance.
+> **Note:** St. Jude is used throughout this document only as an illustrative example of the kind of faith-based organization this framework is designed for. No engagement with St. Jude exists; no pilot or partnership has begun.
+
+At the heart of Mythara's framework is the **Blessing Scale**, a continuum expressed in **biblical anchors** rather than medical or technical terms. This ensures sacred resonance, clarity, and compliance.
 
 ### Continuum
 ```

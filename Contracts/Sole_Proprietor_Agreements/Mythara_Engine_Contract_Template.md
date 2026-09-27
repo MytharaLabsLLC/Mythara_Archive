@@ -1,5 +1,17 @@
 # Mythara Engine — Master Software Licensing Agreement
 
+> **⚠ DRAFT TEMPLATE — NEVER EXECUTED — NOT LEGAL ADVICE**
+>
+> This is an **unsigned template only**. No licenses have been sold, no
+> revenue earned, and no agreement on these terms has ever been signed.
+> Pricing tiers, fees, SLAs, and all commercial terms below are template
+> placeholders, not offered or agreed terms. **Do not sign or rely on this
+> document without review by a licensed attorney.** Entity references use
+> Mythara Labs LLC (proposed Colorado domestic LLC; Articles of Organization filing attempted
+> with the Colorado Secretary of State on September 27, 2026 — not confirmed;
+> not yet a formed entity); until formation completes, the
+> licensor is Herbert Velez Jr., individual.
+
 **Agreement ID:** ME-MSLA-TEMPLATE-001  
 **Effective Date:** [INSERT DATE]  
 **Licensor:** Herbert Velez Jr.  
@@ -218,7 +230,7 @@ EXCEPT AS EXPRESSLY STATED IN SECTION 7.1, THE SOFTWARE IS PROVIDED "AS IS" WITH
 
 **8.1 Escrow Deposit**
 
-For Sovereign Licenses, Licensor shall deposit source code, proprietary algorithms, and build scripts with an approved Escrow Agent (Iron Mountain, Amboseli, or mutually agreed provider).
+For Sovereign Licenses, Licensor shall deposit source code, proprietary algorithms, and build scripts with an approved Escrow Agent (Iron Mountain or a mutually agreed provider).
 
 **8.2 Release Conditions**
 
@@ -333,7 +345,7 @@ For Sovereign Licenses, escrow deposit remains accessible per Section 8.2 releas
 
 **13.1 Governing Law**
 
-This Agreement is governed by the laws of the State of California, USA, without regard to conflict of law principles.
+This Agreement is governed by the laws of the State of Colorado, USA, without regard to conflict of law principles. *(Template placeholder — confirm governing law with counsel at execution.)*
 
 **13.2 Dispute Resolution**
 

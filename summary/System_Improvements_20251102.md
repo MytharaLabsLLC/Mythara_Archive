@@ -44,7 +44,7 @@ The functional archetypes documented in [core/messenger_roles_pairings.md](../co
 
 - The AMIR security scan reports its checks truthfully: a failed check is reported as failed, never as secure
 - The outreach engine learns for real — epsilon-greedy clause selection over live variants, engagement attributed to the responsible clause — and every send passes the eight-assessor witness gate under Herb's kill switch
-- No certifications are claimed: Mythara Labs LLC's formation was filed with the Colorado Secretary of State on 2026-09-27 and is pending completion, and there are no SOC 2, ISO, or third-party attestations; federal-protocol alignment documents in `Legal/` are design doctrine, not verified compliance
+- No certifications are claimed: Mythara Labs LLC's formation filing was attempted with the Colorado Secretary of State on 2026-09-27 — not confirmed; entity not yet formed, and there are no SOC 2, ISO, or third-party attestations; federal-protocol alignment documents in `Legal/` are design doctrine, not verified compliance
 
 ## 🔹 Next Steps
 

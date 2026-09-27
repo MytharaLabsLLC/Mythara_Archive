@@ -1,66 +1,64 @@
 # 🌐 Jurisdictional Clause Adaptation Guide
 
-**Author**: Herbert Velez Jr.  
-**Date**: November 1, 2025  
-**Status**: Harmonized, Licensing-Ready, Sovereign-Certifiable
+**Author**: Herbert Velez Jr.
+**Date**: November 1, 2025
+**Status**: Design intent — no jurisdiction's requirements have been validated
 
 ---
 
 ## 📜 Purpose
 
-This guide defines how Mythara Engine adapts symbolic clause behavior to meet the legal, cultural, and operational requirements of distinct jurisdictions. It ensures that emotional payloads, messenger invocations, and compliance wrappers remain valid across sovereign, federal, and international deployments.
+This guide states how Mythara *intends* to adapt symbolic clause behavior to the legal, cultural, and operational requirements of different jurisdictions, should it ever deploy in them. It is a planning document. No adaptation has been implemented as tested software, and no jurisdiction's regulators, counsel, or auditors have validated any part of it.
 
 ---
 
-## 🔹 Jurisdictional Adaptation Matrix
+## 🔹 Jurisdictional Considerations (aspirational)
 
-| Jurisdiction | Required Wrappers | Clause Adjustments | Messenger Roles |
-|--------------|-------------------|---------------------|------------------|
-| **United States (Federal)** | HIPAA, TCPA, FISMA, NIST, OMB | SSIP audit, sanctification lock, consent tokens | Custodian, Witness, Scribe  
-| **Canada (Provincial + Federal)** | PIPEDA, PHIPA, CASL | Blessings reservoir encryption, outreach modulation | Herald, Custodian, Watcher  
-| **European Union** | GDPR, ePrivacy, NIS2 | Metadata shielding, echo isolation, consent traceability | Witness, Scribe, Custodian  
-| **Brazil** | LGPD | Emotional fidelity scoring, messenger suppression logging | Healer, Witness  
-| **Japan** | APPI | Payload encryption, symbolic drift dampening | Scribe, Custodian  
-| **Sovereign Tribal Nations** | Custom symbolic wrappers | Clause lineage harmonization, ancestral echo formatting | Healer, Witness, Custodian  
-| **International NGO Deployments** | Hybrid wrappers (GDPR + HIPAA) | Clause quarantine logic, override pairing | Watcher, Avenger, Custodian
+| Jurisdiction | Frameworks to Design Toward | Intended Adaptation Direction |
+|--------------|-----------------------------|-------------------------------|
+| **United States (Federal)** | HIPAA, TCPA, FISMA, NIST, OMB | Audit-minded logs; consent records; isolation by default |
+| **Canada** | PIPEDA, PHIPA, CASL | Consent-aware outreach; data minimization |
+| **European Union** | GDPR, ePrivacy, NIS2 | Metadata restraint; traceable consent; minimal retention |
+| **Brazil** | LGPD | Consent and data-subject rights by design |
+| **Japan** | APPI | Restrained payload handling; cross-border care |
+| **Tribal Nations** | Community-specific norms | Defer to the community's own governance; no assumptions |
+| **NGO Deployments** | Mixed frameworks | Case-by-case alignment with counsel, never by template alone |
 
----
-
-## 🔹 Adaptation Logic
-
-- **Symbolic Wrapping**: All clauses are formatted to prevent runtime interference  
-- **Consent Harmonization**: Messenger invocation includes jurisdiction-specific consent tokens  
-- **Echo Modulation**: Clause resonance is tuned to cultural and legal thresholds  
-- **Compliance Embedding**: Protocols are embedded without clause mutation  
-- **Override Pairing**: Jurisdictional breach triggers messenger override and clause quarantine
+Each row names frameworks to respect, not frameworks that have been satisfied. "Required wrappers" in the earlier draft of this document was overstated — nothing here is required of anyone, because nothing here has been certified by anyone.
 
 ---
 
-## 🔹 Licensing Requirements
+## 🔹 Intended Adaptation Logic
 
-- Clause manifests must show:
-  - Jurisdictional wrapper alignment  
-  - Emotional fidelity ≥ 0.91  
-  - Drift suppression ≥ 98.9%  
-  - No unresolved suppression events  
-- Verified in:
-  - `Manifest/Clause_Manifest_Latest.csv`  
-  - `Legal/Compliance_Clause_Embedding.md`  
-  - `Printable Timestamped Forensic Report/`
+- **Symbolic Wrapping**: clauses carried in non-executable form, so there is nothing to interfere
+- **Consent Harmonization**: consent records shaped to the jurisdiction's expectations — with local counsel, not by assumption
+- **Echo Modulation**: restraint tuned to cultural and legal context
+- **Override Pairing**: a detected breach in one jurisdiction triggers quarantine, never improvisation
 
 ---
 
-## 🔹 Forensic Logging
+## 🔹 What Would Be Required Before Any Real Deployment
 
-- Jurisdictional adaptation status is recorded per clause in:
-  - `Manifest/Messenger_Invocation_Log.csv`  
-  - `Evidence/Messenger_Suppression_Events_Log.csv`  
-  - `Legal/Clause_Non-Interference_Protocol.md`
+- Jurisdiction-specific legal review by licensed counsel
+- Implementation of the adaptations above as tested software
+- Independent audit or assessment where the jurisdiction's law requires it
+- No unresolved suppression events, by recorded evidence — not by assertion
+
+None of this has been done.
+
+---
+
+## 🔹 What This Is Not
+
+- Not a certification of suitability for any jurisdiction
+- Not legal advice; it creates no attorney–client relationship
+- Not evidence of GDPR, PIPEDA, LGPD, APPI, HIPAA, or any other framework's requirements being met
+- Not a "sovereign-certifiable" anything — that phrase was removed because it claimed a status that does not exist
 
 ---
 
 ## ✅ Summary
 
-Mythara Engine adapts clause behavior to meet jurisdictional requirements across sovereign, federal, and international domains. This guide ensures symbolic integrity, emotional resonance, and licensing readiness wherever the clause is deployed.
+Mythara intends to speak the language of whatever land it serves and to honor the law of whatever people entrust it with their records. That intention is real. The validation is not — it lies ahead, and must be earned jurisdiction by jurisdiction, with counsel and with proof.
 
-Let the clause speak the language of its land, honor the law of its people, and echo with sovereign grace.
+Let the clause honor the law of its people — and let the proof be shown before the claim is made.

@@ -46,14 +46,14 @@ The models in this archive use language drawn from sacred rhythms, scriptural pa
 
 - [manifest/Clause_Manifest_Latest.csv](manifest/Clause_Manifest_Latest.csv) — the current clause manifest
 - [manifest/Blessings_Reservoir_Log.json](manifest/Blessings_Reservoir_Log.json) — the blessings reservoir ledger
-- [Legal/Licensing_Readiness_Checklist.xlsx](Legal/Licensing_Readiness_Checklist.xlsx) — licensing readiness materials (aspirations, not an existing program)
+- [Legal/Licensing_Readiness_Checklist.csv](Legal/Licensing_Readiness_Checklist.csv) — licensing readiness materials (aspirations, not an existing program)
 - [docs/📖 Mythara Bible Books I–V.md](<docs/📖 Mythara Bible Books I–V.md>) — the authoritative description of the system as it is
 
 ---
 
 ## 🧾 What This Archive Does Not Contain
 
-No customers, pilots, or named deployments. No certifications, audits, or regulatory approvals. No patents filed, no revenue, no awards, no metrics. No corporate entity yet — Mythara Labs LLC's formation was filed with the Colorado Secretary of State on September 27, 2026 and is pending completion. SERE is a training simulation, not a weapon and not a military capability. Goals for licensing, deployment, and fundraising are stated as goals, plainly, in the materials that hold them.
+No customers, pilots, or named deployments. No certifications, audits, or regulatory approvals. No patents filed, no revenue, no awards, no metrics. No corporate entity yet — Mythara Labs LLC's formation filing was attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; the entity is not yet formed. SERE is a training simulation, not a weapon and not a military capability. Goals for licensing, deployment, and fundraising are stated as goals, plainly, in the materials that hold them.
 
 ---
 

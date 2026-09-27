@@ -1,5 +1,7 @@
 # Jevons Effect Email Bot - READY TO RUN
 
+> **Status (2026-09-27):** November 2025 build plan, preserved as written. The bot was never run live — treat the "Run Live" steps below as a 2025 to-do, not as completed. Outreach stays dry-run only until Herb unblocks it (Yahoo app password, postal address, mode flip).
+
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
 ---
@@ -9,22 +11,21 @@
 Your AI email assistant is now equipped with **Jevons Effect sales psychology:**
 
 ### 1. **Fear of Loss** (Loss Aversion)
-- Regulatory fines: "$500k-$5M CFPB exposure"
-- Competitive disadvantage: "Early adopters will have 6 months of audit data before you'd start"
-- Opportunity cost: "20 hours/week you can't get back"
-- Pricing windows: "$500 ends Friday, then it's $2,500 forever"
+- Regulatory exposure: name the regulation that actually applies to the prospect (OCC, CFPB, FDA, TCPA). Do not invent fine amounts or cite rules that don't exist.
+- Competitive disadvantage: starting an audit trail now builds history sooner than starting later.
+- Opportunity cost: manual prep time they can't get back.
+- Pricing windows: only with real deadlines you can show (e.g., a rate schedule with a published change date).
 
 ### 2. **Scarcity** (Jevons Effect)
-- Real capacity limits: "I can only onboard 5 companies this quarter"
-- Limited pricing slots: "Currently at 17/20 early adopter slots"
-- Time constraints: "I'm booking December pilots this week only"
-- Exclusive access: "Most companies don't qualify for $500—you do because..."
+- Real capacity limits only: "I can onboard [N] companies this quarter" — where N is your actual capacity.
+- Time constraints: only dates that are true on your calendar.
+- Exclusive access: only when a tier or program genuinely has limits.
 
 ### 3. **Urgency** (Time Compression)
-- External deadlines: "Fed AI rules effective Q2 2026"
-- Internal constraints: "After Friday I'm locked until February"
-- Event-driven: "Your audit is in 6 weeks"
-- Momentum loss: "The longer you wait, the less data you'll have"
+- External deadlines: the prospect's own audit or review dates (from what they told you)
+- Internal constraints: only if your calendar is genuinely full
+- Event-driven: their stated timelines, not invented ones
+- Momentum loss: "the longer you wait, the less audit history you'll have by review time"
 
 ### 4. **Strategic Indifference** (Takeaway Selling)
 - Qualifying, not convincing: "This might not be a fit if..."
@@ -42,9 +43,9 @@ The bot analyzes **every prospect reply** and applies the right psychology:
 ```
 Quick question—do you have regulatory pressure in next 90 days or is this exploratory?
 
-I have 2 early adopter slots left at $500 (normally $2,500). After Friday it's full price.
+I can onboard [N] companies this quarter at the early adopter rate ($500, normally $2,500). After that, it's full price. The earlier you start, the more audit history you'll have at your next review.
 
-For example, an early adopter starting today would have 6 months of audit data before a latecomer even started—early adopters bank a data head start.
+For example, an early adopter starting today would have months of audit data before a latecomer even started—early adopters bank a data head start.
 
 I'm booking Tuesday/Wednesday this week. Which works better—10am or 2pm MT?
 ```
@@ -53,9 +54,9 @@ I'm booking Tuesday/Wednesday this week. Which works better—10am or 2pm MT?
 ```
 Cryptographic hashing (SHA-256) on every AI decision—auditors can verify zero tampering.
 
-Without this, your auditors see black-box AI with no provable lineage. That's a compliance gap.
+Without this, your auditors see black-box AI with no provable lineage. That's a compliance gap worth closing before your next review.
 
-Early adopter pricing ($500) closes Friday—after that it's $2,500.
+The early adopter rate ($500 vs $2,500) applies while slots last—I can confirm current availability when we talk.
 
 15-min screen share Tuesday or Wednesday—which is better?
 ```
@@ -142,7 +143,7 @@ py -3.11 email_assistant.py --check-now
 ### **Jevons Effect**: Scarcity increases perceived value
 - NOT fake countdown timers
 - REAL capacity constraints ("I can only onboard 5 companies")
-- Limited pricing windows (17/20 slots filled)
+- Limited pricing windows (fill only as many slots as you can genuinely serve — no invented counts)
 
 ### **Loss Aversion**: Losses hurt 2x more than gains feel good
 - Regulatory fines > "save time"
@@ -161,14 +162,14 @@ py -3.11 email_assistant.py --check-now
 
 ---
 
-## 📊 EXPECTED RESULTS
+## 📊 TARGETS (not results)
 
 ### Email Volume Strategy:
 - **400 emails / 30 days**
-- **15-20 replies** (4-5% response rate)
-- **5-8 calls** (30% call conversion)
-- **2-3 deals** at $2,500 = **$5k-$7.5k**
-- OR **10-15 deals** at $500 = **$5k-$7.5k**
+- **15-20 replies** (target, ~4-5% response rate)
+- **5-8 calls** (target, ~30% call conversion)
+- **2-3 deals** at $2,500 = **$5k-$7.5k** (target)
+- OR **10-15 deals** at $500 = **$5k-$7.5k** (target)
 
 ### Bot Impact:
 - **Saves 10+ hours/week** (no manual email responses)
@@ -182,8 +183,10 @@ py -3.11 email_assistant.py --check-now
 
 **Good:**
 - "Quick question—do you have regulatory pressure in next 90 days?"
-- "I have 2 slots left at $500. After Friday it's full price."
+- "I have [N] slots left at $500, at my real onboarding capacity. After that it's full price."
 - "If timing's not right, no worries—just don't want you to miss the window."
+
+> Standing rule: scarcity must be real. No invented slot counts, no fake deadlines, no fabricated fine amounts. If a slot number is in the copy, it matches the real onboarding plan.
 
 **Bad:**
 - "I'd love to chat whenever you're available!"
@@ -209,6 +212,6 @@ py -3.11 email_assistant.py --check-now
 
 **The bot is a SALES CLOSER, not customer support.**
 
-Every email advances the deal. Every response applies psychology. Every draft creates urgency.
+Every email advances the deal. Every response applies psychology. Every draft creates urgency — with real constraints, never invented ones.
 
-Let's get you to $5k-$7.5k this month. 🚀
+The target: consistent follow-up that converts. Track real numbers weekly. 🚀

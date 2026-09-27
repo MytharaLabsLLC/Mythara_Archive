@@ -213,11 +213,11 @@ def display_next_steps():
     print("      - View task history: schtasks /query /tn 'Mythara Marketing Bot' /v")
     print("      - Check logs in this folder")
     
-    print("\n📊 EXPECTED RESULTS:")
-    print("   - Week 1: 50+ leads generated")
-    print("   - Week 2: Sales Bot tactics improving (15%+ close rate)")
-    print("   - Week 3: First weekly report showing trends")
-    print("   - Week 4: $5k+ MRR from automated lead gen")
+    print("\n📊 TARGET OUTCOMES (goals, not promises):")
+    print("   - Week 1: Lead generation pipeline running")
+    print("   - Week 2: Sales Bot tactics adapting to real engagement data")
+    print("   - Week 3: First weekly report with real performance numbers")
+    print("   - Week 4: First paying customers from automated lead gen")
     
     print("\n💰 COST BREAKDOWN:")
     print("   - OpenAI API: ~$200/month (all bots)")
@@ -225,11 +225,10 @@ def display_next_steps():
     print("   - PostgreSQL: Free (local) or $9/month (Heroku)")
     print("   - Total: $200-$5,200/month depending on ad budget")
     
-    print("\n📈 ROI PROJECTION:")
-    print("   - 100 leads/week → 10 deals/month @ $2.5k = $25k MRR")
-    print("   - Cost: $5,200/month")
-    print("   - Profit: $19,800/month")
-    print("   - ROI: 381%")
+    print("\n📈 ROUGH UNIT ECONOMICS (back-of-the-napkin, for planning only):")
+    print("   - Example: 100 leads/week, 10% turning into deals at $2.5k each")
+    print("   - Real results will differ — track actual conversion and cost")
+    print("   - Watch cost per lead and close rate weekly, adjust from there")
     
     print("\n" + "="*80)
 

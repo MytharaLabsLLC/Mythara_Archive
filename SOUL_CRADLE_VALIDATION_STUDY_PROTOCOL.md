@@ -278,7 +278,7 @@ Participants will be informed of:
 
 ### C. Data Privacy & Security
 - HIPAA compliance (healthcare data protection)
-- Encrypted data transmission (RSA + QKD hybrid)
+- Encrypted data transmission (TLS in transit, encryption at rest)
 - De-identification before analysis (remove names, employee IDs)
 - Secure cloud storage (AWS HIPAA-compliant environment)
 - Access controls (PI and approved research staff only)
@@ -337,12 +337,12 @@ Participants will be informed of:
 3. **Implementation Guide**: How to deploy Soul Cradle in healthcare systems
 4. **Clinical Guidelines**: When to intervene based on Terminal Risk + trajectory
 
-### C. Impact
+### C. Projected Impact (if the study's hypotheses hold)
 
-1. **Scientific**: First validated mathematical burnout prediction model with temporal dynamics
-2. **Clinical**: Early warning system for healthcare burnout prevention
-3. **Economic**: Reduce turnover costs ($40K-$64K per nurse resignation)
-4. **Regulatory**: Evidence for HIPAA-compliant burnout monitoring systems
+1. **Scientific**: Would provide one of the first empirical tests of a mathematical burnout prediction model with temporal dynamics
+2. **Clinical**: Could inform an early warning system for healthcare burnout prevention
+3. **Economic**: Could reduce turnover costs (published estimates: $40K-$64K per nurse resignation)
+4. **Regulatory**: Could provide evidence toward HIPAA-compliant burnout monitoring designs
 
 ---
 
@@ -394,7 +394,7 @@ Participants will be informed of:
 
 This validation study will provide **empirical evidence** for the decay-adjusted Terminal Risk formula, establishing it as the **first validated mathematical burnout prediction model** with temporal dynamics. By calibrating decay rate parameters from real-world data, we will enable **personalized burnout risk assessment** tailored to different professional populations.
 
-**Key Innovations Validated**:
+**Key Innovations to Be Validated** (the study has not been run — nothing below is validated yet):
 1. ✅ Exponential decay modeling ("time heals all wounds")
 2. ✅ Accumulation vs decay rate comparison for trajectory classification
 3. ✅ Population-specific half-life estimates for clinical interpretation

@@ -21,7 +21,7 @@ This Pilot License governs access to the Mythara Engine during a time-limited ev
 - Pilot Software, documentation, and artifacts are Confidential Information. You shall protect them with a standard of care no less than that used for your own confidential materials.
 
 5) Ownership
-- Mythara Labs retains all rights, title, and interest in and to the Pilot Software and all related intellectual property.
+- Herbert Velez Jr. retains all rights, title, and interest in and to the Pilot Software and all related intellectual property.
 
 6) Fees and Upgrades
 - The pilot is provided for evaluation without production service obligations. Production use requires an Enterprise or Sovereign license at the published rate (inflation/size adjusted per policy).

@@ -3,6 +3,8 @@
 
 # Agent Override with Accountability — Use Case & Demo Flow
 
+> **Demo scenario.** Every name (Jane Doe, John Smith), company reference, ID number, timestamp, and figure below is illustrative — invented for this walkthrough, not a record of any real customer, pilot, or deployment. There are no customers or pilots associated with this document.
+
 ## The Problem (Why Customers Care)
 
 ### Banking/Lending Scenario
@@ -89,8 +91,11 @@ override_result = invoke_clause(
         "tamper_evident": True
     },
     "ssip_compliance": {
-        "drift_suppression": 0.992,
-        "emotional_fidelity": 0.94,
+        "integrity": {
+            "alignment": 0.87,   # illustrative: how well the override lines up with the principal's aims
+            "tolerance": 0.92,   # illustrative: room for error and recovery
+            "score": 0.80        # illustrative: alignment x tolerance
+        },
         "explainability": "Full clause-level audit trail available"
     }
 }
@@ -174,7 +179,7 @@ agent_stats = get_agent_override_stats("AGENT-5432")
 │    System prompts: "Enter justification (min 50 chars)"         │
 │    Jane enters: "Verified income via tax returns, 10-year       │
 │    customer with perfect payment history, recent job change     │
-│    to higher salary position with Fortune 500 company"          │
+│    to higher salary position with a larger employer"          │
 │                                                                  │
 │    Mythara creates invocation: INV-2025-11-04-00834             │
 │    ✅ Agent ID logged: AGENT-5432 (Jane Doe)                    │
@@ -270,11 +275,13 @@ agent_stats = get_agent_override_stats("AGENT-5432")
 > Six months later, if that loan defaults, your audit pulls the invocation. You see: 'Jane Doe overrode AI on Nov 4 at 2:32pm.' She can't say 'the system approved it' — her name is on it. But if 90% of her overrides succeed, she gets promoted. **That's accountability.**"
 
 ### Close (ROI)
-> "You get faster approvals, better risk management, and regulatory compliance. Your good agents are protected. Your bad agents are identified. And you have cryptographic proof for every decision. **That's the value of SSIP + Mythara.**"
+> "You get faster approvals, better risk management, and regulatory compliance. Your good agents are protected. Your bad agents are identified. And you have a tamper-evident record of every decision. **That's the value of Mythara.**"
 
 ---
 
 ## Pricing Impact
+
+> Proposed pricing only — no deals, pilots, or revenue exist at these or any other figures.
 
 ### What to Charge
 

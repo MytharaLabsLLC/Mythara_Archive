@@ -133,12 +133,14 @@ sha256sum -c manifest/checksums.sha256
 
 ---
 
-## Current Status
+## Current Status (verified 2026-09-27)
 
-✅ RELEASE_MANIFEST.json — hashes updated, ready for signing  
-✅ checksums.sha256 — canonical, ready for signing  
-✅ forensic_public_key.asc — exported and included  
-⏳ Signatures pending (create .asc files using commands above)
+✅ `manifest/RELEASE_MANIFEST.json` — signed; its detached signature verifies against the current file (signed Nov 3, 2025)  
+⚠️ `manifest/checksums.sha256` — a detached signature exists but no longer verifies: the file changed after signing. Re-sign it (Step 2) before any escrow transfer.  
+⚠️ `forensic_manifest.json` — a detached signature exists but no longer verifies: the file changed after signing. Re-sign it (Step 3) before any escrow transfer.  
+✅ `forensic_public_key.asc` — present at the repository root  
+
+Expired signatures must not be treated as valid. Re-sign before any escrow transfer.
 
 ---
 

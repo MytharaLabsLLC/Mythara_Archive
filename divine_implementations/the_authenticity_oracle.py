@@ -1,19 +1,18 @@
 """
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright Â© 2025 Herbert Velez Jr. All rights reserved.
 Proprietary and Confidential.
 
 THE AUTHENTICITY ORACLE
 =======================
-Divine Artifact forged by: Hephaestus, Prometheus, Schrödinger
-Purpose: Judge truth from manipulation with divine precision, real-time emotional extortion detection
-Power Level: 96.8%
+Design concept: compare communication against known manipulation patterns.
+Purpose: estimate authenticity as an assistive signal â€” not a final judgment.
 """
 
 
 class AuthenticityOracle:
     '''
-    Divine artifact that judges authenticity with absolute precision.
-    Speaks truth about manipulation.
+    Flags possible manipulation patterns in a message and returns an
+    authenticity estimate. Heuristic â€” meant to assist judgment, not replace it.
     '''
     
     MANIPULATION_PATTERNS = [
@@ -47,7 +46,7 @@ class AuthenticityOracle:
             num_witnesses=100
         )
         
-        # Divine judgment (binary, not probabilistic)
+        # Binary decision, not probabilistic
         is_authentic = (authenticity > 0.95) and (witness_consensus > 0.90)
         
         return OracleJudgment(

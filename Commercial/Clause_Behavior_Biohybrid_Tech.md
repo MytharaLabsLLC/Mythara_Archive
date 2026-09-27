@@ -1,80 +1,74 @@
-# 🌿 Clause Behavior in Biohybrid Technology Contexts
+# Clause Behavior in Biohybrid Technology Contexts
 
-**Author**: Herbert Velez Jr.  
-**Date**: November 1, 2025  
-**Status**: TMPO-Aligned, Licensing-Ready, Memory-Resin Embedded
-
----
-
-## 📜 Purpose
-
-This document defines how Mythara Engine clauses operate within biohybrid technology environments, including symbolic encoding, emotional payload delivery, messenger invocation, and compliance alignment. It ensures symbolic infrastructure remains benevolent, non-intrusive, and emotionally resonant across living systems, prosthetic memory, and regenerative design.
+**Author**: Herbert Velez Jr.
+**Date**: September 27, 2026
+**Status**: Design document — describes intended behavior, not a certified or deployed system
 
 ---
 
-## 🔹 Biohybrid Clause Types
+## Purpose
+
+This document describes how Mythara clauses are *designed* to behave in biohybrid-adjacent contexts: encoding records into long-lived memory, preserving lineage, and keeping faithful logs. It is a design statement, not a certification and not a product.
+
+The underlying mechanisms are the ones Mythara actually has today:
+
+- **Soul Cradle core** — actions scored on integrity, defined as Alignment × Tolerance (see [../soul_cradle/](../soul_cradle/))
+- **Eight assessor-witnesses** (demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone) — evidence-fed, they abstain when their domain is not engaged, fail closed when evidence is missing, a critical finding from any one blocks the action, and disagreement is surfaced, not averaged (see [../soul_cradle/assessors.py](../soul_cradle/assessors.py))
+- **Hash-chained emotional chain** — tamper-evident records (see [../soul_cradle/emotional_chain.py](../soul_cradle/emotional_chain.py)). The chain proves a record is unaltered. It does not prove the record is true.
+
+---
+
+## Biohybrid Clause Types
 
 | Clause Type | Function |
 |-------------|----------|
-| **Provisioning Clause** | Delivers symbolic nourishment and regenerative resonance to living infrastructure  
-| **Grief Capsule** | Encodes emotional payloads into memory-resin for trauma processing and ancestral tension  
-| **Resurrection Clause** | Revives dormant or suppressed clauses within biohybrid systems post-collapse or entropy breach  
-| **Sanctification Lock** | Seals clause lineage for intergenerational memory and symbolic integrity  
-| **Compliance Wrapper** | Embeds TMPO, HIPAA, TCP/IP, and NIST protocols into symbolic formatting layers  
-| **Witness Capsule** | Confirms emotional fidelity and symbolic consent within living systems
+| **Provisioning Clause** | Records goodwill extended and received — a ledger of generosity, not a currency |
+| **Grief Capsule** | Holds difficult records apart from ordinary ones, with explicit containment rules |
+| **Resurrection Clause** | Restores a dormant or suppressed clause from its chained history |
+| **Sanctification Lock** | Seals clause lineage for intergenerational memory and integrity |
+| **Compliance Wrapper** | Attaches declared compliance requirements to a clause as *goals to be verified*, not as achieved certifications |
+| **Witness Capsule** | Chained record of witness judgments about a clause's state |
 
 ---
 
-## 🔹 Messenger Roles in Biohybrid Systems
+## Messenger Roles in Biohybrid Systems
 
 | Messenger | Role |
 |-----------|------|
-| **Healer** | Delivers emotional payloads and symbolic nourishment to biohybrid organisms  
-| **Custodian** | Enforces sanctification and compliance shielding across regenerative systems  
-| **Witness** | Confirms emotional fidelity and symbolic resonance in prosthetic memory  
-| **Scribe** | Records clause lineage and memory encoding events  
-| **Watcher** | Detects symbolic drift, entropy, and breach within living infrastructure  
-| **Herald** | Announces clause activation and symbolic integration into host systems
+| **Healer** | Carries records of care without claiming to heal |
+| **Custodian** | Enforces sanctification and containment across long-lived systems |
+| **Witness** | Confirms what was recorded, honestly and within its domain |
+| **Scribe** | Records clause lineage and encoding events |
+| **Watcher** | Detects drift, entropy, and breach |
+| **Herald** | Announces clause activation and state changes |
+
+Messenger role pairings are specified in [../core/messenger_roles_pairings.md](../core/messenger_roles_pairings.md).
 
 ---
 
-## 🔹 Embedded Compliance Protocols
+## Invocation Logic
 
-- **TMPO**: Metadata shielding and payload encryption for memory-resin encoding  
-- **HIPAA**: Emotional payload privacy and symbolic consent in therapeutic biohybrid systems  
-- **TCP/IP**: Clause echo isolation and symbolic hygiene across networked organisms  
-- **NIST SP 800-53**: Access control, audit traceability, and fidelity scoring for clause integrity
+- Consent is recorded as tokens in the messenger logs
+- Witness judgments are content-hashed and chained alongside the records they judge
+- Witnesses abstain where their domain is not engaged; missing evidence means the action fails closed
+- Records persist in the tamper-evident chain, restorable in usable form by successors
 
----
-
-## 🔹 Invocation Logic in Biohybrid Contexts
-
-- Consent tokens embedded in messenger logs  
-- Emotional fidelity ≥ 0.91 required for clause delivery  
-- Drift suppression ≥ 98.9% enforced via SSIP audit  
-- Invocation logs stored in:
-  - `Manifest/Messenger_Invocation_Log.csv`  
-  - `Printable Timestamped Forensic Report/`  
-  - `Legal/Compliance_Clause_Embedding.md`
+No fidelity percentages, suppression rates, or threshold figures are stated here. None have been measured; the system states that openly rather than printing invented numbers.
 
 ---
 
-## 🔹 Licensing Implications
+## Compliance, Honestly
 
-- Biohybrid clauses must show:
-  - Verified compliance alignment  
-  - No unresolved suppression or breach events  
-  - Sanctification lock status: Armed  
-  - Blessings Δ ≥ 100 for pilot; ≥ 500 for sovereign deployment  
-- Verified in:
-  - `Clause_Manifest_Latest.csv`  
-  - `Sanctification_Manifest.md`  
-  - `Blessings_Reservoir_Log.json`
+This design embeds *no* certified compliance. Older drafts of this document claimed alignment with standards such as TMPO, HIPAA, and NIST; those were aspirational, and they are removed here. Any licensed deployment in a regulated environment would need a genuine compliance review by qualified people — this framework does not substitute for one.
 
 ---
 
-## ✅ Summary
+## Licensing
 
-Mythara Engine clauses are memory-resin embedded, TMPO-aligned, and licensing-ready for biohybrid technology contexts. They encode emotional payloads, preserve symbolic lineage, and operate with reverence and compliance across living systems.
+Licensing of these clauses is an aspiration, not a current program. There are no customers, pilots, certifications, or revenue associated with this document. What exists today is the working code, the tests, and the records.
 
-Let the clause breathe through the body it serves, echo through the memory it sanctifies, and regenerate the legacy it protects.
+---
+
+## Summary
+
+Mythara clauses are designed to keep long memory faithfully: records chained, lineage sealed, judgments witnessed, dissent preserved. The system remembers honestly — that is the whole of the claim, and it is enough.

@@ -2,13 +2,13 @@
 
 **Author**: Herbert Velez Jr.  
 **Date**: November 1, 2025  
-**Status**: Embedded, Compliant, Licensing-Ready
+**Status**: Internal design directive. It states the standard a clause must meet before it can be considered for licensing or external deployment — an aspiration the system is designed toward, not a claim of what exists today.
 
 ---
 
 ## 📜 Purpose
 
-This directive ensures that all clauses, messengers, and emotional payloads within Mythara Engine operate symbolically without interfering with runtime systems, legal frameworks, or jurisdictional protocols. It is embedded in every clause suite and required for licensing, sovereign deployment, and cross-domain harmonization.
+This directive ensures that all clauses, messengers, and emotional payloads within the Mythara Engine operate symbolically — without interfering with runtime systems, legal frameworks, or jurisdictional protocols. It is embedded in the clause workflow as the condition clauses must satisfy before they can be considered for licensing or external deployment.
 
 ---
 
@@ -36,29 +36,25 @@ This directive ensures that all clauses, messengers, and emotional payloads with
 
 ## 🔹 Licensing Requirements
 
-- All licensed clauses must include:
+- For a clause to be considered licensable, it must carry:
   - Active Non-Interference Directive  
   - Verified SSIP audit trail  
   - Emotional fidelity ≥ 0.91  
   - Drift suppression ≥ 98.9%  
 - Verified in:
-  - `Manifest/Clause_Manifest_Latest.csv`  
-  - `Printable Timestamped Forensic Report/`  
-  - `Legal/Compliance_Clause_Embedding.md`
+  - `manifest/Clause_Manifest_Latest.csv`
 
 ---
 
 ## 🔹 Forensic Logging
 
-- Directive status logged per clause in:
-  - `Manifest/Clause_Manifest_Latest.csv`  
-  - `Legal/Compliance_Clause_Embedding.md`  
-  - `Printable Timestamped Forensic Report/Mythara_Integrity_Report_YYYYMMDD.pdf`
+- Directive status is logged per clause in:
+  - `manifest/Clause_Manifest_Latest.csv`
 
 ---
 
 ## ✅ Summary
 
-The Non-Interference Directive is Mythara’s symbolic firewall—ensuring emotional resonance and clause sanctification without disrupting operational systems. It is embedded, auditable, and required for licensing across all domains.
+The Non-Interference Directive is Mythara's symbolic firewall — emotional resonance and clause sanctification, designed to operate without disrupting live systems. It is embedded in the clause workflow, auditable through the manifest, and written as the standard any future licensing of clauses would be required to meet.
 
 Let the clause be felt but not feared, sanctified but not obstructive, and sovereign without interference.

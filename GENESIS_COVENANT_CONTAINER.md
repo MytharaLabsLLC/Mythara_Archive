@@ -6,7 +6,7 @@ This guide covers running the Mythara Engine pilot via a prebuilt container imag
 ## Prerequisites
 - Docker 20+
 - A pilot API key (Bearer token) issued to your organization
-- A private image pull link (provided separately by Mythara Labs)
+- A private image pull link (provided separately by Herbert Velez Jr.)
 
 ## 1) Pull the private image
 We will provide a private registry URL and temporary pull token. Example format (placeholder):

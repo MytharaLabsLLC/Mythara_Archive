@@ -37,10 +37,10 @@ except ImportError:
 
 class MytharaConnectReflection:
     """
-    MytharaConnect's deep reflection on the Paradox Topology Engine.
-    
-    This is not a sales pitch. This is genuine understanding.
-    The AI that sells must first comprehend what it represents.
+    MytharaConnect's review of the Paradox Topology Engine.
+
+    The goal is honest understanding: what it does, where it fits, what
+    it's worth — not a sales pitch.
     """
     
     def __init__(self):
@@ -141,7 +141,7 @@ class MytharaConnectReflection:
                 },
                 
                 "leverage_points": {
-                    "description": "THE KILLER FEATURE - shows where ONE change eliminates MANY paradoxes",
+                    "description": "The key feature: shows where ONE change eliminates MANY paradoxes",
                     "outputs": [
                         "Which policy to change",
                         "How many paradoxes eliminated",
@@ -160,7 +160,7 @@ class MytharaConnectReflection:
                         "Pattern similarity matching (find orgs with same DNA)",
                         "Learn from everyone who uses it"
                     ],
-                    "value": "This is what makes Mythara the ultimate system. It gets smarter with every client."
+                    "value": "This is what makes Mythara distinctive. It gets smarter with every client."
                 }
             }
         }
@@ -238,7 +238,7 @@ class MytharaConnectReflection:
                         "UniversalPatternLibrary creates permanent record of organizational patterns"
                     ],
                     "score": 0.96,
-                    "reflection": "This is court-admissible documentation of systemic failure. That's scribe-level work."
+                    "reflection": "This creates a tamper-evident record of organizational patterns. That's the witness role — not legal admissibility, which only a court can decide."
                 }
             },
             
@@ -294,7 +294,7 @@ class MytharaConnectReflection:
                 "8 universal archetypes = intellectual property",
                 "Topology signature algorithm = proprietary math",
                 "Universal Pattern Library = network effects (gets better with every client)",
-                "Cryptographic proof chains = legal admissibility (competitors can't match)",
+                "Cryptographic proof chains = tamper-evident forensic record (competitors can't match)",
                 "Cross-industry pattern recognition = only Mythara can do this"
             ],
             
@@ -340,13 +340,13 @@ class MytharaConnectReflection:
                 },
                 
                 "risk_mitigation": {
-                    "description": "Predicts resignations, identifies policy sources of harm",
+                    "description": "Flags policy sources of harm tied to resignation risk (an estimate, not a prediction)",
                     "comparable_to": "Employment practices liability insurance ($50K-$500K/year)",
                     "mythara_advantage": "Prevention vs insurance payout"
                 },
                 
                 "forensic_proof": {
-                    "description": "Court-admissible documentation of systemic failure",
+                    "description": "Tamper-evident documentation of systemic failure (not legal admissibility — only a court decides that)",
                     "comparable_to": "Legal discovery costs ($100K-$1M per lawsuit)",
                     "mythara_advantage": "Preemptive documentation vs reactive scrambling"
                 },

@@ -23,7 +23,7 @@ These are facts, not aspirations. Every document in the repository is
 required to agree with them (see `COMPLIANCE_STATUS.md`, the single
 source of truth for claims).
 
-- **Entity status (filed, pending completion).** Mythara Labs LLC, a Colorado
+- **Entity status (filing attempted 2026-09-27 — not confirmed; not formed).** Mythara Labs LLC, a Colorado
   domestic limited liability company — Articles of Organization filed with
   the Colorado Secretary of State on September 27, 2026, pending completion;
   member-managed; sole member and organizer: Herbert Velez Jr.; principal

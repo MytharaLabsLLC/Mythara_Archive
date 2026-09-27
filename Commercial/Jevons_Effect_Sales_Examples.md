@@ -10,9 +10,9 @@
 
 ### The 4 Pillars:
 
-1. **Jevons Effect (Scarcity)** → "I can only take 3 more clients"
-2. **Fear of Loss** → "Without this, you risk $500k CFPB fine"
-3. **Urgency** → "$500 pricing ends Friday (currently at 17/20 slots)"
+1. **Jevons Effect (Scarcity)** → "I can take [N] more clients this quarter" (real capacity)
+2. **Fear of Loss** → "Without this, your next review exposes the gap"
+3. **Urgency** → "Early adopter rate while real slots last"
 4. **Strategic Indifference** → "This might not be a fit if you're just exploring"
 
 ---
@@ -33,8 +33,8 @@
 > 
 > Quick question before we schedule—do you have a model risk review or audit in the next 90 days, or is this exploratory?
 > 
-> Asking because I have 2 early adopter slots left at $500 (normally $2,500). After Friday I'm at full price and booked until February. Early adopters will have 6 months of validated audit data before you'd even start.
-> 
+> Asking because I have [N] early adopter slots left at $500 (normally $2,500), at my real onboarding capacity — confirm the current number before you send this. After the window closes I'm at full price. Starting now means you'll have months of validated audit history by your next review, instead of starting from zero.
+
 > If you have near-term regulatory pressure: I can do Tuesday 10am or Wednesday 2pm MT for 15 minutes.
 > 
 > If timing's not urgent, totally understand—just don't want you to miss the $500 window.
@@ -61,9 +61,9 @@
 > 
 > Cryptographic hashing (SHA-256) on every AI decision—auditors can verify zero tampering. For example, a hypothetical health system piloting this could point its FDA auditors at passing validation reports generated from real runs.
 > 
-> Without this, your FDA auditor sees black-box AI decisions with no provable lineage. That's a 483 observation waiting to happen.
+> Without this, your FDA auditor sees black-box AI decisions with no provable lineage. That is exactly the kind of gap auditors flag.
 > 
-> Early adopter pricing ($500) closes Friday—after that it's $2,500. I can do a 15-min screen share Tuesday or Wednesday, or just send you our validation report now and you can evaluate async.
+> The early adopter rate ($500 vs $2,500) holds while slots last — I can confirm current availability when we talk. I can do a 15-min screen share Tuesday or Wednesday, or just send you our validation report from real runs and you can evaluate async.
 > 
 > Which is faster for you?
 > 
@@ -107,7 +107,7 @@
 > "Can you send me more information about Mythara?"
 
 **BAD Response (Info Dump):**
-> "Absolutely! Here's our deck, case studies, technical docs, pricing sheet, and demo video. Let me know if you have any questions!"
+> "Absolutely! Here's our deck, technical docs, pricing sheet, and demo video. Let me know if you have any questions!"
 
 ❌ Problems: No qualification, giving away value for free, no scarcity
 
@@ -117,7 +117,7 @@
 > 
 > Quick clarification—do you have an upcoming model risk audit/review, or is this more exploratory?
 > 
-> I'm down to 2 early adopter slots at $500 (normally $2,500), so I'm prioritizing companies with near-term regulatory need. If you're in exploratory mode, you might want to wait until you have audit pressure.
+> I'm taking on [N] early adopters at $500 (normally $2,500), at my real onboarding capacity, so I'm prioritizing companies with near-term regulatory need. If you're in exploratory mode, you might want to wait until you have audit pressure.
 > 
 > But if it's urgent: Tuesday 10am or Wednesday 2pm MT for 15 minutes?
 > 
@@ -145,7 +145,7 @@
 > 
 > Fair question. Compared to what?
 > 
-> A CFPB fine for un-auditable AI decisions is $500k-$5M. A failed model risk review costs you 200+ hours of remediation work. The $500 is for companies that can move fast—it's normally $2,500.
+> A regulatory fine for un-auditable AI decisions, or a failed model risk review with months of remediation work, costs far more than $500 to prevent. The $500 is for companies that can move fast—it's normally $2,500.
 > 
 > That said, if budget's tight, might make sense to wait until you have an audit forcing the issue. Companies facing regulatory deadlines don't hesitate — that's the pattern this is built for.
 > 
@@ -171,7 +171,7 @@
 
 > Totally fair—internal buy-in is important.
 > 
-> Just know the $500 window closes Friday and I'll be booked through February after that. The banks that committed fast are already 3 weeks into their pilots while others are still "discussing."
+> Just know the $500 window closes once early adopter slots are gone, and I'm at capacity this quarter after that. Companies that start now bank audit history they'll have at their next review, while others are still "discussing."
 > 
 > If your team needs validation first: I can send our audit report (all tests passing) now and you can evaluate internally. But if you're not 90% sure this solves your problem, let's not waste time.
 > 
@@ -210,13 +210,13 @@ Don't use ONE urgency trigger. Stack them:
 
 **Example Close:**
 
-> If you commit by Friday:
+> If you commit before the early adopter window closes:
 > - $500 pricing (vs $2,500 after)
-> - Priority onboarding (vs 6-week waitlist)
+> - Priority onboarding (vs my standard queue)
 > - I'll personally run your first audit report (vs self-service)
-> - You get 6 months of data before your Q2 audit (vs starting from zero)
+> - You start building audit history ahead of your next review (vs starting from zero)
 > 
-> After Friday, I can't guarantee any of that.
+> Once the window closes, I can't guarantee any of that.
 > 
 > Tuesday 10am or Wednesday 2pm—which is better?
 
@@ -225,21 +225,21 @@ Don't use ONE urgency trigger. Stack them:
 ## Fear of Loss Triggers (Use Sparingly)
 
 ### Regulatory Fear:
-- "Your next CFPB audit without this = $500k-$5M fine exposure"
-- "FDA 483 observations for un-auditable AI decisions"
-- "OCC MRM guidelines require this level of documentation"
+- "Your next audit without provable AI lineage leaves a gap your auditor can flag"
+- "Un-auditable AI decisions are the kind of finding that draws regulatory scrutiny"
+- "Model risk guidelines expect this level of documentation — have it before your review"
 
 ### Competitive Fear:
-- "If a competitor in your space started piloting this, they'd bank months of audit advantage"
+- "If a competitor in your space started building audit history now, they'd be ahead of you at review time"
 - "While you evaluate, any early adopter is building audit history you won't have"
 
 ### Opportunity Cost:
-- "Every week without this = 20 hours of manual prep you can't get back"
+- "Every week without this = manual prep time you can't get back"
 - "Early adopters of this will have better audit outcomes than you"
 
 ### Pricing Fear:
-- "$500 expires Friday—after that it's $2,500 and I can't make exceptions"
-- "I'm at 17/20 early adopter slots. When I hit 20, it's full price forever"
+- "The $500 early adopter rate ends when slots are gone — then it's $2,500. Confirm current availability before you quote a deadline."
+- "My onboarding capacity is [N] companies this quarter. When I hit it, it's full price."
 
 ---
 
@@ -264,7 +264,7 @@ Don't use ONE urgency trigger. Stack them:
 3. Create scarcity ("I have 2 slots left at $500")
 4. Fear of loss ("Without this, you risk [specific bad outcome]")
 5. Social proof ("for example, early adopters would bank audit data ahead of the curve" — only name real customers)
-6. Urgency ("$500 closes Friday, then it's $2,500")
+6. Urgency ("early adopter rate ends when real slots are gone, then it's $2,500")
 7. Assumptive close ("Tuesday 10am or Wednesday 2pm?")
 8. Indifferent exit ("If timing's not right, no worries")
 ```

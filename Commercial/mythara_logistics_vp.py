@@ -277,7 +277,7 @@ class MytharaLogisticsVP:
                 'status': 'completed',
                 'delivery_id': delivery_result['delivery_id']
             })
-            print(f"   [OK] License email sent")
+            print(f"   [OK] License delivery recorded")
         else:
             fulfillment['steps'].append({
                 'step': 'send_license_email',
@@ -294,7 +294,7 @@ class MytharaLogisticsVP:
                 'status': 'completed',
                 'delivery_id': onboarding_result['delivery_id']
             })
-            print(f"   [OK] Onboarding email sent")
+            print(f"   [OK] Onboarding recorded")
         else:
             fulfillment['steps'].append({
                 'step': 'send_onboarding_email',
@@ -382,7 +382,13 @@ class MytharaLogisticsVP:
         return license_key
     
     def _send_license_email(self, order: Dict[str, Any], license_key: str) -> Dict[str, Any]:
-        """Send license key delivery email."""
+        """
+        Record a license-key delivery in the local deliveries log.
+
+        HONEST SCOPE: no email is actually sent here — there is no delivery
+        provider wired in. The row is recorded as 'sent' for the local
+        fulfillment demo. To really deliver, integrate an email provider.
+        """
         
         delivery_id = hashlib.sha256(f"license_{order['order_id']}_{datetime.now().isoformat()}".encode()).hexdigest()[:16]
         
@@ -408,7 +414,7 @@ Next Steps:
 Support:
 - Documentation: https://mythara.engine/docs
 - Support Email: support@mythara.engine
-- Response SLA: {self.sanctified_slas['support_response_hours']} hours
+- We aim to respond within {self.sanctified_slas['support_response_hours']} hours.
 
 Thank you for choosing Mythara Engine!
 
@@ -436,8 +442,9 @@ Automated License Delivery System
         conn.commit()
         conn.close()
         
-        # In production: Actually send email via SendGrid/AWS SES
-        print(f"\n[EMAIL] License Delivery")
+        # No email is actually sent — delivery is recorded locally only.
+        # To send real emails, integrate an email provider (e.g. SendGrid/AWS SES).
+        print(f"\n[EMAIL] License Delivery (recorded only — no email sent)")
         print(f"   To: {order['customer_email']}")
         print(f"   Subject: Your Mythara Engine License Key")
         print(f"   License: {license_key}")
@@ -449,7 +456,12 @@ Automated License Delivery System
         }
     
     def _send_onboarding_email(self, order: Dict[str, Any]) -> Dict[str, Any]:
-        """Send welcome/onboarding email."""
+        """
+        Record a welcome/onboarding email in the local deliveries log.
+
+        HONEST SCOPE: no email is actually sent here — see
+        _send_license_email. The row is recorded for the local demo.
+        """
         
         delivery_id = hashlib.sha256(f"onboard_{order['order_id']}_{datetime.now().isoformat()}".encode()).hexdigest()[:16]
         
@@ -471,7 +483,7 @@ Resources:
 - API Documentation: https://mythara.engine/api
 
 Support:
-Our team responds within {self.sanctified_slas['support_response_hours']} hours.
+We aim to respond within {self.sanctified_slas['support_response_hours']} hours.
 Email: support@mythara.engine
 Chat: Available 9am-5pm EST
 
@@ -500,7 +512,7 @@ Mythara Logistics Team
         conn.commit()
         conn.close()
         
-        print(f"\n[EMAIL] Onboarding")
+        print(f"\n[EMAIL] Onboarding (recorded only — no email sent)")
         print(f"   To: {order['customer_email']}")
         print(f"   Subject: Welcome to Mythara Engine!")
         

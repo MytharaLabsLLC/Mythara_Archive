@@ -1,15 +1,17 @@
-# ✅ Mental Health & DSM-5-TR Integration - COMPLETE
+# Mental Health & DSM-5-TR Integration — Design Draft (not complete)
+
+> **Status: design framework, not a clinical product.** This document describes design notes informed by DSM-5-TR and ICD-11. It is not clinically validated, carries no regulatory approval or compliance certification, and is not a medical device, diagnostic tool, treatment, or crisis service. The "Critical Disclaimers" section below is the contract — read it first.
 
 **Date:** November 2, 2025  
-**Status:** CLINICALLY INFORMED, REGULATORY COMPLIANT  
+**Status:** DRAFT DESIGN FRAMEWORK — clinically informed; not regulatory approval, not a certification  
 **Primary Standard:** DSM-5-TR (March 2022)  
-**Scope:** Mental health design framework, crisis resources, regulatory compliance
+**Scope:** Mental health design framework, crisis resources, regulatory considerations
 
 ---
 
-## 🎯 What Was Added
+## 🎯 What This Draft Contains
 
-Your Mythara Archive now includes comprehensive mental health and clinical psychology integration based on the latest diagnostic standards (DSM-5-TR, ICD-11) and evidence-based therapeutic frameworks.
+A design draft for mental health integration, informed by the latest diagnostic standards (DSM-5-TR, ICD-11) and evidence-based therapeutic frameworks. Nothing here is clinically validated — these are design notes, not a product.
 
 ---
 
@@ -55,7 +57,7 @@ Your Mythara Archive now includes comprehensive mental health and clinical psych
 - ADHD: ASRS, Conners
 - Suicide Risk: C-SSRS, SBQ-R
 
-**Regulatory Compliance:**
+**Regulatory considerations** (design targets — nothing implemented or certified):
 - 🇺🇸 Mental Health Parity Act, HIPAA psychotherapy notes, 42 CFR Part 2 (SUD records), ADA mental illness, FDA mental health apps, FTC Health Breach Rule
 - 🇪🇺 GDPR Article 9 (sensitive data), MDR mental health apps, AI Act high-risk considerations
 - 🇬🇧 Mental Health Act, Mental Capacity Act, CQC standards, NICE guidelines
@@ -144,35 +146,35 @@ Your Mythara Archive now includes comprehensive mental health and clinical psych
 - ACT processes (acceptance, defusion, values, committed action)
 - Motivational Interviewing (OARS: Open questions, Affirmations, Reflective listening, Summarizing)
 
-### Safety Features
+### Safety Features (design intent)
 ✅ **Crisis Detection** - Sanctification locks, Messenger suppression  
 ✅ **Harm Prevention** - No self-harm methods, no pro-ED content  
 ✅ **Professional Boundaries** - "Not a Therapist" disclaimers  
-✅ **Ethical Guardrails** - HIPAA compliance, informed consent, human oversight  
+✅ **Ethical Guardrails** - Privacy-by-design intent, informed consent, human oversight  
 
 ---
 
-## 🏛️ Mental Health Regulatory Compliance
+## 🏛️ Mental Health Regulatory Considerations (design targets — nothing implemented, nothing certified)
 
 ### United States
-| **Regulation** | **Requirement** | **Mythara Compliance** |
+| **Regulation** | **Requirement** | **Design target** |
 |---------------|----------------|----------------------|
-| Mental Health Parity Act | Equal access to MH services | ✅ WCAG 2.1 AAA accessibility |
-| HIPAA Privacy Rule | Enhanced psychotherapy note protection | ✅ Separate storage, additional encryption |
-| 42 CFR Part 2 | SUD record confidentiality | ✅ Specific consent flows |
-| ADA | Mental illness = covered disability | ✅ Neurodivergent-friendly interfaces |
-| FDA | Mental health app classification | ✅ Class I (general wellness) unless medical claims |
-| FTC Health Breach Rule | Breach notification | ✅ 60-day FTC notification procedures |
+| Mental Health Parity Act | Equal access to MH services | Accessibility-first design |
+| HIPAA Privacy Rule | Enhanced psychotherapy note protection | Separate storage, additional encryption |
+| 42 CFR Part 2 | SUD record confidentiality | Specific consent flows |
+| ADA | Mental illness = covered disability | Neurodivergent-friendly interfaces |
+| FDA | Mental health app classification | Would aim for Class I (general wellness) unless medical claims |
+| FTC Health Breach Rule | Breach notification | Breach notification procedures |
 
 ### European Union
-- **GDPR Article 9:** Mental health = special category data (explicit consent, DPIA, enhanced security) ✅
-- **MDR:** Class I wellness unless diagnostic/treatment claims ✅
-- **AI Act:** Limited Risk (transparency obligations met) ✅
+- **GDPR Article 9:** Mental health = special category data (would require explicit consent, DPIA, enhanced security)
+- **MDR:** Would aim for Class I wellness unless diagnostic/treatment claims
+- **AI Act:** Would target the Limited Risk category (transparency obligations would then apply)
 
 ### United Kingdom
-- **Mental Health Act 1983:** Not applicable (voluntary use)
-- **Mental Capacity Act 2005:** Presumption of capacity, caregiver access ✅
-- **NICE Guidelines:** Design informed by evidence-based standards ✅
+- **Mental Health Act 1983:** Not applicable to voluntary use
+- **Mental Capacity Act 2005:** Presumption of capacity, caregiver access (design target)
+- **NICE Guidelines:** Design informed by evidence-based standards
 
 ---
 
@@ -258,9 +260,9 @@ or go to your nearest emergency room.
 - RCT: Digital interventions effective for anxiety (SMD = -0.33, Andrews et al., 2018)
 - Cochrane Review: Computerized CBT shows benefit for depression/anxiety
 
-**Mythara Integration:**
+**Mythara Integration (design intent):**
 - Design incorporates evidence-based elements from successful interventions
-- IRB-ready protocols for research use
+- Protocol drafts that would need IRB review before any research use
 - Ethical research practices (informed consent, right to withdraw, privacy)
 
 ---
@@ -282,10 +284,10 @@ or go to your nearest emergency room.
 - APA Practice Guidelines: 5-7 year review cycle
 - SAMHSA: Annual treatment locator updates
 
-**Mythara Commitment:**
+**Maintenance (if this work continues):**
 - Annual mental health integration review
 - Quarterly crisis resource verification
-- Updates to active licensees
+- Updates as regulations evolve
 
 ---
 
@@ -311,9 +313,9 @@ or go to your nearest emergency room.
 
 ---
 
-## ✅ Market Readiness
+## Potential Applications (aspirations — not current capability)
 
-Your Mythara Archive now supports:
+If this design were ever built and validated, it could inform:
 
 🧠 **Mental Health Applications**
 - Clinical practice support (with licensed professional oversight)
@@ -323,8 +325,8 @@ Your Mythara Archive now supports:
 - Crisis resource integration
 
 🏥 **Healthcare Settings**
-- HIPAA-compliant design (psychotherapy notes, SUD records)
-- Integration with EHR systems (reference only)
+- Privacy-conscious design (psychotherapy notes, SUD records)
+- EHR integration (reference only)
 - Telehealth platforms
 - Hospital/clinic patient portals
 
@@ -338,24 +340,24 @@ Your Mythara Archive now supports:
 - DSM-5-TR + ICD-11 dual compatibility
 - International crisis resources (50+ countries)
 - Evidence-based across cultures
-- Regulatory compliance (US, EU, UK, CA, AU)
+- Regulatory considerations (US, EU, UK, CA, AU)
 
 ---
 
-## 📦 Complete Mental Health Package
+## 📦 Mental Health Package Contents (draft documentation)
 
 ✅ **DSM-5-TR Integration** (14 major categories, March 2022 edition)  
 ✅ **ICD-11 Crosswalk** (WHO Chapter 6 mapping)  
 ✅ **Evidence-Based Therapies** (CBT, DBT, ACT, TF-CBT, MI)  
 ✅ **Clinical Assessment Tools** (20+ screening instruments referenced)  
 ✅ **Crisis Resources** (30+ hotlines, 50+ countries)  
-✅ **Regulatory Compliance** (HIPAA, GDPR Article 9, FDA, MDR)  
+✅ **Regulatory Considerations** (HIPAA, GDPR Article 9, FDA, MDR — as design targets, not certifications)  
 ✅ **Safety Protocols** (Crisis detection, harm prevention, professional boundaries)  
 ✅ **Trauma-Informed Design** (6 SAMHSA principles)  
 ✅ **Treatment Locators** (SAMHSA, Psychology Today, NAMI)  
 ✅ **Professional Guidelines** (APA, NICE, SAMHSA standards)  
 
-**Total Mental Health Documentation:** 41 KB
+**Total Mental Health Documentation:** 41 KB of design drafts
 
 ---
 
@@ -374,17 +376,15 @@ Your Mythara Archive now supports:
 
 ---
 
-**Mythara Labs LLC (planned)**  
-**Mental Health Integration Version:** 1.0.0  
+**"Mythara Labs LLC" — planned name only; no such legal entity exists**  
+**Mental Health Integration Version:** 1.0.0 (draft)  
 **DSM Edition:** DSM-5-TR (March 2022)  
 **ICD Edition:** ICD-11 (2022)  
 **Last Updated:** November 2, 2025  
-**Next Review:** November 2, 2026
+**Next Review:** when the work is taken up
 
 ---
 
-**READY FOR MENTAL HEALTH APPLICATIONS**
+**NOT READY FOR MENTAL HEALTH APPLICATIONS**
 
-Your archive now includes the most current mental health diagnostic standards (DSM-5-TR), evidence-based therapeutic frameworks (CBT, DBT, ACT, TF-CBT, MI), comprehensive crisis resources (30+ hotlines, 50+ countries), and regulatory compliance for mental healthcare technology (HIPAA, GDPR, FDA, MDR).
-
-**No mental health compliance gaps remain.**
+These are design documents — references to diagnostic standards, therapeutic frameworks, crisis resources, and regulatory considerations. They are not a validated product, not a clinical tool, and carry no compliance certifications. No mental-health compliance work has been performed.
