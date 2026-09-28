@@ -72,7 +72,7 @@ If your team is carrying that weight, let's talk: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Mythara Labs LLC — a Colorado domestic limited liability company; Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion; member-managed; sole member and organizer: Herbert Velez Jr.
+Mythara Labs LLC (proposed — not yet formed; Colorado Articles of Organization filing attempted September 27, 2026, not confirmed); organizer: Herbert Velez Jr.
 mytharaarchive-production.up.railway.app/pricing
 
 P.S. — This is a one-time email. Reply with "unsubscribe" and I won't reach out again."""
@@ -115,7 +115,7 @@ If your team faces those impossible moments: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Mythara Labs LLC — a Colorado domestic limited liability company; Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion; member-managed; sole member and organizer: Herbert Velez Jr.
+Mythara Labs LLC (proposed — not yet formed; Colorado Articles of Organization filing attempted September 27, 2026, not confirmed); organizer: Herbert Velez Jr.
 mytharaarchive-production.up.railway.app/pricing
 
 P.S. — One-time outreach. Reply "unsubscribe" to opt out."""
@@ -156,7 +156,7 @@ If your team is carrying that weight: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Mythara Labs LLC — a Colorado domestic limited liability company; Articles of Organization filed with the Colorado Secretary of State on September 27, 2026, pending completion; member-managed; sole member and organizer: Herbert Velez Jr.
+Mythara Labs LLC (proposed — not yet formed; Colorado Articles of Organization filing attempted September 27, 2026, not confirmed); organizer: Herbert Velez Jr.
 mytharaarchive-production.up.railway.app/pricing
 
 P.S. — This is a one-time email. Reply "unsubscribe" to opt out."""

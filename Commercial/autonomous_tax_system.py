@@ -32,7 +32,7 @@ class TaxRevenueTracker:
         self.ledger = self._load_ledger()
         self.owner_email = "Herbievelezjr@gmail.com"
         self.business_name = "Mythara Engine"
-        self.ein = "PENDING"  # Mythara Labs LLC formation filed with Colorado SOS 2026-09-27, pending completion; EIN follows
+        self.ein = "PENDING"  # Mythara Labs LLC is proposed, not yet formed — Articles of Organization filing attempted with Colorado SOS 2026-09-27, not confirmed; EIN follows formation
     
     def _load_ledger(self) -> Dict:
         if self.filepath.exists():
