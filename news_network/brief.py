@@ -9,7 +9,10 @@ to compare, which is where the reporters have the most to work with.
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+DENVER = ZoneInfo("America/Denver")
 from pathlib import Path
 from typing import Dict, List
 
@@ -108,7 +111,7 @@ def build_brief(summaries: List[Dict], state_dir: Path,
         if len(drivers) >= 3:
             break
 
-    today = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
+    today = datetime.now(tz=DENVER).strftime("%Y-%m-%d")
 
     lines: List[str] = []
     A = lines.append
