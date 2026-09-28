@@ -15,6 +15,7 @@ from typing import Dict, List
 
 from .topics import TOPICS, FALLBACK_TOPIC, classify
 from .dossier import display_title
+from .market import market_section
 from .witness_news import VERDICT_WORDS
 
 TRADE_SLUG = "trade"
@@ -91,6 +92,22 @@ def build_brief(summaries: List[Dict], state_dir: Path,
     for s in picked:
         groups[_topic_of(s, dossier_dir)].append(s)
 
+    # Market drivers: top money-topic events across the whole ranking.
+    # Tariff stories move markets too — trade fills any empty driver slots.
+    drivers = []
+    for want in ("money", "trade"):
+        for s in ranked:
+            if len(drivers) >= 3:
+                break
+            if _topic_of(s, dossier_dir) == want and all(
+                    d["dossier_link"] != f"../dossiers/{s['event_id']}.md" for d in drivers):
+                drivers.append({
+                    "title": display_title(s, _dossier_md(s, dossier_dir)),
+                    "dossier_link": f"../dossiers/{s['event_id']}.md",
+                })
+        if len(drivers) >= 3:
+            break
+
     today = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
 
     lines: List[str] = []
@@ -122,6 +139,9 @@ def build_brief(summaries: List[Dict], state_dir: Path,
             A(f"[full dossier](../dossiers/{s['event_id']}.md)")
             A("")
         A("")
+        if slug == TRADE_SLUG:
+            # The numbers desk sits right behind the lead topic.
+            lines.extend(market_section(drivers))
 
     brief_dir = state_dir / "briefs"
     brief_dir.mkdir(parents=True, exist_ok=True)
