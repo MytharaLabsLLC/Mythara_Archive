@@ -31,12 +31,26 @@ from typing import Any, Dict, List, Optional
 
 from soul_cradle.assessors import ASSESSORS
 
-RUBRIC_VERSION = "news-2026.2"
+RUBRIC_VERSION = "news-2026.3"
 RUBRIC_DATE = "2026-09-27"
+
+# Voice: the witnesses are beat reporters talking to a reader, first
+# person, plain talk. No percentages, no rubric jargon on the page.
+# The machine values below stay as-is (chain records, seals, tests).
 
 ALIGNED = "aligned"
 DIVERGENT = "divergent"
 ABSTAIN = "abstain"
+
+# Plain-talk words for the verdicts, used on every public surface.
+# The machine values above stay as-is (chain records, seals, tests).
+VERDICT_WORDS = {
+    "divergent": "Pushes back",
+    "aligned": "Checks out",
+    "abstain": "Sat this one out",
+    "contested": "Split",
+    "silent": "Sat this one out",
+}
 
 
 def _canonical(obj: Any) -> bytes:
@@ -197,9 +211,8 @@ def lens_hermes(event_id: str, pack: Dict) -> NewsJudgment:
     """
     if len(pack["outlets"]) < 2:
         return _abstain("hermes", event_id, pack,
-                        "Only one outlet is carrying this story — there is no "
-                        "second telling to compare it against. I abstain; one "
-                        "version is not a pattern.")
+                        "Only one outlet is carrying this story, so there is "
+                        "nothing to compare it against. I am sitting this one out.")
     framing = pack["framing"]
     cited = [{"ref": f["outlet"], "kind": "framing", "outlet": f["outlet"], "url": f["url"]}
              for f in framing]
@@ -214,26 +227,28 @@ def lens_hermes(event_id: str, pack: Dict) -> NewsJudgment:
     leads = "; ".join(f"{f['outlet']} opens with \"{f['headline'][:110]}\""
                       for f in framing[:4])
     j.projected_intent = (
-        f"{n_outlets} outlets are carrying this story. Here is how each one "
-        f"leads it: {leads}."
+        f"Same event, {n_outlets} outlets, {n_outlets} different front doors. "
+        f"Here is how each one leads it: {leads}."
     )
     if overlap < 0.6:
         j.verdict = DIVERGENT
         j.shadow_intent = (
-            "I have read every version, and they are not the same story. "
-            f"The headlines share only about {overlap:.0%} of their language — "
-            "each outlet chose a different set of facts to put first, and what "
-            "each one buried matters as much as what it led with. When the "
-            "tellings split this far, the split is the story: pick one outlet "
-            "and you will think you know what happened. You do not."
+            "I read every version, and they are barely the same story. "
+            + " ".join(
+                f"{f['outlet']} wants you thinking about \"{f['headline'][:90]}\"."
+                for f in framing[:3]
+            )
+            + " When every outlet picks a different headline, the choice of "
+              "headline is the story. Read one and you will feel informed. "
+              "Read them all and you will realize each one buried somebody "
+              "else's lead."
         )
     else:
         j.verdict = ALIGNED
         j.shadow_intent = (
             "The tellings line up. Every outlet leads with the same facts "
-            f"and the same actors (about {overlap:.0%} shared headline "
-            "language), so there is no framing gap to report. The story is "
-            "the story, whichever door you walk through."
+            "and the same names, so there is no framing gap worth reporting. "
+            "The story is the story, whichever door you walk through."
         )
     j.evidence_cited = cited
     return _seal(j)
@@ -250,9 +265,9 @@ def lens_janus(event_id: str, pack: Dict) -> NewsJudgment:
     quotes = {q["id"]: q for q in pack["quotes"]}
     if not pack["stated_intents"] or not pack["observed_actions"]:
         return _abstain("janus", event_id, pack,
-                        "The record gives me no stated intent from the actors, "
-                        "or no observed actions — I need both faces to hold up "
-                        "against each other. I abstain.")
+                        "I have no stated intent or no observed actions here, "
+                        "and I need both to make the comparison. Sitting this "
+                        "one out.")
     stated_ids = [i for i in pack["stated_intents"] if i in lookup or i in quotes]
     action_ids = [i for i in pack["observed_actions"] if i in lookup]
     stated_texts = [(lookup[i]["text"] if i in lookup else quotes[i]["text"]) for i in stated_ids]
@@ -270,18 +285,17 @@ def lens_janus(event_id: str, pack: Dict) -> NewsJudgment:
         j.verdict = DIVERGENT
         s, a, why = contradictions[0]
         j.shadow_intent = (
-            "Now hold that against what actually happened. They said "
-            f"\"{s[:160]}\" — but the record shows \"{a[:160]}\". The two "
-            "faces of this event do not match. One caution, and it matters: "
-            "this is a rough keyword check, not proof anyone lied. Read the "
-            "cited lines yourself and decide."
+            "Now hold that next to what actually happened. They said "
+            f"\"{s[:160]}\" — but the record shows \"{a[:160]}\". Those two "
+            "do not sit together. One honest caveat: I am reading the words "
+            "on the page, not anyone's mind. The lines are linked below — "
+            "read them yourself."
         )
     else:
         j.verdict = ALIGNED
         j.shadow_intent = (
-            "The words and the deeds line up, as far as the fetched text "
-            "shows. What they said is what the record shows them doing — "
-            "no second face on this one."
+            "The words and the deeds line up. What they said is what the "
+            "record shows them doing — no second face on this one."
         )
     j.evidence_cited = ([_cite_claim(pack, i) for i in stated_ids[:3] if i in lookup]
                         + [_cite_quote(pack, i) for i in stated_ids[:3] if i in quotes]
@@ -297,8 +311,8 @@ def lens_nemesis(event_id: str, pack: Dict) -> NewsJudgment:
     """
     if len(pack["actors"]) < 2:
         return _abstain("nemesis", event_id, pack,
-                        "Fewer than two actors are named here, so there is no "
-                        "distribution of winners and losers to judge. I abstain.")
+                        "Fewer than two actors are named, so there is no "
+                        "winners-and-losers to sort out. Sitting this one out.")
     lookup = _claim_lookup(pack)
     beneficiary_re = re.compile(
         r"(?:for|help(?:ing)?|benefit(?:ing|ed)?\s+(?:of\s+)?|protect(?:ing)?|"
@@ -314,26 +328,25 @@ def lens_nemesis(event_id: str, pack: Dict) -> NewsJudgment:
             action_actors.update(proper_nouns(lookup[cid]["text"]))
     top_actors = [a for a, _ in action_actors.most_common(3)]
     j = _new_judgment("nemesis", event_id, pack)
-    j.projected_intent = ("The claims say this is for "
+    j.projected_intent = ("The coverage says this is for "
                           + (", ".join(sorted(set(named_beneficiaries))[:4])
-                             if named_beneficiaries else "— though they never name who, exactly"))
+                             if named_beneficiaries else "someone — though it never quite names who"))
     cited = ([_cite_claim(pack, i) for i in pack["stated_intents"][:2] if i in lookup]
              + [_cite_claim(pack, i) for i in pack["observed_actions"][:2] if i in lookup])
     overlap = {b.lower() for b in named_beneficiaries} & {a.lower() for a in top_actors}
     if named_beneficiaries and top_actors and not overlap:
         j.verdict = DIVERGENT
         j.shadow_intent = (
-            f"The claims name {', '.join(sorted(set(named_beneficiaries))[:3])} "
-            f"as the winners — but the people actually in motion in the record "
-            f"are {', '.join(top_actors)}. Those two lists do not overlap. So "
-            "ask the question the claims never ask: who does this actually empower?"
+            f"The coverage names {', '.join(sorted(set(named_beneficiaries))[:3])} "
+            f"as the winners — but the people actually moving in the record "
+            f"are {', '.join(top_actors)}. Different lists. So ask the question "
+            "the coverage skips: who does this actually empower?"
         )
     else:
         j.verdict = ALIGNED
         j.shadow_intent = (
-            "No daylight between who the claims say benefits and who is "
-            "actually acting. On this evidence, the stated winners and the "
-            "visible actors are the same people."
+            "No daylight between the stated winners and the people actually "
+            "acting. Same names on both lists."
         )
     j.evidence_cited = cited
     return _seal(j)
@@ -365,13 +378,14 @@ def lens_hades(event_id: str, pack: Dict) -> NewsJudgment:
     if not gaps:
         return _abstain("hades", event_id, pack,
                         "Multiple outlets, named speakers on the record — I "
-                        "cannot find a specific hole in this one. I abstain.")
+                        "cannot find a hole in this one. Sitting this out.")
     j = _new_judgment("hades", event_id, pack)
-    j.projected_intent = "The coverage reads as a complete account of the event."
+    j.projected_intent = "The coverage reads like the full picture."
     j.verdict = DIVERGENT
     j.shadow_intent = ("It is not. " + "; ".join(gaps) + ". "
-                       "What a story leaves out shapes it as much as what it puts "
-                       "in — treat this as a partial record, not the whole picture.")
+                       "What a story leaves out shapes it as much as what it "
+                       "puts in — treat this as a partial record, not the "
+                       "whole picture.")
     j.evidence_cited = ([{"ref": q["id"], "kind": "quote", "outlet": q["outlet"], "url": q["url"]}
                          for q in unattributed[:3]]
                         + [{"ref": f["outlet"], "kind": "framing",
@@ -394,18 +408,16 @@ def lens_demeter(event_id: str, pack: Dict) -> NewsJudgment:
     span = (pack["latest"] or 0) - (pack["earliest"] or 0)
     if not signals and span < 20 * 3600:
         return _abstain("demeter", event_id, pack,
-                        "No sign this outlasts the news cycle — under 20 hours "
-                        "and no durable markers in the claims. Nothing long-term "
-                        "for me to judge. I abstain.")
+                        "No sign this outlasts the news cycle — nothing durable "
+                        "in the claims. Sitting this one out.")
     j = _new_judgment("demeter", event_id, pack)
     j.projected_intent = "Today's news, gone tomorrow — that is how it is presented."
     j.verdict = DIVERGENT
     bits = [f"\"{c['text'][:140]}\" ({c['outlet']})" for c in signals[:3]]
     if span >= 20 * 3600:
-        bits.append(f"the event spans {span // 3600} hours across the ingested articles")
-    j.shadow_intent = ("The evidence says otherwise. " + ". ".join(bits) + ". "
-                       "This does not end when the news cycle moves on — what gets "
-                       "planted here keeps growing after the cameras leave.")
+        bits.append(f"the event spans {span // 3600} hours across the articles I read")
+    j.shadow_intent = ("It will outlast the cycle. " + ". ".join(bits) + ". "
+                       "What gets planted here keeps growing after the cameras leave.")
     j.evidence_cited = [_cite_claim(pack, c["id"]) for c in signals[:3]]
     return _seal(j)
 
@@ -419,8 +431,8 @@ def lens_dionysus(event_id: str, pack: Dict) -> NewsJudgment:
     """
     if len(pack["outlets"]) < 2:
         return _abstain("dionysus", event_id, pack,
-                        "Single outlet, single telling — there is no variance "
-                        "to measure. I abstain.")
+                        "One outlet, one telling — no variance to measure. "
+                        "Sitting this out.")
     claims = pack["claims"]
     conflicts: List[tuple] = []
     for i in range(len(claims)):
@@ -434,25 +446,24 @@ def lens_dionysus(event_id: str, pack: Dict) -> NewsJudgment:
         if len(conflicts) >= 3:
             break
     j = _new_judgment("dionysus", event_id, pack)
-    j.projected_intent = (f"{len(pack['outlets'])} outlets are on this story, "
+    j.projected_intent = (f"{len(pack['outlets'])} outlets on this story, "
                           "and the coverage reads like the facts are settled.")
     if conflicts:
         j.verdict = DIVERGENT
         ex = conflicts[0]
         j.shadow_intent = (
-            f"They are not settled. I found {len(conflicts)} place(s) where the "
-            f"outlets' claims collide — for example, {ex[0]['outlet']} reports "
+            f"They are not settled. {ex[0]['outlet']} reports "
             f"\"{ex[0]['text'][:120]}\" while {ex[1]['outlet']} reports "
-            f"\"{ex[1]['text'][:120]}\". That is not healthy disagreement; that "
-            "is the factual ground shifting under the story. Hold every telling "
-            "loosely."
+            f"\"{ex[1]['text'][:120]}\". That is not healthy disagreement — "
+            "the factual ground is shifting under this story. Hold every "
+            "telling loosely."
         )
         j.evidence_cited = [_cite_claim(pack, ex[0]["id"]), _cite_claim(pack, ex[1]["id"])]
     else:
         j.verdict = ALIGNED
-        j.shadow_intent = ("For once, the tellings agree. No colliding claims across "
-                           "outlets in what I fetched — the variance here is low, "
-                           "and the facts read as settled as they look.")
+        j.shadow_intent = ("For once, the tellings agree. No colliding claims "
+                           "across outlets in what I read — the facts look as "
+                           "settled as they read.")
         j.evidence_cited = [{"ref": f["outlet"], "kind": "framing",
                              "outlet": f["outlet"], "url": f["url"]}
                             for f in pack["framing"][:3]]
@@ -483,9 +494,9 @@ def lens_eros(event_id: str, pack: Dict) -> NewsJudgment:
                            if not q["attributed_to"] and _mentions(q["text"], loaded)]
     if not self_contradictions and not loaded_unattributed:
         return _abstain("eros", event_id, pack,
-                        "No deception markers in the text: nobody contradicts "
-                        "themselves, no loaded anonymous quotes. Trust is not "
-                        "graded on vibes — I abstain.")
+                        "No deception markers — nobody contradicts themselves, "
+                        "no loaded anonymous quotes. Trust is not graded on "
+                        "vibes. Sitting this out.")
     j = _new_judgment("eros", event_id, pack)
     j.projected_intent = "The coverage asks to be taken at face value."
     j.verdict = DIVERGENT
@@ -500,8 +511,8 @@ def lens_eros(event_id: str, pack: Dict) -> NewsJudgment:
                      f'({q["outlet"]})')
     j.shadow_intent = ("Do not take it at face value. " + "; ".join(parts) + ". "
                        "Strong language with no name behind it, or one speaker "
-                       "telling it two ways — either way, something in this record "
-                       "is not what it claims to be.")
+                       "telling it two ways — something in this record is not "
+                       "what it claims to be.")
     cited = []
     for sp, q1, q2 in self_contradictions[:1]:
         cited += [_cite_quote(pack, q1["id"]), _cite_quote(pack, q2["id"])]
@@ -526,8 +537,8 @@ def lens_persephone(event_id: str, pack: Dict) -> NewsJudgment:
             if c["id"] in pack["observed_actions"] and _mentions(c["text"], consequential)]
     if not hits:
         return _abstain("persephone", event_id, pack,
-                        "Nothing in the record is hard to undo — no arrests, "
-                        "bans, strikes, or signings. I abstain.")
+                        "Nothing here is hard to undo — no arrests, bans, "
+                        "strikes, or signings. Sitting this out.")
     reversible_words = ("temporary", "pause", "paused", "review", "suspend",
                         "interim", "pilot", "trial")
     presented_reversible = any(_mentions(c["text"], reversible_words) for c in pack["claims"])

@@ -1,8 +1,8 @@
 """Daily brief — the top events, ranked by outlet count.
 
 More outlets covering the same event means more tellings to compare,
-which is where the projected-vs-shadow analysis has the most to work
-with. Each entry is three lines plus a link to its full dossier.
+which is where the reporters have the most to work with. Each entry
+is a short read plus a link to its full dossier.
 """
 
 from __future__ import annotations
@@ -11,6 +11,8 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List
+
+from .witness_news import VERDICT_WORDS
 
 
 def load_all_summaries(state_dir: Path) -> List[Dict]:
@@ -26,6 +28,21 @@ def load_all_summaries(state_dir: Path) -> List[Dict]:
     return summaries
 
 
+def _signal_line(s: Dict) -> str:
+    word = VERDICT_WORDS[s["panel_verdict"]]
+    div = ", ".join(s["divergent"])
+    al = ", ".join(s["aligned"])
+    abst = ", ".join(s["abstained"])
+    bits = []
+    if div:
+        bits.append(f"{div} pushed back")
+    if al:
+        bits.append(f"{al} checked out")
+    if abst:
+        bits.append(f"{abst} sat it out")
+    return f"Our reporters read it **{word}** — " + "; ".join(bits) + "."
+
+
 def build_brief(summaries: List[Dict], state_dir: Path,
                 max_events: int = 8) -> Path:
     """Write the daily brief markdown. Returns the brief path."""
@@ -39,7 +56,7 @@ def build_brief(summaries: List[Dict], state_dir: Path,
     A = lines.append
     A(f"# Mythara News Network — brief for {today}")
     A("")
-    A(f"_On-demand pipeline run. {len(summaries)} event(s) dossiered from "
+    A(f"_On-demand pipeline run. {len(summaries)} event(s) read from "
       "fetched RSS articles; top events ranked by outlet count (more tellings "
       "= more to compare)._")
     A("")
@@ -49,13 +66,11 @@ def build_brief(summaries: List[Dict], state_dir: Path,
     for i, s in enumerate(ranked, 1):
         A(f"## {i}. {', '.join(s['key_terms'][:5])}")
         A("")
-        A(f"- **What:** {s['article_count']} article(s) across "
-          f"{', '.join(s['outlets'])}")
-        div = ", ".join(s["divergent"]) or "none"
-        abst = ", ".join(s["abstained"]) or "none"
-        A(f"- **Witness signal:** panel {s['panel_verdict'].upper()} — "
-          f"gap seen by: {div}; abstained: {abst}")
-        A(f"- **Dossier:** [full dossier](../dossiers/{s['event_id']}.md)")
+        A(f"{s['article_count']} articles across "
+          f"{len(s['outlets'])} outlets: {', '.join(s['outlets'])}. "
+          f"{_signal_line(s)}")
+        A("")
+        A(f"[full dossier](../dossiers/{s['event_id']}.md)")
         A("")
 
     brief_dir = state_dir / "briefs"

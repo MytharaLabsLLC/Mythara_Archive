@@ -62,13 +62,17 @@ def test_every_citation_resolves(tmp_path):
             assert e["url"].startswith("http"), "citation must carry a source URL"
 
 
-def test_dossier_labels_ingested_vs_witnessed(tmp_path):
+def test_dossier_reads_plain(tmp_path):
     chain = DossierChain(tmp_path / "chain.jsonl")
     summary = write_dossier(EVENT, tmp_path, chain)
     md = (tmp_path / "dossiers" / f"{EVENT['id']}.md").read_text(encoding="utf-8")
-    assert "## INGESTED" in md
-    assert "## WITNESSED" in md
-    assert "Abstained" in md or "abstained" in md
+    assert "## What the articles say" in md
+    assert "## What the reporters noticed" in md
+    assert "Sat this one out" in md or "sat this one out" in md
+    # no rubric jargon on the page
+    assert "INGESTED" not in md
+    assert "WITNESSED" not in md
+    assert "projected intent" not in md.lower()
     # no invented outlet names in the dossier
     for outlet in ("BBC", "Denverite"):
         assert outlet in md
