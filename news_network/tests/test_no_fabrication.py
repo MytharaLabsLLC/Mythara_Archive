@@ -67,7 +67,7 @@ def test_dossier_reads_plain(tmp_path):
     summary = write_dossier(EVENT, tmp_path, chain)
     md = (tmp_path / "dossiers" / f"{EVENT['id']}.md").read_text(encoding="utf-8")
     assert "## What the articles say" in md
-    assert "## What the reporters noticed" in md
+    assert "## The paradox" in md
     assert "Sat this one out" in md or "sat this one out" in md
     # no rubric jargon on the page
     assert "INGESTED" not in md

@@ -102,4 +102,6 @@ def test_dossier_renders_divergence_why():
             assert f"**Why {j.name} reads it this way:**" in md, \
                 f"{j.assessor_id} why missing from dossier page"
             assert j.divergence_why[:60] in md
-    assert "each one's reasons are under their name above" in md
+    assert "## The paradox" in md
+    # the paradox leads the page: it must come before the articles
+    assert md.index("## The paradox") < md.index("## What the articles say")

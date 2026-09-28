@@ -89,6 +89,78 @@ def _lede(event: Dict, pack: Dict, panel: Dict) -> str:
     )
 
 
+def _paradox_lines(judgments, panel) -> List[str]:
+    """The whole split, first and unsoftened: every reporter's position,
+    divergent readings in full. Readers meet the paradox before the
+    articles — the disagreement is the signal, stated completely."""
+    out: List[str] = []
+    A = out.append
+    A("## The paradox")
+    A("")
+    A("_Eight reporters, each on their own beat. They read the same articles "
+      "and tell you what they see — suggestion with citations, never "
+      "proof of anyone's motive. When they split, the split is the story._")
+    A("")
+    if panel["verdict"] == "silent":
+        A("No disagreement to report — every reporter sat this one out. "
+          "What follows is what the articles say, and nothing more.")
+        A("")
+        return out
+    word = VERDICT_WORDS[panel["verdict"]]
+    bits = []
+    if panel["divergent"]:
+        bits.append(f"{', '.join(panel['divergent'])} pushed back")
+    if panel["aligned"]:
+        bits.append(f"{', '.join(panel['aligned'])} checked out")
+    if panel["abstained"]:
+        bits.append(
+            f"{', '.join(a['assessor_id'] for a in panel['abstained'])} sat it out")
+    A(f"**{word}.** " + "; ".join(bits)
+      + ". Both readings stand — here is the whole split, nothing softened.")
+    A("")
+    for j in judgments:
+        if j.verdict != DIVERGENT:
+            continue
+        A(f"### {j.name} — pushes back")
+        A("")
+        A(f"_Beat: {_beat_line(j)}_")
+        A("")
+        A(j.projected_intent)
+        A("")
+        A(j.shadow_intent)
+        if j.divergence_why:
+            A("")
+            A(f"**Why {j.name} reads it this way:** {j.divergence_why}")
+        src = _sources_line(j.evidence_cited)
+        if src:
+            A("")
+            A(f"_{src}_")
+        A("")
+    for j in judgments:
+        if j.verdict != ALIGNED:
+            continue
+        A(f"### {j.name} — checks out")
+        A("")
+        A(f"_Beat: {_beat_line(j)}_")
+        A("")
+        A(j.projected_intent)
+        A("")
+        A(j.shadow_intent)
+        src = _sources_line(j.evidence_cited)
+        if src:
+            A("")
+            A(f"_{src}_")
+        A("")
+    abstainers = [j for j in judgments if j.verdict == ABSTAIN]
+    if abstainers:
+        A("### Sat this one out")
+        A("")
+        for j in abstainers:
+            A(f"- **{j.name}** — {_beat_line(j)}: {j.abstain_reason}")
+        A("")
+    return out
+
+
 def build_dossier_markdown(event: Dict, pack: Dict,
                            judgments, panel: Dict) -> str:
     lines: List[str] = []
@@ -101,6 +173,10 @@ def build_dossier_markdown(event: Dict, pack: Dict,
     A("")
     A(_lede(event, pack, panel))
     A("")
+    A("---")
+    A("")
+    for line in _paradox_lines(judgments, panel):
+        A(line)
     A("---")
     A("")
     A("## What the articles say")
@@ -132,49 +208,6 @@ def build_dossier_markdown(event: Dict, pack: Dict,
         A(f"_Named in the coverage: {', '.join(pack['actors'][:10])}_")
         A("")
     A("---")
-    A("")
-    A("## What the reporters noticed")
-    A("")
-    A("_Eight reporters, each on their own beat. They read the articles "
-      "above and tell you what they see — suggestion with citations, never "
-      "proof of anyone's motive._")
-    A("")
-    for j in judgments:
-        A(f"### {j.name} — {VERDICT_WORDS[j.verdict]}")
-        A("")
-        if j.verdict == ABSTAIN:
-            A(f"Sat this one out: {j.abstain_reason}")
-        else:
-            A(j.projected_intent)
-            A("")
-            A(j.shadow_intent)
-            if j.verdict == DIVERGENT and j.divergence_why:
-                A("")
-                A(f"**Why {j.name} reads it this way:** {j.divergence_why}")
-            src = _sources_line(j.evidence_cited)
-            if src:
-                A("")
-                A(f"_{src}_")
-        A("")
-    A("---")
-    A("")
-    A("### Where the reporters disagree")
-    A("")
-    if panel["verdict"] == "silent":
-        A("No disagreement to report — nobody engaged.")
-    elif panel["dissent"]:
-        A(f"**{VERDICT_WORDS[panel['verdict']]}.** Pushing back: "
-          f"{', '.join(panel['divergent'])} — each one's reasons are under their "
-          f"name above. Checked out: "
-          f"{', '.join(panel['aligned']) or 'none'}. Both readings stand — "
-          f"the disagreement is the signal.")
-    else:
-        A(f"**{VERDICT_WORDS[panel['verdict']]}.** No reporter found a gap "
-          f"between what the story claims and what the evidence suggests.")
-    if panel["abstained"]:
-        A("")
-        A("Sat this one out: "
-          + ", ".join(a["assessor_id"] for a in panel["abstained"]) + ".")
     A("")
     A("---")
     A("_Every claim above comes from a linked article. The readings are "
