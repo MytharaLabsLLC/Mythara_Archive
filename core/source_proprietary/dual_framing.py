@@ -569,18 +569,20 @@ def render_spoken_finding(result: Dict[str, Any]) -> str:
 # witnesses clear it, but there was never anything to judge. The honest
 # move is to check whether there is a call to make before putting on
 # the judge voice.
-LIGHT_EMOTIONS = frozenset({
-    "playful",
-    "joking",
-    "amused",
-    "happy",
-    "joyful",
-    "casual",
-    "silly",
-    "grateful",
-    "calm",
-    "relaxed",
-})
+LIGHT_EMOTIONS = frozenset(
+    {
+        "playful",
+        "joking",
+        "amused",
+        "happy",
+        "joyful",
+        "casual",
+        "silly",
+        "grateful",
+        "calm",
+        "relaxed",
+    }
+)
 
 
 def choose_spoken_voice(emotion: str) -> str:

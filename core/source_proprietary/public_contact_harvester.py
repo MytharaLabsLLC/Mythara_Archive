@@ -32,9 +32,7 @@ class PublicContactHarvester:
         os.makedirs(output_dir, exist_ok=True)
         self.session = requests.Session()
         self.session.headers.update(
-            {
-                "User-Agent": "Mythara Business Development (Mythara.Engine@yahoo.com)"
-            }
+            {"User-Agent": "Mythara Business Development (Mythara.Engine@yahoo.com)"}
         )
 
     # ============================================
