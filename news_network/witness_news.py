@@ -70,6 +70,10 @@ class NewsJudgment:
     shadow_intent: str = ""
     evidence_cited: List[Dict[str, str]] = field(default_factory=list)
     abstain_reason: str = ""
+    # Plain-language detailed explanation of WHY this reporter diverged:
+    # their beat, the exact trigger, and the reasoning. Set on every
+    # DIVERGENT judgment; rendered on the dossier page.
+    divergence_why: str = ""
     rubric_version: str = RUBRIC_VERSION
     base_rubric_version: str = ""
     issued_at: int = 0
@@ -243,6 +247,20 @@ def lens_hermes(event_id: str, pack: Dict) -> NewsJudgment:
               "Read them all and you will realize each one buried somebody "
               "else's lead."
         )
+        pct = int(overlap * 100)
+        f0, f1 = framing[0], framing[1] if len(framing) > 1 else framing[0]
+        j.divergence_why = (
+            "My beat is framing: how the outlets choose to tell the same event. "
+            f"I pulled the key names and terms from each of the {n_outlets} outlets' "
+            f"headlines and compared them — only {pct}% overlapped, and my bar for "
+            f"\"the same story\" is 60%. Concretely: {f0['outlet']} leads with "
+            f"\"{f0['headline'][:90]}\" while {f1['outlet']} leads with "
+            f"\"{f1['headline'][:90]}\". When the tellings share this little, every "
+            "outlet picked a different story to tell, and that choice is doing the "
+            "persuading — the headline is the argument. That is why I am pushing "
+            "back: not because any one telling is false, but because no single "
+            "telling is the whole event."
+        )
     else:
         j.verdict = ALIGNED
         j.shadow_intent = (
@@ -291,6 +309,15 @@ def lens_janus(event_id: str, pack: Dict) -> NewsJudgment:
             "on the page, not anyone's mind. The lines are linked below — "
             "read them yourself."
         )
+        j.divergence_why = (
+            "My beat is words versus deeds: does what they say match what the "
+            "record shows them doing. The coverage quotes them saying "
+            f"\"{s[:160]}\". The record shows \"{a[:160]}\". Those two cannot both "
+            "be true as stated. I am not reading anyone's mind — both lines are "
+            "linked below, read them yourself — but a gap this wide between the "
+            "stated intent and the observed action is exactly what my beat exists "
+            "to catch. That is why I am pushing back."
+        )
     else:
         j.verdict = ALIGNED
         j.shadow_intent = (
@@ -320,7 +347,10 @@ def lens_nemesis(event_id: str, pack: Dict) -> NewsJudgment:
     named_beneficiaries: List[str] = []
     for cid in pack["stated_intents"]:
         if cid in lookup:
-            named_beneficiaries += [m.group(1) for m in beneficiary_re.finditer(lookup[cid]["text"])]
+            for m in beneficiary_re.finditer(lookup[cid]["text"]):
+                b = m.group(1).strip().rstrip(".,;:")
+                if b and b not in named_beneficiaries:
+                    named_beneficiaries.append(b)
     action_actors = Counter()
     for cid in pack["observed_actions"]:
         if cid in lookup:
@@ -341,6 +371,16 @@ def lens_nemesis(event_id: str, pack: Dict) -> NewsJudgment:
             f"as the winners — but the people actually moving in the record "
             f"are {', '.join(top_actors)}. Different lists. So ask the question "
             "the coverage skips: who does this actually empower?"
+        )
+        j.divergence_why = (
+            "My beat is winners and losers: who the coverage says benefits versus "
+            "who is actually moving and positioned to gain. The coverage names "
+            f"{', '.join(sorted(set(named_beneficiaries))[:3])} as the winners. But the "
+            f"people actually acting in the record are {', '.join(top_actors)} — and "
+            "the two lists share not one name. When the winners on paper and the "
+            "winners in motion are different people, the coverage is answering "
+            "\"who benefits\" with the press release instead of the evidence. "
+            "That is why I am pushing back."
         )
     else:
         j.verdict = ALIGNED
@@ -374,7 +414,7 @@ def lens_hades(event_id: str, pack: Dict) -> NewsJudgment:
     elif unattributed:
         gaps.append(f"{len(unattributed)} quoted passage(s) have no named speaker")
     if not pack["quotes"]:
-        gaps.append("no direct quotes from any actor appear in the ingested text")
+        gaps.append("no direct quotes from any actor appear in what I read")
     if not gaps:
         return _abstain("hades", event_id, pack,
                         "Multiple outlets, named speakers on the record — I "
@@ -386,6 +426,14 @@ def lens_hades(event_id: str, pack: Dict) -> NewsJudgment:
                        "What a story leaves out shapes it as much as what it "
                        "puts in — treat this as a partial record, not the "
                        "whole picture.")
+    j.divergence_why = (
+        "My beat is what is missing. In this record: " + "; ".join(gaps) + ". "
+        "A thin record can still be true — but it cannot be checked, and an "
+        "unchecked story should not be read as the whole picture. What a story "
+        "leaves out shapes it as much as what it puts in. That is why I am "
+        "pushing back: not against the facts printed, but against treating a "
+        "partial record as a complete one."
+    )
     j.evidence_cited = ([{"ref": q["id"], "kind": "quote", "outlet": q["outlet"], "url": q["url"]}
                          for q in unattributed[:3]]
                         + [{"ref": f["outlet"], "kind": "framing",
@@ -418,6 +466,18 @@ def lens_demeter(event_id: str, pack: Dict) -> NewsJudgment:
         bits.append(f"the event spans {span // 3600} hours across the articles I read")
     j.shadow_intent = ("It will outlast the cycle. " + ". ".join(bits) + ". "
                        "What gets planted here keeps growing after the cameras leave.")
+    span_desc = (f"the event spans {span // 3600} hours across the articles I read"
+                 if span >= 20 * 3600 else "")
+    signal_desc = "; ".join(f"\"{c['text'][:120]}\" ({c['outlet']})" for c in signals[:3])
+    j.divergence_why = (
+        "My beat is durability: is this a one-day story or something with "
+        "consequences that outlast the news cycle. "
+        + (f"The claims carry lasting markers — {signal_desc}. " if signals else "")
+        + (f"{span_desc[0].upper() + span_desc[1:]}. " if span_desc else "")
+        + "Laws, deals, deployments — these do not evaporate when the cameras "
+          "leave. Reading this as today's news, gone tomorrow, would miss the part "
+          "that keeps happening after the cycle moves on. That is why I am pushing back."
+    )
     j.evidence_cited = [_cite_claim(pack, c["id"]) for c in signals[:3]]
     return _seal(j)
 
@@ -457,6 +517,15 @@ def lens_dionysus(event_id: str, pack: Dict) -> NewsJudgment:
             f"\"{ex[1]['text'][:120]}\". That is not healthy disagreement — "
             "the factual ground is shifting under this story. Hold every "
             "telling loosely."
+        )
+        j.divergence_why = (
+            "My beat is agreement between tellings: do the outlets actually agree "
+            "on the facts. " + f"{ex[0]['outlet']} reports \"{ex[0]['text'][:120]}\" "
+            f"while {ex[1]['outlet']} reports \"{ex[1]['text'][:120]}\" — those are "
+            "colliding factual claims, not differences of interpretation. When the "
+            "outlets disagree on what happened rather than what it means, the "
+            "factual ground is shifting under the story, and every version has to "
+            "be held loosely. That is why I am pushing back."
         )
         j.evidence_cited = [_cite_claim(pack, ex[0]["id"]), _cite_claim(pack, ex[1]["id"])]
     else:
@@ -513,6 +582,13 @@ def lens_eros(event_id: str, pack: Dict) -> NewsJudgment:
                        "Strong language with no name behind it, or one speaker "
                        "telling it two ways — something in this record is not "
                        "what it claims to be.")
+    j.divergence_why = (
+        "My beat is deception markers, and I only engage on hard ones — never "
+        "vibes. Here the marker is concrete: " + "; ".join(parts) + ". A speaker on "
+        "the record telling it two incompatible ways, or loaded language with no "
+        "name behind it — these are the patterns that precede a record that is not "
+        "what it claims to be. One of them is present here. That is why I am pushing back."
+    )
     cited = []
     for sp, q1, q2 in self_contradictions[:1]:
         cited += [_cite_quote(pack, q1["id"]), _cite_quote(pack, q2["id"])]
@@ -553,6 +629,15 @@ def lens_persephone(event_id: str, pack: Dict) -> NewsJudgment:
                        + ("no reversal path appears anywhere in the claims."
                           if not presented_reversible
                           else "the \"temporary\" label has no reversal mechanism behind it in the claims."))
+    acts = " ".join(f"\"{c['text'][:130]}\" ({c['outlet']})." for c in hits[:3])
+    j.divergence_why = (
+        "My beat is reversibility: can what was done be undone. The record shows "
+        + acts + " Signings, firings, bans, strikes, arrests — none of these reverse "
+        "cleanly; once done, they are permanent fact. The coverage presents it as "
+        + ("\"temporary,\" but no reversal mechanism appears anywhere in the claims. "
+           if presented_reversible else "just another development, but nothing here comes back. ")
+        + "Tone does not un-sign a law. That is why I am pushing back."
+    )
     j.evidence_cited = [_cite_claim(pack, c["id"]) for c in hits[:3]]
     return _seal(j)
 

@@ -148,6 +148,9 @@ def build_dossier_markdown(event: Dict, pack: Dict,
             A(j.projected_intent)
             A("")
             A(j.shadow_intent)
+            if j.verdict == DIVERGENT and j.divergence_why:
+                A("")
+                A(f"**Why {j.name} reads it this way:** {j.divergence_why}")
             src = _sources_line(j.evidence_cited)
             if src:
                 A("")
@@ -161,7 +164,8 @@ def build_dossier_markdown(event: Dict, pack: Dict,
         A("No disagreement to report — nobody engaged.")
     elif panel["dissent"]:
         A(f"**{VERDICT_WORDS[panel['verdict']]}.** Pushing back: "
-          f"{', '.join(panel['divergent'])}. Checked out: "
+          f"{', '.join(panel['divergent'])} — each one's reasons are under their "
+          f"name above. Checked out: "
           f"{', '.join(panel['aligned']) or 'none'}. Both readings stand — "
           f"the disagreement is the signal.")
     else:
