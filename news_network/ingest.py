@@ -73,9 +73,15 @@ def parse_feed(data: bytes, outlet: str) -> List[Dict]:
             title = strip_html(_text(item.find("title")))
             summary = strip_html(_text(item.find("description")))
             pub = parse_pubdate(_text(item.find("pubDate")))
+            # Aggregator feeds (e.g. Google News topic search) name the real
+            # outlet per item in <source> and append " - Outlet" to the title.
+            item_outlet = _text(item.find("source")) or outlet
+            suffix = " - " + item_outlet
+            if title.endswith(suffix):
+                title = title[: -len(suffix)]
             if link and title:
                 articles.append({
-                    "url": link, "outlet": outlet, "title": title,
+                    "url": link, "outlet": item_outlet, "title": title,
                     "published": pub, "summary": summary,
                     "fetched_at": fetched_at,
                 })

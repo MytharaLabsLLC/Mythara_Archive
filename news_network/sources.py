@@ -67,6 +67,16 @@ SOURCES: List[Dict[str, str]] = [
     {"id": "propublica", "outlet": "ProPublica", "lean": "nonprofit investigative",
      "beat": "investigations",
      "url": "https://www.propublica.org/feeds/propublica/main"},
+    # -- topic feeds: standing coverage beats --------------------------------
+    # Google News topic search — verified live 2026-09-27 (fetched, parsed,
+    # ~100 items each). Item-level <source> names the real outlet; ingest.py
+    # prefers it over this feed-level label.
+    {"id": "gnews-trade", "outlet": "Google News", "lean": "aggregator / multi-outlet",
+     "beat": "topic: us trade negotiations",
+     "url": "https://news.google.com/rss/search?q=US%20trade%20negotiations&hl=en-US&gl=US&ceid=US:en"},
+    {"id": "gnews-tariffs", "outlet": "Google News", "lean": "aggregator / multi-outlet",
+     "beat": "topic: us tariffs & trade deals",
+     "url": "https://news.google.com/rss/search?q=US%20tariffs%20trade%20deal&hl=en-US&gl=US&ceid=US:en"},
     # -- Denver / local (Herb is in Denver) --------------------------------
     {"id": "cosun", "outlet": "Colorado Sun", "lean": "center / nonprofit local",
      "beat": "colorado",

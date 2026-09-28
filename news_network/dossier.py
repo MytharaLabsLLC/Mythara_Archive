@@ -10,14 +10,36 @@ alongside the dossier's markdown hash.
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List
 
 from .chain import DossierChain
 from .evidence import build_evidence_pack
+from .topics import classify
 from .witness_news import hear_all, panel_summary, VERDICT_WORDS
 from .witness_news import ALIGNED, DIVERGENT, ABSTAIN  # machine verdicts
+
+_FRAMING_RE = re.compile(r"(?m)^- \*\*[^*]+\*\*: (.+)$")
+
+
+def lead_headline(md: str) -> str:
+    """First outlet headline in the framing section.
+
+    A real published headline, used as the event's display title instead of
+    a key-term list. Capped so it works as a page title.
+    """
+    m = _FRAMING_RE.search(md or "")
+    if not m:
+        return ""
+    title = m.group(1).strip()
+    return title[:117] + "..." if len(title) > 120 else title
+
+
+def display_title(summary: Dict, md: str = "") -> str:
+    """Best human title for an event: real headline first, key terms fallback."""
+    return lead_headline(md) or ", ".join(summary.get("key_terms", [])[:5])
 
 
 def _ts(ts) -> str:
@@ -151,10 +173,10 @@ def build_dossier_markdown(event: Dict, pack: Dict,
           + ", ".join(a["assessor_id"] for a in panel["abstained"]) + ".")
     A("")
     A("---")
-    A("_Every claim above traces to a fetched article, linked inline. The "
-      "witness readings are sealed and hash-chained with the evidence — the "
-      "chain proves this page is unaltered, not that the reporting is true. "
-      "Mythara News Network._")
+    A("_Every claim above comes from a linked article. The readings are "
+      "locked to the evidence with a tamper-evident record — this page is "
+      "unaltered, which doesn't prove the reporting was true. That's what "
+      "the reporters are for. Mythara News Network._")
     return "\n".join(lines)
 
 
@@ -180,6 +202,7 @@ def write_dossier(event: Dict, state_dir: Path, chain: DossierChain) -> Dict:
     )
     summary = {
         "event_id": event["id"],
+        "topic": classify(md)["slug"],
         "panel_verdict": panel["verdict"],
         "divergent": panel["divergent"],
         "aligned": panel["aligned"],
