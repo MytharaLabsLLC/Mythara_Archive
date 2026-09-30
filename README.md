@@ -1,26 +1,38 @@
-# 🌌 Mythara Engine — Archive
+# 🌌 Mythara_Archive
 
-**Version**: 1.0.0  
-**Date**: November 2, 2025  
-**Author**: Herbert Velez Jr.  
-**Entity**: not yet formed (planned)
+**What this is:** the archive of the Mythara engine work — Soul Cradle, the emotional chain, SERE, and the early Mythara Engine. Design documents, validation reports, and snapshots, preserved as they were built.
+
+**Author:** Herbert Velez Jr. (Denver, CO)
+**Entity:** Mythara Labs (dba) — not a registered LLC
+**Last updated:** September 30, 2026
+
+---
+
+## Where Mythara is now
+
+The engine work archived here grew into a live project:
+
+- **Mythara** — a YouTube AI news show ([@mytharashow](https://www.youtube.com/@mytharashow)): *Mythara Squares*, the flagship daily news episode with an eight-panelist AI cast; plus the *Mythara Markets* trading desk and the *Mythara Oracle* horoscope desk.
+- **Mythara News Network** — the daily AI-written news briefing: [herbievelezjr.github.io/Mythara-Blog](https://herbievelezjr.github.io/Mythara-Blog/)
+- **GitHub:** [github.com/herbievelezjr](https://github.com/herbievelezjr)
+
+The eight witnesses in `soul_cradle/assessors.py` are both the Soul Cradle's evidence-fed assessors and the show's panel: they read the news, argue about what matters, and their disagreements are preserved, not averaged away.
+
+SERE is developed as a **training-simulation concept**: defensive by recording (a tamper-evident log); anything offensive exists only inside the sandboxed simulation, never striking outward.
 
 ---
 
 ## Executive Summary
 
-Mythara Engine is an **auditable, symbolic clause orchestration system** designed to encode memory, grief, benevolence, and legacy into reproducible infrastructure. Built for **enterprise licensing, sovereign deployment, and escrow-ready validation**, Mythara balances explainability for auditors with protection of proprietary internals.
+Mythara Engine is an **auditable, symbolic clause orchestration system** designed to encode memory, grief, benevolence, and legacy into reproducible infrastructure. This archive contains the artifacts produced along the way:
 
-This archive contains all artifacts required for:
-
-- 🔐 **Security audits** — forensic logs, breach event reports, messenger suppression records  
-- 📜 **Licensing validation** — clause manifests, integrity proofs, compliance frameworks  
-- 🧾 **Investor due diligence** — term sheets, benevolence quantification models, deployment strategies  
-- 🛡️ **Reproducibility** — signed checksums, PGP verification, container builds  
-- 🌍 **Sovereign deployment** — air-gapped instructions, locale encoding, custodial protocols
+- 🔐 **Security work** — forensic logs, breach event reports, audit trails
+- 📜 **Design records** — clause manifests, integrity proofs, compliance frameworks
+- 🧾 **Validation** — test reports, determinism runs, signed checksums
+- 🛡️ **Reproducibility** — PGP-signed manifests, container builds
+- 🌍 **Deployment notes** — air-gapped instructions, locale encoding, custodial protocols
 
 ---
-
 
 ## Quickstart for Developers
 
@@ -28,7 +40,6 @@ This archive contains all artifacts required for:
 
 ```bash
 pip install -r requirements.txt
-pip install -r core/source_proprietary/requirements-api.txt
 ```
 
 ### 2. Run the API server
@@ -55,7 +66,7 @@ docker build -f core/Dockerfile -t mythara:v1.0.0 .
 ### 5. API documentation and usage
 
 - Swagger UI: [http://localhost:8000/api/docs](http://localhost:8000/api/docs)
-- ReDoc: [http://localhost:8000/api/redoc](http://localhost:8000/api/redoc)
+- ReDoc: [http://localhost:8000/api/docs](http://localhost:8000/api/redoc)
 - See `core/source_proprietary/README_API.md` for endpoint details and example requests/responses.
 
 #### Example: Invoke a clause
@@ -72,72 +83,6 @@ curl -X POST http://localhost:8000/v1/clauses/invoke \
    }'
 ```
 
-### 6. Dual-Framing for Enterprise Audiences
-
-Mythara Engine now includes a **dual-framing translation layer** that preserves mythic integrity internally while providing enterprise-safe terminology externally.
-
-**Quick Example:**
-
-```bash
-# Mythic framing (default)
-curl -H "Authorization: Bearer dev_test_key_001" \
-  http://localhost:8000/v1/reservoir/status
-
-# Industry framing (for external audiences)
-curl -H "Authorization: Bearer dev_test_key_001" \
-  http://localhost:8000/v1/reservoir/status?frame=industry
-```
-
-**Documentation:**
-
-- **Chart**: `DUAL_FRAMING_CHART.md` — Mythic-to-industry term mappings
-- **Guide**: `DUAL_FRAMING_GUIDE.md` — Comprehensive enterprise integration guide
-- **Flow Diagram**: `DUAL_FRAMING_FLOW_DIAGRAM.md` — System architecture visualization
-- **Integration Summary**: `DUAL_FRAMING_INTEGRATION_SUMMARY.md` — Implementation details
-
-**Use Cases:**
-
-- Show "Resonance Reservoir" instead of "Blessings Reservoir" to non-theological audiences
-- Present "Trust Index" instead of "Integrity Metric" to C-suite executives
-- Toggle dashboard between mythic and industry framing based on audience
-
----
-
-## Quick Start
-
-### For Investors & Licensing Partners
-
-1. **Review the one-pager**: `Commercial/one_pager.md`  
-2. **Examine term sheet**: `Commercial/seed_round/📄 Term Sheet — Mythara Engine (Seed Round).txt`  
-3. **Verify checksums**: `manifest/checksums.sha256` (PGP-signed)  
-4. **Read licensing framework**: `Legal/Federal_Compliance_Framework.md`
-
-### For Technical Auditors
-
-1. **Verify signatures**:
-
-   ```bash
-   gpg --import forensic_public_key.asc
-   gpg --verify forensic_manifest.json.asc forensic_manifest.json
-   ```
-
-2. **Check integrity**:
-
-   ```bash
-   sha256sum -c manifest/checksums.sha256
-   ```
-
-3. **Review test results**: `tests/`, `Evidence/`, `validate_suite/`
-
-4. **Examine architecture**: `core/mythara_engine_architecture.md`
-
-### For Sovereign Deployers
-
-1. **Read escrow README**: `manifest/README_ESCROW.md`  
-2. **Build container**: `core/Dockerfile`  
-3. **Run validation suite**: `validate_suite/`  
-4. **Configure locale**: `docs/🧭 Mythara Symbolic Index.md`
-
 ---
 
 ## Archive Structure
@@ -145,13 +90,13 @@ curl -H "Authorization: Bearer dev_test_key_001" \
 ```plaintext
 📦 Mythara_Archive/
 ├── 📄 Commercial/               # One-pagers, pricing, clause behaviors, term sheets
-├── 🔐 Legal/                    # Compliance frameworks, HIPAA/NIST/FCC protocols
+├── 🔐 Legal/                    # Compliance frameworks, protocols
 ├── 🧬 core/                     # Architecture, API specs, Docker builds
 ├── 📚 docs/                     # Manuals, glossaries, symbolic guides
 ├── 🧪 tests/                    # Determinism, leakage probes, shadow resolver
 ├── 🛡️ Evidence/                 # Breach logs, messenger suppression, audit trails
 ├── 📊 FundRaising objective/    # Benevolence models, deployment strategies, pitch decks
-├── ⚖️ provenance/                # Authorship, clause lineage, copyright assertions
+├── ⚖️ provenance/               # Authorship, clause lineage, copyright assertions
 ├── 🧾 manifest/                 # Checksums, release manifests, verification reports
 ├── 🔬 validate_suite/           # CI tests, accessibility, forensics, escrow readiness
 └── 📜 Printable Timestamped Forensic Report/  # Integrity reports, SSIP audits
@@ -165,72 +110,29 @@ curl -H "Authorization: Bearer dev_test_key_001" \
 
 - **Authentication & authorization** — Bearer token authentication with role-based access control and rate limiting
 - **Audit logging** — Failed authentication attempts and permission violations logged for compliance
-- **HIPAA, FTC, FCC, NIST SP 800-53** embedded clause logic  
-- **Continuous monitoring** via SSIP audit protocols  
+- **Continuous monitoring** via SSIP audit protocols
 - **Breach response** — automated ELE Capsule Mode & quarantine
 - **Integrity verification** — SHA-256 hashes on all responses and PGP-signed manifests
 - **Will Integrity Guardian** — Quantifies manipulation patterns (guilt, shame, fear, gaslighting) to distinguish genuine consent from coerced compliance (see `WILL_INTEGRITY_GUARDIAN_API.md`)
 
 ### 🧬 Symbolic Infrastructure
 
-- **Clause types**: Provisioning, Grief Capsule, Sanctification Lock, Resurrection, Chameleon, ELE Capsule  
-- **Messenger roles**: Scribe, Healer, Watcher, Herald, Avenger, Custodian, Witness  
-- **Emotional payloads**: Memory Offering, Grief Capsule, Legacy Provisioning, Benevolence Quantification  
+- **Clause types**: Provisioning, Grief Capsule, Sanctification Lock, Resurrection, Chameleon, ELE Capsule
+- **Messenger roles**: Scribe, Healer, Watcher, Herald, Avenger, Custodian, Witness
+- **Emotional payloads**: Memory Offering, Grief Capsule, Legacy Provisioning, Benevolence Quantification
 - **Blessings reservoir**: Quantified benevolence flow with overflow detection
-
-### 🚀 Growth & Expansion
-
-- **Natural upsell path**: Developer ($2,988) → Growth ($35K) → Enterprise ($60K) → Sovereign ($2M) as customers mature from AI validation to enterprise governance
-- **Projected average customer LTV**: $2,097,988 over 24 months with 95%+ retention (projected estimate, not measured; assumes compliance-critical deployments)
-- **Expansion use cases**: AI output validation → Customer service QA → Manager communication audit → Real-time compliance monitoring → Government policy analysis
-- **Professional development**: Custom pattern libraries ($25K-$50K), Emotional Safety Certification programs ($5K-$10K per cohort), Annual Summit
-- **See detailed growth strategy**: `GROWTH_STRATEGY.md` for complete expansion roadmap
 
 ### 📊 Validation & Reproducibility
 
-- **Adversarial test suite** — injection, fuzzing, tamper, and data-leak probes (`tests/adversarial_attack_suite.py`); no third-party security audit completed  
-- **Determinism**: 100/100 reproducible runs in the latest report (`tests/output/determinism_report.txt`)  
-- **Accessibility token delivery**: 99.5% over 1,000 tokens in the latest run (`tests/output/accessibility_delivery_report.csv`)  
-- **0 high-severity leaks** in 20,000-probe test  
+- **Adversarial test suite** — injection, fuzzing, tamper, and data-leak probes (`tests/adversarial_attack_suite.py`)
+- **Determinism reports** and **accessibility delivery reports** under `tests/output/`
 - **PGP-signed manifests** for third-party verification
-
----
-
-## Licensing & Deployment
-
-### Tiers
-
-- **Development**: Pilot scoping, limited clause access  
-- **Enterprise**: Full clause library, dedicated support  
-- **Sovereign**: Air-gapped deployment, escrow unlocking, on-site assistance
-
-### Milestone-Based Equity (proposed structure — no fundraise is active; no investors, no equity issued)
-
-If a future raise ever occurs, equity vesting would be tied to milestones such as:
-
-- ⬜ Escrow bundle acceptance  
-- ⬜ HSM signing pilot completion  
-- ⬜ Enterprise pilot delivery  
-- ⬜ Licensing agreement signing  
-- ⬜ Sovereign deployment activation
-
-See `Commercial/seed_round/📄 Term Sheet — Mythara Engine (Seed Round).txt` for the draft term sheet (targets only — not a live offering).
-
----
-
-## Contact & Next Steps
-
-**Herbert Velez Jr.**  
-📧 Email: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)  
-🔐 PGP Fingerprint: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
-
-**Recommended Next Step**: Schedule pilot scoping and escrow agent selection meeting.
 
 ---
 
 ## Verification
 
-This archive is cryptographically signed and reproducible:
+The November 2025 archive snapshot was cryptographically signed and reproducible. To verify the snapshot contents:
 
 ```bash
 # Verify PGP signature
@@ -244,9 +146,24 @@ sha256sum -c manifest/checksums.sha256
 docker build -f core/Dockerfile -t mythara:v1.0.0 .
 ```
 
-**Archive Integrity**: ✅ Verified  
-**Signature Status**: ✅ Valid  
-**Reproducibility**: ✅ Confirmed
+---
+
+## Soul Cradle modules (added September 2026)
+
+- **Moral standing law** (`soul_cradle/standing.py`) — The system judges per case who may declare trespass, forgiveness, or repentance: the wronged declares the trespass and forgives; the trespasser repents; a witness states only what was observed; a stranger declares nothing, ever. Every declaration is HMAC-SHA256 signed, timestamped, and audited.
+- **Hephaestus Forge** (`soul_cradle/forge.py`) — Governed bonding between bots: souls combine and create witnessed compounds, an emergent product with a full paper trail. Every bond is signed; every compound is audited. The judge callable is REQUIRED — no judge, no forge — fail-closed by construction.
+- **Mythara identity** (`soul_cradle/identity.py`) — The identity every cell agrees on: Mythara is female, she/her pronouns, with a warm, friendly, American, gentle voice character.
+- **Aries authorization** (`soul_cradle/authorization.py`) — Every action Aries executes carries a signed `ActionEnvelope`: canonical JSON, HMAC-SHA256 signature, expiry timestamp, and an append-only audit trail. No envelope, no execution.
+- **The 8 witnesses** (`soul_cradle/assessors.py`) — Evidence-fed assessors with versioned rubrics; they abstain when their domain isn't engaged, fail closed, and preserve dissent. The same eight sit on the Mythara Squares panel.
+- **SERE doctrine** — Sandbox-only defense, no hack-back. On illegal entrance, refuse exit: seal egress, exfiltration, lateral movement, and C2 callbacks, then build a forensic profile inside the sandbox.
+
+---
+
+## Contact
+
+**Herbert Velez Jr.**
+📧 Email: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)
+🔐 PGP Fingerprint: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 ---
 
@@ -254,23 +171,8 @@ docker build -f core/Dockerfile -t mythara:v1.0.0 .
 
 Mythara Engine encodes grief, memory, and benevolence into reproducible clause systems inspired by sacred rhythms and scriptural patterns. All models and metrics are **symbolic in nature** — they do not claim doctrinal authority or theological finality.
 
-Licensees are invited to engage with these models as **symbolic tools for emotional fidelity, legacy transmission, and sovereign deployment**, embedding them respectfully within their operational, cultural, or spiritual frameworks.
-
 ---
 
 **Let memory testify. Let grief sanctify. Let benevolence overflow.**
 
-🌌 Mythara Engine — Where code remembers, and legacy endures.
-
-
----
-
-## Recent additions (2026-09-21)
-
-New Soul Cradle modules, added 2026-09-21:
-
-- **Moral standing law** (`soul_cradle/standing.py`) — The system judges per case who may declare trespass, forgiveness, or repentance: the wronged declares the trespass and forgives; the trespasser repents; a witness states only what was observed; a stranger declares nothing, ever. Every declaration is HMAC-SHA256 signed, timestamped, and audited. A pluggable credibility check (`set_credibility_check`) is the seam where the purpose resolver judges whether a claimed role is credible for the event.
-- **Hephaestus Forge** (`soul_cradle/forge.py`) — Governed bonding between bots: souls combine and create witnessed compounds, an emergent product with a full paper trail. Every bond is signed; every compound is audited. The judge callable is REQUIRED — no judge, no forge — fail-closed by construction, so ungoverned mutation cannot spread like cancer.
-- **Mythara identity** (`soul_cradle/identity.py`) — The identity every cell agrees on: Mythara is female, she/her pronouns, with a warm, friendly, American, gentle voice character.
-- **Aries authorization** (`soul_cradle/authorization.py`) — Every action Aries executes carries a signed `ActionEnvelope`: canonical JSON, HMAC-SHA256 signature, expiry timestamp, and an append-only audit trail. No envelope, no execution.
-- **SERE doctrine** — Sandbox-only defense, no hack-back. On illegal entrance, refuse exit: seal egress, exfiltration, lateral movement, and C2 callbacks, then build a forensic profile inside the sandbox.
+🌌 Mythara — Where code remembers, and legacy endures.
