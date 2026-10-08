@@ -1,7 +1,7 @@
 # Soul Cradle — Architectural Breakdown
 
 **A deterministic trust layer for multi-agent AI systems.**
-Version 2026.1 · Open source (MIT) · Pre-revenue prototype · Built by Herb Velez, Mythara Labs
+Version 2026.1 · Source-available (custom Mythara Engine license — evaluation use; production requires agreement) · Pre-revenue prototype · Built by Herb Velez, Mythara Labs
 
 > Soul Cradle is not an LLM wrapper. It is the constitutional and evidentiary
 > machinery that sits *between* agents and action: every consequential act is
@@ -223,9 +223,10 @@ the soul as the known universe and each agent a domain carrying its own laws.
   hash-verified multi-agent evaluation payload out.
 - **Hardening for regulated use:** KMS-backed signing keys, TLS 1.2+,
   signed vendor BAAs, formal risk analysis.
-- **IP posture:** defensive publication on file for the original matter;
+- **IP posture:** copyright held by Herbert Velez Jr., source-available license
+  (read/evaluate/test; production and redistribution require written
+  agreement); defensive publication on file for the original matter;
   patent-vs-publication decision for new matter is the standing next step.
-  (No proprietary claims made over the open code.)
 
 ---
 
