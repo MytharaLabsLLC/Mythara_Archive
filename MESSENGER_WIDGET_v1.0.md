@@ -1,7 +1,6 @@
 # MytharaConnect Widget - Enterprise Grade Rebuild
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 

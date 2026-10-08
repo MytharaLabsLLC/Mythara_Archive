@@ -1,7 +1,6 @@
 # Mythara Engine - Iron Clad Deployment Checklist *(November 2025 draft)*
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 > **⚠️ HISTORICAL SNAPSHOT (November 2025) — voice-standard pass Sept 2026.** This checklist is the author's November 2025 self-assessment, not a verified status. All Stripe webhooks were deleted, so the payment flow it describes **does not exist**. Claims of "bulletproof"/"iron clad" robustness, production readiness, and the revenue math below are unverified and should not be repeated.
 

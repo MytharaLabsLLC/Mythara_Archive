@@ -3,7 +3,6 @@
 > **Status: design specification.** The API endpoints, payloads, and results shown in this document are illustrative. The API is not deployed (`api.mythara.com` is not a live service). Burnout prediction is the design goal and is unvalidated — the validation study has not been run.
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 

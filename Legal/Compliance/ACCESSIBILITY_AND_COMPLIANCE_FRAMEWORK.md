@@ -1,6 +1,6 @@
 # 🌍 Mythara Engine — Accessibility & Compliance Roadmap
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved. Proprietary and Confidential.**
+**Copyright © 2025 Herbert Velez Jr. All rights reserved..**
 
 **Version:** 1.0.0
 **Last Updated:** November 2, 2025

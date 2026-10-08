@@ -963,7 +963,6 @@ quickReplies = [
 ## Copyright & Legal
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 All code, documentation, and generated assets in this repository are proprietary to Herbert Velez Jr. and Mythara Engine. Unauthorized copying, distribution, or use is prohibited.
 

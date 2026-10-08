@@ -869,7 +869,6 @@ class WitnessingThrone:
         with open(impl_file, 'w', encoding='utf-8') as f:
             f.write(f'"""\n')
             f.write(f'Copyright © 2025 Herbert Velez Jr. All rights reserved.\n')
-            f.write(f'Proprietary and Confidential.\n\n')
             f.write(f'{artifact.name.upper()}\n')
             f.write(f'{"=" * len(artifact.name)}\n')
             f.write(f'Soul State: {artifact.soul_state_affected}\n')

@@ -1,6 +1,5 @@
 # Faith Organization Outreach Memo
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 > **Draft template.** St. Jude and other named organizations appear only as illustrative prospects. No engagements, pilots, or partnerships exist.
 
@@ -37,7 +36,7 @@ If this would help [Organization Name], I'd welcome a conversation.
 
 Herbert Velez Jr.
 Founder, Mythara
-mytharalabs@yahoo.com
+MytharaLabsLLC@yahoo.com
 github.com/herbievelezjr/Mythara_Archive
 ```
 
@@ -72,7 +71,7 @@ I'd welcome a brief call.
 
 Herbert Velez Jr.
 Founder, Mythara
-mytharalabs@yahoo.com
+MytharaLabsLLC@yahoo.com
 ```
 
 ---
@@ -101,7 +100,7 @@ If that sounds useful for [Organization Name], I'd welcome a conversation.
 
 Herbert Velez Jr.
 Founder, Mythara
-mytharalabs@yahoo.com
+MytharaLabsLLC@yahoo.com
 ```
 
 ---

@@ -462,7 +462,7 @@ REVENUE_MODEL_2026 = {
 
 IP_PROTECTION = """
 ================================================================================
-🔒 Protecting $1.5M Voice Modulation IP
+🔒 Protecting Voice Modulation IP (target $1.5M valuation — aspirational)
 ================================================================================
 
 BEFORE LICENSING:
@@ -477,10 +477,10 @@ BEFORE LICENSING:
    - File provisional patent: "Real-time voice modulation in AI sales systems"
    - Protects METHOD, not just code
    - Gives 12 months to file full patent
-   - Strengthens $1.5M valuation (patented technology = higher value)
+   - Strengthens the target $1.5M valuation — aspirational; patented technology = higher value
 
 3. TRADE SECRET PROTECTION (Free, implemented in code)
-   - Mark all files: "Copyright © 2025 Herbert Velez Jr. Proprietary and Confidential."
+   - Mark all files: "Copyright © 2025 Herbert Velez Jr. All rights reserved."
    - Use PyArmor obfuscation for demos
    - Never deploy source code to client servers (API-only or compiled binaries)
 

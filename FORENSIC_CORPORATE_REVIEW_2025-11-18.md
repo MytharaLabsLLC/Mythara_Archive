@@ -15,8 +15,7 @@
 > $800 annual franchise tax), and "file with California SOS" remediation
 > items below are superseded — do not act on them. The insurance claims this
 > report flagged in terms.html and LICENSE.md as false (no E&O or cyber
-> liability policies existed) were corrected in September 2026 — see
-> `LICENSE.md`.
+> liability policies existed) > **ADDENDUM — October 7, 2026.** Mythara Labs LLC was filed with the Colorado Secretary of State on October 4, 2026 (ID #20268239831, member-managed). Entity-status statements in this historical report that predate the filing are superseded.
 
 **Review Date:** November 18, 2025  
 **Reviewer:** AI Legal Compliance Agent  

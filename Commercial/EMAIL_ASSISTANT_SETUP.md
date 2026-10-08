@@ -1,5 +1,4 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 # Email Assistant Setup Guide
 
@@ -73,7 +72,7 @@ $env:OPENAI_API_KEY = "sk-proj-YOUR-KEY-HERE"
 
 #### Option B: Yahoo Mail (More complex)
 
-Yahoo's API is harder to set up. **Recommendation: Forward Mytharalabs@yahoo.com to a new Gmail** (Settings → Forwarding → Add Gmail address), then use Gmail API.
+Yahoo's API is harder to set up. **Recommendation: Forward MytharaLabsLLC@yahoo.com to a new Gmail** (Settings → Forwarding → Add Gmail address), then use Gmail API.
 
 **How to forward Yahoo → Gmail:**
 1. Create new Gmail: mythara.assistant@gmail.com (or reuse existing)
@@ -207,7 +206,7 @@ Edit `email_assistant_config.json` (auto-created on first run):
 
 ```json
 {
-  "email_address": "mytharalabs@yahoo.com",
+  "email_address": "MytharaLabsLLC@yahoo.com",
   "outreach_label": "Mythara-Outreach",
   "search_days_back": 7,
   "templates": {

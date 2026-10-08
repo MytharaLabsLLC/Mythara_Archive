@@ -1,7 +1,6 @@
 # 🚀 Growth & Development Strategy - Will Integrity Detection *(strategy draft)*
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 > **⚠️ STRATEGY DRAFT (November 2025) — voice-standard pass Sept 2026.** Everything below is a *planning document*, not a status report. **No customers, partnerships, revenue, certifications, or published papers exist.** All tiers, prices, timelines, metrics, and partners are aspirational goals, labeled as such. Nothing here is currently offered, and no payment path exists.
 

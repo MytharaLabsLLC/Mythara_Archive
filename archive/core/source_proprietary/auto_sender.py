@@ -89,7 +89,7 @@ If this resonates, I'm here: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Founder, Mythara Labs LLC (proposed — not yet formed; Colorado Articles of Organization filing attempted September 27, 2026, not confirmed); organizer: Herbert Velez Jr.
+Founder, Mythara Labs LLC (Colorado domestic LLC, filed 2026-10-04; CO SOS ID #20268239831)
 
 P.S. — This is a one-time email. Reply "unsubscribe" if you'd prefer not to hear from us."""
 
@@ -127,7 +127,7 @@ If this resonates, I'm here: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Founder, Mythara Labs LLC (proposed — not yet formed; Colorado Articles of Organization filing attempted September 27, 2026, not confirmed); organizer: Herbert Velez Jr.
+Founder, Mythara Labs LLC (Colorado domestic LLC, filed 2026-10-04; CO SOS ID #20268239831)
 
 P.S. — One-time email. Reply "unsubscribe" to opt out."""
 
@@ -165,7 +165,7 @@ If this resonates, I'm here: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Founder, Mythara Labs LLC (proposed — not yet formed; Colorado Articles of Organization filing attempted September 27, 2026, not confirmed); organizer: Herbert Velez Jr.
+Founder, Mythara Labs LLC (Colorado domestic LLC, filed 2026-10-04; CO SOS ID #20268239831)
 
 P.S. — One-time email. Reply "unsubscribe" if you'd prefer not to hear from us."""
 
@@ -203,7 +203,7 @@ If this resonates, I'm here: Mythara.Engine@yahoo.com
 
 Best,
 Herbert Velez Jr.
-Founder, Mythara Labs LLC (proposed — not yet formed; Colorado Articles of Organization filing attempted September 27, 2026, not confirmed); organizer: Herbert Velez Jr.
+Founder, Mythara Labs LLC (Colorado domestic LLC, filed 2026-10-04; CO SOS ID #20268239831)
 Veteran-focused technology
 
 P.S. — One-time email. Reply "unsubscribe" if you'd prefer not to hear from us."""

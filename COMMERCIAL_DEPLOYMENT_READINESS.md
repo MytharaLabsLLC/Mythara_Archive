@@ -3,7 +3,6 @@
 *Internal action plan. All valuations and targets below are aspirations — there are no offers, no revenue, no customers, and no active pilots. See COMPLIANCE_STATUS.md for what may actually be claimed.*
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 

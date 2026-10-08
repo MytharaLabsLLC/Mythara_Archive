@@ -307,4 +307,4 @@ heroku addons:create scheduler:standard
 **Status:** Code complete (`mythara_ai_team.py`), deployment steps below are the remaining work. The framework is ready to schedule — it is not yet running in production.
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**For support:** Mytharalabs@yahoo.com
+**For support:** MytharaLabsLLC@yahoo.com

@@ -53,7 +53,7 @@ The models in this archive use language drawn from sacred rhythms, scriptural pa
 
 ## 🧾 What This Archive Does Not Contain
 
-No customers, pilots, or named deployments. No certifications, audits, or regulatory approvals. No patents filed, no revenue, no awards, no metrics. No corporate entity yet — Mythara Labs LLC's formation filing was attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; the entity is not yet formed. SERE is a training simulation, not a weapon and not a military capability. Goals for licensing, deployment, and fundraising are stated as goals, plainly, in the materials that hold them.
+No customers, pilots, or named deployments. No certifications, audits, or regulatory approvals. No patents filed, no revenue, no awards, no metrics. Mythara Labs LLC is a Colorado domestic LLC (filed with the Colorado Secretary of State on October 4, 2026; ID #20268239831). SERE is a training simulation, not a weapon and not a military capability. Goals for licensing, deployment, and fundraising are stated as goals, plainly, in the materials that hold them.
 
 ---
 

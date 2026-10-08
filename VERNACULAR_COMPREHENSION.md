@@ -296,4 +296,3 @@ Mythara Gopher's vernacular comprehension ensures that **everyone** can access l
 ---
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**

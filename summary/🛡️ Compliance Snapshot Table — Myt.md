@@ -14,6 +14,6 @@
 
 ## 🧠 Notes
 
-- No external certifications are held: no SOC 2, no ISO, no third-party attestation; Mythara Labs LLC's formation filing was attempted with the Colorado Secretary of State on 2026-09-27 — not confirmed; entity not yet formed, and no claim to the contrary is made
+- No external certifications are held: no SOC 2, no ISO, no third-party attestation; Mythara Labs LLC is a Colorado domestic LLC (filed 2026-10-04; CO SOS ID #20268239831)
 - Alignment with HIPAA, FISMA, GDPR, and related frameworks is design intent, documented in `Legal/` — it is not a verified state and must never be presented as one
 - This snapshot supports internal audit review only; licensing readiness is an aspiration, not a claim, and it will be earned by records, not declared by tables

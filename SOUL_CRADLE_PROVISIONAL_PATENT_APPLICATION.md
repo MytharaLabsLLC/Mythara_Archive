@@ -11,7 +11,6 @@
 > Whether any record is admitted as evidence is decided by a court, not by this document.
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 

@@ -2,7 +2,6 @@
 **Fixed Version - Proper Use Case & Implementation**
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 

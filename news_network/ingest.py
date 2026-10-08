@@ -20,7 +20,7 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-USER_AGENT = "MytharaNewsNetwork/1.0 (research ingest bot; contact: mytharalabs@yahoo.com)"
+USER_AGENT = "MytharaNewsNetwork/1.0 (research ingest bot; contact: MytharaLabsLLC@yahoo.com)"
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
 
 _TAG_RE = re.compile(r"<[^>]+>")

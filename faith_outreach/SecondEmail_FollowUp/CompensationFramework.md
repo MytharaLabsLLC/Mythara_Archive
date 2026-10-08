@@ -1,6 +1,5 @@
 # Compensation Framework for Faith Organizations
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 
@@ -289,7 +288,7 @@ We are open to **flexible arrangements** for organizations with extraordinary mi
 
 ### Founder's Discretion
 - Herbert Velez Jr. reserves the right to waive fees entirely for missions of extraordinary benevolence
-- Contact us if you believe your work qualifies: mytharalabs@yahoo.com
+- Contact us if you believe your work qualifies: MytharaLabsLLC@yahoo.com
 
 ---
 
@@ -341,7 +340,7 @@ To discuss compensation options tailored to your mission:
 
 **Herbert Velez Jr.**  
 Founder, Mythara Engine  
-Email: mytharalabs@yahoo.com  
+Email: MytharaLabsLLC@yahoo.com  
 Calendar: [Schedule 30-minute call]
 
 ---

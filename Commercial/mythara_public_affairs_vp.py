@@ -183,7 +183,7 @@ class MytharaPublicAffairsVP:
                 'competitor criticism'
             ],
             'required_disclaimers': [
-                'Proprietary and Confidential',
+                'All rights reserved',
                 'Enterprise licensing required'
             ],
             'tone_scale': {

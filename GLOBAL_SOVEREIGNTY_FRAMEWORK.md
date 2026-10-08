@@ -1,7 +1,6 @@
 # International Treaty Compliance Framework (November 2025 design)
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 > **Voice-standard note (Sept 2026):** This is a design document from November 2025. The governance module it describes is real code (`core/source_proprietary/mythara_global_governance.py`), which defines **34 frameworks** (23 regulatory + 11 treaty/convention mappings, per current code — not the 31 stated below). This framework **maps controls; it is not a certification.** No independent legal audit has been performed, no compliance certification (SOC 2, ISO, or otherwise) is held, and this document is not legal advice. "MytharaConnect" is the product name used in this document; the code module is `mythara_global_governance.py`.
 

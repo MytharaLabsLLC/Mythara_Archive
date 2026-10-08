@@ -1,7 +1,6 @@
 # Mythara Engine - Security Hardening Guide
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 

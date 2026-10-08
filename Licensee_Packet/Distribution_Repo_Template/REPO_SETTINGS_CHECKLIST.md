@@ -1,5 +1,4 @@
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 # Distribution Repository Settings Checklist (Private)
 

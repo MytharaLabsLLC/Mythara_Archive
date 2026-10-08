@@ -1,7 +1,6 @@
 # How to Make Tutorial Videos for Mythara Engine
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 > **⚠️ SCRIPT DRAFTS (November 2025) — voice-standard pass Sept 2026.** The scripts below describe a pilot signup flow that **no longer exists** (all Stripe webhooks were deleted; there is no $49 pilot, no live payment path, no hosted service to demo). **Do not record, share, or publish these scripts without rewriting them.** Corrected claims are noted inline.
 

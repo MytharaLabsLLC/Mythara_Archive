@@ -2,7 +2,6 @@
 **GitHub Public Repository Timestamp: November 21, 2025**
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 

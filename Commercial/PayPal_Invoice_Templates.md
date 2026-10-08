@@ -196,4 +196,3 @@ Full source code access with rebuild rights and perpetual license.
 ---
 
 **Mythara Engine** - Symbolic Safety Integrity Protocol  
-**Proprietary and Confidential**

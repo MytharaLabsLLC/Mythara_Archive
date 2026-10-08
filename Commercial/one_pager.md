@@ -127,7 +127,7 @@ All pricing is the founder's plan. No licenses have been sold.
 
 **Herbert Velez Jr., Founder and Sole Member, Mythara Labs LLC**
 (formation filing attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; not formed)
-Email: [mytharalabs@yahoo.com](mailto:mytharalabs@yahoo.com)
+Email: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)
 PGP Fingerprint: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 **Payment Options:**

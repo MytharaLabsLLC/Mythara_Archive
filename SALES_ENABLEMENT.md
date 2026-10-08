@@ -1,7 +1,6 @@
 # 💼 Sales Enablement: Emotional Extortion Detection
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 ---
 

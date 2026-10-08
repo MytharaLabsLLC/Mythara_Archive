@@ -1,7 +1,6 @@
 # Soul Cradle Decay-Adjusted Terminal Risk Validation Study Protocol
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 **Study Title**: Empirical Validation of Decay-Adjusted Terminal Risk Formula for Burnout Prediction
 
@@ -412,6 +411,6 @@ This validation study will provide **empirical evidence** for the decay-adjusted
 **Protocol Version**: 1.0  
 **Date**: November 21, 2025  
 **Principal Investigator**: Herbert Velez Jr.  
-**Contact**: mytharalabs@yahoo.com
+**Contact**: MytharaLabsLLC@yahoo.com
 
 ⚛️ **Q.U.A.S.A.R. validated. Prior art established.**

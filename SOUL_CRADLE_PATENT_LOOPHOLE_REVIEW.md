@@ -2,7 +2,6 @@
 # Critical Analysis Before USPTO Filing
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 > **Evidence language note (Sept 2026):** Where this draft says "court-admissible," it means
 > records *designed to support* evidentiary use (hash-chained, timestamped, witness-attested).

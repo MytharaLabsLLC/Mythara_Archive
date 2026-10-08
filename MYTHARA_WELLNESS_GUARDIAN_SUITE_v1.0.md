@@ -401,7 +401,7 @@ When you run `schedule_medical_team_bots.ps1`:
 ## 📞 Support & Contact
 
 For questions or support:
-- **Email:** mytharalabs@yahoo.com
+- **Email:** MytharaLabsLLC@yahoo.com
 - **Repository:** Mythara_Archive
 - **Documentation:** See files listed above
 
@@ -437,4 +437,3 @@ For questions or support:
 *Integrity-First Healthcare Bot Orchestration*
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**

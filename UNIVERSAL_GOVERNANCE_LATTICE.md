@@ -3,7 +3,6 @@
 > **Status: design specification.** This document designs a planned compliance-validation module. The API endpoints, payloads, and example results shown are illustrative — the API is not deployed (`api.mythara.com` is not a live service). Nothing here is certified, audited, or validated.
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 ---
 
@@ -487,7 +486,6 @@ This compliance framework provides **technical validation tools** to assist with
 ---
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 
 ---

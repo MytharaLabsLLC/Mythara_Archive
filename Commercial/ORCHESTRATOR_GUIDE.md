@@ -386,4 +386,3 @@ The orchestrator architecture is documented above with:
 ---
 
 **Mythara Engine - Autonomous Operations**  
-**Proprietary and Confidential**

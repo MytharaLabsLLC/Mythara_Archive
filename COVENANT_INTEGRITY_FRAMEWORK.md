@@ -420,7 +420,6 @@ This compliance framework provides **technical validation tools**. Organizations
 ---
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 

@@ -1,6 +1,5 @@
 # Tiered Deployment Options
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 
@@ -202,7 +201,7 @@ For organizations with extraordinary mission impact or financial constraint, we 
 - Grant-funded deployments (we accept philanthropic foundation grants)
 - In-kind contributions (e.g., co-publish research, provide anonymized data for case studies)
 
-Contact us to discuss: mytharalabs@yahoo.com
+Contact us to discuss: MytharaLabsLLC@yahoo.com
 
 ### "Do you offer discounts for religious orders or denominations?"
 Yes. Multi-chapter deployments (e.g., entire diocese, denomination, or religious order) receive:
@@ -218,7 +217,7 @@ Yes. Multi-chapter deployments (e.g., entire diocese, denomination, or religious
 
 1. **Review the enclosed packet**: Soul Cradle spec, Blessing Scale, integration notes
 2. **Share with your teams**: IT, compliance, mission leadership, finance
-3. **Schedule discovery call**: Email mytharalabs@yahoo.com or use calendar link
+3. **Schedule discovery call**: Email MytharaLabsLLC@yahoo.com or use calendar link
 4. **Receive custom proposal**: Within 5 business days, tailored tier recommendation
 
 ### If You Just Want to Try the Gift Tier
@@ -234,7 +233,7 @@ Yes. Multi-chapter deployments (e.g., entire diocese, denomination, or religious
 
 **Herbert Velez Jr.**  
 Founder, Mythara Engine  
-Email: mytharalabs@yahoo.com  
+Email: MytharaLabsLLC@yahoo.com  
 GitHub: github.com/herbievelezjr/Mythara_Archive
 
 ---

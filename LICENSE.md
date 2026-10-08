@@ -8,9 +8,7 @@
 
 This repository is published for transparency and evaluation. It is **not**
 currently offered under an open-source license, and no production license is
-granted by this file alone. "Mythara Labs LLC" is proposed but not yet formed — Articles
-of Organization filing was attempted with the Colorado Secretary of State on
-September 27, 2026 (not confirmed); no company currently stands behind this software.
+granted by this file alone. "Mythara Labs LLC," a Colorado domestic limited liability company (filed with the Colorado Secretary of State on October 4, 2026; ID #20268239831; member-managed), stands behind this software. Copyright is held by Herbert Velez Jr.
 
 ## What you may do
 

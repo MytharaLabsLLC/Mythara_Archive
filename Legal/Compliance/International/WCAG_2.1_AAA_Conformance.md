@@ -1,6 +1,6 @@
 # WCAG 2.1 Conformance Evaluation Checklist
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved. Proprietary and Confidential.**
+**Copyright © 2025 Herbert Velez Jr. All rights reserved..**
 
 **Product:** Mythara Engine (pre-release, unaudited)  
 **Standard:** W3C Web Content Accessibility Guidelines 2.1  

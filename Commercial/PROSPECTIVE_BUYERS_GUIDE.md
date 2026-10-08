@@ -1,7 +1,6 @@
 # Mythara Prospective Buyer List - Marketing Outreach Guide
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 

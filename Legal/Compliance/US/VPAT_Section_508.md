@@ -1,7 +1,7 @@
 # Voluntary Product Accessibility Template (VPAT)
 ## WCAG Edition / Version 2.5
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved. Proprietary and Confidential.**
+**Copyright © 2025 Herbert Velez Jr. All rights reserved..**
 
 **Name of Product/Version:** Mythara Engine (pre-release, unaudited)
 **Report Date:** November 2, 2025

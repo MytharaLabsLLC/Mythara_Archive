@@ -1,7 +1,6 @@
 # DrMythara Medical Team Suite
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 > **Document status (2026-09-27):** Design document from 2025. The disclaimer in this document stands: this is administrative/workflow assistance only — not medical advice, not a diagnostic tool, not a medical device, and no clinical deployment, certification, or professional review exists. "Clinical functions" below means workflow-support roles (routing, documentation templates, checklists), never medical practice.
 
@@ -422,7 +421,6 @@ class CustomMedicalBot:
 ## 📝 License
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 This software is part of the Mythara Engine and is subject to the Mythara Governance License Agreement.
 
@@ -440,7 +438,7 @@ This software is part of the Mythara Engine and is subject to the Mythara Govern
 ## 📧 Contact
 
 For questions about the DrMythara Medical Team Suite:
-- Email: mytharalabs@yahoo.com
+- Email: MytharaLabsLLC@yahoo.com
 - Documentation: Internal repository docs
 - Support: Via Mythara Governance channels
 

@@ -1,7 +1,6 @@
 # A.M.I.R. Cybersecurity Suite - Legal Rebranding Complete
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 ## Overview
 

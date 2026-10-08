@@ -1,6 +1,5 @@
 # Soul Cradle Operator v1.0
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 
@@ -202,7 +201,7 @@ St. Jude's mission: "Finding cures. Saving children."
 For deployment questions or custom resonance design:  
 **Herbert Velez Jr.**  
 Founder, Mythara Engine  
-Email: mytharalabs@yahoo.com  
+Email: MytharaLabsLLC@yahoo.com  
 GitHub: github.com/herbievelezjr/Mythara_Archive
 
 ---

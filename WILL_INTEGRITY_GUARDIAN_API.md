@@ -3,7 +3,6 @@
 > **Status: design concept.** No emotional-extortion module exists in the repo, no tests exist, and no endpoints are live. Treat all endpoints, scores, payloads, and pricing below as illustrative design — not as a working system.
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 ---
 

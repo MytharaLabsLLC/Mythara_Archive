@@ -7,7 +7,6 @@
 
 # Mythara Engine - Project Valuation Report
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential**
 
 **Valuation Date:** November 18, 2025  
 **Analyst:** AI Business Valuation Agent (generated estimate — not an independent appraisal, not a licensed valuation)  

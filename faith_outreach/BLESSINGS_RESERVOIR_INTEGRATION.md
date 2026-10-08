@@ -1,6 +1,5 @@
 # Blessings Reservoir Integration Guide
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 ---
 
@@ -340,7 +339,7 @@ Every BR transaction generates:
 **Solution**: Verify API key has `dashboard:read` scope; check browser console for CORS errors
 
 ### Contact Support
-- **Email**: mytharalabs@yahoo.com
+- **Email**: MytharaLabsLLC@yahoo.com
 - **Slack**: [Client workspace invite sent post-onboarding]
 - **Phone**: +1 (XXX) XXX-XXXX [for Mythic-Resonant tier clients]
 

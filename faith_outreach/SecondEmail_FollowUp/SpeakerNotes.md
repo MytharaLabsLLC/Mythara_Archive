@@ -1,6 +1,5 @@
 # Speaker Notes: Soul Cradle Training for St. Jude
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Proprietary and Confidential.**
 
 > **DRAFT — illustrative training outline written for a prospective engagement.** St. Jude is named as a prospective example only. No training has been scheduled and no engagement with St. Jude exists.
 

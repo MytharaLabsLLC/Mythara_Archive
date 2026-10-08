@@ -10,19 +10,15 @@ The Mythara Engine, including all associated software, documentation, test suite
 
 ---
 
-## Proprietary and Confidential
+## Rights Reserved
 
-This Software contains proprietary information, trade secrets, and confidential materials. All components are protected under:
-
-- **Copyright Law** (United States and international)
-- **Trade Secret Law**
-- **Contractual Confidentiality Obligations**
+This Software is the proprietary work of Herbert Velez Jr., protected under copyright law (United States and international). It is published for transparency and evaluation under the source-available license in `LICENSE.md`; production use, distribution, and sublicensing require a signed agreement. No trade-secret or confidentiality claim is made over material published in this public repository — confidential treatment applies only to materials shared under a signed NDA.
 
 ---
 
 ## Protected Components
 
-The following components are proprietary and confidential:
+The following components are covered:
 
 ### Core Engine
 - Mythara Engine architecture and implementation
@@ -90,7 +86,7 @@ The following components are proprietary and confidential:
 - Modify, adapt, or create derivative works
 - Reverse engineer, decompile, or disassemble
 - Remove or obscure copyright notices
-- Disclose confidential information to third parties
+- Disclose materials received under NDA to third parties
 
 ---
 
@@ -155,11 +151,11 @@ Failure to enforce any provision of this copyright notice does not constitute a 
 **Herbert Velez Jr.**  
 **Mythara Engine**
 
-- Email: mytharalabs@yahoo.com
+- Email: MytharaLabsLLC@yahoo.com
 - PGP: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 For licensing inquiries, technical support, or security disclosures, please use encrypted communication.
 
 ---
 
-**Last Updated:** November 2, 2025
+**Last Updated:** October 7, 2026

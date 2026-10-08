@@ -3,8 +3,8 @@
 **What this is:** the archive of the Mythara engine work — Soul Cradle, the emotional chain, SERE, and the early Mythara Engine. Design documents, validation reports, and snapshots, preserved as they were built.
 
 **Author:** Herbert Velez Jr. (Denver, CO)
-**Entity:** Mythara Labs (dba) — not a registered LLC
-**Last updated:** September 30, 2026
+**Entity:** Mythara Labs LLC — Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831)
+**Last updated:** October 7, 2026
 
 ---
 
@@ -19,6 +19,14 @@ The engine work archived here grew into a live project:
 The eight witnesses in `soul_cradle/assessors.py` are both the Soul Cradle's evidence-fed assessors and the show's panel: they read the news, argue about what matters, and their disagreements are preserved, not averaged away.
 
 SERE is developed as a **training-simulation concept**: defensive by recording (a tamper-evident log); anything offensive exists only inside the sandboxed simulation, never striking outward.
+
+**Standalone repositories:** Soul Cradle now lives at [herbievelezjr/Soul_Cradle](https://github.com/herbievelezjr/Soul_Cradle) and SERE at [herbievelezjr/SERE](https://github.com/herbievelezjr/SERE) — cleanly documented homes for each. This archive keeps the original copies as built.
+
+**Standalone repositories:** Soul Cradle now lives at [herbievelezjr/Soul_Cradle](https://github.com/herbievelezjr/Soul_Cradle) and SERE at [herbievelezjr/SERE](https://github.com/herbievelezjr/SERE) — cleanly documented homes for each. This archive keeps the original copies as built.
+
+**Standalone repositories:** Soul Cradle now lives at [herbievelezjr/Soul_Cradle](https://github.com/herbievelezjr/Soul_Cradle) and SERE at [herbievelezjr/SERE](https://github.com/herbievelezjr/SERE) — cleanly documented homes for each. This archive keeps the original copies as built.
+
+**Standalone repositories:** Soul Cradle now lives at [herbievelezjr/Soul_Cradle](https://github.com/herbievelezjr/Soul_Cradle) and SERE at [herbievelezjr/SERE](https://github.com/herbievelezjr/SERE) — cleanly documented homes for each. This archive keeps the original copies as built.
 
 ---
 

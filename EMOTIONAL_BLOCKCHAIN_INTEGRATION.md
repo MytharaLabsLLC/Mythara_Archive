@@ -1,7 +1,6 @@
 # Emotional Blockchain Integration Strategy
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 ## The Right Way to Integrate
 

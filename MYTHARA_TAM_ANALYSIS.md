@@ -7,7 +7,6 @@
 
 # Mythara Industries - Total Addressable Market Analysis
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 > **Document status (2026-09-27):** Historical planning document dated November 20, 2025, written for investor positioning that never happened. Every customer count, ARR figure, growth rate, unit-economic metric, and capability claim in this document is a 2025 working scenario — none of it was achieved. As of this note: Mythara is pre-revenue with zero paying customers and zero pilot customers; it holds no SOC 2, ISO, FedRAMP, HIPAA, or PCI-DSS certifications; no patents have been filed; "Mythara Industries" is a working title, not a legal entity; Mythara Labs LLC's formation filing was attempted with the Colorado Secretary of State on 2026-09-27 — not confirmed; entity not yet formed. Capabilities are described as they actually exist today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, a hash-chained emotional chain, defanged Aries (signed action envelopes, benign handlers only), and SERE as a training simulation — never a weapon, never hack-back, never military-ready.
 

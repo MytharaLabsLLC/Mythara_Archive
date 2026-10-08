@@ -1,7 +1,6 @@
 # 📅 12-Month Growth Roadmap - Emotional Extortion Detection
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
-**Proprietary and Confidential.**
 
 > **Status: aspirational plan (drafted November 2025).** Everything below —
 > customer counts, revenue and ARR figures, team growth, timelines, and

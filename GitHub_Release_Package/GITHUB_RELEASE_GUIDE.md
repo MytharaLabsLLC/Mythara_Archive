@@ -160,7 +160,7 @@ See `INSTALL.md` for deployment instructions.
 
 ## Licensing
 
-This software is proprietary. Contact mytharalabs@yahoo.com for licensing conversations.
+This software is proprietary. Contact MytharaLabsLLC@yahoo.com for licensing conversations.
 
 **Proposed license tiers (draft terms, not yet in effect):**
 - Development (internal testing)
@@ -177,7 +177,7 @@ This software is proprietary. Contact mytharalabs@yahoo.com for licensing conver
 # Create release with ZIP attached
 gh release create v1.0.0 `
   --title "Mythara Engine v1.0.0 — Release Package" `
-  --notes "Mythara Engine evaluation package. Proprietary license; contact mytharalabs@yahoo.com for licensing conversations." `
+  --notes "Mythara Engine evaluation package. Proprietary license; contact MytharaLabsLLC@yahoo.com for licensing conversations." `
   mythara-engine-v1.0.0.zip
 
 Write-Host "✅ Release published!"
@@ -272,7 +272,7 @@ Verify integrity:
 
 After extraction, follow verification steps in README.md.
 
-Questions? Contact mytharalabs@yahoo.com
+Questions? Contact MytharaLabsLLC@yahoo.com
 ```
 
 ---

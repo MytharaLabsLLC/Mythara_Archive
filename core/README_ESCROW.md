@@ -111,7 +111,7 @@ For licensing, escrow release, or sovereign deployment support, contact:
 
 ```plaintext
 Herbert Velez Jr.
-mytharalabs@yahoo.com
+MytharaLabsLLC@yahoo.com
 PGP Fingerprint: 571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C
 ```
 

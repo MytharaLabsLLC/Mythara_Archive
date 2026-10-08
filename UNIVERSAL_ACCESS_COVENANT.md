@@ -259,16 +259,16 @@ Legal/Compliance/
 ## 🔐 Compliance Contacts
 
 **Accessibility Issues:**
-- Email: mytharalabs@yahoo.com
+- Email: MytharaLabsLLC@yahoo.com
 - Response: 48 hours
 - Resolution: 30 days (critical), 90 days (non-critical)
 
 **Privacy/Data Protection:**
-- Email: mytharalabs@yahoo.com
+- Email: MytharaLabsLLC@yahoo.com
 - DPO: [To be assigned by licensee]
 
 **Legal/Regulatory:**
-- Email: mytharalabs@yahoo.com
+- Email: MytharaLabsLLC@yahoo.com
 - Counsel: [External or in-house as appropriate]
 
 ---

@@ -480,12 +480,12 @@ class MytharaWidget {
         
         // Startup specific
         if (lowerInput.includes('startup') || lowerInput.includes('small') || lowerInput.includes('seed')) {
-            return "We have two startup tiers. Startup Small Teams at 249 per month is built for small businesses with 1 to 10 employees. If you're an early stage AI company under 5 million ARR, the Startup License at 2500 per month gives you 100 thousand API calls and full governance access. Which one fits your stage?";
+            return "We have startup-friendly options for small teams and early-stage AI companies — scope and pricing depend on your stage and use. Email Mythara.Engine@yahoo.com and we'll figure out what fits.";
         }
         
         // Enterprise specific
         if (lowerInput.includes('enterprise') && !lowerInput.includes('license')) {
-            return "Enterprise License at 50 thousand per month gets you the full package—unlimited API calls, 24 7 premium support, dedicated account manager, the works. It's built for Fortune 500 companies and major enterprises where a compliance issue would be a really big deal. If you're at that scale, happy to walk through what's included.";
+            return "We offer an enterprise tier for larger organizations — custom scope, dedicated support, and deployment options including on-premise. Pricing is set per engagement. Email Mythara.Engine@yahoo.com and we'll walk through what fits your scale.";
         }
         
         // On-premise specific
