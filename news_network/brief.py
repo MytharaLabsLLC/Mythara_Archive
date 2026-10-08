@@ -23,6 +23,8 @@ from .witness_news import VERDICT_WORDS
 
 TRADE_SLUG = "trade"
 TRADE_GUARANTEED = 3  # trade events always in the brief, even below the cutoff
+# Standing columns: TechTalk and Business always get space, like trade does.
+COLUMN_GUARANTEED = {"tech": 2, "business": 2}
 
 
 def load_all_summaries(state_dir: Path) -> List[Dict]:
@@ -74,15 +76,37 @@ def _rank_key(s: Dict):
 
 
 def build_brief(summaries: List[Dict], state_dir: Path,
-                max_events: int = 10) -> Path:
+                max_events: int = 12) -> Path:
     """Write the daily brief markdown, grouped by topic. Returns the path."""
     state_dir = Path(state_dir)
     dossier_dir = state_dir / "dossiers"
     ranked = sorted(summaries, key=_rank_key, reverse=True)
+    # Only dossiers that clear the publishing bar (>= 2 outlets) can be
+    # featured: every brief link must resolve to a real published post, and
+    # the publisher only turns multi-outlet dossiers into posts.
+    ranked = [s for s in ranked if len(s.get("outlets", [])) >= 2]
 
-    # Lead topic first: the top trade events are guaranteed space.
-    trade = [s for s in ranked if _topic_of(s, dossier_dir) == TRADE_SLUG][:TRADE_GUARANTEED]
-    picked = list(trade)
+    # Lead topic first, then the standing columns: their top events are
+    # guaranteed space in every brief, even below the ranking cutoff.
+    # (Topic lookups are cached — each dossier file is read once.)
+    topic_of: Dict[str, str] = {}
+
+    def topic(s: Dict) -> str:
+        eid = s["event_id"]
+        if eid not in topic_of:
+            topic_of[eid] = _topic_of(s, dossier_dir)
+        return topic_of[eid]
+
+    picked: List[Dict] = []
+    for slug, n in [(TRADE_SLUG, TRADE_GUARANTEED),
+                    *COLUMN_GUARANTEED.items()]:
+        got = sum(1 for p in picked if topic(p) == slug)
+        for s in ranked:
+            if got >= n:
+                break
+            if topic(s) == slug and s not in picked:
+                picked.append(s)
+                got += 1
     for s in ranked:
         if len(picked) >= max_events:
             break
@@ -112,6 +136,21 @@ def build_brief(summaries: List[Dict], state_dir: Path,
             break
 
     today = datetime.now(tz=DENVER).strftime("%Y-%m-%d")
+
+    # IPO watch: top IPO-flavored events across the whole ranking, for the
+    # Business column's IPO watch subsection of Market analysis.
+    ipos = []
+    for s in ranked:
+        if len(ipos) >= 3:
+            break
+        text = (_dossier_md(s, dossier_dir) + " "
+                + " ".join(s.get("key_terms", []))).lower()
+        if any(k in text for k in ("ipo", "initial public offering",
+                                   "goes public", "going public", "s-1 filing")):
+            ipos.append({
+                "title": display_title(s, _dossier_md(s, dossier_dir)),
+                "dossier_link": f"../dossiers/{s['event_id']}.md",
+            })
 
     lines: List[str] = []
     A = lines.append
@@ -144,7 +183,7 @@ def build_brief(summaries: List[Dict], state_dir: Path,
         A("")
         if slug == TRADE_SLUG:
             # The numbers desk sits right behind the lead topic.
-            lines.extend(market_section(drivers))
+            lines.extend(market_section(drivers, ipos))
 
     brief_dir = state_dir / "briefs"
     brief_dir.mkdir(parents=True, exist_ok=True)

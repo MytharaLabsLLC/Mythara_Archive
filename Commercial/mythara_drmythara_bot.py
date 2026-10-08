@@ -19,7 +19,7 @@ core.
 NOT A MEDICAL PROFESSIONAL. DOES NOT PROVIDE MEDICAL ADVICE.
 COMPLIANCE GUIDANCE ONLY.
 
-HONESTY CONTRACT (read before using the checklist functions):
+PLAIN-LANGUAGE PROMISE (read before using the checklist functions):
   * Every "audit" / "validation" / "assessment" function below is a
     SELF-ASSESSMENT CHECKLIST, not an audit. It evaluates ONLY the
     answers the caller supplies and derives every finding from those
@@ -35,6 +35,10 @@ HONESTY CONTRACT (read before using the checklist functions):
   * Output is always labeled "self-assessment checklist, not an audit"
     and never implies certification, compliance achievement, audit
     completeness, or a regulatory determination.
+  * The database is encrypted at rest (Fernet) and every compliance
+    function requires sign-in. The current posture is documented in
+    COMPLIANCE_STATUS.md — "built with compliance in mind; readiness,
+    never certified."
 """
 
 # Repo-root bootstrap so the wrapper can reach the Soul Cradle core.
@@ -43,6 +47,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import json
 import sqlite3
 import hashlib
+import functools
 from datetime import datetime, timedelta
 from typing import Dict, List, Any, Optional, Callable
 import requests
@@ -70,6 +75,92 @@ except ImportError:  # pragma: no cover — direct-script fallback
         checklist_evidence,
         WitnessUnavailable,
     )
+
+try:
+    from drmythara_security import (
+        EncryptedSQLite,
+        DataKey,
+        MissingDataKeyError,
+        SecurityError as DrMytharaSecurityError,
+        AuthenticationError as DrMytharaAuthenticationError,
+        AccountLockedError as DrMytharaAccountLockedError,
+        SessionError as DrMytharaSessionError,
+        AccessDeniedError as DrMytharaAccessDeniedError,
+        BackupError as DrMytharaBackupError,
+        PasswordHasher,
+        UserStore,
+        SessionManager,
+        BreakGlass,
+        AuditReview,
+        BackupManager,
+        assert_subject_allowed,
+    )
+    from drmythara_persona import MytharaVoice, check_claim as _check_claim
+    from drmythara_llm import MytharaChat, ChatConfig, SYSTEM_PROMPT
+    from drmythara_vitals import (
+        VitalReading,
+        VitalsStore,
+        WellnessEngine,
+        WellnessReport,
+        Observation,
+        screen_symptoms,
+        WELLNESS_DISCLAIMER,
+    )
+    from drmythara_council import CareCouncil, CouncilResult
+    from drmythara_ledger import (
+        VitalsLedger,
+        export_doctor_summary as _export_doctor_summary,
+        VITAL_READING,
+        WELLNESS_REPORT,
+        COUNCIL_DELIBERATION,
+        SYMPTOM_SCREEN,
+        CHAT_NOTE,
+    )
+    _SECURITY_AVAILABLE = True
+except ImportError:  # pragma: no cover — direct-script fallback
+    from pathlib import Path as _SecPath
+
+    sys.path.insert(0, str(_SecPath(__file__).resolve().parent))
+    from drmythara_security import (
+        EncryptedSQLite,
+        DataKey,
+        MissingDataKeyError,
+        SecurityError as DrMytharaSecurityError,
+        AuthenticationError as DrMytharaAuthenticationError,
+        AccountLockedError as DrMytharaAccountLockedError,
+        SessionError as DrMytharaSessionError,
+        AccessDeniedError as DrMytharaAccessDeniedError,
+        BackupError as DrMytharaBackupError,
+        PasswordHasher,
+        UserStore,
+        SessionManager,
+        BreakGlass,
+        AuditReview,
+        BackupManager,
+        assert_subject_allowed,
+    )
+    from drmythara_persona import MytharaVoice, check_claim as _check_claim
+    from drmythara_llm import MytharaChat, ChatConfig, SYSTEM_PROMPT
+    from drmythara_vitals import (
+        VitalReading,
+        VitalsStore,
+        WellnessEngine,
+        WellnessReport,
+        Observation,
+        screen_symptoms,
+        WELLNESS_DISCLAIMER,
+    )
+    from drmythara_council import CareCouncil, CouncilResult
+    from drmythara_ledger import (
+        VitalsLedger,
+        export_doctor_summary as _export_doctor_summary,
+        VITAL_READING,
+        WELLNESS_REPORT,
+        COUNCIL_DELIBERATION,
+        SYMPTOM_SCREEN,
+        CHAT_NOTE,
+    )
+    _SECURITY_AVAILABLE = True
 
 # Orchestrator connection
 ORCHESTRATOR_URL = "http://localhost:5000"
@@ -168,23 +259,80 @@ def prompt_answer(check_id: str, requirement: str):
     return input(f"[{check_id}] {requirement}\n  Implemented? (yes/no/unknown): ")
 
 
+def _requires_auth(method):
+    """Method decorator: no signed-in session, no ePHI function.
+
+    Raises DrMytharaSessionError ("Not signed in…") when called without
+    login(). Applied to every method that reads or writes protected data.
+    """
+    @functools.wraps(method)
+    def wrapper(self, *args, **kwargs):
+        self._current_session()  # raises when not signed in
+        return method(self, *args, **kwargs)
+    return wrapper
+
+
 class DrMytharaBot:
     """DrMythara Bot - Healthcare compliance specialist (user-facing wrapper)."""
 
-    def __init__(self):
+    def __init__(
+        self,
+        *,
+        data_key: Optional[str] = None,
+        dev_mode: bool = False,
+        db_path: Optional[str] = None,
+        persona: bool = True,
+    ):
+        """Create the bot.
+
+        data_key: Fernet key for at-rest encryption. Defaults to the
+            DRMYTHARA_DATA_KEY environment variable. Missing key raises
+            MissingDataKeyError unless dev_mode=True.
+        dev_mode: run WITHOUT encryption (loud warnings). Dev and tests
+            only — never point at real data.
+        db_path: database file location (default mythara_drmythara.db
+            in the current directory).
+        persona: attach Mythara's voice layer (default on).
+        """
         self.bot_id = "drmythara_bot"
         self.bot_token = None
-        self.db_path = "mythara_drmythara.db"
+        self.db_path = db_path or "mythara_drmythara.db"
+        self.dev_mode = dev_mode
+
+        # At-rest encryption key: provisioned secret config only, never
+        # ephemeral. Fail closed on ePHI paths.
+        self._fernet = DataKey.resolve(data_key, strict=not dev_mode)
+        if self._fernet is None:
+            print(
+                "⚠️  DrMythara running in DEV MODE: database is NOT encrypted. "
+                "Set DRMYTHARA_DATA_KEY for real use."
+            )
 
         # Rule views are projections of the canonical core — not copies.
         self.hipaa_rules = _nested_rule_view()
         self.ai_governance = dict(AI_GOVERNANCE_REFERENCE)
 
-        # Initialize database
+        # Auth + sessions + audit trail
+        self.sessions = SessionManager()
+        self._session_token: Optional[str] = None
+        self._breakglass: Optional[BreakGlass] = None  # lazy: needs secret
+
+        # Mythara's voice (the "I Am Mythara" character).
+        self.voice = MytharaVoice() if persona else None
+        self._chat: Optional["MytharaChat"] = None  # lazy: needs LLM config
+
+        # Initialize database (encrypted)
         self._init_db()
 
         # Register with orchestrator
         self._register()
+
+    # -- database (encrypted at rest) ------------------------------------
+
+    def _db(self):
+        """Context manager yielding a sqlite3 connection to the encrypted
+        database. Commits on clean exit."""
+        return EncryptedSQLite(self.db_path, self._fernet)
 
     # -- canonical core passthroughs -------------------------------------
 
@@ -207,8 +355,16 @@ class DrMytharaBot:
     # -- audit trail ------------------------------------------------------
 
     def _init_db(self):
-        """Initialize DrMythara database."""
-        conn = sqlite3.connect(self.db_path)
+        """Initialize the DrMythara database (encrypted at rest).
+
+        Creates the checklist tables plus the security tables (users,
+        chained security events, review sign-offs).
+        """
+        with self._db() as conn:
+            self._create_tables(conn)
+
+    def _create_tables(self, conn):
+        """Create all tables: checklist audit trail + security tables."""
         c = conn.cursor()
 
         # HIPAA compliance audits
@@ -313,9 +469,16 @@ class DrMytharaBot:
             )
         ''')
 
-        conn.commit()
-        conn.close()
-        print("[OK] DrMythara Bot database initialized: mythara_drmythara.db")
+        # Security tables: users, hash-chained security events, reviews.
+        UserStore(conn)
+        AuditReview(conn)
+
+        # Wellness tables: vitals readings + hash-chained health ledger.
+        VitalsStore(conn)
+        VitalsLedger(conn)
+
+        print(f"[OK] DrMythara Bot database initialized: {self.db_path}"
+              + ("" if self._fernet else " (DEV MODE — unencrypted)"))
 
     def _register(self):
         """Register with Mythara Orchestrator."""
@@ -339,6 +502,548 @@ class DrMytharaBot:
         """Generate SHA-256 hash for audit trail."""
         json_str = json.dumps(data, sort_keys=True)
         return hashlib.sha256(json_str.encode()).hexdigest()[:16]
+
+    # -- authentication & sessions --------------------------------------
+
+    def _current_session(self) -> Dict[str, Any]:
+        """Return the current session or raise (used by _requires_auth)."""
+        if not self._session_token:
+            raise DrMytharaSessionError("Not signed in. Call login() first.")
+        return self.sessions.validate(self._session_token)
+
+    def _audit(self, conn, actor: str, action: str,
+               subject: Optional[str] = None,
+               detail: Optional[str] = None,
+               emergency: bool = False) -> None:
+        AuditReview(conn).log_event(actor, action, subject=subject,
+                                    detail=detail, emergency=emergency)
+
+    def create_user(self, user_id: str, password: str,
+                    role: str = "clinician") -> Dict[str, str]:
+        """Create a user account.
+
+        First-user bootstrap: when no users exist yet, the first account
+        is created without a session (it becomes admin) and the event is
+        logged. Afterwards, only a signed-in admin can create users.
+        """
+        with self._db() as conn:
+            store = UserStore(conn)
+            if store.user_count() == 0:
+                rec = store.create_user(user_id, password, role="admin")
+                self._audit(conn, user_id, "first_admin_created",
+                            detail="bootstrap: first user becomes admin")
+                return rec
+            sess = self._current_session()
+            if sess["role"] != "admin":
+                raise DrMytharaAccessDeniedError(
+                    "Only an admin can create users.")
+            rec = store.create_user(user_id, password, role)
+            self._audit(conn, sess["user_id"], "user_created",
+                        detail=f"created {user_id} with role {role}",
+                        emergency=sess["emergency"])
+            return rec
+
+    def login(self, user_id: str, password: str) -> Dict[str, str]:
+        """Sign in. Returns a session token plus the user record.
+
+        Passwords are verified with PBKDF2-HMAC-SHA256 (per-user salt).
+        Five wrong tries lock the account for 15 minutes. Failures are
+        logged without revealing whether the user ID exists.
+        """
+        with self._db() as conn:
+            store = UserStore(conn)
+            try:
+                user = store.authenticate(user_id, password)
+            except (DrMytharaAuthenticationError,
+                    DrMytharaAccountLockedError) as exc:
+                self._audit(conn, user_id or "unknown", "login_failed",
+                            detail=type(exc).__name__)
+                raise
+            token = self.sessions.create_session(user["user_id"],
+                                                 user["role"])
+            self._session_token = token
+            self._audit(conn, user["user_id"], "login")
+            return {"token": token, **user}
+
+    def logout(self) -> None:
+        """End the current session."""
+        if not self._session_token:
+            return
+        try:
+            actor = self.sessions.validate(self._session_token)["user_id"]
+        except DrMytharaSessionError:
+            actor = "unknown"
+        self.sessions.revoke(self._session_token)
+        self._session_token = None
+        with self._db() as conn:
+            self._audit(conn, actor, "logout")
+
+    # -- break-glass emergency access ------------------------------------
+
+    def _get_breakglass(self) -> BreakGlass:
+        if self._breakglass is None:
+            # Raises SecurityError until DRMYTHARA_BREAKGLASS_SECRET is set.
+            self._breakglass = BreakGlass()
+        return self._breakglass
+
+    def break_glass_request(self, operator_id: str, reason: str) -> Dict[str, str]:
+        """Issue a 30-minute emergency token. Does NOT need a session —
+        that is the point: it exists for when normal sign-in is impossible.
+
+        The reason is required and the issuance is written to the
+        security log flagged for review. Rotate the break-glass secret
+        after any use.
+        """
+        issued = self._get_breakglass().issue_token(operator_id, reason)
+        with self._db() as conn:
+            self._audit(conn, operator_id, "break_glass_issued",
+                        detail=f"reason: {reason}", emergency=True)
+        return issued
+
+    def login_break_glass(self, token: str) -> Dict[str, str]:
+        """Sign in with an emergency token. The session is admin-scoped,
+        lasts 30 minutes, and every action under it is flagged emergency
+        in the audit log."""
+        rec = self._get_breakglass().validate_token(token)
+        sess_token = self.sessions.create_session(
+            rec["operator_id"], "admin", emergency=True,
+            ttl=timedelta(minutes=30))
+        self._session_token = sess_token
+        with self._db() as conn:
+            self._audit(conn, rec["operator_id"], "break_glass_login",
+                        detail=f"reason: {rec['reason']}", emergency=True)
+        return {"token": sess_token, "user_id": rec["operator_id"],
+                "role": "admin", "emergency": True}
+
+    # -- PHI incidents (subject-scoped) -----------------------------------
+
+    @_requires_auth
+    def record_phi_incident(self, *, incident_type: str, severity: str,
+                            subject_id: Optional[str] = None,
+                            affected_records: int = 0,
+                            affected_phi_categories: Optional[List[str]] = None,
+                            root_cause: str = "",
+                            remediation_actions: str = "") -> Dict[str, str]:
+        """Record a PHI incident. Written to the encrypted database and
+        the security log. breach_notification_required is an initial
+        triage flag, not a legal determination."""
+        sess = self._current_session()
+        incident_id = (
+            f"PHI-{datetime.now().strftime('%Y%m%d')}-{os.urandom(4).hex().upper()}"
+        )
+        breach_flag = severity in ("high", "critical") and affected_records > 0
+        row = {
+            "incident_id": incident_id,
+            "detected_at": datetime.now().isoformat(),
+            "incident_type": incident_type,
+            "severity": severity,
+            "affected_records": affected_records,
+            "affected_phi_categories": json.dumps(affected_phi_categories or []),
+            "breach_notification_required": int(breach_flag),
+            "ocr_notified": 0,
+            "patients_notified": 0,
+            "root_cause": root_cause,
+            "remediation_actions": remediation_actions,
+            "status": "investigating",
+            "resolved_at": None,
+            "integrity_hash": "",
+            "subject_id": subject_id,
+        }
+        row["integrity_hash"] = self._generate_integrity_hash(
+            {k: v for k, v in row.items() if k != "integrity_hash"})
+        with self._db() as conn:
+            cols = [r[1] for r in conn.execute("PRAGMA table_info(phi_incidents)")]
+            if "subject_id" not in cols:
+                conn.execute("ALTER TABLE phi_incidents ADD COLUMN subject_id TEXT")
+            conn.execute(
+                """INSERT INTO phi_incidents
+                   (incident_id, detected_at, incident_type, severity,
+                    affected_records, affected_phi_categories,
+                    breach_notification_required, ocr_notified, patients_notified,
+                    root_cause, remediation_actions, status, resolved_at,
+                    integrity_hash, subject_id)
+                   VALUES (:incident_id, :detected_at, :incident_type, :severity,
+                    :affected_records, :affected_phi_categories,
+                    :breach_notification_required, :ocr_notified, :patients_notified,
+                    :root_cause, :remediation_actions, :status, :resolved_at,
+                    :integrity_hash, :subject_id)""", row)
+            self._audit(conn, sess["user_id"], "phi_incident_recorded",
+                        subject=subject_id,
+                        detail=f"{incident_id} severity={severity}",
+                        emergency=sess["emergency"])
+        return {"incident_id": incident_id,
+                "breach_notification_required": breach_flag,
+                "status": "investigating"}
+
+    @_requires_auth
+    def list_phi_incidents(
+            self, subject_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """List PHI incidents. Minimum-necessary: non-admins see only
+        their own subject's incidents; admins may filter or see all.
+        Every read is logged."""
+        sess = self._current_session()
+        if sess["role"] == "admin":
+            requested = subject_id  # None = all
+        else:
+            requested = subject_id or sess["user_id"]
+            assert_subject_allowed(sess["user_id"], requested)
+        with self._db() as conn:
+            cols = [r[1] for r in conn.execute("PRAGMA table_info(phi_incidents)")]
+            if "subject_id" not in cols:
+                conn.execute("ALTER TABLE phi_incidents ADD COLUMN subject_id TEXT")
+            if requested:
+                rows = conn.execute(
+                    "SELECT * FROM phi_incidents WHERE subject_id = ? "
+                    "ORDER BY detected_at DESC", (requested,)).fetchall()
+                names = [d[1] for d in conn.execute(
+                    "PRAGMA table_info(phi_incidents)")]
+            else:
+                rows = conn.execute(
+                    "SELECT * FROM phi_incidents ORDER BY detected_at DESC"
+                ).fetchall()
+                names = [d[1] for d in conn.execute(
+                    "PRAGMA table_info(phi_incidents)")]
+            self._audit(conn, sess["user_id"], "phi_incidents_listed",
+                        subject=requested, detail=f"{len(rows)} rows",
+                        emergency=sess["emergency"])
+            result = [dict(zip(names, r)) for r in rows]
+        return result
+
+    # -- backups & restore tests ------------------------------------------
+
+    @_requires_auth
+    def backup_now(self, label: str = "drmythara") -> Dict[str, str]:
+        """Write an encrypted backup of the database. Logged."""
+        sess = self._current_session()
+        if self._fernet is None:
+            raise DrMytharaBackupError(
+                "Backups need a data key — dev mode has none.")
+        backup_dir = os.path.join(
+            os.path.dirname(os.path.abspath(self.db_path)), "backups")
+        result = BackupManager(backup_dir).backup(
+            self.db_path, self._fernet, label)
+        with self._db() as conn:
+            self._audit(conn, sess["user_id"], "backup",
+                        detail=f"{result['backup']} sha256={result['sha256'][:16]}…",
+                        emergency=sess["emergency"])
+        return result
+
+    @_requires_auth
+    def test_restore_now(self, label: str = "drmythara") -> Dict[str, Any]:
+        """Run a full restore drill (backup → restore → verify) and log
+        the result. Raises BackupError on any failure."""
+        sess = self._current_session()
+        if self._fernet is None:
+            raise DrMytharaBackupError(
+                "Restore tests need a data key — dev mode has none.")
+
+        def _verify(path: str) -> None:
+            with EncryptedSQLite(path, self._fernet) as conn:
+                conn.execute("SELECT COUNT(*) FROM hipaa_audits").fetchone()
+
+        report = BackupManager(
+            os.path.dirname(os.path.abspath(self.db_path))
+        ).test_restore(self.db_path, self._fernet, label,
+                       verify_opens=_verify)
+        with self._db() as conn:
+            self._audit(conn, sess["user_id"], "restore_test",
+                        detail=f"ok={report['ok']} sha256={report['restored_sha256'][:16]}…",
+                        emergency=sess["emergency"])
+        return report
+
+    # -- audit review sign-off ---------------------------------------------
+
+    @_requires_auth
+    def pending_review(self) -> Dict[str, Any]:
+        """Security events since the last review, plus chain health."""
+        with self._db() as conn:
+            return AuditReview(conn).review_status()
+
+    @_requires_auth
+    def sign_off_review(self, note: str = "") -> Dict[str, Any]:
+        """Review all pending security events and record the sign-off,
+        hash-chained. The sign-off itself is logged."""
+        sess = self._current_session()
+        with self._db() as conn:
+            audit = AuditReview(conn)
+            result = audit.sign_off(sess["user_id"], note)
+            self._audit(conn, sess["user_id"], "review_sign_off",
+                        detail=f"reviewed {result['events_reviewed']} events",
+                        emergency=sess["emergency"])
+        return result
+
+    # -- Mythara's voice ----------------------------------------------------
+
+    def greet(self) -> str:
+        """The character's introduction (the "I Am Mythara" monologue)."""
+        if self.voice is None:
+            return "DrMythara compliance assistant ready."
+        return self.voice.greet()
+
+    def introduce(self) -> str:
+        """The wellness companion's greeting: honest disclosure first,
+        warm clinical frame. This is how she meets someone — the "Dr"
+        is her character name, not a credential."""
+        if self.voice is None:
+            return "DrMythara wellness companion ready."
+        return self.voice.intro()
+
+    # -- wellness companion -------------------------------------------------
+    # Vitals + heuristic wellness, voiced clinically, recorded in the
+    # hash-chained ledger. Every method needs sign-in; non-admins are
+    # scoped to their own subject (minimum-necessary).
+
+    @staticmethod
+    def _resolve_subject(sess: Dict[str, Any],
+                         subject_id: Optional[str]) -> str:
+        """Minimum-necessary: non-admins act only on their own subject."""
+        if sess["role"] == "admin":
+            return subject_id or sess["user_id"]
+        subject = subject_id or sess["user_id"]
+        assert_subject_allowed(sess["user_id"], subject)
+        return subject
+
+    @staticmethod
+    def _obs_to_dict(obs: "Observation") -> Dict[str, Any]:
+        return {
+            "rule_id": obs.rule_id,
+            "severity": obs.severity,
+            "title": obs.title,
+            "saw": obs.saw,
+            "why_it_matters": obs.why_it_matters,
+            "consider": obs.consider,
+            "reasoning": list(obs.reasoning or []),
+            "values": dict(obs.values or {}),
+        }
+
+    @_requires_auth
+    def record_vitals(self, vital_type: str, value: float, *,
+                      subject_id: Optional[str] = None,
+                      unit: str = "",
+                      secondary: Optional[float] = None,
+                      note: str = "",
+                      source: str = "manual",
+                      taken_at: Optional[str] = None) -> Dict[str, Any]:
+        """Record one vitals reading, voiced back in her clinical voice.
+
+        The reading is stored in the encrypted database and chained
+        into the health ledger. Implausible values are rejected as
+        likely entry errors (see drmythara_vitals._sanity_check).
+        """
+        sess = self._current_session()
+        subject = self._resolve_subject(sess, subject_id)
+        reading = VitalReading(
+            subject_id=subject, vital_type=vital_type, value=value,
+            unit=unit, secondary=secondary, note=note, source=source,
+            taken_at=taken_at)
+        with self._db() as conn:
+            store = VitalsStore(conn)
+            ledger = VitalsLedger(conn)
+            reading_id = store.record(reading)
+            ledger.record(subject, VITAL_READING, {
+                "reading_id": reading_id,
+                "vital_type": vital_type,
+                "value": value,
+                "secondary": secondary,
+                "unit": unit,
+                "taken_at": reading.taken_at,
+                "source": source,
+                "note": note,
+            })
+            self._audit(conn, sess["user_id"], "vital_recorded",
+                        subject=subject,
+                        detail=f"{vital_type} reading {reading_id}",
+                        emergency=sess["emergency"])
+        spoken = self.voice.narrate(
+            f"Recorded: {vital_type} {value:g}"
+            f"{'/' + str(secondary) if secondary else ''}"
+            f" {unit} for you.".strip()) if self.voice else "Recorded."
+        return {"reading_id": reading_id, "spoken": spoken,
+                "subject_id": subject}
+
+    @_requires_auth
+    def wellness_check(self, subject_id: Optional[str] = None
+                       ) -> Dict[str, Any]:
+        """Run the full wellness flow: heuristic engine, care council,
+        hash-chained record — spoken in her clinical voice.
+
+        Escalations are voiced first and directly; the council's note
+        is attached (its deliberation never gates urgent care).
+        """
+        sess = self._current_session()
+        subject = self._resolve_subject(sess, subject_id)
+        with self._db() as conn:
+            store = VitalsStore(conn)
+            ledger = VitalsLedger(conn)
+            report = WellnessEngine().evaluate(subject, store)
+            council_result = CareCouncil().deliberate(report)
+            ledger.record(subject, WELLNESS_REPORT, {
+                "generated_at": report.generated_at,
+                "rules_evaluated": report.rules_evaluated,
+                "observations": [self._obs_to_dict(o)
+                                 for o in report.observations],
+            })
+            ledger.record(subject, COUNCIL_DELIBERATION, {
+                "verdict": council_result.verdict,
+                "observations_count": len(report.observations),
+                "dissent": council_result.dissent,
+                "judgment_hashes": [j.get("integrity_hash")
+                                    for j in council_result.judgments],
+            })
+            self._audit(conn, sess["user_id"], "wellness_check",
+                        subject=subject,
+                        detail=(f"{len(report.observations)} observations, "
+                                f"council={council_result.verdict}"),
+                        emergency=sess["emergency"])
+        spoken = self.voice.narrate_wellness(report)
+        spoken += "\n\n" + council_result.note
+        return {
+            "spoken": spoken,
+            "observations": [self._obs_to_dict(o)
+                             for o in report.observations],
+            "council_verdict": council_result.verdict,
+            "council_note": council_result.note,
+            "subject_id": subject,
+        }
+
+    @_requires_auth
+    def symptom_prescreen(self, text: str,
+                          subject_id: Optional[str] = None) -> Dict[str, Any]:
+        """Screen free text for emergency symptoms — locally, instantly.
+
+        On match: direct escalation in her voice, chained to the
+        ledger. Otherwise a calm, honest all-clear (not a diagnosis).
+        Runs before any LLM call; the model is never the safety net.
+        """
+        sess = self._current_session()
+        subject = self._resolve_subject(sess, subject_id)
+        found = screen_symptoms(text or "")
+        with self._db() as conn:
+            ledger = VitalsLedger(conn)
+            if found is not None:
+                ledger.record(subject, SYMPTOM_SCREEN, {
+                    "matched": found.values.get("matched", []),
+                    "title": found.title,
+                    "escalated": True,
+                })
+                self._audit(conn, sess["user_id"], "symptom_escalation",
+                            subject=subject,
+                            detail=f"matched={found.values.get('matched', [])}",
+                            emergency=sess["emergency"])
+                spoken = self.voice.escalate_care(
+                    f"{found.title}. {found.saw}")
+                return {"escalated": True, "spoken": spoken,
+                        "subject_id": subject}
+            ledger.record(subject, SYMPTOM_SCREEN, {
+                "matched": [], "escalated": False})
+            self._audit(conn, sess["user_id"], "symptom_screen_clear",
+                        subject=subject, emergency=sess["emergency"])
+            spoken = self.voice.narrate(
+                "I listened for emergency patterns in what you described "
+                "and did not find any. If anything changes or you feel "
+                "worse, tell me right away — and trust your own sense of "
+                "urgency over any screening.")
+            return {"escalated": False, "spoken": spoken,
+                    "subject_id": subject}
+
+    @_requires_auth
+    def export_doctor_summary(self, subject_id: Optional[str] = None) -> str:
+        """The "bring to your doctor" summary — plain language, chained
+        record behind it, honest disclaimer attached."""
+        sess = self._current_session()
+        subject = self._resolve_subject(sess, subject_id)
+        with self._db() as conn:
+            store = VitalsStore(conn)
+            ledger = VitalsLedger(conn)
+            summary = _export_doctor_summary(subject, ledger, store)
+            self._audit(conn, sess["user_id"], "doctor_summary_exported",
+                        subject=subject, emergency=sess["emergency"])
+        return summary
+
+    @_requires_auth
+    def chat(self, message: str) -> Dict[str, Any]:
+        """Conversational chat with Mythara (sign-in required).
+
+        The message goes through the LLM backend configured by
+        DRMYTHARA_LLM_PROVIDER (default "anthropic") with Mythara's
+        system prompt. ePHI protection: without DRMYTHARA_BAA_SIGNED=1,
+        messages with detected identifiers are refused, never sent to
+        an external provider. The model's reply is screened for
+        forbidden compliance claims.
+
+        Only metadata is logged (provider, flags) — never message text.
+        """
+        sess = self._current_session()
+
+        # Safety first, locally: emergency symptoms never wait for the
+        # model. The LLM is conversational, never the safety net.
+        screened = screen_symptoms(message or "")
+        if screened is not None:
+            with self._db() as conn:
+                VitalsLedger(conn).record(
+                    self._resolve_subject(sess, None), SYMPTOM_SCREEN, {
+                        "matched": screened.values.get("matched", []),
+                        "title": screened.title,
+                        "escalated": True,
+                        "via": "chat",
+                    })
+                self._audit(conn, sess["user_id"], "symptom_escalation",
+                            subject=sess["user_id"],
+                            detail="via chat: "
+                            f"{screened.values.get('matched', [])}",
+                            emergency=sess["emergency"])
+            return {
+                "reply": self.voice.escalate_care(
+                    f"{screened.title}. {screened.saw}"),
+                "provider": "local-screen",
+                "sent_to_provider": False,
+                "phi_detected": False,
+                "claim_flagged": False,
+                "escalated": True,
+            }
+
+        if self._chat is None:
+            self._chat = MytharaChat()  # config from environment
+        reply = self._chat.ask(message)
+        with self._db() as conn:
+            self._audit(conn, sess["user_id"], "llm_chat",
+                        detail=(f"provider={reply.provider} "
+                                f"sent={reply.sent_to_provider} "
+                                f"phi={reply.phi_detected} "
+                                f"claim_flagged={reply.claim_flagged}"),
+                        emergency=sess["emergency"])
+        return {
+            "reply": reply.text,
+            "provider": reply.provider,
+            "sent_to_provider": reply.sent_to_provider,
+            "phi_detected": reply.phi_detected,
+            "claim_flagged": reply.claim_flagged,
+            "escalated": False,
+        }
+
+    def narrate(self, result: Dict[str, Any]) -> str:
+        """Render a checklist result in Mythara's voice.
+
+        The voice layer self-checks every output: it can speak of the
+        safeguards that genuinely exist (tamper-evident records, faithful
+        logging) but can never assert certification or compliance.
+        """
+        if self.voice is None:
+            return json.dumps(result, indent=2, default=str)[:2000]
+        summary = {
+            "domain": str(result.get("organization") or result.get("system_name")
+                          or result.get("ai_system_name") or "this review"),
+            "total_controls": int(result.get("controls_answered", 0)
+                                  + result.get("controls_unanswered", 0)),
+            "status_counts": {
+                "compliant": int(result.get("controls_passed", 0)),
+                "partial": 0,
+                "non_compliant": int(result.get("controls_failed", 0)),
+                "unknown": int(result.get("controls_unanswered", 0)),
+            },
+        }
+        spoken = self.voice.narrate_summary(summary)
+        return f"{spoken}\n\n{self.voice.closing()}"
 
     # -- honest checklist engine (self-assessment; nothing is simulated) ---
 
@@ -511,6 +1216,7 @@ class DrMytharaBot:
 
     # -- checklist flows (self-assessment; the core does the real reasoning)
 
+    @_requires_auth
     def audit_hipaa_compliance(
         self,
         organization: str,
@@ -600,15 +1306,13 @@ class DrMytharaBot:
         audit_data["integrity_hash"] = self._generate_integrity_hash(audit_data)
 
         # Save to database
-        conn = sqlite3.connect(self.db_path)
-        c = conn.cursor()
-        c.execute('''INSERT INTO hipaa_audits VALUES
-                     (:audit_id, :organization_name, :audit_date, :audit_type, :scope,
-                      :technical_score, :administrative_score, :physical_score, :overall_score,
-                      :findings, :critical_issues, :high_issues, :medium_issues, :low_issues,
-                      NULL, :status, :completed_at, :integrity_hash)''', audit_data)
-        conn.commit()
-        conn.close()
+        with self._db() as conn:
+            c = conn.cursor()
+            c.execute('''INSERT INTO hipaa_audits VALUES
+                         (:audit_id, :organization_name, :audit_date, :audit_type, :scope,
+                          :technical_score, :administrative_score, :physical_score, :overall_score,
+                          :findings, :critical_issues, :high_issues, :medium_issues, :low_issues,
+                          NULL, :status, :completed_at, :integrity_hash)''', audit_data)
 
         if summary["failed"] or summary["unanswered"]:
             recommendation = (
@@ -644,6 +1348,7 @@ class DrMytharaBot:
             "recommendation": recommendation,
         }
 
+    @_requires_auth
     def validate_fda_cfr11_compliance(
         self,
         system_name: str,
@@ -717,15 +1422,13 @@ class DrMytharaBot:
         validation_data["integrity_hash"] = self._generate_integrity_hash(validation_data)
 
         # Save to database
-        conn = sqlite3.connect(self.db_path)
-        c = conn.cursor()
-        c.execute('''INSERT INTO fda_validations VALUES
-                     (:validation_id, :system_name, :validation_date, :validation_type,
-                      :electronic_records_compliant, :electronic_signatures_compliant,
-                      :audit_trail_compliant, :overall_compliant, :findings, :gaps,
-                      NULL, :status, :completed_at, :integrity_hash)''', validation_data)
-        conn.commit()
-        conn.close()
+        with self._db() as conn:
+            c = conn.cursor()
+            c.execute('''INSERT INTO fda_validations VALUES
+                         (:validation_id, :system_name, :validation_date, :validation_type,
+                          :electronic_records_compliant, :electronic_signatures_compliant,
+                          :audit_trail_compliant, :overall_compliant, :findings, :gaps,
+                          NULL, :status, :completed_at, :integrity_hash)''', validation_data)
 
         if overall_compliant is True:
             recommendation = (
@@ -757,6 +1460,7 @@ class DrMytharaBot:
             "recommendation": recommendation,
         }
 
+    @_requires_auth
     def assess_medical_ai_governance(
         self,
         ai_system: str,
@@ -845,15 +1549,13 @@ class DrMytharaBot:
         assessment_data["integrity_hash"] = self._generate_integrity_hash(assessment_data)
 
         # Save to database
-        conn = sqlite3.connect(self.db_path)
-        c = conn.cursor()
-        c.execute('''INSERT INTO ai_governance_assessments VALUES
-                     (:assessment_id, :ai_system_name, :assessment_date, :risk_category,
-                      :fda_device_class, :requires_fda_clearance, :clinical_validation_complete,
-                      :bias_testing_complete, :drift_monitoring_enabled, :overall_governance_score,
-                      :findings, :recommendations, :status, :completed_at, :integrity_hash)''', assessment_data)
-        conn.commit()
-        conn.close()
+        with self._db() as conn:
+            c = conn.cursor()
+            c.execute('''INSERT INTO ai_governance_assessments VALUES
+                         (:assessment_id, :ai_system_name, :assessment_date, :risk_category,
+                          :fda_device_class, :requires_fda_clearance, :clinical_validation_complete,
+                          :bias_testing_complete, :drift_monitoring_enabled, :overall_governance_score,
+                          :findings, :recommendations, :status, :completed_at, :integrity_hash)''', assessment_data)
 
         self._witness_checklist("ai_governance", summary)
 
@@ -879,42 +1581,42 @@ class DrMytharaBot:
             "recommendations": recommendations,
         }
 
+    @_requires_auth
     def generate_compliance_report(self) -> str:
         """Generate a summary of recorded self-assessment checklists.
 
         Aggregates the checklist audit trail. These are self-reported
         checklist runs — not audits, not certifications.
         """
-        conn = sqlite3.connect(self.db_path)
-        c = conn.cursor()
+        with self._db() as conn:
+            c = conn.cursor()
 
-        # Get recent checklist runs
-        c.execute('''SELECT COUNT(*), AVG(overall_score), SUM(critical_issues), SUM(high_issues)
-                     FROM hipaa_audits
-                     WHERE audit_date >= date('now', '-30 days')''')
-        hipaa_stats = c.fetchone()
+            # Get recent checklist runs
+            c.execute('''SELECT COUNT(*), AVG(overall_score), SUM(critical_issues), SUM(high_issues)
+                         FROM hipaa_audits
+                         WHERE audit_date >= date('now', '-30 days')''')
+            hipaa_stats = c.fetchone()
 
-        # Get recent validations
-        c.execute('''SELECT COUNT(*),
-                     SUM(CASE WHEN overall_compliant = 1 THEN 1 ELSE 0 END)
-                     FROM fda_validations
-                     WHERE validation_date >= date('now', '-30 days')''')
-        fda_stats = c.fetchone()
+            # Get recent validations
+            c.execute('''SELECT COUNT(*),
+                         SUM(CASE WHEN overall_compliant = 1 THEN 1 ELSE 0 END)
+                         FROM fda_validations
+                         WHERE validation_date >= date('now', '-30 days')''')
+            fda_stats = c.fetchone()
 
-        # Get recent AI assessments
-        c.execute('''SELECT COUNT(*), AVG(overall_governance_score),
-                     SUM(CASE WHEN requires_fda_clearance = 1 THEN 1 ELSE 0 END)
-                     FROM ai_governance_assessments
-                     WHERE assessment_date >= date('now', '-30 days')''')
-        ai_stats = c.fetchone()
+            # Get recent AI assessments
+            c.execute('''SELECT COUNT(*), AVG(overall_governance_score),
+                         SUM(CASE WHEN requires_fda_clearance = 1 THEN 1 ELSE 0 END)
+                         FROM ai_governance_assessments
+                         WHERE assessment_date >= date('now', '-30 days')''')
+            ai_stats = c.fetchone()
 
-        # Get recent PHI incidents
-        c.execute('''SELECT COUNT(*), SUM(affected_records)
-                     FROM phi_incidents
-                     WHERE detected_at >= date('now', '-30 days')''')
-        incident_stats = c.fetchone()
+            # Get recent PHI incidents
+            c.execute('''SELECT COUNT(*), SUM(affected_records)
+                         FROM phi_incidents
+                         WHERE detected_at >= date('now', '-30 days')''')
+            incident_stats = c.fetchone()
 
-        conn.close()
 
         report = f"""
 {'='*80}
@@ -958,20 +1660,72 @@ RECOMMENDATIONS:
 
 
 if __name__ == "__main__":
-    print("Starting DrMythara Healthcare Compliance Bot...")
+    """Demo / self-check entry point.
+
+    Two modes:
+      DRMYTHARA_DEV=1 → throwaway demo: temp database, plaintext, demo
+        login, Mythara's voice on. Nothing touches real data.
+      default (strict) → needs DRMYTHARA_DATA_KEY plus DRMYTHARA_USER /
+        DRMYTHARA_PASSWORD. Fails closed with setup instructions.
+    """
+    import tempfile
+
+    print("DrMythara — healthcare compliance readiness, in Mythara's voice.")
     print(DISCLAIMER)
     print(CHECKLIST_LABEL)
-    bot = DrMytharaBot()
 
-    # Canonical core consult (real reasoning)
+    dev = os.environ.get("DRMYTHARA_DEV", "") == "1"
+    if dev:
+        tmpdir = tempfile.mkdtemp(prefix="drmythara-demo-")
+        bot = DrMytharaBot(dev_mode=True,
+                           db_path=os.path.join(tmpdir, "demo.db"))
+        print("⚠️  DEV DEMO: throwaway plaintext database at", tmpdir)
+        bot.create_user("demo", "demo-password-1234", role="admin")
+        bot.login("demo", "demo-password-1234")
+        # Dev chat uses the local stub (no network, no model).
+        os.environ.setdefault("DRMYTHARA_LLM_PROVIDER", "stub")
+    else:
+        user = os.environ.get("DRMYTHARA_USER", "")
+        password = os.environ.get("DRMYTHARA_PASSWORD", "")
+        if not user or not password:
+            print("Missing DRMYTHARA_USER / DRMYTHARA_PASSWORD.")
+            print("Set them, plus DRMYTHARA_DATA_KEY, or run with "
+                  "DRMYTHARA_DEV=1 for the throwaway demo.")
+            raise SystemExit(2)
+        try:
+            bot = DrMytharaBot()
+        except MissingDataKeyError as exc:
+            print(exc)
+            raise SystemExit(2)
+        try:
+            bot.login(user, password)
+        except DrMytharaAuthenticationError:
+            # First-run bootstrap: no users yet → create from env creds.
+            with bot._db() as _c:
+                from drmythara_security import UserStore as _US
+                empty = _US(_c).user_count() == 0
+            if empty:
+                bot.create_user(user, password, role="admin")
+                bot.login(user, password)
+                print(f"First user {user!r} created (admin, bootstrap).")
+            else:
+                print("Sign-in failed.")
+                raise SystemExit(2)
+
+    print()
+    print(bot.greet())
+    print()
+
+    # Canonical core consult (real reasoning — public, no sign-in needed)
     judgment = bot.consult("hipaa", {"unique_user_id": True, "encryption": True})
-    print(f"\n[CORE CONSULT] verdict={judgment.verdict} findings={len(judgment.findings)} "
+    print(f"[CORE CONSULT] verdict={judgment.verdict} findings={len(judgment.findings)} "
           f"rules={judgment.rule_versions}")
     print(f"[CORE CONSULT] hash verifies: {verify_judgment(judgment)}")
 
-    # Example: HIPAA self-assessment checklist with caller-supplied answers.
-    # Every finding below derives from THESE inputs — change an answer and
-    # the finding changes with it.
+    # HIPAA self-assessment checklist with caller-supplied answers.
+    # Every finding derives from THESE inputs — change an answer and the
+    # finding changes with it.
+    print(bot.voice.checklist_opening("mental health") if bot.voice else "")
     hipaa_answers = {c["check"]: True for c in bot.checklist_controls("hipaa")}
     hipaa_answers["auto_logoff"] = False  # the one failing control (caller's input)
     audit_result = bot.audit_hipaa_compliance(
@@ -983,38 +1737,19 @@ if __name__ == "__main__":
     for f in audit_result["findings"]:
         print(f"   - [{f['severity']}] {f['finding']}")
 
-    # Example: FDA 21 CFR Part 11 readiness checklist with caller answers.
-    fda_answers = {c["check"]: True for c in bot.checklist_controls("fda_cfr11")}
-    fda_answers["two_factor_signatures"] = False  # failing control (caller's input)
-    fda_result = bot.validate_fda_cfr11_compliance(
-        "Electronic Health Records System", answers=fda_answers
-    )
-    print(f"\n[FDA CFR11 CHECKLIST] Overall compliant: {fda_result['overall_compliant']} "
-          f"| Gaps: {len(fda_result['gaps'])}")
-    for g in fda_result["gaps"]:
-        print(f"   - {g}")
+    # Mythara speaks the result — in her voice, within honest bounds.
+    print()
+    print(bot.narrate(audit_result))
 
-    # Example: AI governance checklist — leave one control unanswered to
-    # show the UNKNOWN path (never assumed pass or fail).
-    ai_answers = {
-        "clinical_validation": True,
-        "bias_testing": False,  # failing control (caller's input)
-        "drift_monitoring": True,
-        # "fda_clearance_determined" unanswered -> UNKNOWN advisory
-    }
-    ai_result = bot.assess_medical_ai_governance(
-        "Diagnostic AI System",
-        "Radiology image analysis for cancer detection",
-        answers=ai_answers,
-    )
-    print(f"\n[AI GOVERNANCE CHECKLIST] Risk: {ai_result['risk_category']} "
-          f"({ai_result['risk_basis']}) | FDA class: {ai_result['fda_device_class']} "
-          f"(estimated) | Score: {ai_result['governance_score']}%")
-    for f in ai_result["findings"]:
-        print(f"   - [{f['severity']}] {f['finding']}")
+    # Conversational chat (dev: local stub; prod: configured provider).
+    chat_reply = bot.chat("Hello Mythara — what do you protect?")
+    print()
+    print("[CHAT]", chat_reply["reply"])
+    print(f"(provider={chat_reply['provider']} "
+          f"sent={chat_reply['sent_to_provider']})")
 
     # Generate report
     report = bot.generate_compliance_report()
     print(report)
 
-    print("\nDrMythara Healthcare Compliance Bot execution complete.")
+    print("\nDrMythara run complete.")

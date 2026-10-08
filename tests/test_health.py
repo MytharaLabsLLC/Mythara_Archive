@@ -222,7 +222,9 @@ def _load_wrapper():
 def test_wrapper_instantiates_and_consults(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)  # sqlite db lands in tmp, not the repo
     mod = _load_wrapper()
-    bot = mod.DrMytharaBot()
+    # dev_mode: tests never touch real data; the checklist API now
+    # requires sign-in (Phase 1 auth boundary).
+    bot = mod.DrMytharaBot(dev_mode=True)
     assert bot.bot_id == "drmythara_bot"
 
     j = bot.consult("hipaa", _full_evidence(*HIPAA_TABLES))
@@ -235,7 +237,9 @@ def test_wrapper_instantiates_and_consults(tmp_path, monkeypatch):
         if r.category == "access_control"
     }
 
-    # demo audit flow still works
+    # gated checklist flow: sign in first
+    bot.create_user("tester", "test-password-1234")
+    bot.login("tester", "test-password-1234")
     result = bot.audit_hipaa_compliance("Test Clinic", scope="technical")
     assert result["organization"] == "Test Clinic"
     assert "overall_score" in result
@@ -247,7 +251,7 @@ def test_wrapper_instantiates_and_consults(tmp_path, monkeypatch):
 def test_wrapper_screen_passthrough(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     mod = _load_wrapper()
-    bot = mod.DrMytharaBot()
+    bot = mod.DrMytharaBot(dev_mode=True)
     j = bot.screen("email patient lab results", _full_evidence(*HIPAA_TABLES))
     assert j.verdict == CLEAR
     j2 = bot.screen("email patient lab results")

@@ -713,7 +713,10 @@ class MedicalTeamSuite:
         
         conn.commit()
         conn.close()
-        logger.info("Medical team database initialized (HIPAA + PCI DSS + FCC compliant)")
+        # Honest status: this module maps compliance checklists; it has never
+        # passed an independent audit. Never claim certification here.
+        # See COMPLIANCE_STATUS.md — "readiness, never certified."
+        logger.info("Medical team database initialized (compliance readiness mapping only; no certification claimed)")
     
     def compute_integrity_hash(self, data: Dict[str, Any]) -> str:
         """Compute SSIP integrity hash for medical data"""

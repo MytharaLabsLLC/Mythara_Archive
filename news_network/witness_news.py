@@ -68,6 +68,9 @@ class NewsJudgment:
     domain_question: str
     projected_intent: str = ""
     shadow_intent: str = ""
+    # v2026.2 benevolence score: -5 (extractive/harmful) to +5 (serves another's good).
+    # Set by the witness's rubric; feeds calculate_delta for the dossier's Δ Benevolence.
+    benevolence_score: int = 0
     evidence_cited: List[Dict[str, str]] = field(default_factory=list)
     abstain_reason: str = ""
     # Plain-language detailed explanation of WHY this reporter diverged:

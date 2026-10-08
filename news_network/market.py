@@ -71,11 +71,36 @@ def fmt_pct(x: float) -> str:
     return f"{x:+.2f}%"
 
 
-def market_section(drivers: List[Dict] | None = None) -> List[str]:
+def market_snapshot() -> Dict:
+    """Compact index data for the homepage market tape.
+
+    Same Yahoo Finance closes as market_section; honest numbers only —
+    indexes with unreachable data are simply left out.
+    """
+    indexes = []
+    as_of = None
+    for idx in INDEXES:
+        data = fetch_closes(idx["symbol"])
+        if not data:
+            continue
+        as_of = data["as_of"]
+        a = analyze(data["closes"])
+        indexes.append({
+            "name": idx["name"],
+            "level": round(a["last"], 2),
+            "day_pct": round(a["day_pct"], 2),
+        })
+    return {"as_of": as_of, "indexes": indexes}
+
+
+def market_section(drivers: List[Dict] | None = None,
+                   ipo_events: List[Dict] | None = None) -> List[str]:
     """Markdown lines for the brief's Market analysis section.
 
     `drivers` is a list of {"title": ..., "dossier_link": ...} money-topic
     events — what's moving markets, in the reporters' own coverage.
+    `ipo_events` is the same shape for IPO/business-topic events —
+    the IPO watch for the Business column.
     """
     lines: List[str] = []
     A = lines.append
@@ -108,5 +133,11 @@ def market_section(drivers: List[Dict] | None = None) -> List[str]:
         A("")
         for d in drivers[:3]:
             A(f"- {d['title']} — [full dossier]({d['dossier_link']})")
+        A("")
+    if ipo_events:
+        A("### IPO watch")
+        A("")
+        for e in ipo_events[:3]:
+            A(f"- {e['title']} — [full dossier]({e['dossier_link']})")
         A("")
     return lines

@@ -21,6 +21,12 @@ from .topics import classify
 from .witness_news import hear_all, panel_summary, VERDICT_WORDS
 from .witness_news import ALIGNED, DIVERGENT, ABSTAIN  # machine verdicts
 
+# v2026.2 benevolence vocabulary: Δ Benevolence scores every dossier.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))
+from soul_cradle.benevolence import calculate_delta
+
 _FRAMING_RE = re.compile(r"(?m)^- \*\*[^*]+\*\*: (.+)$")
 
 
@@ -79,58 +85,59 @@ def _lede(event: Dict, pack: Dict, panel: Dict) -> str:
         )
     bits = []
     if div:
-        bits.append(f"{', '.join(div)} pushed back on the official telling")
+        bits.append(f"{', '.join(div)} aren't buying the official story")
     if al:
-        bits.append(f"{', '.join(al)} checked out")
+        bits.append(f"{', '.join(al)} see it differently")
+    disagree = f" — {'; '.join(bits)}" if bits else ""
     return (
         f"{n_articles} articles, {n_outlets} outlets, one event. "
-        f"The panel reads **{word}** — " + "; ".join(bits) + ". "
-        f"Here is what the articles say, and what our reporters noticed."
+        f"Our reporters don't all see it the same way{disagree}. "
+        f"Here's what the articles say, and what our people are saying about them."
     )
 
 
 def _paradox_lines(judgments, panel) -> List[str]:
-    """The whole split, first and unsoftened: every reporter's position,
-    divergent readings in full. Readers meet the paradox before the
-    articles — the disagreement is the signal, stated completely."""
+    """The whole picture, first and unsoftened: every reporter's take,
+    divergent readings in full. Readers meet the disagreement before the
+    articles — when people see it differently, that's the story."""
     out: List[str] = []
     A = out.append
-    A("## The paradox")
+    A("## What our people are saying")
     A("")
-    A("_Eight reporters, each on their own beat. They read the same articles "
-      "and tell you what they see — suggestion with citations, never "
-      "proof of anyone's motive. When they split, the split is the story._")
+    A("_Eight reporters, each with their own perspective. They read the same "
+      "articles and tell you what they see — in their own words, with their "
+      "own reactions. When they disagree, you'll see the disagreement._")
     A("")
     if panel["verdict"] == "silent":
-        A("No disagreement to report — every reporter sat this one out. "
-          "What follows is what the articles say, and nothing more.")
+        A("No strong takes on this one — the record is too thin for anyone "
+          "to read with confidence. What follows is what the articles say, "
+          "and nothing more.")
         A("")
         return out
-    word = VERDICT_WORDS[panel["verdict"]]
     bits = []
     if panel["divergent"]:
-        bits.append(f"{', '.join(panel['divergent'])} pushed back")
+        bits.append(f"{', '.join(panel['divergent'])} aren't buying it")
     if panel["aligned"]:
-        bits.append(f"{', '.join(panel['aligned'])} checked out")
+        bits.append(f"{', '.join(panel['aligned'])} see it differently")
     if panel["abstained"]:
         bits.append(
-            f"{', '.join(a['assessor_id'] for a in panel['abstained'])} sat it out")
-    A(f"**{word}.** " + "; ".join(bits)
-      + ". Both readings stand — here is the whole split, nothing softened.")
+            f"{', '.join(a['assessor_id'] for a in panel['abstained'])} sat this one out")
+    A("**Here's where people land:** " + "; ".join(bits) + ". "
+      "Everyone's take stands on its own — nothing softened.")
     A("")
     for j in judgments:
         if j.verdict != DIVERGENT:
             continue
-        A(f"### {j.name} — pushes back")
+        A(f"### {j.name}")
         A("")
-        A(f"_Beat: {_beat_line(j)}_")
-        A("")
+        # v2026.2: witness reading in plain English with emotions.
+        # projected/shadow intent woven into natural voice, never labeled.
         A(j.projected_intent)
         A("")
         A(j.shadow_intent)
         if j.divergence_why:
             A("")
-            A(f"**Why {j.name} reads it this way:** {j.divergence_why}")
+            A(j.divergence_why)
         src = _sources_line(j.evidence_cited)
         if src:
             A("")
@@ -139,9 +146,7 @@ def _paradox_lines(judgments, panel) -> List[str]:
     for j in judgments:
         if j.verdict != ALIGNED:
             continue
-        A(f"### {j.name} — checks out")
-        A("")
-        A(f"_Beat: {_beat_line(j)}_")
+        A(f"### {j.name}")
         A("")
         A(j.projected_intent)
         A("")
@@ -159,6 +164,40 @@ def _paradox_lines(judgments, panel) -> List[str]:
             A(f"- **{j.name}** — {_beat_line(j)}: {j.abstain_reason}")
         A("")
     return out
+
+
+def _benevolence_data(judgments, panel) -> dict:
+    """v2026.2 Δ Benevolence: calculated underneath, not displayed.
+
+    Each engaged witness's benevolence_score (-5..+5) feeds calculate_delta.
+    Returns {delta, gravity, basis} for topic ranking and frontmatter.
+    The dossier body stays plain English — no visible scores.
+    """
+    engaged = [j for j in judgments if j.verdict != ABSTAIN]
+    if not engaged:
+        return {"delta": 0, "gravity": "UNKNOWN", "basis": "no engaged witnesses"}
+
+    scores = [j.benevolence_score for j in engaged]
+    shadow = any(
+        "shadow" in (j.shadow_intent or "").lower()[:200]
+        for j in engaged
+    )
+    affected = max(100, len(engaged) * 1000)
+
+    delta, basis = calculate_delta(scores, affected, shadow)
+
+    if delta <= -60:
+        gravity = "HIGHEST"
+    elif delta <= -30:
+        gravity = "HIGH"
+    elif delta <= -10:
+        gravity = "MEDIUM"
+    elif delta < 10:
+        gravity = "LOW"
+    else:
+        gravity = "POSITIVE"
+    return {"delta": delta, "gravity": gravity, "basis": basis,
+            "shadow": shadow}
 
 
 def build_dossier_markdown(event: Dict, pack: Dict,
@@ -223,6 +262,9 @@ def write_dossier(event: Dict, state_dir: Path, chain: DossierChain) -> Dict:
     pack = build_evidence_pack(event)
     judgments = hear_all(event["id"], pack)
     panel = panel_summary(judgments)
+    # v2026.2: benevolence calculated underneath for gravity/topic ranking.
+    # Not displayed in the dossier body — plain English with emotions only.
+    benev = _benevolence_data(judgments, panel)
     md = build_dossier_markdown(event, pack, judgments, panel)
 
     dossier_dir = state_dir / "dossiers"
@@ -248,6 +290,10 @@ def write_dossier(event: Dict, state_dir: Path, chain: DossierChain) -> Dict:
         "outlets": pack["outlets"],
         "article_count": pack["article_count"],
         "key_terms": pack["key_terms"][:6],
+        # v2026.2 benevolence (underneath — for gravity ranking, not display)
+        "benevolence_delta": benev["delta"],
+        "benevolence_gravity": benev["gravity"],
+        "benevolence_basis": benev["basis"],
     }
     (dossier_dir / f"{event['id']}.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")

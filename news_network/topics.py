@@ -47,11 +47,27 @@ TOPICS: List[Dict] = [
         ],
     },
     {
+        "slug": "business",
+        "title": "Business",
+        "keywords": [
+            "ipo", "initial public offering", "goes public", "going public",
+            "s-1 filing", "ipo filing", "roadshow", "spac",
+            "earnings report", "quarterly earnings", "merger", "acquisition",
+            "venture capital", "funding round", "private equity",
+            "stock buyback", "dividend", "market cap", "unicorn",
+            "nasdaq listing", "nyse listing",
+        ],
+    },
+    {
         "slug": "tech",
-        "title": "Tech & AI",
+        "title": "TechTalk",
         "keywords": [
             "artificial intelligence", "openai", "nvidia", "large language model",
-            "semiconductor", "data center",
+            "semiconductor", "data center", "startup", "silicon valley",
+            "gadget", "smartphone", "iphone", "android", "app store",
+            "cybersecurity", "cyberattack", "ransomware", "data breach",
+            "quantum", "robot", "robotics", "humanoid", "drone",
+            "microchip", "cloud computing", "electric vehicle",
         ],
     },
     {
