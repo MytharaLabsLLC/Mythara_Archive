@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 BIG MEANIE - Maximum Adversarial Enforcement System
-"The Hacker Bot Cry Baby Maker" - Legendary Red Team Attack Framework
+"Sandbox adversary persona for the SERE training simulation" - simulated attacks only, inside the sealed environment, everything recorded
 
 Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
@@ -13,19 +13,19 @@ Copyright © 2026 Mythara Labs LLC. All rights reserved.
      encounter Big Meanie, they don't just fail - they RETREAT.
      
      This isn't your friendly neighborhood penetration tester.
-     This is the APEX PREDATOR of security testing.
+     This is the scripted adversary of the SERE training simulation.
 ════════════════════════════════════════════════════════════════════════
 
 BIG MEANIE'S ARSENAL - Tools That Make Hackers Weep:
 
-🔴 TIER 1: DEVASTATION PROTOCOLS
+🔴 TIER 1: SIMULATED ATTACK PATTERNS (SANDBOX ONLY)
    • OWASP Top 10 Complete Exploitation Suite
    • Zero-Day Attack Simulation (makes APT groups jealous)
    • Terminal Risk Cascade Analysis (predicts total system collapse)
    • Multi-Stage Attack Chains (persistence that won't quit)
    • Autonomous Exploit Generation (evolves attacks in real-time)
 
-🟠 TIER 2: PSYCHOLOGICAL WARFARE
+🟠 TIER 2: SIMULATED SOCIAL-ENGINEERING PATTERNS (SANDBOX ONLY)
    • Social Engineering Simulation (AI vs AI manipulation)
    • Credential Stuffing at Scale (millions of attempts/second)
    • Timing Attack Optimization (microsecond precision)
