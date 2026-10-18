@@ -10,7 +10,7 @@
 > liability company; Articles of Organization filing attempted with the Colorado
 > Secretary of State on **September 27, 2026** — not confirmed; entity not yet
 > formed; member-managed; sole member and organizer: Herbert Velez Jr.; principal
-> office: Denver, CO. The LLC is not yet a
+> office: Denver, CO (street address on file with the Colorado Secretary of State). The LLC is not yet a
 > formed entity. All California-specific filing steps, fees (including the
 > $800 annual franchise tax), and "file with California SOS" remediation
 > items below are superseded — do not act on them. The insurance claims this

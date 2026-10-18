@@ -32,11 +32,11 @@
 
 ## 🧠 Full Mythara SSIP Integration
 
-### **1. Soul Cradle - Real-Time Distress Detection**
+### **1. Soul Cradle — Learner Self-Reports, Witness-Attested**
 ```python
-# Monitors emotional state during learning
+# Records learner self-reported state during learning
 - Response time analysis (too fast = guessing, too slow = stuck)
-- Emotion detection (frustrated, confused, confident, etc.)
+- Learner self-reported state (frustrated, confused, confident) recorded and witness-attested — the system records what learners declare; it does not detect or infer emotions.
 - Consecutive failure tracking
 - Distress levels: CALM → MILD_CONFUSION → MODERATE_FRUSTRATION → HIGH_FRUSTRATION → SEVERE_DISTRESS
 ```

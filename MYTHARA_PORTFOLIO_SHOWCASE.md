@@ -1,5 +1,5 @@
 # 🌌 MYTHARA PRODUCT PORTFOLIO
-## **Emotional AI That Saves Lives & Transforms Business**
+## **Witnessed AI Decision Records — Integrity-Scored and Tamper-Evident**
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
@@ -191,7 +191,7 @@
 | **Early Intervention** | Aspirational target — no measured retention |
 
 #### **🎯 Competitive Moat**
-✅ **Only HR system with emotional AI** (detects burnout before resignation)  
+✅ **HR records attested by eight evidence-fed witnesses** — self-reported burnout signals hash-chained unaltered; emotions are never inferred or detected.  
 ✅ Real-time bias detection (not post-interview analysis)  
 ✅ Soul Cradle monitors emotional wellness continuously  
 
@@ -723,7 +723,7 @@ Consumer Products: $1.7M (26%)
 
 ---
 
-### **"Emotional AI That Saves Lives & Transforms Business"**
+### **"Witnessed AI Decision Records — Integrity-Scored and Tamper-Evident"**
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 

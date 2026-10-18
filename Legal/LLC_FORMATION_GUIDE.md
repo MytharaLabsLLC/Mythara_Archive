@@ -5,8 +5,7 @@
 > Mythara Labs LLC, a Colorado domestic limited liability company —
 > Articles of Organization **filing attempted with the Colorado Secretary of State on
 > September 27, 2026 — not confirmed; entity not yet formed**. Member-managed; sole member and
-> organizer: Herbert Velez Jr.; principal office: Denver, CO,
-> Denver, CO.
+> organizer: Herbert Velez Jr.; principal office: Denver, CO (street address on file with the Colorado Secretary of State).
 >
 > Formation is **not complete**. Nothing in this guide implies the LLC is
 > fully formed, customers exist, or revenue has been earned. This is a
@@ -30,7 +29,7 @@
 - Status: **Pending completion** — formation is not yet final
 - Business purpose: "Software development and licensing"
 - Registered agent: Herbert Velez Jr. (or use commercial registered agent service)
-- Principal office address: Denver, CO
+- Principal office address: Denver, CO (street address on file with the Colorado Secretary of State)
 - Management structure: Member-managed (single member and organizer: Herbert Velez Jr.)
 
 **Remaining on this step:** confirm acceptance of the filing and obtain the accepted/approved Articles of Organization from the Colorado Secretary of State. Confirm next steps with licensed Colorado counsel.

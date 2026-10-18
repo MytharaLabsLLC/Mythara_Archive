@@ -3,8 +3,7 @@
 > **Entity note:** Mythara Labs LLC, a Colorado domestic limited liability
 > company — formation (Articles of Organization) filing attempted with the Colorado
 > Secretary of State on September 27, 2026 — not confirmed; entity not yet formed;
-> member-managed; sole member and organizer: Herbert Velez Jr.; principal
-> office: Denver, CO.
+> member-managed; sole member and organizer: Herbert Velez Jr.
 
 > ## ⚠️ INVESTOR NOTICE — READ FIRST
 >

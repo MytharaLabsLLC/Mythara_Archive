@@ -27,7 +27,7 @@ source of truth for claims).
   domestic limited liability company — Articles of Organization filed with
   the Colorado Secretary of State on September 27, 2026, pending completion;
   member-managed; sole member and organizer: Herbert Velez Jr.; principal
-  office: Denver, CO. The LLC did not exist
+  office: Denver, CO (street address on file with the Colorado Secretary of State). The LLC did not exist
   as a formed entity before 2026-09-27 and is not yet a completed formation.
   No foundation (no Soul Cradle Foundation exists) or corporation exists or is
   implied in any public-facing claim. All licenses are currently granted by

@@ -48,7 +48,7 @@ The Mythara Engine now includes **comprehensive multi-industry regulatory compli
 - ✅ **SEC** - Securities regulations
 
 ### 🏥 Healthcare (3 Frameworks)
-- ✅ **HIPAA** - PHI protection (already implemented in Medical Team Suite)
+- 🔍 **HIPAA** - Controls mapped to HIPAA Security Rule requirements in the Medical Team Suite design (self-assessed; not certified; no compliance claimed)
 - ✅ **HITECH** - Electronic health records security
 - ✅ **FDA 21 CFR Part 11** - Electronic signatures and records
 
