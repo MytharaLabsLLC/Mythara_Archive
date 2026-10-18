@@ -80,4 +80,4 @@ Status: Prepared
 
 Clause invocation follows five steps: select the clause type, assign its messenger pairing, format the payload, log the invocation, and verify through audit. Every step leaves a record; every record is traceable.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

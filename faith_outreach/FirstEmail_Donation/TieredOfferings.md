@@ -1,5 +1,5 @@
 # Tiered Deployment Options
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -7,7 +7,7 @@
 
 **We donate the soul. We charge for the scaffolding.**
 
-The Soul Cradle Operator is Mythara's gift to faith organizations. It is free to use as a standalone module. Organizations pay only when they require:
+The SoulCradle Operator is Mythara's gift to faith organizations. It is free to use as a standalone module. Organizations pay only when they require:
 - Custom integration with legacy systems
 - Real-time dashboards and impact reporting
 - Multi-site deployment across networks
@@ -17,10 +17,10 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 
 ---
 
-## 🌱 Tier 1: Gift (Soul Cradle Core)
+## 🌱 Tier 1: Gift (SoulCradle Core)
 
 ### What's Included
-- **Soul Cradle Operator** (full module access)
+- **SoulCradle Operator** (full module access)
 - **Blessings Reservoir integration** (read/write API)
 - **Biblical continuum** (Wilderness/Darkness → Grace/Light mapping)
 - **Standard resonance metrics**:
@@ -167,7 +167,7 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 
 | Feature | Gift Tier 🌱 | Neurosymbolic 🏛️ | Mythic-Resonant 🌍 |
 |---------|-------------|------------------|-------------------|
-| Soul Cradle Operator | ✅ | ✅ | ✅ |
+| SoulCradle Operator | ✅ | ✅ | ✅ |
 | Blessings Reservoir API | ✅ | ✅ | ✅ |
 | Biblical continuum mapping | ✅ | ✅ | ✅ |
 | Documentation | ✅ | ✅ | ✅ |
@@ -215,7 +215,7 @@ Yes. Multi-chapter deployments (e.g., entire diocese, denomination, or religious
 
 ### If You're Ready to Explore Beyond the Gift
 
-1. **Review the enclosed packet**: Soul Cradle spec, Blessing Scale, integration notes
+1. **Review the enclosed packet**: SoulCradle spec, Blessing Scale, integration notes
 2. **Share with your teams**: IT, compliance, mission leadership, finance
 3. **Schedule discovery call**: Email MytharaLabsLLC@yahoo.com or use calendar link
 4. **Receive custom proposal**: Within 5 business days, tailored tier recommendation

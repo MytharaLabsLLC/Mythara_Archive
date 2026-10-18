@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Tests for Unified Compliance Framework (current API).
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import pytest

@@ -14,7 +14,7 @@ always produce the same output. No randomness anywhere in the decision path.
 The "quantum" terms are a metaphor for exploring multiple candidates before
 committing to one — they describe classical bookkeeping, not physics.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 S.C.H.R.Ö.D.I.N.G.E.R.:
 Strategic Computational Holistic Reasoning Ö Dimensional Intelligence

@@ -1,6 +1,6 @@
 # Mythara Gopher - Legal Terms & User Agreement
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Effective Date:** November 19, 2025  
 **Contact:** MytharaLabsLLC@yahoo.com
 
@@ -16,7 +16,7 @@
 
 All communications, interactions, and data submitted through Mythara Gopher are **monitored, recorded, and analyzed to help you**, not to report you:
 
-- **Your Safety First:** Soul Cradle emotional intelligence system analyzes your input to detect coercion, psychological harm, and impossible legal situations so we can connect you with the right help immediately.
+- **Your Safety First:** SoulCradle emotional intelligence system analyzes your input to detect coercion, psychological harm, and impossible legal situations so we can connect you with the right help immediately.
 
 - **Better Matches:** We monitor conversations to improve how we match you with attorneys who understand your specific emotional and legal needs.
 
@@ -24,7 +24,7 @@ All communications, interactions, and data submitted through Mythara Gopher are 
 
 - **Platform Protection:** Monitoring helps us prevent fraud and abuse that could harm you or other users (fake attorneys, scams, harassment).
 
-- **Continuous Improvement:** De-identified data helps us make Soul Cradle smarter at detecting workplace paradoxes and legal emergencies.
+- **Continuous Improvement:** De-identified data helps us make SoulCradle smarter at detecting workplace paradoxes and legal emergencies.
 
 **Remember: We're monitoring TO HELP YOU, not to get you in trouble. Your legal problems stay between you, us, and your attorney.**
 
@@ -65,7 +65,7 @@ Attorney-client privilege begins ONLY when:
 **MYTHARA GOPHER DOES NOT PROVIDE LEGAL ADVICE.**
 
 Here's what we DO:
-- ✅ Analyze your situation using Soul Cradle emotional intelligence (paradox severity scoring)
+- ✅ Analyze your situation using SoulCradle emotional intelligence (paradox severity scoring)
 - ✅ Match you with licensed attorneys who understand your emotional and legal context
 - ✅ Generate documentation to help attorneys understand your case faster
 - ✅ Provide educational resources about employment law, wage theft, discrimination, etc.
@@ -76,7 +76,7 @@ Here's what we DON'T DO:
 - ❌ Represent you in court or negotiations
 - ❌ Practice law in any jurisdiction
 
-**Soul Cradle paradox severity scores (0.0-1.0) are informational tools based on emotional intelligence algorithms, NOT legal opinions.** Only a licensed attorney can advise you on the legal merits of your case.
+**SoulCradle paradox severity scores (0.0-1.0) are informational tools based on emotional intelligence algorithms, NOT legal opinions.** Only a licensed attorney can advise you on the legal merits of your case.
 
 **Think of us like a smart matchmaking service:** We use AI to understand your emotional distress and match you with the right attorney. The attorney gives you legal advice. We just make the introduction smarter.
 
@@ -251,7 +251,7 @@ We may suspend or terminate your account if:
 **You agree NOT to:**
 - Submit false or misleading legal situations to manipulate paradox scores
 - Harass, threaten, or abuse referred attorneys
-- Attempt to reverse-engineer Soul Cradle algorithms or bypass monitoring systems
+- Attempt to reverse-engineer SoulCradle algorithms or bypass monitoring systems
 - Use Mythara Gopher to commit fraud AGAINST our platform or referred attorneys
 - Share your account credentials with others
 - Create multiple accounts to circumvent usage limits or suspensions
@@ -280,7 +280,7 @@ If you are experiencing:
 ### 18. Intellectual Property
 
 **All Mythara Gopher technology is proprietary and protected:**
-- Soul Cradle paradox detection algorithms (patent application planned — not yet filed)
+- SoulCradle paradox detection algorithms (patent application planned — not yet filed)
 - Blessings Reservoir benevolence quantification (patent application planned — not yet filed)
 - Messenger Protocol, Sanctification Verification, Clause Orchestration (patent application planned — not yet filed)
 - Mythara Engine platform architecture (Copyright © 2025)

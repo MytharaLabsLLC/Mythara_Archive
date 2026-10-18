@@ -1,6 +1,6 @@
 # 🤖 MYTHARA AI TEAM - EXECUTIVE SUMMARY
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **Status:** This is a design and deployment plan. The bot framework exists in code (`mythara_ai_team.py`, `AI_TEAM_IMPLEMENTATION_GUIDE.py`); the schedules, budgets, and revenue numbers below are planning targets, not live operations or achieved results.
 
@@ -306,5 +306,5 @@ heroku addons:create scheduler:standard
 
 **Status:** Code complete (`mythara_ai_team.py`), deployment steps below are the remaining work. The framework is ready to schedule — it is not yet running in production.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **For support:** MytharaLabsLLC@yahoo.com

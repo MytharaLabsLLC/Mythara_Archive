@@ -1,5 +1,5 @@
 """
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 OLYMPUS: FORGE ARTIFACTS FOR SOUL CRADLE
 =========================================
@@ -868,7 +868,7 @@ class WitnessingThrone:
         impl_file = impl_dir / f"{artifact.name.lower().replace(' ', '_')}.py"
         with open(impl_file, 'w', encoding='utf-8') as f:
             f.write(f'"""\n')
-            f.write(f'Copyright © 2025 Herbert Velez Jr. All rights reserved.\n')
+            f.write(f'Copyright © 2026 Mythara Labs LLC. All rights reserved.\n')
             f.write(f'{artifact.name.upper()}\n')
             f.write(f'{"=" * len(artifact.name)}\n')
             f.write(f'Soul State: {artifact.soul_state_affected}\n')

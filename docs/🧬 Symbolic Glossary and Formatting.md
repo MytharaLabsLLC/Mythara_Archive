@@ -51,4 +51,4 @@ Status: Delivered
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

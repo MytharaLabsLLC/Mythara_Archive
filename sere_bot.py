@@ -3,7 +3,7 @@
 S.E.R.E. - Survive, Evade, Resist, Escape
 Part of the A.M.I.R. Cybersecurity Suite
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 S.E.R.E. doctrine (enforced in code):
   - Sandbox-only. The specimen is NEVER executed on the host.

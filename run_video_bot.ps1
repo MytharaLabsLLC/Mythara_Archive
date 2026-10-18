@@ -1,5 +1,5 @@
 # Run Mythara Tutorial Video Bot
-# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Write-Host "`n============================================" -ForegroundColor Cyan
 Write-Host "🎬 MYTHARA TUTORIAL VIDEO BOT" -ForegroundColor Cyan

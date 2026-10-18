@@ -3,7 +3,7 @@
 Mythara Global Governance Framework
 Universal Compliance Engine for All Industries, All Countries
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 This module provides comprehensive governance rules for every major industry
 across every major regulatory jurisdiction worldwide.

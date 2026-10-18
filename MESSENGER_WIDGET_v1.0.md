@@ -1,6 +1,6 @@
 # MytharaConnect Widget - Enterprise Grade Rebuild
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -29,7 +29,7 @@ The MytharaConnect chat widget was rebuilt (per this document's author) to addre
 - ✅ Modular, testable, maintainable
 
 **Content: Global Governance Positioning**
-- ✅ All responses updated from Soul Cradle spiritual focus → technical infrastructure focus
+- ✅ All responses updated from SoulCradle spiritual focus → technical infrastructure focus
 - ✅ Mentions 34 frameworks, adversarial hardening (indemnification claims removed)
 - ✅ Pricing updated: Startup ($2,500/mo), Growth ($10,000/mo), Enterprise ($50,000/mo), On-Premise ($2M) *(proposed pricing — not currently offered; no payment path exists)*
 - ✅ ROI examples: "One prevented violation pays for 100 years of licensing" *(marketing draft — hypothetical illustration, not a reported customer outcome)*
@@ -65,10 +65,10 @@ The MytharaConnect chat widget was rebuilt (per this document's author) to addre
   ```
 - **Impact:** Widget never crashes, always recovers gracefully
 
-**3. Outdated Branding (Soul Cradle → Global Governance)**
-- **Problem:** Widget responses talked about "Soul Cradle," "paradox density," "SSIP violations" (spiritual/emotional framing)
+**3. Outdated Branding (SoulCradle → Global Governance)**
+- **Problem:** Widget responses talked about "SoulCradle," "paradox density," "SSIP violations" (spiritual/emotional framing)
 - **Solution:** All responses rewritten to technical infrastructure positioning
-- **Before:** "Soul Cradle is the symbolic witness—it holds what standard tools can't: paradox density, emotional strain..."
+- **Before:** "SoulCradle is the symbolic witness—it holds what standard tools can't: paradox density, emotional strain..."
 - **After:** "Global Governance is legal infrastructure that validates AI systems against 34 regulatory frameworks in real-time (<50ms). We detect adversarial loopholes..."
 - **Impact:** Consistent messaging with new homepage and pricing page
 
@@ -251,7 +251,7 @@ widget.js (615 lines)
 ### Responses Rewritten (17 major topics)
 
 **1. What is Mythara / Global Governance**
-- **Old:** "Mythara Engine is a legal-risk infrastructure system designed to witness and document impossible choices. Soul Cradle is the symbolic witness—it holds what standard tools can't: paradox density, emotional strain..."
+- **Old:** "Mythara Engine is a legal-risk infrastructure system designed to witness and document impossible choices. SoulCradle is the symbolic witness—it holds what standard tools can't: paradox density, emotional strain..."
 - **New:** "Global Governance is legal infrastructure that validates AI systems against 34 regulatory frameworks in real-time (<50ms). We detect adversarial loopholes like Unicode homoglyphs, Cyrillic substitution, zero-width characters—attacks compliance tools miss. No indemnification is currently offered. Not a compliance tool. The operating system for legal risk."
 
 **2. Pricing / Cost**
@@ -272,7 +272,7 @@ widget.js (615 lines)
 - **New:** "Manual legal reviews: $500K-$2M/year. Compliance violations: $50M average fine (GDPR). We're $30K-$600K/year. ROI calculation: One prevented violation pays for 100 years of licensing. For example, if a deployment helped an organization avoid even one major HIPAA penalty (which can reach $15M), that alone would far exceed the license cost. *(Hypothetical illustration — not a reported customer outcome; fine figures are illustrative, not verified.)*"
 
 **7. How It Works / Technical**
-- **Old:** "Soul Cradle witnesses events that violate SSIP (Symbolic Service & Integration Protocol). It cryptographically timestamps paradox events—decisions where all options violate something sacred..."
+- **Old:** "SoulCradle witnesses events that violate SSIP (Symbolic Service & Integration Protocol). It cryptographically timestamps paradox events—decisions where all options violate something sacred..."
 - **New:** "REST API with JSON payloads. POST /v1/clauses/invoke with input text, get back compliance validation + integrity hash in <50ms. Validates against all 34 frameworks simultaneously. Detects adversarial patterns. Logs every validation cryptographically. Standard OAuth 2.0 authentication. Full API docs included. Most teams integrate in <1 day."
 
 **8. Industries**

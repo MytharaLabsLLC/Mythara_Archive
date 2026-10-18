@@ -1,5 +1,5 @@
 # 🎬 Mythara Engine - AI Representative Script *(draft, revised for honesty Sept 2026)*
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **Voice-standard note (Sept 2026):** this draft was rewritten to describe the system as it actually is. No customers, certifications, metrics, or awards are claimed. Anything not yet real is labeled aspiration. Do not reintroduce superlatives, comparison claims, or invented numbers.
 
@@ -29,7 +29,7 @@ That is what Mythara is built to keep."
 ### [THE FOUNDATION - 0:15-0:35]
 *[Diagrams of the hash chain and the eight witnesses appear]*
 
-"At the center of the system is the Soul Cradle. It scores actions on integrity — defined as Alignment times Tolerance: how well an action lines up with your aims, multiplied by how much room for error and recovery it leaves.
+"At the center of the system is the SoulCradle. It scores actions on integrity — defined as Alignment times Tolerance: how well an action lines up with your aims, multiplied by how much room for error and recovery it leaves.
 
 Nothing gets a single unchecked verdict. Eight assessor-witnesses review the evidence under versioned rubrics. They abstain when their domain isn't engaged. They fail closed when evidence is missing. A critical finding from any one of them blocks the action.
 
@@ -51,7 +51,7 @@ What exists is working code, a passing test suite, and records that can be verif
 ### [THE DISCIPLINE - 0:55-1:15]
 *[Avatar speaks directly to camera]*
 
-"Our most capable component, Aries, runs defanged: every action it takes must carry a signed envelope, and its handlers are limited to benign, pre-approved operations. Capability without a leash is not a feature.
+"Our most capable component, ARES, runs defanged: every action it takes must carry a signed envelope, and its handlers are limited to benign, pre-approved operations. Capability without a leash is not a feature.
 
 And SERE — our training simulation — stays inside the sandbox. It is where trainees face simulated adversaries and learn. It is never a weapon, never hack-back, never military-ready. Anyone who tells you otherwise is not describing this system."
 
@@ -105,7 +105,7 @@ Aspiration, stated plainly: one day this framework could underpin licensed deplo
 
 1. **Honesty as authority**: "The chain proves a record is unaltered. It does not prove the record is true." — a system that states its own limits is more credible than one that hides them
 2. **Verifiable mechanisms**: hash-chained records, independent witnesses, signed envelopes — claims the viewer can check, not numbers they must take on faith
-3. **Clear boundaries**: SERE-as-training-simulation, defanged Aries — stated limits that protect the brand
+3. **Clear boundaries**: SERE-as-training-simulation, defanged ARES — stated limits that protect the brand
 4. **Aspiration labeled**: licensed deployments are a goal, not a claim
 5. **Permission**: "You've been selected" removed — no manufactured exclusivity
 
@@ -113,4 +113,4 @@ Aspiration, stated plainly: one day this framework could underpin licensed deplo
 
 **This isn't a sales pitch. It's an induction into a system that tells the truth about itself.**
 
-© 2025 Herbert Velez Jr. All Rights Reserved.
+© 2026 Mythara Labs LLC. All Rights Reserved.

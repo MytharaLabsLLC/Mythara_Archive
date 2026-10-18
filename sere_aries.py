@@ -33,7 +33,7 @@ Defense by recording: every action is hash-chained into the exercise log.
 Evolution: after each exercise the playbook updates — tactics that worked
 get chosen more often. Aries gets smarter the way war teaches: by fighting.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import hashlib

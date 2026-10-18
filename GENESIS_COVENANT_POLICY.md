@@ -1,5 +1,5 @@
 # Mythara Engine — Pilot License Policy
-# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 This Pilot License governs access to the Mythara Engine during a time-limited evaluation period. By accessing or using the Pilot Software, you agree to the following terms.
 

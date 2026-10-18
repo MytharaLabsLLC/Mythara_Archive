@@ -1,7 +1,7 @@
 """
 Generate Mythara AI Representative Voice using ElevenLabs API
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import requests

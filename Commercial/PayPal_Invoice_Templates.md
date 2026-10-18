@@ -1,6 +1,6 @@
 # PayPal Invoice Templates - Mythara Products
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 Copy-paste these into PayPal invoice templates for quick sending.
 
@@ -172,7 +172,7 @@ Full source code access with rebuild rights and perpetual license.
 **Payment Terms**: Due upon receipt  
 **Accepted Methods**: PayPal, Wire Transfer, ACH, Cryptocurrency (BTC/ETH/USDC)  
 **Business Email**: MytharaLabsLLC@yahoo.com  
-**Support**: Herbievelezjr@gmail.com
+**Support**: MytharaLabsLLC@yahoo.com
 
 **Volume Discounts**:
 - 3+ Annual Subscriptions: 10% off

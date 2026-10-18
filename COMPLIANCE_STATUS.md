@@ -6,12 +6,12 @@
 
 ## What is implemented (controls mapped)
 
-- Soul Cradle governance: **Integrity = Alignment × Tolerance**; eight evidence-fed assessor-witnesses (abstain when domain not engaged, fail closed on missing evidence, critical finding blocks, dissent surfaced not averaged); hash-chained emotional records with witness attestation.
-- Aries is defanged: signed action envelopes with benign handlers only. SERE is a training simulation only — never a weapon, never hack-back, never military-ready.
+- SoulCradle governance: **Integrity = Alignment × Tolerance**; eight evidence-fed assessor-witnesses (abstain when domain not engaged, fail closed on missing evidence, critical finding blocks, dissent surfaced not averaged); hash-chained emotional records with witness attestation.
+- ARES is defanged: signed action envelopes with benign handlers only. SERE is a training simulation only — never a weapon, never hack-back, never military-ready.
 - HIPAA Security Rule (45 CFR 164 Subpart C): technical, administrative, and physical safeguard controls mapped — see `Legal/Compliance/International/Multi_Jurisdiction_Matrix.md`.
 - FDA 21 CFR Part 11: electronic records and signature rule tables versioned — see `soul_cradle/health.py`.
 - SOC 2 Type II and ISO 27001: controls mapped per the governance docs (no audit, no certification — "mapped," not "implemented").
-- Internal medical-AI governance checklist: Herb's own framework, labeled as such.
+- Internal medical-AI governance checklist: the founder's own framework, labeled as such.
 
 ## What is NOT claimed
 
@@ -26,6 +26,6 @@
 1. Say **"readiness"**, never **"certified"** — unless an actual audit certificate exists, in which case update this file first.
 2. Never fabricate customers, pilots, metrics, testimonials, or outcomes. Fictional examples must be labeled fictional.
 3. Every compliance judgment must cite the rule version it was evaluated under.
-4. `soul_cradle/will.py` enforces Herb's forbidden-claim patterns on VP Marketing output automatically.
+4. `soul_cradle/will.py` enforces the forbidden-claim patterns in WILL.md on VP Marketing output automatically.
 
 *Last updated 2026-09-22. This is a project status document, not legal advice.*

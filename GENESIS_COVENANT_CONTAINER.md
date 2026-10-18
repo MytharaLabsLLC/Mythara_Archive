@@ -1,5 +1,5 @@
 # Mythara Engine — Pilot (Container Run Guide)
-# Copyright © 2025 Herbert Velez Jr.
+# Copyright © 2026 Mythara Labs LLC.
 
 This guide covers running the Mythara Engine pilot via a prebuilt container image. No source code distribution is included in the pilot package.
 

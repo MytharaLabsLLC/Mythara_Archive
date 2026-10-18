@@ -3,7 +3,7 @@
 Mythara Outreach Pipeline - Harvest to Email
 Connects public database harvester to automated email outreach.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 PIPELINE:
 1. Harvest contacts from public databases

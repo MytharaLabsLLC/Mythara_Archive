@@ -5,7 +5,7 @@ system is for.
 
 ## The old purpose
 
-An autonomous machine that sends cold email under Herb's granted
+An autonomous machine that sends cold email under the founder's granted
 signature authority. Success was measured in emails sent. It could
 send, but it couldn't hear — replies landed in a mailbox nothing read.
 

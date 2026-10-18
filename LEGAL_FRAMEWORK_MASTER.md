@@ -1,5 +1,5 @@
 # Mythara Legal Framework Master Document
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
@@ -7,7 +7,7 @@
 
 This document establishes the complete legal architecture for Mythara's dual-entity structure:
 
-1. **Soul Cradle Foundation** (planned 501(c)(3) nonprofit — not yet formed) - Mission-driven free access
+1. **SoulCradle Foundation** — considered and tabled; not formed, not part of the current structure, and no free-access program exists under that name.
 2. **Mythara Enterprise** (Sole Proprietorship: Herbert Velez Jr.) - Commercial licensing
 
 **Purpose:** Eliminate all legal contradictions, define clear boundaries between free and paid offerings, ensure compliance with consumer protection laws, and establish defensible IP ownership structure.
@@ -16,10 +16,10 @@ This document establishes the complete legal architecture for Mythara's dual-ent
 
 ## 1. ENTITY STRUCTURE
 
-### 1.1 Soul Cradle Foundation (planned 501(c)(3) nonprofit — not yet formed)
+### 1.1 SoulCradle Foundation — considered and tabled; not formed, not part of the current structure, and no free-access program exists under that name.
 
-**Status:** To Be Formed  
-**Purpose:** Provide free Soul Cradle protections to qualifying vulnerable populations  
+**Status:** Considered and tabled — not formed  
+**Purpose:** Provide free SoulCradle protections to qualifying vulnerable populations  
 **Qualifying Organizations:**
 - Healthcare providers (hospitals, clinics, mental health services)
 - Educational institutions (K-12, universities, research institutions)
@@ -27,8 +27,8 @@ This document establishes the complete legal architecture for Mythara's dual-ent
 - Nonprofits serving vulnerable populations (homeless services, refugee assistance, disability services)
 
 **IP Ownership:**
-- Soul Cradle Framework (emotional safety methodology, paradox documentation system, trauma-informed design principles)
-- Soul Cradle Open Source Edition (MIT License) - hosted API, rate-limited, personal/nonprofit use only
+- SoulCradle Framework (emotional safety methodology, paradox documentation system, trauma-informed design principles)
+- SoulCradle Open Source Edition (MIT License) - hosted API, rate-limited, personal/nonprofit use only
 
 **Planned Services:**
 - Free hosted API (rate-limited: 1,000 calls/month)
@@ -50,13 +50,13 @@ This document establishes the complete legal architecture for Mythara's dual-ent
 ### 1.2 Mythara Enterprise (Sole Proprietorship)
 
 **Owner:** Herbert Velez Jr.  
-**Purpose:** Commercial licensing of Mythara Engine + Global Governance + Soul Cradle Enterprise Edition  
+**Purpose:** Commercial licensing of Mythara Engine + Global Governance + SoulCradle Enterprise Edition  
 **Business Structure:** Sole Proprietorship (may transition to LLC/C-Corp for liability protection)
 
 **IP Ownership:**
 - Mythara Engine (complete proprietary software)
 - Global Governance Framework (34 governance framework mappings — controls implemented, no certifications held)
-- Soul Cradle Enterprise Edition (planned)
+- SoulCradle Enterprise Edition (planned)
 
 **Services Provided:**
 - Commercial software licensing (planned — no payment path currently exists)
@@ -75,18 +75,18 @@ This document establishes the complete legal architecture for Mythara's dual-ent
 
 ## 2. IP OWNERSHIP & LICENSING FLOW
 
-### 2.1 Soul Cradle IP Split
+### 2.1 SoulCradle IP Split
 
 **Foundation Owns:**
-- Soul Cradle methodology and framework documentation
+- SoulCradle methodology and framework documentation
 - Open source implementation (MIT License)
 - Educational materials and training content
 - Research and publications
 
 **Mythara Enterprise Licenses from Foundation:**
-- Commercial use rights to Soul Cradle framework
+- Commercial use rights to SoulCradle framework
 - Right to integrate into proprietary Mythara Engine
-- Right to offer indemnification based on Soul Cradle compliance
+- Right to offer indemnification based on SoulCradle compliance
 - Exclusive commercial licensing rights
 
 **License Terms (Foundation → Enterprise):**
@@ -98,14 +98,14 @@ This document establishes the complete legal architecture for Mythara's dual-ent
 ### 2.2 Customer Licensing
 
 **Free Tier (via planned Foundation):**
-- Soul Cradle Open Source Edition only
+- SoulCradle Open Source Edition only
 - MIT License terms
 - No commercial use
 - No warranty, no indemnification
 - No support beyond community forums
 
 **Paid Tiers (via Mythara Enterprise):**
-- Proprietary Mythara Engine + Global Governance + Soul Cradle Enterprise
+- Proprietary Mythara Engine + Global Governance + SoulCradle Enterprise
 - Commercial license with restrictions
 - Warranty exclusions (standard software "AS IS")
 - No indemnification is currently offered
@@ -237,13 +237,13 @@ No indemnification is currently offered on any tier. No insurance backs this sof
 
 **PROBLEM:**
 - Warranty disclaimer says "NO WARRANTY"
-- Marketing says "Soul Cradle protections" and "Global Governance compliance"
+- Marketing says "SoulCradle protections" and "Global Governance compliance"
 - Conflict: Can't disclaim warranty while claiming protection
 
 **SOLUTION:**
 
 **Marketing Language (Compliant):**
-- "Mythara Engine includes Soul Cradle framework for documenting emotional safety decisions" ✅
+- "Mythara Engine includes SoulCradle framework for documenting emotional safety decisions" ✅
 - "Global Governance framework maps to 34 international regulations" ✅
 **Marketing Language (NON-Compliant):**
 - ❌ "Mythara guarantees compliance" (implies warranty)
@@ -341,7 +341,7 @@ All documents must use CONSISTENT entity name:
 - [ ] Update core/static/pricing-video-demo.html and pricing-video-v2.html to remove "bulletproof" and warranty-implying claims
 
 ### Short-term (Before any customer signs):
-- [ ] Form Soul Cradle Foundation (planned 501(c)(3) nonprofit — not yet formed)
+- [ ] SoulCradle Foundation — considered and tabled; not formed, not part of the current structure, and no free-access program exists under that name.
 - [x] Draft IP assignment agreement (Herbert Velez Jr. → Mythara Labs LLC upon formation — template at `Legal/IP_Assignment_Agreement.md`; awaiting counsel review; LLC formed October 4, 2026 (CO SOS ID #20268239831))
 - [ ] Obtain E&O and cyber liability insurance (backs indemnification) — no insurance currently maintained; obtain only if indemnification is introduced in future
 - [ ] Retain attorney to review complete legal framework
@@ -394,10 +394,10 @@ Herbert Velez Jr. / Mythara Enterprise should retain qualified legal counsel lic
 
 ## Recent additions (2026-09-21)
 
-New Soul Cradle modules, added 2026-09-21:
+New SoulCradle modules, added 2026-09-21:
 
 - **Moral standing law** (`soul_cradle/standing.py`) — The system judges per case who may declare trespass, forgiveness, or repentance: the wronged declares the trespass and forgives; the trespasser repents; a witness states only what was observed; a stranger declares nothing, ever. Every declaration is HMAC-SHA256 signed, timestamped, and audited. A pluggable credibility check (`set_credibility_check`) is the seam where the purpose resolver judges whether a claimed role is credible for the event.
 - **Hephaestus Forge** (`soul_cradle/forge.py`) — Governed bonding between bots: souls combine and create witnessed compounds, an emergent product with a full paper trail. Every bond is signed; every compound is audited. The judge callable is REQUIRED — no judge, no forge — fail-closed by construction, so ungoverned mutation cannot spread like cancer.
 - **Mythara identity** (`soul_cradle/identity.py`) — The identity every cell agrees on: Mythara is female, she/her pronouns, with a warm, friendly, American, gentle voice character.
-- **Aries authorization** (`soul_cradle/authorization.py`) — Every action Aries executes carries a signed `ActionEnvelope`: canonical JSON, HMAC-SHA256 signature, expiry timestamp, and an append-only audit trail. No envelope, no execution.
+- **ARES authorization** (`soul_cradle/authorization.py`) — Every action ARES executes carries a signed `ActionEnvelope`: canonical JSON, HMAC-SHA256 signature, expiry timestamp, and an append-only audit trail. No envelope, no execution.
 - **SERE doctrine** — Sandbox-only defense, no hack-back. On illegal entrance, refuse exit: seal egress, exfiltration, lateral movement, and C2 callbacks, then build a forensic profile inside the sandbox.

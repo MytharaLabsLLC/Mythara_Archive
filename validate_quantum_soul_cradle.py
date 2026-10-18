@@ -3,7 +3,7 @@
 Validate Quantum Soul Cradle Systems Framework
 Tests quantum superposition, RSA encryption, and entanglement features.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import sys

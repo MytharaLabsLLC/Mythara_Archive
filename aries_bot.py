@@ -4,7 +4,7 @@ ARIES - The Action Execution Engine
 An execution engine that takes approved decisions and runs them through
 registered handlers — with precision and speed, one signed action at a time.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 A.R.I.E.S.:
 Autonomous Rapid Implementation & Execution System

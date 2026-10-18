@@ -4,7 +4,7 @@ Mythara Engine - AI Video Generator (TTS + Lip-sync)
 Create a Mythara talking-head video by generating narration (ElevenLabs)
 then lip-syncing a character image with Wav2Lip.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Quick usage (Windows PowerShell):
 1) Ensure Python 3.10+ and FFmpeg installed and on PATH.

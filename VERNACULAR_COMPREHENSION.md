@@ -1,6 +1,6 @@
 # Mythara Gopher - Vernacular & Multilingual Comprehension
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
@@ -295,4 +295,4 @@ Mythara Gopher's vernacular comprehension ensures that **everyone** can access l
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

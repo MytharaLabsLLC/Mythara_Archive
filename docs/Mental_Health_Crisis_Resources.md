@@ -1,6 +1,6 @@
 # 🧠 Mental Health Crisis Resources - Quick Reference
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved..**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved..**
 
 **Emergency:** If you or someone you know is in immediate danger, call 911 or go to the nearest emergency room.
 

@@ -14,7 +14,7 @@ Nothing here is therapy. Real emergencies belong with real crisis resources. The
 
 The underlying mechanisms are the ones Mythara actually has today:
 
-- **Soul Cradle core** — actions scored on integrity, defined as Alignment × Tolerance (see [../soul_cradle/](../soul_cradle/))
+- **SoulCradle core** — actions scored on integrity, defined as Alignment × Tolerance (see [../soul_cradle/](../soul_cradle/))
 - **Eight assessor-witnesses** (demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone) — evidence-fed, they abstain when their domain is not engaged, fail closed when evidence is missing, a critical finding from any one blocks the action, and disagreement is surfaced, not averaged (see [../soul_cradle/assessors.py](../soul_cradle/assessors.py))
 - **Hash-chained emotional chain** — tamper-evident records (see [../soul_cradle/emotional_chain.py](../soul_cradle/emotional_chain.py)). The chain proves a record is unaltered. It does not prove the record is true.
 

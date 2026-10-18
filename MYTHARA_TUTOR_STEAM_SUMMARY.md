@@ -1,6 +1,6 @@
 # MytharaTutor - STEAM Learning Assistant
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **Document status (2026-09-27):** Design document from 2025 for `Commercial/mythara_tutor.py`, which exists in this repository. No certification claims hold: nothing here is COPPA, FERPA, or medically certified or approved. Pricing and market figures are 2025 working scenarios, not results — no students, schools, or customers.
 
@@ -32,7 +32,7 @@
 
 ## 🧠 Full Mythara SSIP Integration
 
-### **1. Soul Cradle — Learner Self-Reports, Witness-Attested**
+### **1. SoulCradle — Learner Self-Reports, Witness-Attested**
 ```python
 # Records learner self-reported state during learning
 - Response time analysis (too fast = guessing, too slow = stuck)
@@ -205,7 +205,7 @@ Students can create hands-on projects:
 
 3. Interactive Learning
    → Question presented
-   → Soul Cradle monitors response time + emotion
+   → SoulCradle monitors response time + emotion
    → Adaptive feedback based on distress level
    → Blessings awarded for correct answers
 
@@ -268,7 +268,7 @@ Students can create hands-on projects:
 
 ```
 ✅ MYTHARA SSIP INTEGRATION DEMONSTRATED:
-   ✓ Soul Cradle: Real-time distress detection and adaptive responses
+   ✓ SoulCradle: Real-time distress detection and adaptive responses
    ✓ Blessings Reservoir: Gamified rewards and achievement system
    ✓ Messenger Protocol: Age-appropriate teaching styles
    ✓ Sanctification: Academic integrity enforcement

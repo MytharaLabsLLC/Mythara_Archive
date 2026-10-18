@@ -8,7 +8,7 @@ Where:
 - H = Amount held back (what you suppressed)
 - EQ = Emotional Quotient / Authenticity Score
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 This formula measures emotional authenticity by calculating:
 (Genuine shareable / Total expressed) × Held back

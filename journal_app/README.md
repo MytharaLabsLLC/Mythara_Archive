@@ -1,6 +1,6 @@
 # Witnessed Journal — v1 prototype
 
-A working product surface for the Soul Cradle emotional chain: a
+A working product surface for the SoulCradle emotional chain: a
 tamper-evident journaling app where every entry is attested by the
 eight assessor-witnesses, whose sealed judgments are hash-chained with
 the entry. Stdlib only — no dependencies.

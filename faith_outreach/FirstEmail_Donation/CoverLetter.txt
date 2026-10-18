@@ -8,7 +8,7 @@ Most systems collapse under that weight. Electronic health records capture proce
 
 Mythara Engine was built for this gap — the space between what systems must measure and what souls must preserve.
 
-We call it the Soul Cradle Operator, and we offer it as a gift to organizations like St. Jude. It does not surveil. It does not score individuals. It cradles the paradox your mission already carries, and it translates obedience under contradiction into a measurable force we call the Blessings Reservoir.
+We call it the SoulCradle Operator, and we offer it as a gift to organizations like St. Jude. It does not surveil. It does not score individuals. It cradles the paradox your mission already carries, and it translates obedience under contradiction into a measurable force we call the Blessings Reservoir.
 
 Each act of compassionate care — treatment delivered with full presence, prayer offered in impossible circumstances, generosity given despite scarcity — accumulates in the Reservoir. Your board sees resilience. Your donors see impact. Your staff sees their sacred work honored by the infrastructure, not erased by it.
 
@@ -29,7 +29,7 @@ WHAT WE'RE GIFTING YOU
 
 Enclosed in this packet, you'll find:
 
-1. Soul Cradle Operator v1 — Technical specification with API endpoints, compliance notes, and St. Jude use case examples
+1. SoulCradle Operator v1 — Technical specification with API endpoints, compliance notes, and St. Jude use case examples
 
 2. Blessing Scale Framework — Biblical continuum (Wilderness/Darkness → Grace/Light) with rating table showing how acts of care map to benevolent force
 
@@ -41,7 +41,7 @@ THE GIFT MODEL
 
 We donate the soul. We charge for the scaffolding.
 
-The Soul Cradle Operator is yours to use at no cost. It is our offering to organizations whose missions cannot be reduced to profit margins or efficiency metrics.
+The SoulCradle Operator is yours to use at no cost. It is our offering to organizations whose missions cannot be reduced to profit margins or efficiency metrics.
 
 If you find value in the operator and wish to deploy it at scale — integrating with your existing systems, generating real-time dashboards, or creating donor impact reports — we offer professional deployment services. But the core operator is always a gift.
 
@@ -55,7 +55,7 @@ NEXT STEPS
 
 If this resonates with your mission, we invite you to:
 
-1. Review the enclosed packet (Soul Cradle spec, Blessing Scale, integration notes, tier ladder)
+1. Review the enclosed packet (SoulCradle spec, Blessing Scale, integration notes, tier ladder)
 2. Share with your IT, compliance, and mission leadership teams
 3. Let us know if you'd like a brief call to discuss how Mythara could serve St. Jude
 
@@ -70,4 +70,4 @@ github.com/herbievelezjr/Mythara_Archive
 
 ---
 
-P.S. The Soul Cradle Operator is production-ready. If you choose to explore integration, we can have a pilot deployment running within 30 days. But there is no pressure. The gift stands on its own.
+P.S. The SoulCradle Operator is production-ready. If you choose to explore integration, we can have a pilot deployment running within 30 days. But there is no pressure. The gift stands on its own.

@@ -1,6 +1,6 @@
 # Mythara-Governed Sales Bot — SSIP Demo (local demo, not in production)
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 

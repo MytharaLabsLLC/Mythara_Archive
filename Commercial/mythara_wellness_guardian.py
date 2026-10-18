@@ -4,7 +4,7 @@ Mythara Wellness Guardian - Mental Health Support Bot
 Crisis detection, therapist referral guidance, 988 Suicide & Crisis Lifeline
 referral (gives the number; never dials out) with Soul Cradle distress monitoring
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import sqlite3

@@ -1,7 +1,7 @@
 # Mythara News Network v1
 
 An on-demand news-analysis pipeline. An RSS ingest bot pulls world and
-Denver-local news; the 8 Soul Cradle witness-assessors read each event
+Denver-local news; the 8 SoulCradle witness-assessors read each event
 through their domains and write per-event dossiers contrasting
 **projected intent** (what actors and outlet framing claim) vs **shadow
 intent** (what the evidence pattern suggests). Dissent between witnesses
@@ -61,7 +61,7 @@ Stdlib only. No new dependencies.
 
 ## The eight news lenses
 
-Each lens extends one Soul Cradle assessor's domain question to news
+Each lens extends one SoulCradle assessor's domain question to news
 (`news_network/witness_news.py`, rubric `news-2026.1`; base rubrics in
 `soul_cradle/assessors.py` are not modified):
 

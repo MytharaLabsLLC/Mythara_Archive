@@ -1,6 +1,6 @@
 # How to Make Tutorial Videos for Mythara Engine
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **⚠️ SCRIPT DRAFTS (November 2025) — voice-standard pass Sept 2026.** The scripts below describe a pilot signup flow that **no longer exists** (all Stripe webhooks were deleted; there is no $49 pilot, no live payment path, no hosted service to demo). **Do not record, share, or publish these scripts without rewriting them.** Corrected claims are noted inline.
 
@@ -93,19 +93,19 @@ Settings → Audio:
 
 Mythara holds the space when your mission conflicts with compliance. 
 
-[Scroll to Soul Cradle section]
+[Scroll to SoulCradle section]
 
 Say you're a hospital social worker. Policy says discharge this patient. 
 Your heart says they'll be homeless. Both are true.
 
 [Click chat bubble]
 
-Soul Cradle documents that paradox. Measures the cost to your soul 
+SoulCradle documents that paradox. Measures the cost to your soul 
 and the mission. Creates an immutable record.
 
 [Show pricing tiers]
 
-We donate Soul Cradle to healthcare, banking, justice, nonprofits, 
+We donate SoulCradle to healthcare, banking, justice, nonprofits, 
 civil service, education—the industries carrying impossible weight.
 
 [Pause on Pilot tier]
@@ -160,22 +160,22 @@ Questions? Email MytharaLabsLLC@yahoo.com"
 
 ---
 
-### Video 3: "Soul Cradle Explained (4 min)"
+### Video 3: "SoulCradle Explained (4 min)"
 
-**Show:** Soul Cradle documentation example
+**Show:** SoulCradle documentation example
 
 **Script:**
 ```
-"Let's talk about Soul Cradle.
+"Let's talk about SoulCradle.
 
 [Show example scenario on screen - text overlay or whiteboard]
 
 Hospital social worker. Patient needs care. Policy says discharge. 
 Heart says keep them safe.
 
-[Show Soul Cradle interface if available, or explain conceptually]
+[Show SoulCradle interface if available, or explain conceptually]
 
-Soul Cradle documents:
+SoulCradle documents:
 - What policy said
 - What your heart said  
 - What you actually did
@@ -194,7 +194,7 @@ before people break.
 
 Tamper-evident. Human-readable. *(Do not claim "audit-ready" or "court-ready" — legal admissibility and audit acceptance are aspirations, not current claims.)*
 
-We donate Soul Cradle to the industries that need it most:
+We donate SoulCradle to the industries that need it most:
 Healthcare, banking, justice, nonprofits, civil service, education.
 
 It's included in every tier. No charge. *(Aspiration: the planned free tier for qualifying organizations has not launched.)*
@@ -297,7 +297,7 @@ Questions? Email MytharaLabsLLC@yahoo.com"
 ### Core Videos (Must-have):
 1. ✅ What is Mythara? (2 min)
 2. ✅ How to Start Your Pilot (3 min)
-3. ✅ Soul Cradle Explained (4 min)
+3. ✅ SoulCradle Explained (4 min)
 
 ### Advanced Videos (Nice-to-have):
 4. ⚡ Enterprise Features Overview (3 min)
@@ -311,7 +311,7 @@ Questions? Email MytharaLabsLLC@yahoo.com"
 ### Week 1: Core Videos
 - **Day 1:** Record Video 1 (What is Mythara)
 - **Day 2:** Record Video 2 (Pilot Signup)
-- **Day 3:** Record Video 3 (Soul Cradle)
+- **Day 3:** Record Video 3 (SoulCradle)
 - **Day 4:** Review, re-record if needed
 - **Day 5:** Upload to YouTube/Vimeo
 

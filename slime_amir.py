@@ -3,7 +3,7 @@
 S.L.I.M.E. A.M.I.R. - Simple, Lightweight, Intelligent, Modular, Evolving
 Autonomous Mythara Intelligence & Response with Slime Mold Algorithm
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 SLIME MOLD CYBERSECURITY ALGORITHM:
 - Distributed autonomous nodes (no single point of failure)

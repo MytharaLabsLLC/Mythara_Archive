@@ -1,6 +1,6 @@
 # Mythara Engine - Production Integration Complete
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date**: November 21, 2025  
 **Integration Status**: ✅ **INTEGRATED (internal readiness assessment — not a certified production deployment)**
 
@@ -295,7 +295,7 @@ http_requests_total{method="POST", endpoint="/v1/clauses/invoke", status_code="2
 clause_invocations_total{clause_id="Legacy_Seed", messenger="hope"}
 clause_invocation_duration{clause_id="Legacy_Seed"}
 
-# Soul Cradle Metrics
+# SoulCradle Metrics
 paradoxes_created_total{system_type="work_pressure"}
 paradox_risk_score{quantile="0.5"}                    # Median risk
 indifference_alerts_total{severity="TERMINAL"}        # 🚨 Violence prevention
@@ -890,4 +890,4 @@ The 2025 plan was: once we secure 1 pilot customer and collect a testimonial, th
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

@@ -1,6 +1,6 @@
-# Soul Cradle × Bot Ecosystem: Integration Map
+# SoulCradle × Bot Ecosystem: Integration Map
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date**: November 21, 2025
 
 > **Document status (2026-09-27):** Internal 2025 concept document. The
@@ -15,9 +15,9 @@
 
 ## EXECUTIVE SUMMARY
 
-**Soul Cradle** (mathematical soul state modeling) becomes exponentially more powerful when integrated with Mythara's **39+ bot modules**. Each bot can detect paradoxes, track burnout, and trigger interventions in its specific domain.
+**SoulCradle** (mathematical soul state modeling) becomes exponentially more powerful when integrated with Mythara's **39+ bot modules**. Each bot can detect paradoxes, track burnout, and trigger interventions in its specific domain.
 
-**Key Insight**: Soul Cradle is NOT standalone software—it's a **detection layer** that makes every bot emotionally intelligent.
+**Key Insight**: SoulCradle is NOT standalone software—it's a **detection layer** that makes every bot emotionally intelligent.
 
 ---
 
@@ -36,15 +36,15 @@
 
 ---
 
-## INTEGRATION PATTERNS: Soul Cradle × Bots
+## INTEGRATION PATTERNS: SoulCradle × Bots
 
 ### Pattern 1: **Paradox Detection in Domain-Specific Contexts**
 
-Each bot operates in a specific domain where paradoxes naturally occur. Soul Cradle integrates to detect and log these domain-specific paradoxes.
+Each bot operates in a specific domain where paradoxes naturally occur. SoulCradle integrates to detect and log these domain-specific paradoxes.
 
-#### Example: Sales Bot + Soul Cradle
+#### Example: Sales Bot + SoulCradle
 
-**Sales Bot Without Soul Cradle**:
+**Sales Bot Without SoulCradle**:
 ```python
 # sales_bot.py
 def handle_prospect_objection(objection):
@@ -54,7 +54,7 @@ def handle_prospect_objection(objection):
         return schedule_followup()
 ```
 
-**Sales Bot WITH Soul Cradle**:
+**Sales Bot WITH SoulCradle**:
 ```python
 # sales_bot_with_soul_cradle.py
 from soul_cradle_systems_framework import SoulCradleParadox, SystemExpression
@@ -117,12 +117,12 @@ def handle_prospect_objection(objection, sales_rep_id):
 
 ### Pattern 2: **Bot-Generated Interventions Based on Soul State**
 
-Soul Cradle detects risk → Triggers specific bot to intervene
+SoulCradle detects risk → Triggers specific bot to intervene
 
-#### Example: HR Bot + Soul Cradle
+#### Example: HR Bot + SoulCradle
 
 **Flow**:
-1. **Soul Cradle** detects employee burnout (risk = 0.78)
+1. **SoulCradle** detects employee burnout (risk = 0.78)
 2. **HR Bot** automatically triggered
 3. **HR Bot** creates intervention workflow:
    - Schedule 1-on-1 with manager
@@ -222,7 +222,7 @@ def trigger_hr_bot_intervention(user_risk: Dict):
 
 ### Pattern 3: **Cross-Bot Paradox Correlation**
 
-Multiple bots detect related paradoxes → Soul Cradle identifies systemic patterns
+Multiple bots detect related paradoxes → SoulCradle identifies systemic patterns
 
 #### Example: Finance VP Bot + HR VP Bot + Sales Bot
 
@@ -261,7 +261,7 @@ paradox_sales = SoulCradleParadox(
 )
 ```
 
-**Soul Cradle Cross-Bot Analysis**:
+**SoulCradle Cross-Bot Analysis**:
 ```python
 # soul_engine_dashboard.py (NEW FUNCTION)
 def detect_systemic_paradox_clusters(org_id: str) -> Dict:
@@ -321,7 +321,7 @@ def detect_systemic_paradox_clusters(org_id: str) -> Dict:
 
 ## SPECIFIC BOT INTEGRATIONS
 
-### 1. **Attorney Referral Bot + Soul Cradle**
+### 1. **Attorney Referral Bot + SoulCradle**
 
 **Use Case**: Detect when clients need mental health support, not just legal help
 
@@ -332,7 +332,7 @@ def assess_client_needs(client_query: str, client_id: str):
     # Existing: Legal need assessment
     legal_match = find_attorney_match(client_query)
     
-    # NEW: Soul Cradle paradox detection
+    # NEW: SoulCradle paradox detection
     if detect_domestic_violence_paradox(client_query):
         # Paradox: "I need to leave" vs "I have no money/kids/support"
         paradox = create_domestic_violence_paradox(client_query, client_id)
@@ -367,7 +367,7 @@ def assess_client_needs(client_query: str, client_id: str):
 
 ---
 
-### 2. **Medical Team Suite + Soul Cradle**
+### 2. **Medical Team Suite + SoulCradle**
 
 **Use Case**: Detect provider burnout AND patient safety paradoxes
 
@@ -447,7 +447,7 @@ class MedicalTeamBot:
 
 ---
 
-### 3. **Sales Bot + Soul Cradle**
+### 3. **Sales Bot + SoulCradle**
 
 **Use Case**: Detect sales rep burnout from rejection, pricing anxiety, imposter syndrome
 
@@ -505,7 +505,7 @@ class SalesBotWithSoul(AutonomousSalesBot):
 
 ---
 
-### 4. **Email Bot + Soul Cradle**
+### 4. **Email Bot + SoulCradle**
 
 **Use Case**: Detect customer frustration paradoxes from support emails
 
@@ -572,7 +572,7 @@ def process_customer_email(email_data: Dict, customer_id: str):
 
 ## INTEGRATION ARCHITECTURE
 
-### Mythara Engine with Soul Cradle Layer
+### Mythara Engine with SoulCradle Layer
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -644,7 +644,7 @@ def process_customer_email(email_data: Dict, customer_id: str):
 ## IMPLEMENTATION ROADMAP
 
 ### Phase 1: Core API (2 weeks) — COMPLETED
-- ✅ Soul Cradle mathematics
+- ✅ SoulCradle mathematics
 - ✅ Terminal risk calculator
 - ✅ Redis storage
 - ✅ WebSocket alerts
@@ -653,7 +653,7 @@ def process_customer_email(email_data: Dict, customer_id: str):
 ### Phase 2: Bot Integration (4 weeks)
 
 **Week 1-2: Sales & Marketing Bots**
-- Integrate Sales Bot with Soul Cradle
+- Integrate Sales Bot with SoulCradle
 - Add paradox logging to Email Bot
 - Create sales rep burnout dashboard
 - Test: 100 simulated sales interactions
@@ -694,12 +694,12 @@ def process_customer_email(email_data: Dict, customer_id: str):
 
 ## BUSINESS MODEL IMPLICATIONS
 
-### Soul Cradle as B2B2C Platform
+### SoulCradle as B2B2C Platform
 
 **B2B (Enterprise Customer)**:
 - Buy Mythara Engine (includes all 43 bots)
 - Pay per employee ($5-$10/employee/month)
-- Soul Cradle monitors ALL employees across ALL bots
+- SoulCradle monitors ALL employees across ALL bots
 
 **B2C (End Users - Employees)**:
 - Log paradoxes via ANY bot interaction:
@@ -713,7 +713,7 @@ def process_customer_email(email_data: Dict, customer_id: str):
 ### Revenue Impact (illustrative model — not measured results)
 
 **Per 1000-Employee Organization** (hypothetical illustration):
-- Soul Cradle: $5/employee/month = $5k/month = $60k/year
+- SoulCradle: $5/employee/month = $5k/month = $60k/year
 - Prevents 10 employee departures/year (avg $75k/each to replace) = $750k saved
 - Illustrative ROI: 12.5x
 
@@ -731,14 +731,14 @@ def process_customer_email(email_data: Dict, customer_id: str):
 - Model: Mental health as REACTIVE service (wait until crisis)
 - Limitation: No workplace paradox detection, no burnout prediction
 
-**Mythara + Soul Cradle**:
+**Mythara + SoulCradle**:
 - Focus: PROACTIVE crisis prevention via paradox mathematics
-- Model: Soul Cradle embedded in 43 bots across ALL employee workflows
+- Model: SoulCradle embedded in 43 bots across ALL employee workflows
 - Advantage: Detect burnout 30-60 days BEFORE crisis, in context of actual work paradoxes
 
 **Replication Barrier**:
 1. **Requires 43+ domain-specific bots** (competitors don't have)
-2. **Requires Soul Cradle math** (patent application planned — not yet filed; 2 years R&D)
+2. **Requires SoulCradle math** (patent application planned — not yet filed; 2 years R&D)
 3. **Requires integration layer** (bot orchestration, paradox correlation)
 4. **Network effects**: More bots = more paradox types detected = more valuable
 
@@ -746,8 +746,8 @@ def process_customer_email(email_data: Dict, customer_id: str):
 
 ## CONCLUSION
 
-**Soul Cradle is NOT a standalone product.**  
-**Soul Cradle is a DETECTION LAYER that makes 43 bots emotionally intelligent.**
+**SoulCradle is NOT a standalone product.**  
+**SoulCradle is a DETECTION LAYER that makes 43 bots emotionally intelligent.**
 
 Every bot becomes a sensor. Every interaction logs paradoxes. Every org gets 24/7 burnout monitoring across all departments.
 
@@ -757,10 +757,10 @@ Sales bot? Now it prevents sales rep burnout.
 HR bot? Now it detects systemic org crises.  
 Medical bot? Now it prevents provider moral injury.
 
-**Soul Cradle × 43 Bots = $300M ARR market**
+**SoulCradle × 43 Bots = $300M ARR market**
 
-⚛️ **Q.U.A.S.A.R. operational. Soul Cradle integrated. Bot army emotionally intelligent.**
+⚛️ **Q.U.A.S.A.R. operational. SoulCradle integrated. Bot army emotionally intelligent.**
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

@@ -160,5 +160,5 @@ That's when they retreat to easier targets.
 
 *Full attack-suite source and results: `tests/big_meanie.py`, `tests/run_big_meanie_on_archive.py`*
 
-**Copyright © 2025 Herbert Velez Jr.**  
+**Copyright © 2026 Mythara Labs LLC.**  
 *Where Security Meets Soulcraft™*

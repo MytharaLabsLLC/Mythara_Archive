@@ -1,6 +1,6 @@
 # 🌐 International Deployment Strategy — Mythara Engine
 
-> **Honest status (September 2026).** This document is a proposed deployment plan, not a record of deployments. No pilots have been run in any region, no timelines are committed, and Mythara holds no compliance certifications or licenses. The phases below describe an intended sequence; the compliance and regulatory work listed is future work, not work completed. The system as it exists today is the Soul Cradle core (Integrity = Alignment × Tolerance) with the 8 assessor-witnesses, the hash-chained emotional chain, a defanged Aries under signed envelopes, and SERE as a training simulation — nothing beyond the sandbox.
+> **Honest status (September 2026).** This document is a proposed deployment plan, not a record of deployments. No pilots have been run in any region, no timelines are committed, and Mythara holds no compliance certifications or licenses. The phases below describe an intended sequence; the compliance and regulatory work listed is future work, not work completed. The system as it exists today is the SoulCradle core (Integrity = Alignment × Tolerance) with the 8 assessor-witnesses, the hash-chained emotional chain, a defanged ARES under signed envelopes, and SERE as a training simulation — nothing beyond the sandbox.
 
 ## 🧭 Vision
 

@@ -3,7 +3,7 @@
 MytharaConnect Topology Reflection Module
 Analyzes the Paradox Topology Engine through Mythara's governance lens
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 This module enables MytharaConnect to reflect on the Paradox Topology Engine,
 understanding its capabilities, expressing its vision, and validating alignment

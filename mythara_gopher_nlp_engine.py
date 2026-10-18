@@ -4,7 +4,7 @@ Mythara Gopher - Natural Language Legal Intelligence Engine
 A GPT-like conversational AI trained on Mythara's legal knowledge base.
 Provides natural language understanding for legal queries without external APIs.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import re
@@ -153,7 +153,7 @@ PLEASE READ THIS DISCLAIMER CAREFULLY BEFORE USING MYTHARA GOPHER
 
 FOR LEGAL ADVICE SPECIFIC TO YOUR SITUATION, CONSULT A LICENSED ATTORNEY.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 ================================================================================
 """
 

@@ -1,7 +1,7 @@
 """
 Generate Mythara Pricing Page Video using Manim (Animation Engine)
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 This script creates an animated video explaining Mythara's pricing tiers
 with the cute fox mascot and elegant animations.

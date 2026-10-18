@@ -3,7 +3,7 @@
 Mythara Architect Team Suite - AI-Powered Design & Manufacturing Platform
 Blueprint generation, Soul Cradle design intelligence, 3D printing, CNC, laser cutting integration
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import json

@@ -3,7 +3,7 @@
 Mythara Auto Sender - Fully Automated Email Outreach
 Sends personalized emails directly via Yahoo SMTP.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 SETUP:
 # Password moved to environment variable (CWE-798)

@@ -1,6 +1,6 @@
 # MYTHARA ARCHIVE - ATTORNEY REVIEW PACKAGE
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Preparation Date:** November 19, 2025  
 **Status:** READY FOR LEGAL COUNSEL REVIEW
 
@@ -124,7 +124,7 @@ This package contains **Mythara Archive**, a proprietary software repository tha
 - [ ] "Genesis Covenant" (goods/services: software, SaaS, AI governance)
 - [ ] "Will Integrity Guardian" (goods/services: AI safety, communication analysis)
 - [ ] "Blessings Reservoir" (goods/services: metrics, analytics, AI systems)
-- [ ] "Soul Cradle" (goods/services: decision-making frameworks, AI ethics)
+- [ ] "SoulCradle" (goods/services: decision-making frameworks, AI ethics)
 - [ ] "Mythara" (already in use; confirm registration status)
 - [ ] "Sanctification Key" (goods/services: API authentication, access control)
 
@@ -293,7 +293,7 @@ This package contains **Mythara Archive**, a proprietary software repository tha
 - **Revenue Model (planned, untested):** SaaS subscriptions ($2.5K-$50K/month) + one-time perpetual licenses ($2M) — no sales have been made
 
 ### **Intellectual Property:**
-- **Core Technology:** Symbolic clause engine, Blessings Reservoir metrics, Soul Cradle decision framework
+- **Core Technology:** Symbolic clause engine, Blessings Reservoir metrics, SoulCradle decision framework
 - **Trade Secrets:** Sanctification algorithms, integrity verification hashes
 - **Open Source Components:** FastAPI, SQLAlchemy, various Python libraries (see `requirements.txt`)
 - **Pending Patents:** None currently filed
@@ -421,7 +421,7 @@ This repository contains proprietary and confidential information of Herbert Vel
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Herbert Velez Jr. — Proprietary & Confidential**
 
 **Prepared by:** Herbert Velez Jr., Founder  

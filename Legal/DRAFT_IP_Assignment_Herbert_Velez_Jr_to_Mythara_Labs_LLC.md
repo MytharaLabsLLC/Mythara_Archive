@@ -44,7 +44,7 @@ Assignor's right, title, and interest in the following (the "Assigned IP"):
    in Schedule A, including all branches and history, plus any Mythara code
    held outside that repository. **[CONFIRM: list any other repositories,
    gists, or local-only code.]**
-2. **The Soul Cradle system** — the integrity-scoring core, emotional chain
+2. **The SoulCradle system** — the integrity-scoring core, emotional chain
    protocol, and all related modules and documentation.
 3. **SERE training materials** — the SERE course, the Slime system, the
    Crucible exam, adversary simulations, and all related documentation. SERE
@@ -55,7 +55,7 @@ Assignor's right, title, and interest in the following (the "Assigned IP"):
    engine, and related rubrics and documentation.
 5. **Documentation** — all technical, legal, and commercial documents
    describing the systems above.
-6. **Brand assets** — the names "Mythara," "Mythara Engine," "Soul Cradle,"
+6. **Brand assets** — the names "Mythara," "Mythara Engine," "SoulCradle,"
    and related marks, to the extent Assignor owns rights in them (trademark
    applications to be filed by Assignee after formation).
 

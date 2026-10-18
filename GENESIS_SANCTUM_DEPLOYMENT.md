@@ -1,6 +1,6 @@
 # Mythara Engine - Pilot Self-Hosted Deployment Guide
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **⚠️ HISTORICAL DESIGN (November 2025) — voice-standard pass Sept 2026.** This guide describes a pilot offering as it was planned. There is currently **no live payment path** (all Stripe webhooks were deleted), **no hosted pilot service** is offered, and the pilot license key, Docker image reference, and deployment targets below are **unverified in this archive**. Treat this as planning material, not current instructions.
 
@@ -372,4 +372,4 @@ Azure Monitor: https://portal.azure.com/#blade/Microsoft_Azure_Monitoring
 
 ---
 
-© 2025 Herbert Velez Jr. All rights reserved.
+© 2026 Mythara Labs LLC. All rights reserved.

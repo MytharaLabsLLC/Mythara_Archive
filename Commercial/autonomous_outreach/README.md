@@ -1,6 +1,6 @@
 # Outreach — operator-run conversation pipeline
 
-Sends email under Herb's granted signature authority (2026-09-22,
+Sends email under the founder's granted signature authority (2026-09-22,
 "full auto"). **Email channel only.** Every other bot stays draft-only.
 
 The pitch: **"I build AI that can answer for itself."**

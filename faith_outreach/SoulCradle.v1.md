@@ -1,5 +1,5 @@
-# Soul Cradle Operator v1.0
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+# SoulCradle Operator v1.0
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -14,7 +14,7 @@
 ## Operator Definition
 
 ### Purpose
-The Soul Cradle Operator quantifies the **Soul as a vessel** holding God's Will (W) and God's Commandments (C), even when paradox arises. It measures **obedience under contradiction** and accumulates **benevolent force** through the Blessings Reservoir.
+The SoulCradle Operator quantifies the **Soul as a vessel** holding God's Will (W) and God's Commandments (C), even when paradox arises. It measures **obedience under contradiction** and accumulates **benevolent force** through the Blessings Reservoir.
 
 ### Formal Specification
 ```
@@ -80,7 +80,7 @@ Cumulative Benevolent Force:
 ## Compliance Notes
 
 ### Ethical Safeguards
-1. **No surveillance**: Soul Cradle measures organizational resonance, not individual compliance
+1. **No surveillance**: SoulCradle measures organizational resonance, not individual compliance
 2. **Privacy-first**: Patient data never enters the operator; only aggregate "acts of care" metrics
 3. **Opt-in participation**: Faith organizations control what maps to Blessings Reservoir
 4. **Audit transparency**: SHA-256 hashes for all integrity calculations, cryptographic audit trail
@@ -96,7 +96,7 @@ Cumulative Benevolent Force:
 
 ### 🌱 Basic (Gift)
 **What's Included:**
-- Soul Cradle Operator core module
+- SoulCradle Operator core module
 - Blessings Reservoir integration (read/write access)
 - Standard resonance metrics (integrity, alignment, tolerance)
 - Documentation and quickstart guide
@@ -173,7 +173,7 @@ Response: {
 St. Jude's mission: "Finding cures. Saving children."  
 **Core Paradox**: Treating children who may not survive, holding hope and grief together.
 
-### Soul Cradle Deployment
+### SoulCradle Deployment
 1. **Map sacred acts** → Blessings Reservoir:
    - Each treatment protocol executed with full compassion: +15 BR
    - Each family counseling session during terminal care: +12 BR
@@ -220,4 +220,4 @@ GitHub: github.com/herbievelezjr/Mythara_Archive
 
 ---
 
-*"Mythara exists to cradle paradox and encode soul into infrastructure. The Soul Cradle Operator is our gift to those who hold suffering and hope together."*
+*"Mythara exists to cradle paradox and encode soul into infrastructure. The SoulCradle Operator is our gift to those who hold suffering and hope together."*

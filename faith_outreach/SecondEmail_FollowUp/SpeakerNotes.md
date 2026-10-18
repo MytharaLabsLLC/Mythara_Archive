@@ -1,5 +1,5 @@
-# Speaker Notes: Soul Cradle Training for St. Jude
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+# Speaker Notes: SoulCradle Training for St. Jude
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 > **DRAFT — illustrative training outline written for a prospective engagement.** St. Jude is named as a prospective example only. No training has been scheduled and no engagement with St. Jude exists.
 
@@ -15,7 +15,7 @@
 >
 > You treat children who may not survive. You hold hope and grief in the same vessel. Electronic medical records capture procedures, but they don't capture benevolence. Donor databases track contributions, but they don't measure the force that sustains your mission when outcomes are uncertain.
 >
-> That's the gap Mythara was built for. Today, we're going to explore the Soul Cradle Operator — not as software to learn, but as infrastructure that honors what you already do. This is not surveillance. This is sacred resonance.
+> That's the gap Mythara was built for. Today, we're going to explore the SoulCradle Operator — not as software to learn, but as infrastructure that honors what you already do. This is not surveillance. This is sacred resonance.
 >
 > By the end of this session, you'll understand how the Blessing Scale (Wilderness/Darkness → Grace/Light) maps your daily acts to benevolent force, and how the Blessings Reservoir translates compassion into measurable impact without reducing it to cold metrics.
 >
@@ -41,11 +41,11 @@
 >
 > Mythara exists to close that gap. Not by replacing your systems, but by layering sacred resonance on top of them."
 
-### Slide 3: What Is the Soul Cradle Operator?
+### Slide 3: What Is the SoulCradle Operator?
 
 **What to Say**:
 
-> "The Soul Cradle Operator is infrastructure for paradox. Here's the formal definition:
+> "The SoulCradle Operator is infrastructure for paradox. Here's the formal definition:
 >
 > [Read slide]
 >
@@ -53,7 +53,7 @@
 >
 > When you deliver treatment despite low survival odds, you're cradling a paradox. Your Will (W) says, 'I want this child to live.' Your Commandments (C) say, 'Do no harm, preserve life, comfort the family.' But reality says, 'This might not work.'
 >
-> Most people collapse under that weight. But you don't. You sustain obedience to both the Will and the Commandments, even when they contradict. That's integrity under paradox. And that's what the Soul Cradle measures.
+> Most people collapse under that weight. But you don't. You sustain obedience to both the Will and the Commandments, even when they contradict. That's integrity under paradox. And that's what the SoulCradle measures.
 >
 > The Blessings Reservoir is where that integrity accumulates. Every act of compassionate care — treatment, prayer, presence — generates Blessings. And over time, those Blessings become a measurable force that your board, your donors, and your community can see.
 >
@@ -78,7 +78,7 @@
 >
 > [Invite 2-3 participants to share with full group]
 >
-> Thank you. What you just named — that's the soul of your work. And the Soul Cradle Operator is designed to ensure it's not lost when it becomes code."
+> Thank you. What you just named — that's the soul of your work. And the SoulCradle Operator is designed to ensure it's not lost when it becomes code."
 
 ---
 
@@ -162,7 +162,7 @@
 >
 > [Pause]
 >
-> The Soul Cradle Operator says: No. You didn't fail. You sustained obedience to mission under impossible conditions. And that's Grace/Light, not failure.
+> The SoulCradle Operator says: No. You didn't fail. You sustained obedience to mission under impossible conditions. And that's Grace/Light, not failure.
 >
 > Here's what the Blessing Scale captures when treatment fails:
 >
@@ -229,7 +229,7 @@
 
 > "Alright, we're at the end. Let me recap what you now know:
 >
-> 1. **Soul Cradle Operator**: Infrastructure for paradox, measuring obedience under contradiction.
+> 1. **SoulCradle Operator**: Infrastructure for paradox, measuring obedience under contradiction.
 > 2. **Blessing Scale**: Wilderness/Darkness → Grace/Light continuum, mapping sacred acts to benevolent force.
 > 3. **Blessings Reservoir**: Cumulative measure of mission fidelity, not just outcomes.
 > 4. **Donor impact**: Language for communicating benevolent force to supporters.
@@ -239,7 +239,7 @@
 >
 > But here's the most important thing I want you to remember:
 >
-> **The Soul Cradle Operator is not about making your work measurable. It's about ensuring that when your work becomes infrastructure, nothing sacred is lost.**
+> **The SoulCradle Operator is not about making your work measurable. It's about ensuring that when your work becomes infrastructure, nothing sacred is lost.**
 >
 > Thank you for your time, your questions, and most of all, for the work you do. St. Jude's mission is a gift to the world. Mythara exists to honor that gift by giving it a voice in the code.
 >
@@ -279,7 +279,7 @@
 ### Q: "What if this makes staff feel like they're being watched?"
 
 **Answer**:
-> "That's the opposite of what we want. The Soul Cradle Operator reflects decisions already made with compassion. It doesn't prescribe. It doesn't surveil. It doesn't score individuals.
+> "That's the opposite of what we want. The SoulCradle Operator reflects decisions already made with compassion. It doesn't prescribe. It doesn't surveil. It doesn't score individuals.
 >
 > If staff feel watched, that's a sign we need to recalibrate. The Blessing Scale should feel like a mirror, not a camera. It reflects sacred work back to you so your community can see it. But it's not judgment. It's honor."
 
@@ -294,4 +294,4 @@
 
 ---
 
-*"The Soul Cradle Operator is not about making faith measurable. It's about ensuring that when faith becomes infrastructure, nothing sacred is lost."*
+*"The SoulCradle Operator is not about making faith measurable. It's about ensuring that when faith becomes infrastructure, nothing sacred is lost."*

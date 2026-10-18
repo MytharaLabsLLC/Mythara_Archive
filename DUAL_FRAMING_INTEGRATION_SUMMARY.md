@@ -1,6 +1,6 @@
 # Dual-Framing Integration Summary
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Integration Date:** November 15, 2025
 
 ---
@@ -28,7 +28,7 @@
 | Expression Metric | Engagement Index |
 | Soul Encoding | Impact Vault |
 | Legacy Reservoir | Continuity Index |
-| Soul Cradle Operator | Resonance Operator |
+| SoulCradle Operator | Resonance Operator |
 | Trial Entity | Challenge Vector |
 | Grace/Light | Optimal Performance |
 | Wilderness/Darkness | Challenge State |

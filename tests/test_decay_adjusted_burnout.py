@@ -3,7 +3,7 @@
 Decay-Adjusted Terminal Risk Calculation for Soul Cradle
 Tests burnout equation with exponential decay: time heals wounds
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Mathematical Model:
 Terminal_Risk = (Σ (U_i × T_i × e^(-λ × Δt_i))) / N

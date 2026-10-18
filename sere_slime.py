@@ -32,7 +32,7 @@ system can be expressed in its world.
 Mass is its metabolism: each tick burns a little, each dissolution feeds
 it. At zero mass it goes dormant. Even the hunter has a body.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import json

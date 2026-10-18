@@ -2,7 +2,7 @@
 
 > **Template — customize before use.** This runbook is a deployment template, not an operating procedure for a live organization. Roles (CTO, Tech Lead, Engineering Manager), contact placeholders, notification tools (PagerDuty, Slack), and customer-facing steps assume infrastructure that does not currently exist. An operator must fill every `[placeholder]`, define the on-call roster, and stand up the notification tooling before this runbook can be used for a real deployment.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
@@ -418,4 +418,4 @@ Mythara Engineering Team
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

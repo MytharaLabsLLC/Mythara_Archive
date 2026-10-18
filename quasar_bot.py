@@ -4,7 +4,7 @@ Q.U.A.S.A.R. - Quantum Universal Autonomous Security & Response
 Classical simulation of quantum attack/defense concepts for security training
 (no quantum hardware involved)
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Q.U.A.S.A.R. extends A.M.I.R.'s orchestration to quantum computing concepts
 (all simulated classically — a conceptual training model, not quantum execution):

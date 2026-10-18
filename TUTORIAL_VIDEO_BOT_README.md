@@ -2,7 +2,7 @@
 
 > **Status: partially complete.** The 3 slide guides exist in `tutorial_audio/`, but the 3 MP3 voiceover files are NOT present — they were never generated or were removed. Re-run `generate_simple_tutorials.py` to create them.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ## What Happened
 
@@ -18,17 +18,17 @@ The plan was an **automated multimedia bot** that creates tutorial videos:
 ### Tutorial 1: "What is Mythara Engine?" (90 seconds)
 - **Audio:** `tutorial_audio/01_what_is_mythara.mp3` — MISSING (regenerate)
 - **Guide:** `tutorial_audio/01_what_is_mythara_SLIDES.txt` — present
-- **Script:** Explains Soul Cradle, mission, pilot pricing
+- **Script:** Explains SoulCradle, mission, pilot pricing
 
 ### Tutorial 2: "How to Start Your Pilot" (2 minutes)
 - **Audio:** `tutorial_audio/02_pilot_signup.mp3` — MISSING (regenerate)
 - **Guide:** `tutorial_audio/02_pilot_signup_SLIDES.txt` — present
 - **Script:** Step-by-step pilot signup walkthrough
 
-### Tutorial 3: "Soul Cradle Explained" (3 minutes)
+### Tutorial 3: "SoulCradle Explained" (3 minutes)
 - **Audio:** `tutorial_audio/03_soul_cradle.mp3` — MISSING (regenerate)
 - **Guide:** `tutorial_audio/03_soul_cradle_SLIDES.txt` — present
-- **Script:** Deep dive on Soul Cradle functionality
+- **Script:** Deep dive on SoulCradle functionality
 
 ---
 
@@ -112,7 +112,7 @@ python generate_simple_tutorials.py
 **Note:** `core/static/pricing.html` is not in the repo — there is no pricing page to update yet. When one exists, add the embed below.
 
 **Option A:** Add to hero section (top of page)
-**Option B:** Add below Soul Cradle section
+**Option B:** Add below SoulCradle section
 **Option C:** Add in chatbot responses
 
 ```html
@@ -179,9 +179,9 @@ quickReplies = [
 - **Accent:** `tld='co.uk'` (British pronunciation)
 
 ### Script Content
-- **Tutorial 1:** Mission/Soul Cradle overview + pilot CTA
+- **Tutorial 1:** Mission/SoulCradle overview + pilot CTA
 - **Tutorial 2:** Step-by-step pilot signup process
-- **Tutorial 3:** Deep dive on Soul Cradle functionality
+- **Tutorial 3:** Deep dive on SoulCradle functionality
 
 All scripts are drafts.
 
@@ -227,7 +227,7 @@ Run: `python generate_simple_tutorials.py` (regenerates all files)
 ### After Videos (Today!)
 ✅ "Watch our 90-second overview video"  
 ✅ "See the pilot signup walkthrough"  
-✅ "Watch how Soul Cradle works"
+✅ "Watch how SoulCradle works"
 
 **Update chatbot training response** after uploading to YouTube.
 

@@ -2,7 +2,7 @@
 
 > **Status (2026-09-27):** November 2025 build plan, preserved as written. The bot was never run live — treat the "Run Live" steps below as a 2025 to-do, not as completed. Outreach stays dry-run only until Herb unblocks it (Yahoo app password, postal address, mode flip).
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 

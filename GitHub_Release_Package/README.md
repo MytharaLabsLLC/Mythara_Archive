@@ -3,7 +3,7 @@
 **Version:** 1.0.0  
 **Release Date:** November 2, 2025  
 **Manifest ID:** ME-archive-0001  
-**Copyright:** © 2025 Herbert Velez Jr. All rights reserved.  
+**Copyright:** © 2026 Mythara Labs LLC. All rights reserved.  
 **License:** Proprietary (see LICENSE.md and COPYRIGHT.md)
 
 ---
@@ -14,10 +14,10 @@ This package contains the Mythara codebase in its current working state, release
 
 **What the system is:**
 
-- **Soul Cradle core** — the governing mechanism. It scores actions on integrity, defined as *Alignment × Tolerance*: how well an action lines up with the principal's aims, multiplied by how much room for error and recovery it leaves. Stated math, stated limits.
+- **SoulCradle core** — the governing mechanism. It scores actions on integrity, defined as *Alignment × Tolerance*: how well an action lines up with the principal's aims, multiplied by how much room for error and recovery it leaves. Stated math, stated limits.
 - **Eight assessor-witnesses** — demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone. Evidence-fed witnesses under versioned rubrics. They abstain when their domain is not engaged; they fail closed when evidence is missing; a critical finding from any one of them blocks the action; disagreement is surfaced, not averaged away. Every judgment is content-hashed and chained to the record it judges.
 - **Hash-chained emotional chain** — tamper-evident emotional records, each attested by the engaged witnesses with sealed judgments chained alongside. The chain proves a record is unaltered. It does not prove the record is true.
-- **Aries, defanged** — the system's most capable actor runs behind signed action envelopes, limited to benign, pre-approved handlers. Capability without a leash is not a feature.
+- **ARES, defanged** — the system's most capable actor runs behind signed action envelopes, limited to benign, pre-approved handlers. Capability without a leash is not a feature.
 - **SERE, the training simulation** — trainees face simulated adversaries inside a sealed virtual environment; everything is recorded to the tamper-evident log and nothing touches the real world. Be plain about this: SERE is a training simulation. It is not a military capability, not an operational cyber weapon, and it never strikes back outside the sandbox.
 - **Witnessed Journal** — a local prototype interface on the real chain (`journal_app/server.py`), stdlib-only, localhost by design.
 
@@ -170,7 +170,7 @@ See `Commercial/Pricing_Tiers.md` for the current draft pricing.
 
 This package contains proprietary technology protected by:
 - Trade secret law
-- Copyright (© 2025 Herbert Velez Jr.)
+- Copyright (© 2026 Mythara Labs LLC.)
 - Contractual NDA obligations
 
 **Unauthorized distribution, reverse engineering, or disclosure is prohibited.**

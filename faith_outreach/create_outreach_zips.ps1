@@ -1,5 +1,5 @@
 # Mythara Faith Outreach - ZIP Package Generator
-# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 # Creates two ZIP files for the St. Jude outreach sequence
 
 Write-Host "========================================" -ForegroundColor Cyan

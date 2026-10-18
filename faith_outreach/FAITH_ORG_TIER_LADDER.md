@@ -1,5 +1,5 @@
 # Faith Organization Tier Ladder
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -7,7 +7,7 @@
 
 **We donate the soul. We charge for the scaffolding.**
 
-The Soul Cradle Operator is Mythara's gift to faith organizations. It is free to use as a standalone module. Organizations pay only when they require:
+The SoulCradle Operator is Mythara's gift to faith organizations. It is free to use as a standalone module. Organizations pay only when they require:
 - Custom integration with legacy systems
 - Real-time dashboards and impact reporting
 - Multi-site deployment across networks
@@ -17,10 +17,10 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 
 ---
 
-## 🌱 Tier 1: Gift (Soul Cradle Core)
+## 🌱 Tier 1: Gift (SoulCradle Core)
 
 ### What's Included
-- **Soul Cradle Operator** (full module access)
+- **SoulCradle Operator** (full module access)
 - **Blessings Reservoir integration** (read/write API)
 - **Standard resonance metrics**:
   - Integrity scoring
@@ -169,7 +169,7 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
   - Example: "Sanctuary Operator" for immigration sanctuary churches
 - **Training Workshops**: $5,000/day
   - On-site or virtual training for staff
-  - Covers Soul Cradle philosophy, API usage, dashboard interpretation
+  - Covers SoulCradle philosophy, API usage, dashboard interpretation
 - **Grant Writing Support**: $10,000+
   - Mythara team helps draft grant applications
   - Positions BR metrics as evidence of mission impact
@@ -189,7 +189,7 @@ This model honors the sacred mission while sustaining Mythara's ability to serve
 
 | Feature | Gift Tier 🌱 | Neurosymbolic 🏛️ | Mythic-Resonant 🌍 |
 |---------|-------------|------------------|-------------------|
-| Soul Cradle Operator | ✅ | ✅ | ✅ |
+| SoulCradle Operator | ✅ | ✅ | ✅ |
 | Blessings Reservoir API | ✅ | ✅ | ✅ |
 | Documentation | ✅ | ✅ | ✅ |
 | Community support | ✅ | ✅ | ✅ |
@@ -228,7 +228,7 @@ In this hypothetical scenario, a pediatric research hospital would seek to:
 ### Deployment Plan
 
 **Phase 1 (Months 1-3): Setup**
-- Install Soul Cradle at the flagship hospital
+- Install SoulCradle at the flagship hospital
 - Map sacred acts to BR events:
   - Treatment protocols: +15 to +25 BR
   - Grief counseling: +10 to +15 BR

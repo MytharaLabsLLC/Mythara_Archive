@@ -1,4 +1,4 @@
-# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 """
 Mythara VP of Sales & Marketing - Autonomous Operations Bot
@@ -447,7 +447,7 @@ Date: {datetime.now().isoformat()}
     
     def _linkedin_bot_template(self) -> str:
         """Honest starter template for the LinkedIn automation bot."""
-        return """# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+        return """# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 '''
 LinkedIn Automation Bot — HONEST STARTER CODE.
@@ -518,7 +518,7 @@ if __name__ == "__main__":
     
     def _email_nurture_template(self) -> str:
         """Honest starter template for the email nurture bot."""
-        return """# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+        return """# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 '''
 Email Nurture Sequence Bot — HONEST STARTER CODE.
@@ -606,7 +606,7 @@ if __name__ == "__main__":
     
     def _affiliate_recruiter_template(self) -> str:
         """Honest starter template for the affiliate recruiter bot."""
-        return """# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+        return """# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 '''
 Affiliate Recruiter Bot — HONEST STARTER CODE.
@@ -693,7 +693,7 @@ if __name__ == "__main__":
     
     def _generic_bot_template(self, bot_type: str, spec: Dict[str, Any]) -> str:
         """Honest generic starter template."""
-        return f"""# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+        return f"""# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 '''
 {spec['name']} — HONEST STARTER CODE.
@@ -741,7 +741,7 @@ if __name__ == "__main__":
         Finds the bot class defined in the generated module instead of
         guessing its name, and fails loudly if there isn't one.
         """
-        return f"""# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+        return f"""# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 \"\"\"Runner for the generated mythara_{bot_type} starter.\"\"\"
 

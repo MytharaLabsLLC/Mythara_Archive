@@ -2,7 +2,7 @@
 
 > **DRAFT — not legal advice, requires attorney review before use.** This policy assumes live products, active customers, and payment processing, none of which exist today. Prices, tiers, and response times below are placeholders to be finalized with counsel. Do not present this policy as an active commercial agreement.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
@@ -243,4 +243,4 @@ A: Pilot period extended by documented downtime days. Not considered grounds for
 
 ---
 
-© 2025 Herbert Velez Jr. All rights reserved.
+© 2026 Mythara Labs LLC. All rights reserved.

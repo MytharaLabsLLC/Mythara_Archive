@@ -45,12 +45,12 @@ and the system states that distinction openly.
   declared and observable — never inferred emotions. Coercion and manipulation
   markers are heuristic flags on evidence, not diagnoses. The system attests
   self-reported records; it does not perform emotion AI.
-- **Integrity scoring**: Soul Cradle scores actions as Alignment × Tolerance,
+- **Integrity scoring**: SoulCradle scores actions as Alignment × Tolerance,
   a stated formula with stated limits — not a black box.
 - **Tamper-evident records**: Hash-chained logs for emotional records,
   operational actions, and training outcomes. Alteration is detectable.
 - **Fail-closed governance**: Witness outages block actions. A depleted
-  reservoir halts autonomous sending. Aries, the system's most capable actor,
+  reservoir halts autonomous sending. ARES, the system's most capable actor,
   runs defanged — every action requires a signed envelope, and only benign,
   pre-approved handlers exist.
 - **Explainability**: Human-facing explanations with structured rationale,

@@ -1,5 +1,5 @@
 # Mythara Engine - Week 1 Outreach Target List
-# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 > **⚠️ DRAFT OUTREACH PLAN (November 2025) — voice-standard pass Sept 2026.** The message templates below contain an unverified Stripe link and capability claims ("reduces validation from weeks to days", "deterministic NIST SP 800-53 validation") that are marketing copy, not verified results. **Do not send any of these messages without rewriting them** and re-verifying every claim. No fulfillment path exists for the linked pilot.
 

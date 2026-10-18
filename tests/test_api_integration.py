@@ -28,7 +28,7 @@ os.environ["MYTHARA_API_KEYS"] = json.dumps(_existing_keys)
 Mythara Engine - API Integration Tests
 Comprehensive endpoint testing with authentication, rate limiting, and error handling.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import pytest

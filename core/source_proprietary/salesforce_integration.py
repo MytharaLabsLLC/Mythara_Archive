@@ -3,7 +3,7 @@
 Mythara Engine - Salesforce Integration Module
 Writes paradox events, SSIP metrics, and Soul Cradle data to customer Salesforce instances.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import os

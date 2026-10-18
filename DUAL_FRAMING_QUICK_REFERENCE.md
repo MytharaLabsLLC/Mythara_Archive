@@ -1,6 +1,6 @@
 # Dual-Framing Quick Reference Card
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
@@ -21,7 +21,7 @@ A **presentation layer** that translates Mythara's mythic terminology into enter
 | Expression Metric | Engagement Index | Reporting field rep performance to managers |
 | Soul Encoding | Impact Vault | Explaining symbolic depth to investors |
 | Legacy Reservoir | Continuity Index | Demonstrating sustainability to boards |
-| Soul Cradle Operator | Resonance Operator | Describing decision-making integrity to auditors |
+| SoulCradle Operator | Resonance Operator | Describing decision-making integrity to auditors |
 | Grace/Light | Optimal Performance | Framing positive outcomes for enterprise dashboards |
 | Wilderness/Darkness | Challenge State | Describing difficult conditions without theological language |
 

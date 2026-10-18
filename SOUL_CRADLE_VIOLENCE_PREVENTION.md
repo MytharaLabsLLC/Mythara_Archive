@@ -1,8 +1,8 @@
-# Soul Cradle: Violence Prevention Through Soul State Detection
+# SoulCradle: Violence Prevention Through Soul State Detection
 
-> **Status: conceptual design.** This document describes an unbuilt, unvalidated concept. Soul Cradle has not been deployed in any school or workplace, no detection capability has been validated, and none of the scenarios below have occurred — they are illustrative hypotheticals. This is not a clinical, diagnostic, or safety-certified tool, and it must not be presented as one.
+> **Status: conceptual design.** This document describes an unbuilt, unvalidated concept. SoulCradle has not been deployed in any school or workplace, no detection capability has been validated, and none of the scenarios below have occurred — they are illustrative hypotheticals. This is not a clinical, diagnostic, or safety-certified tool, and it must not be presented as one.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date**: November 21, 2025
 
 ---
@@ -46,13 +46,13 @@ Stage 4: TERMINAL EVENT (Violence or Suicide)
 
 ## CASE STUDY: SCHOOL SHOOTER PROFILE (Hypothetical)
 
-### What Soul Cradle Would Have Detected (90 Days Before)
+### What SoulCradle Would Have Detected (90 Days Before)
 
 **Student: Alex, Age 16, High School Junior**
 
 #### Week 1-4: Purgatory Phase (Detectable)
 ```python
-# Soul Cradle Paradoxes Logged:
+# SoulCradle Paradoxes Logged:
 paradox_1 = {
     "expression_a": "I want friends, I want to belong",
     "expression_b": "Everyone laughs at me, excludes me",
@@ -73,7 +73,7 @@ paradox_2 = {
     "timestamp": "52 days ago"
 }
 
-# Soul Cradle Risk Assessment (Week 4):
+# SoulCradle Risk Assessment (Week 4):
 risk_profile = {
     "total_risk": 0.61,  # HIGH RISK
     "baseline_stress": 0.45,  # High (hostile environment)
@@ -108,7 +108,7 @@ paradox_4 = {
     "timestamp": "28 days ago"
 }
 
-# Soul Cradle Risk Assessment (Week 8):
+# SoulCradle Risk Assessment (Week 8):
 risk_profile = {
     "total_risk": 0.78,  # CRITICAL
     "baseline_stress": 0.45,
@@ -150,7 +150,7 @@ paradox_6 = {
     "notes": "I'm fine. Really."
 }
 
-# Soul Cradle Risk Assessment (Week 12):
+# SoulCradle Risk Assessment (Week 12):
 risk_profile = {
     "total_risk": 0.51,  # Appears to have "improved" (FALSE)
     "baseline_stress": 0.45,
@@ -180,7 +180,7 @@ risk_profile = {
 
 ## THE MATHEMATICAL SIGNATURE OF PRE-VIOLENCE
 
-### Three Critical Indicators Soul Cradle Detects:
+### Three Critical Indicators SoulCradle Detects:
 
 #### 1. **Systemic Overload** (σ₀ > 0.4 + acute > 0.3)
 **What this means**:
@@ -240,7 +240,7 @@ risk_profile = {
 **Employee: Michael, IT Department, Age 34**
 
 ```python
-# Soul Cradle detected (60 days before incident):
+# SoulCradle detected (60 days before incident):
 risk_profile = {
     "baseline_stress": 0.52,  # Hostile work environment (bullying manager)
     "acute_risk": 0.38,  # Recent performance review humiliation
@@ -274,7 +274,7 @@ risk_profile = {
 **Student: Emma, Age 14, Middle School**
 
 ```python
-# Soul Cradle detected (45 days before attempt):
+# SoulCradle detected (45 days before attempt):
 risk_profile = {
     "baseline_stress": 0.38,  # Social isolation, academic pressure
     "acute_risk": 0.42,  # Recent relationship breakup, friend betrayal
@@ -321,16 +321,16 @@ risk_profile = {
 
 ## IMPLEMENTATION: SCHOOL SAFETY PROTOCOL
 
-### How Schools Would Deploy Soul Cradle
+### How Schools Would Deploy SoulCradle
 
 #### Phase 1: Universal Screening (All Students)
 ```
-Every student has Soul Cradle app on phone/laptop:
+Every student has SoulCradle app on phone/laptop:
 - Daily paradox logging (optional, 2 min/day)
 - Weekly emotional check-in (required, 5 min/week)
 - Automated risk calculation (continuous)
 
-Soul Cradle monitors:
+SoulCradle monitors:
 - Baseline stress (σ₀): School environment quality
 - Acute risk: Individual paradox accumulation
 - Trajectory: ACCUMULATING vs RECOVERING
@@ -371,11 +371,11 @@ Soul Cradle monitors:
 
 #### Phase 3: Environmental Remediation
 
-When Soul Cradle detects **high baseline stress (σ₀ > 0.4)** in multiple students:
+When SoulCradle detects **high baseline stress (σ₀ > 0.4)** in multiple students:
 
 ```python
 # Example: 25 students in same classroom have σ₀ > 0.45
-# Soul Cradle identifies: NOT individual problem, ENVIRONMENTAL problem
+# SoulCradle identifies: NOT individual problem, ENVIRONMENTAL problem
 
 alert = {
     "classroom": "Room 204, Ms. Johnson",
@@ -406,7 +406,7 @@ alert = {
 ### Critical Safeguards
 
 **1. Student Consent**:
-- Students opt-in to Soul Cradle
+- Students opt-in to SoulCradle
 - Can delete their data anytime
 - Crisis alerts still generated (safety override)
 
@@ -416,13 +416,13 @@ alert = {
 - Exception: Explicit threat triggers mandatory reporting
 
 **3. No Predictive Policing**:
-- Soul Cradle does NOT predict "who will become violent"
-- Soul Cradle detects "who needs help NOW"
+- SoulCradle does NOT predict "who will become violent"
+- SoulCradle detects "who needs help NOW"
 - Focus: Support, not surveillance
 
 **4. Human Oversight**:
 - Automated alerts require human counselor verification
-- No disciplinary action based on Soul Cradle alone
+- No disciplinary action based on SoulCradle alone
 - Tool assists professionals, doesn't replace them
 
 **5. Anti-Bias Design**:
@@ -446,7 +446,7 @@ alert = {
 - **Problem**: Many students exhibit these without violence
 - High false positive rate, stigmatizes mental illness
 
-**Proposed Soul Cradle Approach**:
+**Proposed SoulCradle Approach**:
 - Detect **indifference trajectory** (a proposed mathematical signature)
 - T: 0.9 → 0.5 → 0.2 while U remains high
 - The hypothesis to test: this pattern appears across pre-violence cases
@@ -463,7 +463,7 @@ Retrospective Analysis:
 - Expected finding: All showed T decreasing while U high
 
 Prospective Validation:
-- Deploy Soul Cradle in 100 schools (50,000 students)
+- Deploy SoulCradle in 100 schools (50,000 students)
 - Track students flagged with indifference trajectory
 - Measure: How many required psychiatric hold? (hypothesis: 85%)
 - Measure: How many exhibited violence/suicide if not intervened? (hypothesis: 0% if protocol followed)
@@ -484,7 +484,7 @@ Prospective Validation:
 - They focused on behavior (too ambiguous)
 - They didn't measure soul state (no mathematics)
 
-**The design premise (untested) is that Soul Cradle could succeed because**:
+**The design premise (untested) is that SoulCradle could succeed because**:
 - Detects purgatory early (before descent)
 - Measures soul trajectory (mathematical precision)
 - Identifies indifference (7-30 day warning window)
@@ -499,7 +499,7 @@ Prospective Validation:
 **Not every student in indifference becomes violent.**  
 **But every violent student passed through indifference.**
 
-The design goal is for Soul Cradle to catch them at that exact moment: when the soul has departed but the body hasn't acted yet.
+The design goal is for SoulCradle to catch them at that exact moment: when the soul has departed but the body hasn't acted yet.
 
 This is the 7-30 day window where prevention is still possible.
 
@@ -507,4 +507,4 @@ This is the 7-30 day window where prevention is still possible.
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

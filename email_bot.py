@@ -6,7 +6,7 @@ using local keyword classification. Draft-only: it never sends email.
 Previously this file claimed an "OAuth Version" and a Mythara Engine
 integration; neither was ever implemented, so both claims were removed.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import imaplib

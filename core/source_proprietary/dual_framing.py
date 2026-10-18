@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Mythara Engine — Dual Framing Translation Layer
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 This module provides a translation layer between Mythara's mythic truth
 and industry-safe terminology for enterprise audiences. The engine remains

@@ -1,16 +1,16 @@
 # Mythara Engine: Defensive Publication of Technical Innovations
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Publication Date:** November 19, 2025  
 **Purpose:** Establishing prior art to prevent competitor patent filings  
 
-> **Document status (2026-09-27):** This is a defensive-publication draft describing the system's 2025 architecture in the author's terms. Legal assertions in this document (prior-art effect, patentability, evidentiary admissibility) are the author's position, not legal advice and not a guarantee — courts and patent offices decide those questions. The technical descriptions reflect the 2025 codebase; today's system is: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation.
+> **Document status (2026-09-27):** This is a defensive-publication draft describing the system's 2025 architecture in the author's terms. Legal assertions in this document (prior-art effect, patentability, evidentiary admissibility) are the author's position, not legal advice and not a guarantee — courts and patent offices decide those questions. The technical descriptions reflect the 2025 codebase; today's system is: SoulCradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged ARES (signed envelopes, benign handlers only), SERE as a training simulation.
 
 ---
 
 ## EXECUTIVE SUMMARY
 
-This document publicly discloses the technical architecture, mathematical algorithms, and novel integration patterns of **Mythara Engine**, an AI governance platform combining six subsystems: Soul Cradle (emotional intelligence), Blessings Reservoir (benevolence quantification), Messenger Protocol (agent orchestration), Sanctification Verification (cryptographic integrity), Clause Orchestration (symbolic policies), and Integration API (deployment infrastructure).
+This document publicly discloses the technical architecture, mathematical algorithms, and novel integration patterns of **Mythara Engine**, an AI governance platform combining six subsystems: SoulCradle (emotional intelligence), Blessings Reservoir (benevolence quantification), Messenger Protocol (agent orchestration), Sanctification Verification (cryptographic integrity), Clause Orchestration (symbolic policies), and Integration API (deployment infrastructure).
 
 **By publishing these innovations on November 19, 2025, we assert prior art intended to prevent any third party from obtaining patent protection for these systems or methods after this date.** (The author's legal position; patent offices decide.)
 
@@ -18,7 +18,7 @@ This document publicly discloses the technical architecture, mathematical algori
 
 ## TECHNICAL INNOVATIONS DISCLOSED
 
-### 1. Soul Cradle Paradox Detection Algorithm
+### 1. SoulCradle Paradox Detection Algorithm
 
 **Mathematical Framework:**
 ```
@@ -58,7 +58,7 @@ emotional_fit_score = (
 **Distinguishing Features from Prior Art:**
 - Avvo/LegalMatch: Use binary keyword matching without emotional context weighting
 - Clio: Provides practice area filtering without paradox severity quantification
-- Soul Cradle: Combines NLP distress analysis + coercion detection + contradiction mapping + psychological competency matching
+- SoulCradle: Combines NLP distress analysis + coercion detection + contradiction mapping + psychological competency matching
 
 ---
 
@@ -86,7 +86,7 @@ reciprocity_multiplier = 1.0 + (credits_given / credits_received)
 | Whistleblowing unethical practice | +2.0 | High-risk benevolent action |
 | Mutual aid provision | +0.3 | Incremental community support |
 
-**Integration with Soul Cradle:**
+**Integration with SoulCradle:**
 ```python
 if paradox.integrity_score > 0.7:
     user_ethical_health = blessings_reservoir.get_ethical_health(user_id)
@@ -188,7 +188,7 @@ Even with system administrator credentials, attackers cannot:
 class ClauseDefinition:
     clause_id: str
     symbolic_name: str  # e.g., "PARADOX_ATTORNEY_REFERRAL"
-    triggering_conditions: List[Condition]  # Soul Cradle integrity > 0.7
+    triggering_conditions: List[Condition]  # SoulCradle integrity > 0.7
     enforcement_actions: List[Action]  # attorney_matcher.find_best_fit()
     required_messenger_authority: int  # Advocate (Level 2)
     sanctification_hash: str  # Current integrity fingerprint
@@ -277,7 +277,7 @@ async def invoke_clause(
 
 ## SYNERGISTIC COMBINATIONS (NON-OBVIOUS)
 
-### Synergy 1: Soul Cradle + Blessings Reservoir
+### Synergy 1: SoulCradle + Blessings Reservoir
 **Problem:** Traditional attorney referral treats all users equally regardless of ethical history  
 **Solution:** Paradox detection triggers benevolence evaluation → priority queue for ethical users  
 **Unexpected Benefit:** Self-regulating system where benevolent behavior earns faster legal support
@@ -287,7 +287,7 @@ async def invoke_clause(
 **Solution:** Hierarchical authority + cryptographic verification = zero-trust orchestration  
 **Unexpected Benefit:** Even with admin access, attackers cannot alter decision history
 
-### Synergy 3: Soul Cradle + Clause Orchestration + Blessings Reservoir
+### Synergy 3: SoulCradle + Clause Orchestration + Blessings Reservoir
 **Problem:** Workplace paradoxes often go unreported due to retaliation fear  
 **Solution:** Paradox detected → Whistleblowing clause invoked → +2.0 benevolence credits awarded  
 **Unexpected Benefit:** Self-enforcing ethical AI where reporting misconduct is financially incentivized
@@ -298,7 +298,7 @@ async def invoke_clause(
 
 | System | Emotional Intelligence | Benevolence Tracking | Multi-Agent Orchestration | Cryptographic Integrity | White-Label API |
 |--------|------------------------|----------------------|---------------------------|-------------------------|-----------------|
-| **Mythara Engine** | ✅ Soul Cradle | ✅ Blessings Reservoir | ✅ Messenger Protocol | ✅ Sanctification | ✅ Integration API |
+| **Mythara Engine** | ✅ SoulCradle | ✅ Blessings Reservoir | ✅ Messenger Protocol | ✅ Sanctification | ✅ Integration API |
 | LegalZoom | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Rocket Lawyer | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Clio | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -332,7 +332,7 @@ async def invoke_clause(
 
 This defensive publication asserts prior art as of **November 19, 2025**. Any patent application filed after this date claiming the disclosed inventions may be rejected under 35 U.S.C. § 102(a)(1) (prior art) or § 103 (obviousness in view of this disclosure) — subject to patent-office examination.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 This publication does NOT constitute an open-source license or dedication to the public domain. All commercial rights reserved.
 
 **Contact:** MytharaLabsLLC@yahoo.com  

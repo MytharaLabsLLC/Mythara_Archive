@@ -16,7 +16,7 @@ I, **Herbert Velez Jr.**, declare the following:
 ### 1. What I built
 
 I am the human author of the Mythara software systems, including the Mythara
-Engine source code, the Soul Cradle system, the SERE training materials, the
+Engine source code, the SoulCradle system, the SERE training materials, the
 assessor and witness systems, and the related documentation in the GitHub
 repository `herbievelezjr/Mythara_Archive` (the "Work").
 
@@ -49,7 +49,7 @@ partner would. Specifically:
   response.
 - I reviewed, tested, edited, and approved the output before keeping it. Code
   that did not work or did not match my design was changed or thrown out.
-- The architecture, the core ideas (Soul Cradle integrity scoring, the
+- The architecture, the core ideas (SoulCradle integrity scoring, the
   8 assessor-witnesses, the hash-chained emotional record, SERE as a training
   simulation), and the final decisions about what shipped were mine.
 

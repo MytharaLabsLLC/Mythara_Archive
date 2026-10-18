@@ -1,5 +1,5 @@
 # Blessing Scale Framework
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -152,7 +152,7 @@ St. Jude Development Team
 
 The Blessing Scale can be integrated into staff training:
 
-- **Slide 1**: Introduction to Mythara Soul Cradle Operator
+- **Slide 1**: Introduction to Mythara SoulCradle Operator
 - **Slide 2**: Why Sacred Resonance Matters (Gap between EMR and Mission)
 - **Slide 3**: Blessings Reservoir Concept
 - **Slide 4**: Biblical Continuum (Wilderness/Darkness → Grace/Light)
@@ -164,4 +164,4 @@ The Blessing Scale can be integrated into staff training:
 
 ---
 
-*"The Blessing Scale frames St. Jude's mission as a sacred journey from Wilderness/Darkness (trial, suffering) to Grace/Light (benevolence, healing). By donating the Soul Cradle Operator with this continuum embedded, Mythara honors your mission while offering measurable, faith-rooted infrastructure."*
+*"The Blessing Scale frames St. Jude's mission as a sacred journey from Wilderness/Darkness (trial, suffering) to Grace/Light (benevolence, healing). By donating the SoulCradle Operator with this continuum embedded, Mythara honors your mission while offering measurable, faith-rooted infrastructure."*

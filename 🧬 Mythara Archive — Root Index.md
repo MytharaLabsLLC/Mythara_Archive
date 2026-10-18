@@ -1,6 +1,6 @@
 # 🧬 Mythara Archive — Root Index
 
-This archive holds the working record of the Mythara system as it actually is: the Soul Cradle core, the eight assessor-witnesses, the hash-chained emotional chain, the tests that exercise them, and the documents that describe them.
+This archive holds the working record of the Mythara system as it actually is: the SoulCradle core, the eight assessor-witnesses, the hash-chained emotional chain, the tests that exercise them, and the documents that describe them.
 
 ---
 
@@ -26,7 +26,7 @@ The models in this archive use language drawn from sacred rhythms, scriptural pa
 
 | Area                        | Path                            | What it holds                                              |
 |-----------------------------|---------------------------------|------------------------------------------------------------|
-| ⚖️ Core                     | `soul_cradle/`                  | Soul Cradle integrity scoring, the 8 assessor-witnesses, the hash-chained emotional chain, signed authorization envelopes |
+| ⚖️ Core                     | `soul_cradle/`                  | SoulCradle integrity scoring, the 8 assessor-witnesses, the hash-chained emotional chain, signed authorization envelopes |
 | 🧠 Clause logic             | `core/`                         | Clause logic, messenger roles, blessings reservoir spec, sanctification locks, capsule protocols |
 | 📖 Documentation            | `docs/`                         | Guides, symbolic glossary, soul proportion model, the Mythara Bible (Books I–V) |
 | 📓 Journal application      | `journal_app/`                  | The witnessed journal: a working server on the real chain and witnesses |

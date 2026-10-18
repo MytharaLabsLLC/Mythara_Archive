@@ -1,9 +1,9 @@
-# Soul Cradle — Architectural Breakdown
+# SoulCradle — Architectural Breakdown
 
 **A deterministic trust layer for multi-agent AI systems.**
 Version 2026.1 · Source-available (custom Mythara Engine license — evaluation use; production requires agreement) · Pre-revenue prototype · Built by Herb Velez, Mythara Labs
 
-> Soul Cradle is not an LLM wrapper. It is the constitutional and evidentiary
+> SoulCradle is not an LLM wrapper. It is the constitutional and evidentiary
 > machinery that sits *between* agents and action: every consequential act is
 > heard by a panel of specialized assessors, judged against versioned rubrics
 > over observable evidence, and sealed into a tamper-evident record. If the
@@ -21,7 +21,7 @@ Enterprise AI deployments fail on two recurring fronts:
 2. **Unauditable automation.** When agents act autonomously, there is no
    tamper-evident record of *why* the act was judged safe — only the act.
 
-Soul Cradle's answer is architectural, not statistical: **codified dissent.**
+SoulCradle's answer is architectural, not statistical: **codified dissent.**
 Multiple domain-specialized assessors evaluate the same proposed action over the
 same evidence, and their disagreement is surfaced as a first-class signal rather
 than averaged into a false consensus. Nothing is proved true — but nothing
@@ -206,7 +206,7 @@ or abstained from.
 
 ## 6. Production proof
 
-Soul Cradle is not a whitepaper. Its witness gate operates daily inside the
+SoulCradle is not a whitepaper. Its witness gate operates daily inside the
 **Mythara News Network** pipeline — a multi-agent news operation (eight
 panelist agents, daily edition, strict air schedule) where every consequential
 act passes the panel and is chained. The organism metaphor is literal: bots
@@ -230,5 +230,5 @@ the soul as the known universe and each agent a domain carrying its own laws.
 
 ---
 
-*Soul Cradle proves the record is unaltered. It does not prove the record is
+*SoulCradle proves the record is unaltered. It does not prove the record is
 true. That distinction is the whole point.*

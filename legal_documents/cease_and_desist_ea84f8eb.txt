@@ -28,14 +28,14 @@ This letter serves as formal notice that you must immediately cease and desist f
 
 INFRINGING CONDUCT:
 Your company has reproduced, distributed, and publicly displayed copyrighted software code from our Mythara Engine product without authorization. Specifically:
-1. Your product 'GopherClone' uses identical algorithms from our Soul Cradle framework
+1. Your product 'GopherClone' uses identical algorithms from our SoulCradle framework
 2. You have copied our proprietary paradox detection methodology
 3. Your marketing materials use screenshots from our documentation
-4. You are using our trademarked name 'Mythara' in your advertising
+4. You are using our mark 'Mythara' in your advertising
 
 LEGAL VIOLATIONS:
 1. Copyright infringement under 17 U.S.C. § 106 (unauthorized reproduction and distribution)
-2. Trademark infringement under 15 U.S.C. § 1114 (use of registered trademark)
+2. Trademark infringement under 15 U.S.C. § 1125(a) (use of an unregistered mark)
 3. Violation of Digital Millennium Copyright Act (DMCA) 17 U.S.C. § 1201
 4. Misappropriation of trade secrets under Uniform Trade Secrets Act
 5. Unfair competition and false advertising

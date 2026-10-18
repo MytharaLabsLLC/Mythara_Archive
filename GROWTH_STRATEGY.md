@@ -1,6 +1,6 @@
 # 🚀 Growth & Development Strategy - Will Integrity Detection *(strategy draft)*
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **⚠️ STRATEGY DRAFT (November 2025) — voice-standard pass Sept 2026.** Everything below is a *planning document*, not a status report. **No customers, partnerships, revenue, certifications, or published papers exist.** All tiers, prices, timelines, metrics, and partners are aspirational goals, labeled as such. Nothing here is currently offered, and no payment path exists.
 
@@ -79,7 +79,7 @@ The Emotional Extortion Detection system creates **5 distinct expansion paths** 
    - Sales training: "Persuasion vs. Manipulation" with quantified examples
    - Customer service excellence: gamify low extortion scores
 
-4. **Soul Cradle Integration**
+4. **SoulCradle Integration**
    - Distinguish genuine employee consent from coerced compliance
    - Validate that "Will" in leadership decisions is authentic
    - Measure emotional fidelity of organizational culture
@@ -173,7 +173,7 @@ The Emotional Extortion Detection system creates **5 distinct expansion paths** 
 **4. Academic Research Partnerships**
 - Publish papers on manipulation detection with university partners
 - Customer data (anonymized) contributes to research
-- Position Mythara as thought leader in emotional AI safety
+- Position Mythara as a thought leader in witnessed, tamper-evident AI decision records
 - **Value:** Brand authority, regulatory influence, talent pipeline
 
 ### For Mythara Team:
@@ -202,7 +202,7 @@ The Emotional Extortion Detection system creates **5 distinct expansion paths** 
 
 ### Q1 2026: Foundation *(planning targets — claimed completions below were not verified against this archive; no extortion-detection module was found in the repo)*
 - ✅ 10 base pattern types (guilt, shame, fear, gaslighting, etc.)
-- ✅ Soul Cradle integration (will_authenticity)
+- ✅ SoulCradle integration (will_authenticity)
 - ✅ API endpoints with integrity hashing
 - 🔄 Customer beta testing (5-10 pilot customers)
 
@@ -308,7 +308,7 @@ The Emotional Extortion Detection system creates **5 distinct expansion paths** 
 - Regulatory interest is rising — being early is a strategic position, not a mandate to buy
 
 ### 5. Mission Alignment
-- Emotional safety = Soul Cradle's core mission
+- Emotional safety = SoulCradle's core mission
 - Customers buying values, not just features
 - Attracts talent who want meaningful work
 - PR/brand = "The good guys of AI"
@@ -342,7 +342,7 @@ The Emotional Extortion Detection system creates **5 distinct expansion paths** 
 1. **Update pricing page** - Add "Emotional Extortion Detection" as key differentiator
 2. **Create 1-pager** - "AI Safety Through Manipulation Detection" for sales calls
 3. **Reach out to 10 prospects** - Offer free extortion audit of their AI outputs
-4. **Schedule demos** - Show extortion detection + Soul Cradle integration
+4. **Schedule demos** - Show extortion detection + SoulCradle integration
 5. **Close 1 pilot** - $2,988 Developer tier to validate product-market fit
 
 **Goal:** First paying customer by end of November 2025, first upgrade to Growth tier by February 2026.

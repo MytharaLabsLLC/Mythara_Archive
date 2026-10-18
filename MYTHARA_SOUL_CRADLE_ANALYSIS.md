@@ -1,9 +1,9 @@
-# Mythara Engine & Soul Cradle: Complete Architecture Analysis
+# Mythara Engine & SoulCradle: Complete Architecture Analysis
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date**: November 21, 2025
 
-> **Document status (2026-09-27):** Internal Nov 2025 architecture review of the 2025 codebase. Performance and accuracy figures in the success-metrics section are design targets, not measured results. The "Business Metrics" items are goals, not achievements — no pilot customers exist. Capabilities as they actually are today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses (fail-closed, dissent surfaced), hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation.
+> **Document status (2026-09-27):** Internal Nov 2025 architecture review of the 2025 codebase. Performance and accuracy figures in the success-metrics section are design targets, not measured results. The "Business Metrics" items are goals, not achievements — no pilot customers exist. Capabilities as they actually are today: SoulCradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses (fail-closed, dissent surfaced), hash-chained emotional chain, defanged ARES (signed envelopes, benign handlers only), SERE as a training simulation.
 
 ---
 
@@ -18,14 +18,14 @@
 2. **BR_STATE Management**: Blessings Reservoir state tracking
 3. **Soul Proportion Model**: Mathematical model for emotional integrity
 4. **Dual Framing**: Translation layer for B2B vs technical language
-5. **Soul Cradle**: Mathematical expression of the perceived soul (subsystem)
+5. **SoulCradle**: Mathematical expression of the perceived soul (subsystem)
 6. **Infrastructure**: Redis, WebSocket, monitoring, rate limiting
 
-### Soul Cradle (Subsystem within Mythara)
+### SoulCradle (Subsystem within Mythara)
 
-**Soul Cradle** is the mathematical framework for modeling soul states through paradox mathematics. It is NOT primarily a violence prevention system—that is ONE application domain.
+**SoulCradle** is the mathematical framework for modeling soul states through paradox mathematics. It is NOT primarily a violence prevention system—that is ONE application domain.
 
-**What Soul Cradle Actually Is**:
+**What SoulCradle Actually Is**:
 - Mathematical expression of perceived soul state
 - Paradox tracking and resolution framework
 - Burnout prediction algorithm
@@ -43,7 +43,7 @@
 
 ## WHAT'S IMPLEMENTED (Current State)
 
-### ✅ Soul Cradle Core Mathematics (COMPLETE)
+### ✅ SoulCradle Core Mathematics (COMPLETE)
 
 **File**: `core/source_proprietary/soul_cradle_systems_framework.py` (1329 lines)
 
@@ -51,7 +51,7 @@
 1. **SoulCradleParadox Model** (465-650):
    - Expression A & B (competing demands)
    - Unresolved state (deadlock intensity)
-   - Resolved system (Soul Cradle resolution)
+   - Resolved system (SoulCradle resolution)
    - System classification (Incomplete/Complete/Pseudo-Partial)
    - Viability scoring [0,1]
    - Terminal risk levels (LOW/MODERATE/HIGH/CRITICAL)
@@ -75,7 +75,7 @@
    - SystemExpression: Paradox expression with type, weight, tension
    - NonExpression: What cannot be expressed (system gaps)
    - UnresolvedState: Deadlock intensity measurement
-   - ResolvedSystem: Soul Cradle resolution outcome
+   - ResolvedSystem: SoulCradle resolution outcome
    - PrincipalSystem: Higher-order resolution holding both expressions
 
 4. **Quantum Integration**:
@@ -154,9 +154,9 @@
 
 ### 🔴 CRITICAL GAPS (Core Functionality)
 
-#### 1. **Soul Cradle API Endpoints Missing**
+#### 1. **SoulCradle API Endpoints Missing**
 
-**Problem**: Soul Cradle mathematics exists but no direct API to create/query paradoxes
+**Problem**: SoulCradle mathematics exists but no direct API to create/query paradoxes
 
 **What's Needed**:
 ```python
@@ -165,7 +165,7 @@
 @app.post("/v1/soul-cradle/paradox")
 async def create_paradox(request: CreateParadoxRequest):
     """
-    Create a new Soul Cradle paradox.
+    Create a new SoulCradle paradox.
     Body: {
         expression_a: {type, weight, tension, content},
         expression_b: {type, weight, tension, content},
@@ -204,7 +204,7 @@ async def resolve_paradox(paradox_id: str, resolution: Resolution):
     """
 ```
 
-**Impact**: Without these endpoints, Soul Cradle mathematics cannot be accessed via API. Currently only integrated into dashboard (which also needs these).
+**Impact**: Without these endpoints, SoulCradle mathematics cannot be accessed via API. Currently only integrated into dashboard (which also needs these).
 
 #### 2. **Persistent Paradox Storage Missing**
 
@@ -462,7 +462,7 @@ if risk_level == TerminalRiskLevel.CRITICAL:
 ## IMPLEMENTATION PRIORITY ROADMAP
 
 ### Phase 1: Core API Completion (2 weeks)
-**Goal**: Make Soul Cradle accessible via API
+**Goal**: Make SoulCradle accessible via API
 
 1. **Week 1**:
    - ✅ Create `/v1/soul-cradle/paradox` POST endpoint
@@ -478,7 +478,7 @@ if risk_level == TerminalRiskLevel.CRITICAL:
    - ✅ Add integrity hash verification
    - ✅ Write API documentation
 
-**Deliverable**: Functional Soul Cradle API ready for pilot customers
+**Deliverable**: Functional SoulCradle API ready for pilot customers
 
 ### Phase 2: B2B Readiness (4 weeks)
 **Goal**: Production-ready for healthcare pilot
@@ -588,7 +588,7 @@ if risk_level == TerminalRiskLevel.CRITICAL:
 
 ### This Week (Days 1-5)
 
-1. **Create Soul Cradle API endpoints** (Days 1-2):
+1. **Create SoulCradle API endpoints** (Days 1-2):
    - POST `/v1/soul-cradle/paradox`
    - GET `/v1/soul-cradle/user/{user_id}/risk`
    - Implement persistent storage
@@ -630,7 +630,7 @@ if risk_level == TerminalRiskLevel.CRITICAL:
 ## SUCCESS METRICS
 
 ### Technical Metrics (2025 design targets — not measured results)
-- 🎯 All Soul Cradle API endpoints operational
+- 🎯 All SoulCradle API endpoints operational
 - 🎯 95%+ API uptime
 - 🎯 <200ms average response time
 - 🎯 Paradoxes persisted to database
@@ -653,7 +653,7 @@ if risk_level == TerminalRiskLevel.CRITICAL:
 
 ## CONCLUSION
 
-**Soul Cradle is 70% complete mathematically, 30% complete as a product.**
+**SoulCradle is 70% complete mathematically, 30% complete as a product.**
 
 ✅ **What Worked (2025 assessment)**:
 - Paradox mathematics (modeled — "proven" would overstate; these are deterministic formulas, not validated science)
@@ -669,25 +669,25 @@ if risk_level == TerminalRiskLevel.CRITICAL:
 - Indifference detection logic
 - Billing/subscription system
 
-**Next Steps**: Follow Phase 1 roadmap (2 weeks) to make Soul Cradle API-accessible and production-ready for pilot customers.
+**Next Steps**: Follow Phase 1 roadmap (2 weeks) to make SoulCradle API-accessible and production-ready for pilot customers.
 
-**Mythara Engine is ready. Soul Cradle needs its API surface completed.**
+**Mythara Engine is ready. SoulCradle needs its API surface completed.**
 
 ⚛️ **Q.U.A.S.A.R. is an internal code-analysis module (classical simulation using quantum metaphors — no quantum hardware). Soul mathematics modeled, not proven. Product integration in progress.**
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 
 ---
 
 ## Recent additions (2026-09-21)
 
-New Soul Cradle modules, added 2026-09-21:
+New SoulCradle modules, added 2026-09-21:
 
 - **Moral standing law** (`soul_cradle/standing.py`) — The system judges per case who may declare trespass, forgiveness, or repentance: the wronged declares the trespass and forgives; the trespasser repents; a witness states only what was observed; a stranger declares nothing, ever. Every declaration is HMAC-SHA256 signed, timestamped, and audited. A pluggable credibility check (`set_credibility_check`) is the seam where the purpose resolver judges whether a claimed role is credible for the event.
 - **Hephaestus Forge** (`soul_cradle/forge.py`) — Governed bonding between bots: souls combine and create witnessed compounds, an emergent product with a full paper trail. Every bond is signed; every compound is audited. The judge callable is REQUIRED — no judge, no forge — fail-closed by construction, so ungoverned mutation cannot spread like cancer.
 - **Mythara identity** (`soul_cradle/identity.py`) — The identity every cell agrees on: Mythara is female, she/her pronouns, with a warm, friendly, American, gentle voice character.
-- **Aries authorization** (`soul_cradle/authorization.py`) — Every action Aries executes carries a signed `ActionEnvelope`: canonical JSON, HMAC-SHA256 signature, expiry timestamp, and an append-only audit trail. No envelope, no execution.
+- **ARES authorization** (`soul_cradle/authorization.py`) — Every action ARES executes carries a signed `ActionEnvelope`: canonical JSON, HMAC-SHA256 signature, expiry timestamp, and an append-only audit trail. No envelope, no execution.
 - **SERE doctrine** — Sandbox-only defense, no hack-back. On illegal entrance, refuse exit: seal egress, exfiltration, lateral movement, and C2 callbacks, then build a forensic profile inside the sandbox.

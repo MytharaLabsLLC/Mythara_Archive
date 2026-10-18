@@ -1,6 +1,6 @@
 # Medical Team Suite - Multi-Regulatory Compliance Support Documentation
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **What this document is:** a mapping of the Medical Team Suite's *technical controls* to requirements in three regulatory frameworks (HIPAA, PCI DSS v4.0, FCC/TCPA). ✅ below means "technical control implemented as designed and self-assessed" — **not** "certified compliant." Mythara is not HIPAA certified, not PCI DSS validated, and not FCC licensed. Whether a deployment is compliant is decided by the deploying organization's auditors, assessors, and legal counsel — never by this document.
 
@@ -571,4 +571,4 @@ This compliance framework provides **technical safeguards** designed to support 
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

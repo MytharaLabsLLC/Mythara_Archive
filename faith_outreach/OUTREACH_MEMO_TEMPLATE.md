@@ -1,5 +1,5 @@
 # Faith Organization Outreach Memo
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 > **Draft template.** St. Jude and other named organizations appear only as illustrative prospects. No engagements, pilots, or partnerships exist.
 
@@ -8,7 +8,7 @@
 ## Subject Line Options
 1. **A free tool for organizations holding hope and grief**
 2. **Mythara: measuring mission integrity under pressure**
-3. **For [Organization Name]: our Soul Cradle tool, free**
+3. **For [Organization Name]: our SoulCradle tool, free**
 
 ---
 
@@ -22,7 +22,7 @@ I run Mythara, a project that builds practical tools for organizations
 doing work that doesn't fit neatly into a spreadsheet — treating children
 who may not survive, holding grief and hope in the same mission.
 
-Our Soul Cradle Operator helps you answer a question your board and
+Our SoulCradle Operator helps you answer a question your board and
 donors keep asking: is the work staying true to the mission, especially
 when conditions make that hardest? It maps acts of care against your own
 values and produces clear, honest numbers. It does not score individuals.
@@ -52,7 +52,7 @@ systems available to you — medical records, donor CRMs — capture
 transactions, not the care behind them. Boards and donors need measurable
 impact, but reducing your work to KPIs misses what actually matters.
 
-Mythara's Soul Cradle Operator was built for that gap. It tracks whether
+Mythara's SoulCradle Operator was built for that gap. It tracks whether
 day-to-day work stays aligned with your stated mission under difficult
 conditions, and reports it in terms leadership and donors can understand.
 It is organizational, not individual: no staff scoring, no patient data,
@@ -89,7 +89,7 @@ medications. Donor databases capture contributions. Neither one captures
 the care that sustains a mission when outcomes are uncertain — and that
 care is exactly what your donors think they're funding.
 
-The Soul Cradle Operator is our attempt to close that gap. It's a free
+The SoulCradle Operator is our attempt to close that gap. It's a free
 tool for faith organizations that records acts of care against your own
 mission values and turns them into reports your board and donors can
 actually understand. It doesn't score people. It doesn't store patient
@@ -109,7 +109,7 @@ MytharaLabsLLC@yahoo.com
 
 ### For St. Jude Children's Research Hospital
 - **Opening hook**: Reference "Finding cures. Saving children." and the paradox of terminal pediatric care
-- **Resonance example**: "When a child receives experimental treatment with 15% success probability, the Soul Cradle preserves the integrity of trying — even if the outcome is loss"
+- **Resonance example**: "When a child receives experimental treatment with 15% success probability, the SoulCradle preserves the integrity of trying — even if the outcome is loss"
 - **Donor impact**: "Quarterly reports showing cumulative Blessings: 'Your generosity this year funded 1,850 acts of compassionate care, accumulating 47,000 Blessings through the Reservoir'"
 
 ### For Hospice/Palliative Care Organizations
@@ -119,7 +119,7 @@ MytharaLabsLLC@yahoo.com
 
 ### For Faith-Based Disaster Relief (e.g., Catholic Charities, Salvation Army)
 - **Opening hook**: "You serve communities in collapse — flood, fire, famine, displacement. You cannot fix the disaster. You can only hold the suffering."
-- **Resonance example**: "Soul Cradle tracks obedience to mission even when resources are insufficient: feeding 500 when 5,000 are hungry still accumulates Blessings"
+- **Resonance example**: "SoulCradle tracks obedience to mission even when resources are insufficient: feeding 500 when 5,000 are hungry still accumulates Blessings"
 - **Impact metrics**: "Board reports showing mission resilience: 'Despite 40% funding shortfall, integrity remained above 0.75 — staff maintained compassion under impossible constraint'"
 
 ---
@@ -131,11 +131,11 @@ Send Version A, B, or C based on the organization's culture.
 
 ### Day 7: Gentle Nudge
 ```
-Subject: Following up — Soul Cradle Operator for [Organization]
+Subject: Following up — SoulCradle Operator for [Organization]
 
 [Leader Name],
 
-Following up on my note about Mythara's Soul Cradle Operator. I know
+Following up on my note about Mythara's SoulCradle Operator. I know
 your inbox is full of vendors promising solutions — we're offering
 something simpler: a free tool built for organizations whose work
 doesn't reduce to KPIs.
@@ -156,7 +156,7 @@ This is my last note, and I'll keep it short.
 
 If your work involves treating children who may not survive, serving
 more people than resources allow, or holding grief and hope in the
-same mission — we built the Soul Cradle Operator for exactly that.
+same mission — we built the SoulCradle Operator for exactly that.
 The core tool is free. The paid options only cover setup and dashboards
 if you want us to handle those.
 

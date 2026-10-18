@@ -3,7 +3,7 @@
 Q.U.I.C.K.F.I.X. Bot - Quick Universal Intelligent Code Knowledge Fixer
 Part of the A.M.I.R. Cybersecurity Suite
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Q.U.I.C.K.F.I.X. (Quick Universal Intelligent Code Knowledge Fixer) can:
 - Auto-detect vulnerabilities in code

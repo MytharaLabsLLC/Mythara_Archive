@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Q.S.D. - QUANTUM SLIME DEFENSE
 Quantum Universal Autonomous Security & Response

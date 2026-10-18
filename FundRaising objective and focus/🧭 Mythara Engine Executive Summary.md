@@ -18,10 +18,10 @@ Mythara Engine is a mythic-tech framework designed to encode memory, emotion, gr
 
 The working core, as it actually runs:
 
-- **Soul Cradle core** — integrity scored as Alignment × Tolerance; the soul proportion S(t) models emotional vitality with stated math and stated limits (`../soul_cradle/`).
+- **SoulCradle core** — integrity scored as Alignment × Tolerance; the soul proportion S(t) models emotional vitality with stated math and stated limits (`../soul_cradle/`).
 - **8 assessor-witnesses** — demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone — reviewing evidence under versioned rubrics; they abstain when their domain isn't engaged, fail closed on missing evidence, and a critical finding from any one of them blocks the action; dissent is surfaced, not averaged (`../soul_cradle/assessors.py`).
 - **Hash-chained emotional chain** — tamper-evident records with sealed witness judgments chained alongside; the chain proves records are unaltered, not that they are true (`../soul_cradle/emotional_chain.py`).
-- **Defanged Aries** — the most capable actor, restricted to benign pre-approved handlers behind signed envelopes.
+- **Defanged ARES** — the most capable actor, restricted to benign pre-approved handlers behind signed envelopes.
 - **SERE as training simulation only** — trainees face simulated adversaries inside a sealed virtual environment; it is not a weapon, never strikes back outside the sandbox, and is not military-ready (`../sere_course.py`).
 
 Aspiration, stated plainly: one day this framework could underpin licensed deployments and long-term legacy transmission. It is not there today. What exists today is the working code, the tests, and the records.
@@ -84,6 +84,6 @@ Aspiration, stated plainly: one day this framework could underpin licensed deplo
 
 ## ✅ Summary
 
-Mythara Engine is a framework in development — principled in design, honest about its limits. It encodes grief, memory, and legacy into symbolic infrastructure, governed by the Soul Cradle core and the 8 assessor-witnesses, with every significant record hash-chained and every exercise confined to the training sandbox. It aspires toward sovereign deployment, therapeutic integration, and intergenerational transmission — aspirations, not claims. No pilots, no customers, no certifications, no revenue. What can be shown today is the working code, the tests, and the records.
+Mythara Engine is a framework in development — principled in design, honest about its limits. It encodes grief, memory, and legacy into symbolic infrastructure, governed by the SoulCradle core and the 8 assessor-witnesses, with every significant record hash-chained and every exercise confined to the training sandbox. It aspires toward sovereign deployment, therapeutic integration, and intergenerational transmission — aspirations, not claims. No pilots, no customers, no certifications, no revenue. What can be shown today is the working code, the tests, and the records.
 
 Let the clause echo beyond the breach, sanctify the memory it carries, and outlast the entropy it resists.

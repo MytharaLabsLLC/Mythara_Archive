@@ -1,16 +1,16 @@
 # Faith Organization Outreach Package
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
 ## 📦 Package Overview
 
-This directory contains everything needed to deploy Mythara's **Soul Cradle Operator** for outreach to faith-based organizations like St. Jude Children's Research Hospital, Catholic Charities, hospice networks, and religious institutions navigating paradox.
+This directory contains everything needed to deploy Mythara's **SoulCradle Operator** for outreach to faith-based organizations like St. Jude Children's Research Hospital, Catholic Charities, hospice networks, and religious institutions navigating paradox.
 
 **Core Positioning:**  
 *"We donate the soul. We charge for the scaffolding."*
 
-The Soul Cradle Operator is gifted to faith organizations. They pay only for custom integration, dashboards, multi-site deployment, and enterprise support.
+The SoulCradle Operator is gifted to faith organizations. They pay only for custom integration, dashboards, multi-site deployment, and enterprise support.
 
 ---
 
@@ -89,7 +89,7 @@ The Soul Cradle Operator is gifted to faith organizations. They pay only for cus
 ---
 
 ### Scenario C: Warm Introduction via Existing Contact
-1. **Leverage referral**: "Your colleague at [Org] suggested we connect about Mythara's Soul Cradle Operator"
+1. **Leverage referral**: "Your colleague at [Org] suggested we connect about Mythara's SoulCradle Operator"
 2. **Select memo version**: Match tone to referrer's recommendation (sacred vs. professional)
 3. **Offer pilot**: "We're offering 90-day pilots to 3 organizations this quarter — would [Your Org] be interested?"
 4. **Include case study**: Reference hypothetical St. Jude deployment in `FAITH_ORG_TIER_LADDER.md`
@@ -178,7 +178,7 @@ All documents in this package are **Proprietary and Confidential**. Do not distr
 - SOC 2: Type II controls implemented, audit planned (not currently certified)
 
 **Intellectual property**:
-- Soul Cradle Operator and Blessings Reservoir: Copyright © 2025 Herbert Velez Jr. No patent applications have been filed; no trademarks are registered.
+- SoulCradle Operator and Blessings Reservoir: Copyright © 2026 Mythara Labs LLC. No patent applications have been filed; no trademarks are registered.
 
 ---
 

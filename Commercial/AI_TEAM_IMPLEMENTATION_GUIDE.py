@@ -1,4 +1,4 @@
-# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 """
 🚀 MYTHARA AI TEAM - IMPLEMENTATION GUIDE
@@ -289,7 +289,7 @@ INTEGRATION_GUIDE = """
 
 WEEKLY_REPORT_CODE = '''
 # weekly_ai_team_report.py
-# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 """
 Generates weekly performance report from all AI bots.

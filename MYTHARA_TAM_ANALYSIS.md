@@ -5,10 +5,10 @@
 > Pricing tiers, ARR figures, valuations, customer counts, unit economics, and exit scenarios are the
 > founder's planning estimates. Do not treat them as forecasts, commitments, or historical results.
 
-# Mythara Industries - Total Addressable Market Analysis
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+# Mythara Labs LLC — Total Addressable Market Analysis (2025 planning draft)
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
-> **Document status (2026-09-27):** Historical planning document dated November 20, 2025, written for investor positioning that never happened. Every customer count, ARR figure, growth rate, unit-economic metric, and capability claim in this document is a 2025 working scenario — none of it was achieved. As of this note: Mythara is pre-revenue with zero paying customers and zero pilot customers; it holds no SOC 2, ISO, FedRAMP, HIPAA, or PCI-DSS certifications; no patents have been filed; "Mythara Industries" is a working title, not a legal entity; Mythara Labs LLC is a Colorado domestic LLC (filed 2026-10-04; CO SOS ID #20268239831). Capabilities are described as they actually exist today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, a hash-chained emotional chain, defanged Aries (signed action envelopes, benign handlers only), and SERE as a training simulation — never a weapon, never hack-back, never military-ready.
+> **Document status (2026-09-27):** Historical planning document dated November 20, 2025, written for investor positioning that never happened. Every customer count, ARR figure, growth rate, unit-economic metric, and capability claim in this document is a 2025 working scenario — none of it was achieved. As of this note: Mythara is pre-revenue with zero paying customers and zero pilot customers; it holds no SOC 2, ISO, FedRAMP, HIPAA, or PCI-DSS certifications; no patents have been filed; "Mythara Industries" is a working title, not a legal entity; Mythara Labs LLC is a Colorado domestic LLC (filed 2026-10-04; CO SOS ID #20268239831). Capabilities are described as they actually exist today: SoulCradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, a hash-chained emotional chain, defanged ARES (signed action envelopes, benign handlers only), and SERE as a training simulation — never a weapon, never hack-back, never military-ready.
 
 
 ---

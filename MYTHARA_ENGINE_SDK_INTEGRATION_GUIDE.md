@@ -1,6 +1,6 @@
 # Mythara Engine SDK - Product Integration Guide
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
@@ -28,7 +28,7 @@ The **Mythara Engine SDK** allows you to power multiple commercial products whil
          │       MYTHARA ENGINE SDK (Core)       │
          │  ┌─────────────────────────────────┐  │
          │  │ 6 Subsystems (Always Included)  │  │
-         │  │ • Soul Cradle (AI Analysis)     │  │
+         │  │ • SoulCradle (AI Analysis)     │  │
          │  │ • Blessings Reservoir (Credits) │  │
          │  │ • Messenger Protocol (Integrity)│  │
          │  │ • Sanctification (Verification) │  │
@@ -71,7 +71,7 @@ config = ProductConfig(
 # Initialize Mythara Engine
 engine = MytharaEngine(config, user_id="user_12345")
 
-# Use Soul Cradle for legal analysis
+# Use SoulCradle for legal analysis
 result = engine.soul_cradle.analyze(
     "My boss threatened to fire me if I don't work off the clock."
 )
@@ -261,7 +261,7 @@ if result["analysis"]["coercion_score"] > 0.8:
 engine.clauses.register_clause(
     clause_id="spam_filter",
     name="Advanced Spam Detection",
-    description="Uses Soul Cradle coercion detection for phishing",
+    description="Uses SoulCradle coercion detection for phishing",
     pattern_type="coercion_analysis",
     validation_rules={"coercion_threshold": 0.7}
 )
@@ -309,7 +309,7 @@ engine = MytharaEngine(config, user_id="current_user")
 
 ### **Step 4: Use Subsystems**
 ```python
-# Soul Cradle: AI analysis
+# SoulCradle: AI analysis
 result = engine.soul_cradle.analyze("User input...")
 
 # Blessings Reservoir: Credit system
@@ -334,7 +334,7 @@ export = engine.integration.export_analysis_json(analysis_id)
 
 | Feature | Gopher | Sales Trainer | VOIP Bot | Wellness Guardian | Email Bot |
 |---------|--------|---------------|----------|-------------|-----------|
-| **Soul Cradle** | Legal distress | Pitch analysis | Sentiment | Mental health | Phishing |
+| **SoulCradle** | Legal distress | Pitch analysis | Sentiment | Mental health | Phishing |
 | **Blessings** | Good behavior | Training progress | Agent QA | Self-care | Email hygiene |
 | **Messenger** | Case audit trail | Call logs | Call records | Session logs | Email logs |
 | **Clauses** | Legal patterns | Sales tactics | Call routing | Therapy goals | Spam filters |

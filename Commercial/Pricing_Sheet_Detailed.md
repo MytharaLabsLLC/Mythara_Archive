@@ -1,11 +1,11 @@
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 # Mythara Engine — Detailed Pricing & Packages
 
 > **Pricing status (2026-09-27):** Target price schedule from November 2025 — no sales have been made at these or any other prices. As of September 2026: no revenue, no paying customers, no licenses sold. Review before quoting.
 
 **Effective:** November 2025  
-**Contact:** Herbievelezjr@gmail.com | MytharaLabsLLC@yahoo.com
+**Contact:** MytharaLabsLLC@yahoo.com
 
 ---
 
@@ -205,7 +205,7 @@ Sales orgs closing $1M+ annually, high-volume outbound
 ## Questions?
 
 **Contact Herbert Velez Jr.**  
-📧 Herbievelezjr@gmail.com  
+📧 MytharaLabsLLC@yahoo.com  
 💼 MytharaLabsLLC@yahoo.com  
 📅 Schedule a call: Request via email
 
@@ -217,7 +217,7 @@ Sales orgs closing $1M+ annually, high-volume outbound
 ## Next Steps
 
 1. **Choose your tier** (or start with SSIP Audit to test it out)
-2. **Email to confirm** Herbievelezjr@gmail.com
+2. **Email to confirm** MytharaLabsLLC@yahoo.com
 3. **Receive invoice** (usually within 24 hours)
 4. **Pay and onboard** (credentials sent immediately)
 
@@ -225,4 +225,4 @@ Sales orgs closing $1M+ annually, high-volume outbound
 
 **Confirm current rates with Herb before quoting — the early adopter promotion ended November 15, 2025.**
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

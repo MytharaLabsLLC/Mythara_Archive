@@ -1,7 +1,7 @@
 # Zim Notation Analysis
 **For External Review - Not Part of Mythara Core**
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -18,7 +18,7 @@ Zim notation uses formal logic predicates that resemble if-statement conditional
 Every(X)Any(+)Some(Y)Non(Z)
 ```
 
-### Examples Previously in Soul Cradle:
+### Examples Previously in SoulCradle:
 ```
 Every(Policy)Any(+)Some(Discharge)Non(Safety)
 Every(Heart)Any(+)Some(Safety)Non(Discharge)
@@ -177,6 +177,6 @@ If Zim notation provides value in other contexts (formal verification, automated
 
 ---
 
-**Conclusion**: Zim notation removed from Mythara Soul Cradle Systems Framework. Pure mathematical formulas + plain English + SHA-256 integrity preserved. Framework is simpler, clearer, more accessible.
+**Conclusion**: Zim notation removed from Mythara SoulCradle Systems Framework. Pure mathematical formulas + plain English + SHA-256 integrity preserved. Framework is simpler, clearer, more accessible.
 
-**Status**: Zim notation removed from Mythara Soul Cradle Systems Framework. Pure mathematical formulas + plain English + SHA-256 integrity preserved. Framework is simpler and more accessible. (No production-readiness claim is made here.)
+**Status**: Zim notation removed from Mythara SoulCradle Systems Framework. Pure mathematical formulas + plain English + SHA-256 integrity preserved. Framework is simpler and more accessible. (No production-readiness claim is made here.)

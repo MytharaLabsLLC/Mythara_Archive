@@ -1,6 +1,6 @@
 # Defensive Publication - Mythara Technologies
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Publication Date:** November 20, 2025  
 **Repository:** github.com/herbievelezjr/Mythara_Archive  
 **Commit Hash:** To be recorded upon publication
@@ -937,19 +937,19 @@ All technologies described herein are implemented at varying stages of readiness
 **Timestamp:** November 20, 2025  
 **Publication Medium:** GitHub Public Repository  
 **Inventor:** Herbert Velez Jr.  
-**Copyright:** © 2025 Herbert Velez Jr. All rights reserved.
+**Copyright:** © 2026 Mythara Labs LLC. All rights reserved.
 
 
 ---
 
 ## Addendum (2026-09-21)
 
-Current Soul Cradle architecture (supersedes older descriptions where they conflict): **Integrity = Alignment × Tolerance**; eight evidence-fed assessor-witnesses that abstain when their domain is not engaged; fail-closed on missing evidence; a critical finding blocks; dissent is surfaced, never averaged; emotional records are hash-chained and witness-attested.
+Current SoulCradle architecture (supersedes older descriptions where they conflict): **Integrity = Alignment × Tolerance**; eight evidence-fed assessor-witnesses that abstain when their domain is not engaged; fail-closed on missing evidence; a critical finding blocks; dissent is surfaced, never averaged; emotional records are hash-chained and witness-attested.
 
-New Soul Cradle modules, added 2026-09-21:
+New SoulCradle modules, added 2026-09-21:
 
 - **Moral standing law** (`soul_cradle/standing.py`) — The system judges per case who may declare trespass, forgiveness, or repentance: the wronged declares the trespass and forgives; the trespasser repents; a witness states only what was observed; a stranger declares nothing, ever. Every declaration is HMAC-SHA256 signed, timestamped, and audited. A pluggable credibility check (`set_credibility_check`) is the seam where the purpose resolver judges whether a claimed role is credible for the event.
 - **Hephaestus Forge** (`soul_cradle/forge.py`) — Governed bonding between bots: souls combine and create witnessed compounds, an emergent product with a full paper trail. Every bond is signed; every compound is audited. The judge callable is REQUIRED — no judge, no forge — fail-closed by construction, so ungoverned mutation cannot spread like cancer.
 - **Mythara identity** (`soul_cradle/identity.py`) — The identity every cell agrees on: Mythara is female, she/her pronouns, with a warm, friendly, American, gentle voice character.
-- **Aries authorization** (`soul_cradle/authorization.py`) — Aries is defanged: every action carries a signed `ActionEnvelope` (canonical JSON, HMAC-SHA256 signature, expiry timestamp) with benign handlers only and an append-only audit trail. No envelope, no execution.
+- **ARES authorization** (`soul_cradle/authorization.py`) — ARES is defanged: every action carries a signed `ActionEnvelope` (canonical JSON, HMAC-SHA256 signature, expiry timestamp) with benign handlers only and an append-only audit trail. No envelope, no execution.
 - **SERE doctrine** — SERE is a training simulation only: sandboxed, no hack-back, never a weapon, never military-ready.

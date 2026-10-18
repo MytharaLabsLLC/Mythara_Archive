@@ -1,4 +1,4 @@
-# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 > **Status:** roadmap plan written November 2025. The VoIP bot is not built; no licensing discussions have taken place; all revenue figures below are projections, not results.
 
@@ -480,7 +480,7 @@ BEFORE LICENSING:
    - Strengthens the target $1.5M valuation — aspirational; patented technology = higher value
 
 3. TRADE SECRET PROTECTION (Free, implemented in code)
-   - Mark all files: "Copyright © 2025 Herbert Velez Jr. All rights reserved."
+   - Mark all files: "Copyright © 2026 Mythara Labs LLC. All rights reserved."
    - Use PyArmor obfuscation for demos
    - Never deploy source code to client servers (API-only or compiled binaries)
 

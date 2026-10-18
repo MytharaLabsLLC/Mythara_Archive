@@ -1,5 +1,5 @@
 # 🎯 Mythara Pilot - Complete Setup Summary
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **⚠️ DISABLED — Stripe integration removed. All Stripe webhooks (Test and Live) were deleted and the payment links below are not verified — no fulfillment path exists. Do not share these links.** The link URLs are preserved as text so they can be identified and deactivated in the Stripe dashboard (a manual step still required; nobody can verify or deactivate these links from the repo alone).
 

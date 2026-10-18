@@ -1,6 +1,6 @@
 # 🏥 DrMythara Medical Team Suite - Implementation Complete
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date:** November 19, 2025  
 **Status:** Code implemented (2025) — not deployed, not clinically reviewed, not a medical device
 
@@ -436,4 +436,4 @@ For questions or support:
 **Built with Mythara SSIP Framework**  
 *Integrity-First Healthcare Bot Orchestration*
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  

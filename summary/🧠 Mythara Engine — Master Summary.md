@@ -4,16 +4,16 @@
 
 ## 📍 System Overview
 
-Mythara encodes memory, emotion, and legacy into accountable infrastructure. At its core sits the Soul Cradle: integrity scored as Alignment × Tolerance, emotional records kept in a hash-chained log, and every consequential action judged by eight assessor-witnesses under versioned rubrics before it is allowed to move.
+Mythara encodes memory, emotion, and legacy into accountable infrastructure. At its core sits the SoulCradle: integrity scored as Alignment × Tolerance, emotional records kept in a hash-chained log, and every consequential action judged by eight assessor-witnesses under versioned rubrics before it is allowed to move.
 
 ---
 
 ## 🧬 Core Components
 
-- **Soul Cradle** (`soul_cradle/`): integrity scoring (Integrity = Alignment × Tolerance), the soul proportion S(t) model — bounded, calibrated, with stated limits
+- **SoulCradle** (`soul_cradle/`): integrity scoring (Integrity = Alignment × Tolerance), the soul proportion S(t) model — bounded, calibrated, with stated limits
 - **Assessor-witnesses** (`soul_cradle/assessors.py`): demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone — evidence-fed, abstaining when their domain is not engaged, failing closed on missing evidence; a critical finding from any one of them blocks the action, and disagreement is surfaced, not averaged
 - **Emotional chain** (`soul_cradle/emotional_chain.py`): hash-chained, tamper-evident records — the chain proves a record is unaltered, not true
-- **Aries** (`soul_cradle/authorization.py`): defanged by design — every action carries a signed envelope, and its handler registry holds only benign, pre-approved operations
+- **ARES** (`soul_cradle/authorization.py`): defanged by design — every action carries a signed envelope, and its handler registry holds only benign, pre-approved operations
 - **Benevolence reservoir** (`soul_cradle/benevolence.py`, `soul_cradle/benevolence_ledger.jsonl`): heuristic deltas (v2026.1) drawn from witness findings, never self-reported; hash-chained and append-only
 - **SERE** (`sere_aries.py`, `sere_course.py`, `sere_crucible.py`, `sere_slime.py`): a training simulation inside a sealed virtual environment — never a weapon, never hack-back, never military-ready
 

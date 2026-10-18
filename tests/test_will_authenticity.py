@@ -1,6 +1,6 @@
 """
 Mythara Engine: Emotional Extortion Detection Tests
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Test suite for emotional extortion detection and quantification.
 """
@@ -260,7 +260,7 @@ def test_pattern_coverage():
 def run_all_tests():
     """Run complete test suite"""
     print("MYTHARA ENGINE: EMOTIONAL EXTORTION DETECTION TEST SUITE")
-    print("Copyright © 2025 Herbert Velez Jr. All rights reserved.")
+    print("Copyright © 2026 Mythara Labs LLC. All rights reserved.")
     print("="*80)
     
     test_guilt_induction()

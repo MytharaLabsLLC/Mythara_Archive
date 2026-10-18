@@ -1,4 +1,4 @@
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 # Release v1.0.0 — Mythara Engine (Evaluation)
 

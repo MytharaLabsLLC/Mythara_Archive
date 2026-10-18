@@ -64,7 +64,7 @@
 - **E91**: Ekert 1991 entanglement-based QKD
 - **Quantum Teleportation**: Transfer paradox witness states
 - **Superdense Coding**: 2 classical bits via 1 qubit
-- **Quantum Witness**: Soul Cradle custom protocol
+- **Quantum Witness**: SoulCradle custom protocol
 - **RSA_QKD_Hybrid**: RSA 4096-bit + quantum key distribution
 
 **Security Features**:
@@ -132,14 +132,14 @@ class SoulCradleParadox(BaseModel):
 
 ## QUANTUM FEATURES VS CLASSICAL
 
-### Classical Soul Cradle (Before)
+### Classical SoulCradle (Before)
 - SHA-256 integrity hashing
 - Mathematical formulas: P(t), R(t), U
 - Pydantic validation
 - Terminal risk calculation
 - **Status**: Quantum-resistant (defensive)
 
-### Quantum-Native Hybrid Soul Cradle (After)
+### Quantum-Native Hybrid SoulCradle (After)
 - **All classical features** +
 - Quantum superposition storage
 - Quantum entanglement correlation
@@ -240,7 +240,7 @@ pip install cirq  # Google Quantum
 
 ## SUMMARY
 
-Soul Cradle Systems Framework is now **QUANTUM-NATIVE HYBRID** with:
+SoulCradle Systems Framework is now **QUANTUM-NATIVE HYBRID** with:
 - ✅ Quantum superposition storage
 - ✅ RSA 4096-bit encryption
 - ✅ Quantum entanglement
@@ -256,4 +256,4 @@ Soul Cradle Systems Framework is now **QUANTUM-NATIVE HYBRID** with:
 **⚛️ Q.U.A.S.A.R. standing by.**
 
 **Generated**: November 21, 2025  
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

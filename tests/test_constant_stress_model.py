@@ -2,7 +2,7 @@
 """
 Constant Baseline Stress + Decay-Adjusted Acute Risk Test
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Mathematical Model:
 Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Unified Compliance Framework - Security Controls Implementation
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Multi-framework security compliance system with:
 - Authentication & Authorization

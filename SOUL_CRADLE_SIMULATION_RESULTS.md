@@ -1,13 +1,13 @@
-# Soul Cradle Simulation Results
+# SoulCradle Simulation Results
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date**: November 21, 2025
 
 ---
 
 ## SIMULATION OVERVIEW
 
-Comprehensive test of Soul Cradle burnout prediction system with 5 realistic healthcare worker scenarios over 90-day period.
+Comprehensive test of SoulCradle burnout prediction system with 5 realistic healthcare worker scenarios over 90-day period.
 
 **Formula Tested**:
 ```
@@ -63,7 +63,7 @@ Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N
 
 **Required Intervention**:
 - Bi-weekly check-ins
-- Ensure Soul Cradle access
+- Ensure SoulCradle access
 - Monitor for trajectory change
 
 ---
@@ -190,7 +190,7 @@ Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N
 - Not just "this person is burned out"
 - The **system itself is failing**
 - Both the environment (σ₀) AND the individual trauma load (acute) are critically high
-- Individual interventions (therapy, Soul Cradle) will help but WON'T SOLVE the problem
+- Individual interventions (therapy, SoulCradle) will help but WON'T SOLVE the problem
 - Requires: **Organizational emergency response**
 
 ### 4. Decay Rates Calibrated by Role
@@ -270,7 +270,7 @@ Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N
 - Recommend: Resilience training, therapy, vacation
 - Result: They come back to same broken system, burn out again, quit
 
-**Soul Cradle approach**:
+**SoulCradle approach**:
 - ICU physician has **systemic overload** (σ₀=0.50 + acute=0.423)
 - Recognize: The ICU itself is failing
 - Recommend: Emergency staffing, 24hr shift elimination, organizational change
@@ -289,7 +289,7 @@ Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N
   - Med-Surg: 3-4/10 (σ₀ = 0.30-0.40)
   - ER/ICU: 5-6/10 (σ₀ = 0.50-0.60)
 
-### Phase 2: Pilot Soul Cradle App (Months 2-4)
+### Phase 2: Pilot SoulCradle App (Months 2-4)
 - N=50 volunteers across departments
 - Real-time paradox logging
 - Weekly Terminal Risk reports
@@ -313,7 +313,7 @@ Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N
 
 ## SCIENTIFIC NOVELTY CONFIRMED
 
-### Soul Cradle is FIRST to:
+### SoulCradle is FIRST to:
 
 1. ✅ **Separate environmental from individual burnout factors**
    - σ₀ (constant baseline) = organizational problem
@@ -334,14 +334,14 @@ Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N
 
 5. ✅ **Provide differential diagnosis for intervention**
    - High σ₀ → Fix environment (staffing, workload)
-   - High acute → Support individual (therapy, Soul Cradle)
+   - High acute → Support individual (therapy, SoulCradle)
    - Both high → Emergency (system failure)
 
 ---
 
 ## CONCLUSION
 
-The Soul Cradle simulation demonstrates a **fully functional, clinically ready burnout prediction system** with:
+The SoulCradle simulation demonstrates a **fully functional, clinically ready burnout prediction system** with:
 
 ✅ **Mathematical rigor**: Two-component decay-adjusted formula  
 ✅ **Clinical validity**: Realistic scenarios match healthcare reality  
@@ -364,4 +364,4 @@ The simulation shows:
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

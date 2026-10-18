@@ -11,10 +11,10 @@ Mythara holds the space when your mission conflicts with compliance.
 Say you're a hospital social worker. Policy says discharge this patient. 
 Your heart says they'll be homeless. Both are true.
 
-Soul Cradle documents that paradox. Measures the cost to your soul 
+SoulCradle documents that paradox. Measures the cost to your soul 
 and the mission. Creates an immutable record.
 
-We donate Soul Cradle to healthcare, banking, justice, nonprofits, 
+We donate SoulCradle to healthcare, banking, justice, nonprofits, 
 civil service, education—the industries carrying impossible weight.
 
 Try it: 49 dollars for 7 days. Full access. See if it fits your reality.
@@ -27,7 +27,7 @@ Slide 1: Title - 'What is Mythara Engine?'
 Slide 2: Show pricing page hero section
 Slide 3: 'When Mission Conflicts with Compliance'
 Slide 4: Example scenario text
-Slide 5: 'Soul Cradle' section from pricing page
+Slide 5: 'SoulCradle' section from pricing page
 Slide 6: Industries we serve
 Slide 7: Pilot pricing ($49/7 days)
 Slide 8: Contact info

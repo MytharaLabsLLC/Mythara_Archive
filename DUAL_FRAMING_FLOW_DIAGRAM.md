@@ -1,6 +1,6 @@
 # Mythara Engine Dual-Framing Flow Diagram
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
@@ -43,7 +43,7 @@
 │  │ Expression Metric        │  →   │ Engagement Index             │   │
 │  │ Soul Encoding            │  →   │ Impact Vault                 │   │
 │  │ Legacy Reservoir         │  →   │ Continuity Index             │   │
-│  │ Soul Cradle Operator     │  →   │ Resonance Operator           │   │
+│  │ SoulCradle Operator     │  →   │ Resonance Operator           │   │
 │  │ Trial Entity             │  →   │ Challenge Vector             │   │
 │  │ Grace/Light              │  →   │ Optimal Performance          │   │
 │  │ Wilderness/Darkness      │  →   │ Challenge State              │   │

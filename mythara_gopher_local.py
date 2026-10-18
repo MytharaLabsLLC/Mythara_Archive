@@ -3,7 +3,7 @@
 Mythara Gopher - LOCAL DESKTOP APP
 100% offline, privacy-first, no server required
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 This version runs entirely on the user's device:
 - Soul Cradle analysis runs locally (no data sent to servers)

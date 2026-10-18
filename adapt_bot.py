@@ -3,7 +3,7 @@
 A.D.A.P.T. - Adaptive Defense & Penetration Tester
 Part of the A.M.I.R. Cybersecurity Suite
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 A.D.A.P.T. runs REAL local security checks and ADAPTS its check set based
 on what it finds: a finding in one check unlocks deeper follow-up checks

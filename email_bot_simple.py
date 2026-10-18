@@ -4,7 +4,7 @@ Mythara Email Bot - Simple Manual Version
 Read exported emails and generate drafts using local keyword classification
 and templates. Draft-only: it never sends email.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 SETUP INSTRUCTIONS:
 1. Export emails from Yahoo Mail to a folder (as .eml files)

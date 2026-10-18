@@ -2,7 +2,7 @@
 
 > **Status: technical documentation for an experimental module.** This is not a medical device, is not clinically validated, and has not been audited for HIPAA or any other compliance framework. The disclaimers at the bottom of this page are part of the contract — this system supports administrative workflows; it does not diagnose, treat, or advise.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 

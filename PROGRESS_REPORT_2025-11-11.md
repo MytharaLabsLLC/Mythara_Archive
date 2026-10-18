@@ -1,6 +1,6 @@
 # 🎉 Progress Update - Automated Pilot Delivery System
 **Date:** November 11, 2025
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **Document status (2026-09-27):** Internal Nov 2025 progress note. The Stripe links, pricing, release, and outreach plans below are historical — the pilot launch was never completed, the Railway deployment was never finalized, and no customers resulted. Company names listed as outreach targets (Booz Allen, Leidos, SAIC, ManTech) were targets only; no contact, partnership, or endorsement is implied.
 

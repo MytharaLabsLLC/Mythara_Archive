@@ -3,7 +3,7 @@
 Mythara Engine - WebSocket Support
 Real-time communication for Soul Engine dashboard and paradox alerts.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 from fastapi import WebSocket

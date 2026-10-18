@@ -1,6 +1,6 @@
 # Multi-Jurisdiction Regulatory Compliance Matrix
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved..**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved..**
 
 **Product:** Mythara Engine (pre-release, unaudited)
 **Version:** 1.0

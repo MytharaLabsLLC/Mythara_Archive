@@ -3,7 +3,7 @@
 Mythara Engine - Leakage Probe Suite
 Tests for information leakage in clause selection and rendering.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import argparse

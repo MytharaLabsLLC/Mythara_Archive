@@ -42,7 +42,7 @@ C. This Agreement is **conditional**: it confers no rights on any entity until A
 Effective as of the Effective Date, Assignor hereby irrevocably assigns, transfers, and conveys to Assignee all of Assignor's right, title, and interest in and to the Assigned IP, including but not limited to:
 
 1. All copyrights in the Mythara Engine source code, documentation, and related materials;
-2. All trademark rights in the name(s) "Mythara," "Mythara Engine," "Soul Cradle," and related marks (applications to be filed by Assignee);
+2. All trademark rights in the name(s) "Mythara," "Mythara Engine," "SoulCradle," and related marks (applications to be filed by Assignee);
 3. All trade secrets and proprietary know-how embodied in the foregoing;
 4. All rights to sue for past, present, and future infringement of the Assigned IP.
 

@@ -22,7 +22,7 @@ During the 2025-11-20 debugging session, 11 of 12 test suites were reported pass
 | 4 | Loopholes | ✅ PASS | 25/25 | 100% |
 | 5 | Document Generation | ✅ PASS | All SHA-256 verified | 100% |
 | 6 | Attorney Referral | ✅ PASS | 3/3 | 100% |
-| 7 | Soul Cradle Integration | ✅ PASS | Operational | Paradox detection active |
+| 7 | SoulCradle Integration | ✅ PASS | Operational | Paradox detection active |
 | 8 | Prohibited Claims | ✅ PASS | 7/7 | 100% |
 | 9 | Unified Compliance | ✅ PASS | Implicit validation | 31 frameworks |
 | 10 | Legal Disclaimer | ✅ PASS | 7/7 | 100% |
@@ -249,7 +249,7 @@ Output: Professional English response (5143 chars) + full legal disclaimer
 
 ---
 
-## Soul Cradle Integration
+## SoulCradle Integration
 
 ### Emotional Intelligence Layer
 ✅ **OPERATIONAL**: Paradox detection, coercion assessment, burnout risk analysis
@@ -260,7 +260,7 @@ Output: Professional English response (5143 chars) + full legal disclaimer
 - **Burnout Risk Calculation**: Tracks multiple stressors, recommends self-care
 - **Will Authenticity Scoring**: Detects external pressure in decision-making
 
-**Session note**: Soul Cradle integration was exercised in that session. ("100% uptime" was session rhetoric, not a measurement.)
+**Session note**: SoulCradle integration was exercised in that session. ("100% uptime" was session rhetoric, not a measurement.)
 
 ---
 
@@ -346,7 +346,7 @@ The session's tests covered blocking of:
 - **Legal Vulnerability Defense**: 41/41 cases reported passing in that session
 - **Document Generation**: SHA-256 timestamping, 8 document types
 - **Vernacular Support**: dialect handling, professional output normalization
-- **Soul Cradle**: Paradox detection, coercion assessment, burnout risk
+- **SoulCradle**: Paradox detection, coercion assessment, burnout risk
 - **ABC Framework**: Action-oriented consultations, closing strategies
 - **Attorney Referral**: Practice area filtering, jurisdiction matching
 

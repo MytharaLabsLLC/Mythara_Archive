@@ -53,7 +53,7 @@ system did and why — evidence a reviewer can inspect, not a promise.
 
 **Mythara Engine: Integrity-Scored, Witness-Judged, Hash-Chained Records**
 
-- **Soul Cradle core** — Every action scored on integrity, defined as
+- **SoulCradle core** — Every action scored on integrity, defined as
   Alignment × Tolerance: how well it lines up with the principal's aims,
   times how much room for error and recovery it leaves.
 - **8 assessor-witnesses** — demeter, dionysus, eros, hades, hermes, janus,
@@ -73,7 +73,7 @@ system did and why — evidence a reviewer can inspect, not a promise.
 **How it works:**
 1. Action proposed with declared evidence
 2. The 8 assessor-witnesses judge the evidence under versioned rubrics
-3. Soul Cradle scores integrity (Alignment × Tolerance)
+3. SoulCradle scores integrity (Alignment × Tolerance)
 4. Judgment and record are content-hashed and chained into the log
 5. A blocked verdict stops the action; dissent is preserved, not hidden
 
@@ -187,7 +187,7 @@ no third-party audit completed)
 
 **Herbert Velez Jr.** — Founder
 - Systems architect; 10+ years enterprise software development
-- Built the Soul Cradle core, the assessor-witness framework, and the
+- Built the SoulCradle core, the assessor-witness framework, and the
   hash-chained emotional record protocol
 - Contact: MytharaLabsLLC@yahoo.com
 

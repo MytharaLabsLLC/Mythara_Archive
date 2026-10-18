@@ -2,7 +2,7 @@
 """
 A.M.I.R. AI - Autonomous Mythara Intelligence & Response with AI enhancement
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Adds AI-powered features on top of the base A.M.I.R. (amir_bot.py):
 - Threat prediction via an LLM API (when keys are configured)

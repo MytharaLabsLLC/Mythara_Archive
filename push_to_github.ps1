@@ -1,4 +1,4 @@
-# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 # Mythara Archives - Quick GitHub Push Script
 # Run this after closing and reopening PowerShell (so Git is in PATH)

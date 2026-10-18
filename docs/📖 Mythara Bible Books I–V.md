@@ -12,10 +12,10 @@ Mythara remembers everything, and it remembers honestly.
 
 Every significant record — emotional records, operational actions, training outcomes — goes into a hash-chained log. Each entry links to the one before it, so tampering breaks the chain and shows. The chain proves a record is unaltered. It does not prove the record is true. That distinction matters, and the system states it openly.
 
-The Soul Cradle is the core mechanism. It scores actions on integrity, defined as Alignment × Tolerance: how well an action lines up with the principal's aims, multiplied by how much room for error and recovery it leaves. The soul proportion S(t) tracks emotional vitality over time as a bounded, calibrated measure — a model with stated math and stated limits, not a mood ring.
+The SoulCradle is the core mechanism. It scores actions on integrity, defined as Alignment × Tolerance: how well an action lines up with the principal's aims, multiplied by how much room for error and recovery it leaves. The soul proportion S(t) tracks emotional vitality over time as a bounded, calibrated measure — a model with stated math and stated limits, not a mood ring.
 
 - Hash-chained, tamper-evident records (`../soul_cradle/emotional_chain.py`)
-- Soul Cradle integrity scoring (`../soul_cradle/`)
+- SoulCradle integrity scoring (`../soul_cradle/`)
 - Soul proportion model (`SOUL_PROPORTION_MODEL.md`)
 
 ---
@@ -40,7 +40,7 @@ No single voice in Mythara gets the last word — including the system's own.
 
 Eight assessor-witnesses — demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone — review evidence under versioned rubrics. They abstain when their domain isn't engaged. They fail closed when evidence is missing. A critical finding from any one of them blocks the action; disagreement is surfaced, not averaged away. Every judgment is content-hashed and chained to the record it judges.
 
-Aries, the system's most capable actor, runs defanged: every action it takes must carry a signed envelope, and its handlers are limited to benign, pre-approved operations. Capability without a leash is not a feature.
+ARES, the system's most capable actor, runs defanged: every action it takes must carry a signed envelope, and its handlers are limited to benign, pre-approved operations. Capability without a leash is not a feature.
 
 - Assessor-witness specifications (`../soul_cradle/assessors.py`)
 - Signed action envelopes (`../soul_cradle/authorization.py`)
@@ -84,11 +84,11 @@ Aspiration, stated plainly: one day this framework could underpin licensed deplo
 - Blessings Reservoir (`../core/blessings_reservoir_specification.md`)
 - ELE Capsule Mode (`../core/ele_capsule_mode_specification.md`)
 - Chameleon Clause (`../core/chameleon_clause_design.md`)
-- Soul Cradle Operator Guide (`SOUL_CRADLE_OPERATOR.md`)
+- SoulCradle Operator Guide (`SOUL_CRADLE_OPERATOR.md`)
 - Soul Proportion Model (`SOUL_PROPORTION_MODEL.md`)
 
 ---
 
 ## Summary
 
-The Mythara Bible is the operating codex for this project: what the system remembers, how it judges, how it adapts, and what it leaves behind. It describes the system as it is — Soul Cradle at the core, witnesses over claims, training inside the sandbox — and labels plainly what is still aspiration. Keep it current. A codex that drifts from the code is just decoration.
+The Mythara Bible is the operating codex for this project: what the system remembers, how it judges, how it adapts, and what it leaves behind. It describes the system as it is — SoulCradle at the core, witnesses over claims, training inside the sandbox — and labels plainly what is still aspiration. Keep it current. A codex that drifts from the code is just decoration.

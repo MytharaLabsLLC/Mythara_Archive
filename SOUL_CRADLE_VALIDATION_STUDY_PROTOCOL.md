@@ -1,6 +1,6 @@
-# Soul Cradle Decay-Adjusted Terminal Risk Validation Study Protocol
+# SoulCradle Decay-Adjusted Terminal Risk Validation Study Protocol
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 **Study Title**: Empirical Validation of Decay-Adjusted Terminal Risk Formula for Burnout Prediction
 
@@ -40,7 +40,7 @@ Validate the decay-adjusted Terminal Risk formula and calibrate the decay rate p
 - Healthcare workers (nurses, physicians, social workers, chaplains)
 - Currently employed in participating institutions
 - ≥ 18 years of age
-- Willing to use Soul Cradle app for paradox documentation
+- Willing to use SoulCradle app for paradox documentation
 - Willing to complete MBI assessments at 5 time points
 
 ### Exclusion Criteria
@@ -53,7 +53,7 @@ Validate the decay-adjusted Terminal Risk formula and calibrate the decay rate p
 
 ## III. DATA COLLECTION
 
-### A. Soul Cradle Paradox Data
+### A. SoulCradle Paradox Data
 **Frequency**: Continuous (real-time paradox logging via app)
 
 **Variables Collected**:
@@ -270,7 +270,7 @@ Participants will be informed of:
 2. Time commitment (5 MBI surveys over 12 months + app usage)
 3. Data collection (paradox logs, MBI scores, turnover data)
 4. Risks (minimal - discomfort from burnout questions)
-5. Benefits (free access to Soul Cradle app, burnout insights)
+5. Benefits (free access to SoulCradle app, burnout insights)
 6. Confidentiality (data de-identified for analysis)
 7. Voluntary participation (can withdraw anytime without penalty)
 8. Compensation (optional: gift cards for survey completion)
@@ -279,7 +279,7 @@ Participants will be informed of:
 - HIPAA compliance (healthcare data protection)
 - Encrypted data transmission (TLS in transit, encryption at rest)
 - De-identification before analysis (remove names, employee IDs)
-- Secure cloud storage (AWS HIPAA-compliant environment)
+- Secure cloud storage (AWS environment configured to HIPAA Security Rule safeguards — design target; no compliance claimed)
 - Access controls (PI and approved research staff only)
 - Data retention: 7 years post-publication (NIH requirements)
 
@@ -333,7 +333,7 @@ Participants will be informed of:
 
 1. **Comparative Analysis**: Decay-adjusted vs original model performance
 2. **Subgroup Analysis**: Decay rates by professional role, age, experience
-3. **Implementation Guide**: How to deploy Soul Cradle in healthcare systems
+3. **Implementation Guide**: How to deploy SoulCradle in healthcare systems
 4. **Clinical Guidelines**: When to intervene based on Terminal Risk + trajectory
 
 ### C. Projected Impact (if the study's hypotheses hold)
@@ -341,7 +341,7 @@ Participants will be informed of:
 1. **Scientific**: Would provide one of the first empirical tests of a mathematical burnout prediction model with temporal dynamics
 2. **Clinical**: Could inform an early warning system for healthcare burnout prevention
 3. **Economic**: Could reduce turnover costs (published estimates: $40K-$64K per nurse resignation)
-4. **Regulatory**: Could provide evidence toward HIPAA-compliant burnout monitoring designs
+4. **Regulatory**: Could provide evidence toward burnout-monitoring designs mapped to HIPAA Security Rule safeguards
 
 ---
 
@@ -355,7 +355,7 @@ Participants will be informed of:
 | | Research coordinator (50% FTE, 2.5 years) | $90,000 |
 | | Biostatistician (20% FTE, 1 year) | $30,000 |
 | **Participant Compensation** | Gift cards ($50 × 150 × 5 surveys) | $37,500 |
-| **Software & Infrastructure** | Soul Cradle app hosting (AWS) | $15,000 |
+| **Software & Infrastructure** | SoulCradle app hosting (AWS) | $15,000 |
 | | MBI license fees | $10,000 |
 | | Data management platform | $12,000 |
 | **IRB & Compliance** | IRB fees (3 sites × $5K) | $15,000 |
@@ -384,7 +384,7 @@ Participants will be informed of:
 | **Low app engagement** | Medium | High | User-friendly design; push notifications; incentive structure |
 | **IRB delays** | Medium | Low | Submit early; responsive to IRB feedback; pilot exemption |
 | **MBI licensing issues** | Low | Medium | Secure license early; budget for fees; backup: CBI (Copenhagen) |
-| **Data security breach** | Low | Critical | HIPAA-compliant infrastructure; encryption; access controls |
+| **Data security breach** | Low | Critical | Infrastructure configured to HIPAA Security Rule safeguards (design target); encryption; access controls |
 | **Null findings (r < 0.40)** | Low | High | Refine formula; adjust decay model; report negative results |
 
 ---

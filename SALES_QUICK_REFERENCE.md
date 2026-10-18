@@ -1,6 +1,6 @@
 # 🎯 Quick Reference: Manipulation-Pattern Flagging Sales
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
@@ -75,7 +75,7 @@
 
 **Only system that combines:**
 - Quantified manipulation scoring (0-1)
-- Soul Cradle integration (genuine Will vs. coercion)
+- SoulCradle integration (genuine Will vs. coercion)
 - 10 pattern types (guilt, shame, fear, gaslighting, etc.)
 - Real-time API (<100ms response)
 - Integrity hashing (SHA-256 audit trail)
@@ -107,7 +107,7 @@
 ✅ "EU AI Act Article 5 readiness assessment" (never imply certification)  
 ✅ "Protect your brand from manipulation lawsuits"  
 ✅ "Natural expansion from Developer to Enterprise"  
-✅ "Soul Cradle philosophical grounding" (moat)
+✅ "SoulCradle philosophical grounding" (moat)
 
 ❌ "AI safety tool" (too generic)  
 ❌ "Content moderation" (wrong category)  

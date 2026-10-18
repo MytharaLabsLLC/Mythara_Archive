@@ -4,10 +4,10 @@ This glossary defines the terms used across Mythara Engine's documentation, code
 
 | **Term** | **Definition** |
 |---------|----------------|
-| **Soul Cradle** | The core governance module. Integrity is quantified as **Integrity = Alignment × Tolerance**: the degree of adherence to stated rules (Alignment) multiplied by the capacity to hold paradox without collapse (Tolerance). Integrity is bounded on [0, 1]. |
+| **SoulCradle** | The core governance module. Integrity is quantified as **Integrity = Alignment × Tolerance**: the degree of adherence to stated rules (Alignment) multiplied by the capacity to hold paradox without collapse (Tolerance). Integrity is bounded on [0, 1]. |
 | **Assessor-Witness** | One of the eight soul assessors (demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone), rebuilt as evidence-fed witnesses. Each applies a versioned rubric to observable evidence, abstains when its domain is not engaged, and fails closed when evidence is missing. A critical finding blocks; dissent is surfaced, not averaged. |
 | **Emotional Chain** | A tamper-evident, hash-chained ledger of emotional records, each attested by the engaged assessor-witnesses with sealed judgments chained alongside. The chain proves entries are unaltered, not that their contents are true. |
-| **Defanged Aries** | The execution agent's safe mode: actions are permitted only through signed envelopes to a registry of benign handlers. Outside a signed exercise context, dangerous actions are refused. |
+| **Defanged ARES** | The execution agent's safe mode: actions are permitted only through signed envelopes to a registry of benign handlers. Outside a signed exercise context, dangerous actions are refused. |
 | **SERE** | A training simulation in which a trainee or blue team practices surviving, evading, resisting, and escaping adversarial pressure inside a sandboxed virtual environment. SERE is a training tool, not a weapon: it never strikes back, never performs hack-back, and is not a military-ready capability. |
 | **Artifact** | A discrete, versioned output of the system (e.g., JSON file, log, signed document) used for reproducibility or audit. |
 | **Canonicalization** | The process of transforming data into a standardized format (UTF-8, sorted keys, minified) to ensure deterministic reproducibility. |
@@ -38,4 +38,4 @@ This glossary defines the terms used across Mythara Engine's documentation, code
 
 For the symbolic and scriptural architecture, see `📖 Mythara Bible Books I–V.md`.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

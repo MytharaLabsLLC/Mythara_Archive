@@ -40,7 +40,7 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
 CMD ["python", "run_validation_suite.py"]
 
 # Metadata
-LABEL maintainer="Herbert Velez Jr. <Mythara.Engine@yahoo.com>"
+LABEL maintainer="Herbert Velez Jr. <MytharaLabsLLC@yahoo.com>"
 LABEL version="1.0.0"
 LABEL description="Mythara Engine - Symbolic clause orchestration system"
 LABEL org.mythara.manifest-ref="ME-archive-0001"

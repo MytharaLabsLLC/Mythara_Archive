@@ -1,8 +1,8 @@
 # Mythara Product Suite Directory
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
-> **Document status (2026-09-27):** Product-catalog draft from 2025. The code modules referenced exist in this repository; the businesses described around them do not. No product below has paying customers, pilots, or launches. "Target Market" entries are aspirational segments, not reached markets. Compliance mentions (HIPAA, GDPR, FERPA, SOC 2, ISO 27001) are design goals — no certifications are held. No patents filed. Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831); "Mythara Industries" is not a legal entity. Capabilities as they actually are today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation.
+> **Document status (2026-09-27):** Product-catalog draft from 2025. The code modules referenced exist in this repository; the businesses described around them do not. No product below has paying customers, pilots, or launches. "Target Market" entries are aspirational segments, not reached markets. Compliance mentions (HIPAA, GDPR, FERPA, SOC 2, ISO 27001) are design goals — no certifications are held. No patents filed. Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831); "Mythara Industries" is not a legal entity. Capabilities as they actually are today: SoulCradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged ARES (signed envelopes, benign handlers only), SERE as a training simulation.
 
 ---
 
@@ -34,7 +34,7 @@ All commercial products powered by **Mythara Engine SDK** - same AI core, differ
 
 **Target Market**: Workers facing illegal workplace situations  
 **Problem Solved**: Legal advice is expensive, workers need immediate help  
-**Mythara Integration**: Soul Cradle detects legal coercion, Blessings Reservoir tracks case urgency
+**Mythara Integration**: SoulCradle detects legal coercion, Blessings Reservoir tracks case urgency
 
 **Key Features**:
 - ✅ Real-time analysis of workplace situations (harassment, retaliation, discrimination)
@@ -56,7 +56,7 @@ All commercial products powered by **Mythara Engine SDK** - same AI core, differ
 
 **Target Market**: Sales teams, B2B/B2C companies  
 **Problem Solved**: Sales training is expensive, reps need instant feedback  
-**Mythara Integration**: Soul Cradle analyzes pitch confidence, Blessings Reservoir gamifies learning
+**Mythara Integration**: SoulCradle analyzes pitch confidence, Blessings Reservoir gamifies learning
 
 **Key Features**:
 - ✅ Pitch analysis (weak language detection: "I think", "maybe", "probably")
@@ -89,7 +89,7 @@ engine.clauses.register_clause(
 
 **Target Market**: Call centers, customer support teams  
 **Problem Solved**: No real-time caller sentiment detection, agents need escalation triggers  
-**Mythara Integration**: Soul Cradle analyzes caller distress, Messenger Protocol logs call quality
+**Mythara Integration**: SoulCradle analyzes caller distress, Messenger Protocol logs call quality
 
 **Key Features**:
 - ✅ Real-time sentiment analysis during calls (distress, anger, satisfaction)
@@ -121,7 +121,7 @@ if result["analysis"]["distress_score"] > 0.7:
 
 **Target Market**: Individuals seeking mental health support, therapy clinics  
 **Problem Solved**: Therapy waitlists are long, people need immediate distress detection  
-**Mythara Integration**: Soul Cradle detects suicidal ideation, Blessings Reservoir encourages help-seeking
+**Mythara Integration**: SoulCradle detects suicidal ideation, Blessings Reservoir encourages help-seeking
 
 **Key Features**:
 - ✅ Distress level analysis (immediate crisis detection)
@@ -161,7 +161,7 @@ if result["paradox_severity"] > 0.7:
 
 **Target Market**: Law firms, corporate legal departments, compliance teams  
 **Problem Solved**: Legal teams overwhelmed by research, manual contract review costs $500K-2M/year  
-**Mythara Integration**: Soul Cradle analyzes legal risk severity, Blessings Reservoir tracks compliance posture
+**Mythara Integration**: SoulCradle analyzes legal risk severity, Blessings Reservoir tracks compliance posture
 
 **Key Features**:
 - ✅ 12 specialized legal bots (torts, contracts, IP, employment, privacy, etc.)
@@ -194,7 +194,7 @@ engine.clauses.register_clause(
 
 **Target Market** (aspirational segments, not reached): Enterprise security teams, large enterprises, government agencies  
 **Problem Solved**: Cybersecurity teams overwhelmed by alerts, manual pen testing is slow and expensive  
-**Mythara Integration**: Soul Cradle detects threat severity, Blessings Reservoir tracks security posture
+**Mythara Integration**: SoulCradle detects threat severity, Blessings Reservoir tracks security posture
 
 **Key Features** (2025 concepts — not built as described):
 - A.D.A.P.T. Bot — autonomous penetration testing concept (unbuilt)
@@ -227,12 +227,12 @@ engine.clauses.register_clause(
 
 **Target Market**: Professionals overwhelmed by email, executives  
 **Problem Solved**: Inbox chaos, phishing attacks, missed urgent messages  
-**Mythara Integration**: Soul Cradle detects phishing (coercion analysis), Blessings Reservoir tracks email hygiene
+**Mythara Integration**: SoulCradle detects phishing (coercion analysis), Blessings Reservoir tracks email hygiene
 
 **Key Features**:
 - ✅ Phishing detection (coercion/urgency scoring: "URGENT: Click now or lose account!")
 - ✅ Priority inbox sorting (high distress emails = VIP treatment)
-- ✅ Auto-response templates (based on Soul Cradle analysis of incoming tone)
+- ✅ Auto-response templates (based on SoulCradle analysis of incoming tone)
 - ✅ Email summarization (distill 20-email threads into key points)
 
 **File**: `mythara_email_bot.py` *(to be created)*  
@@ -248,7 +248,7 @@ engine.clauses.register_clause(
 engine.clauses.register_clause(
     clause_id="phishing_detector",
     name="Advanced Phishing Detection",
-    description="Uses Soul Cradle coercion analysis to flag phishing",
+    description="Uses SoulCradle coercion analysis to flag phishing",
     pattern_type="coercion_analysis",
     validation_rules={"coercion_threshold": 0.8}
 )
@@ -382,7 +382,7 @@ engine.clauses.invoke_clause(
 
 **Target Market**: K-12 students, college students, lifelong learners  
 **Problem Solved**: Tutoring is expensive ($40-80/hr), students need adaptive learning and instant feedback  
-**Mythara Integration**: Soul Cradle detects learning frustration, Blessings Reservoir gamifies progress, Shadow_Resolver escalates to human tutors
+**Mythara Integration**: SoulCradle detects learning frustration, Blessings Reservoir gamifies progress, Shadow_Resolver escalates to human tutors
 
 **Key Features**:
 - ✅ Adaptive difficulty (auto-adjusts based on mastery level)
@@ -391,7 +391,7 @@ engine.clauses.invoke_clause(
 - ✅ Study schedule generation (personalized based on weak subjects)
 - ✅ Progress tracking and parent reports (designed to align with FERPA)
 - ✅ Achievement badges (Blessings Reservoir gamification)
-- ✅ Frustration detection (Soul Cradle: suggests breaks or easier questions when distress > 0.7)
+- ✅ Frustration detection (SoulCradle: suggests breaks or easier questions when distress > 0.7)
 - ✅ Learning style adaptation (visual, auditory, kinesthetic, reading/writing)
 
 **File**: `Commercial/mythara_tutor.py` (650 lines)  
@@ -421,7 +421,7 @@ engine.clauses.register_clause(
 
 **Target Market**: K-12 schools, colleges, corporate training departments  
 **Problem Solved**: Manual classroom management, no real-time student progress tracking, at-risk student detection gaps  
-**Mythara Integration**: Soul Cradle detects at-risk students, Sanctification enforces FERPA compliance, Shadow_Resolver escalates behavioral issues
+**Mythara Integration**: SoulCradle detects at-risk students, Sanctification enforces FERPA compliance, Shadow_Resolver escalates behavioral issues
 
 **Key Features**:
 - ✅ Teacher dashboard (real-time class analytics, pending grading, behavioral incidents)
@@ -511,7 +511,7 @@ Each product gets its own SQLite database:
 
 | Subsystem | Gopher | Sales Trainer | VOIP Bot | Wellness Guardian | A.M.I.R. | Email Bot |
 |-----------|--------|---------------|----------|-------------|---------|-----------|
-| **Soul Cradle** | Legal coercion | Pitch confidence | Caller sentiment | Distress detection | Threat severity | Phishing detection |
+| **SoulCradle** | Legal coercion | Pitch confidence | Caller sentiment | Distress detection | Threat severity | Phishing detection |
 | **Blessings Reservoir** | Case urgency | Training progress | Agent QA | Help-seeking | Security posture | Email hygiene |
 | **Messenger Protocol** | Case audit trail | Call logs | Call records | Session logs | Threat logs | Email logs |
 | **Sanctification** | Integrity verification | Tamper detection | Call quality | HIPAA compliance | Breach detection | Spam filter integrity |
@@ -566,7 +566,7 @@ Each product gets its own SQLite database:
 
 ### **Phase 3: VOIP Bot**
 - ⏳ Twilio API integration (real-time transcription)
-- ⏳ Sentiment analysis pipeline (Soul Cradle + speech-to-text)
+- ⏳ Sentiment analysis pipeline (SoulCradle + speech-to-text)
 - ⏳ Supervisor escalation logic
 
 ### **Phase 4: Wellness Guardian**

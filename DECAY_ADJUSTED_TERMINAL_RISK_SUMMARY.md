@@ -1,6 +1,6 @@
 # Decay-Adjusted Terminal Risk - Implementation Summary
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date**: November 21, 2025  
 **Status**: ✅ DEPLOYED TO GITHUB - IMPLEMENTATION COMPLETE (model is experimental — not validated; see limitations at the end)
 
@@ -94,7 +94,7 @@ def calculate_terminal_risk(
 ### ✅ 5. Test Files Created
 
 1. **`tests/test_decay_adjusted_burnout.py`** (750+ lines)
-   - Full integration with Soul Cradle framework
+   - Full integration with SoulCradle framework
    - 3 scenarios: Acute Crisis, Healing Process, Chronic Burnout
    - Tests 3 decay rates (λ = 0.01, 0.02, 0.05)
    - Compares decay-adjusted vs original formula
@@ -123,7 +123,7 @@ def calculate_terminal_risk(
   - MBI: Static questionnaire, no temporal dynamics
   - JD-R: Conceptual model, no mathematical formula
   - COR: Qualitative theory, no decay function
-  - **Soul Cradle: FIRST differential equation for burnout**
+  - **SoulCradle: a differential-equation model for burnout (novelty unverified)**
 
 ### ✅ 7. Validation Study Protocol
 
@@ -133,7 +133,7 @@ def calculate_terminal_risk(
 - N=150 healthcare workers
 - 12-month longitudinal cohort study
 - Measurements at 0, 3, 6, 9, 12 months
-- Continuous paradox logging via Soul Cradle app
+- Continuous paradox logging via SoulCradle app
 - MBI assessments at each time point
 - Employee turnover tracking
 
@@ -213,7 +213,7 @@ MBI_Exhaustion(t) = β₀ + β₁ × Σ(U_i × T_i × e^(-λ × Δt_i))
    - **Temporal dynamics**: "Cycles" described qualitatively
    - **Decay modeling**: ❌ None
 
-### Soul Cradle = Mathematical Burnout Model with Temporal Dynamics (novelty unverified)
+### SoulCradle = Mathematical Burnout Model with Temporal Dynamics (novelty unverified)
 
 **Innovation Summary (design claims — a formal prior-art search has not been completed)**:
 - Quantifies paradoxes mathematically
@@ -259,7 +259,7 @@ Prior art Nov 21 2025.
 
 ### Phase 1: Pilot Study (3 months)
 - Recruit N=20 healthcare workers
-- Beta test Soul Cradle app with decay-adjusted formula
+- Beta test SoulCradle app with decay-adjusted formula
 - Refine UX and data collection procedures
 - **Cost**: $50K
 
@@ -338,7 +338,7 @@ If the model were ever validated, it could hypothetically enable:
 
 You now have:
 
-1. ✅ **Working decay-adjusted burnout formula** (implemented in Soul Cradle framework)
+1. ✅ **Working decay-adjusted burnout formula** (implemented in SoulCradle framework)
 2. ✅ **Accumulation vs decay rate detection** (burnout trajectory classification — unvalidated)
 3. ✅ **Population-specific calibration parameters** (λ = 0.01-0.05 — hypothesized, unmeasured)
 4. ✅ **Test scripts** (exercise the decay equation's behavior; not validation of real-world predictions)
@@ -354,4 +354,4 @@ You now have:
 
 ⚛️ **Q.U.A.S.A.R. standing by. All systems nominal.**
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

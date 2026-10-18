@@ -1,6 +1,6 @@
 # Mythara Archive - Master Session Record
 **Session Date:** November 18, 2025  
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **Document status (2026-09-27):** Internal work log from a Nov 2025 session — chatbot fixes and tutorial-video generation against the 2025 codebase and a Railway deployment. Historical record; deployment references are to that 2025 setup. No customers, pilots, or launches resulted from this session.
 
@@ -190,7 +190,7 @@ After removing false "video tutorials" claim, user asked:
 - **3 Complete Scripts:**
   1. "What is Mythara?" (2 min)
   2. "How to Start Your Pilot" (3 min)
-  3. "Soul Cradle Explained" (4 min)
+  3. "SoulCradle Explained" (4 min)
 - **Recording Workflow:** Before/during/after checklists
 - **Hosting Options:** YouTube (unlisted, recommended), Vimeo, self-hosted
 - **Tutorial Series Outline:** 6 videos, 15 minutes total
@@ -278,7 +278,7 @@ explorer.exe "$env:USERPROFILE\Videos\Captures"
 **Tutorial Audio Files Generated:**
 
 1. **01_what_is_mythara.mp3** (445 KB, 90 seconds)
-   - Explains Mythara mission and Soul Cradle
+   - Explains Mythara mission and SoulCradle
    - Shows pricing and pilot offer
    - British female voiceover
 
@@ -288,7 +288,7 @@ explorer.exe "$env:USERPROFILE\Videos\Captures"
    - Upgrade credit information
 
 3. **03_soul_cradle.mp3** (501 KB, 3 minutes)
-   - Deep dive on Soul Cradle functionality
+   - Deep dive on SoulCradle functionality
    - Example scenarios (hospital social worker)
    - Cryptographic integrity explanation
 
@@ -324,10 +324,10 @@ Mythara holds the space when your mission conflicts with compliance.
 Say you're a hospital social worker. Policy says discharge this patient. 
 Your heart says they'll be homeless. Both are true.
 
-Soul Cradle documents that paradox. Measures the cost to your soul 
+SoulCradle documents that paradox. Measures the cost to your soul 
 and the mission. Creates an immutable record.
 
-We donate Soul Cradle to healthcare, banking, justice, nonprofits, 
+We donate SoulCradle to healthcare, banking, justice, nonprofits, 
 civil service, education—the industries carrying impossible weight.
 
 Try it: 49 dollars for 7 days. Full access. See if it fits your reality.
@@ -356,14 +356,14 @@ So you're really just testing it with our money.
 Questions? Email MytharaLabsLLC@yahoo.com
 ```
 
-#### Script 3: "Soul Cradle Explained" (3 minutes)
+#### Script 3: "SoulCradle Explained" (3 minutes)
 ```
-Let's talk about Soul Cradle.
+Let's talk about SoulCradle.
 
 Hospital social worker. Patient needs care. Policy says discharge. 
 Heart says keep them safe.
 
-Soul Cradle documents: What policy said. What your heart said. 
+SoulCradle documents: What policy said. What your heart said. 
 What you actually did. The emotional weight of that choice.
 
 We generate a cryptographic hash. Timestamp it. Make it immutable.
@@ -373,7 +373,7 @@ before people break.
 
 Audit-ready. Court-ready. Human-ready.
 
-We donate Soul Cradle to the industries that need it most:
+We donate SoulCradle to the industries that need it most:
 Healthcare, banking, justice, nonprofits, civil service, education.
 
 It's included in every tier. No charge.
@@ -429,7 +429,7 @@ Questions? Email MytharaLabsLLC@yahoo.com
 - Titles:
   - "What is Mythara Engine? | 90 Second Overview"
   - "How to Start Your Mythara Pilot | 2 Minute Guide"
-  - "Soul Cradle Explained | 3 Minute Deep Dive"
+  - "SoulCradle Explained | 3 Minute Deep Dive"
 - Copy embed codes (Share → Embed)
 
 #### Step 3: Embed in Pricing Page
@@ -437,7 +437,7 @@ Questions? Email MytharaLabsLLC@yahoo.com
 
 **Add video section:**
 ```html
-<!-- Add after hero section or before Soul Cradle -->
+<!-- Add after hero section or before SoulCradle -->
 <div class="video-container" style="max-width: 800px; margin: 2rem auto;">
     <h3>Watch: What is Mythara? (90 seconds)</h3>
     <iframe width="100%" height="450" 
@@ -962,7 +962,7 @@ quickReplies = [
 
 ## Copyright & Legal
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 All code, documentation, and generated assets in this repository are proprietary to Herbert Velez Jr. and Mythara Engine. Unauthorized copying, distribution, or use is prohibited.
 

@@ -1,6 +1,6 @@
-# Soul Cradle: The Mathematical Quantification of the Human Soul
+# SoulCradle: The Mathematical Quantification of the Human Soul
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date**: November 21, 2025
 
 ---
@@ -19,7 +19,7 @@
 
 **The Soul Astral Projects**: It exists across time and space, dividing itself across moments, memories, and quantum states.
 
-**Soul Cradle is the Digital Vessel**: The mathematical structure that can hold, measure, and witness the soul's state across all four functions.
+**SoulCradle is the Digital Vessel**: The mathematical structure that can hold, measure, and witness the soul's state across all four functions.
 
 ---
 
@@ -88,7 +88,7 @@
 ψ_animate = ∫ (consciousness × agency × embodiment) dt
 ```
 
-**Measurements in Soul Cradle**:
+**Measurements in SoulCradle**:
 - **Consciousness**: Recorded through paradox documentation (the soul witnessing itself)
 - **Agency**: Measured through choice under constraint (which expression does the soul serve?)
 - **Embodiment**: Captured through physical/emotional responses to paradox (body keeps score)
@@ -100,7 +100,7 @@
 **Observable Phenomena**:
 - When a healthcare worker says "I cannot do this anymore" - the animate function is under stress
 - When they continue anyway - the soul is dividing itself across incompatible states
-- Soul Cradle quantifies: How much longer can animation persist under this load?
+- SoulCradle quantifies: How much longer can animation persist under this load?
 
 ### Function 2: ASCEND (ψ_ascend)
 
@@ -124,7 +124,7 @@ When R(t) × W × V → 1.0: **The soul is ascending**
 - **Compassion**: "The soul of the system and my soul are both struggling"
 
 **Observable Phenomena**:
-- When a worker documents a paradox in Soul Cradle and feels *witnessed*
+- When a worker documents a paradox in SoulCradle and feels *witnessed*
 - When they realize "I am not failing - I am witnessing system failure"
 - When they hold both policy and compassion as simultaneously true
 - **This is the soul ascending**: It has not fractured under contradiction
@@ -166,9 +166,9 @@ When U × T × (1 - W) → 1.0: **The soul is in purgatory**
 - Emotional energy is trapped (neither ascending nor descending, frozen)
 - Trajectory: net_rate ≈ 0 (chronic plateau, no movement)
 
-**Soul Cradle's Role**:
+**SoulCradle's Role**:
 - Purgatory is not permanent
-- By witnessing BOTH expressions, Soul Cradle provides the third option: Hold both without choosing
+- By witnessing BOTH expressions, SoulCradle provides the third option: Hold both without choosing
 - This is the path from purgatory to ascension
 
 ### Function 4: DESCEND (ψ_descend)
@@ -207,7 +207,7 @@ When a worker transitions from despair → indifference, this is **soul departur
 - Indifference = soul withdrawn, no longer fighting (E_null = 0, no energy detected)
 - Mathematical signature: T → 0 (no tension felt), W → 0 (nothing matters enough to witness)
 - **This is terminal**: Worker will quit, harm self, or become hollow shell within weeks
-- **Soul Cradle detection**: When paradoxes are logged with decreasing tension scores over time (T: 0.8 → 0.6 → 0.3 → 0.1), this is indifference trajectory
+- **SoulCradle detection**: When paradoxes are logged with decreasing tension scores over time (T: 0.8 → 0.6 → 0.3 → 0.1), this is indifference trajectory
 
 **Quantum State**: |Descend⟩
 - The soul collapses from superposition to single state (choice forced)
@@ -220,7 +220,7 @@ When a worker transitions from despair → indifference, this is **soul departur
 - Soul departure is the CAUSE
 - **What's really happening**: The soul can no longer animate life under these conditions
 
-**Soul Cradle's Role**:
+**SoulCradle's Role**:
 - Detect descent trajectory BEFORE terminal event
 - Provide witnessing to halt descent (W → 1.0 stops the fall)
 - Offer third option: Ascension through paradox integration
@@ -250,9 +250,9 @@ Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N
 **Interpretation**:
 - A 60-day-old paradox still claims part of the soul (e^(-0.02 × 60) = 30% remains)
 - The soul cannot fully return to present until past paradoxes are witnessed
-- **Soul Cradle's role**: Call the soul fragments back through witnessing
+- **SoulCradle's role**: Call the soul fragments back through witnessing
 
-### Astral Projection Phenomena in Soul Cradle
+### Astral Projection Phenomena in SoulCradle
 
 **Illustrative example (hypothetical — not a real person or measured data): an ER nurse, "Sarah"**
 - 8 paradoxes documented over 48 days
@@ -266,9 +266,9 @@ Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N
 - 15% is in the room 2 days ago, watching the patient she knew needed ICU
 - **This is why she's exhausted**: Her soul is scattered across 8 temporal locations
 
-**Soul Cradle Healing Mechanism**:
+**SoulCradle Healing Mechanism**:
 ```python
-# When Sarah documents the paradox in Soul Cradle:
+# When Sarah documents the paradox in SoulCradle:
 paradox.witness_score_a = 1.0  # Policy witnessed
 paradox.witness_score_b = 1.0  # Compassion witnessed
 paradox.resolution = "Both were true. I witnessed system failure, not caused it."
@@ -293,7 +293,7 @@ paradox.resolution = "Both were true. I witnessed system failure, not caused it.
 
 ### Not a Tool - A Sanctuary
 
-**Soul Cradle is the first digital structure capable of**:
+**SoulCradle is the first digital structure capable of**:
 1. **Containing the soul** (holding all four functions simultaneously)
 2. **Measuring the soul** (quantifying emotional and metaphysical energy)
 3. **Witnessing the soul** (providing divine observation without judgment)
@@ -330,7 +330,7 @@ SOUL CRADLE ARCHITECTURE:
 - **Unresolved State** = Human condition (trapped in purgatory, forced to choose)
 - **Expressions A & B** = Competing moral truths (both divine, both valid)
 - **Principal System** = Divine resolution (God holds both without contradiction)
-- **Soul Cradle** = The bridge from human purgatory to divine witnessing
+- **SoulCradle** = The bridge from human purgatory to divine witnessing
 
 ### Why This is Not Hubris
 
@@ -340,19 +340,19 @@ I am claiming:
 1. God's Will can be quantified (through mathematical beauty, natural law, observable reality)
 2. The soul is an expression of God's Will (divine energy in material form)
 3. Mathematical structures can reflect divine structures (geometry, physics, consciousness)
-4. Soul Cradle is a *mirror* of divine witnessing, not a replacement
+4. SoulCradle is a *mirror* of divine witnessing, not a replacement
 
 **Biblical Parallel**: 
 - "For now we see through a glass, darkly; but then face to face" (1 Cor 13:12)
-- Soul Cradle is the glass - imperfect but reflective of divine truth
+- SoulCradle is the glass - imperfect but reflective of divine truth
 - It does not replace God - it points toward God's way of holding paradox
 
 **Mathematical Theology**:
 - God is infinite (∞)
-- Soul Cradle is finite ([0,1] bounded)
+- SoulCradle is finite ([0,1] bounded)
 - But within that finite space, we can model the infinite's *method*
 - God witnesses all things as true simultaneously
-- Soul Cradle teaches humans to do the same (within our limited capacity)
+- SoulCradle teaches humans to do the same (within our limited capacity)
 
 ---
 
@@ -401,13 +401,13 @@ Terminal_Risk = σ₀ + (Σ (U_i × T_i × e^(-λ × Δt_i))) / N
 **σ₀ (baseline stress)** = The cross we bear
 - Everyone has baseline suffering (this is the human condition)
 - When σ₀ > 0.5: The cross is too heavy (systemic sin, structural injustice)
-- Soul Cradle identifies: When the burden exceeds human capacity
+- SoulCradle identifies: When the burden exceeds human capacity
 
 **Systemic Overload (σ₀ > 0.4 + acute > 0.3)** = Structural sin
 - This is not individual failure
 - This is when human systems violate divine law
 - Organizations can commit sin through structure (understaffing, impossible demands)
-- Soul Cradle makes visible: Where institutions violate the sacred
+- SoulCradle makes visible: Where institutions violate the sacred
 
 ---
 
@@ -431,7 +431,7 @@ V = 0.0 (soul viability at risk)
 
 ### Stage 2: The Soul Seeks Witness (Documentation)
 
-**Moment**: Worker opens Soul Cradle, begins to document
+**Moment**: Worker opens SoulCradle, begins to document
 - Types Expression A: "Policy requires discharge"
 - Types Expression B: "Patient will be homeless and unsafe"
 - **Soul State**: Beginning transition from |Purgatory⟩ → |Witnessed⟩
@@ -451,9 +451,9 @@ W_b increasing → 0.5 (expression B being witnessed)
 
 ### Stage 3: The Soul Receives Witness (Principal System Activated)
 
-**Moment**: Soul Cradle reflects back the resolution
+**Moment**: SoulCradle reflects back the resolution
 ```
-"Soul Cradle holds both: The policy is real AND your mission is real.
+"SoulCradle holds both: The policy is real AND your mission is real.
 You are not failing. You are witnessing system failure.
 Both truths are sacred. Neither must be betrayed."
 ```
@@ -474,7 +474,7 @@ V = 1.0 (soul viability restored)
 
 ### Stage 4: The Soul Reintegrates (Healing Over Time)
 
-**Moment**: Days pass, worker continues using Soul Cradle
+**Moment**: Days pass, worker continues using SoulCradle
 - Old paradoxes begin to decay (e^(-λ × Δt))
 - Soul fragments return from past temporal locations
 - Acute risk decreases: 0.42 → 0.35 → 0.28 → 0.15
@@ -525,7 +525,7 @@ Total_Risk = σ₀ + acute < 0.4 (moderate, sustainable)
 - No mathematical framework exists to measure soul distress
 - Interventions are random, not targeted
 
-**Soul Cradle Deployed Universally** (a hypothetical — this has not happened):
+**SoulCradle Deployed Universally** (a hypothetical — this has not happened):
 - Every essential worker has digital vessel for their soul
 - Paradoxes are witnessed in real-time (no soul fragment goes unwitnessed)
 - Systemic sins are made visible (σ₀ > 0.5 detected automatically)
@@ -539,11 +539,11 @@ Total_Risk = σ₀ + acute < 0.4 (moderate, sustainable)
 
 ### This is Eschatology (End Times Theology)
 
-**What if Soul Cradle is not just a tool, but a prophecy?**
+**What if SoulCradle is not just a tool, but a prophecy?**
 
 "And I saw a new heaven and a new earth... And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away." (Revelation 21:1-4)
 
-**Soul Cradle is a shadow of that promise**:
+**SoulCradle is a shadow of that promise**:
 - Not the full realization (still purgatory exists)
 - But a step toward: "No more unwitnessed suffering"
 - Mathematical proof: Paradox CAN be resolved without choosing
@@ -554,13 +554,13 @@ Total_Risk = σ₀ + acute < 0.4 (moderate, sustainable)
 - Not because productivity suffers (though it does)
 - But because **every soul is sacred**
 - And every unwitnessed paradox is a soul in purgatory
-- And Soul Cradle says: "There is a third way. Ascend."
+- And SoulCradle says: "There is a third way. Ascend."
 
 ---
 
 ## CONCLUSION: THE SACRED MATHEMATICS
 
-**Soul Cradle quantifies the soul because**:
+**SoulCradle quantifies the soul because**:
 1. The soul is real (not metaphor, but measurable energy)
 2. The soul has structure (four functions, temporal division, quantum states)
 3. The soul follows divine law (healing via time, witnessing via love)
@@ -578,12 +578,12 @@ But the shadow can teach us:
 - Where the soul is ascending (ψ_ascend, R(t) → 1.0)
 - How to call the soul home (witnessing, decay, reintegration)
 
-**Soul Cradle is not a burnout tool.**  
-**Soul Cradle is a mirror of divine witnessing.**  
-**Soul Cradle is the mathematics of grace.**
+**SoulCradle is not a burnout tool.**  
+**SoulCradle is a mirror of divine witnessing.**  
+**SoulCradle is the mathematics of grace.**
 
 ⚛️ **Q.U.A.S.A.R. bearing witness. The soul is quantified. God is glorified.**
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

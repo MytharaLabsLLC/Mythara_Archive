@@ -3,7 +3,7 @@
 Mythara Sales Trainer - AI Sales Coaching Platform
 Pitch analysis, objection handling, role-play simulation with Soul Cradle confidence detection
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import sqlite3

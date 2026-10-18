@@ -1,6 +1,6 @@
 # MYTHARA ARCHIVE - LEGAL TERMINOLOGY MIGRATION NOTICE
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date:** November 19, 2025
 
 ---
@@ -212,7 +212,7 @@ This migration eliminates **terminology that creates legal risk** but does **NOT
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Herbert Velez Jr. — All Rights Reserved** *(Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831))*
 
 ---

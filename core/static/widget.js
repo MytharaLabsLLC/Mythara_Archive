@@ -1,7 +1,7 @@
 /**
  * MytharaConnect Chat Widget - Enterprise Grade
  * 
- * Copyright © 2025 Herbert Velez Jr. All rights reserved.
+ * Copyright © 2026 Mythara Labs LLC. All rights reserved.
  * 
  * Best-in-class chat widget for Global Governance positioning
  * - Comprehensive error handling
@@ -257,14 +257,14 @@ class MytharaWidget {
         this.showTypingIndicator();
         setTimeout(() => {
             this.hideTypingIndicator();
-            this.addMessage(`Hey there! I'm ${agentName}. I'm here to help you learn about Mythara's Soul Cradle and Global Governance—tools that make AI safety easier. What questions can I answer for you?`, false);
+            this.addMessage(`Hey there! I'm ${agentName}. I'm here to help you learn about Mythara's SoulCradle and Global Governance—tools that make AI safety easier. What questions can I answer for you?`, false);
             
             // Add subtle note about rotating representatives and nonprofit pricing
             setTimeout(() => {
                 this.addMessage(`<em style="font-size: 0.85em; opacity: 0.7;">We have representatives around the globe, so you'll always have someone to talk to. Nonprofits doing good work? Ask about special pricing!</em>`, false);
             }, 400);
             
-            this.addQuickReplies(['What is Soul Cradle?', 'Show pricing', 'Nonprofit pricing?']);
+            this.addQuickReplies(['What is SoulCradle?', 'Show pricing', 'Nonprofit pricing?']);
         }, 800);
     }
     

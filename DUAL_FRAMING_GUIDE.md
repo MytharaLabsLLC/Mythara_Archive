@@ -1,6 +1,6 @@
 # Mythara Engine — Dual-Framing Translation Guide
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -25,7 +25,7 @@ This guide explains Mythara's **dual-framing translation layer** — a system th
 | **Expression Metric**               | Engagement Index                     | Captures how reps present, connect, and resonate with clients beyond raw numbers. |
 | **Soul Encoding**                   | Impact Vault                         | Stores symbolic depth of actions; externally framed as measurable long-term impact. |
 | **Legacy Reservoir**                | Continuity Index                     | Reflects sustainability and cultural resonance; externally framed as continuity of performance. |
-| **Soul Cradle Operator**            | Resonance Operator                   | Measures obedience under paradox; externally framed as decision-making integrity under pressure. |
+| **SoulCradle Operator**            | Resonance Operator                   | Measures obedience under paradox; externally framed as decision-making integrity under pressure. |
 | **Trial Entity**                    | Challenge Vector                     | Models testing/obscuration of choices; externally framed as decision friction factors. |
 | **Grace/Light**                     | Optimal Performance                  | Biblical continuum anchor representing peak alignment and positive outcomes. |
 | **Wilderness/Darkness**             | Challenge State                      | Biblical continuum anchor representing trial, testing, or suboptimal conditions. |

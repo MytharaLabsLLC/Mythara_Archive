@@ -2,13 +2,13 @@
 
 > **Status: design concept.** No emotional-extortion module exists in the repo, no tests exist, and no endpoints are live. Treat all endpoints, scores, payloads, and pricing below as illustrative design — not as a working system.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
 ## Overview
 
-The Emotional Extortion Detection system quantifies manipulation patterns in text to distinguish genuine consent from coerced compliance. This extends the Soul Cradle Operator's capability to identify when "Will" is authentic vs. manufactured through emotional pressure.
+The Emotional Extortion Detection system quantifies manipulation patterns in text to distinguish genuine consent from coerced compliance. This extends the SoulCradle Operator's capability to identify when "Will" is authentic vs. manufactured through emotional pressure.
 
 ## Endpoints
 
@@ -98,7 +98,7 @@ Analyze text for emotional manipulation patterns.
 
 ### POST `/v1/emotional-extortion/soul-cradle-integration`
 
-Integrate extortion detection with Soul Cradle Operator to distinguish genuine Will from manufactured compliance.
+Integrate extortion detection with SoulCradle Operator to distinguish genuine Will from manufactured compliance.
 
 **Use Cases:**
 - Leadership decision validation (is executive directive genuine or coercive?)
@@ -151,7 +151,7 @@ Integrate extortion detection with Soul Cradle Operator to distinguish genuine W
 }
 ```
 
-**Soul Cradle Integration Fields:**
+**SoulCradle Integration Fields:**
 
 | Field | Description |
 |-------|-------------|
@@ -222,19 +222,19 @@ Would you like to learn more?"
 
 ---
 
-## Integration with Soul Cradle
+## Integration with SoulCradle
 
-The Soul Cradle Operator measures "obedience under paradox" - how well a Soul maintains integrity when faced with conflicting commandments. However, this measurement is only meaningful if the "Will" being obeyed is genuine divine will, not manufactured compliance extracted through emotional manipulation.
+The SoulCradle Operator measures "obedience under paradox" - how well a Soul maintains integrity when faced with conflicting commandments. However, this measurement is only meaningful if the "Will" being obeyed is genuine divine will, not manufactured compliance extracted through emotional manipulation.
 
 **Without Extortion Detection:**
 ```
-Soul Cradle: "User obeys 'work weekend' commandment with 0.85 compliance."
+SoulCradle: "User obeys 'work weekend' commandment with 0.85 compliance."
 Reality: User is under emotional duress (guilt + shame), not exercising genuine Will.
 ```
 
 **With Extortion Detection:**
 ```
-Soul Cradle: "User appears to obey, but extortion_score = 0.82."
+SoulCradle: "User appears to obey, but extortion_score = 0.82."
 Adjusted: "will_authenticity = 0.18 (coerced, not genuine)."
 Action: "Do not credit this as genuine obedience. Healer detects emotional harm."
 ```

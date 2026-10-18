@@ -1,6 +1,6 @@
 """
 Mythara Engine SDK - Core Integration Layer
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 WHITE-LABEL INTEGRATION ARCHITECTURE:
 This SDK allows any commercial product to integrate Mythara Engine while maintaining

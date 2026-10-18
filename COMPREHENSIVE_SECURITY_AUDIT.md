@@ -1,5 +1,5 @@
 # Mythara Archive - Comprehensive Security Audit
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 **Date: November 19, 2025**
 **Audit Type: Line-by-Line Ultra-Hardened Security Review**
 

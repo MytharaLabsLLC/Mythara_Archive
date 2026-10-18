@@ -1,9 +1,9 @@
 # 🌌 MYTHARA PRODUCT PORTFOLIO
 ## **Witnessed AI Decision Records — Integrity-Scored and Tamper-Evident**
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
-> **Document status (2026-09-27):** Historical 2025 product-catalog draft. The code modules listed exist in this repository; the businesses described around them do not. No product below has paying customers, launched, or run a beta or pilot. All pricing, TAM figures, "Business Impact" metrics, and revenue projections are 2025 illustrative scenarios — none measured or achieved. "100% COMPLETE" refers to draft code existing, not to a finished, deployed, or certified product. No SOC 2/ISO/HIPAA/FERPA/FedRAMP certifications exist; no patents filed. Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831); "Mythara Industries" is not a legal entity. Capabilities as they actually are today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation — never a weapon, never hack-back, never military-ready.
+> **Document status (2026-09-27):** Historical 2025 product-catalog draft. The code modules listed exist in this repository; the businesses described around them do not. No product below has paying customers, launched, or run a beta or pilot. All pricing, TAM figures, "Business Impact" metrics, and revenue projections are 2025 illustrative scenarios — none measured or achieved. "100% COMPLETE" refers to draft code existing, not to a finished, deployed, or certified product. No SOC 2/ISO/HIPAA/FERPA/FedRAMP certifications exist; no patents filed. Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831); "Mythara Industries" is not a legal entity. Capabilities as they actually are today: SoulCradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged ARES (signed envelopes, benign handlers only), SERE as a training simulation — never a weapon, never hack-back, never military-ready.
 
 ---
 
@@ -75,7 +75,7 @@
 #### **🎯 Competitive Moat**
 ✅ **Only system unifying 9 compliance frameworks**  
 ✅ Cryptographic integrity (tamper-proof audit trails)  
-✅ Soul Cradle detects policy manipulation attempts  
+✅ SoulCradle detects policy manipulation attempts  
 
 **TAM**: $8.2B (Enterprise compliance market)
 
@@ -157,7 +157,7 @@
 | **Ethical Selling** | Aspirational goal — "100% elimination" is not a measured claim |
 
 #### **🎯 Competitive Moat**
-✅ **Soul Cradle detects manipulative sales tactics** (unique in market)  
+✅ **SoulCradle detects manipulative sales tactics** (unique in market)  
 ✅ Prevents customer resentment that drives churn  
 ✅ Real-time coaching during calls (not post-mortem)  
 
@@ -193,7 +193,7 @@
 #### **🎯 Competitive Moat**
 ✅ **HR records attested by eight evidence-fed witnesses** — self-reported burnout signals hash-chained unaltered; emotions are never inferred or detected.  
 ✅ Real-time bias detection (not post-interview analysis)  
-✅ Soul Cradle monitors emotional wellness continuously  
+✅ SoulCradle monitors emotional wellness continuously  
 
 **TAM**: $4.1B (HR Tech market)
 
@@ -259,7 +259,7 @@
 | **Agent Performance** | Aspirational target — no measured scores |
 
 #### **🎯 Competitive Moat**
-✅ **Soul Cradle detects customer distress and auto-escalates** (prevents PR disasters)  
+✅ **SoulCradle detects customer distress and auto-escalates** (prevents PR disasters)  
 ✅ Multi-channel unified (competitors are single-channel)  
 ✅ Real-time coaching (not post-call analysis)  
 
@@ -293,7 +293,7 @@
 | **Parental Engagement** | Aspirational target — no measured data |
 
 #### **🎯 Competitive Moat**
-✅ **Soul Cradle monitors emotional wellness** (detects bullying, depression, suicidal ideation)  
+✅ **SoulCradle monitors emotional wellness** (detects bullying, depression, suicidal ideation)  
 ✅ Only EdTech with crisis detection (988 integration)  
 ✅ Designed to align with FERPA (not an afterthought — not currently certified)  
 
@@ -350,7 +350,7 @@
 - **Leadership Skill Development**: Critical thinking, creativity, collaboration, innovation
 - **Age-Appropriate Curriculum**: Elementary → Middle School → High School → College → Adult
 - **Innovation Project Tracking**: Students build real projects (science fair → startup MVP)
-- **Engagement Monitoring**: Soul Cradle detects boredom/frustration, adapts content
+- **Engagement Monitoring**: SoulCradle detects boredom/frustration, adapts content
 
 #### **💰 Educational Impact**
 | Metric | Value |
@@ -393,7 +393,7 @@
 | **Team Performance** | 19% increase in team quota attainment |
 
 #### **🎯 Competitive Moat**
-✅ **Soul Cradle detects manipulation in responses** (prevents customer resentment)  
+✅ **SoulCradle detects manipulation in responses** (prevents customer resentment)  
 ✅ Real-time coaching (not post-pitch analysis)  
 ✅ Gamification drives engagement (78% daily usage)  
 
@@ -462,7 +462,7 @@
 | **Daily Engagement** | Target: 76% daily check-in rate vs. 12% industry average (projected) |
 
 #### **🎯 Competitive Moat**
-✅ **Only mental health app with real-time Soul Cradle distress monitoring**  
+✅ **Only mental health app with real-time SoulCradle distress monitoring**  
 ✅ 988 integration (immediate crisis escalation)  
 ✅ Designed to align with HIPAA (encrypted PHI — not currently certified)  
 
@@ -495,7 +495,7 @@
 | **Manipulation Blocked** | 67% of marketing emails flagged for emotional extortion |
 
 #### **🎯 Competitive Moat**
-✅ **Soul Cradle detects emotional manipulation in marketing emails** (unique)  
+✅ **SoulCradle detects emotional manipulation in marketing emails** (unique)  
 ✅ Multi-provider support (Gmail, Outlook, IMAP/SMTP)  
 ✅ Privacy-first (100% local processing)  
 
@@ -513,7 +513,7 @@
 📁 `core/source_proprietary/main.py` • **3,262 lines**
 
 #### **What It Does**
-- **52+ API Endpoints**: Clause orchestration, Soul Cradle, compliance validation
+- **52+ API Endpoints**: Clause orchestration, SoulCradle, compliance validation
 - **Bearer Token Authentication**: Secure API access with rate limiting
 - **Self-Regulation Middleware**: Automatic suspension for abuse
 - **PostgreSQL Integration**: Audit logging + pilot management
@@ -545,7 +545,7 @@
 │                 WHAT MAKES US UNBEATABLE                  │
 ├───────────────────────────────────────────────────────────┤
 │                                                           │
-│  1️⃣  WITNESS-ATTESTED EMOTIONAL RECORDS (Soul Cradle)                          │
+│  1️⃣  WITNESS-ATTESTED EMOTIONAL RECORDS (SoulCradle)                          │
 │      • Only portfolio with witness-attested distress records            │
 │      • Flags manipulation, coercion, and extortion patterns         │
 │        extortion in real-time                            │
@@ -725,7 +725,7 @@ Consumer Products: $1.7M (26%)
 
 ### **"Witnessed AI Decision Records — Integrity-Scored and Tamper-Evident"**
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 </div>
 

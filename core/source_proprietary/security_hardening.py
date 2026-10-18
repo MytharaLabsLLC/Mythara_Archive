@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Mythara Engine - Advanced Security Hardening Layer
 ===================================================

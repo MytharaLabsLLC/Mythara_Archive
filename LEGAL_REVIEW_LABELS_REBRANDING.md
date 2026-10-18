@@ -1,6 +1,6 @@
 # Mythara Archive - Legal Review & Label Rebranding
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date:** November 19, 2025  
 **Status:** CRITICAL LEGAL REVIEW
 
@@ -74,11 +74,11 @@ NEW: WillIntegrityGuardian
 ```
 
 **Rationale:**
-- "Will Integrity" = core Mythara concept (Soul Cradle → Will)
+- "Will Integrity" = core Mythara concept (SoulCradle → Will)
 - "Guardian" = protective, symbolic role
 - "Oracle" = divine knowledge, mystical authority
 - "Authenticity/Fidelity" = technical measurement without criminal accusation
-- Aligns with "Messenger," "Blessings Reservoir," "Soul Cradle" terminology
+- Aligns with "Messenger," "Blessings Reservoir," "SoulCradle" terminology
 
 ---
 
@@ -488,7 +488,7 @@ NEW: manifest_covenant_attestation()
     - "Genesis Covenant"
     - "Will Integrity Guardian"
     - "Blessings Reservoir"
-    - "Soul Cradle"
+    - "SoulCradle"
     - "Sanctification Key"
 14. Legal review of all contract templates
 15. Create brand style guide with approved terminology
@@ -522,7 +522,7 @@ regulatory compliance and must consult legal counsel."
 **NEW:**
 ```
 "This system assesses will authenticity fidelity by analyzing communication 
-patterns against the Soul Cradle integrity framework."
+patterns against the SoulCradle integrity framework."
 ```
 
 ---
@@ -543,8 +543,8 @@ patterns against the Soul Cradle integrity framework."
 
 ### **Terms to Register (Priority Order):**
 
-1. **MYTHARA® Engine** (primary mark)
-2. **Soul Cradle™** (core technology)
+1. **MYTHARA Engine** (primary mark — to file; no ® until registration issues)
+2. **SoulCradle™** (core technology)
 3. **Blessings Reservoir™** (unique metric)
 4. **Genesis Covenant™** (entry tier)
 5. **Will Integrity Guardian™** (key feature)
@@ -624,7 +624,7 @@ This review is provided for strategic planning purposes and does not constitute 
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Proprietary Strategic Document** *(Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831))*
 
 ---

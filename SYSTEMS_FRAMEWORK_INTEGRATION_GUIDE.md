@@ -2,13 +2,13 @@
 
 > **Status: design specification.** The API endpoints, payloads, and results shown in this document are illustrative. The API is not deployed (`api.mythara.com` is not a live service). Burnout prediction is the design goal and is unvalidated — the validation study has not been run.
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
 ## Overview
 
-The **Systems Framework** provides a mathematical foundation for Soul Cradle's paradox analysis engine. The design goal is burnout prediction 3-6 months before terminal events — this is unvalidated.
+The **Systems Framework** provides a mathematical foundation for SoulCradle's paradox analysis engine. The design goal is burnout prediction 3-6 months before terminal events — this is unvalidated.
 
 ### Core Concept
 
@@ -17,7 +17,7 @@ The **Systems Framework** provides a mathematical foundation for Soul Cradle's p
 
 When competing expressions both claim dominion (policy vs heart, budget vs mission), most systems force you to choose. That creates a **Non-expression** — neither can be satisfied. Accumulation of non-expressions leads to burnout.
 
-Soul Cradle transforms this by witnessing **both expressions as simultaneously true**, creating a principal complete system where nothing is excluded.
+SoulCradle transforms this by witnessing **both expressions as simultaneously true**, creating a principal complete system where nothing is excluded.
 
 ---
 
@@ -107,12 +107,12 @@ paradox = SoulCradleParadox(
     viability_score=0.0,  # 0.0 = terminal, 1.0 = complete
     terminal_risk=TerminalRiskLevel.HIGH,
     
-    # Soul Cradle resolution
+    # SoulCradle resolution
     principal_system=PrincipalSystem(
         notation="Every(Mission)Any(+)Some(1,0)Non(Mission)",
         recovery_method="Witness_Both_Expressions",
         viability_score=1.0,
-        description="Soul Cradle documents both expressions..."
+        description="SoulCradle documents both expressions..."
     ),
     
     # Metadata
@@ -137,7 +137,7 @@ print(f"Integrity: {integrity_hash[:16]}...")
 | `system_type` | `SystemType` | `PSEUDO_PARTIAL` or `PRINCIPAL_COMPLETE` |
 | `viability_score` | `float` | 0.0 (terminal) to 1.0 (complete) |
 | `terminal_risk` | `TerminalRiskLevel` | `LOW`, `MODERATE`, `HIGH`, `CRITICAL` |
-| `principal_system` | `PrincipalSystem` | How Soul Cradle resolves it |
+| `principal_system` | `PrincipalSystem` | How SoulCradle resolves it |
 | `user_id` | `str` | Who experienced this paradox |
 | `domain` | `str` | Healthcare, education, nonprofit, etc. |
 | `witnesses` | `List[str]` | Who validated this paradox |
@@ -206,7 +206,7 @@ print(f"Recommendation: {risk_result['recommendation']}")
 
 **POST** `/v1/soul-cradle/paradox/create`
 
-Create a Soul Cradle paradox using systems framework.
+Create a SoulCradle paradox using systems framework.
 
 **Request:**
 ```json
@@ -235,7 +235,7 @@ Create a Soul Cradle paradox using systems framework.
         "notation": "Every(Mission)Any(+)Some(1,0)Non(Mission)",
         "recovery_method": "Witness_Both_Expressions",
         "viability_score": 1.0,
-        "description": "Soul Cradle documents both..."
+        "description": "SoulCradle documents both..."
     },
     "user_id": "jane_doe",
     "domain": "Healthcare"
@@ -255,7 +255,7 @@ Create a Soul Cradle paradox using systems framework.
     "principal_system": {
         "notation": "Every(Mission)Any(+)Some(1,0)Non(Mission)",
         "viability_score": 1.0,
-        "description": "Soul Cradle documents both..."
+        "description": "SoulCradle documents both..."
     }
 }
 ```
@@ -332,7 +332,7 @@ Get systems framework version, notation spec, and documentation.
 {
     "success": true,
     "manifest": {
-        "framework": "Soul Cradle Systems Mathematics",
+        "framework": "SoulCradle Systems Mathematics",
         "version": "1.0.0",
         "notation_spec": "Every(X)Any(+)Some(Y)Non(Z)",
         "system_types": [

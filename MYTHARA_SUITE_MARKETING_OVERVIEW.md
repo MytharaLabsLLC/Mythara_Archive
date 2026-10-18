@@ -1,8 +1,8 @@
 # Mythara Product Suite - Marketing Overview
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
-> **Document status (2026-09-27):** Historical concept document from 2025. None of the products below have paying customers, launched betas, or signed pilots — market sizes, pricing, revenue projections, and go-to-market goals are 2025 working scenarios, not results. Mythara holds no SOC 2, ISO, HIPAA, FERPA, COPPA, GDPR, or FedRAMP certifications; no patents have been filed. Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831); "Mythara Industries" is not a legal entity. Capabilities are described as they actually exist today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, a hash-chained emotional chain, defanged Aries (signed action envelopes, benign handlers only), and SERE as a training simulation — never a weapon, never hack-back, never military-ready.
+> **Document status (2026-09-27):** Historical concept document from 2025. None of the products below have paying customers, launched betas, or signed pilots — market sizes, pricing, revenue projections, and go-to-market goals are 2025 working scenarios, not results. Mythara holds no SOC 2, ISO, HIPAA, FERPA, COPPA, GDPR, or FedRAMP certifications; no patents have been filed. Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831); "Mythara Industries" is not a legal entity. Capabilities are described as they actually exist today: SoulCradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, a hash-chained emotional chain, defanged ARES (signed action envelopes, benign handlers only), and SERE as a training simulation — never a weapon, never hack-back, never military-ready.
 
 ---
 
@@ -13,7 +13,7 @@
 ```
         ┌─────────────────────────────────────┐
         │      MYTHARA ENGINE SDK (Core)      │
-        │   • Soul Cradle (AI Analysis)       │
+        │   • SoulCradle (AI Analysis)       │
         │   • Blessings Reservoir (Ethics)    │
         │   • Messenger Protocol (Integrity)  │
         └─────────────────┬───────────────────┘

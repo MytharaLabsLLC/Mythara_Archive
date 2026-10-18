@@ -1,6 +1,6 @@
 # Mythara Engine — Glossary
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -92,7 +92,7 @@
 
 **Resonance Metrics** — Industry-safe term for Mythara's symbolic measurements (Blessings Reservoir, Integrity Metric, Expression Metric, etc.).
 
-**Resonance Operator** — Industry-safe term for Soul Cradle Operator (measures decision-making integrity under pressure).
+**Resonance Operator** — Industry-safe term for SoulCradle Operator (measures decision-making integrity under pressure).
 
 **Resonance Reservoir** — Industry-safe term for Blessings Reservoir (tracks cumulative positive impact).
 
@@ -104,7 +104,7 @@
 
 **SOC 2** — Service Organization Control 2. Auditing standard for service providers storing customer data in the cloud.
 
-**Soul Cradle Operator** — Measures obedience under paradox—decision-making integrity when faced with conflicting sacred obligations. Externally framed as "Resonance Operator."
+**SoulCradle Operator** — Measures obedience under paradox—decision-making integrity when faced with conflicting sacred obligations. Externally framed as "Resonance Operator."
 
 **Soul Encoding** — The process of storing symbolic depth of actions and emotional resonance. Externally framed as "Impact Vault."
 

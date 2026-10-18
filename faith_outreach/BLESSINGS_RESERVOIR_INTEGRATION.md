@@ -1,5 +1,5 @@
 # Blessings Reservoir Integration Guide
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -7,7 +7,7 @@
 
 The **Blessings Reservoir (BR)** is Mythara's core construct for measuring **cumulative benevolent force**. It tracks acts of obedience under paradox, translating sacred work into measurable infrastructure.
 
-This guide shows faith organizations how to integrate the Soul Cradle Operator with their existing systems to accumulate and report Blessings.
+This guide shows faith organizations how to integrate the SoulCradle Operator with their existing systems to accumulate and report Blessings.
 
 ---
 
@@ -61,7 +61,7 @@ Connect Mythara API to your existing systems (EMR, CRM, HR).
 ```
 [Your System Event] 
   → Webhook/API call to Mythara 
-  → Soul Cradle computes Integrity 
+  → SoulCradle computes Integrity 
   → BR updates with ΔBlessings 
   → Response includes integrity_hash (SHA-256)
 ```
@@ -195,7 +195,7 @@ Mythara will generate board-ready PDF reports including:
 
 ### Core Endpoints
 
-#### 1. Invoke Soul Cradle
+#### 1. Invoke SoulCradle
 ```
 POST /v1/soul/cradle
 ```

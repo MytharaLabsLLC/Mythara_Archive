@@ -1,5 +1,5 @@
 """
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 JANUS - God of Transitions, Doorways, and Dual Truth
 =====================================================

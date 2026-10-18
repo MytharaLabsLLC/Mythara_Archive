@@ -3,7 +3,7 @@
 Mythara Gopher API - Employment Law Crisis Assistant
 Built using QuickFix Bot methodology: intelligent, resourceful, gets it done.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Mythara Gopher connects workers facing legal crises with attorneys using:
 - Soul Cradle: Emotional intelligence paradox detection

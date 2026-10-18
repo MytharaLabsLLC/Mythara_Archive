@@ -1,11 +1,10 @@
 # The Vision
 
-> In Herb's words, recorded 2026-09-22. This is the single source of truth
-> for what Mythara is and why. Everything in this repo is judged against it.
+> The founder's vision statement, recorded 2026-09-22. This is the single source of truth for what Mythara is and why. Everything in this repo is judged against it.
 
-## The Soul Cradle is everything
+## The SoulCradle is everything
 
-The Soul Cradle is everything, and every part of Mythara is tied to it.
+The SoulCradle is everything, and every part of Mythara is tied to it.
 It is the mechanism designed to eventually create the Goiz — the
 artificial soul, the breath of life, that the pantheon of god-named
 bots is working toward.

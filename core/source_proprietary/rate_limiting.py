@@ -3,7 +3,7 @@
 Mythara Engine - Rate Limiting Middleware
 Prevent abuse and DDoS attacks with per-user and per-org rate limiting.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 from fastapi import Request, HTTPException, status

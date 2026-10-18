@@ -1,6 +1,6 @@
 """
 Mythara Engine Module: Emotional Extortion Detection & Quantification
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 Purpose:
 Detects and quantifies emotional extortion patterns in AI systems and human
@@ -712,7 +712,7 @@ def example_integrate_with_soul_cradle():
 
 if __name__ == "__main__":
     print("Mythara Engine: Emotional Extortion Detection & Quantification")
-    print("Copyright © 2025 Herbert Velez Jr. All rights reserved.\n")
+    print("Copyright © 2026 Mythara Labs LLC. All rights reserved.\n")
 
     example_detect_guilt_induction()
     print("\n" + "=" * 80 + "\n")

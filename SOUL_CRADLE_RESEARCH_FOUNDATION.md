@@ -1,15 +1,15 @@
-# Soul Cradle: Theoretical Foundation and Research Validation
+# SoulCradle: Theoretical Foundation and Research Validation
 **Connecting Mythara Mathematics to Established Burnout Research**
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
 ## Executive Summary
 
-This document establishes the theoretical foundation for Soul Cradle's paradox resolution mathematics by connecting it to peer-reviewed burnout research. Soul Cradle's **Paradox Tension Formula** P(t) = |A - B| × (1 - R(t)) operationalizes established psychological constructs from the **Maslach Burnout Inventory (MBI)**, **Job Demands-Resources (JD-R) model**, and **Conservation of Resources (COR) theory**.
+This document establishes the theoretical foundation for SoulCradle's paradox resolution mathematics by connecting it to peer-reviewed burnout research. SoulCradle's **Paradox Tension Formula** P(t) = |A - B| × (1 - R(t)) operationalizes established psychological constructs from the **Maslach Burnout Inventory (MBI)**, **Job Demands-Resources (JD-R) model**, and **Conservation of Resources (COR) theory**.
 
-**Key Finding**: Soul Cradle's mathematical framework provides a **quantitative measurement system** for paradoxes that prior research identified qualitatively but could not measure.
+**Key Finding**: SoulCradle's mathematical framework provides a **quantitative measurement system** for paradoxes that prior research identified qualitatively but could not measure.
 
 ---
 
@@ -24,7 +24,7 @@ This document establishes the theoretical foundation for Soul Cradle's paradox r
 2. **Depersonalization** - Detached, cynical attitude toward recipients of service
 3. **Reduced Personal Accomplishment** - Declining sense of competence
 
-**Soul Cradle Connection:**
+**SoulCradle Connection:**
 - **Paradox Tension P(t)** measures the emotional exhaustion from unresolved contradictions
 - **Unresolved State U = 1 - R(t)** quantifies the gap between demands and resources
 - **Terminal Risk Level** predicts progression to depersonalization and reduced accomplishment
@@ -48,8 +48,8 @@ MBI Reduced Accomplishment ≈ Terminal Risk Level = CRITICAL
 **Job Resources** (energy-restoring):
 - Autonomy, social support, feedback, role clarity
 
-**Soul Cradle Connection:**
-Soul Cradle's formulas **quantify the JD-R imbalance**:
+**SoulCradle Connection:**
+SoulCradle's formulas **quantify the JD-R imbalance**:
 
 ```python
 # Expression A = Job Demand (e.g., "Policy requires discharge")
@@ -89,8 +89,8 @@ P(t) = |expression_a.weight - expression_b.weight| × (1 - R(t))
 - Personal resources (e.g., self-efficacy, resilience)
 - Energy resources (e.g., time, money, knowledge)
 
-**Soul Cradle Connection:**
-Soul Cradle's **NonExpression** class operationalizes COR's "resource loss":
+**SoulCradle Connection:**
+SoulCradle's **NonExpression** class operationalizes COR's "resource loss":
 
 ```python
 class NonExpression(BaseModel):
@@ -104,7 +104,7 @@ class NonExpression(BaseModel):
 
 **Example - Hospital Discharge Paradox:**
 ```python
-# COR Loss Spiral in Soul Cradle Terms:
+# COR Loss Spiral in SoulCradle Terms:
 NonExpression(
     content="Patient's safety needs cannot be addressed",
     reason="Insurance won't cover longer stay; no housing resources",
@@ -116,7 +116,7 @@ NonExpression(
 
 **COR Prediction**: Resource loss spirals accelerate burnout.
 
-**Soul Cradle Prediction**: Accumulation of NonExpressions (unaddressable gaps) increases **Terminal Risk**.
+**SoulCradle Prediction**: Accumulation of NonExpressions (unaddressable gaps) increases **Terminal Risk**.
 
 **Mathematical Connection:**
 ```
@@ -146,10 +146,10 @@ COR Loss Spiral ≈ Rising Terminal Risk Score over time
 3. **Performing paradoxes** - Competing goals (e.g., profit vs. social mission)
 4. **Belonging paradoxes** - Individual vs. collective identity
 
-**Soul Cradle Connection:**
-Soul Cradle **directly measures** what Smith & Lewis described qualitatively:
+**SoulCradle Connection:**
+SoulCradle **directly measures** what Smith & Lewis described qualitatively:
 
-| Smith & Lewis Concept | Soul Cradle Implementation |
+| Smith & Lewis Concept | SoulCradle Implementation |
 |----------------------|----------------------------|
 | "Contradictory elements" | `expression_a` vs. `expression_b` |
 | "Interrelated" | Both expressions have `dominion_claim=True` |
@@ -181,12 +181,12 @@ SoulCradleParadox(
 
 **Smith & Lewis argue**: Organizations thrive by **embracing paradoxes**, not resolving them.
 
-**Soul Cradle insight**: R(t) = 1.0 doesn't mean "pick one side" - it means **witnessing both truths simultaneously**:
+**SoulCradle insight**: R(t) = 1.0 doesn't mean "pick one side" - it means **witnessing both truths simultaneously**:
 
 ```python
 PrincipalSystem(
     viability_score=1.0,  # Complete resolution
-    description="Soul Cradle holds both: Budget reality is true AND mission to serve everyone is true. I witness organizational failure, not cause it."
+    description="SoulCradle holds both: Budget reality is true AND mission to serve everyone is true. I witness organizational failure, not cause it."
 )
 ```
 
@@ -200,18 +200,18 @@ This aligns with Smith & Lewis's "dynamic equilibrium" - accepting both poles as
 
 **Role Ambiguity**: Lack of clarity about expectations, methods, or consequences.
 
-**Soul Cradle Connection:**
+**SoulCradle Connection:**
 - **Role Conflict** = High `paradox_tension P(t)` from competing demands
 - **Role Ambiguity** = High `unresolved_score U` (no clear path forward)
 
 **Rizzo et al. found**: Role conflict predicts job dissatisfaction, tension, and propensity to leave.
 
-**Soul Cradle hypothesis**: `Terminal Risk Level = CRITICAL` predicts same outcomes.
+**SoulCradle hypothesis**: `Terminal Risk Level = CRITICAL` predicts same outcomes.
 
 **Testable Prediction:**
 ```
 Correlation Test:
-- Rizzo Role Conflict Scale score vs. Soul Cradle P(t) score
+- Rizzo Role Conflict Scale score vs. SoulCradle P(t) score
 - Expected: r > 0.6 (moderate to strong correlation)
 
 Longitudinal Prediction:
@@ -226,7 +226,7 @@ Longitudinal Prediction:
 
 ### 3.1 Proposed Validation Study Design
 
-**Objective**: Demonstrate that Soul Cradle formulas correlate with validated burnout measures.
+**Objective**: Demonstrate that SoulCradle formulas correlate with validated burnout measures.
 
 **Study Design**: Cross-sectional correlation study with longitudinal follow-up.
 
@@ -235,7 +235,7 @@ Longitudinal Prediction:
 **Measures:**
 1. **Maslach Burnout Inventory (MBI)** - Gold standard burnout measure
 2. **Job Demands-Resources Questionnaire** - Demand/resource balance
-3. **Soul Cradle Paradox Assessment** - Participants identify top 3 work paradoxes, rate weight/tension
+3. **SoulCradle Paradox Assessment** - Participants identify top 3 work paradoxes, rate weight/tension
 4. **Turnover Intent Scale** - Likelihood of leaving job
 5. **Burnout-Related Sick Days** - Objective outcome measure
 
@@ -245,14 +245,14 @@ Longitudinal Prediction:
 
 **Analysis Plan:**
 
-**Hypothesis 1**: Soul Cradle P(t) correlates with MBI Emotional Exhaustion.
+**Hypothesis 1**: SoulCradle P(t) correlates with MBI Emotional Exhaustion.
 ```
 Correlation: P(t) average score vs. MBI-EE subscale
 Expected: r = 0.55-0.70 (moderate to strong positive correlation)
 Statistical test: Pearson correlation, p < 0.01
 ```
 
-**Hypothesis 2**: Soul Cradle Terminal Risk Level predicts turnover.
+**Hypothesis 2**: SoulCradle Terminal Risk Level predicts turnover.
 ```
 Logistic regression: Terminal Risk Level (LOW/MODERATE/HIGH/CRITICAL) 
                       predicts actual turnover at 6 months
@@ -260,7 +260,7 @@ Expected: CRITICAL group 3-4x higher odds of turnover than LOW group
 Statistical test: Odds ratio, 95% CI, p < 0.05
 ```
 
-**Hypothesis 3**: Soul Cradle Resolution Score R(t) correlates with perceived job resources.
+**Hypothesis 3**: SoulCradle Resolution Score R(t) correlates with perceived job resources.
 ```
 Correlation: R(t) average score vs. JD-R Resources subscale
 Expected: r = 0.40-0.60 (moderate positive correlation)
@@ -278,30 +278,30 @@ More gaps = higher burnout
 ### 3.2 Expected Results and Interpretations
 
 **Strong Correlations (r > 0.6):**
-- Validates that Soul Cradle measures same construct as MBI
+- Validates that SoulCradle measures same construct as MBI
 - Provides convergent validity
 
 **Moderate Correlations (r = 0.4-0.6):**
-- Soul Cradle captures unique variance beyond MBI
+- SoulCradle captures unique variance beyond MBI
 - Paradox-specific measurement adds value
-- Suggests Soul Cradle measures **causes** (paradoxes) while MBI measures **effects** (burnout symptoms)
+- Suggests SoulCradle measures **causes** (paradoxes) while MBI measures **effects** (burnout symptoms)
 
 **Weak Correlations (r < 0.4):**
-- May indicate Soul Cradle measures different construct
+- May indicate SoulCradle measures different construct
 - Could still be valuable as **early warning system** (paradoxes precede burnout)
 - Longitudinal data becomes critical
 
 **Predictive Validity:**
 If Terminal Risk predicts turnover at 6 months, this demonstrates:
-- Soul Cradle has **clinical utility** (identifies at-risk workers)
+- SoulCradle has **clinical utility** (identifies at-risk workers)
 - Formulas capture **actionable information** (intervene before turnover)
-- Superior to MBI for prediction (MBI measures current state, Soul Cradle measures trajectory)
+- Superior to MBI for prediction (MBI measures current state, SoulCradle measures trajectory)
 
 ---
 
 ## 4. Theoretical Contributions
 
-### 4.1 What Soul Cradle Adds to Burnout Research
+### 4.1 What SoulCradle Adds to Burnout Research
 
 **Existing Research Limitation**: 
 - MBI measures burnout **symptoms** (exhaustion, cynicism)
@@ -310,7 +310,7 @@ If Terminal Risk predicts turnover at 6 months, this demonstrates:
 
 **None provide real-time measurement of the paradoxes themselves.**
 
-**Soul Cradle Innovation**:
+**SoulCradle Innovation**:
 1. **Operationalizes paradoxes** - Converts qualitative contradictions into quantitative scores
 2. **Real-time tracking** - Monitors paradox accumulation before burnout manifests
 3. **Integrity verification** - SHA-256 timestamps create audit trail (prevents retrospective bias)
@@ -319,10 +319,10 @@ If Terminal Risk predicts turnover at 6 months, this demonstrates:
 **Research Gap Filled:**
 ```
 Prior Research: "Paradoxes cause burnout" (qualitative observation)
-Soul Cradle: P(t) = |A - B| × (1 - R(t)) (quantitative measurement)
+SoulCradle: P(t) = |A - B| × (1 - R(t)) (quantitative measurement)
 
 Prior Research: "Role conflict leads to turnover" (correlation)
-Soul Cradle: Terminal Risk = f(paradoxes over time) (prediction)
+SoulCradle: Terminal Risk = f(paradoxes over time) (prediction)
 ```
 
 ### 4.2 Novel Constructs
@@ -346,7 +346,7 @@ PrincipalSystem(
 - Higher self-efficacy (personal resource per COR)
 - Lower depersonalization (maintain compassion)
 
-**Testable**: Randomized controlled trial comparing Soul Cradle intervention vs. control.
+**Testable**: Randomized controlled trial comparing SoulCradle intervention vs. control.
 
 **2. NonExpression (System Capacity Gaps)**
 
@@ -392,14 +392,14 @@ Where:
 
 ## 5. Integration with Existing Frameworks
 
-### 5.1 Soul Cradle + MBI (Measurement Integration)
+### 5.1 SoulCradle + MBI (Measurement Integration)
 
 **MBI measures outcomes:**
 - Emotional exhaustion
 - Depersonalization
 - Reduced personal accomplishment
 
-**Soul Cradle measures inputs:**
+**SoulCradle measures inputs:**
 - Paradox tension P(t)
 - Resolution effectiveness R(t)
 - System gaps (NonExpression)
@@ -407,24 +407,24 @@ Where:
 **Integrated Model:**
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│ Work Paradoxes  │ →   │  Soul Cradle    │ →   │   MBI Burnout   │
+│ Work Paradoxes  │ →   │  SoulCradle    │ →   │   MBI Burnout   │
 │ (System-level)  │     │  P(t), R(t), U  │     │   (Individual)  │
 └─────────────────┘     └─────────────────┘     └─────────────────┘
      Causes                 Mechanisms                Symptoms
 ```
 
 **Clinical Application:**
-1. **Screen** with Soul Cradle (identify paradoxes early)
-2. **Monitor** with Soul Cradle (track resolution attempts)
+1. **Screen** with SoulCradle (identify paradoxes early)
+2. **Monitor** with SoulCradle (track resolution attempts)
 3. **Diagnose** with MBI (assess burnout severity if prevention fails)
 
-### 5.2 Soul Cradle + JD-R Model (Intervention Framework)
+### 5.2 SoulCradle + JD-R Model (Intervention Framework)
 
 **JD-R recommends:**
 - Reduce job demands
 - Increase job resources
 
-**Soul Cradle operationalizes this:**
+**SoulCradle operationalizes this:**
 1. **Identify high-tension paradoxes** (P(t) > 0.5)
 2. **Classify resource gaps** (NonExpression analysis)
 3. **Target interventions** (increase resources for specific paradox)
@@ -436,7 +436,7 @@ Paradox: "Policy requires discharge AND patient needs retention"
 P(t) = 0.85 (high tension)
 
 JD-R Intervention: "Increase resources"
-Soul Cradle Operationalization:
+SoulCradle Operationalization:
 - Add social work consult (new resource)
 - Create discharge safety protocol (reduce ambiguity)
 - Measure R(t) change over 30 days
@@ -445,11 +445,11 @@ If R(t): 0.0 → 0.6, intervention effective
 If R(t): 0.0 → 0.1, try different resource
 ```
 
-### 5.3 Soul Cradle + COR Theory (Loss Spiral Detection)
+### 5.3 SoulCradle + COR Theory (Loss Spiral Detection)
 
 **COR predicts**: Resource loss spirals accelerate burnout.
 
-**Soul Cradle tracks this:**
+**SoulCradle tracks this:**
 ```python
 # Detect loss spiral
 def detect_loss_spiral(paradoxes: List[SoulCradleParadox]) -> bool:
@@ -480,7 +480,7 @@ def detect_loss_spiral(paradoxes: List[SoulCradleParadox]) -> bool:
 - [ ] IRB approval
 - [ ] Partner with healthcare organization
 - [ ] N = 150 participants
-- [ ] Collect MBI, JD-R, Soul Cradle data
+- [ ] Collect MBI, JD-R, SoulCradle data
 - [ ] Establish correlation benchmarks
 
 **Deliverable**: Peer-reviewed paper demonstrating convergent validity.
@@ -494,7 +494,7 @@ def detect_loss_spiral(paradoxes: List[SoulCradleParadox]) -> bool:
 
 ### Phase 3: Intervention Trial (18-24 months)
 - [ ] Randomized controlled trial
-- [ ] Experimental: Soul Cradle-guided interventions
+- [ ] Experimental: SoulCradle-guided interventions
 - [ ] Control: Standard burnout prevention
 - [ ] Measure MBI, turnover, job satisfaction
 
@@ -506,7 +506,7 @@ def detect_loss_spiral(paradoxes: List[SoulCradleParadox]) -> bool:
 - [ ] Create Terminal Risk cutoff scores
 - [ ] Develop clinical interpretation guidelines
 
-**Deliverable**: Soul Cradle Manual with normative database.
+**Deliverable**: SoulCradle Manual with normative database.
 
 ---
 
@@ -531,9 +531,9 @@ def detect_loss_spiral(paradoxes: List[SoulCradleParadox]) -> bool:
 
 ## 8. Conclusion
 
-**Soul Cradle bridges the gap between burnout theory and measurement.**
+**SoulCradle bridges the gap between burnout theory and measurement.**
 
-| Established Research | Soul Cradle Contribution |
+| Established Research | SoulCradle Contribution |
 |---------------------|-------------------------|
 | MBI measures symptoms | Measures underlying paradoxes (causes) |
 | JD-R explains mechanism | Quantifies demand-resource imbalance |
@@ -541,11 +541,11 @@ def detect_loss_spiral(paradoxes: List[SoulCradleParadox]) -> bool:
 | Smith & Lewis describe paradoxes qualitatively | Measures paradoxes quantitatively (P(t), R(t)) |
 | Rizzo identifies role conflict | Tracks conflict resolution over time |
 
-**Key Innovation**: Soul Cradle provides a **measurement system** for constructs that prior research identified but could not quantify in real-time.
+**Key Innovation**: SoulCradle provides a **measurement system** for constructs that prior research identified but could not quantify in real-time.
 
-**Next Step**: Validation study demonstrating correlation between Soul Cradle metrics and established burnout measures (MBI, JD-R, turnover).
+**Next Step**: Validation study demonstrating correlation between SoulCradle metrics and established burnout measures (MBI, JD-R, turnover).
 
-**Hypothesis**: P(t) will show r = 0.55-0.70 correlation with MBI Emotional Exhaustion, establishing Soul Cradle as a valid burnout **early warning system**.
+**Hypothesis**: P(t) will show r = 0.55-0.70 correlation with MBI Emotional Exhaustion, establishing SoulCradle as a valid burnout **early warning system**.
 
 ---
 

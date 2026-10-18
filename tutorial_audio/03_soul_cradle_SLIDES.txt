@@ -1,13 +1,13 @@
-# Soul Cradle Explained
+# SoulCradle Explained
 Duration: 3 minutes
 
 ## Script
-Let's talk about Soul Cradle.
+Let's talk about SoulCradle.
 
 Hospital social worker. Patient needs care. Policy says discharge. 
 Heart says keep them safe.
 
-Soul Cradle documents: What policy said. What your heart said. 
+SoulCradle documents: What policy said. What your heart said. 
 What you actually did. The emotional weight of that choice.
 
 We generate a cryptographic hash. Timestamp it. Make it immutable.
@@ -17,7 +17,7 @@ before people break.
 
 Audit-ready. Court-ready. Human-ready.
 
-We donate Soul Cradle to the industries that need it most:
+We donate SoulCradle to the industries that need it most:
 Healthcare, banking, justice, nonprofits, civil service, education.
 
 It's included in every tier. No charge.
@@ -28,10 +28,10 @@ Questions? Email MytharaLabsLLC@yahoo.com
 
 ## Slide Sequence
 
-Slide 1: Title - 'Soul Cradle'
+Slide 1: Title - 'SoulCradle'
 Slide 2: 'When Mission Conflicts with Compliance'
 Slide 3: Hospital scenario example
-Slide 4: What Soul Cradle captures (4 points)
+Slide 4: What SoulCradle captures (4 points)
 Slide 5: 'Cryptographic Hash + Timestamp'
 Slide 6: Leadership dashboard view
 Slide 7: 'Audit-ready, Court-ready, Human-ready'

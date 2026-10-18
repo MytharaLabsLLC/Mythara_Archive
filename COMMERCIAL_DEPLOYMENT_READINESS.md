@@ -2,7 +2,7 @@
 
 *Internal action plan. All valuations and targets below are aspirations — there are no offers, no revenue, no customers, and no active pilots. See COMPLIANCE_STATUS.md for what may actually be claimed.*
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -146,7 +146,7 @@
 
 Hi [Name],
 
-I built something you need.
+Here is what Mythara Labs LLC built — stated as it honestly is.
 
 **Problem:** Enterprise buyers (healthcare, finance, defense, government) won't buy AI without compliance. Your competitors are building governance layers. It'll take them 2-3 years.
 
@@ -321,4 +321,4 @@ You asked for:
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

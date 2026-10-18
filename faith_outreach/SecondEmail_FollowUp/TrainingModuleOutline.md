@@ -1,5 +1,5 @@
-# Training Module Outline: Soul Cradle Operator for St. Jude
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+# Training Module Outline: SoulCradle Operator for St. Jude
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 > **DRAFT — illustrative training outline written for a prospective engagement.** St. Jude is named as a prospective example only. No training has been scheduled and no engagement with St. Jude exists.
 
@@ -7,7 +7,7 @@
 
 ## Training Overview
 
-**Purpose**: Equip St. Jude staff with understanding and fluency in the Soul Cradle Operator, Blessing Scale, and Blessings Reservoir — ensuring sacred resonance, not surveillance.
+**Purpose**: Equip St. Jude staff with understanding and fluency in the SoulCradle Operator, Blessing Scale, and Blessings Reservoir — ensuring sacred resonance, not surveillance.
 
 **Duration**: 4 hours (half-day workshop)  
 **Format**: Interactive presentation + hands-on exercises + Q&A  
@@ -18,7 +18,7 @@
 ## Session 1: Why Sacred Resonance Matters (30 minutes)
 
 ### Slide 1: Title
-**"Encoding Soul into Infrastructure: The Mythara Soul Cradle Operator"**
+**"Encoding Soul into Infrastructure: The Mythara SoulCradle Operator"**
 
 ### Slide 2: The Gap We're Addressing
 **The Problem**:
@@ -33,14 +33,14 @@
 
 **Mythara's Answer**: Infrastructure that cradles paradox without reducing it to metrics alone
 
-### Slide 3: What Is the Soul Cradle Operator?
+### Slide 3: What Is the SoulCradle Operator?
 **Definition**:
-> The Soul Cradle Operator quantifies the Soul as a vessel that simultaneously holds God's Will (W) and God's Commandments (C), even when paradox arises. It measures obedience under contradiction and accumulates benevolent force through the Blessings Reservoir.
+> The SoulCradle Operator quantifies the Soul as a vessel that simultaneously holds God's Will (W) and God's Commandments (C), even when paradox arises. It measures obedience under contradiction and accumulates benevolent force through the Blessings Reservoir.
 
 **In Plain Terms**:
 - When you deliver treatment despite low survival odds, you're cradling paradox
 - When you comfort a family after loss, you're obeying commandments under impossible conditions
-- The Soul Cradle Operator measures that integrity, translating sacred work into infrastructure
+- The SoulCradle Operator measures that integrity, translating sacred work into infrastructure
 
 ### Slide 4: Exercise — Map Your Paradoxes
 **Prompt**: "In your role, when do you hold two truths at once?"
@@ -245,7 +245,7 @@ Cumulative Benevolent Force:
 - SHA-256 hashes for audit trails
 
 ### Slide 18: Ethical Safeguards
-1. **No surveillance**: Soul Cradle measures organizational resonance, not individual compliance
+1. **No surveillance**: SoulCradle measures organizational resonance, not individual compliance
 2. **Privacy-first**: Patient data never enters the operator; only aggregate "acts of care" metrics
 3. **Opt-in participation**: St. Jude controls what maps to Blessings Reservoir
 4. **Audit transparency**: SHA-256 hashes for all integrity calculations
@@ -273,7 +273,7 @@ Cumulative Benevolent Force:
   ↓
 [Mythara API receives event]
   ↓
-[Soul Cradle computes Integrity & BR delta]
+[SoulCradle computes Integrity & BR delta]
   ↓
 [Response: integrity_hash, BR +18]
   ↓
@@ -324,7 +324,7 @@ Content-Type: application/json
 
 ### Slide 24: Training Completion & Next Steps
 **You Are Now Fluent In**:
-- Soul Cradle Operator philosophy
+- SoulCradle Operator philosophy
 - Blessing Scale (Wilderness/Darkness → Grace/Light)
 - Blessings Reservoir accumulation
 - Donor impact narratives
@@ -336,7 +336,7 @@ Content-Type: application/json
 3. Dashboard rollout (board, donor relations, clinical leadership)
 4. Full-scale deployment decision (after pilot)
 
-**Certificate**: Participants receive "Mythara Soul Cradle Operator — Sacred Resonance Training" certificate
+**Certificate**: Participants receive "Mythara SoulCradle Operator — Sacred Resonance Training" certificate
 
 ---
 
@@ -359,7 +359,7 @@ Content-Type: application/json
 
 ### Key Messages to Reinforce
 
-1. **This is not surveillance**: Soul Cradle honors sacred work, doesn't score individuals
+1. **This is not surveillance**: SoulCradle honors sacred work, doesn't score individuals
 2. **All continuum levels matter**: Wilderness is as sacred as Grace/Light — they are stages of the journey
 3. **Integrity ≠ Outcomes**: High integrity when you sustain compassion despite heartbreak
 4. **Biblical anchors ensure clarity**: No confusion with medical/legal systems
@@ -367,7 +367,7 @@ Content-Type: application/json
 ### Participant Concerns to Anticipate
 
 **"Will this replace human judgment?"**  
-→ No. Soul Cradle reflects decisions already made with compassion. It doesn't prescribe.
+→ No. SoulCradle reflects decisions already made with compassion. It doesn't prescribe.
 
 **"What if staff game the system?"**  
 → Blessing Scale measures organizational resonance, not individual performance. Gaming is pointless.
@@ -389,4 +389,4 @@ Content-Type: application/json
 
 ---
 
-*"The Soul Cradle Operator is not about making faith measurable. It's about ensuring that when faith becomes infrastructure, nothing sacred is lost."*
+*"The SoulCradle Operator is not about making faith measurable. It's about ensuring that when faith becomes infrastructure, nothing sacred is lost."*

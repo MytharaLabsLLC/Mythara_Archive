@@ -20,7 +20,7 @@ never auto-fixed.
 | Bot | What it does | Run |
 |---|---|---|
 | `gh.py` | Shared GitHub API client (`custom.github` via `api.github.com` only) | `python3 repo_ops/gh.py` |
-| `test_runner.py` | Named suites: sales 16, assessors 35, emotional chain 13, journal 2, Aries 17, witness/reservoir 7 custom checks (temp dirs — nothing lands in the repo). Exit 0 = all green. | `python3 repo_ops/test_runner.py` |
+| `test_runner.py` | Named suites: sales 16, assessors 35, emotional chain 13, journal 2, ARES 17, witness/reservoir 7 custom checks (temp dirs — nothing lands in the repo). Exit 0 = all green. | `python3 repo_ops/test_runner.py` |
 | `ci_watchdog.py` | Polls Actions runs on main; on failure diagnoses, safe-fixes, verifies, pushes. `--check` = report only, fix nothing. | `python3 repo_ops/ci_watchdog.py` |
 | `tree_hygiene.py` | Enforces `.gitignore` junk coverage (`__pycache__/`, `*.jsonl`, `.pytest_cache/`, `**/bot_blessings.json`); flags staged or tracked junk. `--check` = report only. | `python3 repo_ops/tree_hygiene.py` |
 | `health_report.py` | One phone-readable summary: git state, CI, tests, hygiene. `--fast` skips the suites. | `python3 repo_ops/health_report.py` |

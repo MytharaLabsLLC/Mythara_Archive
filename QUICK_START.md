@@ -1,6 +1,6 @@
 # Mythara Engine - Quick Start Guide
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **Document status (2026-09-27):** Internal 2025 setup draft. Claims below
 > like "production-ready" and "operational" are the author's internal

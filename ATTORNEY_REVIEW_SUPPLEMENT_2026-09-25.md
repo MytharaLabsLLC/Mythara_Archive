@@ -29,7 +29,7 @@ source of truth for claims).
   member-managed; sole member and organizer: Herbert Velez Jr.; principal
   office: Denver, CO (street address on file with the Colorado Secretary of State). The LLC did not exist
   as a formed entity before 2026-09-27; formation was completed on 2026-10-04 (CO SOS ID #20268239831).
-  No foundation (no Soul Cradle Foundation exists) or corporation exists or is
+  No foundation (no SoulCradle Foundation exists) or corporation exists or is
   implied in any public-facing claim. All licenses are granted by
   Mythara Labs LLC. An unsigned IP-assignment draft is held at
   `Legal/IP_Assignment_Agreement.md` for formation day.
@@ -51,7 +51,7 @@ source of truth for claims).
   branches force-updated). Its record in the project's pilot database
   has NOT yet been revoked — the key must be treated as live until the
   owner invalidates it there.
-- **Aries is defanged.** Action execution requires a signed action
+- **ARES is defanged.** Action execution requires a signed action
   envelope; handlers are benign only. **SERE is a training simulation
   only** — never a weapon, never hack-back, never military-ready.
 
@@ -63,7 +63,7 @@ source of truth for claims).
    urgency, fake certification language, and achieved-certification
    framing were removed across sales bots, outreach templates, and
    marketing docs. Remaining language is readiness/control-mapping only.
-2. **Soul Cradle formalized.** The governance framework now has a
+2. **SoulCradle formalized.** The governance framework now has a
    mathematical statement (Integrity = Alignment × Tolerance; soul
    proportion S(t)) and is implemented in `soul_cradle/`.
 3. **Assessor witnesses rebuilt (Sept 2026).** The 8 assessors
@@ -86,7 +86,7 @@ source of truth for claims).
    franchise. It has been removed from the entire repository (verified:
    zero occurrences) and replaced with **Goiz** — the Taíno word for the
    spirit of the living / breath of life — reflecting the owner's
-   heritage. The Soul Cradle is now described as "the mechanism designed
+   heritage. The SoulCradle is now described as "the mechanism designed
    to eventually create the Goiz."
 6. **Repo-wide legal scrub (in progress, Sept 25, 2026).** A systematic
    sweep for fabricated claims, entity/certification/insurance language,
@@ -146,7 +146,7 @@ Regulatory touchpoints counsel should note:
   grant status unconfirmed). Adjacent agent-audit-trail builders
   (TrustNotch, halo-record, zta-hub) are converging on "a chain needs a
   witness" from the compliance side.
-- **Name clearance:** "Goiz" (Taíno) and "Soul Cradle" should be
+- **Name clearance:** "Goiz" (Taíno) and "SoulCradle" should be
   searched for trademark conflicts before commercial use. The November
   package's trademark questions ("Genesis Covenant," etc.) remain open.
 

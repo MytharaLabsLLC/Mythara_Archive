@@ -3,7 +3,7 @@
 Robustness Test Suite - Verify Improvements to All Bots
 Tests connection pooling, error handling, validation, retry logic, rate limiting
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import sys

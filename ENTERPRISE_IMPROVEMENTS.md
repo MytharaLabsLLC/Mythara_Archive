@@ -1,6 +1,6 @@
 # Mythara Archive - Enterprise Readiness Improvements
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Date:** November 19, 2025
 
 ---
@@ -423,4 +423,4 @@ Track these metrics to validate improvements:
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

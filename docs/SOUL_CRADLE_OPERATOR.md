@@ -1,15 +1,15 @@
-# Soul Cradle Operator v1
+# SoulCradle Operator v1
 
 **Mythara Engine Module: Paradox Governance & Integrity**
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
 ## 📜 Module Specification
 
 ### Purpose
-The Soul Cradle quantifies **Integrity** — the capacity of the system to hold stated rules (Alignment) and paradox (Tolerance) at once, without collapse. Its canonical form is:
+The SoulCradle quantifies **Integrity** — the capacity of the system to hold stated rules (Alignment) and paradox (Tolerance) at once, without collapse. Its canonical form is:
 
 ```
 Integrity = Alignment × Tolerance
@@ -32,7 +32,7 @@ The witness layer is the attestation mechanism of the emotional chain: judgments
 Emotional records are kept in a tamper-evident, hash-chained ledger (`soul_cradle/emotional_chain.py`). The chain proves entries are unaltered — not that their contents are true. "Verified" means all engaged witnesses cleared; coercion markers are labeled heuristic; non-consensual third-party records are blocked.
 
 ### Execution safety
-The execution agent (Aries) operates defanged: actions are permitted only through signed envelopes to a registry of benign handlers. Dangerous actions outside a signed exercise context are refused. SERE — the adversarial training simulation — runs entirely inside a sandboxed virtual environment. It is a training tool, not a weapon: it never strikes back, never performs hack-back, and is not a military-ready capability.
+The execution agent (ARES) operates defanged: actions are permitted only through signed envelopes to a registry of benign handlers. Dangerous actions outside a signed exercise context are refused. SERE — the adversarial training simulation — runs entirely inside a sandboxed virtual environment. It is a training tool, not a weapon: it never strikes back, never performs hack-back, and is not a military-ready capability.
 
 ---
 
@@ -74,7 +74,7 @@ R = −50          when collapse occurs
 ## 🎯 API Endpoints
 
 ### POST `/v1/soul/cradle`
-Invoke the Soul Cradle Operator for a single choice.
+Invoke the SoulCradle Operator for a single choice.
 
 **Request:**
 ```json
@@ -292,7 +292,7 @@ python tests/test_soul_cradle.py
 
 ## 🔗 Integration with Mythara SSIP
 
-**Soul Cradle + Soul Proportion + Blessings Reservoir:**
+**SoulCradle + Soul Proportion + Blessings Reservoir:**
 
 ```
 Holistic Integrity = (BR + S(t) + Cradle(I)) / 3

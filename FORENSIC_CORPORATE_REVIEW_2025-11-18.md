@@ -1,5 +1,5 @@
 # Mythara Archive - Forensic Corporate Review
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 **Proprietary and Confidential - Attorney-Client Privileged Material**
 
 > **ERRATUM — September 27, 2026.** This report is a historical forensic
@@ -81,20 +81,20 @@
 
 ---
 
-#### 🟡 HIGH PRIORITY #1: Soul Cradle Foundation Does Not Exist
+#### 🟡 HIGH PRIORITY #1: SoulCradle Foundation Does Not Exist
 **Severity:** HIGH  
 **Risk:** False advertising, unfair business practices claims
 
 **Problem:**
-- Multiple documents reference "Soul Cradle Foundation (501c3)"
+- Multiple documents reference "SoulCradle Foundation (501c3)"
 - Free tier for qualifying nonprofits advertised
 - Foundation application process mentioned
 - Entity does not exist
 
 **Evidence:**
-- LICENSE.md: "Soul Cradle Foundation (Nonprofit) — Free tier for qualifying organizations"
-- widget.js: "Soul Cradle Foundation provides free access to qualifying nonprofits"
-- terms.html: "Soul Cradle Open Source Edition is available free...through Soul Cradle Foundation (501c3)"
+- LICENSE.md: "SoulCradle Foundation (Nonprofit) — Free tier for qualifying organizations"
+- widget.js: "SoulCradle Foundation provides free access to qualifying nonprofits"
+- terms.html: "SoulCradle Open Source Edition is available free...through SoulCradle Foundation (501c3)"
 - IRS: No 501(c)(3) determination letter (presumed)
 
 **Impact:**
@@ -113,7 +113,7 @@
 - Interim: Remove all foundation references until approved
 
 **Option B: Defer Foundation (Faster market entry)**
-- Remove all "Soul Cradle Foundation" references from public-facing materials
+- Remove all "SoulCradle Foundation" references from public-facing materials
 - Replace with: "Free tier under development" or "Contact for nonprofit pricing"
 - Revisit foundation formation after commercial traction
 - Donate % of revenue to existing 501(c)(3)s (mission alignment, tax deduction)
@@ -230,7 +230,7 @@
 - Repository likely contains open source dependencies
 - No dependency audit performed
 - Proprietary license may conflict with copyleft licenses (GPL, AGPL)
-- "Soul Cradle Open Source Edition (MIT License)" mentioned but no MIT-licensed repo exists
+- "SoulCradle Open Source Edition (MIT License)" mentioned but no MIT-licensed repo exists
 
 **Evidence:**
 - requirements.txt: Lists packages (fastapi, uvicorn, pydantic, python-dotenv)
@@ -253,7 +253,7 @@
    - Dual-license entire codebase (GPL + commercial exception) OR
    - Segregate GPL code into separate service (API boundary prevents contamination)
 
-3. **Create Soul Cradle OSS repo:**
+3. **Create SoulCradle OSS repo:**
    - If offering MIT-licensed version, must actually release it
    - Separate GitHub repo: soul-cradle-oss
    - Strip proprietary components (Global Governance, Enterprise features)
@@ -1043,7 +1043,7 @@
 
 | # | Issue | Risk Level | Fix Timeline | Est. Cost |
 |---|-------|------------|--------------|-----------|
-| 4 | Soul Cradle Foundation doesn't exist | HIGH | Remove references | $0 (defer) or $5K (form) |
+| 4 | SoulCradle Foundation doesn't exist | HIGH | Remove references | $0 (defer) or $5K (form) |
 | 5 | Stripe pricing mismatch | HIGH | 1 day | $0 |
 | 6 | Compliance claims unverified | HIGH | Update language | $0 immediate, $50K audit later |
 | 7 | Incident response plan missing | HIGH | 1 week | $0 (DIY) or $2K (template) |
@@ -1101,7 +1101,7 @@
 - ❌ LLC not actually formed (entity mismatch)
 - ❌ IP ownership not transferred
 - ❌ Insurance policies not procured
-- ❌ Soul Cradle Foundation advertised but doesn't exist
+- ❌ SoulCradle Foundation advertised but doesn't exist
 - ❌ Compliance claims unverified
 - ❌ Operational readiness incomplete
 
@@ -1122,7 +1122,7 @@
 **Phase 1: Immediate (This Week)**
 - [ ] File California LLC Articles of Organization
 - [ ] Apply for EIN
-- [ ] Remove all "Soul Cradle Foundation" references from public materials
+- [ ] Remove all "SoulCradle Foundation" references from public materials
 - [ ] Change "SOC 2 compliant" → "SOC 2 controls implemented"
 - [ ] Remove indemnification from Startup/Professional tiers
 - [ ] Update widget/pricing page with current language

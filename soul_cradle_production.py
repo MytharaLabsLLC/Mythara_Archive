@@ -1,6 +1,6 @@
 """
 Soul Cradle Paradox Detection Algorithm - PRODUCTION VERSION
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 
 This is the mathematically validated, production-ready implementation.
 """

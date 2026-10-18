@@ -6,7 +6,7 @@ supervisor escalations in SQLite. It places NO phone calls: an earlier
 version constructed a Twilio client that was never used, and that
 integration has been removed entirely. Nothing in this module dials out.
 
-Copyright © 2025 Herbert Velez Jr. All rights reserved.
+Copyright © 2026 Mythara Labs LLC. All rights reserved.
 """
 
 import sqlite3

@@ -1,6 +1,6 @@
 # 📅 12-Month Growth Roadmap - Emotional Extortion Detection
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **Status: aspirational plan (drafted November 2025).** Everything below —
 > customer counts, revenue and ARR figures, team growth, timelines, and
@@ -28,7 +28,7 @@ This roadmap transforms emotional extortion detection from a technical feature i
 
 ### Product Development
 - ✅ 10 base manipulation patterns (guilt, shame, fear, etc.)
-- ✅ Soul Cradle integration (will_authenticity)
+- ✅ SoulCradle integration (will_authenticity)
 - ✅ API endpoints with integrity hashing
 - 🔄 Documentation complete (`WILL_INTEGRITY_GUARDIAN_API.md`)
 - 🔄 Test suite validated (95%+ accuracy)
@@ -298,7 +298,7 @@ This roadmap transforms emotional extortion detection from a technical feature i
 
 ### Risk 3: Competitors Copy Feature
 **Mitigation:**
-- Soul Cradle integration = philosophical moat (hard to copy)
+- SoulCradle integration = philosophical moat (hard to copy)
 - Speed to market = 6-12 month lead
 - Patent filing on manipulation quantification method
 

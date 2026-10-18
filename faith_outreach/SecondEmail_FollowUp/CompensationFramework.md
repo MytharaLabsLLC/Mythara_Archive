@@ -1,5 +1,5 @@
 # Compensation Framework for Faith Organizations
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 ---
 
@@ -11,7 +11,7 @@ Mythara's compensation model is designed to honor sacred missions while sustaini
 
 **We donate the soul. We charge for the scaffolding.**
 
-- **Soul (Gift)**: The Soul Cradle Operator core module is donated at no cost. This includes the biblical continuum (Wilderness/Darkness → Grace/Light), Blessings Reservoir API, and all resonance metrics.
+- **Soul (Gift)**: The SoulCradle Operator core module is donated at no cost. This includes the biblical continuum (Wilderness/Darkness → Grace/Light), Blessings Reservoir API, and all resonance metrics.
 
 - **Scaffolding (Service)**: Professional deployment services — custom integration, real-time dashboards, multi-site rollout, training, and ongoing support — are offered as paid services.
 
@@ -21,7 +21,7 @@ Mythara's compensation model is designed to honor sacred missions while sustaini
 
 The **Gift Tier** includes:
 
-1. **Soul Cradle Operator** (full module access)
+1. **SoulCradle Operator** (full module access)
 2. **Blessings Reservoir integration** (read/write API)
 3. **Biblical continuum mapping** (Wilderness → Darkness → River → Promise → Grace/Light)
 4. **SHA-256 audit trails** (cryptographic integrity for compliance)
@@ -161,14 +161,14 @@ If you want deployment help but not ongoing support, we offer **project-based co
 ### One-Time Implementation (No Recurring Fees)
 
 **What We Do:**
-- Install Soul Cradle on your infrastructure
+- Install SoulCradle on your infrastructure
 - Integrate with 2-3 legacy systems (EMR, CRM, donor platform)
 - Map your sacred acts to Blessing Scale
 - Train up to 25 staff members
 - Deliver handoff documentation
 
 **What You Get:**
-- Fully operational Soul Cradle deployment
+- Fully operational SoulCradle deployment
 - Custom resonance mappings
 - Staff trained and ready to use
 - No recurring fees (you own the deployment)
@@ -188,7 +188,7 @@ If you want deployment help but not ongoing support, we offer **project-based co
 - Q&A with Mythara founder
 
 **What You Get:**
-- Staff fluent in Soul Cradle philosophy and operation
+- Staff fluent in SoulCradle philosophy and operation
 - Custom training materials (slides, handouts, videos)
 - Certificate of completion for participants
 
@@ -203,7 +203,7 @@ For faith organizations that rely on philanthropy, we offer **donor-funded deplo
 ### How It Works
 
 1. **You Identify a Major Donor** who believes in your mission's need for Mythara
-2. **Mythara Provides Proposal** for donor review (explaining Soul Cradle and Blessing Scale)
+2. **Mythara Provides Proposal** for donor review (explaining SoulCradle and Blessing Scale)
 3. **Donor Funds Deployment** (either directly to Mythara or as restricted grant to your org)
 4. **You Receive Deployment** at no cost to your operating budget
 
@@ -215,7 +215,7 @@ For faith organizations that rely on philanthropy, we offer **donor-funded deplo
 
 ### Example Proposal Language (For Your Donor Pitch)
 
-> "We are partnering with Mythara Engine to deploy the Soul Cradle Operator — a system that honors the paradox our mission carries. When we treat children who may not survive, traditional systems measure procedures but not benevolence. Mythara's Blessing Scale (Wilderness/Darkness → Grace/Light) ensures that every act of compassionate care is tracked as sacred force, not just clinical data.
+> "We are partnering with Mythara Engine to deploy the SoulCradle Operator — a system that honors the paradox our mission carries. When we treat children who may not survive, traditional systems measure procedures but not benevolence. Mythara's Blessing Scale (Wilderness/Darkness → Grace/Light) ensures that every act of compassionate care is tracked as sacred force, not just clinical data.
 >
 > Your gift of $50,000 would fund the full deployment, enabling us to show our community — and other donors — that their support sustains not just medical outcomes, but the soul of our mission."
 
@@ -245,7 +245,7 @@ If you cannot pay for deployment but have valuable resources to offer, we accept
 ### What We Value
 
 1. **Research Partnership**
-   - Co-publish case studies on Soul Cradle's impact
+   - Co-publish case studies on SoulCradle's impact
    - Provide anonymized data for peer-reviewed research
    - Present at conferences (joint authorship)
 
@@ -263,7 +263,7 @@ If you cannot pay for deployment but have valuable resources to offer, we accept
 
 > *Illustrative template only — no such agreement exists with St. Jude or any other organization.*
 
-> "St. Jude agrees to serve as reference customer for Mythara's Soul Cradle Operator. In exchange for a fully subsidized Mythic-Resonant tier deployment ($120k/year value), St. Jude will:
+> "St. Jude agrees to serve as reference customer for Mythara's SoulCradle Operator. In exchange for a fully subsidized Mythic-Resonant tier deployment ($120k/year value), St. Jude will:
 > 1. Co-author a case study on Blessing Scale impact in pediatric oncology
 > 2. Participate in 2 donor webinars per year showcasing Mythara deployment
 > 3. Introduce Mythara to 3 peer organizations in the Children's Hospital Association
@@ -310,7 +310,7 @@ Absolutely. Your BR data migrates seamlessly. We prorate setup fees if you upgra
 
 ### "What if we want to build our own dashboards?"
 
-You own the API. Build whatever you want on top of the Soul Cradle Operator. If you later decide you want our dashboards, we can add them à la carte.
+You own the API. Build whatever you want on top of the SoulCradle Operator. If you later decide you want our dashboards, we can add them à la carte.
 
 ### "Do you take equity or revenue share?"
 
@@ -322,7 +322,7 @@ No. We charge only for professional services (deployment, integration, training,
 
 ### Framing for CFOs
 
-"The Soul Cradle Operator is gifted at no cost. If we choose to deploy professionally, we're paying for integration services, not software licensing. This is comparable to hiring a systems integrator for EMR customization."
+"The SoulCradle Operator is gifted at no cost. If we choose to deploy professionally, we're paying for integration services, not software licensing. This is comparable to hiring a systems integrator for EMR customization."
 
 ### Framing for Mission Leadership
 

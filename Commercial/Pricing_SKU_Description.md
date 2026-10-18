@@ -1,11 +1,11 @@
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 # Mythara Engine — Complete Pricing with SKUs
 
 > **Pricing status (2026-09-27):** Target price schedule from November 2025 — no sales have been made at these or any other prices. As of September 2026: no revenue, no paying customers, no licenses sold. Review before quoting.
 
 **Effective:** November 2025 (review before quoting — pricing is Herb's current schedule and changes only when he changes it)
-**Contact:** Herbievelezjr@gmail.com | MytharaLabsLLC@yahoo.com
+**Contact:** MytharaLabsLLC@yahoo.com
 
 ---
 
@@ -225,7 +225,7 @@ Full VoIP bot source code with 5 voice personas (Confident, Empathetic, Urgent, 
 ## Order Process
 
 1. **Choose your product(s)** from the SKUs above
-2. **Email to confirm:** Herbievelezjr@gmail.com
+2. **Email to confirm:** MytharaLabsLLC@yahoo.com
    - Include: SKU(s), quantity, any discount codes
 3. **Receive invoice** (usually within 24 hours)
 4. **Pay via your preferred method**
@@ -236,7 +236,7 @@ Full VoIP bot source code with 5 voice personas (Confident, Empathetic, Urgent, 
 ## Questions?
 
 **Herbert Velez Jr.**  
-📧 Herbievelezjr@gmail.com  
+📧 MytharaLabsLLC@yahoo.com  
 💼 MytharaLabsLLC@yahoo.com  
 📅 Schedule a call: Request via email
 
@@ -245,4 +245,4 @@ Reply: "Show me SSIP in 15 minutes or less"
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**

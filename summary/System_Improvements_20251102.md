@@ -4,7 +4,7 @@
 
 ## 🔹 Core Mechanisms
 
-1. **Soul Cradle scoring**
+1. **SoulCradle scoring**
    - Integrity defined as Alignment × Tolerance: how well an action lines up with the principal's aims, multiplied by how much room for error and recovery it leaves
    - Soul proportion S(t): a bounded, calibrated measure of emotional vitality — stated math, stated limits
 
@@ -21,7 +21,7 @@
    - Spec: [soul_cradle/emotional_chain.py](../soul_cradle/emotional_chain.py)
 
 4. **Defanged authority**
-   - Aries runs behind signed action envelopes; its handler registry is limited to benign, pre-approved operations
+   - ARES runs behind signed action envelopes; its handler registry is limited to benign, pre-approved operations
    - Spec: [soul_cradle/authorization.py](../soul_cradle/authorization.py)
 
 5. **Benevolence reservoir**

@@ -16,17 +16,11 @@ The engine work archived here grew into a live project:
 - **Mythara News Network** — the daily AI-written news briefing: [herbievelezjr.github.io/Mythara-Blog](https://herbievelezjr.github.io/Mythara-Blog/)
 - **GitHub:** [github.com/herbievelezjr](https://github.com/herbievelezjr)
 
-The eight witnesses in `soul_cradle/assessors.py` are both the Soul Cradle's evidence-fed assessors and the show's panel: they read the news, argue about what matters, and their disagreements are preserved, not averaged away.
+The eight witnesses in `soul_cradle/assessors.py` are both the SoulCradle's evidence-fed assessors and the show's panel: they read the news, argue about what matters, and their disagreements are preserved, not averaged away.
 
 SERE is developed as a **training-simulation concept**: defensive by recording (a tamper-evident log); anything offensive exists only inside the sandboxed simulation, never striking outward.
 
-**Standalone repositories:** Soul Cradle now lives at [herbievelezjr/Soul_Cradle](https://github.com/herbievelezjr/Soul_Cradle) and SERE at [herbievelezjr/SERE](https://github.com/herbievelezjr/SERE) — cleanly documented homes for each. This archive keeps the original copies as built.
-
-**Standalone repositories:** Soul Cradle now lives at [herbievelezjr/Soul_Cradle](https://github.com/herbievelezjr/Soul_Cradle) and SERE at [herbievelezjr/SERE](https://github.com/herbievelezjr/SERE) — cleanly documented homes for each. This archive keeps the original copies as built.
-
-**Standalone repositories:** Soul Cradle now lives at [herbievelezjr/Soul_Cradle](https://github.com/herbievelezjr/Soul_Cradle) and SERE at [herbievelezjr/SERE](https://github.com/herbievelezjr/SERE) — cleanly documented homes for each. This archive keeps the original copies as built.
-
-**Standalone repositories:** Soul Cradle now lives at [herbievelezjr/Soul_Cradle](https://github.com/herbievelezjr/Soul_Cradle) and SERE at [herbievelezjr/SERE](https://github.com/herbievelezjr/SERE) — cleanly documented homes for each. This archive keeps the original copies as built.
+**Standalone repositories:** SoulCradle now lives at [herbievelezjr/Soul_Cradle](https://github.com/herbievelezjr/Soul_Cradle) and SERE at [herbievelezjr/SERE](https://github.com/herbievelezjr/SERE) — cleanly documented homes for each. This archive keeps the original copies as built.
 
 ---
 
@@ -156,12 +150,12 @@ docker build -f core/Dockerfile -t mythara:v1.0.0 .
 
 ---
 
-## Soul Cradle modules (added September 2026)
+## SoulCradle modules (added September 2026)
 
 - **Moral standing law** (`soul_cradle/standing.py`) — The system judges per case who may declare trespass, forgiveness, or repentance: the wronged declares the trespass and forgives; the trespasser repents; a witness states only what was observed; a stranger declares nothing, ever. Every declaration is HMAC-SHA256 signed, timestamped, and audited.
 - **Hephaestus Forge** (`soul_cradle/forge.py`) — Governed bonding between bots: souls combine and create witnessed compounds, an emergent product with a full paper trail. Every bond is signed; every compound is audited. The judge callable is REQUIRED — no judge, no forge — fail-closed by construction.
 - **Mythara identity** (`soul_cradle/identity.py`) — The identity every cell agrees on: Mythara is female, she/her pronouns, with a warm, friendly, American, gentle voice character.
-- **Aries authorization** (`soul_cradle/authorization.py`) — Every action Aries executes carries a signed `ActionEnvelope`: canonical JSON, HMAC-SHA256 signature, expiry timestamp, and an append-only audit trail. No envelope, no execution.
+- **ARES authorization** (`soul_cradle/authorization.py`) — Every action ARES executes carries a signed `ActionEnvelope`: canonical JSON, HMAC-SHA256 signature, expiry timestamp, and an append-only audit trail. No envelope, no execution.
 - **The 8 witnesses** (`soul_cradle/assessors.py`) — Evidence-fed assessors with versioned rubrics; they abstain when their domain isn't engaged, fail closed, and preserve dissent. The same eight sit on the Mythara Squares panel.
 - **SERE doctrine** — Sandbox-only defense, no hack-back. On illegal entrance, refuse exit: seal egress, exfiltration, lateral movement, and C2 callbacks, then build a forensic profile inside the sandbox.
 

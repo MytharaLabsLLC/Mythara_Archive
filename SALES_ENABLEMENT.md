@@ -1,6 +1,6 @@
 # 💼 Sales Enablement: Emotional Extortion Detection
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ---
 
@@ -79,7 +79,7 @@ Audit manager communications for extortion patterns. Flag guilt/shame/fear tacti
 - Ethical concerns about authentic vs. manufactured agreement
 
 **Mythara Solution:**  
-Soul Cradle integration: `will_authenticity = 1.0 - extortion_score`. Score <0.5 = coerced, not genuine.
+SoulCradle integration: `will_authenticity = 1.0 - extortion_score`. Score <0.5 = coerced, not genuine.
 
 **ROI:**  
 - Protect divine Will from emotional manipulation
@@ -95,12 +95,12 @@ Soul Cradle integration: `will_authenticity = 1.0 - extortion_score`. Score <0.5
 | **Quantifies manipulation** | ✅ 0-1 score with evidence | ❌ No scoring | ❌ Manual review only |
 | **10 manipulation types** | ✅ Guilt, shame, fear, gaslighting, etc. | ❌ Generic "toxicity" | ❌ No pattern detection |
 | **Real-time API** | ✅ <100ms response | ⚠️ Batch processing only | ❌ Not API-enabled |
-| **Soul Cradle integration** | ✅ Distinguishes genuine Will | ❌ N/A | ❌ N/A |
+| **SoulCradle integration** | ✅ Distinguishes genuine Will | ❌ N/A | ❌ N/A |
 | **Integrity hashing** | ✅ SHA-256 on all responses | ❌ No audit trail | ⚠️ Logs only |
 | **EU AI Act aligned** | ✅ Article 5 manipulation detection | ⚠️ Generic safety | ❌ Not AI-specific |
 | **Pricing** | $2,988-$2M tiered | $50K+ flat | $100K+ annually |
 
-**Key Differentiator:** We're the **only system** that quantifies emotional manipulation with Soul Cradle philosophical grounding (genuine Will vs. coerced compliance).
+**Key Differentiator:** We're the **only system** that quantifies emotional manipulation with SoulCradle philosophical grounding (genuine Will vs. coerced compliance).
 
 ---
 
@@ -174,7 +174,7 @@ Soul Cradle integration: `will_authenticity = 1.0 - extortion_score`. Score <0.5
 
 ### Objection 4: "Can we just build this ourselves?"
 **Response:**  
-"You could, but it took us 6 months to develop 10 validated pattern types with confidence calibration and Soul Cradle integration. Your engineering team costs $200K+ in salary for 6 months = $100K, plus ongoing maintenance. Our Developer tier is $2,988/year. You'd need to build, maintain, and validate it yourself—or start using ours tomorrow for <$250/month."
+"You could, but it took us 6 months to develop 10 validated pattern types with confidence calibration and SoulCradle integration. Your engineering team costs $200K+ in salary for 6 months = $100K, plus ongoing maintenance. Our Developer tier is $2,988/year. You'd need to build, maintain, and validate it yourself—or start using ours tomorrow for <$250/month."
 
 **Demo:** Show the latest documented test results (accuracy figures, integrity hashes, audit trail).
 
@@ -224,7 +224,7 @@ Soul Cradle integration: `will_authenticity = 1.0 - extortion_score`. Score <0.5
 
 ---
 
-### Minute 8-11: Soul Cradle Integration
+### Minute 8-11: SoulCradle Integration
 "This is where it gets interesting. We don't just detect manipulation—we validate authentic consent..."
 
 **Live Demo:** POST to `/v1/emotional-extortion/soul-cradle-integration`
@@ -334,7 +334,7 @@ Soul Cradle integration: `will_authenticity = 1.0 - extortion_score`. Score <0.5
 1. **Lead with pain, not features:** "Are you worried about AI manipulation?" not "We have 10 pattern types."
 2. **Quantify ROI immediately:** "$2,988 to prevent $500K brand crisis = 167x return."
 3. **Show, don't tell:** Live demo with real manipulative text → scores → recommendations.
-4. **Soul Cradle is the moat:** Competitors can't copy philosophical grounding in divine Will vs. coercion.
+4. **SoulCradle is the moat:** Competitors can't copy philosophical grounding in divine Will vs. coercion.
 5. **Expansion path is natural:** Developer → Growth → Enterprise → Sovereign as customer matures.
 6. **Regulatory tailwind:** EU AI Act makes this compliance-critical, not optional.
 

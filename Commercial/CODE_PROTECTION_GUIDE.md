@@ -1,6 +1,6 @@
 # Protecting Proprietary SSIP Code
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 > **Notes on this document.** All pricing in the licensing tiers below is *proposed*, not established — no licenses have been sold at these or any figures. Domains and addresses used in code examples (`api.mythara.com`, `sales@mythara.com`) are placeholders, not live services. Customer IDs in examples (`acme_bank_001`) are fictional.
 

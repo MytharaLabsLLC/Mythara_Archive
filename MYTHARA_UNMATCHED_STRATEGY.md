@@ -1,7 +1,7 @@
 # 🔥 MYTHARA: UNMATCHED IN MARKET
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
-> **Document status (2026-09-27):** Internal 2025 competitive-messaging draft. The capability claims below mix real code with unbuilt concepts — this note separates them. What actually exists today: hash-chained tamper-evident records (`soul_cradle/emotional_chain.py`), Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses (fail-closed, critical finding blocks, dissent surfaced), defanged Aries (signed action envelopes, benign handlers only), and SERE as a training simulation — never a weapon, never hack-back, never military-ready. What does NOT exist: autonomous security response, predictive threat intelligence, sub-100ms autonomous decisions, multi-framework compliance validation, FedRAMP/Fed readiness, or any customers, pilots, revenue, or certifications. "Mythara Industries" is not a legal entity. Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831). All accuracy, ROI, and timing figures below are illustrative, not measured.
+> **Document status (2026-09-27):** Internal 2025 competitive-messaging draft. The capability claims below mix real code with unbuilt concepts — this note separates them. What actually exists today: hash-chained tamper-evident records (`soul_cradle/emotional_chain.py`), SoulCradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses (fail-closed, critical finding blocks, dissent surfaced), defanged ARES (signed action envelopes, benign handlers only), and SERE as a training simulation — never a weapon, never hack-back, never military-ready. What does NOT exist: autonomous security response, predictive threat intelligence, sub-100ms autonomous decisions, multi-framework compliance validation, FedRAMP/Fed readiness, or any customers, pilots, revenue, or certifications. "Mythara Industries" is not a legal entity. Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831). All accuracy, ROI, and timing figures below are illustrative, not measured.
 
 ---
 
@@ -84,7 +84,7 @@ POST /v1/clauses/invoke
 ---
 
 ### 3. **Emotional Fidelity at Scale** 💜
-**The Moat:** Soul Cradle quantifies psychological safety + moral injury in real-time.
+**The Moat:** SoulCradle quantifies psychological safety + moral injury in real-time.
 
 **Competitors:**
 - None. This category doesn't exist.
@@ -100,7 +100,7 @@ POST /v1/clauses/invoke
 
 **Illustrative sketch (concept example — scores are illustrative, not measured outputs):**
 ```python
-# Mythara Soul Cradle (concept)
+# Mythara SoulCradle (concept)
 soul_cradle_result = invoke_soul_cradle({
   "paradox": "Policy says discharge. Patient will be homeless.",
   "context": {...}
@@ -166,7 +166,7 @@ soul_cradle_result = invoke_soul_cradle({
 | **Autonomous Response Time** | Unbuilt concept | N/A | 2-4 hrs | N/A | N/A | 30 min |
 | **Cryptographic Integrity** | ✅ SHA-256 | ❌ | ❌ | ❌ | ❌ | ⚠️ Logs only |
 | **Multi-Framework (1 API)** | ✅ 5+ frameworks | ❌ Separate | ❌ | ❌ Modules | ❌ Modules | ❌ |
-| **Emotional Fidelity** | ✅ Soul Cradle | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Emotional Fidelity** | ✅ SoulCradle | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Predictive Intelligence** | Unbuilt concept | ❌ | ⚠️ Reactive | ❌ | ❌ | ⚠️ Historical |
 | **Air-Gapped Deployment** | ✅ Full feature | ❌ Cloud only | ⚠️ Degraded | ❌ Cloud only | ⚠️ Limited | ⚠️ Limited |
 | **Business Risk $$$** | ✅ Real-time | ❌ | ❌ | ⚠️ Basic | ⚠️ Basic | ❌ |
@@ -355,5 +355,5 @@ Mythara isn't "10% better" than competitors. We're **categorically different** i
 
 ---
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 **Mythara Industries (working title — not a legal entity). Beyond its time. Never just a dream.**

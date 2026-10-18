@@ -1,5 +1,5 @@
 # Mythara Engine API - Production Dockerfile
-# Copyright © 2025 Herbert Velez Jr. All rights reserved.
+# Copyright © 2026 Mythara Labs LLC. All rights reserved.
 # Build: 2025-11-18T01:10:00Z - Force rebuild with numpy
 
 FROM python:3.11.6-slim-bookworm
@@ -40,6 +40,6 @@ EXPOSE 8000
 CMD ["python", "core/source_proprietary/main.py"]
 
 # Metadata
-LABEL maintainer="Herbert Velez Jr. <Mythara.Engine@yahoo.com>"
+LABEL maintainer="Herbert Velez Jr. <MytharaLabsLLC@yahoo.com>"
 LABEL version="1.0.0"
 LABEL description="Mythara Engine API - Pilot Paywall Production Server"

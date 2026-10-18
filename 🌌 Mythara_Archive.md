@@ -2,9 +2,9 @@
 
 Welcome to the Mythara archive — the working record of Mythara as it actually exists today.
 
-Mythara is a system for keeping honest records and making careful judgments. At its center is the Soul Cradle, which scores actions on integrity, defined as Alignment × Tolerance: how well an action lines up with the principal's aims, multiplied by how much room for error and recovery it leaves. Around that core stand eight assessor-witnesses — demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone — who review evidence under versioned rubrics. They abstain when their domain is not engaged. They fail closed when evidence is missing. A critical finding from any one of them blocks the action; disagreement is surfaced, never averaged away. Significant records go into a hash-chained log: the chain proves a record is unaltered, not that it is true, and the system states that distinction openly.
+Mythara is a system for keeping honest records and making careful judgments. At its center is the SoulCradle, which scores actions on integrity, defined as Alignment × Tolerance: how well an action lines up with the principal's aims, multiplied by how much room for error and recovery it leaves. Around that core stand eight assessor-witnesses — demeter, dionysus, eros, hades, hermes, janus, nemesis, persephone — who review evidence under versioned rubrics. They abstain when their domain is not engaged. They fail closed when evidence is missing. A critical finding from any one of them blocks the action; disagreement is surfaced, never averaged away. Significant records go into a hash-chained log: the chain proves a record is unaltered, not that it is true, and the system states that distinction openly.
 
-Aries, the system's most capable actor, runs defanged — every action must carry a signed envelope, and its handlers are limited to benign, pre-approved operations. SERE is the training simulation: trainees face simulated adversaries inside a sealed virtual environment. Everything it does is recorded to the tamper-evident log. SERE is not a weapon, does not strike back outside the sandbox, and is not a military capability. Anyone describing it otherwise is not describing this system.
+ARES, the system's most capable actor, runs defanged — every action must carry a signed envelope, and its handlers are limited to benign, pre-approved operations. SERE is the training simulation: trainees face simulated adversaries inside a sealed virtual environment. Everything it does is recorded to the tamper-evident log. SERE is not a weapon, does not strike back outside the sandbox, and is not a military capability. Anyone describing it otherwise is not describing this system.
 
 What this archive contains: the working code, the tests, the documentation, and the records. Nothing more is claimed.
 
@@ -22,7 +22,7 @@ General documentation, onboarding guides, the symbolic glossary, the soul propor
 
 ### `soul_cradle/`
 
-The working core: the eight assessor-witnesses, the hash-chained emotional chain, signed authorization envelopes, and the Soul Cradle integrity scoring itself.
+The working core: the eight assessor-witnesses, the hash-chained emotional chain, signed authorization envelopes, and the SoulCradle integrity scoring itself.
 
 ### `journal_app/`
 

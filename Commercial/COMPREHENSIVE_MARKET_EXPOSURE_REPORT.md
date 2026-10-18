@@ -1,6 +1,6 @@
 # Mythara Comprehensive Market Exposure Report
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**  
 
 > **Honest framing.** This is a prospect and outreach-target list, compiled November 2025. Every company named below is a *target for outreach* — not a customer, not a pilot, not a partner, not an investor. No relationship, conversation, or deal of any kind exists with any of them. All fit scores, valuations, close-rate assumptions, and revenue figures are illustrative projections invented for planning — not results, not metrics, not commitments.
 

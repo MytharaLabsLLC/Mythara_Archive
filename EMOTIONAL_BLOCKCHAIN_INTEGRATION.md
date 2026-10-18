@@ -1,6 +1,6 @@
 # Emotional Blockchain Integration Strategy
 
-**Copyright © 2025 Herbert Velez Jr. All rights reserved.**
+**Copyright © 2026 Mythara Labs LLC. All rights reserved.**
 
 ## The Right Way to Integrate
 
@@ -20,7 +20,7 @@ from soul_cradle.emotional_chain import (
 )
 from soul_cradle.assessors import attest_event  # 8 assessor-witnesses: evidence-fed, fail-closed
 
-# Initialize alongside Soul Cradle
+# Initialize alongside SoulCradle
 emotional_chain = EmotionalChain()  # hash-chained; witnesses attest, chain proves unaltered-not-true
 ```
 
@@ -77,11 +77,11 @@ async def verify_blockchain_integrity(
 
 ---
 
-## 🧬 Level 2: Soul Cradle Integration (SYNERGY)
+## 🧬 Level 2: SoulCradle Integration (SYNERGY)
 
-### **Connect to Soul Cradle Paradox Tracking**
+### **Connect to SoulCradle Paradox Tracking**
 
-The Soul Cradle already tracks emotional paradoxes. Connect them:
+The SoulCradle already tracks emotional paradoxes. Connect them:
 
 ```python
 # In soul_cradle_systems_framework.py
@@ -94,7 +94,7 @@ def record_paradox_with_blockchain(
 ):
     """Record paradox events to Emotional Blockchain"""
     
-    # Record in Soul Cradle (existing)
+    # Record in SoulCradle (existing)
     soul.record_paradox(paradox_type, intensity)
     
     # ALSO record in Emotional Blockchain (NEW)
@@ -102,16 +102,16 @@ def record_paradox_with_blockchain(
         user_id=soul.user_id,
         emotion=paradox_type,
         intensity=intensity,
-        context=f"Soul Cradle Paradox: {context}"
+        context=f"SoulCradle Paradox: {context}"
     )
     
     # This creates DUAL ASSURANCE:
-    # - Soul Cradle tracks burnout trajectory
+    # - SoulCradle tracks burnout trajectory
     # - Emotional chain makes the record tamper-evident (unaltered, not proven-true)
 ```
 
 **Why this matters:**
-- Soul Cradle predicts burnout
+- SoulCradle predicts burnout
 - The emotional chain provides a tamper-evident record that can't be quietly rewritten
 - Combined: an unalterable record of the burnout trajectory (the chain proves the record is unaltered — not that the emotions are true)
 
@@ -190,9 +190,9 @@ def check_emotional_blockchain_for_extortion(user_id: str):
 
 ---
 
-### **Phase 2: Soul Cradle Integration (HIGH VALUE)**
+### **Phase 2: SoulCradle Integration (HIGH VALUE)**
 1. Connect paradox tracking to emotional blockchain
-2. Add dual validation (Soul Cradle + Blockchain)
+2. Add dual validation (SoulCradle + Blockchain)
 3. Create combined burnout + manipulation reports
 
 **Timeline:** 3-5 days
@@ -339,7 +339,7 @@ result = await client.post("/v1/emotions/record", json={
 
 ---
 
-## 🔥 The Revolutionary Pitch
+## The Pitch (bounded claims only)
 
 **"We built the hash chain for Bitcoin.**
 **Now we've built one for emotions.**
