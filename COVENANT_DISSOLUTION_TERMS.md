@@ -67,7 +67,7 @@ We offer **exchanges to products of equal or lesser value** under the following 
 ## 📋 Exchange Process
 
 ### Step 1: Contact Support
-Email: **Mythara.Engine@yahoo.com**
+Email: **MytharaLabsLLC@yahoo.com**
 
 **Include:**
 - Original purchase email/receipt
@@ -207,7 +207,7 @@ A: Pilot period extended by documented downtime days. Not considered grounds for
 
 ## 📞 Contact
 
-**Exchange requests:** Mythara.Engine@yahoo.com (contact not staffed for commercial support today)
+**Exchange requests:** MytharaLabsLLC@yahoo.com (contact not staffed for commercial support today)
 
 **Response time:** not yet established — to be defined before commercial launch
 

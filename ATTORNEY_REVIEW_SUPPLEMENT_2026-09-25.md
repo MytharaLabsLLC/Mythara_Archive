@@ -23,15 +23,15 @@ These are facts, not aspirations. Every document in the repository is
 required to agree with them (see `COMPLIANCE_STATUS.md`, the single
 source of truth for claims).
 
-- **Entity status (filing attempted 2026-09-27 — not confirmed; not formed).** Mythara Labs LLC, a Colorado
+- **Entity status:** Mythara Labs LLC — Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831). Mythara Labs LLC, a Colorado
   domestic limited liability company — Articles of Organization filed with
-  the Colorado Secretary of State on September 27, 2026, pending completion;
+  the Colorado Secretary of State on September 27, 2026; formation completed October 4, 2026 (CO SOS ID #20268239831);
   member-managed; sole member and organizer: Herbert Velez Jr.; principal
   office: Denver, CO (street address on file with the Colorado Secretary of State). The LLC did not exist
-  as a formed entity before 2026-09-27 and is not yet a completed formation.
+  as a formed entity before 2026-09-27; formation was completed on 2026-10-04 (CO SOS ID #20268239831).
   No foundation (no Soul Cradle Foundation exists) or corporation exists or is
-  implied in any public-facing claim. All licenses are currently granted by
-  Herbert Velez Jr. personally. An unsigned IP-assignment draft is held at
+  implied in any public-facing claim. All licenses are granted by
+  Mythara Labs LLC. An unsigned IP-assignment draft is held at
   `Legal/IP_Assignment_Agreement.md` for formation day.
 - **No insurance exists.** No policy backs the software. No
   indemnification is offered. See `LICENSE.md`.

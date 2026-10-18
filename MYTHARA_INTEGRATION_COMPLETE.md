@@ -859,9 +859,9 @@ def send_indifference_alert(user_id: str, severity: str, org_admin_email: str):
 - **System downtime**: PagerDuty alert → on-call engineer → resolve within 1 hour
 
 ### Contact
-- **Technical Support**: Mythara.Engine@yahoo.com
-- **Sales Inquiries**: Mythara.Engine@yahoo.com
-- **Security Issues**: Mythara.Engine@yahoo.com (include "SECURITY" in subject)
+- **Technical Support**: MytharaLabsLLC@yahoo.com
+- **Sales Inquiries**: MytharaLabsLLC@yahoo.com
+- **Security Issues**: MytharaLabsLLC@yahoo.com (include "SECURITY" in subject)
 
 ---
 

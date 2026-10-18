@@ -161,7 +161,7 @@ industry_data = translate_response(data, FramingMode.INDUSTRY)
 
 ## 📞 Questions?
 
-**Email:** Mythara.Engine@yahoo.com  
+**Email:** MytharaLabsLLC@yahoo.com  
 **API Docs:** http://localhost:8000/api/docs (interactive)  
 **Module Test:** `python core/source_proprietary/dual_framing.py`
 

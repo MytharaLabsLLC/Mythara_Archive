@@ -244,6 +244,6 @@ This Voluntary Product Accessibility Template (VPAT) is for informational purpos
 
 ---
 
-**Mythara Project** (Mythara Labs LLC: formation filing attempted Sept 27, 2026 — not confirmed; entity not yet formed)
+**Mythara Project** (Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831))
 **VPAT Version:** 1.0.0 (blank template)
 **Report Date:** November 2, 2025

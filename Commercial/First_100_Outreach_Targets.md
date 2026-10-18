@@ -203,7 +203,7 @@ I built **Mythara Engine** — cryptographic integrity + SSIP audit trails for A
 15-minute call this week to walk you through a sample audit log?
 
 — Herbert Velez Jr.  
-mythara.engine@yahoo.com  
+MytharaLabsLLC@yahoo.com  
 GitHub: https://github.com/herbievelezjr/Mythara_Archive
 
 ---
@@ -231,7 +231,7 @@ Does [Company] need explainability + safety trails for clinical AI systems?
 15-minute call to show you a sample clinical invocation log?
 
 — Herbert Velez Jr.  
-mythara.engine@yahoo.com  
+MytharaLabsLLC@yahoo.com  
 GitHub: https://github.com/herbievelezjr/Mythara_Archive
 
 ---
@@ -258,7 +258,7 @@ Security and trust teams ask: "Can we prove our AI decisions are auditable and t
 Quick 15-minute call to walk through?
 
 — Herbert Velez Jr.  
-mythara.engine@yahoo.com  
+MytharaLabsLLC@yahoo.com  
 GitHub: https://github.com/herbievelezjr/Mythara_Archive
 
 ---

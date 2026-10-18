@@ -332,7 +332,7 @@ civil service, education—the industries carrying impossible weight.
 
 Try it: 49 dollars for 7 days. Full access. See if it fits your reality.
 
-Questions? Email Mythara.Engine@yahoo.com
+Questions? Email MytharaLabsLLC@yahoo.com
 ```
 
 #### Script 2: "How to Start Your Pilot" (2 minutes)
@@ -353,7 +353,7 @@ And if you upgrade to Enterprise? That 49 dollars gets credited back.
 
 So you're really just testing it with our money.
 
-Questions? Email Mythara.Engine@yahoo.com
+Questions? Email MytharaLabsLLC@yahoo.com
 ```
 
 #### Script 3: "Soul Cradle Explained" (3 minutes)
@@ -380,7 +380,7 @@ It's included in every tier. No charge.
 
 Because some things shouldn't have a price.
 
-Questions? Email Mythara.Engine@yahoo.com
+Questions? Email MytharaLabsLLC@yahoo.com
 ```
 
 ---
@@ -453,7 +453,7 @@ Questions? Email Mythara.Engine@yahoo.com
 **Modify training response:**
 ```javascript
 if (lowerInput.includes('training') || lowerInput.includes('onboarding')) {
-    return 'Watch our 90-second intro video above, then we walk you through everything personally. No canned tutorials—just real help when you need it. Email Mythara.Engine@yahoo.com or start your $49 pilot.';
+    return 'Watch our 90-second intro video above, then we walk you through everything personally. No canned tutorials—just real help when you need it. Email MytharaLabsLLC@yahoo.com or start your $49 pilot.';
 }
 ```
 
@@ -948,7 +948,7 @@ quickReplies = [
 
 ### Repository Information
 - **Owner:** Herbert Velez Jr.
-- **Email:** Mythara.Engine@yahoo.com
+- **Email:** MytharaLabsLLC@yahoo.com
 - **GitHub:** herbievelezjr/Mythara_Archive
 - **Branch:** main
 

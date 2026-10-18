@@ -396,7 +396,7 @@ Ensures:
 ## 📞 Support
 
 **Herbert Velez Jr. (sole proprietor — no entity exists)**  
-Email: Mythara.Engine@yahoo.com  
+Email: MytharaLabsLLC@yahoo.com  
 Enterprise Pricing: not yet set (no commercial offering)
 
 **Documentation:**

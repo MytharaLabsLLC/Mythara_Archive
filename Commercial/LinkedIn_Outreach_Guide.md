@@ -135,7 +135,7 @@ Great! Quick questions:
 - Go to: https://www.paypal.com/invoice/create
 - Use product template (already created)
 - Send to their email
-- CC: Mythara.Engine@yahoo.com
+- CC: MytharaLabsLLC@yahoo.com
 
 **3. Record in Loyverse:**
 - When they pay → Create receipt in Loyverse

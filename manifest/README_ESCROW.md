@@ -26,7 +26,7 @@ Verify an ASCII-armored detached signature (adjust gpg path if needed):
 Export the public key (if you need to share it):
 
 ```powershell
-& 'C:\Program Files (x86)\GnuPG\bin\gpg.exe' --armor --export 'Mythara.Engine@yahoo.com' > forensic_public_key.asc
+& 'C:\Program Files (x86)\GnuPG\bin\gpg.exe' --armor --export 'MytharaLabsLLC@yahoo.com' > forensic_public_key.asc
 ```
 
 ## Notes

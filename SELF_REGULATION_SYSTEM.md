@@ -95,7 +95,7 @@ SELF_REGULATION_CONFIG = {
 {
   "error": "business_email_required",
   "message": "Pilot tier requires a business email domain. Free email providers (gmail.com, yahoo.com, etc.) are not eligible.",
-  "contact": "Mythara.Engine@yahoo.com"
+  "contact": "MytharaLabsLLC@yahoo.com"
 }
 ```
 
@@ -106,7 +106,7 @@ SELF_REGULATION_CONFIG = {
   "error": "domain_already_registered",
   "message": "The domain 'acme.com' already has a pilot account. Only one pilot per business domain is allowed.",
   "existing_api_key_prefix": "abc12345...",
-  "contact": "Mythara.Engine@yahoo.com"
+  "contact": "MytharaLabsLLC@yahoo.com"
 }
 ```
 
@@ -138,7 +138,7 @@ SELF_REGULATION_CONFIG = {
   "message": "Your account is temporarily suspended until 2025-11-23T00:00:00Z. Reason: velocity_abuse",
   "suspension_end": "2025-11-23T00:00:00Z",
   "strikes": 2,
-  "appeal_email": "Mythara.Engine@yahoo.com"
+  "appeal_email": "MytharaLabsLLC@yahoo.com"
 }
 ```
 
@@ -148,7 +148,7 @@ SELF_REGULATION_CONFIG = {
   "error": "account_terminated",
   "message": "Your account has been permanently terminated due to repeated abuse violations.",
   "strikes": 3,
-  "contact": "Mythara.Engine@yahoo.com"
+  "contact": "MytharaLabsLLC@yahoo.com"
 }
 ```
 
@@ -230,7 +230,7 @@ Include in your pilot signup terms:
 > - **Second violation**: 7-day account suspension
 > - **Third violation**: Permanent account termination
 > 
-> Mythara reserves the right to verify company size and adjust access limits accordingly. Intentional misrepresentation may result in immediate termination without refund. Appeals may be submitted to Mythara.Engine@yahoo.com within 30 days.
+> Mythara reserves the right to verify company size and adjust access limits accordingly. Intentional misrepresentation may result in immediate termination without refund. Appeals may be submitted to MytharaLabsLLC@yahoo.com within 30 days.
 
 ## Implementation Notes
 
@@ -317,7 +317,7 @@ logging.warning(f"Strike issued: {api_key[:8]}... | Reason: {reason} | Stats: {s
 A: Upgrade to Enterprise tier ($25K-$300K/year) for unlimited access.
 
 **Q: Can I appeal a suspension?**
-A: Yes, email Mythara.Engine@yahoo.com within 30 days with explanation.
+A: Yes, email MytharaLabsLLC@yahoo.com within 30 days with explanation.
 
 **Q: Will I be notified before suspension?**
 A: Yes, first violation triggers warning email. Suspension occurs on second violation.
@@ -331,4 +331,4 @@ A: Usage stats are included in rate limit error responses (HTTP 429).
 ---
 
 **System Status**: Active and enforcing as of v1.0.0
-**Contact**: Mythara.Engine@yahoo.com
+**Contact**: MytharaLabsLLC@yahoo.com

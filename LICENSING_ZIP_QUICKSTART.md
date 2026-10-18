@@ -135,7 +135,7 @@ mythara-engine-v1.0.0/
    gpg --verify manifest/RELEASE_MANIFEST.json.asc manifest/RELEASE_MANIFEST.json
    ```
    
-   Expected: `Good signature from "Mythara Engine <Mythara.Engine@yahoo.com>"`
+   Expected: `Good signature from "Mythara Engine <MytharaLabsLLC@yahoo.com>"`
 
 3. **Verify checksums**
    ```bash
@@ -185,7 +185,7 @@ Company deploys using `INSTALL.md` instructions
 
 ## Support for Licensed Companies
 
-**Herbert Velez Jr.** *(Mythara Labs LLC — formation filing attempted with the Colorado SOS on 2026-09-27 — not confirmed; entity not yet formed)*
+**Herbert Velez Jr.** *(Mythara Labs LLC — Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831))*
 
 - **Email:** MytharaLabsLLC@yahoo.com
 - **PGP:** `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`

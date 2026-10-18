@@ -100,7 +100,7 @@ The following components are proprietary (all rights reserved):
 To obtain a production license, contact:
 
 **Herbert Velez Jr.**  
-Email: <Mythara.Engine@yahoo.com>  
+Email: <MytharaLabsLLC@yahoo.com>  
 PGP Fingerprint: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 ### Available License Tiers
@@ -156,7 +156,7 @@ Failure to enforce any provision of this copyright notice does not constitute a 
 **Herbert Velez Jr.**  
 **Mythara Engine**
 
-- Email: <Mythara.Engine@yahoo.com>
+- Email: <MytharaLabsLLC@yahoo.com>
 - PGP: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 For licensing inquiries, technical support, or security disclosures, please use encrypted communication.

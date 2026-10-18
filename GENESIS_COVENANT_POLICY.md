@@ -41,4 +41,4 @@ This Pilot License governs access to the Mythara Engine during a time-limited ev
 11) Entire Agreement
 - This Pilot License constitutes the entire agreement regarding the pilot and supersedes all prior discussions. Changes require a signed writing by Mythara.
 
-If you have questions or need a signed copy, contact: Mythara.Engine@yahoo.com
+If you have questions or need a signed copy, contact: MytharaLabsLLC@yahoo.com

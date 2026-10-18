@@ -63,7 +63,7 @@ to `state/dryrun/` plus ledger entries. **It sends nothing.**
 
 ### Going live: Yahoo SMTP (needs Herb, once)
 
-The send path is built. The machine sends as `mythara.engine@yahoo.com`
+The send path is built. The machine sends as `MytharaLabsLLC@yahoo.com`
 through Yahoo's own SMTP servers — no Gmail, no OAuth dance:
 
 1. At Yahoo: Account Security → 2-Step Verification on → App passwords →

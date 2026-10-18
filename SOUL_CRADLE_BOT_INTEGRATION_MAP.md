@@ -361,7 +361,7 @@ def assess_client_needs(client_query: str, client_id: str):
 ```
 
 **Business Impact**:
-- Saves lives by detecting DV crisis risk
+- Flags declared crisis-risk patterns in the evidence for immediate human review, and connects clients to crisis resources, not just attorneys
 - Connects clients to crisis resources, not just attorneys
 - Documents that legal issue is symptom of deeper crisis
 

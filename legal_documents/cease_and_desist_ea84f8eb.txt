@@ -10,9 +10,7 @@ SHA-256 Integrity Hash: c141652f730a6d5377e2ebdd58fa0f99964eb5e693c212fee1c102ca
 > Mythara Gopher Legal AI generator with fictional parties (CopyCat
 > Software LLC, "GopherClone") — not a real dispute. The generator wrote
 > "Mythara Inc." below; that entity never existed. Correct entity:
-> Mythara Labs LLC — proposed Colorado domestic LLC, Articles of Organization filing attempted
-> with the Colorado Secretary of State on September 27, 2026 — not confirmed
-> (not yet a formed entity). The two occurrences below are
+> Mythara Labs LLC — Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831). The two occurrences below are
 > corrected in place; the SHA-256 above covers the original generated text.
 
 --------------------------------------------------------------------------------

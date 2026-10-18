@@ -49,8 +49,8 @@ Compare to the value in mythara-engine-v1.0.0.zip.sha256 and in the release note
 ## Security and reporting
 
 - Treat all materials as confidential and proprietary.  
-- Report suspected vulnerabilities privately to: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)
+- Report suspected vulnerabilities privately to: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)
 
 ## Contact
 
-- Licensing and support: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)
+- Licensing and support: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)

@@ -213,7 +213,7 @@ This migration eliminates **terminology that creates legal risk** but does **NOT
 ---
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
-**Herbert Velez Jr. — All Rights Reserved** *(Mythara Labs LLC: formation filing attempted Sept 27, 2026 — not confirmed; not formed)*
+**Herbert Velez Jr. — All Rights Reserved** *(Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831))*
 
 ---
 

@@ -3,8 +3,7 @@
 **Seed Round Presentation**
 **November 2, 2025** — historical record; product description updated 2026-09-27
 **Herbert Velez Jr., Founder**
-**Entity:** Mythara Labs LLC — formation filing attempted with the Colorado Secretary of
-State on September 27, 2026 — not confirmed; entity not yet formed; member-managed; sole member
+**Entity:** Mythara Labs LLC — Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831); member-managed; sole member
 Herbert Velez Jr.
 
 > ## ⚠️ INVESTOR NOTICE — READ FIRST
@@ -190,7 +189,7 @@ no third-party audit completed)
 - Systems architect; 10+ years enterprise software development
 - Built the Soul Cradle core, the assessor-witness framework, and the
   hash-chained emotional record protocol
-- Contact: Mythara.Engine@yahoo.com
+- Contact: MytharaLabsLLC@yahoo.com
 
 **Advisory Board** (to be formed):
 - Healthcare compliance expert
@@ -261,7 +260,7 @@ no third-party audit completed)
 
 **Contact:**
 Herbert Velez Jr.
-Mythara.Engine@yahoo.com
+MytharaLabsLLC@yahoo.com
 PGP: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 ---

@@ -6,12 +6,9 @@
 > record of the state on **November 18, 2025**; its findings, remediation
 > steps, and cost figures below are preserved unaltered and describe that
 > date only. Facts that have changed since: entity formation filing was attempted
-> (not in California) — Mythara Labs LLC, a proposed Colorado domestic limited
-> liability company; Articles of Organization filing attempted with the Colorado
-> Secretary of State on **September 27, 2026** — not confirmed; entity not yet
-> formed; member-managed; sole member and organizer: Herbert Velez Jr.; principal
-> office: Denver, CO (street address on file with the Colorado Secretary of State). The LLC is not yet a
-> formed entity. All California-specific filing steps, fees (including the
+> (not in California) — Mythara Labs LLC, a Colorado domestic limited
+> liability company (filed 2026-10-04; CO SOS ID #20268239831); member-managed; sole member and organizer: Herbert Velez Jr.; principal
+> office: Denver, CO (street address on file with the Colorado Secretary of State). The LLC was formed on October 4, 2026. All California-specific filing steps, fees (including the
 > $800 annual franchise tax), and "file with California SOS" remediation
 > items below are superseded — do not act on them. The insurance claims this
 > report flagged in terms.html and LICENSE.md as false (no E&O or cyber

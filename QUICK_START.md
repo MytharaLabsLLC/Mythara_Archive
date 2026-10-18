@@ -265,7 +265,7 @@ DATABASE_URL=postgresql://user:pass@localhost:5432/mythara
 
 ## 📞 SUPPORT
 
-- **Email**: Mythara.Engine@yahoo.com
+- **Email**: MytharaLabsLLC@yahoo.com
 - **Documentation**: See `MYTHARA_INTEGRATION_COMPLETE.md` for full details
 - **API Docs**: http://localhost:8000/api/docs
 

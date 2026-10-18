@@ -9,7 +9,7 @@
 ## Prerequisites
 
 - GPG installed (`gpg --version`)
-- Private key for `Mythara.Engine@yahoo.com` accessible
+- Private key for `MytharaLabsLLC@yahoo.com` accessible
 - Passphrase ready
 
 ---
@@ -65,7 +65,7 @@ gpg --verify manifest\checksums.sha256.asc manifest\checksums.sha256
 gpg --verify forensic_manifest.json.asc forensic_manifest.json
 ```
 
-**Expected output**: `Good signature from "Mythara Engine <Mythara.Engine@yahoo.com>"`
+**Expected output**: `Good signature from "Mythara Engine <MytharaLabsLLC@yahoo.com>"`
 
 ---
 
@@ -108,7 +108,7 @@ Update the first entry in the manifest with this value.
 If public key needs to be regenerated or verified:
 
 ```powershell
-gpg --armor --export Mythara.Engine@yahoo.com > forensic_public_key_NEW.asc
+gpg --armor --export MytharaLabsLLC@yahoo.com > forensic_public_key_NEW.asc
 ```
 
 Compare with existing `forensic_public_key.asc` to ensure consistency.
@@ -147,7 +147,7 @@ Expired signatures must not be treated as valid. Re-sign before any escrow trans
 ## Security Notes
 
 - Sign on air-gapped machine if possible
-- Verify fingerprint before signing: `gpg --fingerprint Mythara.Engine@yahoo.com`
+- Verify fingerprint before signing: `gpg --fingerprint MytharaLabsLLC@yahoo.com`
 - Store private key backup in secure location
 - Passphrase should be strong and recorded in password manager
 

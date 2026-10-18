@@ -7,10 +7,8 @@
 > Pricing tiers, fees, SLAs, and all commercial terms below are template
 > placeholders, not offered or agreed terms. **Do not sign or rely on this
 > document without review by a licensed attorney.** Entity references use
-> Mythara Labs LLC (proposed Colorado domestic LLC; Articles of Organization filing attempted
-> with the Colorado Secretary of State on September 27, 2026 — not confirmed;
-> not yet a formed entity); until formation completes, the
-> licensor is Herbert Velez Jr., individual.
+> Mythara Labs LLC (Colorado domestic LLC; filed 2026-10-04; CO SOS ID #20268239831);
+> the licensor is Mythara Labs LLC.
 
 **Agreement ID:** ME-MSLA-TEMPLATE-001  
 **Effective Date:** [INSERT DATE]  

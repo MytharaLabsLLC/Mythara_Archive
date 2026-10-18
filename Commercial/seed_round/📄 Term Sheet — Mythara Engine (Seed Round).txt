@@ -12,10 +12,10 @@ commitments, or historical results.
 
 ## 📄 Term Sheet — Mythara Engine (Seed Round)
 
-> **Entity note:** Mythara Labs LLC — formation (Articles of Organization) filing attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; entity not yet formed; member-managed; sole member and organizer Herbert Velez Jr.
+> **Entity note:** Mythara Labs LLC — Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831); member-managed; sole member and organizer Herbert Velez Jr.
 
 **Founder**: Herb Velez Jr.  
-**Entity**: Mythara Labs LLC (formation filing attempted with the Colorado Secretary of State on 2026-09-27 — not confirmed; entity not yet formed)  
+**Entity**: Mythara Labs LLC (Colorado domestic LLC, filed 2026-10-04; CO SOS ID #20268239831)  
 **Instrument**: SAFE or priced seed round with milestone-based vesting and escrow triggers  
 **Target Raise**: $750,000  
 **Pre-Money Valuation Range**: $6.5M – $8.5M (subject to milestone tier and strategic fit)

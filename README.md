@@ -1,6 +1,6 @@
 # 🌌 Mythara_Archive
 
-**What this is:** the archive of the Mythara engine work — Soul Cradle, the emotional chain, SERE, and the early Mythara Engine. Design documents, validation reports, and snapshots, preserved as they were built.
+**What this is:** the archive of the Mythara engine work — SoulCradle, a MytharaOS: the integrity-scoring core, the emotional chain, SERE, and the early Mythara Engine. Design documents, validation reports, and snapshots, preserved as they were built.
 
 **Author:** Herbert Velez Jr. (Denver, CO)
 **Entity:** Mythara Labs LLC — Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831)
@@ -169,8 +169,7 @@ docker build -f core/Dockerfile -t mythara:v1.0.0 .
 
 ## Contact
 
-**Herbert Velez Jr.**
-📧 Email: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)
+**Mythara Labs LLC** 📧 Email: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)
 🔐 PGP Fingerprint: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 ---

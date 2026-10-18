@@ -75,7 +75,7 @@ gpg --verify manifest/checksums.sha256.asc manifest/checksums.sha256
 gpg --verify forensic_manifest.json.asc forensic_manifest.json
 ```
 
-Expected output: `Good signature from "Mythara Engine <Mythara.Engine@yahoo.com>"`
+Expected output: `Good signature from "Mythara Engine <MytharaLabsLLC@yahoo.com>"`
 
 Verify file checksums:
 

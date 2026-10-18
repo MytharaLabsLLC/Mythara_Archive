@@ -4,7 +4,7 @@
 - **System**: Mythara Engine  
 - **Receipt Type**: Legacy Clause Activation  
 - **Prepared By**: Archivist Messenger  
-- **Contact**: Mythara.Engine@yahoo.com  
+- **Contact**: MytharaLabsLLC@yahoo.com  
 
 ---
 

@@ -3,7 +3,7 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
-> **Document status (2026-09-27):** Historical 2025 product-catalog draft. The code modules listed exist in this repository; the businesses described around them do not. No product below has paying customers, launched, or run a beta or pilot. All pricing, TAM figures, "Business Impact" metrics, and revenue projections are 2025 illustrative scenarios — none measured or achieved. "100% COMPLETE" refers to draft code existing, not to a finished, deployed, or certified product. No SOC 2/ISO/HIPAA/FERPA/FedRAMP certifications exist; no patents filed. Mythara Labs LLC: Articles of Organization filing attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; entity not yet formed — not yet a formed entity; "Mythara Industries" is not a legal entity. Capabilities as they actually are today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation — never a weapon, never hack-back, never military-ready.
+> **Document status (2026-09-27):** Historical 2025 product-catalog draft. The code modules listed exist in this repository; the businesses described around them do not. No product below has paying customers, launched, or run a beta or pilot. All pricing, TAM figures, "Business Impact" metrics, and revenue projections are 2025 illustrative scenarios — none measured or achieved. "100% COMPLETE" refers to draft code existing, not to a finished, deployed, or certified product. No SOC 2/ISO/HIPAA/FERPA/FedRAMP certifications exist; no patents filed. Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831); "Mythara Industries" is not a legal entity. Capabilities as they actually are today: Soul Cradle integrity scoring (Integrity = Alignment × Tolerance), 8 evidence-fed assessor-witnesses, hash-chained emotional chain, defanged Aries (signed envelopes, benign handlers only), SERE as a training simulation — never a weapon, never hack-back, never military-ready.
 
 ---
 
@@ -361,7 +361,7 @@
 | **Parental Satisfaction** | 94% report improved academic performance |
 
 #### **🎯 Competitive Moat**
-✅ **Emotional AI adapts content when student shows frustration** (unique in market)  
+✅ **Content adapts to learner self-reported frustration, attested on the chain**  
 ✅ 14 video platforms (competitors use 1-2)  
 ✅ Leadership skill tracking (not just academic content)  
 
@@ -508,7 +508,7 @@
 ### 1️⃣4️⃣ **DEVELOPER API & SDK** • `Usage-based pricing`
 <div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 20px; border-radius: 10px; color: white;">
 
-**🔌 Emotional AI as a Service**
+**🔌 Witness-Attested Emotional Records as a Service**
 
 📁 `core/source_proprietary/main.py` • **3,262 lines**
 
@@ -545,11 +545,11 @@
 │                 WHAT MAKES US UNBEATABLE                  │
 ├───────────────────────────────────────────────────────────┤
 │                                                           │
-│  1️⃣  EMOTIONAL AI (Soul Cradle)                          │
-│      • Only portfolio with distress detection            │
-│      • Detects manipulation, coercion, emotional         │
+│  1️⃣  WITNESS-ATTESTED EMOTIONAL RECORDS (Soul Cradle)                          │
+│      • Only portfolio with witness-attested distress records            │
+│      • Flags manipulation, coercion, and extortion patterns         │
 │        extortion in real-time                            │
-│      • 988 integration (saves lives)                     │
+│      • 988 crisis-line referral information included                     │
 │                                                           │
 │  2️⃣  MULTI-FRAMEWORK COMPLIANCE                          │
 │      • Only system unifying 9 compliance frameworks      │

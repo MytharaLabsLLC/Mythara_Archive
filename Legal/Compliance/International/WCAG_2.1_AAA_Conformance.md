@@ -120,5 +120,5 @@ evidence (test method, tool, tester, build under test). Until then, every row st
 
 ---
 
-**Mythara Project** (Mythara Labs LLC: formation filing attempted Sept 27, 2026 — not confirmed; entity not yet formed)  
+**Mythara Project** (Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831))  
 **Next step:** commission an independent evaluation before any public product launch.

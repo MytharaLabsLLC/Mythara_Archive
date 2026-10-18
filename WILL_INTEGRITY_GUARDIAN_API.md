@@ -288,7 +288,7 @@ python test_extortion_api.py              # planned
 ## Support
 
 For technical support or questions about emotional extortion detection:
-- Email: Mythara.Engine@yahoo.com
+- Email: MytharaLabsLLC@yahoo.com
 - Documentation: https://mythara.dev/docs/emotional-extortion (planned, not live)
 
 ---

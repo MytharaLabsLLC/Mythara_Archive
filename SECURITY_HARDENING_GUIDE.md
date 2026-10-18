@@ -339,7 +339,7 @@ The hardening implementation aligns with:
 If you detect a security issue:
 
 1. **DO NOT** disclose publicly
-2. Email: Mythara.Engine@yahoo.com
+2. Email: MytharaLabsLLC@yahoo.com
 3. Include: Description, reproduction steps, impact assessment
 4. PGP key available in repository: `forensic_public_key.asc`
 

@@ -140,7 +140,7 @@ We maintain an automated test suite that attempts to break Mythara's cryptograph
 
 ## Incident Response
 
-- Security issues reported to: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)
+- Security issues reported to: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)
 - Acknowledgment within 24 hours (business days)
 - Remediation timeline: Critical < 7 days; High < 30 days; Medium < 90 days
 - Coordinated disclosure with customers under active engagement
@@ -176,7 +176,7 @@ Mythara Engine is built for enterprise and regulated deployments where integrity
 - Align with industry standards and regulatory frameworks
 
 For security inquiries or to request detailed artifacts, contact:  
-**[Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)**
+**[MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)**
 
 ---
 

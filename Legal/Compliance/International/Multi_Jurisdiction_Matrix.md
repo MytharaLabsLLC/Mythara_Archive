@@ -202,4 +202,4 @@ The earlier draft rated most jurisdictions 🟢 LOW on the basis of compliance t
 
 ---
 
-**Mythara Project** (Mythara Labs LLC: formation filing attempted Sept 27, 2026 — not confirmed; entity not yet formed)
+**Mythara Project** (Mythara Labs LLC: Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831))

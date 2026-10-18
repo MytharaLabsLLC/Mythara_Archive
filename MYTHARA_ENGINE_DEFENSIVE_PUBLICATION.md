@@ -335,7 +335,7 @@ This defensive publication asserts prior art as of **November 19, 2025**. Any pa
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 This publication does NOT constitute an open-source license or dedication to the public domain. All commercial rights reserved.
 
-**Contact:** Mythara.Engine@yahoo.com  
+**Contact:** MytharaLabsLLC@yahoo.com  
 **Repository:** https://github.com/herbievelezjr/Mythara_Archive  
 **Publication URL:** [To be posted on personal website + archived at Internet Archive]
 

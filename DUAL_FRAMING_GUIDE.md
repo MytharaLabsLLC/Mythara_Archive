@@ -323,7 +323,7 @@ async def reservoir_status(api_key: str = Depends(verify_api_key), frame: Option
 
 For questions about dual-framing implementation, enterprise integration, or custom framing profiles:
 
-- **Technical Support**: Mythara.Engine@yahoo.com
+- **Technical Support**: MytharaLabsLLC@yahoo.com
 - **Enterprise Sales**: Contact Herb directly
 - **API Documentation**: https://your-deployment-url/api/docs
 

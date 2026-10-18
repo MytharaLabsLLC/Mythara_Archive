@@ -34,7 +34,7 @@ Limited to the first 20 early-adopter seats (offer cap — no pilots running).
 15-minute call this week to walk you through a sample audit log?
 
 — Herbert Velez Jr.  
-mythara.engine@yahoo.com  
+MytharaLabsLLC@yahoo.com  
 GitHub: https://github.com/herbievelezjr/Mythara_Archive
 
 ---
@@ -63,7 +63,7 @@ First 20 healthcare early-adopter seats only (offer cap).
 15-minute call to show you a sample invocation log?
 
 — Herbert Velez Jr.  
-mythara.engine@yahoo.com  
+MytharaLabsLLC@yahoo.com  
 GitHub: https://github.com/herbievelezjr/Mythara_Archive
 
 ---
@@ -92,7 +92,7 @@ First 20 early-adopter seats (offer cap).
 Quick 15-minute call to walk through?
 
 — Herbert Velez Jr.  
-mythara.engine@yahoo.com  
+MytharaLabsLLC@yahoo.com  
 GitHub: https://github.com/herbievelezjr/Mythara_Archive
 
 ---

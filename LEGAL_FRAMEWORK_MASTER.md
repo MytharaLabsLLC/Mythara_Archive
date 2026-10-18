@@ -262,7 +262,7 @@ No indemnification is currently offered on any tier. No insurance backs this sof
 
 ## 5. ENTITY NAME CONSISTENCY
 
-> **Status note (Sept 27, 2026):** Articles of Organization for Mythara Labs LLC filing was **attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; formation incomplete**. Until formation completes, LICENSE.md and COPYRIGHT.md continue to name Herbert Velez Jr. as sole proprietor with no company behind the software. The "Option A (form the LLC)" recommendation below is **now in progress**.
+> **Status note (updated 2026-10-18):** Articles of Organization for Mythara Labs LLC were filed with the Colorado Secretary of State on September 27, 2026; the LLC was formed on October 4, 2026 (CO SOS ID #20268239831). LICENSE.md and COPYRIGHT.md name Mythara Labs LLC. The "Option A (form the LLC)" recommendation below is **complete**.
 
 **IMMEDIATE CORRECTION REQUIRED:**
 
@@ -287,7 +287,7 @@ All documents must use CONSISTENT entity name:
 - Costs: formation costs per the Colorado Secretary of State's current schedule (verify before budgeting — the prior California figures, including the $800/year franchise tax, do not apply)
 
 **IMPLEMENTATION:**
-1. Complete LLC formation — Articles of Organization filing attempted with the Colorado Secretary of State on September 27, 2026 (not confirmed); confirm acceptance and complete remaining steps
+1. Complete LLC formation — DONE: Articles of Organization filed with the Colorado Secretary of State on September 27, 2026; LLC formed October 4, 2026 (CO SOS ID #20268239831)
 2. Obtain EIN from IRS
 3. Transfer IP via assignment agreement (Herbert Velez Jr. → Mythara Labs LLC)
 4. Update all documents (LICENSE.md, COPYRIGHT.md, core/static/terms.html, contracts)
@@ -342,10 +342,10 @@ All documents must use CONSISTENT entity name:
 
 ### Short-term (Before any customer signs):
 - [ ] Form Soul Cradle Foundation (planned 501(c)(3) nonprofit — not yet formed)
-- [x] Draft IP assignment agreement (Herbert Velez Jr. → Mythara Labs LLC upon formation — template at `Legal/IP_Assignment_Agreement.md`; awaiting counsel review; Articles of Organization filing attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; formation incomplete)
+- [x] Draft IP assignment agreement (Herbert Velez Jr. → Mythara Labs LLC upon formation — template at `Legal/IP_Assignment_Agreement.md`; awaiting counsel review; LLC formed October 4, 2026 (CO SOS ID #20268239831))
 - [ ] Obtain E&O and cyber liability insurance (backs indemnification) — no insurance currently maintained; obtain only if indemnification is introduced in future
 - [ ] Retain attorney to review complete legal framework
-- [x] LICENSE.md now reflects the actual structure (Herbert Velez Jr.; no company formed — LLC formation filing attempted Sept 27, 2026 — not confirmed; entity not yet formed) — supersedes the original "dual-entity" update item
+- [x] LICENSE.md now reflects the actual structure (Mythara Labs LLC — Colorado domestic LLC, filed 2026-10-04; CO SOS ID #20268239831) — supersedes the original "dual-entity" update item
 
 ### Medium-term (Operational):
 - [ ] Create foundation application process and qualification criteria
@@ -376,7 +376,7 @@ All documents must use CONSISTENT entity name:
 Herbert Velez Jr. / Mythara Enterprise should retain qualified legal counsel licensed in Colorado to:
 1. Review and approve this framework
 2. Draft enforceable contracts
-3. Complete entity formation (LLC formation in progress in Colorado — filing attempted Sept 27, 2026 — not confirmed; entity not yet formed; Foundation not formed)
+3. Complete entity formation — DONE (Mythara Labs LLC formed 2026-10-04, CO SOS ID #20268239831; Foundation not formed — tabled)
 4. Negotiate insurance policies
 5. Ensure compliance with all applicable laws
 

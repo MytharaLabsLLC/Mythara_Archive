@@ -108,6 +108,5 @@ Output lands in `Commercial/assets/glyphs_png/` (dark/light/brand × 32/64/128/2
 ## License
 
 All glyphs are proprietary assets of Herbert Velez Jr. (Mythara Labs LLC —
-formation filing attempted with the Colorado Secretary of State on 2026-09-27 — not confirmed;
-entity not yet formed; sole member Herbert Velez Jr.). Do not distribute outside of
+Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831); sole member Herbert Velez Jr.). Do not distribute outside of
 Mythara commercial materials.

@@ -298,7 +298,7 @@ Recommended additions:
 
 ## 📞 Support & Security Response
 
-**Security Issues**: Mythara.Engine@yahoo.com  
+**Security Issues**: MytharaLabsLLC@yahoo.com  
 **PGP Key**: `forensic_public_key.asc` in repository  
 
 **Response SLA**:

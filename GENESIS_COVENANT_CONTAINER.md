@@ -71,4 +71,4 @@ curl -s -X POST http://localhost:8000/v1/clauses/invoke \
 - Do not attempt to reverse engineer the container or extract internal components. The pilot is for evaluation only under the Pilot License Policy.
 - For air‑gapped deployments or Sovereign tier, we provide an isolated image and audit role enablement.
 
-Questions? Mythara.Engine@yahoo.com
+Questions? MytharaLabsLLC@yahoo.com

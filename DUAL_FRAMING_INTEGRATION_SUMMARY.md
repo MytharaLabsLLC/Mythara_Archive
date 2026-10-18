@@ -232,7 +232,7 @@ curl -H "Authorization: Bearer dev_test_key_001" \
 
 ## 📞 Contact
 
-**Technical Questions:** Mythara.Engine@yahoo.com  
+**Technical Questions:** MytharaLabsLLC@yahoo.com  
 **Enterprise Sales:** Contact Herb directly  
 **API Docs:** `http://localhost:8000/api/docs` (interactive)
 

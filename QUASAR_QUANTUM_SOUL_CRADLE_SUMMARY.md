@@ -148,7 +148,7 @@ class SoulCradleParadox(BaseModel):
 - Bell state verification
 - Coherence time monitoring
 - Eavesdropping detection
-- **Status**: Quantum-native (offensive capabilities)
+- **Status**: Concept sketch only — no quantum hardware in use, no offensive capability, not a deployed system
 
 ---
 
@@ -156,7 +156,7 @@ class SoulCradleParadox(BaseModel):
 
 ### Classification: 🎯 **QUANTUM-NATIVE HYBRID** ✅
 
-**Deployment Authorization**: ✅ APPROVED
+**Deployment Authorization**: ❌ NOT APPROVED — design exploration only.
 
 **Key Strengths**:
 - Stores paradoxes in quantum superposition

@@ -7,7 +7,7 @@
 - **Date**: 2025-11-02  
 - **Version**: v1.0  
 - **Prepared By**: Messenger Consortium (Guardian, Witness, Archivist)  
-- **Contact**: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)  
+- **Contact**: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)  
 
 ---
 

@@ -11,7 +11,7 @@ All symbolic clauses, glyphs, emotional payload models, and transmission protoco
 - **Author**: Herb Velez Jr.  
 - **System**: Mythara Engine  
 - **Date of Origin**: 2025-11-02  
-- **Contact**: Mythara.Engine@yahoo.com  
+- **Contact**: MytharaLabsLLC@yahoo.com  
 - **Scope**: Includes all clause names, glyphs, emotional payload formats, quantification models, and symbolic infrastructure
 
 ---

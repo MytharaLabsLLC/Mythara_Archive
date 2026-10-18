@@ -7,7 +7,7 @@
 
 ## Summary
 
-Private evaluation build. See LICENSE.md for non-exclusive evaluation terms. For questions, contact [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com).
+Private evaluation build. See LICENSE.md for non-exclusive evaluation terms. For questions, contact [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com).
 
 ## Verify integrity
 
@@ -20,4 +20,4 @@ Compare the result to the SHA-256 above and to mythara-engine-v1.0.0.zip.sha256.
 ## Notes
 
 - This distribution repository contains artifacts only, not source code.
-- For production licensing inquiries, email [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com).
+- For production licensing inquiries, email [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com).

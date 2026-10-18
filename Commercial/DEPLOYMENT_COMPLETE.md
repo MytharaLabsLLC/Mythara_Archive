@@ -267,7 +267,7 @@ py -3.11 weekly_analytics_report.py
 ## 📞 Support
 
 **Issues or Questions?**
-- Email: Mythara.Engine@yahoo.com
+- Email: MytharaLabsLLC@yahoo.com
 - Review logs in script folder
 - Check Task Scheduler history
 - Re-run deployment: `py -3.11 deploy_ai_team.py`

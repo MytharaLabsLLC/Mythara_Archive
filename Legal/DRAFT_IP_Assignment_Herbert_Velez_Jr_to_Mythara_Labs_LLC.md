@@ -7,8 +7,7 @@
 > signature below means no assignment has occurred.**
 >
 > Articles of Organization filing for Mythara Labs LLC was attempted with the Colorado
-> Secretary of State on **September 27, 2026** — not confirmed; formation is **incomplete**;
-> the entity is **not yet formed**. This assignment becomes effective **only upon the legal
+> Secretary of State on **September 27, 2026**; the LLC was formed on **October 4, 2026** (CO SOS ID #20268239831). This assignment becomes effective **only upon the legal
 > formation of Mythara Labs LLC** (see Section 2). If the LLC is never formed,
 > this draft has no effect.
 >

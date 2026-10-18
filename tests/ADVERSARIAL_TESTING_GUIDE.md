@@ -198,4 +198,4 @@ For production readiness:
 
 ## Contact
 
-- Security issues: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com) (private disclosure)
+- Security issues: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com) (private disclosure)

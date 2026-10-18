@@ -10,7 +10,7 @@ This repository is for authorized licensees to download evaluation artifacts onl
 
 - License: Non-exclusive, non-transferable, revocable evaluation license as defined in LICENSE.md.
 - Primary artifacts: Releases → mythara-engine-v1.0.0.zip and mythara-engine-v1.0.0.zip.sha256
-- Contact: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)
+- Contact: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)
 
 ## Verify the artifact hash
 
@@ -29,4 +29,4 @@ Compare to the SHA-256 value in mythara-engine-v1.0.0.zip.sha256 and the release
 
 ## Support
 
-- Licensing and support: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)
+- Licensing and support: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)

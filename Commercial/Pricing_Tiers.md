@@ -28,4 +28,4 @@ Visual, glyph-labeled pricing for audits, subscriptions, enterprise licenses, an
 - Pilot: 4–8 weeks; credited toward annual if converted  
 - Sovereign/On-Prem: Escrow + rebuild instructions included
 
-For custom quotes or multi-year terms, contact: Mythara.Engine@yahoo.com
+For custom quotes or multi-year terms, contact: MytharaLabsLLC@yahoo.com

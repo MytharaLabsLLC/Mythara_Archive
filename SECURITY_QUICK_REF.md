@@ -151,7 +151,7 @@ for i in {1..100}; do curl -H "Authorization: Bearer key" localhost:8000/health;
 
 **Security incident detected?**
 
-1. Email: Mythara.Engine@yahoo.com
+1. Email: MytharaLabsLLC@yahoo.com
 2. Include: IP, timestamp, attack type
 3. Use PGP: `forensic_public_key.asc`
 

@@ -537,7 +537,7 @@ Recommendation: HIGH RISK: Schedule weekly check-ins...
 
 Questions about Systems Framework integration?
 
-- **Email**: Mythara.Engine@yahoo.com
+- **Email**: MytharaLabsLLC@yahoo.com
 - **Documentation**: See `soul_cradle_systems_framework.py` source code
 - **API Docs**: https://api.mythara.com/api/docs (planned, not live)
 

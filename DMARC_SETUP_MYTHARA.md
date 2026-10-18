@@ -211,7 +211,7 @@ nslookup -type=CNAME s2._domainkey.mythara.io
 ## Current Email Bot Integration
 
 Your email bot already uses:
-- **Yahoo Mail (IMAP)**: mythara.engine@yahoo.com (for receiving)
+- **Yahoo Mail (IMAP)**: MytharaLabsLLC@yahoo.com (for receiving)
 - **SendGrid (SMTP)**: For sending (API key in .env)
 
 **After DMARC setup:**

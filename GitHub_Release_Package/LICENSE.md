@@ -39,7 +39,7 @@ Evaluation use does NOT constitute a license for production deployment.
 To obtain a production license, contact:
 
 **Herbert Velez Jr.**  
-Email: Mythara.Engine@yahoo.com  
+Email: MytharaLabsLLC@yahoo.com  
 PGP: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 
 ### Available License Types

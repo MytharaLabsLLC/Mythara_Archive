@@ -15,7 +15,7 @@ I build AI that can answer for itself — hash-chained proof of every action, de
 Worth a 15-minute call next week, or am I off base?
 
 —
-Herbert Velez Jr. — Mythara (mythara.engine@yahoo.com)
+Herbert Velez Jr. — Mythara (MytharaLabsLLC@yahoo.com)
 You're getting this because I researched your work and thought this might be useful. If I'm wrong, reply 'stop' and I'll never email you again.
 
 ---
@@ -35,7 +35,7 @@ I build AI that can answer for itself — hash-chained proof of every action, de
 Worth a 15-minute call next week, or am I off base?
 
 —
-Herbert Velez Jr. — Mythara (mythara.engine@yahoo.com)
+Herbert Velez Jr. — Mythara (MytharaLabsLLC@yahoo.com)
 You're getting this because I researched your work and thought this might be useful. If I'm wrong, reply 'stop' and I'll never email you again.
 
 ---
@@ -55,7 +55,7 @@ I build AI that can answer for itself — hash-chained proof of every action, de
 Worth a 15-minute call next week, or am I off base?
 
 —
-Herbert Velez Jr. — Mythara (mythara.engine@yahoo.com)
+Herbert Velez Jr. — Mythara (MytharaLabsLLC@yahoo.com)
 You're getting this because I researched your work and thought this might be useful. If I'm wrong, reply 'stop' and I'll never email you again.
 
 ---
@@ -75,7 +75,7 @@ I build AI that can answer for itself — hash-chained proof of every action, de
 Worth a 15-minute call next week, or am I off base?
 
 —
-Herbert Velez Jr. — Mythara (mythara.engine@yahoo.com)
+Herbert Velez Jr. — Mythara (MytharaLabsLLC@yahoo.com)
 You're getting this because I researched your work and thought this might be useful. If I'm wrong, reply 'stop' and I'll never email you again.
 
 ---
@@ -95,7 +95,7 @@ I build AI that can answer for itself — hash-chained proof of every action, de
 Worth a 15-minute call next week, or am I off base?
 
 —
-Herbert Velez Jr. — Mythara (mythara.engine@yahoo.com)
+Herbert Velez Jr. — Mythara (MytharaLabsLLC@yahoo.com)
 You're getting this because I researched your work and thought this might be useful. If I'm wrong, reply 'stop' and I'll never email you again.
 
 ---
@@ -115,7 +115,7 @@ I build AI that can answer for itself — hash-chained proof of every action, de
 Worth a 15-minute call next week, or am I off base?
 
 —
-Herbert Velez Jr. — Mythara (mythara.engine@yahoo.com)
+Herbert Velez Jr. — Mythara (MytharaLabsLLC@yahoo.com)
 You're getting this because I researched your work and thought this might be useful. If I'm wrong, reply 'stop' and I'll never email you again.
 
 ---
@@ -135,7 +135,7 @@ I build AI that can answer for itself — hash-chained proof of every action, de
 Worth a 15-minute call next week, or am I off base?
 
 —
-Herbert Velez Jr. — Mythara (mythara.engine@yahoo.com)
+Herbert Velez Jr. — Mythara (MytharaLabsLLC@yahoo.com)
 You're getting this because I researched your work and thought this might be useful. If I'm wrong, reply 'stop' and I'll never email you again.
 
 ---

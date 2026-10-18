@@ -5,7 +5,7 @@
 > **Pricing status (2026-09-27):** Target price schedule from November 2025 — no sales have been made at these or any other prices. As of September 2026: no revenue, no paying customers, no licenses sold. Review before quoting.
 
 **Effective:** November 2025  
-**Contact:** Herbievelezjr@gmail.com | Mythara.Engine@yahoo.com
+**Contact:** Herbievelezjr@gmail.com | MytharaLabsLLC@yahoo.com
 
 ---
 
@@ -206,7 +206,7 @@ Sales orgs closing $1M+ annually, high-volume outbound
 
 **Contact Herbert Velez Jr.**  
 📧 Herbievelezjr@gmail.com  
-💼 Mythara.Engine@yahoo.com  
+💼 MytharaLabsLLC@yahoo.com  
 📅 Schedule a call: Request via email
 
 **Want to see it in action?**  

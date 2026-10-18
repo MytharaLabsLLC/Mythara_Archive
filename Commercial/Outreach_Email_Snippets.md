@@ -20,7 +20,7 @@ Typical buyers: <insert relevant buyer title, e.g., Head of Model Risk / Functio
 If helpful, I'll grant your team read-only access to the repo and share a brief walk-through. Are you open to a 30-minute discovery next week to map success criteria?
 
 — Herbert  
-mythara.engine@yahoo.com
+MytharaLabsLLC@yahoo.com
 
 ## Follow-up #1 (value + CTA)
 

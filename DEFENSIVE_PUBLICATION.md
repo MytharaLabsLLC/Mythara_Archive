@@ -899,7 +899,7 @@ To verify the authenticity and timestamp of this publication:
 ### Contact Information
 
 **Inventor:** Herbert Velez Jr.  
-**Email:** Mythara.Engine@yahoo.com  
+**Email:** MytharaLabsLLC@yahoo.com  
 **PGP Key ID:** 571F FB4C CCFA DCF A44A 63F6 D968 C2D5 DBE2 486C
 
 For patent licensing inquiries, technical clarifications, or legal matters related to these inventions, contact the above email with PGP-encrypted communications preferred.

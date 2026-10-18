@@ -14,7 +14,7 @@ INVOICE
 From:
 Herbert Velez Jr.
 Mythara Engine
-Mythara.Engine@yahoo.com
+MytharaLabsLLC@yahoo.com
 [Your Address]
 [City, State ZIP]
 
@@ -65,7 +65,7 @@ Check (if needed):
   Mail to: [Your Address]
 
 Zelle/Venmo (for small amounts):
-  Zelle: Mythara.Engine@yahoo.com
+  Zelle: MytharaLabsLLC@yahoo.com
   Venmo: @[YourHandle] (if applicable)
 
 PayPal (add 3% processing fee):
@@ -77,7 +77,7 @@ TERMS:
 - Payment due within 15 days of invoice date (Net 15)
 - Late payments subject to 1.5% monthly interest
 - W-9 available upon request
-- Questions? Email Mythara.Engine@yahoo.com
+- Questions? Email MytharaLabsLLC@yahoo.com
 
 Thank you for your business!
 
@@ -227,7 +227,7 @@ Let me know if your team has any questions — happy to jump on a call to help w
 Looking forward to working together!
 
 — Herbert Velez Jr.  
-Mythara.Engine@yahoo.com
+MytharaLabsLLC@yahoo.com
 
 ---
 

@@ -1,11 +1,11 @@
-# 🎯 Quick Reference: Emotional Extortion Detection Sales
+# 🎯 Quick Reference: Manipulation-Pattern Flagging Sales
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**
 
 ---
 
 ## 30-Second Elevator Pitch
-"Mythara detects emotional manipulation—guilt, shame, fear, gaslighting—in AI outputs and human communications. We score it 0-1, so you can validate genuine consent vs. coerced compliance. Protects you from EU AI Act fines (€30M), brand damage, and HR lawsuits."
+"Mythara flags manipulation patterns — guilt, shame, fear, gaslighting — in AI outputs and human communications as heuristic markers on evidence, scored 0–1, so you can review genuine consent vs. coerced compliance. Records are witness-attested and hash-chained; markers are flags for human review, not findings of fact."
 
 ---
 

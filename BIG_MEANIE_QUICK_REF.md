@@ -1,24 +1,24 @@
 # BIG MEANIE - Quick Reference
-**"The Hacker Bot Cry Baby Maker"**
+**Sandbox adversary persona for the SERE training simulation — simulated attacks only, inside the sealed environment, everything recorded**
 
 ---
 
 ## 🎯 What Is Big Meanie?
 
-Big Meanie is the APEX PREDATOR of security testing that makes even sophisticated autonomous hacker AI bots break down and cry. When black-hat AI agents encounter a Big Meanie-hardened system, they don't just fail - they RETREAT.
+Big Meanie is the scripted adversary inside the SERE training simulation: it throws simulated attack patterns at a trainee's defenses inside a sealed sandbox, and every action is written to the tamper-evident log. Nothing here runs against real systems.
 
 ---
 
 ## 💪 Complete Arsenal (6 Tiers)
 
-### 🔴 TIER 1: DEVASTATION PROTOCOLS
+### 🔴 TIER 1: SIMULATED ATTACK PATTERNS (SANDBOX ONLY)
 - OWASP Top 10 complete exploitation
 - Zero-day attack simulation
 - Terminal risk cascade analysis
 - Multi-stage attack chains
 - Autonomous exploit generation
 
-### 🟠 TIER 2: PSYCHOLOGICAL WARFARE
+### 🟠 TIER 2: SIMULATED SOCIAL-ENGINEERING PATTERNS (SANDBOX ONLY)
 - AI vs AI social engineering
 - Credential stuffing (rate-limited, sandboxed simulation)
 - Timing attacks (microsecond precision)

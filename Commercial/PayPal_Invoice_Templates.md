@@ -171,7 +171,7 @@ Full source code access with rebuild rights and perpetual license.
 
 **Payment Terms**: Due upon receipt  
 **Accepted Methods**: PayPal, Wire Transfer, ACH, Cryptocurrency (BTC/ETH/USDC)  
-**Business Email**: Mythara.Engine@yahoo.com  
+**Business Email**: MytharaLabsLLC@yahoo.com  
 **Support**: Herbievelezjr@gmail.com
 
 **Volume Discounts**:

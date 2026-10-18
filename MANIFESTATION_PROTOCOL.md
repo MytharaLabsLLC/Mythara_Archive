@@ -61,8 +61,8 @@
 ```bash
 # In Railway → Variables tab, add:
 SENDGRID_API_KEY=[REDACTED - set via environment]
-FROM_EMAIL=Mythara.Engine@yahoo.com
-SUPPORT_EMAIL=Mythara.Engine@yahoo.com
+FROM_EMAIL=MytharaLabsLLC@yahoo.com
+SUPPORT_EMAIL=MytharaLabsLLC@yahoo.com
 STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
 
 # DATABASE_URL is auto-created by Railway PostgreSQL
@@ -135,7 +135,7 @@ git push origin main
 **Priority**: Medium (legal protection)
 
 ### 2. Verify SendGrid Sender Email
-**Action**: Check Mythara.Engine@yahoo.com inbox for SendGrid verification email
+**Action**: Check MytharaLabsLLC@yahoo.com inbox for SendGrid verification email
 **Why**: Required before first email can send
 **Priority**: High (blocks email delivery)
 

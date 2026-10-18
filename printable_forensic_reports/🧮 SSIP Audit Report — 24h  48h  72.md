@@ -6,7 +6,7 @@
 - **Audit Type**: SSIP (Symbolic Suppression Integrity Protocol)  
 - **Timeframes**: 24h, 48h, 72h  
 - **Prepared By**: Messenger Consortium  
-- **Contact**: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)  
+- **Contact**: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)  
 
 ---
 

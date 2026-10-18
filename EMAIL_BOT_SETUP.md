@@ -74,7 +74,7 @@ Open a draft file, review/edit it, then copy-paste into Yahoo Mail to send.
 
 ## How It Works
 
-1. **Connects** to mythara.engine@yahoo.com via IMAP (read-only)
+1. **Connects** to MytharaLabsLLC@yahoo.com via IMAP (read-only)
 2. **Fetches** unread emails
 3. **Classifies** each email:
    - Pilot inquiry → sends pilot delivery template

@@ -1,8 +1,7 @@
-# Mythara Engine — Mythara Labs LLC (formation filing attempted 2026-09-27 — not confirmed; not formed)
+# Mythara Engine — Mythara Labs LLC (Colorado domestic LLC, filed 2026-10-04; CO SOS ID #20268239831)
 
 > **Entity note:** Mythara Labs LLC, a Colorado domestic limited liability
-> company — formation (Articles of Organization) filing attempted with the Colorado
-> Secretary of State on September 27, 2026 — not confirmed; entity not yet formed;
+> company — Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831);
 > member-managed; sole member and organizer: Herbert Velez Jr.
 
 > ## ⚠️ INVESTOR NOTICE — READ FIRST
@@ -125,7 +124,7 @@ All pricing is the founder's plan. No licenses have been sold.
 ## Contact & Next Steps
 
 **Herbert Velez Jr., Founder and Sole Member, Mythara Labs LLC**
-(formation filing attempted with the Colorado Secretary of State on September 27, 2026 — not confirmed; not formed)
+(Colorado domestic LLC, filed 2026-10-04; CO SOS ID #20268239831)
 Email: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)
 PGP Fingerprint: `571F FB4C CCFA DCF A44A  63F6 D968 C2D5 DBE2 486C`
 

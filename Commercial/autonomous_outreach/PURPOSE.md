@@ -29,7 +29,7 @@ the replies, and owns every send.
    CAN-SPAM postal address. The default is dry-run: nothing leaves the
    machine until Herb says so.
 3. **The machine hears now.** Replies are read from the Yahoo inbox via
-   IMAP — where responses to mythara.engine@yahoo.com actually land. If the
+   IMAP — where responses to MytharaLabsLLC@yahoo.com actually land. If the
    inbox can't be read, the run says so loudly instead of assuming
    silence.
 4. **The operator gets a brief, not a JSONL dump.** Every run writes

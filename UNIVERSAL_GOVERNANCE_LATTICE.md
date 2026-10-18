@@ -459,7 +459,7 @@ This compliance framework provides **technical validation tools** to assist with
 5. **Documentation**: Maintain complete documentation of compliance efforts
 6. **Remediation**: Address identified violations promptly
 
-**Mythara Labs LLC (formation filing attempted with the Colorado SOS on 2026-09-27 — not confirmed; entity not yet formed) does not provide legal advice.** Use of this compliance framework does not guarantee regulatory compliance. Organizations must implement comprehensive compliance programs that include administrative, physical, and technical safeguards.
+**Mythara Labs LLC (Colorado domestic LLC, filed 2026-10-04 (CO SOS ID #20268239831)) does not provide legal advice.** Use of this compliance framework does not guarantee regulatory compliance. Organizations must implement comprehensive compliance programs that include administrative, physical, and technical safeguards.
 
 ---
 
@@ -471,7 +471,7 @@ This compliance framework provides **technical validation tools** to assist with
 - SSIP Framework: `Mythara_Archive/README.md`
 
 ### Contact
-- **Email**: Mythara.Engine@yahoo.com
+- **Email**: MytharaLabsLLC@yahoo.com
 - **Enterprise Support**: Herbert Velez Jr.
 - **Proposed pricing** (aspirational, not currently offered): $60,000/year
 

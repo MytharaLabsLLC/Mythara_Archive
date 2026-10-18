@@ -23,7 +23,7 @@ Would a 30-day pilot be valuable ahead of your next contract submission? I can h
 Best,  
 Herbert Velez Jr.  
 
-Mythara.Engine@yahoo.com  
+MytharaLabsLLC@yahoo.com  
 Enterprise: $60K/year (firm pricing; trial is the evaluation period)
 
 ---
@@ -50,7 +50,7 @@ Worth a quick run-through this month before your next exam window?
 Best,  
 Herbert Velez Jr.  
 
-Mythara.Engine@yahoo.com  
+MytharaLabsLLC@yahoo.com  
 Enterprise: $60K/year
 
 ---
@@ -75,7 +75,7 @@ Teams usually go from manual compliance checks to signed, verifiable reports in 
 Best,  
 Herbert Velez Jr.  
 
-Mythara.Engine@yahoo.com  
+MytharaLabsLLC@yahoo.com  
 Enterprise: $60K/year (firm; no discounts)
 
 ---
@@ -119,7 +119,7 @@ In the meantime, best of luck with [specific initiative you mentioned in first e
 Best,  
 Herbert Velez Jr.  
 
-Mythara.Engine@yahoo.com
+MytharaLabsLLC@yahoo.com
 
 ---
 
@@ -137,7 +137,7 @@ Mythara.Engine@yahoo.com
 1. Copy the template text
 2. Replace [placeholders] with actual names, dates, prices
 3. Paste into your email client (Yahoo Mail, Gmail, Outlook, etc.)
-4. Send from Mythara.Engine@yahoo.com
+4. Send from MytharaLabsLLC@yahoo.com
 
 **Compute current price for each prospect:**
 ```bash

@@ -37,7 +37,7 @@ Usage boundaries (summary)
 - Not allowed: Production use without a signed production license; redistribution; sublicensing; publishing or sharing to third parties; creating derivative works without written consent.
 
 Support and security
-- Licensing and support: Mythara.Engine@yahoo.com
+- Licensing and support: MytharaLabsLLC@yahoo.com
 - Please report any suspected vulnerabilities privately to the same address.
 
 Next steps
@@ -49,4 +49,4 @@ Thank you,
 
 Herbert Velez Jr.  
 Owner, Mythara Engine  
-Mythara.Engine@yahoo.com
+MytharaLabsLLC@yahoo.com

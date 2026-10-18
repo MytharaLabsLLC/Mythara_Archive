@@ -218,7 +218,7 @@ After implementation, target metrics:
 ## 📞 Contact for Implementation
 
 **Engineering Lead**: Herbert Velez Jr.  
-**Email**: Mythara.Engine@yahoo.com  
+**Email**: MytharaLabsLLC@yahoo.com  
 **Priority**: HIGH - Implement before public launch
 
 ---

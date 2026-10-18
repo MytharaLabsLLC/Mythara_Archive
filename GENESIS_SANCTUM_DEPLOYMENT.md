@@ -312,7 +312,7 @@ Azure Monitor: https://portal.azure.com/#blade/Microsoft_Azure_Monitoring
 - ✅ Custom integrations
 - ✅ Multi-region deployment
 
-**Contact:** Mythara.Engine@yahoo.com
+**Contact:** MytharaLabsLLC@yahoo.com
 
 ---
 
@@ -321,7 +321,7 @@ Azure Monitor: https://portal.azure.com/#blade/Microsoft_Azure_Monitoring
 ### "License key invalid"
 - Check your email for the correct license key
 - Ensure no extra spaces or line breaks
-- Contact support: Mythara.Engine@yahoo.com
+- Contact support: MytharaLabsLLC@yahoo.com
 
 ### "Port already in use"
 - Change PORT environment variable: `PORT=8001`
@@ -345,7 +345,7 @@ Azure Monitor: https://portal.azure.com/#blade/Microsoft_Azure_Monitoring
 **Pilot Tier (Self-Hosted):**
 - GitHub Issues: https://github.com/herbievelezjr/Mythara_Archive/issues
 - Community Discord: [Coming Soon]
-- Email: Mythara.Engine@yahoo.com (best effort)
+- Email: MytharaLabsLLC@yahoo.com (best effort)
 
 **Enterprise Tier:**
 - 24/7 Priority Support
@@ -366,7 +366,7 @@ Azure Monitor: https://portal.azure.com/#blade/Microsoft_Azure_Monitoring
 
 ---
 
-**Questions?** Email Mythara.Engine@yahoo.com
+**Questions?** Email MytharaLabsLLC@yahoo.com
 
 **Ready to upgrade?** Contact sales for Enterprise tier ($25K+/year) with fully managed hosting.
 

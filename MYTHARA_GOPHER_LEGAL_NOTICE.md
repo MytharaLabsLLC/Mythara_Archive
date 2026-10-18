@@ -2,7 +2,7 @@
 
 **Copyright © 2025 Herbert Velez Jr. All rights reserved.**  
 **Effective Date:** November 19, 2025  
-**Contact:** Mythara.Engine@yahoo.com
+**Contact:** MytharaLabsLLC@yahoo.com
 
 > **Document status (2026-09-27):** Draft legal notice template from 2025. Not reviewed by a licensed attorney — treat as a starting template, not as executed legal terms. Compliance sections already state no certifications are held; patent applications were never filed.
 
@@ -131,7 +131,7 @@ You have the right to:
 - **Deletion requests:** Request deletion of non-essential data (subject to legal retention requirements and ongoing litigation holds)
 - **Opt-out of analytics:** Exclude your data from aggregate analytics and AI training (does not affect core paradox detection functionality)
 
-**To exercise these rights, contact:** Mythara.Engine@yahoo.com
+**To exercise these rights, contact:** MytharaLabsLLC@yahoo.com
 
 ### 8. Security & Breach Notification
 
@@ -183,7 +183,7 @@ You have the right to:
 - Opt out of "sale" of personal information (we don't sell data)
 - Non-discrimination for exercising privacy rights
 
-**To exercise CCPA/CPRA rights:** Email Mythara.Engine@yahoo.com with "California Privacy Request" in subject line.
+**To exercise CCPA/CPRA rights:** Email MytharaLabsLLC@yahoo.com with "California Privacy Request" in subject line.
 
 ### 12. Changes to This Agreement
 
@@ -213,7 +213,7 @@ Disputes arising from this agreement or use of Mythara Gopher shall be resolved 
 
 **Severability:** If any court finds the class action waiver unenforceable, the arbitration agreement remains valid and enforceable for individual claims. If arbitration is deemed unenforceable, disputes will be resolved in California state or federal courts with jurisdiction over our principal place of business.
 
-**Opt-Out:** You may opt out of arbitration by emailing Mythara.Engine@yahoo.com within 30 days of account creation with "Arbitration Opt-Out" in the subject line.
+**Opt-Out:** You may opt out of arbitration by emailing MytharaLabsLLC@yahoo.com within 30 days of account creation with "Arbitration Opt-Out" in the subject line.
 
 ### 14. Limitation of Liability
 
@@ -294,10 +294,10 @@ If you are experiencing:
 
 ### 19. Contact Information
 
-**General Inquiries:** Mythara.Engine@yahoo.com  
-**Privacy Requests:** Mythara.Engine@yahoo.com (Subject: "Privacy Request")  
-**Security Concerns:** Mythara.Engine@yahoo.com (Subject: "Security Issue")  
-**Legal Compliance:** Mythara.Engine@yahoo.com (Subject: "Legal/Compliance")  
+**General Inquiries:** MytharaLabsLLC@yahoo.com  
+**Privacy Requests:** MytharaLabsLLC@yahoo.com (Subject: "Privacy Request")  
+**Security Concerns:** MytharaLabsLLC@yahoo.com (Subject: "Security Issue")  
+**Legal Compliance:** MytharaLabsLLC@yahoo.com (Subject: "Legal/Compliance")  
 
 **Mailing Address:**  
 Mythara Engine  

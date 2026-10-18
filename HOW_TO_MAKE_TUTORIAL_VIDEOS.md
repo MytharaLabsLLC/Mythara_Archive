@@ -112,7 +112,7 @@ civil service, education—the industries carrying impossible weight.
 
 Try it: $49 for 7 days. Full access. See if it fits your reality.
 
-Questions? Email Mythara.Engine@yahoo.com"
+Questions? Email MytharaLabsLLC@yahoo.com"
 ```
 
 **Length:** ~90 seconds  
@@ -152,7 +152,7 @@ And if you upgrade to Enterprise? That $49 gets credited back.
 
 So you're really just testing it with our money.
 
-Questions? Email Mythara.Engine@yahoo.com"
+Questions? Email MytharaLabsLLC@yahoo.com"
 ```
 
 **Length:** ~2 minutes  
@@ -201,7 +201,7 @@ It's included in every tier. No charge. *(Aspiration: the planned free tier for 
 
 Because some things shouldn't have a price.
 
-Questions? Email Mythara.Engine@yahoo.com"
+Questions? Email MytharaLabsLLC@yahoo.com"
 ```
 
 **Length:** ~3 minutes  

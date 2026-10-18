@@ -3,7 +3,7 @@
 # Security Policy
 
 - This repository and its artifacts are confidential. Do not share links or files externally.  
-- Report vulnerabilities privately to: [Mythara.Engine@yahoo.com](mailto:Mythara.Engine@yahoo.com)
+- Report vulnerabilities privately to: [MytharaLabsLLC@yahoo.com](mailto:MytharaLabsLLC@yahoo.com)
 
 ## Reporting a Vulnerability
 

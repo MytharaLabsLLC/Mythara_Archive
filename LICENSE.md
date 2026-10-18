@@ -43,7 +43,7 @@ time such an entity and program exist — not by this file.
 For licensing inquiries:
 
 **Herbert Velez Jr.**
-Email: <Mythara.Engine@yahoo.com>
+Email: <MytharaLabsLLC@yahoo.com>
 
 ---
 
