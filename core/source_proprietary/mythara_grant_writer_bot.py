@@ -6,6 +6,7 @@ Continuously searches for grants, analyzes winning examples, and writes applicat
 Focus: Infrastructure grants for dedicated servers and operations scaling
 """
 
+import os
 import sqlite3
 import hashlib
 import json
@@ -28,7 +29,9 @@ class MytharaGrantWriterBot:
     def __init__(self, db_path: str = "mythara_grants.db"):
         self.db_path = db_path
         self.conn = sqlite3.connect(db_path)
-        self.orchestrator_url = "http://localhost:5000"
+        self.orchestrator_url = os.getenv(
+            "MYTHARA_ORCHESTRATOR_URL", "http://localhost:5000"
+        )
         self._init_database()
         self._register_with_orchestrator()
 

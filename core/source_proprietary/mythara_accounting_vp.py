@@ -6,6 +6,7 @@ Autonomous financial accounting, bookkeeping, tax compliance, audit preparation,
 financial reporting, grant fund tracking, and regulatory compliance
 """
 
+import os
 import sqlite3
 import hashlib
 import json
@@ -18,7 +19,9 @@ class MytharaAccountingVP:
     def __init__(self, db_path: str = "mythara_accounting.db"):
         self.db_path = db_path
         self.conn = sqlite3.connect(db_path)
-        self.orchestrator_url = "http://localhost:5000"
+        self.orchestrator_url = os.getenv(
+            "MYTHARA_ORCHESTRATOR_URL", "http://localhost:5000"
+        )
         self._init_database()
         self._register_with_orchestrator()
 

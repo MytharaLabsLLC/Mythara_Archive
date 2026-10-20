@@ -723,9 +723,10 @@ class LaborEmploymentCompliance:
 
         # Check minimum wage
         federal_minimum_wage = 7.25  # As of 2025
-        if payroll_data.get("hourly_rate", 0) < federal_minimum_wage:
+        hourly_rate = payroll_data.get("hourly_rate", 0)
+        if hourly_rate < federal_minimum_wage:
             violations.append(
-                f"FLSA Violation: Hourly rate ${payroll_data['hourly_rate']} below federal minimum ${federal_minimum_wage}"
+                f"FLSA Violation: Hourly rate ${hourly_rate} below federal minimum ${federal_minimum_wage}"
             )
 
         # Check overtime pay
@@ -967,6 +968,259 @@ class CivilRightsAccessibilityCompliance:
 # ============================================================================
 
 
+# ---------------------------------------------------------------------------
+# Extended validators (added 2026-10-19). Previously 32 of 45 frameworks
+# fell through to a default that returned COMPLIANT unimplemented. These
+# evidence-presence validators cover them all; the dispatcher default is
+# now fail-closed. They verify required compliance evidence is present in
+# a submission — they are not legal determinations.
+# ---------------------------------------------------------------------------
+def _evidence_check(
+    framework_name: str,
+    data: Dict[str, Any],
+    required: Dict[str, str],
+    prohibited: Tuple[str, ...] = (),
+) -> Tuple[bool, List[str]]:
+    """Shared evidence check: prohibited fields present, or required
+    evidence fields missing/falsy, produce violations."""
+    violations: List[str] = []
+    for field in prohibited:
+        if data.get(field):
+            violations.append(
+                f"{framework_name} Violation: {field} must not be present"
+            )
+    for field, desc in required.items():
+        value = data.get(field)
+        if value is None or value == "" or value is False:
+            violations.append(f"{framework_name} Violation: {desc}")
+    return (len(violations) == 0), violations
+
+
+class PrivacyCompliance:
+    """Privacy-framework evidence validators (GDPR/CCPA/PIPEDA/LGPD/APPI)."""
+
+    def validate_gdpr(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("GDPR", data, {
+            "lawful_basis": "a lawful basis for processing must be recorded",
+            "privacy_notice_provided": "privacy notice must be provided to data subjects",
+            "data_subject_rights_process": "a data-subject rights process (access/erasure) must exist",
+        })
+
+    def validate_ccpa(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("CCPA", data, {
+            "consumer_rights_notice": "consumer rights notice required",
+            "opt_out_mechanism": "a do-not-sell/share opt-out mechanism is required",
+            "privacy_policy_current": "privacy policy must disclose data practices",
+        })
+
+    def validate_pipeda(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("PIPEDA", data, {
+            "consent_obtained": "meaningful consent required",
+            "privacy_officer_assigned": "a privacy officer must be designated",
+            "access_procedures": "individual access procedures required",
+        })
+
+    def validate_lgpd(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("LGPD", data, {
+            "lawful_basis": "a lawful basis for processing must be recorded",
+            "dpo_assigned": "a data protection officer (encarregado) must be designated",
+            "privacy_notice_provided": "privacy notice must be provided to data subjects",
+        })
+
+    def validate_appi(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("APPI", data, {
+            "purpose_of_use_specified": "purpose of use must be specified",
+            "privacy_policy_published": "privacy policy must be published",
+            "security_controls_documented": "security control measures must be documented",
+        })
+
+
+class GovernanceStandardsCompliance:
+    """Evidence validators for the remaining financial, federal, security,
+    labor, civil-rights, and misc frameworks not covered by the family
+    classes (see module docstring for scope and limits)."""
+
+    # -- financial leftovers --
+    def validate_glba(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("GLBA", data, {
+            "information_security_program": "a written information security program is required (Safeguards Rule)",
+            "customer_notice_provided": "privacy notice to customers required",
+            "access_controls_documented": "access controls for customer information required",
+        })
+
+    def validate_dodd_frank(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("Dodd-Frank", data, {
+            "compliance_program_documented": "a compliance program must be documented",
+            "regulatory_reporting_procedures": "regulatory reporting procedures required",
+        })
+
+    def validate_bsa_aml(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("BSA/AML", data, {
+            "aml_program_documented": "a BSA/AML compliance program is required",
+            "kyc_procedures": "customer identification (KYC) procedures required",
+            "suspicious_activity_monitoring": "transaction monitoring for suspicious activity required",
+        })
+
+    def validate_sec_reg(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("SEC", data, {
+            "disclosure_controls": "disclosure controls and procedures required",
+            "filings_current": "required filings must be current",
+        })
+
+    # -- healthcare leftover --
+    def validate_fda_21_cfr_11(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("FDA 21 CFR Part 11", data, {
+            "audit_trail_enabled": "secure audit trails required for electronic records",
+            "electronic_signatures_validated": "electronic signature controls must be validated",
+            "record_retention_policy": "a record retention policy is required",
+        })
+
+    # -- telecom leftovers --
+    def validate_can_spam(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("CAN-SPAM", data, {
+            "sender_identified": "sender must be accurately identified",
+            "opt_out_mechanism": "a working opt-out mechanism is required",
+            "physical_address_included": "a valid physical postal address is required",
+        })
+
+    def validate_calea(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("CALEA", data, {
+            "lawful_intercept_capability_documented": "lawful intercept capability must be documented",
+            "privacy_safeguards_documented": "privacy safeguards for intercept data required",
+        })
+
+    # -- labor leftovers --
+    def validate_osha(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("OSHA", data, {
+            "safety_program_documented": "a workplace safety program is required",
+            "hazard_assessment_completed": "a hazard assessment must be completed",
+            "incident_log_maintained": "injury/illness records must be maintained",
+        })
+
+    def validate_eeoc(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("EEOC", data, {
+            "nondiscrimination_policy": "an EEO/nondiscrimination policy is required",
+            "complaint_process_documented": "a discrimination complaint process must be documented",
+        })
+
+    def validate_fmla(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("FMLA", data, {
+            "leave_policy_documented": "FMLA leave policy must be documented",
+            "eligibility_notices_provided": "eligibility notices must be provided to employees",
+        })
+
+    # -- civil rights leftover --
+    def validate_wcag(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("WCAG", data, {
+            "accessibility_audit_completed": "an accessibility audit against WCAG criteria is required",
+            "wcag_conformance_level": "target WCAG conformance level must be recorded",
+        })
+
+    # -- security / industry standards --
+    def validate_soc2(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("SOC 2", data, {
+            "access_controls_documented": "logical access controls must be documented (CC6)",
+            "change_management_process": "change management process required (CC7)",
+            "system_monitoring_enabled": "system monitoring required (CC7)",
+            "incident_response_plan": "incident response procedures required",
+        })
+
+    def validate_iso_27001(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("ISO 27001", data, {
+            "isms_scope_defined": "ISMS scope must be defined",
+            "risk_assessment_completed": "information security risk assessment required",
+            "access_control_policy": "an access control policy is required",
+        })
+
+    def validate_iso_27017(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("ISO 27017", data, {
+            "cloud_controls_documented": "cloud security controls must be documented",
+            "shared_responsibility_defined": "shared responsibility model must be defined",
+        })
+
+    def validate_iso_27018(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("ISO 27018", data, {
+            "pii_processor_controls": "PII protection controls for public cloud required",
+            "data_subject_consent": "consent for PII processing must be recorded",
+        })
+
+    def validate_owasp(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("OWASP", data, {
+            "input_validation_enabled": "input validation required (OWASP ASVS)",
+            "output_encoding_enabled": "output encoding required (OWASP ASVS)",
+            "security_headers_enabled": "security headers must be enabled",
+        })
+
+    def validate_cobit(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("COBIT", data, {
+            "governance_framework_documented": "an IT governance framework must be documented",
+            "risk_register_maintained": "a risk register must be maintained",
+        })
+
+    def validate_itil(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("ITIL", data, {
+            "incident_process_defined": "an incident management process must be defined",
+            "change_records_maintained": "change records must be maintained",
+        })
+
+    # -- federal --
+    def validate_nist_800_53(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("NIST SP 800-53", data, {
+            "security_controls_implemented": "NIST SP 800-53 controls must be implemented",
+            "continuous_monitoring": "a continuous monitoring strategy is required",
+        })
+
+    def validate_fisma(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("FISMA", data, {
+            "system_categorization": "FIPS 199 system categorization required",
+            "security_plan_documented": "a system security plan is required",
+            "authorization_to_operate": "an authorization to operate (ATO) is required",
+        })
+
+    def validate_ftc_act(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("FTC Act", data, {
+            "truthful_disclosures": "disclosures must be truthful and substantiated",
+        }, prohibited=("deceptive_practices",))
+
+    def validate_omb_m_25_04(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("OMB M-25-04", data, {
+            "identity_mfa_enforced": "phishing-resistant MFA required (zero trust)",
+            "device_trust_verified": "device trust must be verified",
+            "least_privilege_enforced": "least-privilege access must be enforced",
+        })
+
+    def validate_ferc(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("FERC", data, {
+            "reliability_standards_documented": "reliability standards compliance must be documented",
+            "cip_controls_documented": "CIP cybersecurity controls required",
+        })
+
+    # -- education / children / IP / controls --
+    def validate_ferpa(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("FERPA", data, {
+            "student_consent_for_disclosure": "consent required before disclosing education records",
+            "records_access_controls": "access controls for education records required",
+        }, prohibited=("unauthorized_disclosure",))
+
+    def validate_coppa(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("COPPA", data, {
+            "parental_consent_obtained": "verifiable parental consent required",
+            "child_data_minimized": "children's data collection must be minimized",
+        }, prohibited=("behavioral_advertising_to_children",))
+
+    def validate_dmca(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("DMCA", data, {
+            "designated_agent_registered": "a designated copyright agent must be registered",
+            "takedown_process_documented": "a notice-and-takedown process must be documented",
+        })
+
+    def validate_coso(self, data: Dict[str, Any]) -> Tuple[bool, List[str]]:
+        return _evidence_check("COSO", data, {
+            "internal_controls_documented": "internal control framework must be documented",
+            "control_environment_assessed": "the control environment must be assessed",
+        })
+
+
 class UnifiedComplianceFramework:
     """
     Unified Compliance Orchestrator for Mythara Engine
@@ -984,6 +1238,8 @@ class UnifiedComplianceFramework:
         self.telecom = TelecommunicationsCompliance()
         self.labor = LaborEmploymentCompliance()
         self.civil_rights = CivilRightsAccessibilityCompliance()
+        self.privacy = PrivacyCompliance()
+        self.standards = GovernanceStandardsCompliance()
 
         self.audit_logs: List[ComplianceAuditLog] = []
 
@@ -1037,6 +1293,7 @@ class UnifiedComplianceFramework:
                 "audit_log_id": None,
                 "integrity_hash": None,
                 "error": "AUTHENTICATION_REQUIRED",
+                "message": "Authentication required - user_id must be a non-empty string",
             }
 
         # SECURITY FIX #2: Sanitize user_id to prevent SQL injection
@@ -1054,6 +1311,7 @@ class UnifiedComplianceFramework:
                 "audit_log_id": None,
                 "integrity_hash": None,
                 "error": "INVALID_INPUT",
+                "message": "Input validation failed",
             }
 
         # SECURITY FIX #3: Check for account lockout (brute force protection)
@@ -1076,6 +1334,7 @@ class UnifiedComplianceFramework:
                     "audit_log_id": None,
                     "integrity_hash": None,
                     "error": "ACCOUNT_LOCKED",
+                    "message": "Account locked due to too many failed attempts",
                     "user_id": user_id,
                 }
             else:
@@ -1099,6 +1358,7 @@ class UnifiedComplianceFramework:
                 "audit_log_id": None,
                 "integrity_hash": None,
                 "error": "RATE_LIMIT_EXCEEDED",
+                "message": "Rate limit exceeded",
                 "user_id": user_id,
             }
 
@@ -1113,7 +1373,17 @@ class UnifiedComplianceFramework:
         }
 
         for framework in frameworks:
-            is_compliant, violations = self._validate_framework(framework, data)
+            try:
+                is_compliant, violations = self._validate_framework(framework, data)
+            except Exception as e:
+                # A crashing validator must fail closed, never crash the
+                # whole validation or silently pass (found 2026-10-19:
+                # FLSA raised KeyError on missing hourly_rate).
+                logger.error(f"Validator error for {framework.value}: {e}")
+                is_compliant = False
+                violations = [
+                    f"{framework.value}: validator error ({type(e).__name__}: {e})"
+                ]
 
             results["framework_results"][framework.value] = {
                 "compliant": is_compliant,
@@ -1153,50 +1423,75 @@ class UnifiedComplianceFramework:
     def _validate_framework(
         self, framework: ComplianceFramework, data: Dict[str, Any]
     ) -> Tuple[bool, List[str]]:
-        """Route validation to appropriate compliance module"""
+        """Route validation to the appropriate compliance module.
 
-        # Financial frameworks
-        if framework == ComplianceFramework.PCI_DSS:
-            return self.financial.validate_pci_dss_transaction(data)
-        elif framework == ComplianceFramework.FINRA:
-            return self.financial.validate_finra_communication(data)
-        elif framework == ComplianceFramework.SOX:
-            return self.financial.validate_sox_controls(data)
-
-        # Healthcare frameworks
-        elif framework == ComplianceFramework.HIPAA:
-            return self.healthcare.validate_hipaa_phi_protection(data)
-        elif framework == ComplianceFramework.HITECH:
-            return self.healthcare.validate_hitech_ehr_security(data)
-
-        # Telecom frameworks
-        elif framework == ComplianceFramework.FCC_TCPA:
-            return self.telecom.validate_tcpa_consent(data)
-        elif framework == ComplianceFramework.FCC_CPNI:
-            return self.telecom.validate_cpni_protection(data)
-
-        # Labor frameworks
-        elif framework == ComplianceFramework.NLRA:
-            return self.labor.validate_nlra_rights(data)
-        elif framework == ComplianceFramework.FLSA:
-            return self.labor.validate_flsa_compliance(data)
-        elif framework == ComplianceFramework.UNION_COMPLIANCE:
-            return self.labor.validate_union_contract(data)
-
-        # Civil rights frameworks
-        elif framework == ComplianceFramework.ACLU_STANDARDS:
-            return self.civil_rights.validate_aclu_standards(data)
-        elif framework == ComplianceFramework.ADA:
-            return self.civil_rights.validate_ada_accessibility(data)
-        elif framework == ComplianceFramework.SECTION_508:
-            return self.civil_rights.validate_section_508(data)
-
-        # Default for frameworks not yet implemented
-        else:
-            logger.warning(
-                f"Framework {framework.value} validation not yet implemented"
-            )
-            return True, []
+        All 45 frameworks have a validator. Anything unrouted fails
+        closed — an unimplemented check must never report compliant.
+        """
+        F = ComplianceFramework
+        routes = {
+            # financial
+            F.PCI_DSS: self.financial.validate_pci_dss_transaction,
+            F.FINRA: self.financial.validate_finra_communication,
+            F.SOX: self.financial.validate_sox_controls,
+            F.GLBA: self.standards.validate_glba,
+            F.DODD_FRANK: self.standards.validate_dodd_frank,
+            F.BSA_AML: self.standards.validate_bsa_aml,
+            F.SEC_REG: self.standards.validate_sec_reg,
+            # healthcare
+            F.HIPAA: self.healthcare.validate_hipaa_phi_protection,
+            F.HITECH: self.healthcare.validate_hitech_ehr_security,
+            F.FDA_21_CFR_11: self.standards.validate_fda_21_cfr_11,
+            # telecommunications
+            F.FCC_TCPA: self.telecom.validate_tcpa_consent,
+            F.FCC_CPNI: self.telecom.validate_cpni_protection,
+            F.CAN_SPAM: self.standards.validate_can_spam,
+            F.CALEA: self.standards.validate_calea,
+            # federal
+            F.FISMA: self.standards.validate_fisma,
+            F.NIST_800_53: self.standards.validate_nist_800_53,
+            F.FTC_ACT: self.standards.validate_ftc_act,
+            F.OMB_M_25_04: self.standards.validate_omb_m_25_04,
+            F.FERC: self.standards.validate_ferc,
+            # privacy
+            F.GDPR: self.privacy.validate_gdpr,
+            F.CCPA: self.privacy.validate_ccpa,
+            F.PIPEDA: self.privacy.validate_pipeda,
+            F.LGPD: self.privacy.validate_lgpd,
+            F.APPI: self.privacy.validate_appi,
+            # industry standards
+            F.SOC_2: self.standards.validate_soc2,
+            F.ISO_27001: self.standards.validate_iso_27001,
+            F.ISO_27017: self.standards.validate_iso_27017,
+            F.ISO_27018: self.standards.validate_iso_27018,
+            F.OWASP: self.standards.validate_owasp,
+            F.COBIT: self.standards.validate_cobit,
+            F.ITIL: self.standards.validate_itil,
+            # labor & employment
+            F.NLRA: self.labor.validate_nlra_rights,
+            F.FLSA: self.labor.validate_flsa_compliance,
+            F.OSHA: self.standards.validate_osha,
+            F.EEOC: self.standards.validate_eeoc,
+            F.FMLA: self.standards.validate_fmla,
+            F.UNION_COMPLIANCE: self.labor.validate_union_contract,
+            # civil rights & accessibility
+            F.ACLU_STANDARDS: self.civil_rights.validate_aclu_standards,
+            F.ADA: self.civil_rights.validate_ada_accessibility,
+            F.SECTION_508: self.civil_rights.validate_section_508,
+            F.WCAG: self.standards.validate_wcag,
+            # education / children / IP / controls
+            F.FERPA: self.standards.validate_ferpa,
+            F.COPPA: self.standards.validate_coppa,
+            F.DMCA: self.standards.validate_dmca,
+            F.COSO: self.standards.validate_coso,
+        }
+        handler = routes.get(framework)
+        if handler is None:
+            logger.error(f"No validator implemented for {framework.value}")
+            return False, [
+                f"{framework.value}: no validator implemented — failing closed"
+            ]
+        return handler(data)
 
     def _log_compliance_audit(
         self, frameworks: List[ComplianceFramework], results: Dict[str, Any]
@@ -1295,6 +1590,21 @@ class UnifiedComplianceFramework:
         else:
             # Rate limit exceeded
             return False
+
+    def get_audit_logs(
+        self, user_id: Optional[str] = None
+    ) -> List[Dict[str, Any]]:
+        """Return audit log entries as dicts, optionally filtered by user."""
+        logs = self.audit_logs
+        if user_id is not None:
+            logs = [log for log in logs if log.user_id == user_id]
+        out = []
+        for log in logs:
+            entry = asdict(log)
+            entry["framework"] = log.framework.value
+            entry["status"] = log.status.value
+            out.append(entry)
+        return out
 
     def generate_compliance_report(self) -> Dict[str, Any]:
         """Generate comprehensive compliance status report"""

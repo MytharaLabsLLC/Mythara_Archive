@@ -1322,6 +1322,68 @@ async def health(request: Request):
     }
 
 
+# ---------------------------------------------------------------------------
+# Bot registration — the AI-team bots POST {orchestrator}/register on startup
+# (grant writer, researcher, accounting VP, SBGA, Sigma Six). This route was
+# missing, so every bot registration failed with 404. The registry is
+# in-memory: it records who checked in during this run, nothing more.
+# ---------------------------------------------------------------------------
+_registered_bots: Dict[str, Dict[str, Any]] = {}
+
+
+@app.post("/register")
+async def register_bot(payload: Dict[str, Any]):
+    """Register an AI-team bot with the orchestrator."""
+    vp_name = str(payload.get("vp_name") or "unknown")
+    _registered_bots[vp_name] = {
+        "vp_name": vp_name,
+        "capabilities": payload.get("capabilities") or [],
+        "status": payload.get("status") or "active",
+        "registered_at": datetime.utcnow().isoformat() + "Z",
+    }
+    return {"status": "registered", "vp_name": vp_name}
+
+
+@app.get("/v1/orchestrator/bots")
+async def list_registered_bots():
+    """Bots that have registered with this orchestrator since startup."""
+    return {"bots": list(_registered_bots.values()), "count": len(_registered_bots)}
+
+
+@app.post("/register_bot")
+async def register_bot_with_token(payload: Dict[str, Any]):
+    """Token-authenticated registration (Sigma Six protocol).
+
+    The bot sends {vp_token, bot_id, bot_name} and expects a bot_token
+    back. If the server has VP_MASTER_TOKEN configured, the vp_token must
+    match it; with no server token configured, registration is accepted
+    unauthenticated (development mode) and the response says so.
+    """
+    server_token = os.getenv("VP_MASTER_TOKEN")
+    authenticated = True
+    if server_token:
+        if payload.get("vp_token") != server_token:
+            raise HTTPException(status_code=401, detail="Invalid vp_token")
+    else:
+        authenticated = False
+    bot_name = str(payload.get("bot_name") or payload.get("bot_id") or "unknown")
+    bot_token = secrets.token_hex(16)
+    _registered_bots[bot_name] = {
+        "vp_name": bot_name,
+        "bot_id": payload.get("bot_id"),
+        "capabilities": [],
+        "status": "active",
+        "authenticated": authenticated,
+        "registered_at": datetime.utcnow().isoformat() + "Z",
+    }
+    return {
+        "status": "registered",
+        "bot_id": payload.get("bot_id"),
+        "bot_token": bot_token,
+        "authenticated": authenticated,
+    }
+
+
 @app.get("/terms")
 async def terms_page(request: Request):
     """Redirect to static terms page"""
@@ -2825,16 +2887,23 @@ async def validate_compliance(
     ```
     """
     try:
-        # Convert framework strings to enums
+        # Convert framework strings to enums. Accept the enum name
+        # ("PCI_DSS") or the enum value ("pci_dss", as in the docstring
+        # example). The original code uppercased the input and looked it
+        # up by value, which matched nothing — the endpoint rejected
+        # every framework.
         framework_enums = []
         for fw_str in req.frameworks:
             try:
-                framework_enums.append(ComplianceFramework(fw_str.upper()))
-            except ValueError:
-                raise HTTPException(
-                    status_code=400,
-                    detail=f"Unsupported compliance framework: {fw_str}",
-                )
+                framework_enums.append(ComplianceFramework[fw_str.upper()])
+            except KeyError:
+                try:
+                    framework_enums.append(ComplianceFramework(fw_str.lower()))
+                except ValueError:
+                    raise HTTPException(
+                        status_code=400,
+                        detail=f"Unsupported compliance framework: {fw_str}",
+                    )
 
         # Validate compliance
         results = unified_compliance.validate_multi_framework_compliance(

@@ -57,7 +57,9 @@ class MytharaSBGABot:
     def __init__(self, db_path: str = "mythara_sbga.db"):
         self.db_path = db_path
         self.conn = sqlite3.connect(db_path)
-        self.orchestrator_url = "http://localhost:5000"
+        self.orchestrator_url = os.getenv(
+            "MYTHARA_ORCHESTRATOR_URL", "http://localhost:5000"
+        )
         # Grants.gov XML Extract (publicly accessible)
         self.grants_gov_xml = "https://www.grants.gov/xml-extract.html"
         self.grants_gov_search = "https://www.grants.gov/search-grants"

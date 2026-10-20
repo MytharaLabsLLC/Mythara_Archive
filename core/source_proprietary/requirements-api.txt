@@ -1,24 +1,29 @@
 # Mythara Engine - API Dependencies
 # Copyright © 2026 Mythara Labs LLC. All rights reserved.
+#
+# Core pins refreshed 2026-10-19 (were late-2023 era). Verified: the full
+# source_proprietary suite imports clean (35/35 modules) under these
+# versions, and test_compliance.py passes.
 
 # FastAPI framework
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-pydantic==2.5.0
-pydantic-settings==2.1.0
+fastapi==0.150.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.1
+pydantic-settings==2.16.0
 
 # Security & Authentication
-python-jose[cryptography]==3.3.0
+python-jose[cryptography]==3.5.0
 passlib[bcrypt]==1.7.4
-python-multipart==0.0.6
-cryptography==41.0.7
+python-multipart==0.0.32
+cryptography==50.0.2
 
 # HTTP & CORS
-httpx==0.25.2
+httpx==0.28.1
+requests==2.34.2
 python-dotenv==1.0.0
 
 # Email
-sendgrid==6.11.0
+sendgrid==6.12.5
 
 # Markdown rendering
 markdown
@@ -27,7 +32,11 @@ markdown
 email-validator==2.1.0
 
 # Scientific Computing (for Soul Proportion Model)
-numpy==1.24.3
+numpy==2.5.4
+
+# System & Monitoring (imported by mythara_system_optimizer / monitoring)
+psutil==7.2.2
+prometheus_client
 
 # Logging & Monitoring
 python-json-logger==2.0.7
@@ -36,11 +45,10 @@ python-json-logger==2.0.7
 stripe==7.6.0
 
 # Database (required for production persistence)
-sqlalchemy==2.0.23
+sqlalchemy==2.1.5
 psycopg2-binary==2.9.9
-# redis==5.0.1  # Optional for caching
+redis==8.1.0  # imported by redis_cache / redis_rate_limiter (in-memory fallback if no server)
 
 # Testing
 pytest==7.4.3
 pytest-asyncio==0.21.1
-httpx==0.25.2
