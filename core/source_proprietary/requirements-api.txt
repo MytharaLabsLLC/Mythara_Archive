@@ -9,7 +9,7 @@
 fastapi==0.150.0
 uvicorn[standard]==0.54.0
 pydantic==2.14.1
-pydantic-settings==2.16.0
+pydantic-settings==2.15.0
 
 # Security & Authentication
 python-jose[cryptography]==3.5.0
@@ -32,7 +32,7 @@ markdown
 email-validator==2.1.0
 
 # Scientific Computing (for Soul Proportion Model)
-numpy==2.5.4
+numpy==2.2.6
 
 # System & Monitoring (imported by mythara_system_optimizer / monitoring)
 psutil==7.2.2
@@ -45,7 +45,7 @@ python-json-logger==2.0.7
 stripe==7.6.0
 
 # Database (required for production persistence)
-sqlalchemy==2.1.5
+sqlalchemy==2.0.55
 psycopg2-binary==2.9.9
 redis==8.1.0  # imported by redis_cache / redis_rate_limiter (in-memory fallback if no server)
 
