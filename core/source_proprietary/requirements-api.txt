@@ -20,7 +20,7 @@ cryptography==50.0.2
 # HTTP & CORS
 httpx==0.28.1
 requests==2.34.2
-python-dotenv==1.0.0
+python-dotenv==1.2.2
 
 # Email
 sendgrid==6.12.5
