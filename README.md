@@ -13,7 +13,7 @@
 The engine work archived here grew into a live project:
 
 - **Mythara** — a YouTube AI news show ([@mytharashow](https://www.youtube.com/@mytharashow)): *Mythara Squares*, the flagship daily news episode with an eight-panelist AI cast; plus the *Mythara Markets* trading desk and the *Mythara Oracle* horoscope desk.
-- **Mythara News Network** — the daily AI-written news briefing: [herbievelezjr.github.io/Mythara-Blog](https://herbievelezjr.github.io/Mythara-Blog/)
+- **Mythara News Network** — the daily AI-written news briefing: [mytharalabsllc.github.io/Mythara-Blog](https://mytharalabsllc.github.io/Mythara-Blog/)
 - **GitHub:** [github.com/herbievelezjr](https://github.com/herbievelezjr)
 
 The eight witnesses in `soul_cradle/assessors.py` are both the SoulCradle's evidence-fed assessors and the show's panel: they read the news, argue about what matters, and their disagreements are preserved, not averaged away.
